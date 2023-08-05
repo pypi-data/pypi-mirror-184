@@ -1,0 +1,2 @@
+[nbdev]
+datacompy_report = datacompy_report._modidx:d

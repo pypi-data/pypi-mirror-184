@@ -1,0 +1,10 @@
+fastcore
+pandas
+datacompy
+xlsxwriter
+
+[dev]
+fastcore
+pandas
+datacompy
+xlsxwriter
