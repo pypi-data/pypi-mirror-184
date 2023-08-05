@@ -1,0 +1,13 @@
+tiktoken.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+tiktoken-0.1.2.dist-info/RECORD,,
+tiktoken-0.1.2.dist-info/METADATA,sha256=NU1GszKBiaDQukxCiRRpjRPC0N8t96qZGr1_PWsymp4,198
+tiktoken-0.1.2.dist-info/top_level.txt,sha256=54G5MceQnuD7EXvp7jzGxDDapA1iOwsh77jhCN9WKkc,22
+tiktoken-0.1.2.dist-info/LICENSE,sha256=QYy0mbQ2Eo1lPXmUEzOlQ3t74uqSE9zC8E0V1dLFHYY,1078
+tiktoken-0.1.2.dist-info/WHEEL,sha256=lb6q83cSSjN97qvFUVTL3e2aOZEde7r_eqCDzXmlUgA,111
+tiktoken_ext/openai_public.py,sha256=_ZmVyi0RnzUfUvzErFLpLqJ56dTQnY1ZgA-JCnl-m-c,2367
+tiktoken/__init__.py,sha256=S2mrRLnkRrBCv7v79mwjADhB1C14laGCzHeX_Oel83A,155
+tiktoken/core.py,sha256=ZJn_KP3JSRYyV-BdQzklrUUD1o7U_-pAiMML5Ue-Hsk,11622
+tiktoken/_tiktoken.cpython-38-x86_64-linux-gnu.so,sha256=p1dPJ6bYswobBvUsLqTRdvJoxXk2s3GF-BkLgFF4Ec0,6248945
+tiktoken/registry.py,sha256=urGm3u0ZQlv63daO3GKt45wPpZzzMQpNZXhRgun3wU4,2549
+tiktoken/load.py,sha256=suTXRxEBgqJHbEp5wjRTyAL0u3wY-t0_SQCUDCqwM9o,3680
+tiktoken/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
