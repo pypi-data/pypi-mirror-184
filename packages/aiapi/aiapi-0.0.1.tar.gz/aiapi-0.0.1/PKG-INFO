@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aiapi
+Version: 0.0.1
+Summary: aiapi 官方sdk包
+Home-page: http://aiapi.pro
+Author: aiapi@admin
+Author-email: j0hn.wahahaha@gmail.com
+License: UNKNOWN
+Description: aiapi.pro 官方SDK包
+        
+        使用方式
+        在http://aiapi.pro注册一个账户拿到一个Token后
+        
+        from aiapi import request_api
+        
+        authorization = "您的Token"
+        api_name = "api名称"
+        api_action = "api动作名称"
+        api_params = "参数"
+        request_api(authorization, api_name, api_action, api_params)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
