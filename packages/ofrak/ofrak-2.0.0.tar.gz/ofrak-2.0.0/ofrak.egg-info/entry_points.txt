@@ -1,0 +1,2 @@
+[ofrak.packages]
+ofrak_pkg = ofrak
