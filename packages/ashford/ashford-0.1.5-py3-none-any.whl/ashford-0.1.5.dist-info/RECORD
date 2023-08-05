@@ -1,0 +1,11 @@
+ashford/__init__.py,sha256=G0m5-4Caidj_qzoZYt-vNTrIdajZInH89Dls9jFN7QM,2389
+ashford/base.py,sha256=a63wRa0Fpwvm6oUwzmlQiO-sX19nM9cJ-7KRi3V_dqQ,3206
+ashford/core.py,sha256=JWx-gpz3Fp6yR7kHBEZTM1Dp0CAaCIPJbjXRW72gVvg,12310
+ashford/foundry.py,sha256=8DhDqhkqiL4or8fieyw_qkV7cgoodvxsMg-Ivx7alz0,17236
+ashford/registry.py,sha256=nOCg-xuIesLDg-YcQes_NsSfAsO4NHl2b7LSIsN9Z8Y,12880
+ashford/unified.py,sha256=karlndc1iypCKk8Bg3DwUS7Hs0XeAmQRe2AiOu0WgW8,10709
+ashford/validate.py,sha256=y2pIng83yuWiYrbaH8MfZlkn3OE7EGw1CReTtEjKFAQ,2258
+ashford-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ashford-0.1.5.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+ashford-0.1.5.dist-info/METADATA,sha256=XHgS4Ns1NI3q-UstcCRhTotxkGclGsnonFQKS3ZE65w,4135
+ashford-0.1.5.dist-info/RECORD,,
