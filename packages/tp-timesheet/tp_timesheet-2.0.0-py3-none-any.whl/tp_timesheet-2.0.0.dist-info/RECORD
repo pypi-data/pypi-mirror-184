@@ -1,0 +1,12 @@
+tp_timesheet/__init__.py,sha256=7PO03zKv_ovkw-7q53T6DLishlhJ1246Qgu7PX0hO_o,170
+tp_timesheet/__main__.py,sha256=ZEKBzd9QgEqixYi8IMENc6cEV1JNrPpTCznQqDrcxX4,5389
+tp_timesheet/clockify_timesheet.py,sha256=6g5o7vS3rOZWa3Fk2c-RKPf8Jpou2rcYIHTFcqvLwMw,7653
+tp_timesheet/config.py,sha256=osrjOarcZK12wttOfOmRIdhEWLW6shnBcSrgVq3i6Q8,5913
+tp_timesheet/date_utils.py,sha256=VIfBo1vYakqGQFFTkUXoRXa3ZxxU8cuQoRui5VoFuro,3334
+tp_timesheet/schedule.py,sha256=hMZDc9IrFQsqqRqtiod7wyzaWPx8qWboWpNzuYaTOZI,2864
+tp_timesheet-2.0.0.dist-info/LICENSE,sha256=oqgwKZQKxsVdOPQYezOsMP23_9p1xqsJKpbnAT4KKqE,1068
+tp_timesheet-2.0.0.dist-info/METADATA,sha256=JVBd5gT-zUh94V3pex3YgzAY-TD4VvW3yX7E4Izh9As,3421
+tp_timesheet-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tp_timesheet-2.0.0.dist-info/entry_points.txt,sha256=hpXyHbxuNJv68Bgx9d9JRUFyRx9f2BThawetoztcvGM,55
+tp_timesheet-2.0.0.dist-info/top_level.txt,sha256=l-q2T6M6QCK5avMKcORzEN3hCpo0WMJTeKBVy3J2uGY,13
+tp_timesheet-2.0.0.dist-info/RECORD,,
