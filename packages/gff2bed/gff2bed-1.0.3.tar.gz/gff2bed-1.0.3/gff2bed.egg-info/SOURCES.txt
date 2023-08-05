@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gff2bed/__init__.py
+gff2bed/gff2bed.py
+gff2bed/version.py
+gff2bed.egg-info/PKG-INFO
+gff2bed.egg-info/SOURCES.txt
+gff2bed.egg-info/dependency_links.txt
+gff2bed.egg-info/top_level.txt
+test/test_convert.py
+test/test_parse.py
