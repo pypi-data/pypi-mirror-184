@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+perun.connector.egg-info/PKG-INFO
+perun.connector.egg-info/SOURCES.txt
+perun.connector.egg-info/dependency_links.txt
+perun.connector.egg-info/requires.txt
+perun.connector.egg-info/top_level.txt
+tests/__init__.py
+tests/test_adapters_manager.py
+tests/test_ldap_adapter.py
+tests/test_ldap_connector.py
+tests/test_rpc_adapter.py
