@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "DroidRpc"
+version = "1.4.4"
+description = "Python client for connecting to LORA Technologies' bot services."
+authors = ["LORA-Technologies"]
+readme = "README.md"
+packages = [{include = "DroidRpc", from= "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.2"
+grpcio = "^1.51.1"
+grpcio-tools = "^1.51.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
