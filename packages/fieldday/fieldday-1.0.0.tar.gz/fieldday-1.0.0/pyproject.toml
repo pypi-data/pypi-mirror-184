@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=54.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fieldday"
+version = "1.0.0"
+authors = [
+  { name="J. M. Fife", email="jmfife@gmail.com" },
+]
+description = "package for managing lists of fields for IoT"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'pint >= 1.17',
+]

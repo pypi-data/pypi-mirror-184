@@ -1,0 +1,51 @@
+# FieldDay
+Package for helping to manage groups of data fields, the kind that may be passed around an IoT system.
+
+[FieldDay](https://github.com/jmfife/fieldday) offers the possibility of coding and decoding named fields as groups.
+For example, if a list of json values is obtained from an IoT device, those fields
+can easily be renamed, decoded, recoded, labeled with descriptions, and 
+converted to different units.
+
+## Installation
+
+To install directly from GitHub:
+```
+python3 -m pip install "git+https://github.com/jmfife/fieldday.git#egg=fieldday[qty]"
+```
+
+If you have cloned or forked the repo already to your local directory and want to use it in live (editable mode):
+```
+python3 -m pip install -e ".[qty]"
+```
+Note in both cases above, the dependencies needed to use the pint-based data types (with built-in units) 
+are also installed.
+
+## Quickstart
+
+Install the package from GitHub:
+```
+python3 -m pip install "git+https://github.com/jmfife/fieldday.git#egg=fieldday[qty]"
+```
+
+Example of loading a JSON payload with certain fields and field types expected, then taking advantage of the
+extra dependency `qty` (see setup.py which associates `qty` with the `Pint` package under the hood) 
+and converting the units on one of the fields from mV to V:
+```
+>>> import fieldday
+>>> fieldtypes = {'V': (fieldday.FieldQty, {'desc': 'Battery voltage'}),
+...               'L': (fieldday.FieldStr, {'desc': 'Load state'})}
+>>> fieldset = fieldday.FieldSet('{"V": "12800 mV", "LOAD": "ON"}', field_types=fieldtypes)
+>>> fieldset
+{'V': FieldQty('12800 millivolt', 'Battery voltage', '', ''), 'LOAD': 'ON'}
+>>> print(fieldset)
+V: Battery voltage: 12800 millivolt
+LOAD: ON
+>>> fieldset.modify_fields({"V": lambda x: x.convert("V")})
+>>> fieldset
+{'V': FieldQty('12.8 volt', 'Battery voltage', '', ''), 'LOAD': 'ON'}
+>>> print(fieldset)
+V: Battery voltage: 12.8 volt
+LOAD: ON
+>>> fieldset.encode()
+'{"V": "12.8 volt", "LOAD": "ON"}'
+ ```

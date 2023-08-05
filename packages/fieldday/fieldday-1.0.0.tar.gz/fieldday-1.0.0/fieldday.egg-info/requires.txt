@@ -1,0 +1,4 @@
+pint>=1.17
+
+[qty]
+pint
