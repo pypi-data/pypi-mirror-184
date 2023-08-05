@@ -1,0 +1,4 @@
+include namedtuple_from_dict/requirements.txt
+include namedtuple_from_dict/thirdparty.json
+include namedtuple_from_dict/README.MD
+include namedtuple_from_dict/LICENSE
