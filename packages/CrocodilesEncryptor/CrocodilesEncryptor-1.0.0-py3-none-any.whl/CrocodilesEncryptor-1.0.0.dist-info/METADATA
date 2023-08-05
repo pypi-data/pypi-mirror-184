@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: CrocodilesEncryptor
+Version: 1.0.0
+Summary: This repository contains a simple Python module for encrypting and decrypting files using a user-provided password. It includes methods for encrypting and decrypting both files and strings.
+Home-page: https://github.com/BlackSnowDot/CrocodilesEncryptor
+Author: BlackSnowDot
+Author-email: 
+License: MIT
+License-File: LICENSE
+
