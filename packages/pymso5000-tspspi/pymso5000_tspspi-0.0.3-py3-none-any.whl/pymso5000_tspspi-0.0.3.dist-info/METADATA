@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pymso5000-tspspi
+Version: 0.0.3
+Summary: Rigol MSO5000 control library (unofficial)
+Home-page: https://github.com/tspspi/pymso5000
+Author: Thomas Spielauer
+Author-email: pypipackages01@tspi.at
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: pylabdevs-tspspi (>=0.0.5)
+
+# Rigol MSO5xxx oscilloscope Python library (unofficial)
+
+A simple Python library and utility to control and query data from
+Rigol MSO5xxx oscilloscopes (not supporting all features of the oscilloscope,
+work in progress):
+
+## Simple example to fetch waveforms:
+
+```
+from pymso5000.mso5000 import MSO5000
+
+with MSO5000(address = "10.0.0.123") as mso:
+		print(f"Identify: {mso.identify()}")
+
+		mso._set_channel_enable(1, True)
+		mso._set_channel_enable(2, True)
+
+		data = mso._query_waveform((1, 2))
+		print(data)
+
+		import matplotlib.pyplot as plt
+		plt.plot(data['x'], data['y1'], label = "Ch1")
+		plt.plot(data['x'], data['y2'], label = "Ch2")
+		plt.show()
+```
