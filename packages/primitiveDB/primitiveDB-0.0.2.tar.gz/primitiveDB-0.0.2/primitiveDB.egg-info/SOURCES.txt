@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+primitiveDB/__init__.py
+primitiveDB.egg-info/PKG-INFO
+primitiveDB.egg-info/SOURCES.txt
+primitiveDB.egg-info/dependency_links.txt
+primitiveDB.egg-info/requires.txt
+primitiveDB.egg-info/top_level.txt
+primitiveDB/client/Client.py
+primitiveDB/client/__init__.py
+primitiveDB/server/Server.py
+primitiveDB/server/__init__.py
