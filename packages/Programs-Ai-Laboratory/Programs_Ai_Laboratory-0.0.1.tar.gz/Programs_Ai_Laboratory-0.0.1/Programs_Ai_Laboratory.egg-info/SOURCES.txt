@@ -1,0 +1,7 @@
+LICENCE.txt
+README.txt
+setup.py
+Programs_Ai_Laboratory.egg-info/PKG-INFO
+Programs_Ai_Laboratory.egg-info/SOURCES.txt
+Programs_Ai_Laboratory.egg-info/dependency_links.txt
+Programs_Ai_Laboratory.egg-info/top_level.txt
