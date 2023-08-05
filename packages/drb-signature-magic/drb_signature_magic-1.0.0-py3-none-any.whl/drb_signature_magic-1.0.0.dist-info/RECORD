@@ -1,0 +1,10 @@
+drb/signatures/magic/__init__.py,sha256=YfqB8lqYZQeclpm4_4BrfEk-SmFQdPOWcRigHqEZ6Hs,150
+drb/signatures/magic/_version.py,sha256=QlEsmUAXudhZeLOzasgeysROK98sVvAj4pGsW6vWwLM,497
+drb/signatures/magic/drb_signature_magic.py,sha256=lB21rb4nokEwO5LftEtsLHDsdUE0pZY1Rxb_EK8CRHM,3416
+drb/signatures/magic/execptions.py,sha256=OTqRKO9Lt5npJeZsA9QLnGuNz3O6qv19YBENpoAF6io,104
+drb_signature_magic-1.0.0.data/data/requirements.txt,sha256=Zst-wcEkTAUUM2UP782QZzSLio1Ny6-cOMa4rDuKWhM,11
+drb_signature_magic-1.0.0.dist-info/METADATA,sha256=B0HK5wS-XJwrTy2Lyz2J-LDJlaTlsyOb4oE-Xkesp7M,2884
+drb_signature_magic-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drb_signature_magic-1.0.0.dist-info/entry_points.txt,sha256=IqwrLCx78sVXrBO4SVdX8ysll7dsGGa8SJ-4nFE18UU,61
+drb_signature_magic-1.0.0.dist-info/top_level.txt,sha256=tp7x0jo6KHy7P4LzX36tRyB2qZR7OiCZCAQGzrq25E0,4
+drb_signature_magic-1.0.0.dist-info/RECORD,,
