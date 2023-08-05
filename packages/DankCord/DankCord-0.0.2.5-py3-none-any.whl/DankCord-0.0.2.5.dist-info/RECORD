@@ -1,0 +1,11 @@
+DankCord/DankCord.py,sha256=z8DNwE-wxxITLa_3eBgU7gBAa5XkXuzMAovbGsQtscw,7446
+DankCord/Objects.py,sha256=ATqj1dXnjVa_39pVaRcrHIJRPlGChiWvPkULmO4mdTI,13689
+DankCord/__init__.py,sha256=RplGjG7nN2qleHBuUHhWcjuSA_szVwg8vl_DWYiU9kM,78
+DankCord/api.py,sha256=JAvW1sSWnyKF5A8sJct6UEsNtgFaxfq53wdaSU5_Y4c,18115
+DankCord/core.py,sha256=YhGAiy0TZoD0e_ziOcMSgL2si5WXfMDa6nswuZkrA0Q,13953
+DankCord/exceptions.py,sha256=hB5Rs3uQYdrfrb0-nwpey-O_VXZRXaWLkCnv4loSk5A,362
+DankCord/gateway.py,sha256=yThDkOiknhqP4kvPPxRf-goiQ3eXSbnF00AizNmgNas,7622
+DankCord-0.0.2.5.dist-info/METADATA,sha256=KIWfmfZR6omXwCgQnTsw_gimOC0YsiGkWhbs5C9F0mg,2605
+DankCord-0.0.2.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+DankCord-0.0.2.5.dist-info/top_level.txt,sha256=1n1ErpCVhX47tBBSAWvFJx4Wnc_VJZKgqM4dtpC3jSs,9
+DankCord-0.0.2.5.dist-info/RECORD,,
