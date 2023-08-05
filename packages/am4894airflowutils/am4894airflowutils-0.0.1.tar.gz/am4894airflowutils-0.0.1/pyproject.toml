@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "am4894airflowutils"
+version = "0.0.1"
+authors = [
+  { name="andrewm4894", email="andrewm4894@gmail.com" },
+]
+description = "Airflow Utils"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/andrewm4894/am4894airflowutils"
+"Bug Tracker" = "https://github.com/andrewm4894/am4894airflowutils/issues"
