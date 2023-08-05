@@ -1,0 +1,8 @@
+Cython
+colorama
+pettingzoo[atari,classic]==1.22.3
+supersuit==3.7.1
+autorom[accept-rom-license]
+gymnasium
+numpy
+halo
