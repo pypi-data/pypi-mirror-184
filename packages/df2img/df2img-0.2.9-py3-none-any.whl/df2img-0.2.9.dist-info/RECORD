@@ -1,0 +1,11 @@
+CHANGELOG.md,sha256=KNzOBff1zwBkZo8tNc6A4X3YRswguPOxTRJtZECqZF0,5836
+CODE_OF_CONDUCT.md,sha256=UK_MAeWnv6JUUNXoYxihqdfosAHfDLaeAPy2Nb9htFc,3125
+CONTRIBUTING.md,sha256=oCV30mfG9M5zTGtL3pu6432k8eRIGyi4fFuuVHsGUu0,14658
+LICENSE,sha256=uOiyh4HPsDg4mUg70849OtpFsHYXMpZd66vYhXznzSo,1071
+df2img/__init__.py,sha256=0rmUggDr0Tvf0ivkTZwwyUIQcLvv228-ozmvRAQv6lc,193
+df2img/df2img.py,sha256=tnGB66qr9sC0WKGgprLWz015QyIvPJDF3pnfnyiqslw,7034
+df2img/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+df2img-0.2.9.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+df2img-0.2.9.dist-info/LICENSE,sha256=uOiyh4HPsDg4mUg70849OtpFsHYXMpZd66vYhXznzSo,1071
+df2img-0.2.9.dist-info/METADATA,sha256=UW3RBcXyZdsgzKZl3M8DrwzUtXTuBQiR9H63se7mWUo,6330
+df2img-0.2.9.dist-info/RECORD,,
