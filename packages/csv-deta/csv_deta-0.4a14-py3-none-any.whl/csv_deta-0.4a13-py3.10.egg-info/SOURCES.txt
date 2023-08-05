@@ -1,0 +1,13 @@
+LICENSE
+LICENSE.md
+README.pypi.md
+setup.py
+.venv/Lib/site-packages/docutils/examples.py
+.venv/Lib/site-packages/docutils/__pycache__/examples.cpython-310.pyc
+src/csv_deta.egg-info/PKG-INFO
+src/csv_deta.egg-info/SOURCES.txt
+src/csv_deta.egg-info/dependency_links.txt
+src/csv_deta.egg-info/entry_points.txt
+src/csv_deta.egg-info/not-zip-safe
+src/csv_deta.egg-info/requires.txt
+src/csv_deta.egg-info/top_level.txt

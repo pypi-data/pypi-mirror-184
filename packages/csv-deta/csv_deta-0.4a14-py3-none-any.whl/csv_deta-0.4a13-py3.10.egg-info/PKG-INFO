@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: csv-deta
+Version: 0.4a13
+Summary: A Lightweight tool to upload and download CSV data files into/from Deta Base
+Author: JL Connor
+License: Apache Software License 2.0
+Keywords: csv,database,deta,cli,detabase,upload,download
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Freeware
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: LICENSE.md
+
+
+
+.. image:: https://img.shields.io/tokei/lines/github/ablaternae/py-csv-deta
+   :target: https://img.shields.io/tokei/lines/github/ablaternae/py-csv-deta
+   :alt: Lines of code
+
+
+.. image:: https://badge.fury.io/py/csv-deta.svg
+   :target: https://badge.fury.io/py/csv-deta
+   :alt: PyPI version
+
+
+.. image:: https://img.shields.io/pypi/dm/csv-deta
+   :target: https://img.shields.io/pypi/dm/csv-deta
+   :alt: Downloads
+
+
+.. image:: https://pepy.tech/badge/csv-deta/week
+   :target: https://pepy.tech/project/csv-deta
+   :alt: Statistic
+
+
+.. image:: https://img.shields.io/github/license/ablaternae/py-csv-deta
+   :target: https://github.com/ablaternae/py-csv-deta/blob/trunk/LICENSE.md
+   :alt: GitHub
+
+
+Lightweight utility to upload\download CSV files data into\from Deta Base
+-------------------------------------------------------------------------
+
+
+* its fork of the `csvtodeta <https://pypi.org/project/csvtodeta/>`_ tool by `@Fredy Somy <https://github.com/fredysomy/CsvToDeta>`_
+* improvements:
+
+  * more options
+  * downloads data (not implements yet)
+  * upload about twice as fast (\ `docs <https://docs.deta.sh/docs/base/sdk#using>`_\ )
+
+install
+^^^^^^^
+
+.. code-block:: bash
+
+   pip install -U csv-deta
+
+use
+^^^
+
+.. code-block:: bash
+
+   csv-deta upload PATH_TO_CSV_FILE [--dbname DETA_DB_NAME] [--key DETA_PROJECT_KEY]
+
+by default ``DETA_DB_NAME`` param will be created from ``PATH_TO_CSV_FILE`` filename without ext, 
+and ``DETA_PROJECT_KEY`` -- from the same name's environment variable; 
+for other options see also ``csv-deta -h``
+
+todo
+^^^^
+
+
+* [ ] download data
+* [ ] async transfer
+* [ ] validate source csv (?)
+
+----
+
+enjoy, starring, and donate
