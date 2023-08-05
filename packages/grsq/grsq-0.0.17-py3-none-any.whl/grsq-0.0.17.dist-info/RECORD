@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=nRKPWsTbB025bJRfX6ZOZayBVXMs3HMdd_JXUPpjWnA,113
+tests/test_debye.py,sha256=G8tdb78f9tfSGCBT0UQni3GbVle77ucNaEePNUCjgEg,2180
+tests/test_grsq.py,sha256=ic8rttRwS2midUpLlnxJ2zwXCWW5wUIqA7PCQv_bk3I,6479
+grsq-0.0.17.dist-info/LICENSE,sha256=U8P-J9JvnYGrZzh3G2Ce_CHck-SSXKPk-iL6sDywKd8,1076
+grsq-0.0.17.dist-info/METADATA,sha256=nJG1NA9lgt7m4e5ty1YSWza8QpODgWbubQh4V2LBQRY,1208
+grsq-0.0.17.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+grsq-0.0.17.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+grsq-0.0.17.dist-info/RECORD,,
