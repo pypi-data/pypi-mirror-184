@@ -1,0 +1,6 @@
+purpose.py
+setup.py
+no_purpose_project.egg-info/PKG-INFO
+no_purpose_project.egg-info/SOURCES.txt
+no_purpose_project.egg-info/dependency_links.txt
+no_purpose_project.egg-info/top_level.txt
