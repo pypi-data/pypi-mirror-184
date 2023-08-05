@@ -1,0 +1,14 @@
+hs.admin.api-0.3-py3.10-nspkg.pth,sha256=zDlTP6lWZ0XQaNtxkxy-Ubh1nDPynCR7d08lUumKX1A,1634
+hs/admin/api/__init__.py,sha256=pfiqj5lwSr6kITLDF6SnWjRTinMY_5feaXalJgfXnio,61
+hs/admin/api/api.py,sha256=FlG48Uyq4E_d-dsZH0de7ZM0wd3Ajf4mfqfG3cpa0vA,1979
+hs/admin/api/dispatcher.py,sha256=pV9aba3Q2_d-1-ZE6gdIyw0pwg_lhVEW3Bqf-vrd25A,687
+hs/admin/api/exceptions.py,sha256=2j-zfPJBb0Ikkg9pDC7vWKvgEgVIFWfdnnI_dpSiZuc,303
+hs/admin/api/method.py,sha256=_H1_zxS-hMLnZXtrM8rpIRN199_XEu1kAB4NUtFesr0,633
+hs/admin/api/module.py,sha256=O51CPzhlAujqUhIhC_ZP31gjXLPy-cJ3ZOjvpYzk9DY,951
+hs/admin/api/proxy.py,sha256=8GpnLjrJHn-iyt7RnTr4ebzkiA-HsNrV0h8IKOr9N4o,1256
+hs/admin/api/session.py,sha256=tTTxBrAJet9FquxbJ6XwpBNznxe3_6c885BKLlKA6Q8,1197
+hs.admin.api-0.3.dist-info/METADATA,sha256=po2pxe3_xBYIwS7g4vtuu81uU6CpRaX-bomawGNK6bI,3766
+hs.admin.api-0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hs.admin.api-0.3.dist-info/namespace_packages.txt,sha256=Cei2eGcdVviuxI46lWha-ToZw5eZ88iJwwrVPaMMSVY,12
+hs.admin.api-0.3.dist-info/top_level.txt,sha256=rYuAwuttxJZqPCwjwZuS2qbHEGYta8g6JyN0YAnX6-Y,3
+hs.admin.api-0.3.dist-info/RECORD,,
