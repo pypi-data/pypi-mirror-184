@@ -1,0 +1,8 @@
+README.md
+setup.py
+ArcanePython.egg-info/PKG-INFO
+ArcanePython.egg-info/SOURCES.txt
+ArcanePython.egg-info/dependency_links.txt
+ArcanePython.egg-info/top_level.txt
+ArcanePythonModule/Vector.py
+ArcanePythonModule/__init__.py
