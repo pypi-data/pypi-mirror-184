@@ -1,0 +1,15 @@
+alive_progress
+black
+cython>=0.28.5
+dpcpp-cpp-rt
+icecream
+matplotlib
+numpy
+pandas
+pre-commit
+pytest
+pytest-cov
+scikit-learn==1.0.1
+scikit-learn-intelex>=2021.6.0
+scipy
+seaborn
