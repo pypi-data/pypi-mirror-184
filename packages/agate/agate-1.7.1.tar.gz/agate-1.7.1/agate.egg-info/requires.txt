@@ -1,0 +1,21 @@
+Babel>=2.0
+isodate>=0.5.4
+leather>=0.3.2
+parsedatetime!=2.5,>=2.1
+python-slugify>=1.2.1
+pytimeparse>=1.1.5
+
+[docs]
+Sphinx>=1.2.2
+sphinx_rtd_theme>=0.1.6
+
+[test]
+coverage>=3.7.1
+cssselect>=0.9.1
+lxml>=3.6.0
+pytest
+pytest-cov
+pytz>=2015.4
+
+[test:sys_platform == "linux"]
+PyICU>=2.4.2
