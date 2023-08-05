@@ -1,0 +1,10 @@
+recursive-include src *.ico *.js *.css *.png *.html *.eot *.svg *.ttf *.woff *.yml
+recursive-include src *.py
+recursive-include src/legal *.md
+include  LICENSE
+include README.md
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude tests *
+recursive-exclude documentation *
+recursive-exclude demo *
