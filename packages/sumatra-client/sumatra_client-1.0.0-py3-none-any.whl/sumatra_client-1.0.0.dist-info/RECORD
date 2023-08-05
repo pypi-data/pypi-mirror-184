@@ -1,0 +1,12 @@
+sumatra/__init__.py,sha256=1uabv3gPTOJyUu-dCP_cFf0Sb0byWMa11j7bEL97OhM,68
+sumatra/api.py,sha256=Iddjx9w5gcC8O877Byp04taVQY2JwcDZZhuc1idcY3E,1376
+sumatra/auth.py,sha256=cRFaTMWsfkz36TfLRiP0BqF8i9qQx8SzydnTmsIxxBs,7448
+sumatra/cli.py,sha256=dB807bF9cNBtDYebfitqGvsujOtMfgR8vam6CgdYijk,18816
+sumatra/client.py,sha256=eEMfSw4AR_D25x9_A2LyTgjUdJXGctxxSYHySTRrzKE,80406
+sumatra/config.py,sha256=AVzDQZvu8U13S2BN1HIvDU6dE_pTGHvTpeZPy-OTz7I,7867
+sumatra_client-1.0.0.dist-info/LICENSE,sha256=EEGNAyoNpErzMv4uT1juHhdSu_sP8Exe_ZF2lLuc71I,167
+sumatra_client-1.0.0.dist-info/METADATA,sha256=zKkOCY4IMcvEdE_UJc2pq9pAXYT1_9oHj4ozTqoX22g,759
+sumatra_client-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sumatra_client-1.0.0.dist-info/entry_points.txt,sha256=LnN7c91NkA02fNtHHkF3uH7av42leFoKQadlxSFhtgU,45
+sumatra_client-1.0.0.dist-info/top_level.txt,sha256=D2R0D_9xM4s0-D5MPx_JJjdnzQc8atE8fFIrmr6k-B8,8
+sumatra_client-1.0.0.dist-info/RECORD,,
