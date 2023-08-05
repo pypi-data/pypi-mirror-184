@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pysettings-manager"
+version = "0.1.1"
+readme = "README.md"
+description = "A python module for saving and loading settings"
+[project.urls]
+"Homepage" = "https://github.com/sryu1/pysettings-manager"
+"Bug Tracker" = "https://github.com/sryu1/pysettings-manager/issues"
