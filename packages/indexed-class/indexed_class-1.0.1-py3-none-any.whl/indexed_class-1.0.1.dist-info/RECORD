@@ -1,0 +1,12 @@
+indexed_class.py,sha256=sDztcA-hBimRTMfJSk4oaSlLmLOd9TdLoMoUZTw1gDg,3028
+setup.py,sha256=esMSfbD9IaE6YmP3HM54XT7Ve1xj3-O9WweXXOCGnug,4243
+tests/__init__.py,sha256=8AuasIar88QZWxuDj6ko06f6tJtQlVtDNx7sk6F_bbw,204
+tests/integration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_imports.py,sha256=GEksocHO8GelkcWXLzDpOqbyYzM4jgjbkEuSbiVVmMw,1459
+tests/unit/test_indexed_class.py,sha256=7qxFbr_Qzif_5r-K59inCRC-R9X9cvYgztCiY1lZr5A,5506
+indexed_class-1.0.1.dist-info/LICENSE.md,sha256=aPiHDDShEKuCz32-VWcn-ld2Yttr7d1lxBN9snkCQCI,491
+indexed_class-1.0.1.dist-info/METADATA,sha256=t0eW8jgrHLUdhzQYDAOHcpYfr9GGyYmr3R7lR2bU3xg,4310
+indexed_class-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+indexed_class-1.0.1.dist-info/top_level.txt,sha256=vRMS5CQn7chCLxiaVLBRWMB83Aaodn6dmCJIJVgVnIg,26
+indexed_class-1.0.1.dist-info/RECORD,,
