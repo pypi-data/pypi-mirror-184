@@ -1,0 +1,5 @@
+bit-field>=0.4.0
+Sphinx>=0.6
+
+[LaTeX]
+CairoSVG>=2.5.2
