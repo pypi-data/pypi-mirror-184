@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: pyglassdoor
+Version: 0.0.1
+Summary: A python API and Toolkit for Glassdoor.com.
+Home-page: https://github.com/hamid-vakilzadeh/pyGlassdoor
+Author: Hamid Vakilzadeh
+Author-email: vakilzas@uww.edu
+License: BSD-2-Clause
+Project-URL: Documentation, https://pyGlassdoor.readthedocs.io/
+Project-URL: Changelog, https://pyGlassdoor.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/hamid-vakilzadeh/pyGlassdoor/issues
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: requests (~=2.28.1)
+Requires-Dist: selenium (~=4.4.0)
+Requires-Dist: webdriver-manager (~=3.8.5)
+Requires-Dist: selenium-wire (~=5.1.0)
+
+========
+Overview
+========
+
+
+
+A python API for glassdoor.com
+
+* Free software: BSD 2-Clause License
+
+Installation
+============
+
+::
+
+    pip install pyglassdoor
+
+You can also install the in-development version with::
+
+    pip install https://github.com/hamid-vakilzadeh/pyglassdoor/archive/main.zip
+
+
+Documentation
+=============
+
+
+coming soon!
+
+
+
+Changelog
+=========
+
+0.0.1 (2022-12-30)
+------------------
+
+* First release on PyPI.
