@@ -1,0 +1,8 @@
+connectionist/__about__.py,sha256=zcqpvbEVinfcLvr3WcKyyAIVoFCzci9NwaDgLg_R-Xk,24
+connectionist/__init__.py,sha256=mWjvGbsrqTk0wV6Ey4MoIiTiTcgyM89uEWg3MAGCHhs,48
+connectionist/layers.py,sha256=O1NAuk1vrK6VnnY1FUjxEN_5OgFYZqykCx91MxG5y1U,16545
+connectionist/models.py,sha256=-GoXcALyn_MrdZoqdW7onU2veTdEdoOxSgC5jhcjeqM,549
+connectionist-0.1.0a5.dist-info/METADATA,sha256=uggxrynuhtK4_e2PSn6ELz5SGKMaFB16FdxYkncKoh8,357
+connectionist-0.1.0a5.dist-info/WHEEL,sha256=CpLq4ixe-Ip6ADY2f8yBxyQM3kjkWNpnMNmN3R4kxz8,105
+connectionist-0.1.0a5.dist-info/licenses/LICENSE,sha256=R-ZY3w-VtYcmF3-R20dmKnEf81xjTWxJbqjOG4Fo_r0,1065
+connectionist-0.1.0a5.dist-info/RECORD,,
