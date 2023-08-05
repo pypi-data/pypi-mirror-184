@@ -1,0 +1,13 @@
+LICENSE
+README.md
+requirements.txt
+setup.py
+HedgehogEncoder/HedgehogEncoder.py
+HedgehogEncoder/__init__.py
+HedgehogEncoder.egg-info/PKG-INFO
+HedgehogEncoder.egg-info/SOURCES.txt
+HedgehogEncoder.egg-info/dependency_links.txt
+HedgehogEncoder.egg-info/requires.txt
+HedgehogEncoder.egg-info/top_level.txt
+test/decode.py
+test/encode.py
