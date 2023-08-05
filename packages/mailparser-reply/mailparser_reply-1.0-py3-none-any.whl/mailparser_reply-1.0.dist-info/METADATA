@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mailparser-reply
+Version: 1.0
+Summary: eMail reply parser
+Home-page: https://github.com/alfonsrv/mailparser-reply
+Author: Alfons Rau
+Author-email: alfonsrv@pm.me
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
