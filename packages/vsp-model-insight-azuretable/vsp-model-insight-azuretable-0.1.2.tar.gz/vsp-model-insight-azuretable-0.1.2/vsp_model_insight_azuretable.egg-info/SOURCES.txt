@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+vsp_model_insight/__init__.py
+vsp_model_insight/azuretable/__init__.py
+vsp_model_insight/common/__init__.py
+vsp_model_insight/common/protocol.py
+vsp_model_insight/common/schedule.py
+vsp_model_insight_azuretable.egg-info/PKG-INFO
+vsp_model_insight_azuretable.egg-info/SOURCES.txt
+vsp_model_insight_azuretable.egg-info/dependency_links.txt
+vsp_model_insight_azuretable.egg-info/namespace_packages.txt
+vsp_model_insight_azuretable.egg-info/not-zip-safe
+vsp_model_insight_azuretable.egg-info/requires.txt
+vsp_model_insight_azuretable.egg-info/top_level.txt
