@@ -1,0 +1,4 @@
+scipy>=1.7.3
+pandas>=1.5.2
+SQLAlchemy>=1.4.46
+julia==0.6.0

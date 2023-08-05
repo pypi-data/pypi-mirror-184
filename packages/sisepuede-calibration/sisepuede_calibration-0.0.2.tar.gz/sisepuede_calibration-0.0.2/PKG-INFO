@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sisepuede_calibration
+Version: 0.0.2
+Summary: SISEPUEDE model calibration
+Home-page: https://github.com/milocortes/sisepuede_calibration.git
+Author: Hermilo Cortés
+Author-email: hermilocg@tec.com
+License: UNKNOWN
+Description: # sisepuede_calibration
+        pip module for SISEPUEDE model calibration.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
