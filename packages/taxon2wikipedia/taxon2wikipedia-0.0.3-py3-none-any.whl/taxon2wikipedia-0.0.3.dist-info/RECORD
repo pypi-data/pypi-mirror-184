@@ -1,0 +1,14 @@
+taxon2wikipedia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taxon2wikipedia/cleanup.py,sha256=t6VLfgfy8g6Kx1VgwaOVDVmtJBQH9uen07pl2QtrZwc,3518
+taxon2wikipedia/cli.py,sha256=sW6WTjSIPPxgHCmB7C_PXXZEOyYRX8rBz-5Bxc-7UjQ,264
+taxon2wikipedia/create_taxon.py,sha256=DPiYPIGI0vdif3NsIpEzDbcC423Js5EhEmQXcb8D8Cg,1125
+taxon2wikipedia/helper.py,sha256=I2BD29-kJZQ2YPdaXRQfOlIpqHIDLHURTbiBXmcgbBo,8057
+taxon2wikipedia/process_reflora.py,sha256=Aw1IyFdo_xvIoAjAX_e6sJdp55XGJFQxc6kTuKk23Fg,8800
+taxon2wikipedia/render_page.py,sha256=fBtWQhj2pbNRBDoPQEv4ZJKSbMy923bIW8A_FgevsVQ,9067
+taxon2wikipedia/test.py,sha256=molElhZCNXywZsU78yPFhA4lkWnNY9xFBG72uCLOjy0,166
+taxon2wikipedia-0.0.3.dist-info/LICENSE,sha256=ObPPd8Mu853VsDntAILwvSsLgZTWQ5YuJQ2vqFvGgx8,1070
+taxon2wikipedia-0.0.3.dist-info/METADATA,sha256=gw6vDJxUGJ_WGPYr1XqnNki9biun9dzLKol9wWAvoEU,1035
+taxon2wikipedia-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+taxon2wikipedia-0.0.3.dist-info/entry_points.txt,sha256=bLkpCofcMfFMfPxay6rQ-DxV2qkPL_ihnvZ8qEe5O-c,60
+taxon2wikipedia-0.0.3.dist-info/top_level.txt,sha256=hGOFg56v_1xn-SjBm2WJOAf2SDfhQrgoSepxD71dMWg,16
+taxon2wikipedia-0.0.3.dist-info/RECORD,,
