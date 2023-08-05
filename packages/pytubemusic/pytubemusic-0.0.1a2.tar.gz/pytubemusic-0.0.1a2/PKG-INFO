@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: pytubemusic
+Version: 0.0.1a2
+Summary: A cli that may or may not download albums from a certain website
+License: MIT License
+        
+        Copyright (c) 2023 James Finnie-Ansley
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: repository, https://github.com/James-Ansley/pytubemusic
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyTubeMusic
+
+A cli that may or may not download albums from a certain website.
+
+> PyTubeMusic is in alpha. Features are limited and significant API changes are
+> expected
+
+## Install
+
+```
+pip install pytubemusic
+```
+
+Requires [ffmpeg](https://ffmpeg.org/) to be installed on your machine.
+
+## Usage
+
+PyTubeMusic can download tracks in three formats:
+
+- Tracks (Single files)
+- Albums (A single video that is split up into individual tracks on an album)
+- Playlists (Videos in a playlist that are downloaded as tracks on an album)
+
+Each type of track needs a different configuration file that includes metadata.
+These are described below.
+
+### Tracks
+
+Track toml files have the following format:
+
+```toml
+url = "..."  # URL to video
+
+start = ...  # start time in seconds (optional)
+end = ...  # end time in seconds (optional)
+
+[metadata]
+track = "..."  # Track Name (required)
+# Any other FFMPEG MP3 metadata tags
+```
+
+### Albums
+
+```toml
+# album_data.toml
+url = "..."  # URL here
+
+# Track data – a list of tables
+# Each track needs a start time and an optional end time
+# If an end time is not used the next track start time or the end of the video 
+#     will be used
+# The metadata "title" tag is required
+tracks = [
+    { start = "00:00", metadata = { title = "..." } },
+    { start = "24:00", end = "...", metadata = { title = "..." } },
+]
+
+[metadata]
+album = "..."  # Album name (required)
+# Any other FFMPEG MP3 metadata tags
+```
+
+### Playlists
+
+```toml
+url = "..."  # URL to playlist
+
+[metadata]
+album = "..."  # Album name (required)
+# Any other FFMPEG MP3 metadata tags
+```
+
+### CLI
+
+A `pytubemusic` command will be exposed.
+
+This has three commands: `album`, `track`, `playlist`.
+Each command corresponds to one of the file types mentioned above.
+
+The commands all take the path to a config TOML file and an optional `-o`
+or `--out` option pointing to a directory to write the resulting tracks too.
+(Note: albums and playlists are put into their own directory with the album
+name).
+
+For example:
+
+```
+pytubemusic album myConfig.toml -o exports
+```
