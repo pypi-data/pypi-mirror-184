@@ -1,0 +1,10 @@
+clarify/__init__.py,sha256=RW3Iqrj9FyEN2eGH0dQZetcdwFIggunzL1kgx6BJ7M0,99
+clarify/jurisdiction.py,sha256=6NzIPFAi9LSOOJqjQ3S0GhXGe9mo0hObyc7ytPne3n0,13377
+clarify/parser.py,sha256=m0PqwoFR_r_SRXt5pnAZvI0Q9lvDamSQl5pwBj54gn0,18489
+clarify/version.py,sha256=s8Yq9Om1yBxrMA7xYQ5Y13Paeuxnq99NxhyjuPlnH6A,22
+Clarify-0.5.1.dist-info/AUTHORS.rst,sha256=QL6x7OSKpD1ggjV9H73AuchJMMqZzHp3M1BO8G32UYg,208
+Clarify-0.5.1.dist-info/LICENSE.txt,sha256=Yf6do5ygc4OdkcuL9wzqvyw_KSLuYv7l3viBMjMdrlo,1070
+Clarify-0.5.1.dist-info/METADATA,sha256=j2OLjJFB7ivNbJPiCkLxpCAyRKalBNF78pBttYXYhsM,10311
+Clarify-0.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Clarify-0.5.1.dist-info/top_level.txt,sha256=v-GEZb2LDUXcSuSBVMsaSWXMxppSUvXRO1mZcKFPE0c,8
+Clarify-0.5.1.dist-info/RECORD,,
