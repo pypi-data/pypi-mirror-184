@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+osses/__init__.py
+osses/os.py
+osses.egg-info/PKG-INFO
+osses.egg-info/SOURCES.txt
+osses.egg-info/dependency_links.txt
+osses.egg-info/top_level.txt
