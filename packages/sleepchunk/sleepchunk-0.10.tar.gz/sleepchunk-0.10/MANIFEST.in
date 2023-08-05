@@ -1,0 +1,4 @@
+include sleepchunk/requirements.txt
+include sleepchunk/thirdparty.json
+include sleepchunk/README.MD
+include sleepchunk/LICENSE

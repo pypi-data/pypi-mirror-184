@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+sleepchunk/LICENSE
+sleepchunk/README.MD
+sleepchunk/__init__.py
+sleepchunk/requirements.txt
+sleepchunk/thirdparty.json
+sleepchunk.egg-info/PKG-INFO
+sleepchunk.egg-info/SOURCES.txt
+sleepchunk.egg-info/dependency_links.txt
+sleepchunk.egg-info/top_level.txt
