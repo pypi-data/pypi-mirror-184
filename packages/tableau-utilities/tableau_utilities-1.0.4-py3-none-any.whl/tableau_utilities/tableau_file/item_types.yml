@@ -1,0 +1,42 @@
+
+column:
+  tag: column
+  xpath:
+    - ./column/..
+
+folder:
+  tag: folder
+  xpath:
+    - ./folders-common
+    - ./folder/..
+    - .//folder/..
+
+connection:
+  tag: named-connection
+  xpath:
+    - ./connection/named-connections
+
+relation:
+  tag: relation
+  xpath:
+    - ./connection
+
+datasource_metadata:
+  tag: metadata-record
+  xpath:
+    - ./connection/metadata-records
+
+extract_metadata:
+  tag: metadata-record
+  xpath:
+    - ./extract/connection/metadata-records
+
+datasource_mapping_cols:
+  tag: map
+  xpath:
+    - ./connection/cols
+
+extract_mapping_cols:
+  tag: map
+  xpath:
+    - ./extract/connection/cols
