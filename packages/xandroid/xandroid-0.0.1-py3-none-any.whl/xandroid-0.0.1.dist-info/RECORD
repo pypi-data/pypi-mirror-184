@@ -1,0 +1,12 @@
+xandroid/__init__.py,sha256=HenPWgB1A4mc5DvtVH5TBfe5pj8EgKCnJxcsHZ2ss4A,1951
+xandroid/xmlparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xandroid/xmlparser/axmlparser.py,sha256=ORhWImE-4-yJygj7_JSNNHR7HAXy09wzYcn3lh-SFz8,8361
+xandroid/xmlparser/axmlprinter.py,sha256=5qClhQlh1SYT3dFtiR0SkYu_YBDLlIVUW3DYcyC5eBQ,4378
+xandroid/xmlparser/bytecode.py,sha256=aBQZ0Z5433gIGSinrX6r-0uN9lObf_oSYYokgKKBNvU,9973
+xandroid/xmlparser/stringblock.py,sha256=6uhE7N2RkPhlAIl10R4a7PeuklH0L0lV3OutBFDYpRI,3249
+xandroid/xmlparser/typeconstants.py,sha256=wNVMR29pHOGsWJl7Y7KqjrFuCQ-o4xUUpFEJnSCDnik,2288
+xandroid-0.0.1.dist-info/LICENSE.txt,sha256=FxtjQV26vvObELD-YVeIXcWG2VxErEz2iVlTnDpybFg,1074
+xandroid-0.0.1.dist-info/METADATA,sha256=cySSjK-i-kMFs5YRazYg7dzIwiN719nezKlT6wtX-SY,386
+xandroid-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xandroid-0.0.1.dist-info/top_level.txt,sha256=lRtOMH_ZfTQ4-8DuyL6n2sowrPis6RI_72m4f9q1gYI,9
+xandroid-0.0.1.dist-info/RECORD,,
