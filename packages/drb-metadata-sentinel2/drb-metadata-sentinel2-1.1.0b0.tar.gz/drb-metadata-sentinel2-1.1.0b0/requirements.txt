@@ -1,0 +1,5 @@
+drb-topic-sentinel2~=1.1.0
+drb-metadata~=1.1.0
+drb-driver-tar~=1.1.0
+drb-driver-xml~=1.1.0
+drb-xquery~=1.1.0
