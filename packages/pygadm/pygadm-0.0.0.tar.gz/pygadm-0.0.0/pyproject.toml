@@ -1,0 +1,103 @@
+[build-system]
+requires = ["setuptools>=61.2", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygadm"
+version = "0.0.0"
+description = "Easy access to administrative boundary defined by GADM from Python scripts"
+keywords = ["Python"]
+classifiers = [
+    "Development Status :: 1 - Planning", 
+    "Intended Audience :: Developers", 
+    "License :: OSI Approved :: MIT License", 
+    "Programming Language :: Python :: 3.7", 
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+requires-python = ">=3.7.10"
+dependencies = [
+    "Deprecated",
+    "geopandas",
+    "pyarrow",
+]
+
+[[project.authors]]
+name = "Pierrick Rambaud"
+email = "pierrick.rambaud49@gmail.com"
+
+[project.license]
+text = "MIT"
+
+[project.readme]
+file = "README.rst"
+content-type = "text/x-rst"
+
+[project.urls]
+Homepage = "https://github.com/12rambau/pygadm"
+Download = "https://github.com/12rambau/pygadm/archive/${metadata:version}.tar.gz"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit", 
+    "commitizen",
+    "tqdm",
+    "mypy",
+]
+test = [
+    "pytest", 
+    "pytest-sugar", 
+    "pytest-icdiff", 
+    "pytest-cov", 
+    "Flake8-pyproject",
+    "nox"
+]
+doc = [
+    "pydata-sphinx-theme", 
+    "nox", 
+    "sphinx-copybutton",
+    "jupyter-sphinx",
+    "sphinx-autodoc-typehints",
+    "sphinx-design",
+    "ipyleaflet",
+    "geemap",
+    "sphinx-favicon",
+]
+
+[option.entry_points]
+refresh_database = "pygadm.bin.refresh_database:main"
+
+[tool.setuptools]
+include-package-data = true
+packages = ["pygadm"]
+license-files = ["LICENSE"]
+
+[tool.setuptools.package-data]
+pygadm = ["data/gadm_database.parquet"]
+
+[commitizen]
+changelog_file = "CHANGELOG.md"
+tag_format = "$major.$minor.$patch$prerelease"
+update_changelog_on_bump = true
+version = "0.0.0"
+version_files = ["pyproject.toml:version", "data/__init__.py:__version__"]
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+
+[tool.coverage.run]
+source = ["pygadm"]
+
+[tool.flake8]
+ignore = [
+    "E501", # line too long | Black take care of it
+    "W605", # line break before binary operator | Black take care of it
+    "W503", # invalid escape sequence | we escape specific characters for sphinx
+    "E203", # white space before : | Black is in charge
+]
+
+[tool.isort]
+profile = "black"
+skip_glob = ["**/.ipynb_checkpoints/*", "**__pycache__/*"]
+src_paths = "pygadm"
