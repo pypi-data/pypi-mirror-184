@@ -1,0 +1,14 @@
+test_transcribe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_transcribe/blob/__init__.py,sha256=0DVlHskuUTnGWzx8SowRe9LpL2pAcscmfwnx1oTmM08,31
+test_transcribe/blob/blob.py,sha256=d-kbF1mI8RMDgpMlajQnEayG8QCykkCHxO_of3E6ltc,1885
+test_transcribe/fixtures/__init__.py,sha256=R-Zmnt_UK2Mgd7q4JqF6pXvUpvA6yXfbV0zvEocQAvc,151
+test_transcribe/fixtures/azure_languages.py,sha256=Uh_uEWQlkQFdtP4JCT5IgY554z0AeaYLhnzaBVc_98s,6275
+test_transcribe/fixtures/azure_transcribe_states.py,sha256=nhn8R4rG1gGZcy-pE2QxclvF6hdLnlZ-qT5lKE74mSM,220
+test_transcribe/transcribe/__init__.py,sha256=qXFfIDzXEQQbABmex35LIqTrEVLLVfqpr2LJgqcktlM,41
+test_transcribe/transcribe/transcribe.py,sha256=0mgCetL9LU3nrlMRAQWJD-Z76vynVROqlKo8P9j-ls8,3862
+test_transcribe-6.1.dist-info/LICENSE,sha256=YyZfvq93MWYyX2mP7yoBqhSN2DX_6utkK6G54Pkp51k,11526
+test_transcribe-6.1.dist-info/METADATA,sha256=lvvzcL8v0yuoMP1te4kzd4rZnjf2WOQMmtXjIsRhl7w,1457
+test_transcribe-6.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+test_transcribe-6.1.dist-info/entry_points.txt,sha256=P7kAE_xFRzzKSE9SdHbbyWYuicZ_7bpzlK1SjaLjgS4,63
+test_transcribe-6.1.dist-info/top_level.txt,sha256=FCGc8IU7o2O--vz5Mfh5RqDCs1USFnrOh5hhSEh2z1Q,16
+test_transcribe-6.1.dist-info/RECORD,,
