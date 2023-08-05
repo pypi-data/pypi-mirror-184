@@ -1,0 +1,5 @@
+requests>=2.28.1
+imagekitio>=3.0.1
+
+[video]
+python-magic>=0.4.27
