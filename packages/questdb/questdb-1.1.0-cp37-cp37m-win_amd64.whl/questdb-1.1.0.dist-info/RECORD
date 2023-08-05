@@ -1,0 +1,16 @@
+questdb/__init__.py,sha256=Ac8pSTOc_HF2qITThJw8HjL8VCXLkpqcc5FZRFrnNlU,23
+questdb/arrow_c_data_interface.pxd,sha256=PFgfctg2pOe8uyS8BiMIUVSZBwNaOLcl3Teg945qZc0,1033
+questdb/dataframe.html,sha256=hWcXdkRQX6ItP2eKKmeej2YJ-RLQCQbItzY29yC4uGc,1037210
+questdb/extra_cpython.pxd,sha256=GkVRQVQSFCD1JmzhQKtdQ0F_hUvK-Ty5ZFiaFDC4kjc,2023
+questdb/ingress.c,sha256=2T_a3ymdnTTSH1ylXKoTVi82CMiQPUgpeM-UD9FlzvA,2030998
+questdb/ingress.cp37-win_amd64.pyd,sha256=IoEUuiAAe68RL_-l-H1ShhfScicznZshhuOOwI-CJIA,1580544
+questdb/ingress.html,sha256=mooh9Q6PRDwspWvXEP1aOzLccmGzhqfXBaF_5IfgbHs,697306
+questdb/ingress.pyx,sha256=4sHNHh4pMbGIPoxzUgr9S4GUh7ZRa9xe2KLaVizR8nE,63338
+questdb/ingress_helper.pxd,sha256=zobmWz8FLfgIPskBWBLpfZx79tUI-juO4zKowA4SlVs,85
+questdb/line_sender.pxd,sha256=eTG6uhvBudJuNX5XzjKGYFZaagfHJI98k-tavB2AM6o,7699
+questdb/pystr_to_utf8.pxd,sha256=CXvUo8CH22loxUysv5xBNkqS-m902j_LmXLpAt5Ti7Q,2337
+questdb-1.1.0.dist-info/LICENSE.txt,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+questdb-1.1.0.dist-info/METADATA,sha256=25MeNbZQXjFwDxvHxzKp_aMHqYsLEQAVYrcs4pZWNlY,3481
+questdb-1.1.0.dist-info/WHEEL,sha256=eaY3ejwL19QEEyHRYuTgC3FZQgNYBpzCION1l_gJUb8,101
+questdb-1.1.0.dist-info/top_level.txt,sha256=HGuEvKvrA6CsAGIzg_BbIUwsy_YWi87tzsCvqcX1ajs,8
+questdb-1.1.0.dist-info/RECORD,,
