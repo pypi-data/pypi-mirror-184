@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+CEApy.egg-info/PKG-INFO
+CEApy.egg-info/SOURCES.txt
+CEApy.egg-info/dependency_links.txt
+CEApy.egg-info/requires.txt
+CEApy.egg-info/top_level.txt
