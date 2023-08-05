@@ -1,0 +1,9 @@
+LICENSE
+setup.cfg
+setup.py
+wfdemo.egg-info/PKG-INFO
+wfdemo.egg-info/SOURCES.txt
+wfdemo.egg-info/dependency_links.txt
+wfdemo.egg-info/not-zip-safe
+wfdemo.egg-info/requires.txt
+wfdemo.egg-info/top_level.txt
