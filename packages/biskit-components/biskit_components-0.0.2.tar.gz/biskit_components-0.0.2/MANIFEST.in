@@ -1,0 +1,2 @@
+include biskit_components/_components/biskit_components.min.js
+include biskit_components/_components/metadata.json
