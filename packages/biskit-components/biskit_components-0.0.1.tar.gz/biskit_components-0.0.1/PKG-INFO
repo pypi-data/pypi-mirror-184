@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: biskit_components
+Version: 0.0.1
+Author: devsisters
+Author-email: web@devsisters.com
+Classifier: Framework :: Dash
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10, <4
+Provides-Extra: pandas
+License-File: LICENSE
