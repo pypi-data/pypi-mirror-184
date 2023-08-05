@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: finch-api
+Version: 0.0.1
+Summary: Client library for the Finch API
+Home-page: https://github.com/Finch-API/finch-api-python
+License: Apache-2.0
+Author: Finch
+Author-email: founders@tryfinch.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: anyio (>=3.5.0)
+Requires-Dist: distro (>=1.7.0)
+Requires-Dist: httpx (>=0.23.0)
+Requires-Dist: pydantic (>=1.9.0)
+Requires-Dist: typing-extensions (>=4.1.1)
+Project-URL: Repository, https://github.com/Finch-API/finch-api-python
+Description-Content-Type: text/markdown
+
+# Finch Python API Library
+
+Placeholder package for the Finch SDK.
+
+## Documentation
+
+The API documentation can be found [here](https://developer.tryfinch.com/).
+
