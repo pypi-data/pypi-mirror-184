@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: faker_mobile_bank_clickstream
+Version: 1.0.0
+Summary: Mobile Banking Clickstream Faker Provider for Python
+Home-page: https://github.com/manganganath/faker-mobile-bank-clickstream
+Download-URL: https://github.com/manganganath/faker-mobile-bank-clickstream
+Author: 
+Author-email: 
+License: Apache License, Version 2.0
+Keywords: clickstream,bank,mobile,app
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+License-File: LICENSE
