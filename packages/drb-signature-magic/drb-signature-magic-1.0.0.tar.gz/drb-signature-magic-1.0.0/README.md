@@ -1,0 +1,101 @@
+# Magic Signature
+This signature implementation allows to recognize a drb topic thanks to its magic field.
+The magic field is a fixed set of bytes in a data file to characterize its format. 
+For example PKzip files always starts with '\x50\x4b\x03\x04'.
+
+## Using this module
+To include this module into your project, the `drb-signature-magic` module
+shall be referenced into `requirements.txt` file, or the following pip line can
+be run:
+```commandline
+pip install drb-signature-magic
+```
+
+## Magic Signature definition
+
+The signature have a type, a pattern and eventually an offset.
+
+
+### Type
+
+Can be
+* bytes
+* string
+* hexa
+* regex
+
+### offset
+
+It is the offset to skip before test if the signature matches.
+By default, it is zero, that means that the tes ti made at beginning.
+
+### pattern
+
+After apply the offset on the stream of node.
+
+For a string or bytes type the pattern is a value to compare.
+
+For hexa, the pattern is converted to bytes, for example FF FE is converted to
+b'/xFFE/xFF'. And conversion, the behavior is the same that for bytes.
+
+For a regex the pattern is a string that matches with string if 255 max
+character read.
+
+
+## Examples
+
+For example to recognize PKzip that starts with '\x50\x4b\x03\x04'
+
+```
+id: 0225053d-4ea2-4046-bf97-af1dbac4e417
+label: Test signature hexa for pkzip
+category: FORMATTING
+factory: pkzip
+signatures:
+  - magic:
+      type: hexa
+      pattern: 50 4b 03 04
+      offset: 0
+```
+
+Same signature in bytes  'PK\x03\x04' (can be '\x50\x4b\x03\x04' also)
+
+```
+id: 0225053d-4ea2-4046-bf97-af1dbac4e417
+label: Test signature bytes for pkzip
+category: FORMATTING
+factory: pkzip
+signatures:
+  - magic:
+      type: bytes
+      pattern: 'PK\x03\x04'
+      offset: 0
+```
+
+For example to recognize LAS file sequence ^LAS are in position 0
+
+```
+id: c04f9327-3045-4fc0-93f8-b8dcd6626f64
+label: Test signature magic LAS
+category: FORMATTING
+factory: impl_x
+signatures:
+  - magic:
+      type: bytes
+      pattern: ^LAS
+```
+
+For example to recognize a file defined by sequence of 6 decimal are in
+position 25
+
+```
+id: c04f9327-3045-4fc0-93f8-b8dcd6626f64
+label: Test signature magic LAS
+category: FORMATTING
+factory: impl_x
+signatures:
+  - magic:
+      type: bytes
+      pattern: \d\d\d\d\d\d
+      offset: 25
+```

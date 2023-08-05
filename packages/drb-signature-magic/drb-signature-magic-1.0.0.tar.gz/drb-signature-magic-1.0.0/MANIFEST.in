@@ -1,0 +1,3 @@
+include versioneer.py
+include drb/signatures/magic/_version.py
+recursive-exclude tests *

@@ -1,0 +1,3 @@
+[drb.signature]
+magic = drb.signatures.magic:MagicSignature
+

@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+drb/signatures/magic/__init__.py
+drb/signatures/magic/_version.py
+drb/signatures/magic/drb_signature_magic.py
+drb/signatures/magic/execptions.py
+drb_signature_magic.egg-info/PKG-INFO
+drb_signature_magic.egg-info/SOURCES.txt
+drb_signature_magic.egg-info/dependency_links.txt
+drb_signature_magic.egg-info/entry_points.txt
+drb_signature_magic.egg-info/requires.txt
+drb_signature_magic.egg-info/top_level.txt
