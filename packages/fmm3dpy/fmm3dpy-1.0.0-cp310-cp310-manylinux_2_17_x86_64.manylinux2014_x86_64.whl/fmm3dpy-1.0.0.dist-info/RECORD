@@ -1,0 +1,13 @@
+fmm3dpy.libs/libgfortran-040039e1.so.5.0.0,sha256=FK-zEpsai1C8QKOwggx_EVLqm8EBIaqxUpQ_cFdHKIY,2686065
+fmm3dpy.libs/libquadmath-96973f99.so.0.0.0,sha256=k0wi3tDn0WnE1GeIdslgUa3z2UVF2pYvYLQWWbB12js,247609
+fmm3dpy.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+fmm3dpy/emfmm3d_fortran.cpython-310-x86_64-linux-gnu.so,sha256=bRqh6jjuyNDUjMkJA2ciBG3ZCgvNSFpYxkFH5NwklmE,4008801
+fmm3dpy/__init__.py,sha256=CDFXX2q93VCecBAD3h8vKXBCY39__BYFV2p0cMA2P7o,94
+fmm3dpy/fmm3d.py,sha256=OuKbpmurlc2b1aVIbj6_5LkPK4APv1WZ8aVjWQp8cTY,55886
+fmm3dpy/stfmm3d_fortran.cpython-310-x86_64-linux-gnu.so,sha256=kCluNaFoRCVDNulgGCJUfySnTFjCiqUWPbXRzv5IZBw,1575537
+fmm3dpy/hfmm3d_fortran.cpython-310-x86_64-linux-gnu.so,sha256=M8UQvAk0I43Q_ICdO7_E6_DrmuuT1WedZ74SCC4nh5s,4553545
+fmm3dpy/lfmm3d_fortran.cpython-310-x86_64-linux-gnu.so,sha256=GHxfzR5S1qjunyJHYd0YH_0n4h1To_sXQa4fSD26Jtg,2402881
+fmm3dpy-1.0.0.dist-info/RECORD,,
+fmm3dpy-1.0.0.dist-info/METADATA,sha256=PfJxwCK1VDx3fppf7grrjpAzGWH0l3UOPiD354WjKX0,1207
+fmm3dpy-1.0.0.dist-info/top_level.txt,sha256=oY6S5uBKxxYTrHWmje0dbdrwzmqbRd3B8ebuBTlAdUw,8
+fmm3dpy-1.0.0.dist-info/WHEEL,sha256=nKSwEH5fkxvG0Vdj1Hx7vbuU-SGQ9Nxl4yFFsCilvhs,152
