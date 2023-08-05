@@ -1,0 +1,36 @@
+[project]
+name = "b2-utils"
+version = "0.0.3"
+authors = [
+  { name="Felipe Sena", email="felipesena@b2bit.company" },
+]
+description = "A useful package provided by B2BIT"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/b2bit.felipesena/b2-utils"
+
+[tool.poetry]
+name = "b2-utils"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Sena <felipesena.m@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wheel = "^0.38.4"
+twine = "^4.0.2"
+tqdm = "^4.64.1"
+build = "^0.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
