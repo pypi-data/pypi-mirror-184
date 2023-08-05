@@ -1,0 +1,3 @@
+[console_scripts]
+ga-utils = ga_utils.main:main
+
