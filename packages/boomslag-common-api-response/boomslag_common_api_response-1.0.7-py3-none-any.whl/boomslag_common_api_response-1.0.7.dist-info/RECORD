@@ -1,0 +1,12 @@
+boomslag_api_response/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boomslag_api_response/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+boomslag_api_response/apps.py,sha256=iF3d55No8vGKTbWdPWFuzO5XNlmxfKi6ICI6FMsx3BQ,170
+boomslag_api_response/models.py,sha256=4OVMcDDx9fVgBEJ91B7dfMEG2Ni1LRSLJOKzIkVPsKo,60
+boomslag_api_response/serializers.py,sha256=7mIdU-AJYKrB14CO1rE0MPL8mcSX3JmDpS0fI9X9xq4,237
+boomslag_api_response/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+boomslag_api_response/views.py,sha256=GNz7CqrZixgTyhfa9qCbS_URcoLzHFGAPzTSy2AsvpI,685
+boomslag_common_api_response-1.0.7.dist-info/LICENSE,sha256=BaiCHcWBTbY7H4Ha_OxvtrEitF8lrUFjknxd4250rPI,1096
+boomslag_common_api_response-1.0.7.dist-info/METADATA,sha256=BokgrOgHIsm5WnoX9-G0IGy2Ml-vE-vVvz2G3_zsFHo,3168
+boomslag_common_api_response-1.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+boomslag_common_api_response-1.0.7.dist-info/top_level.txt,sha256=KbMiBMJTvuV8psowdMgf5Tut-dT07-DfE59ouzksOXI,22
+boomslag_common_api_response-1.0.7.dist-info/RECORD,,
