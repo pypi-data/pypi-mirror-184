@@ -1,0 +1,9 @@
+bs4
+requests
+check-if-nan
+flatten-any-dict-iterable-or-whatsoever
+flatten-everything
+numba
+windows-filepath
+pandas
+a-pandas-ex-horizontal-explode

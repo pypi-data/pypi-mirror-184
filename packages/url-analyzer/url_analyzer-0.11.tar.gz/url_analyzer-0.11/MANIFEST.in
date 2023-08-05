@@ -1,0 +1,4 @@
+include url_analyzer/requirements.txt
+include url_analyzer/thirdparty.json
+include url_analyzer/README.MD
+include url_analyzer/LICENSE
