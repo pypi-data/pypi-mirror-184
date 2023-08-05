@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+boomslag_common_api_response.egg-info/PKG-INFO
+boomslag_common_api_response.egg-info/SOURCES.txt
+boomslag_common_api_response.egg-info/dependency_links.txt
+boomslag_common_api_response.egg-info/top_level.txt
