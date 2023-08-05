@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: github_reserved_names
+Version: 0.1.0
+Project-URL: Homepage, https://github.com/Julian/github-reserved-names
+Project-URL: Issues, https://github.com/Julian/github-reserved-names/issues/
+Project-URL: Funding, https://github.com/sponsors/Julian
+Project-URL: Source, https://github.com/Julian/github-reserved-names
+Author: Julian Berman
+Author-email: Julian+github_reserved_names@GrayVines.com
+License: MIT
+License-File: COPYING
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/x-rst
+
+=========================
+``github-reserved-names``
+=========================
+
+|PyPI| |Pythons| |CI|
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/github-reserved-names.svg
+  :alt: PyPI version
+  :target: https://pypi.org/project/github-reserved-names/
+
+.. |Pythons| image:: https://img.shields.io/pypi/pyversions/github-reserved-names.svg
+  :alt: Supported Python versions
+  :target: https://pypi.org/project/github-reserved-names/
+
+.. |CI| image:: https://github.com/Julian/github-reserved-names/workflows/CI/badge.svg
+  :alt: Build status
+  :target: https://github.com/Julian/github-reserved-names/actions?query=workflow%3ACI
+
+A Python port of https://npm.im/github-reserved-names, i.e. a list of paths that GitHub uses which aren't real users.
+
+Essentially pulls in the data unchanged (so the license and contents are essentially those of the original author(s)).
