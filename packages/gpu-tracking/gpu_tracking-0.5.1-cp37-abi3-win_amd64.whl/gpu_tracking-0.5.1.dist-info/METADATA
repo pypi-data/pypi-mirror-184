@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: gpu_tracking
+Version: 0.5.1
+Requires-Dist: numpy>=1
+Requires-Dist: pandas>=1
+Requires-Dist: dash>=2.7
+Requires-Dist: matplotlib>=3.5
