@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<p>Connect the unit under test to the test box interface and press <em>verify</em>.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Device</th>
+            <th>Description</th>
+            <th colspan="1"></th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for task in tasks|sort(attribute="device") %}
+        <tr>
+            <td>{{ task.device }}</td>
+            <td>{{ task.description }}</td>
+            <td>
+                {% for action in (task.actions|fromjson) %}
+                <button onclick="taskAction('{{ url_for('run.action', task_id=task['task_id'], name=action) }}')">{{ action }}</button>
+                {% endfor %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
