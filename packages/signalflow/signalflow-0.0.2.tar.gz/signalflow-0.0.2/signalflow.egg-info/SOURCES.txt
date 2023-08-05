@@ -1,0 +1,5 @@
+setup.py
+signalflow.egg-info/PKG-INFO
+signalflow.egg-info/SOURCES.txt
+signalflow.egg-info/dependency_links.txt
+signalflow.egg-info/top_level.txt
