@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/destructfolder/destructfolder.py
+src/destructfolder/opencv_util.py
+src/destructfolder/path_util.py
+src/destructfolder.egg-info/PKG-INFO
+src/destructfolder.egg-info/SOURCES.txt
+src/destructfolder.egg-info/dependency_links.txt
+src/destructfolder.egg-info/requires.txt
+src/destructfolder.egg-info/top_level.txt
