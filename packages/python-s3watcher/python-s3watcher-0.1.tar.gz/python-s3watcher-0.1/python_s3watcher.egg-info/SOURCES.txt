@@ -1,0 +1,11 @@
+README.md
+setup.py
+python_s3watcher.egg-info/PKG-INFO
+python_s3watcher.egg-info/SOURCES.txt
+python_s3watcher.egg-info/dependency_links.txt
+python_s3watcher.egg-info/not-zip-safe
+python_s3watcher.egg-info/requires.txt
+python_s3watcher.egg-info/top_level.txt
+s3watcher/__init__.py
+s3watcher/s3_event.py
+s3watcher/s3_watcher.py
