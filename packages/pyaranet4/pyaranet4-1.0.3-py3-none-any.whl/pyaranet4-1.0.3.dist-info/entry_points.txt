@@ -1,0 +1,2 @@
+[console_scripts]
+pyaranet4 = pyaranet4.__main__:main
