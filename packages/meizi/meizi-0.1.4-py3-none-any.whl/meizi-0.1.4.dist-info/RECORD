@@ -1,0 +1,11 @@
+meizi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meizi/cli.py,sha256=5OpJNJOiaV8Jhz-jz7wSGziTqDkSMAWBi7Xd1Zw72HE,1083
+meizi/download.py,sha256=WVWjrzN18_WdvQJ29ghaOqJxqC8D_GjszMrQqV2-o6E,3158
+meizi/templates/base.html,sha256=aThaqm87nVzMKzMndGqM2LVhqL3EFh2XC19nUa1guD0,231
+meizi/templates/detail.html,sha256=0KMMFpq7o4nSz0CA5MG3OISXgGphcGj1kx9P4wo1GCw,126
+meizi/templates/list.html,sha256=jYIbhnWCFM-GmjF-ksbehcx5yTsrp8I1DZz6KuWxLho,236
+meizi/wsgi.py,sha256=FrpxO2tF4Ybn8XZ8JxX70iFbvHuW2ti5ssso6NYLQA4,1129
+meizi-0.1.4.dist-info/entry_points.txt,sha256=F1OJ5svqpjMJSPm289NsLSS9HvEE200ykw4-Wfvq8TQ,56
+meizi-0.1.4.dist-info/METADATA,sha256=xvrm_dk6-lfToIHf5swqdZucHwl31869jYZgjJFld98,1783
+meizi-0.1.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+meizi-0.1.4.dist-info/RECORD,,

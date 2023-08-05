@@ -1,0 +1,4 @@
+[console_scripts]
+meizi=meizi.cli:cli
+mz=meizi.cli:cli
+
