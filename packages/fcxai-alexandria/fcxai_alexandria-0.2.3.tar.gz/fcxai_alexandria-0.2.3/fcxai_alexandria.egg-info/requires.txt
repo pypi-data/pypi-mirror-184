@@ -1,0 +1,12 @@
+boto3
+google-analytics-data
+google-api-python-client
+joblib
+oauth2client
+pandas
+
+[dev]
+black
+ipython
+pre-commit
+pytest
