@@ -1,0 +1,11 @@
+faker_mobile_bank_clickstream/__init__.py,sha256=JpIyCghtt89fC2S25MelEc-4x4btTa0wziXtZh9kew4,44
+faker_mobile_bank_clickstream/clickstream.py,sha256=vpc0ehyYHYoT9PIddLKNEwYC1FOMHYmLutVgxnyoU3E,4985
+faker_mobile_bank_clickstream/event_constants.py,sha256=lXAi9qCh6FCo8205V8QN2rxM6XsggyjzCJwkMNgkJF4,2234
+faker_mobile_bank_clickstream/ip.py,sha256=9uX11tM9eBLt-ijkN--YniIP6DNQuPL41PpqgTA-Fi8,6441
+faker_mobile_bank_clickstream/user_agents.py,sha256=1df_Xy9Hip80D5yoGFv8bewbJDNtkhMj4jtQIBEQwug,117485
+faker_mobile_bank_clickstream-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+faker_mobile_bank_clickstream-0.0.1.dist-info/METADATA,sha256=vUdK0KmeVkw1eRG8QC5oh8ix-h4mFipLydvzLqFq-CE,812
+faker_mobile_bank_clickstream-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+faker_mobile_bank_clickstream-0.0.1.dist-info/top_level.txt,sha256=0z52T9qfVuaXVz82mmNoCgEtjrNh7APcLpWkPpvbb9A,30
+faker_mobile_bank_clickstream-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+faker_mobile_bank_clickstream-0.0.1.dist-info/RECORD,,
