@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "wheel",
+    "setuptools>=45",
+    "setuptools_scm[toml]>=6.2"
+]
+
+[tool.black]
+line-length = 140
+target-version = ['py37']
+skip-string-normalization = true
