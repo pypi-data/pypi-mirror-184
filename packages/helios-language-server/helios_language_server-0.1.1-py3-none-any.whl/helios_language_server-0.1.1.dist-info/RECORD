@@ -1,0 +1,12 @@
+helios_ls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helios_ls/completer.py,sha256=cEz0sXOUo6IMGG3JQ6MDiA1vQsatCdoVJ_rZARDiU5E,7080
+helios_ls/helios-language.so,sha256=DiUCFwHWrOD-kRthoLKjT24BqprwWWirnD_FpXXegSA,57968
+helios_ls/helios_types.py,sha256=Im6aIfmdk-765JkyKwUDBxOQHtSPZZ58Vq6JTDpdNyI,102119
+helios_ls/hlparser.py,sha256=TVRd2QfwL2U6krEHSKk3imyNyyb0XWNGUDsw9ZDXYUc,392
+helios_ls/namespace.py,sha256=K5bKm4lGOhsGpRN6j6LSw7ELMy_3w7VPYz-1mrkdGxU,33438
+helios_ls/server.py,sha256=3xKO7q0LelGbYFZHp8VMWaI2q8HZh-b1hDkDmGKDOJc,2121
+helios_language_server-0.1.1.dist-info/entry_points.txt,sha256=gCbyiSXq5mgsKLBUGD_AY9Wm9DwswuqJg3rXHDnAqzg,64
+helios_language_server-0.1.1.dist-info/LICENSE,sha256=VXf4erInLmMYCLWxiGOIO9NSPooAtY0Hb12qGiw1jBU,1059
+helios_language_server-0.1.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+helios_language_server-0.1.1.dist-info/METADATA,sha256=z7XxKbB_8ACPMP7_JdCvJGUpY8apNjEPHM3lRH5UA0g,549
+helios_language_server-0.1.1.dist-info/RECORD,,
