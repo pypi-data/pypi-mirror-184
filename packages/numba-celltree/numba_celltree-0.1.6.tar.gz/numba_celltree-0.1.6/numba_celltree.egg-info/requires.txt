@@ -1,0 +1,11 @@
+numba
+numpy
+
+[all]
+matplotlib
+
+[docs]
+matplotlib
+pydata-sphinx-theme
+sphinx
+sphinx-gallery
