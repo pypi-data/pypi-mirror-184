@@ -1,0 +1,11 @@
+commandflow/__init__.py,sha256=Y6I5173vatCu1bkStFEqCQZ7ZMXGNLTCwPdBN0uNYOI,122
+commandflow/action.py,sha256=1lLcLyL2Ph3WdH8eVsbkYwZmnjhwADpAzjLShmypND8,3848
+commandflow/command.py,sha256=fJ5jyZeW7T-P6KsULEfPGw__id-FzVbqjE9BJNPabpM,4262
+commandflow/preset/__init__.py,sha256=TpJDLNzOF1TP8uSMchAr_gIOah32CWZyYSOkEQYbH4Y,59
+commandflow/preset/base.py,sha256=R_F-YVJkwu_-Xzzl5ovIf0t4Ofjzd2bMkb5S5NWcSb0,158
+commandflow/preset/fastp/fastp.py,sha256=yDgCNnAoRJMNOrWgXolG9jTN_imOhYbFdVQIL2cOR1Q,3853
+commandflow/preset/fastp/README.md,sha256=s1kFdyejlXfdLP6FbdHQjWBg9e5qtN95KfVO235z7cY,12539
+commandflow/preset/wget/wget.py,sha256=Mc-T-1eM1R9Ksxa01D35XiayELJa7UEf6Ql5oPnotZE,988
+commandflow-0.1.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+commandflow-0.1.3.dist-info/METADATA,sha256=IHoK6NZA_UB0t7lz00rGJxxvljVs-TOT84-Q7_gPnE0,4396
+commandflow-0.1.3.dist-info/RECORD,,
