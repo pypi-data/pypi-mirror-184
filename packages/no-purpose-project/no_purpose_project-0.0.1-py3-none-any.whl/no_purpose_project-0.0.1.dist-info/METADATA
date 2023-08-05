@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: no-purpose-project
+Version: 0.0.1
+Summary: Library for creating nothing
+Home-page: https://github.com/OverLucker/no-purpose-project
+Author: Over Lucker
+Author-email: lucker1005000@gmail.com
+License: WTF PL
+Classifier: Programming Language :: Python :: 3.10
+
+Library for creating nothing
