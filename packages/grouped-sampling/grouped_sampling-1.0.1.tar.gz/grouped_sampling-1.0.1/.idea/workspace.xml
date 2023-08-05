@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a1eb58a-dbc0-42a1-aeb6-d4eacffea55d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/final_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/grouped_sampling.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/evaluate_translation.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation/evaluate_translation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/experiment_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation/experiment_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_mercury_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grouped_sampling/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/grouped_sampling/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grouped_sampling/model_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/grouped_sampling/model_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grouped_sampling/repetition_penalty.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/grouped_sampling/repetition_penalty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grouped_sampling/sampling_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/grouped_sampling/sampling_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grouped_sampling/text_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/grouped_sampling/text_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grouped_sampling/tree_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/grouped_sampling/tree_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grouped_sampling/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app/flaskr/completion.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/flaskr/completion.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2JrHlAGWRXW27kJvP4D78fijORh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="pytest for test_generators.test_initialization" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="grouped_sampling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_generators.test_initialization&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_generators.test_initialization" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a1eb58a-dbc0-42a1-aeb6-d4eacffea55d" name="Changes" comment="" />
+      <created>1672829443580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672829443580</updated>
+      <workItem from="1672829455172" duration="1845000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_for_test_generators_test_initialization.coverage" NAME="pytest for test_generators.test_initialization Coverage Results" MODIFIED="1672829991142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  </component>
+</project>
