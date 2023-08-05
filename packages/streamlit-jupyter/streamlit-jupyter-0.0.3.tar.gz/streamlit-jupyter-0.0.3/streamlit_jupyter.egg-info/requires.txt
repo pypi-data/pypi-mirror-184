@@ -1,0 +1,17 @@
+fastcore
+ipywidgets==7.7.2
+jupyter
+streamlit
+tqdm
+
+[dev]
+black
+ipykernel
+isort
+mypy
+nbdev
+nbqa
+pipenv-setup==3.2.0
+pre-commit
+vistir==0.6.1
+stqdm
