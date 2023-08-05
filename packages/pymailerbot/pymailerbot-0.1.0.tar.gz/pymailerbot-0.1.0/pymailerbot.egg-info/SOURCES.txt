@@ -1,0 +1,6 @@
+README.md
+setup.py
+pymailerbot.egg-info/PKG-INFO
+pymailerbot.egg-info/SOURCES.txt
+pymailerbot.egg-info/dependency_links.txt
+pymailerbot.egg-info/top_level.txt
