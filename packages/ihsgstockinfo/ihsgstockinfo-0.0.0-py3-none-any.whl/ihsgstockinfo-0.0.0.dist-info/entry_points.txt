@@ -1,0 +1,4 @@
+
+  [console_scripts]
+  ihsgstockinfo=ihsgstockinfo:ihsgstockinfo
+  
