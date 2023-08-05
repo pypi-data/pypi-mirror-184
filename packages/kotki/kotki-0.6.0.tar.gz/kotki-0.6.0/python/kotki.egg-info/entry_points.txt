@@ -1,0 +1,3 @@
+[console_scripts]
+kotki-cli = kotki_cli:kotki_cli_handler
+kotki-web = kotki_web.run:kotki_web_handler

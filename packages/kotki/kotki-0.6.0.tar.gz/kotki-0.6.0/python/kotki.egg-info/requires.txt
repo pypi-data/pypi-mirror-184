@@ -1,0 +1,10 @@
+langdetect
+quart
+quart_schema
+requests
+pyyaml
+appdirs
+click
+
+[test]
+pytest>=6.0
