@@ -1,0 +1,13 @@
+mlserver_openvino/__init__.py,sha256=ureJ_o7-_uFQQJISYohNBOLKa2-c2T7LMjOQIcsQS9U,67
+mlserver_openvino/convert.py,sha256=gJgQQgug3_g9G4cyi10H_hEIa7MPu0P6SdxOjV_B9YE,161
+mlserver_openvino/model.py,sha256=lFqS6P4rq_pKIkYhnC2qmwngJTzLPTqafLGIZEs_mtQ,3263
+mlserver_openvino/version.py,sha256=1NSg4yHgqJJKYBklxFwmel_5eSNX51umiqsyFgx4770,21
+mlserver_openvino/codecs/__init__.py,sha256=2QusAxWhRb59bwRmKv4r5blJ5tKyZ6uVx3MzGNlng3A,70
+mlserver_openvino/codecs/json_gzip_base64.py,sha256=lXMzRIsosqW3tjDEwT5HhtJodpyaEZqHaF-74_ipXVE,1048
+mlserver_openvino/codecs/lib.py,sha256=6-dNpfuaAdXOkoB2h9lnNe49yKIzNdv-aZ8Se_XJKR4,624
+mlserver_openvino/codecs/numpy_gzip.py,sha256=5UTw-q-8RDwsbwlxCD5pGe3DttllHvqHFYmc6f5ndyo,1246
+mlserver_openvino-0.4.0.dist-info/LICENSE,sha256=wM2cRKhC28R8wMaAeWIEq2ihfyztvdJ8Mh_WFrBnBjE,11353
+mlserver_openvino-0.4.0.dist-info/METADATA,sha256=kJd3-4vSYIQ9R9Q0P-Upbp3RdPhEVVvheY2cYGQPOKo,2610
+mlserver_openvino-0.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mlserver_openvino-0.4.0.dist-info/top_level.txt,sha256=dGDlXyvz8P7PgmS8zbA8g0CGLM08gyxEvJxljrBLeXA,18
+mlserver_openvino-0.4.0.dist-info/RECORD,,
