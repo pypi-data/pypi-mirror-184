@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+auto_device.egg-info/PKG-INFO
+auto_device.egg-info/SOURCES.txt
+auto_device.egg-info/dependency_links.txt
+auto_device.egg-info/requires.txt
+auto_device.egg-info/top_level.txt
+autodevice/__init__.py
+autodevice/_autodevice.py
