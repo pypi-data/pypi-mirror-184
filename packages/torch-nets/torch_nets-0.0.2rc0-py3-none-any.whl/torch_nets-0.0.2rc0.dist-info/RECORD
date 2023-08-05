@@ -1,0 +1,12 @@
+torch_nets/__init__.py,sha256=ykTSKY6DdGWEx1Bv4nYK2C3T0rx06OBT7A0iCyu4pUA,496
+torch_nets/_encoder_decoder.py,sha256=rcUwhyFuz_HELA6Ym3nG4exoqOX-dvMlU7o98TLQkTQ,5208
+torch_nets/_torch_net.py,sha256=QqEZ7MJqPCZQoSXoWs9pkS_KEKcQpSsvB41ksA3QdRI,3597
+torch_nets/core/__init__.py,sha256=NAcG6RWVIK5R--sxOdXNtZRtQnAOw6HxVTsJCc624CE,325
+torch_nets/core/_base_torch_net.py,sha256=Bi1m_94q7YhvNxvBNsx_CeVRONaqLl3-Q5WzL-dibzA,2272
+torch_nets/core/_layer.py,sha256=CtcPI7m9aJFIx8zRzCN1GAoFopJWp0DnqNNQYD1CoC8,4331
+torch_nets/core/_support_functions.py,sha256=LzC0EU4wW9zlCweW2Z3oDaMAEJwwKMZ0BlyAc1JmMBo,2063
+torch_nets-0.0.2rc0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+torch_nets-0.0.2rc0.dist-info/METADATA,sha256=FZAPIIeDTb-QuAjqCn0WS1OTV3C2HBki5tSoIXqFy04,2486
+torch_nets-0.0.2rc0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+torch_nets-0.0.2rc0.dist-info/top_level.txt,sha256=WGtvY7zdbY571klq3s2UINnuORbt-u2SA3GTQqe2nKU,11
+torch_nets-0.0.2rc0.dist-info/RECORD,,
