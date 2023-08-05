@@ -1,0 +1,7 @@
+s3watcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3watcher/s3_event.py,sha256=R6LSrsebiMHw9zKAFykN38JDsBOloEvGIdWP8GpYx6o,964
+s3watcher/s3_watcher.py,sha256=0nD5X7iced9y0A4FcfHqB_JVdmNIVYX-_PTvwUCKBxA,6859
+python_s3watcher-0.1.dist-info/METADATA,sha256=ESuFwbBc5dDvFD-uBUwSuj_sTpGLxZnT7Tvc9J-0TdE,826
+python_s3watcher-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+python_s3watcher-0.1.dist-info/top_level.txt,sha256=cBAlOuSvYyRnQoZ0zajmDyHO_nqHLQMAKfBA_aWVr3E,10
+python_s3watcher-0.1.dist-info/RECORD,,
