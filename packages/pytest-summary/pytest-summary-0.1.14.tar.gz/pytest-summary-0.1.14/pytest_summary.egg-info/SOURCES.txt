@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+pytest_summary/__init__.py
+pytest_summary/plugin.py
+pytest_summary.egg-info/PKG-INFO
+pytest_summary.egg-info/SOURCES.txt
+pytest_summary.egg-info/dependency_links.txt
+pytest_summary.egg-info/entry_points.txt
+pytest_summary.egg-info/top_level.txt
