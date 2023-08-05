@@ -1,0 +1,9 @@
+drb/addons/metadata/sentinel5p/__init__.py,sha256=i1OTn1AdngdvNxFCdH3rIUEtMcHkWARFlEpONKBbGMI,73
+drb/addons/metadata/sentinel5p/_version.py,sha256=7Y6o4Qv3Q_bJYgsir-Es1SIP1TgSDNmzn9bq5O4s9bQ,497
+drb/addons/metadata/sentinel5p/cortex.yaml,sha256=uiM92A6d90clbQbnwfOUc9x-7MOk0vkiMDmkGd_2Qi0,20397
+drb_metadata_sentinel5p-1.1.0.data/data/requirements.txt,sha256=DqlAH50HcrO50tDfhNZL-w_yYy0NFiJ_5g0bXzbbL9A,47
+drb_metadata_sentinel5p-1.1.0.dist-info/METADATA,sha256=dhP6v6pHXBUMpD4w21yDUlV9J2UX0QkzZJ52D0FGEhg,1560
+drb_metadata_sentinel5p-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drb_metadata_sentinel5p-1.1.0.dist-info/entry_points.txt,sha256=MFnPn8HRK93sAQyziou6aq_OjGQKhhI5_xkIyXgP90o,60
+drb_metadata_sentinel5p-1.1.0.dist-info/top_level.txt,sha256=tp7x0jo6KHy7P4LzX36tRyB2qZR7OiCZCAQGzrq25E0,4
+drb_metadata_sentinel5p-1.1.0.dist-info/RECORD,,
