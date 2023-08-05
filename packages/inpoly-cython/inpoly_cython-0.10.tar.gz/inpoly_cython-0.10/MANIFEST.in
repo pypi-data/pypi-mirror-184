@@ -1,0 +1,4 @@
+include inpoly_cython/requirements.txt
+include inpoly_cython/thirdparty.json
+include inpoly_cython/README.MD
+include inpoly_cython/LICENSE

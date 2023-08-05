@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+inpoly_cython/LICENSE
+inpoly_cython/README.MD
+inpoly_cython/__init__.py
+inpoly_cython/requirements.txt
+inpoly_cython/thirdparty.json
+inpoly_cython.egg-info/PKG-INFO
+inpoly_cython.egg-info/SOURCES.txt
+inpoly_cython.egg-info/dependency_links.txt
+inpoly_cython.egg-info/requires.txt
+inpoly_cython.egg-info/top_level.txt
