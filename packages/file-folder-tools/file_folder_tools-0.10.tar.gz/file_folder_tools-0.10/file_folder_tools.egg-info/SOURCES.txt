@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+file_folder_tools/LICENSE
+file_folder_tools/README.MD
+file_folder_tools/__init__.py
+file_folder_tools/requirements.txt
+file_folder_tools/thirdparty.json
+file_folder_tools.egg-info/PKG-INFO
+file_folder_tools.egg-info/SOURCES.txt
+file_folder_tools.egg-info/dependency_links.txt
+file_folder_tools.egg-info/requires.txt
+file_folder_tools.egg-info/top_level.txt

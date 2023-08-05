@@ -1,0 +1,4 @@
+include file_folder_tools/requirements.txt
+include file_folder_tools/thirdparty.json
+include file_folder_tools/README.MD
+include file_folder_tools/LICENSE
