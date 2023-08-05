@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: grsq
+Version: 0.0.16
+Summary: Structure factor and X-ray scattering from radial distribution functions
+Home-page: https://gitlab.com/asod/grsq
+Author: Asmus Ougaard Dohn
+Author-email: Asmus Ougaard Dohn <asmus.od@gmail.com>
+License: MIT
+Project-URL: Homepage, https://gitlab.com/asod/grsq
+Project-URL: Bug Tracker, https://gitlab.com/asod/grsq/issues
+Project-URL: documentation, https://gitlab.com/asod/grsq/-/blob/main/examples/examples.ipynb
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Structure factor and scattering from radial distribution functions
+==================================================================
+Please see `examples/examples.ipynb` for information on how to use. 
+
+
+### Copyright
+
+Copyright (c) 2022, Asmus Ougaard Dohn
+

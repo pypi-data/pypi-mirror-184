@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+grsq.egg-info/PKG-INFO
+grsq.egg-info/SOURCES.txt
+grsq.egg-info/dependency_links.txt
+grsq.egg-info/not-zip-safe
+grsq.egg-info/requires.txt
+grsq.egg-info/top_level.txt
+tests/__init__.py
+tests/test_debye.py
+tests/test_grsq.py
