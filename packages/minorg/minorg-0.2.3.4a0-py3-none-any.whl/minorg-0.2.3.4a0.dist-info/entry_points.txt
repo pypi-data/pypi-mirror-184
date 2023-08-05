@@ -1,0 +1,3 @@
+[console_scripts]
+minorg = minorg.console:app
+
