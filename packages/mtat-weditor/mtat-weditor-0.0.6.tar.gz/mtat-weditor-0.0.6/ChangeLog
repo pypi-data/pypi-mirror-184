@@ -1,0 +1,37 @@
+CHANGES
+=======
+
+0.0.6
+-----
+
+* 【Bugfix】修复命令行断开后点击查看控件提示内容错误
+* 【Bugfix】修复同时连接多台设备时，切换设备后获取控件仍为上一个设备的控件树问题；遗留问题：切换设备后如果要执行python脚本，需要先点击连接设备
+* 【Bugfix】修复获取设备缩放因子错误，导致节点绘制异常。
+
+0.0.5
+-----
+
+* 【Feature】增加点击复制；优化文案展示
+
+0.0.4
+-----
+
+* 【Feature】更新tidevice依赖库版本要求
+* 【Bugfix】iOS 获取 index 增加 label 判断，避免 collectionView 坐标相同时 index 错误
+
+0.0.3
+-----
+
+* 【Feature】选择mapping文件后自动加载mappingID
+* 【Feature】Android支持选择mapping文件映射实际id；iOS修复Coding无法使用问题
+
+0.0.2
+-----
+
+* 【Feature】启动页面后默认选中控件树；查看控件时增加wda连接情况判断并进行重试（仅使用设备id时）
+
+0.0.1
+-----
+
+* 【Feature】解决第二次查看index重复显示问题，index同时显示maxIndex
+* Initial commit
