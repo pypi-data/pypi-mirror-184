@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sip4
+Version: 0.0.1
+Summary: Build SIP 4
+Author-email: Uwe Schmitt <uwe.schmitt@id.ethz.ch>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
