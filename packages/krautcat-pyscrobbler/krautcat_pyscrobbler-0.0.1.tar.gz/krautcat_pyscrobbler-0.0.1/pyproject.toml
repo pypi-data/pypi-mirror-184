@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "krautcat-pyscrobbler"
+dynamic = ["version"]
+description = ".scrobbler.log (Rockbox offline last.fm scrobling format) submitter with support of timeless files"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Georgiy Odisharia", email = "georgiy.odisharia@gmail.com" },
+]
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pyaml",
+    "pylast",
+]
+
+[project.urls]
+Homepage = "https://github.com/krautcat/pyscrobbler"
+
+[project.scripts]
+krautcat-rockbox-scrobbler = "krautcat.lastfm.scrobbler:main"
+
+[tool.hatch.version]
+path = "src/lib/krautcat/lastfm/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/*",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lib/krautcat"]
