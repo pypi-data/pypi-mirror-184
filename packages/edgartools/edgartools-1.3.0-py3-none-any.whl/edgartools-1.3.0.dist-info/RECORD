@@ -1,0 +1,12 @@
+edgar/__about__.py,sha256=HHstTNuOULq0tSJx0Dm1wByDROzx_gY26FTG4DU9B_I,134
+edgar/__init__.py,sha256=ycDZQMGgMeFRsL61ANeEp_5jrOwvClOT9OoSp7pkAfw,710
+edgar/company.py,sha256=mSnoKXS2LrB_5ALJMf4N2XggybYLclTswvIN40gsMRk,15358
+edgar/core.py,sha256=dzoRUW1oa71ogRHf2lzVIdPq8lbiJE8AcAiuIgtDQzU,7395
+edgar/filing.py,sha256=Sg4KLdHuPGuXDdiP2O950NWUBpDcTTOPtIqwodrpia0,19816
+edgar/ownership.py,sha256=RVA59eSHlXVvPlrxdxf3qC3eQW20alG2zOsgsLO6Mqc,23035
+edgar/xbrl.py,sha256=eiWCPS1QQdjt2X3KC-ifwkjIKRrqVoZudvWeXTE0vEQ,5637
+edgar/xml.py,sha256=QPAs6A2ioI_aL_DEaG3F8Qcn0ziOTUylqFH8nBwwr0s,2857
+edgartools-1.3.0.dist-info/METADATA,sha256=jbpR1mVwCiLCwUuI_RjB7dQm3WnngCzXtvpDNn7EirI,16416
+edgartools-1.3.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+edgartools-1.3.0.dist-info/licenses/LICENSE.txt,sha256=3JK5gy0HugTKZ1lhd-QvDaaUvXCWgHqyEAor2UuECiE,1109
+edgartools-1.3.0.dist-info/RECORD,,
