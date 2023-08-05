@@ -1,0 +1,15 @@
+alexandria/__init__.py,sha256=T6Fmm1PZU_1-qp_gLO4_kBUL6i8A299Gz57Hxs2EDc4,116
+alexandria/awslib/__init__.py,sha256=7il64SjSEtIkwT-LZGwg8fBOU_qPh_3oF8C7FLQR9w0,157
+alexandria/awslib/credential.py,sha256=rn1V-DxwgQT3GiSqwb4HfRqgwlJWkmQsx3Rmcm-n48c,416
+alexandria/awslib/secrets_manager.py,sha256=j8i1murBHAEdTTygw9XqjXVgSNd5D0fNIrjRV-Iby7s,2737
+alexandria/galib/__init__.py,sha256=8T22C3ckufRh35AfvHGDtKk3xKA96MIfN3dIHMeS67Y,350
+alexandria/galib/data.py,sha256=k1pcuqy9LA1p4elsoTX5sA5hYqiTd1THCUkfQejhNgA,7963
+alexandria/galib/utils.py,sha256=tTD6FE8F_7T-Jc510acb5dE04MJUTxxqKo12GsxV8RI,437
+alexandria/s3lib/__init__.py,sha256=vMkWx2uSkB5IZBqEx-7rfwV8ld7EZrOxWEGEwDlVuwM,392
+alexandria/s3lib/credential.py,sha256=Qg06G6CUN7UdTROgvFA5xqCMQDY5m8qAge5TA2Bxf4c,214
+alexandria/s3lib/dataframe.py,sha256=FShHcDJT53wUApTdKI8tmSrZ3ZrHDMqEbT3v79vEyuo,760
+alexandria/s3lib/file.py,sha256=EpV1hZaKIaAE8iME-pqiHol2cpoxmfxQEuuWyiyy7k4,226
+fcxai_alexandria-0.2.3.dist-info/METADATA,sha256=F65dEGjPluLTuAtTtSj2Q2fpmBTs5lWwPElLcRuEu3M,1179
+fcxai_alexandria-0.2.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fcxai_alexandria-0.2.3.dist-info/top_level.txt,sha256=hz2MynIzo6vg6diT5LjH4OBbEHqldfxQZP72fhEFq1g,11
+fcxai_alexandria-0.2.3.dist-info/RECORD,,
