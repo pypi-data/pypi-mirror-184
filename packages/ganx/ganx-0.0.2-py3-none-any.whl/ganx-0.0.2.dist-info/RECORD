@@ -1,0 +1,10 @@
+ganx/MAXRF_class.py,sha256=FDvUjYqp2bvPfHHTLKa40ME1PgIxyp2KCB4PG0MFnRo,17129
+ganx/RGB_segmentation_utils.py,sha256=zOJCQAoGfuS0wgfeT9tXuR8srBZTc16CM8ZOd6FVH2E,30891
+ganx/XRF_generator_classes.py,sha256=z5n5WiY-woe8-i3qKAoA1HQ65mp3XmGdP7WYeFy-lnQ,28259
+ganx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ganx/generator_methods.py,sha256=c-D4fZ_q72fX6OI7SVsC_8E6NsnzQJpjt3nz3WSsBd4,7685
+ganx-0.0.2.dist-info/LICENSE,sha256=vOjaJs4VSzw1aU6xXnlpOBw9X09npouG-wyDcxtc2Pk,11319
+ganx-0.0.2.dist-info/METADATA,sha256=yTyzVV1nZVS5ZymgJqiOIcMVSPiN1npuJUBz8IGR_ag,21957
+ganx-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ganx-0.0.2.dist-info/top_level.txt,sha256=bCakSall57lDoQrpVmTrx_ReGJTIKUTGq66l5VS1i4w,5
+ganx-0.0.2.dist-info/RECORD,,
