@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+senitherweight/__init__.py
+senitherweight/constants.py
+senitherweight/main.py
+senitherweight/utils.py
+senitherweight.egg-info/PKG-INFO
+senitherweight.egg-info/SOURCES.txt
+senitherweight.egg-info/dependency_links.txt
+senitherweight.egg-info/requires.txt
+senitherweight.egg-info/top_level.txt
+senitherweight/calcs/__init__.py
+senitherweight/calcs/dungeon_weight.py
+senitherweight/calcs/skill_weight.py
+senitherweight/calcs/slayer_weight.py
