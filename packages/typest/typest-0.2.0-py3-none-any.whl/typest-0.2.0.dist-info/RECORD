@@ -1,0 +1,10 @@
+typest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typest/__main__.py,sha256=0Tt-MHFJxd4PWQinxsk7AMek5V-avkwuAieeH4ypS5o,2068
+typest/error.py,sha256=Z5k_p4oGElxUYLGZjBTs9fxV0oEA2toAojF-75sPmm8,2201
+typest/outcome.py,sha256=_BPoWhGbM95jfPlDG1GRNzHL5aJY_YbAsw3EZx82u10,4053
+typest/test.py,sha256=6u_OUb9g-tkycIfnph9NblveSRjER7tnZpMEBwThbMc,2578
+typest/utils/color.py,sha256=FJHxnE-Jz3yjAWEcFNQOiFOVxN7WAg4pflpOawaigb0,130
+typest/utils/fake_type.py,sha256=O1n04-AxTxq7vMyrPzxb8F0OSDupPEGdFEaPP01BTxw,3048
+typest-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+typest-0.2.0.dist-info/METADATA,sha256=Q9-4jMp89WeU_2rIyVk7DiXkwz83X1RHSPTTHeQ5S_Q,2005
+typest-0.2.0.dist-info/RECORD,,
