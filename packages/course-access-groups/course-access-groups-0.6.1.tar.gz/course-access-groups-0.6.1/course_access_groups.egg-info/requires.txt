@@ -1,0 +1,7 @@
+tahoe-sites
+django-model-utils
+XBlock
+Django
+edx-opaque-keys
+django-filter
+edx-organizations
