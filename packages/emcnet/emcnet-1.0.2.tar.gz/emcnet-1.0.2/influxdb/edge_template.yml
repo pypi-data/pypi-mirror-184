@@ -1,0 +1,742 @@
+apiVersion: influxdata.com/v2alpha1
+kind: Bucket
+metadata:
+    name: hungry-gauss-b16003
+spec:
+    name: raw
+    retentionRules:
+        - everySeconds: 3600
+          type: expire
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Bucket
+metadata:
+    name: kind-feistel-b16001
+spec:
+    name: aggregated
+    retentionRules:
+        - everySeconds: 7.776e+06
+          type: expire
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Task
+metadata:
+    name: clever-elgamal-b16001
+spec:
+    every: 5m0s
+    name: aggregate_vmppt
+    query: |-
+        import "influxdata/influxdb/tasks"
+
+
+
+        rawwindow =
+            from(bucket: "raw")
+                |> range(start: tasks.lastSuccess(orTime: -1h))
+                |> filter(fn: (r) => r["_measurement"] =~ /vmppt_*/)
+
+        aggmean =
+            rawwindow
+                |> filter(fn: (r) => r["_field"] == "batteryVoltage" or r["_field"] == "batteryCurrent")
+                |> aggregateWindow(every: 5m, fn: mean, createEmpty: false)
+
+        agglast =
+            rawwindow
+                |> filter(
+                    fn: (r) =>
+                        r["_field"] == "yieldToday" or r["_field"] == "yieldYesterday" or r["_field"]
+                            ==
+                            "maximumPowerToday" or r["_field"] == "maximumPowerYesterday" or r["_field"]
+                            ==
+                            "mode" or r["_field"] == "trackerMode",
+                )
+                |> aggregateWindow(every: 5m, fn: last, createEmpty: false)
+
+        union(tables: [aggmean, agglast])
+            |> to(bucket: "aggregated")
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Task
+metadata:
+    name: eerie-ellis-716001
+spec:
+    every: 5m0s
+    name: aggregate_ina226
+    query: |-
+        import "influxdata/influxdb/tasks"
+
+
+
+
+
+
+        from(bucket: "raw")
+            |> range(start: tasks.lastSuccess(orTime: -1h))
+            |> filter(fn: (r) => r["_measurement"] =~ /ina226_*/)
+            |> filter(fn: (r) => r["_field"] == "P" or r["_field"] == "I" or r["_field"] == "V")
+            |> aggregateWindow(every: 5m, fn: mean, createEmpty: false)
+            |> to(bucket: "aggregated")
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Task
+metadata:
+    name: ridiculous-ellis-316001
+spec:
+    every: 30s
+    name: sync
+    query: |-
+        import "influxdata/influxdb/tasks"
+        import "influxdata/influxdb/secrets"
+
+
+
+
+
+
+        cloud_host = secrets.get(key: "cloud_host")
+        cloud_org = secrets.get(key: "cloud_org")
+        cloud_token = secrets.get(key: "cloud_token")
+        site = secrets.get(key: "site")
+
+        from(bucket: "aggregated")
+            |> range(start: tasks.lastSuccess(orTime: -1h))
+            |> to(host: cloud_host, org: cloud_org, token: cloud_token, bucket: site)
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Dashboard
+metadata:
+    name: bold-sutherland-f16001
+spec:
+    charts:
+        - axes:
+            - base: "10"
+              name: x
+              scale: linear
+            - base: "10"
+              label: Power Consumption [W], Voltage [V]
+              name: "y"
+              scale: linear
+          colorizeRows: true
+          colors:
+            - hex: '#31C0F6'
+              id: 07gg8nBKqmyvg3Q0wQJar
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#A500A5'
+              id: 4had-jYY8hkLS2FHzjbfI
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#FF7E27'
+              id: WmCsfiZkbPo-fF9teAUrB
+              name: Nineteen Eighty Four
+              type: scale
+          geom: step
+          height: 4
+          heightRatio: 0.2853881278538813
+          hoverDimension: auto
+          kind: Xy
+          legendColorizeRows: true
+          legendOpacity: 1
+          legendOrientationThreshold: 1e+08
+          name: INA226_EMULATE
+          opacity: 1
+          orientationThreshold: 1e+08
+          position: overlaid
+          queries:
+            - query: |-
+                from(bucket: "aggregated")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "vmppt_emulate_42")
+                  |> filter(fn: (r) => r["_field"] == "batteryVoltage" or r["_field"] == "batteryCurrent")
+                  |> yield(name: "mean")
+          show: true
+          staticLegend:
+            colorizeRows: true
+            heightRatio: 0.2853881278538813
+            opacity: 1
+            orientationThreshold: 1e+08
+            show: true
+            widthRatio: 1
+          width: 8
+          widthRatio: 1
+          xCol: _time
+          yCol: _value
+        - colors:
+            - hex: '#00C9FF'
+              id: base
+              name: laser
+              type: text
+          decimalPlaces: 2
+          height: 1
+          kind: Single_Stat
+          name: Batt Voltage
+          prefix: 'Van Batt. Voltage:  '
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "vmppt_emulate_42")
+                  |> filter(fn: (r) => r["_field"] == "batteryVoltage")
+                  |> last()
+          staticLegend: {}
+          suffix: ' mV'
+          width: 2
+          yPos: 4
+        - colors:
+            - hex: '#00C9FF'
+              id: base
+              name: laser
+              type: text
+          decimalPlaces: 2
+          height: 1
+          kind: Single_Stat
+          name: Batt Current
+          prefix: 'Van Batt. Current: '
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "vmppt_emulate_42")
+                  |> filter(fn: (r) => r["_field"] == "batteryCurrent")
+                  |> last()
+          staticLegend: {}
+          suffix: ' mA'
+          width: 2
+          yPos: 5
+    name: VMPPT Emulate Aggregated
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Dashboard
+metadata:
+    name: epic-yalow-716001
+spec:
+    charts:
+        - axes:
+            - base: "10"
+              name: x
+              scale: linear
+            - base: "10"
+              name: "y"
+              scale: linear
+          colorizeRows: true
+          colors:
+            - hex: '#31C0F6'
+              id: YuDzhIrDknt5qmaP8UTSL
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#A500A5'
+              id: LCR9SMtVlS2oBPOeg5J1Q
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#FF7E27'
+              id: -IFL-EPb0OTXTj6FibTQ6
+              name: Nineteen Eighty Four
+              type: scale
+          geom: line
+          height: 6
+          heightRatio: 0.3538812785388128
+          hoverDimension: auto
+          kind: Xy
+          legendColorizeRows: true
+          legendOpacity: 1
+          legendOrientationThreshold: 1e+08
+          name: INA226_EMULATE RAW
+          opacity: 1
+          orientationThreshold: 1e+08
+          position: overlaid
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "ina226_emulate_42")
+                  |> yield(name: "mean")
+          show: true
+          staticLegend:
+            colorizeRows: true
+            heightRatio: 0.3538812785388128
+            opacity: 1
+            orientationThreshold: 1e+08
+            show: true
+            widthRatio: 1
+          width: 11
+          widthRatio: 1
+          xCol: _time
+          yCol: _value
+    name: INA226 Emulate Raw
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Dashboard
+metadata:
+    name: frosty-yalow-b16001
+spec:
+    charts:
+        - axes:
+            - base: "10"
+              name: x
+              scale: linear
+            - base: "10"
+              name: "y"
+              scale: linear
+          colorizeRows: true
+          colors:
+            - hex: '#31C0F6'
+              id: YuDzhIrDknt5qmaP8UTSL
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#A500A5'
+              id: LCR9SMtVlS2oBPOeg5J1Q
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#FF7E27'
+              id: -IFL-EPb0OTXTj6FibTQ6
+              name: Nineteen Eighty Four
+              type: scale
+          geom: line
+          height: 6
+          heightRatio: 0.3538812785388128
+          hoverDimension: auto
+          kind: Xy
+          legendColorizeRows: true
+          legendOpacity: 1
+          legendOrientationThreshold: 1e+08
+          name: INA226 RAW
+          opacity: 1
+          orientationThreshold: 1e+08
+          position: overlaid
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "ina226_0001")
+                  |> yield(name: "mean")
+          show: true
+          staticLegend:
+            colorizeRows: true
+            heightRatio: 0.3538812785388128
+            opacity: 1
+            orientationThreshold: 1e+08
+            show: true
+            widthRatio: 1
+          width: 11
+          widthRatio: 1
+          xCol: _time
+          yCol: _value
+    name: INA226 Raw
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Dashboard
+metadata:
+    name: silly-kilby-f16001
+spec:
+    charts:
+        - axes:
+            - base: "10"
+              name: x
+              scale: linear
+            - base: "10"
+              name: "y"
+              scale: linear
+          colorizeRows: true
+          colors:
+            - hex: '#31C0F6'
+              id: YuDzhIrDknt5qmaP8UTSL
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#A500A5'
+              id: LCR9SMtVlS2oBPOeg5J1Q
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#FF7E27'
+              id: -IFL-EPb0OTXTj6FibTQ6
+              name: Nineteen Eighty Four
+              type: scale
+          geom: line
+          height: 6
+          heightRatio: 0.3538812785388128
+          hoverDimension: auto
+          kind: Xy
+          legendColorizeRows: true
+          legendOpacity: 1
+          legendOrientationThreshold: 1e+08
+          name: INA226_EMULATE RAW
+          opacity: 1
+          orientationThreshold: 1e+08
+          position: overlaid
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "vmppt_emulate_42")
+                  |> filter(fn: (r) => r["_field"] == "batteryVoltage" or r["_field"] == "batteryCurrent")
+                  |> yield(name: "mean")
+          show: true
+          staticLegend:
+            colorizeRows: true
+            heightRatio: 0.3538812785388128
+            opacity: 1
+            orientationThreshold: 1e+08
+            show: true
+            widthRatio: 1
+          width: 11
+          widthRatio: 1
+          xCol: _time
+          yCol: _value
+    name: VMPPT Emulate Raw
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Dashboard
+metadata:
+    name: stubborn-wozniak-b16001
+spec:
+    charts:
+        - axes:
+            - base: "10"
+              name: x
+              scale: linear
+            - base: "10"
+              label: Current [A], Voltage [V], Power [W]
+              name: "y"
+              scale: linear
+          colorizeRows: true
+          colors:
+            - hex: '#31C0F6'
+              id: JT7ngoUTdOMI-GSFDLJDZ
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#A500A5'
+              id: uivbEShCB-6oXXXrYYXkF
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#FF7E27'
+              id: zILm1OxD2koArt9fc25B2
+              name: Nineteen Eighty Four
+              type: scale
+          geom: line
+          height: 3
+          hoverDimension: auto
+          kind: Xy
+          legendColorizeRows: true
+          legendOpacity: 1
+          legendOrientationThreshold: 1e+08
+          name: INA226
+          opacity: 1
+          orientationThreshold: 1e+08
+          position: overlaid
+          queries:
+            - query: |-
+                from(bucket: "aggregated")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "ina226_0001")
+                  |> yield(name: "mean")
+          staticLegend:
+            colorizeRows: true
+            opacity: 1
+            orientationThreshold: 1e+08
+            widthRatio: 1
+          width: 6
+          widthRatio: 1
+          xCol: _time
+          yCol: _value
+        - axes:
+            - base: "10"
+              name: x
+              scale: linear
+            - base: "10"
+              label: Current [A], Voltage [V], Mode
+              name: "y"
+              scale: linear
+          colorizeRows: true
+          colors:
+            - hex: '#31C0F6'
+              id: 07gg8nBKqmyvg3Q0wQJar
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#A500A5'
+              id: 4had-jYY8hkLS2FHzjbfI
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#FF7E27'
+              id: WmCsfiZkbPo-fF9teAUrB
+              name: Nineteen Eighty Four
+              type: scale
+          geom: step
+          height: 3
+          heightRatio: 0.2853881278538813
+          hoverDimension: auto
+          kind: Xy
+          legendColorizeRows: true
+          legendOpacity: 1
+          legendOrientationThreshold: 1e+08
+          name: VMPPT
+          opacity: 1
+          orientationThreshold: 1e+08
+          position: overlaid
+          queries:
+            - query: |-
+                aggwindow =
+                    from(bucket: "aggregated")
+                        |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                        |> filter(fn: (r) => r["_measurement"] == "vmppt_0001")
+
+                aggwindow
+                    |> filter(fn: (r) => r["_field"] == "batteryVoltage" or r["_field"] == "batteryCurrent")
+                    |> map(fn: (r) => ({r with _value: float(v: r._value) / 1000.0}))
+                    |> yield(name: "voltageandcurrent")
+
+                aggwindow
+                    |> filter(fn: (r) => r["_field"]== "mode" or r["_field"] == "trackerMode")
+                    |> yield(name: "modes")
+          staticLegend:
+            colorizeRows: true
+            heightRatio: 0.2853881278538813
+            opacity: 1
+            orientationThreshold: 1e+08
+            widthRatio: 1
+          width: 6
+          widthRatio: 1
+          xCol: _time
+          yCol: _value
+          yPos: 3
+        - colors:
+            - hex: '#00C9FF'
+              id: base
+              name: laser
+              type: text
+          decimalPlaces: 0
+          height: 1
+          kind: Single_Stat
+          name: Yield Today
+          prefix: 'Yield Today:  '
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "vmppt_0001")
+                  |> filter(fn: (r) => r["_field"] == "yieldToday")
+                  |> last()
+                  |> map(fn: (r) => ({r with _value: float(v: r._value) * 10.0}))
+          staticLegend: {}
+          suffix: ' Wh'
+          width: 2
+          yPos: 6
+        - colors:
+            - hex: '#00C9FF'
+              id: base
+              name: laser
+              type: text
+          decimalPlaces: 0
+          height: 1
+          kind: Single_Stat
+          name: Yield Yesterday
+          prefix: 'Yield Yesterday:  '
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "vmppt_0001")
+                  |> filter(fn: (r) => r["_field"] == "yieldYesterday")
+                  |> last()
+                  |> map(fn: (r) => ({r with _value: float(v: r._value) * 10.0}))
+          staticLegend: {}
+          suffix: ' Wh'
+          width: 2
+          yPos: 7
+        - colors:
+            - hex: '#00C9FF'
+              id: base
+              name: laser
+              type: text
+          decimalPlaces: 0
+          height: 1
+          kind: Single_Stat
+          name: Max Power Today
+          prefix: '  Max Power Today: '
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "vmppt_0001")
+                  |> filter(fn: (r) => r["_field"] == "maximumPowerToday")
+                  |> last()
+          staticLegend: {}
+          suffix: ' W'
+          width: 2
+          yPos: 8
+        - colors:
+            - hex: '#00C9FF'
+              id: base
+              name: laser
+              type: text
+          decimalPlaces: 0
+          height: 1
+          kind: Single_Stat
+          name: Max Power Yesterday
+          prefix: '  Max Power Yesterday: '
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "vmppt_0001")
+                  |> filter(fn: (r) => r["_field"] == "maximumPowerYesterday")
+                  |> last()
+          staticLegend: {}
+          suffix: ' W'
+          width: 2
+          yPos: 9
+    name: BigBird
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Dashboard
+metadata:
+    name: trusting-montalcini-b16001
+spec:
+    charts:
+        - axes:
+            - base: "10"
+              name: x
+              scale: linear
+            - base: "10"
+              name: "y"
+              scale: linear
+          colorizeRows: true
+          colors:
+            - hex: '#31C0F6'
+              id: YuDzhIrDknt5qmaP8UTSL
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#A500A5'
+              id: LCR9SMtVlS2oBPOeg5J1Q
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#FF7E27'
+              id: -IFL-EPb0OTXTj6FibTQ6
+              name: Nineteen Eighty Four
+              type: scale
+          geom: line
+          height: 6
+          heightRatio: 0.3538812785388128
+          hoverDimension: auto
+          kind: Xy
+          legendColorizeRows: true
+          legendOpacity: 1
+          legendOrientationThreshold: 1e+08
+          name: VMPPT Raw
+          opacity: 1
+          orientationThreshold: 1e+08
+          position: overlaid
+          queries:
+            - query: "from(bucket: \"raw\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"vmppt_0001\")\n  |> filter(\n    fn: (r) =>\n      r[\"_field\"] == \"yieldToday\" or r[\"_field\"] == \"yieldYesterday\" \n      or r[\"_field\"] == \"maximumPowerToday\" or r[\"_field\"] == \"maximumPowerYesterday\" \n      or r[\"_field\"] == \"mode\" or r[\"_field\"] == \"trackerMode\")\n  |> yield(name: \"mean\")"
+          staticLegend:
+            colorizeRows: true
+            heightRatio: 0.3538812785388128
+            opacity: 1
+            orientationThreshold: 1e+08
+            widthRatio: 1
+          width: 11
+          widthRatio: 1
+          xCol: _time
+          yCol: _value
+    name: VMPPT Raw
+---
+apiVersion: influxdata.com/v2alpha1
+kind: Dashboard
+metadata:
+    name: unbridled-golick-316001
+spec:
+    charts:
+        - axes:
+            - base: "10"
+              name: x
+              scale: linear
+            - base: "10"
+              label: Power Consumption [W], Voltage [V]
+              name: "y"
+              scale: linear
+          colorizeRows: true
+          colors:
+            - hex: '#31C0F6'
+              id: 07gg8nBKqmyvg3Q0wQJar
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#A500A5'
+              id: 4had-jYY8hkLS2FHzjbfI
+              name: Nineteen Eighty Four
+              type: scale
+            - hex: '#FF7E27'
+              id: WmCsfiZkbPo-fF9teAUrB
+              name: Nineteen Eighty Four
+              type: scale
+          geom: step
+          height: 4
+          heightRatio: 0.2853881278538813
+          hoverDimension: auto
+          kind: Xy
+          legendColorizeRows: true
+          legendOpacity: 1
+          legendOrientationThreshold: 1e+08
+          name: INA226_EMULATE
+          opacity: 1
+          orientationThreshold: 1e+08
+          position: overlaid
+          queries:
+            - query: |-
+                from(bucket: "aggregated")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "ina226_emulate_42")
+                  |> filter(fn: (r) => r["_field"] == "P" or r["_field"] == "V")
+                  |> yield(name: "mean")
+          show: true
+          staticLegend:
+            colorizeRows: true
+            heightRatio: 0.2853881278538813
+            opacity: 1
+            orientationThreshold: 1e+08
+            show: true
+            widthRatio: 1
+          width: 8
+          widthRatio: 1
+          xCol: _time
+          yCol: _value
+        - colors:
+            - hex: '#00C9FF'
+              id: base
+              name: laser
+              type: text
+          decimalPlaces: 2
+          height: 1
+          kind: Single_Stat
+          name: Present Values
+          prefix: 'Power: '
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "ina226_emulate_42")
+                  |> filter(fn: (r) => r["_field"] == "P")
+                  |> last()
+          staticLegend: {}
+          suffix: ' W'
+          width: 2
+          yPos: 4
+        - colors:
+            - hex: '#00C9FF'
+              id: base
+              name: laser
+              type: text
+          decimalPlaces: 2
+          height: 1
+          kind: Single_Stat
+          name: Present Values (Clone)
+          prefix: 'Voltage: '
+          queries:
+            - query: |-
+                from(bucket: "raw")
+                  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+                  |> filter(fn: (r) => r["_measurement"] == "ina226_emulate_42")
+                  |> filter(fn: (r) => r["_field"] == "V")
+                  |> last()
+          staticLegend: {}
+          suffix: ' V'
+          width: 2
+          yPos: 5
+    name: INA226 Emulate Aggregated

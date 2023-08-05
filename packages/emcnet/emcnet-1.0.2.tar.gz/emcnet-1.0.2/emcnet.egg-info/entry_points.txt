@@ -1,0 +1,3 @@
+[console_scripts]
+emcnet_device_data_store = emcnet.emcnet_device_data_store:main
+emcnet_device_vmppt = emcnet.device.vmppt:main

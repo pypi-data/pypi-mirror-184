@@ -1,0 +1,19 @@
+[Unit]
+# Human readable name of the unit
+Description=Bigbird Victron MPPT charge controller data collector
+
+# Start after InfluxDB is up
+After=network.target 
+After=influxdb.service
+
+[Service]
+# Environment Variables
+Environment="EMCNET_DIR=/etc/emcnet"
+# Command to execute when the service is started
+ExecStart=/bin/sh -c '/home/jmfife/.local/bin/emcnet_device_vmppt --every=10 --device=vmppt_0001'
+# Disable the buffering of STDOUT and STDERR
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=default.target
+
