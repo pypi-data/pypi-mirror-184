@@ -1,0 +1,11 @@
+vodex/__init__.py,sha256=sbHIJYgNXMDUp7FdVm8LuEL0KIMwSjIYynAfFAOpd7k,503
+vodex/core.py,sha256=KrzO7Pw6fz3ffa2BDgX4y6mcxMFXedJXly_L-kNnQvg,35973
+vodex/dbmethods.py,sha256=jWRNlGSzst3TVc4g1qsTcgD45_J0S3ocQ3RJSEi4jsM,47405
+vodex/experiment.py,sha256=3OC_d5uM3F1aRFkie1ttPO0f3pjSaaJF2VXCKhtYsX8,11079
+vodex/loaders.py,sha256=x3tahXwDa4J6luHXdQWuu39PfQCOUvQMaZlrC_37nWM,12439
+vodex/utils.py,sha256=MdjPHxVZYJUBjc6O-PPWGpo2U9RmKMDOMIwAJ9AGBdg,220
+vodex-1.0.4.dist-info/LICENSE.md,sha256=sM1hn25wtEqs-wpljyl7LK2NR5V6nMwakcUcfnxzBUI,1072
+vodex-1.0.4.dist-info/METADATA,sha256=zCcNKzdeiDIXPTTCVfYVc0Eb0hMjeTbQYi6w2NQJ8MM,2282
+vodex-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vodex-1.0.4.dist-info/top_level.txt,sha256=O4qht3FyOqztotopyN_ESGypNm1QqevT_tqsE6ThHz0,6
+vodex-1.0.4.dist-info/RECORD,,
