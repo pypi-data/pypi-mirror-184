@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ori_math_funcs_oriy"
+version = "0.0.1"
+authors = [
+  { name="oriy", email="ori987yafe@gmail.com" },
+]
+description = "A small math functions package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/oriyafe1/math_funcs"
+"Bug Tracker" = "https://github.com/oriyafe1/math_funcs/issues"
