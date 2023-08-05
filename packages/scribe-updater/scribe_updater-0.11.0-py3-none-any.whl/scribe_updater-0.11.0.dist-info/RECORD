@@ -1,0 +1,10 @@
+scribe_updater/__init__.py,sha256=COa6W_7YIG5L-Ab0-kfVwvNcmV5QfivXOe_6_qqe2uc,22
+scribe_updater/changelog.py,sha256=OgwF7m5EK2BKQYfzDvNWhQyg3keblnMPiYoJBqBjCvM,9133
+scribe_updater/console.py,sha256=J1rxXSO3t9b_82DEZJfdeVLtMfcaXOeEUuZJiXO4s1Q,1336
+scribe_updater/product.py,sha256=rh1WERagFxwNTLUmYTy0ikg6BZ6xlUD4wvZUS_t8Frw,3785
+scribe_updater/updater.py,sha256=YsPA26uAhsW-owyUGeirN5WqKxEqWTk9msf1m3XsTPQ,4085
+scribe_updater/utils.py,sha256=1bmsft30mnoIKykzuyjuil8eoMk2gebqadlqb1u3Mqg,8915
+scribe_updater-0.11.0.dist-info/entry_points.txt,sha256=mW24DEZ9ZXAdTDbSFgigyfL63QPISKQ6A8VbpaattF8,55
+scribe_updater-0.11.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+scribe_updater-0.11.0.dist-info/METADATA,sha256=1oK4dnwZy6QXqpCImhICZFy13iBVwxYeGR3P-NTZVq8,917
+scribe_updater-0.11.0.dist-info/RECORD,,
