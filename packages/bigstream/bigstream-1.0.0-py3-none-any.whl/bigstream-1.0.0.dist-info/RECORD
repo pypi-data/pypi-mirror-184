@@ -1,0 +1,15 @@
+bigstream/__init__.py,sha256=r12KIYWPQoCMm8wXASt3vML9arOwcdvUoF8T9BBHBUE,5
+bigstream/align.py,sha256=o_aU8b44g1ZZK3sTe_KQ9kojuvIy0g7_f8agiPWK65c,34695
+bigstream/application_pipelines.py,sha256=tTuMAGmYTr90FR4vQHT4IgyolWs27GIcCiHvLPCfr6g,8325
+bigstream/configure_irm.py,sha256=NUde92K0dFxnnW_Kz-h9DHz0sJeppzDyYa-gjnGS7-E,7732
+bigstream/features.py,sha256=pBW5f9GPekcObjmLrN73fzdpVrLYSCRLFRiyL0LoWm4,2038
+bigstream/metrics.py,sha256=b3ezu6osiZgWp7PZ4ZaijecBmAwdy30lC4JBi2H5OgU,2019
+bigstream/piecewise_align.py,sha256=99vLlRs6wvhbNgn_FMWTLOdUNvi-zY2DtDJqo1k0Zgg,25235
+bigstream/piecewise_transform.py,sha256=bp2uuTryZNQDmKqx_wXRJw86UB-c88OKPHeT9KgAIDU,10915
+bigstream/transform.py,sha256=2e2WkiHyge3j8xQfh8tsEZe0B2S63BvDl57HrsSHhAM,10207
+bigstream/utility.py,sha256=kDcrkHVXR_n5gjaHHCSLmnkvt3lBrZEbi6Daekl9XOY,6900
+bigstream-1.0.0.dist-info/LICENSE.txt,sha256=gLSiHgmSxpmpOOS2MALG_gXpmHEln9RHWEYR93-sAb4,1083
+bigstream-1.0.0.dist-info/METADATA,sha256=Da3RGGl7CIpgp8gq4NTGPENMejK4Uw27apHgzkpxmbM,762
+bigstream-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bigstream-1.0.0.dist-info/top_level.txt,sha256=YCK58GN8Mac8eGocyQJiQA5zz5rQ-sXU2zYpK5o9kNU,10
+bigstream-1.0.0.dist-info/RECORD,,
