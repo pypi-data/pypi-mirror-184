@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+ypy-websocket<0.6.0
+jupyter
+tabulate
+setuptools
+pytest-mpl
+pytest
+
+[complete]
