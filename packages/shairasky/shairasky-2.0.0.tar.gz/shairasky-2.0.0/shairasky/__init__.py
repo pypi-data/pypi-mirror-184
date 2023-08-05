@@ -1,0 +1,1 @@
+from shairasky.shairasky import Weather

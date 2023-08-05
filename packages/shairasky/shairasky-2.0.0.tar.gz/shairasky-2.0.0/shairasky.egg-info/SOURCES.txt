@@ -1,0 +1,8 @@
+setup.py
+shairasky/__init__.py
+shairasky/shairasky.py
+shairasky.egg-info/PKG-INFO
+shairasky.egg-info/SOURCES.txt
+shairasky.egg-info/dependency_links.txt
+shairasky.egg-info/requires.txt
+shairasky.egg-info/top_level.txt
