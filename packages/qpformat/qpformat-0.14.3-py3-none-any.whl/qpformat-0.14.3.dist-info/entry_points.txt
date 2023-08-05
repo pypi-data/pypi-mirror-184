@@ -1,0 +1,2 @@
+[console_scripts]
+qpinfo = qpformat.cli:qpinfo
