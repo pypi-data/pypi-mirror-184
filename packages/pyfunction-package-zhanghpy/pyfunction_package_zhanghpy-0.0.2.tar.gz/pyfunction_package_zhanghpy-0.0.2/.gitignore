@@ -1,0 +1,13 @@
+/sqlkey.py
+/*.xml
+/launch.json
+/*.pyc
+/__pycache__
+/__pycache__/*.pyc
+/.idea
+/.vscode/launch.json
+
+.idea/
+__pycache__/
+*.pyc
+.vscode/
