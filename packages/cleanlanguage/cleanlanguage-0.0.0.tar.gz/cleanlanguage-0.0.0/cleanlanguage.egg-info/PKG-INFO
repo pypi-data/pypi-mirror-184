@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cleanlanguage
+Version: 0.0.0
+Author-email: ulyana@cleanlab.ai
+License: AGPLv3+
+Keywords: nlp cv text_data issue_detection data_quality image_quality machine_learning data_cleaning
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.7
