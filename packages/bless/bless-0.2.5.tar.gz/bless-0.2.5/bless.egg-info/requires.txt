@@ -1,0 +1,4 @@
+bleak
+
+[:platform_system == "Windows"]
+pywin32
