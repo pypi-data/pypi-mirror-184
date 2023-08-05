@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+cleanvideo.egg-info/PKG-INFO
+cleanvideo.egg-info/SOURCES.txt
+cleanvideo.egg-info/dependency_links.txt
+cleanvideo.egg-info/requires.txt
+cleanvideo.egg-info/top_level.txt
