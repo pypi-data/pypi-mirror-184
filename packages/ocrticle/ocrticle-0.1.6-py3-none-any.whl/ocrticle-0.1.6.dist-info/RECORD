@@ -1,0 +1,11 @@
+ocrticle/__init__.py,sha256=eZOVB7mf0OoiH2SSnNtTgdh_zb3YGwGTVuabtXSJn-s,67
+ocrticle/article.py,sha256=oGxE4Qm6SU7VR0pAxnG26yGZ3YRhsr_VY4IjqQxfNe0,7860
+ocrticle/geometry.py,sha256=Lnr55yRufIK2EMLdvs4_wxH1ZvD2tcOJ5XxH45_vBbo,4797
+ocrticle/gui.py,sha256=vhmmTL9ph5VbTUuAacmLvNPwmPWbTqkexpx8ohx4vF4,14826
+ocrticle/main.py,sha256=3FuGuAi6r_c5_EtGyMebTNf2bqdU-RtZoAmax4KJbw0,995
+ocrticle/ocrticle.kv,sha256=VslgFNq-fIpTvCI3hhm5Pi2wbCMHVyjNnlr2ebZ1LGk,10794
+ocrticle-0.1.6.dist-info/entry_points.txt,sha256=V0u4CCsNfVVZmt3gOHVbNDFv8H1FaFzQ4tAz9Z5oSk4,47
+ocrticle-0.1.6.dist-info/LICENSE,sha256=JLTr59_O2v8qHsqiKt-16s06Dy1mr6DVfbZ6G2kfS-4,1100
+ocrticle-0.1.6.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+ocrticle-0.1.6.dist-info/METADATA,sha256=PEit-YP1zIrP6CtND6AFSMkkoY8vQZi0NC6xAtPBq44,1049
+ocrticle-0.1.6.dist-info/RECORD,,
