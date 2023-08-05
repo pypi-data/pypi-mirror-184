@@ -1,0 +1,10 @@
+cv2_multistack/LICENSE,sha256=q5AZUyTwx8nlW-2D2bxuQd36rLJ9EDulKh76xA09pj8,1069
+cv2_multistack/README.MD,sha256=FAVbFpJJhijfjUz9cnUMiwq9Gg4F67IoqXrG1QLmYGE,1426
+cv2_multistack/__init__.py,sha256=N171b6y3i8dnTJ1gGwCg1yzTEfLX_b3FDvF3u1P7A3Q,1415
+cv2_multistack/requirements.txt,sha256=5D9InRgtokQEYuVNsxV5EIzqc8OACPQ0xnnk54NAP20,46
+cv2_multistack/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+cv2_multistack-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+cv2_multistack-0.10.dist-info/METADATA,sha256=oj9MbcJbkaC59fPwI7OSyhK_UPYO4nr85rdT8l-74F8,2407
+cv2_multistack-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cv2_multistack-0.10.dist-info/top_level.txt,sha256=gCC7xOU-gzJDhEMHryNe_k2v6Byo8-mqcbbmVy2lyGk,15
+cv2_multistack-0.10.dist-info/RECORD,,
