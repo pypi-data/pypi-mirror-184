@@ -1,0 +1,3 @@
+linear_operator>=0.2.0
+scikit-learn
+torch>=1.11
