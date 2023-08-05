@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: shortvideo
+Version: 1.0.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: netfere
+Author-email: netfere@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: cos-python-sdk-v5 (==1.9.21)
+Requires-Dist: fake-useragent (==1.1.1)
+Requires-Dist: qcloud-cos (==3.3.6)
+
+UNKNOWN
+
