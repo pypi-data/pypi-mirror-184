@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: TaxSEA
+Version: 0.0.5
+Summary: Taxonomic set enrichment analysis toolkit
+Home-page: https://github.com/abdohlman/TaxSEA
+Author: Anders B. Dohlman
+Author-email: abdohlman@gmail.com
+License-File: LICENSE

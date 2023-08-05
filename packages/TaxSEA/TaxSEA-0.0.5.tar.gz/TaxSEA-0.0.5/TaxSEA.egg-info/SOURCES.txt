@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+TaxSEA/TaxSEA.py
+TaxSEA/__init__.py
+TaxSEA/__main__.py
+TaxSEA/gmt_tools.py
+TaxSEA.egg-info/PKG-INFO
+TaxSEA.egg-info/SOURCES.txt
+TaxSEA.egg-info/dependency_links.txt
+TaxSEA.egg-info/entry_points.txt
+TaxSEA.egg-info/top_level.txt
