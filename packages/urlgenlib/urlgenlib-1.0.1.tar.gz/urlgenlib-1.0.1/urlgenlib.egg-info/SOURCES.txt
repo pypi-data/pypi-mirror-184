@@ -1,0 +1,7 @@
+setup.py
+urlgenlib/__init__.py
+urlgenlib.egg-info/PKG-INFO
+urlgenlib.egg-info/SOURCES.txt
+urlgenlib.egg-info/dependency_links.txt
+urlgenlib.egg-info/requires.txt
+urlgenlib.egg-info/top_level.txt
