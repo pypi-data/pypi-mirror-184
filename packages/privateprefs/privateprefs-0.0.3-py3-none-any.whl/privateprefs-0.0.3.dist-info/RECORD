@@ -1,0 +1,11 @@
+privateprefs/Delete.py,sha256=kEyB-sDe_R10oVrcyrJsUvOBu9N2_ELPvQyQ7jzbd38,97
+privateprefs/__about__.py,sha256=oloBA0LPIqUCGRCqLBt7v5027n2u54xHB88RW43tB7g,132
+privateprefs/__init__.py,sha256=c0Lp1JynIfTlII9OxOLDUjyR7G8shp1j6Uw4X-6ifUI,186
+privateprefs/privateprefs.py,sha256=yH5XkgLjPnTEPZEw1_pbQQi2R1EZJvLBf2xsNpyGfbk,3013
+privateprefs/cli/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+privateprefs/cli/cli.py,sha256=y7cf66SDAk6dNGwWsS1lJGvHDGEJyaRq7lJHCGMIlsY,4811
+privateprefs/data/prefs.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+privateprefs-0.0.3.dist-info/METADATA,sha256=ZNGVE2M6RsDiW6pZm3hDzyvVgy1WjmK0ptBvbRRVvf8,2118
+privateprefs-0.0.3.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+privateprefs-0.0.3.dist-info/entry_points.txt,sha256=wCM_2EPYxyynG7iR8ugr5GEOb_7hbRD5zHzGtoSgBrM,59
+privateprefs-0.0.3.dist-info/RECORD,,
