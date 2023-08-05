@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bettermap/__init__.py
+bettermap/bettermap.py
+bettermap.egg-info/PKG-INFO
+bettermap.egg-info/SOURCES.txt
+bettermap.egg-info/dependency_links.txt
+bettermap.egg-info/requires.txt
+bettermap.egg-info/top_level.txt
