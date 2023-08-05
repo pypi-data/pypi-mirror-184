@@ -1,0 +1,23 @@
+#pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_package_visual_analysis"
+version = "0.0.1"
+authors = [
+  { name="Selvakumar", email="selvakumar.k@vit.ac.in" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kskumaree/sampleproject"
+"Bug Tracker" = "https://github.com/kskumaree/sampleproject/issues"
