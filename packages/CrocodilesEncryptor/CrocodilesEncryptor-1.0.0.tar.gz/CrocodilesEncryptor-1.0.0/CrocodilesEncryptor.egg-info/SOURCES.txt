@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+CrocodilesEncryptor/CrocodilesEncryptor.py
+CrocodilesEncryptor/__init__.py
+CrocodilesEncryptor.egg-info/PKG-INFO
+CrocodilesEncryptor.egg-info/SOURCES.txt
+CrocodilesEncryptor.egg-info/dependency_links.txt
+CrocodilesEncryptor.egg-info/top_level.txt
