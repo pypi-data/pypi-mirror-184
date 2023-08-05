@@ -1,0 +1,58 @@
+# WARNING !!!
+# =============================================================================
+#
+# This file is auto-generated from environment_dev.yml file, do not modify it directly.
+#
+# See in `environment_dev.yml` for more information.
+#
+# =============================================================================
+
+quadprog
+brukeropusreader
+numpy-quaternion
+colorama
+dill
+ipython
+jinja2
+matplotlib
+numba
+numpy
+pint
+requests
+scipy
+tqdm
+traitlets
+traittypes
+xlrd
+pyyaml
+ipywidgets
+ipympl
+setuptools
+setuptools_scm
+gitpython
+jupyterlab
+nodejs
+pytest
+pytest-doctestplus
+pytest-flake8
+pytest-mock
+pyfakefs
+scikit-image
+coverage
+black
+pre-commit
+cffconvert
+mamba
+docrep
+jupytext
+sphinx
+sphinx_rtd_theme
+autodocsumm
+sphinx-gallery
+nbsphinx
+jupyter_sphinx
+json5
+sphinx-copybutton
+numpydoc
+pandoc
+autodoc_traits

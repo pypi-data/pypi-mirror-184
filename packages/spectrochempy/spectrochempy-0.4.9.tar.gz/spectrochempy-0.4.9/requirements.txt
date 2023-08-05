@@ -1,0 +1,32 @@
+# WARNING !!!
+# =============================================================================
+#
+# This file is auto-generated from environment.yml file, do not modify it directly.
+#
+# See in `environment.yml` for more information.
+#
+# =============================================================================
+
+quadprog
+brukeropusreader
+numpy-quaternion
+colorama
+dill
+ipython
+jinja2
+matplotlib
+numba
+numpy
+pint
+requests
+scipy
+tqdm
+traitlets
+traittypes
+xlrd
+pyyaml
+ipywidgets
+ipympl
+setuptools
+setuptools_scm
+gitpython
