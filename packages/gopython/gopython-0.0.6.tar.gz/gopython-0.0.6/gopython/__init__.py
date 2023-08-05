@@ -1,0 +1,1 @@
+from gopython.gp import hello_world
