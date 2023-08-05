@@ -1,0 +1,57 @@
+from typing import Dict, List
+
+__all__ = ["BorgCounter", "DejaVue"]
+
+
+class BorgCounter:
+    """
+    A class that implements a static global counter.
+    Instances of this class all share the same global counter.
+    This is used in DictReader class to assure that multiple instances
+    of CppDict do not generate conflicting IDs for placeholder strings
+    (as would be the case otherwise when merging included dicts).
+    """
+
+    Borg = {"theCount": -1}
+
+    def __init__(self):
+        self.__dict__ = BorgCounter.Borg
+
+    def __call__(self):
+        self.theCount += 1
+        #   Small tweak for our use case: As we have only six digits available in our placeholder strings,
+        #   we don't want the counter to exceed this. Fair to start again at 0 then :-)
+        if self.theCount > 999999:
+            self.theCount = 0  # pyright: ignore
+        return self.theCount
+
+    @staticmethod
+    def reset():
+        BorgCounter.Borg["theCount"] = -1
+
+
+class DejaVue:
+    """Return True if string repeats after initializing class."""
+
+    djv: Dict[str, List[str]] = {"strings": []}
+
+    def __init__(self):
+        self.__dict__ = DejaVue.djv
+        self.ret_val: bool = False
+
+    def __call__(self, string: str):
+
+        if string in self.djv["strings"]:
+            self.ret_val = True
+
+        self.djv["strings"].append(string)
+
+        return self.ret_val
+
+    @property
+    def strings(self):
+        return self.djv["strings"]
+
+    def reset(self):
+        self.djv["strings"] = []
+        self.ret_val = False
