@@ -1,0 +1,6 @@
+setup.py
+chromaprint/__init__.py
+pychromaprint.egg-info/PKG-INFO
+pychromaprint.egg-info/SOURCES.txt
+pychromaprint.egg-info/dependency_links.txt
+pychromaprint.egg-info/top_level.txt
