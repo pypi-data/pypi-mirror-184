@@ -1,0 +1,38 @@
+[project]
+name = 'hatch-msgfmt'
+version = '0.0.1'
+description = 'Msgfmt build hook, replacing all po with mo in build'
+license = {text = 'MIT'}
+readme = 'README.md'
+requires-python= '>=3.7'
+dependencies = [
+  'hatch',
+]
+
+classifiers = [
+  'Development Status :: 1 - Planning',
+  'Programming Language :: Python :: 3',
+  'Framework :: Hatch',
+]
+
+
+[[project.authors]]
+name = 'Taylor C. Richberger'
+email = 'tcr@absolute-performance.com'
+
+[[project.maintainers]]
+name = 'Taylor C. Richberger'
+email = 'tcr@absolute-performance.com'
+
+[project.urls]
+repository = 'https://github.com/absperf/hatch-msgfmt'
+
+[project.entry-points.hatch]
+msgfmt = 'hatch_msgfmt.hooks'
+
+[build-system]
+build-backend = 'hatchling.build'
+requires = ['hatchling']
+
+[tool.hatch.build]
+packages = ['src/hatch_msgfmt']
