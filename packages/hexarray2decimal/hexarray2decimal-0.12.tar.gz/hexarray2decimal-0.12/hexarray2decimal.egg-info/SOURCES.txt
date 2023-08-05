@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+hexarray2decimal/LICENSE
+hexarray2decimal/README.MD
+hexarray2decimal/__init__.py
+hexarray2decimal/requirements.txt
+hexarray2decimal/thirdparty.json
+hexarray2decimal.egg-info/PKG-INFO
+hexarray2decimal.egg-info/SOURCES.txt
+hexarray2decimal.egg-info/dependency_links.txt
+hexarray2decimal.egg-info/requires.txt
+hexarray2decimal.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+include hexarray2decimal/requirements.txt
+include hexarray2decimal/thirdparty.json
+include hexarray2decimal/README.MD
+include hexarray2decimal/LICENSE
