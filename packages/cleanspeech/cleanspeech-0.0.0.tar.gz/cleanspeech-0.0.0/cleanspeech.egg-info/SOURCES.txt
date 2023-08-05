@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+cleanspeech.egg-info/PKG-INFO
+cleanspeech.egg-info/SOURCES.txt
+cleanspeech.egg-info/dependency_links.txt
+cleanspeech.egg-info/requires.txt
+cleanspeech.egg-info/top_level.txt
