@@ -1,0 +1,46 @@
+[project]
+name = "eh-fifty"
+dependencies = [
+  "pyusb>=1.2.1,<2",
+  "simple-hexdump==0.0.1",
+]
+authors = [
+  { name="Tom Dryer", email="tomdryer.com@gmail.com" },
+]
+description = "Library for configuring the Astro A50 wireless headset and base station (generation 4)"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/tdryer/eh-fifty"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "eh_fifty.py"
+
+[tool.hatch.envs.test]
+dependencies = [
+  "black",
+  "isort",
+  "mypy",
+  "pylint",
+  "pytest",
+]
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = "fixme"
+
+[tool.pylint.REPORTS]
+score = "no"
+
+[tool.mypy]
+ignore_missing_imports = true
