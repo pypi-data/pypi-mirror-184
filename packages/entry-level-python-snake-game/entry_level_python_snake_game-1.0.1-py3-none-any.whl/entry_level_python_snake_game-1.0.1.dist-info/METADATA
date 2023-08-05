@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: entry-level-python-snake-game
+Version: 1.0.1
+Summary: A entry level Python Snake Game
+Home-page: https://github.com/felipezucco/python_snake_game
+Author: Felipe Zucco
+Author-email: aux.felipecostazucc@gmail.com
+Project-URL: Bug Tracker, https://github.com/felipezucco/python_snake_game/issues
+Project-URL: repository, https://github.com/felipezucco/python_snake_game
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Entry level Python Snake Game
+
+### Resume
+This is small game was created to pratice my python skills and make a fun game.
+
+## Libraries
+To built it was used some simples built-in lib as *keyboard*, *threading*, *time*, *random*
+and at least an external lib named *curses* to manipulate *prompt* screen. 
+
+## The Idea
+The first idea for the project was to create a snake game that was possible to
+catch the rabbit at the same time that you needed to run from an eagle.
+Furthermore, you would have skills to increase the chance to run that eagle as throwing poison
+and etc...
+At first was just programmed to rabbit runs and the remains is a normal snake game.
+
+## Playing
+![Python-Snake-Game](python-snake-gif.gif)
