@@ -1,0 +1,11 @@
+
+[:python_version < "3.7"]
+dataclasses
+
+[all]
+boto3
+click
+
+[conf]
+boto3
+click
