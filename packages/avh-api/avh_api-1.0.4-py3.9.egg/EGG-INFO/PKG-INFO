@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: avh-api
+Version: 1.0.4
+Summary: Arm API
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Description:     REST API to manage your virtual devices.  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,Arm API
+Platform: UNKNOWN
+Requires-Python: >=3.6
