@@ -1,0 +1,7 @@
+tabulate
+
+[dev]
+black[d]
+pytest
+build
+twine
