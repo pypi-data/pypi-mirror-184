@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+parm_geo.egg-info/PKG-INFO
+parm_geo.egg-info/SOURCES.txt
+parm_geo.egg-info/dependency_links.txt
+parm_geo.egg-info/top_level.txt
