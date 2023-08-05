@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+feather/__init__.py
+feather/__main__.py
+feather/_misc.py
+feather/base.py
+feather/sqlite.py
+feather.py.egg-info/PKG-INFO
+feather.py.egg-info/SOURCES.txt
+feather.py.egg-info/dependency_links.txt
+feather.py.egg-info/requires.txt
+feather.py.egg-info/top_level.txt
