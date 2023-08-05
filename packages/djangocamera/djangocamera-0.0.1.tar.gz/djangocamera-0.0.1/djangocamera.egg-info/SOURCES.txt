@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+djangocamera/__init__.py
+djangocamera/camera.py
+djangocamera/streaming.py
+djangocamera.egg-info/PKG-INFO
+djangocamera.egg-info/SOURCES.txt
+djangocamera.egg-info/dependency_links.txt
+djangocamera.egg-info/requires.txt
+djangocamera.egg-info/top_level.txt
