@@ -1,0 +1,9 @@
+drb/addons/metadata/sentinel3/__init__.py,sha256=i1OTn1AdngdvNxFCdH3rIUEtMcHkWARFlEpONKBbGMI,73
+drb/addons/metadata/sentinel3/_version.py,sha256=GUSxxHny9vVwWZnZMOt7u2gLS3P4VEE50PWbOCqIk4M,497
+drb/addons/metadata/sentinel3/cortex.yaml,sha256=CXTIj6XBmy5zUnjVGOyUPoZYqVhlDumERdw34EQUE8A,16337
+drb_metadata_sentinel3-1.1.0.data/data/requirements.txt,sha256=G1lacSeLGdFfxx20QF-Vwd67S3ylyaJwJnLqEI4ar4I,64
+drb_metadata_sentinel3-1.1.0.dist-info/METADATA,sha256=H0Px6pfRU9yX-uMDUvf5wbEt6rxgo49yFfLqurhfHkg,6924
+drb_metadata_sentinel3-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+drb_metadata_sentinel3-1.1.0.dist-info/entry_points.txt,sha256=E76tQNe8onna4kOnwWEUTXRNan0JOGikjzaKrjJSw5U,58
+drb_metadata_sentinel3-1.1.0.dist-info/top_level.txt,sha256=tp7x0jo6KHy7P4LzX36tRyB2qZR7OiCZCAQGzrq25E0,4
+drb_metadata_sentinel3-1.1.0.dist-info/RECORD,,
