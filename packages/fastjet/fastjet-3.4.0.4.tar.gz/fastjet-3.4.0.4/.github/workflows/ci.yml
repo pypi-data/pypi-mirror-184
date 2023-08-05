@@ -1,0 +1,152 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - master
+      - main
+      - develop
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pre-commit:
+    name: Format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-python@v4
+      - uses: pre-commit/action@v3.0.0
+        with:
+          extra_args: --hook-stage manual --all-files
+
+  checks:
+    name: Check Python ${{ matrix.python-version }}, ${{ matrix.arch }} on ${{ matrix.runs-on }}
+    runs-on: ${{ matrix.runs-on }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.7", "3.11"]
+        runs-on: [ubuntu-latest, macos-latest]
+        arch: [auto64]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install compiler tools on macOS
+        if: runner.os == 'macOS'
+        run: |
+          brew install make gcc automake swig gmp mpfr boost
+          export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
+
+      - name: Install extra deps on Linux
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libboost-dev libmpfr-dev swig autoconf libtool
+
+      - name: Install package
+        run: |
+          echo $PATH
+          python -m pip install '.[test]' -v
+
+      - name: Test package
+        run: python -m pytest -vv -rs -Wd
+
+  checks_alt:
+    name: Check Python ${{ matrix.python-version }}, ${{ matrix.arch }} on ${{ matrix.runs-on }}
+    runs-on: ${{ matrix.runs-on }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.7", "3.11"]
+        runs-on: [ubuntu-latest]
+        arch: [aarch64]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - uses: uraimo/run-on-arch-action@v2.5.0
+        name: Install and test in image
+        with:
+          # workaround for https://github.com/uraimo/run-on-arch-action/issues/55
+          env: |
+            GITHUB_WORKFLOW: ${{ github.workflow }}-python${{ matrix.python-version }}
+          arch: ${{ matrix.arch }}
+          distro: ubuntu_latest
+          # Not required, but speeds up builds
+          githubToken: ${{ github.token }}
+          dockerRunArgs: |
+            --volume "${PWD}:/fastjet" --platform linux/arm64 --workdir /fastjet
+          install: |
+            uname -m
+            apt-get update
+            apt-get -y install --no-install-recommends ca-certificates gnupg2 build-essential libboost-dev libmpfr-dev swig patch automake autoconf libtool
+            echo 'deb https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy main' >> /etc/apt/sources.list
+            echo 'deb-src https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy main' >> /etc/apt/sources.list
+            apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA6932366A755776
+            apt-get update
+            apt-get -y install --no-install-recommends python${{ matrix.python-version }} python${{ matrix.python-version }}-dev python${{ matrix.python-version }}-distutils python${{ matrix.python-version }}-venv
+            python${{ matrix.python-version }} -m venv /venv
+          run: |
+            uname -m
+            echo "PATH: ${PATH}"
+            echo "PWD: ${PWD}"
+            . /venv/bin/activate
+            python -m pip install --upgrade pip setuptools wheel
+            python -m pip install '.[test]' -v
+            pytest -vv -rs -Wd
+
+  test_wheels:
+    name: "Wheel: ${{ matrix.python }}, ${{ matrix.arch }} on ${{ matrix.os }}"
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: [311]
+        arch: [auto64]
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      - uses: docker/setup-qemu-action@v2.1.0
+        if: matrix.arch != 'auto64'
+        with:
+         platforms: all
+
+      - name: Install compiler tools on macOS
+        if: runner.os == 'macOS'
+        run: |
+          brew install make gcc automake swig gmp mpfr boost
+          export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
+
+      - uses: pypa/cibuildwheel@v2.11.4
+        env:
+          CIBW_ARCHS: ${{ matrix.arch }}
+          CIBW_BUILD: cp${{ matrix.python }}-*
+          CIBW_BUILD_VERBOSITY: 2
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          path: wheelhouse/*.whl
+
+  pass:
+    needs: [pre-commit, checks, checks_alt, test_wheels]
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "All jobs passed"
