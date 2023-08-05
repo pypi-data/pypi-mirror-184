@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: steam_interfaces
+Version: 0.1.1
+Summary: Python module for writing scripts for project management platform Steam
+Home-page: https://github.com/Weebp-Team/steamapi
+Download-URL: https://github.com/Weebp-Team/steamapi/archive/main.zip
+Author: Tarodictrl
+Author-email: vudi600@gmail.com
+License: MIT License, see LICENSE file
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# steam_api
+
+Python library for working with the Steam API.
+
+## Installation (Not work now.)
+
+```sh
+pip install steam_interfaces 
+```
+
+## Dependencies
+
+[requests](https://pypi.org/project/requests/)
