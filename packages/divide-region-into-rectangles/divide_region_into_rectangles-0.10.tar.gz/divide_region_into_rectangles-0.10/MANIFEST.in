@@ -1,0 +1,4 @@
+include divide_region_into_rectangles/requirements.txt
+include divide_region_into_rectangles/thirdparty.json
+include divide_region_into_rectangles/README.MD
+include divide_region_into_rectangles/LICENSE

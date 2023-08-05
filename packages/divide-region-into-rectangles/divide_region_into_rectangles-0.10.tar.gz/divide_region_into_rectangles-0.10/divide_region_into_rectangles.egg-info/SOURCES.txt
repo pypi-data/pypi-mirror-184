@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+divide_region_into_rectangles/LICENSE
+divide_region_into_rectangles/README.MD
+divide_region_into_rectangles/__init__.py
+divide_region_into_rectangles/requirements.txt
+divide_region_into_rectangles/thirdparty.json
+divide_region_into_rectangles.egg-info/PKG-INFO
+divide_region_into_rectangles.egg-info/SOURCES.txt
+divide_region_into_rectangles.egg-info/dependency_links.txt
+divide_region_into_rectangles.egg-info/top_level.txt
