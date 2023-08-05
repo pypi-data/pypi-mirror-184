@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+pandora_storage_server_client/__init__.py
+pandora_storage_server_client/pandora_client.py
+pandora_storage_server_client.egg-info/PKG-INFO
+pandora_storage_server_client.egg-info/SOURCES.txt
+pandora_storage_server_client.egg-info/dependency_links.txt
+pandora_storage_server_client.egg-info/top_level.txt
