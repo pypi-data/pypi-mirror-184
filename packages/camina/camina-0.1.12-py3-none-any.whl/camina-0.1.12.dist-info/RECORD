@@ -1,0 +1,12 @@
+camina/__init__.py,sha256=_jZFqHhjRrjifHVw8Lg1dMekierJEBKN6MF1K8B0C_4,2854
+camina/base.py,sha256=mtII3uz7SyiEAX_au30oJKPpB7H913runZ1s83BbyaI,10689
+camina/clock.py,sha256=QhaBCdmmf3lRbM4yf4rfSp9XJFFfHm0G3IovUMJmOGw,3185
+camina/convert.py,sha256=lg-BMwe0Jx_Miag8wCIHU8dS5TKLAji1rtJPNA94s5g,20840
+camina/mapping.py,sha256=yv21NKLvPRrqvU5jv-rD-DwyI4dHm4MyYvOtR2yTncE,16559
+camina/modify.py,sha256=2bFeosuDEvbRIKwm5DFIfsdJqspmWg1oT6sg5WL0tOk,30570
+camina/represent.py,sha256=e2eAT3y_noVfA7JUeSsCWw3AFTR8AtwXU55xB7GN7uA,12122
+camina/sequence.py,sha256=2GzAwpGhxdaDNtXYeTSIBt10N2-0_Z1K164yoTztWfo,15054
+camina-0.1.12.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+camina-0.1.12.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+camina-0.1.12.dist-info/METADATA,sha256=_AqzN5Qkq71ONo5zkhbYg-Q62dAUOH363DNHu2mzNC8,5011
+camina-0.1.12.dist-info/RECORD,,
