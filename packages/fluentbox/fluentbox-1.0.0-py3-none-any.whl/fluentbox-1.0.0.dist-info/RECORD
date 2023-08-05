@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/fluentbox/__init__.py,sha256=x1cw9l7Eu-x2h9ddigz7JqlysorDDQPWLi1V1Wu1XI4,233
+src/fluentbox/box.py,sha256=zQlaZzZmr8dcJG8EYCWJD2Zl-Zdwzlpogs8y4LoPzHc,7639
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_sequence_box.py,sha256=bIpCt_eokogo50yZLAfXCme7gfzwPo8hWTVV2qne_TQ,13184
+fluentbox-1.0.0.dist-info/METADATA,sha256=omzsz4wHN2a9sogxvaLeqEGcvdP6KDYTEi9d_T1yhNc,689
+fluentbox-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fluentbox-1.0.0.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+fluentbox-1.0.0.dist-info/RECORD,,
