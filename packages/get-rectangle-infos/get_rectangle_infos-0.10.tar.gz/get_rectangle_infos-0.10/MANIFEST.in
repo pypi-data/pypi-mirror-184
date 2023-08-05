@@ -1,0 +1,4 @@
+include get_rectangle_infos/requirements.txt
+include get_rectangle_infos/thirdparty.json
+include get_rectangle_infos/README.MD
+include get_rectangle_infos/LICENSE

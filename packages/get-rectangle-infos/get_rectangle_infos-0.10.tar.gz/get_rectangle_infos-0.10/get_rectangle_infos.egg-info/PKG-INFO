@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: get-rectangle-infos
+Version: 0.10
+Summary: There are 3 common rectangle formats, and converting them all the time really is a pain in the a**
+Home-page: https://github.com/hansalemaos/get_rectangle_infos
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: rectangle,convert,coordinates
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# There are 3 common rectangle formats, and converting them all the time really is a pain in the a**
+### Using this function, you get all 3 formats, center coordinates, height, width and the area
+
+
+```python
+# Tested with:
+# Python 3.9.13
+# Windows 10
+
+pip install get-rectangle-infos
+
+from get_rectangle_infos import get_rectangle_information
+
+format_1x4 = (0, 0, 100, 200)
+format_4x2 = [(0, 0), (100, 0), (100, 200), (0, 200)]
+format_2x2 = [(0, 0), (100, 200)]
+
+print(get_rectangle_information(rect=(0, 0, 100, 200)))
+# Rect(format_1x4=(0, 0, 100, 200), format_4x2=[(0, 0), (100, 0), (100, 200), (0, 200)], format_2x2=[(0, 0), (100, 200)], height=200, width=100, area=20000, center=(50, 100))
+
+print(get_rectangle_information(rect=[(0, 0), (100, 0), (100, 200), (0, 200)]))
+# Rect(format_1x4=(0, 0, 100, 200), format_4x2=[(0, 0), (100, 0), (100, 200), (0, 200)], format_2x2=[(0, 0), (100, 200)], height=200, width=100, area=20000, center=(50, 100))
+
+print(get_rectangle_information(rect=[(0, 0), (100, 200)]))
+# Rect(format_1x4=(0, 0, 100, 200), format_4x2=[(0, 0), (100, 0), (100, 200), (0, 200)], format_2x2=[(0, 0), (100, 200)], height=200, width=100, area=20000, center=(50, 100))
+
+
+
+	
+```
+
+
+
+

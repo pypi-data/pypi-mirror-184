@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+get_rectangle_infos/LICENSE
+get_rectangle_infos/README.MD
+get_rectangle_infos/__init__.py
+get_rectangle_infos/requirements.txt
+get_rectangle_infos/thirdparty.json
+get_rectangle_infos.egg-info/PKG-INFO
+get_rectangle_infos.egg-info/SOURCES.txt
+get_rectangle_infos.egg-info/dependency_links.txt
+get_rectangle_infos.egg-info/requires.txt
+get_rectangle_infos.egg-info/top_level.txt
