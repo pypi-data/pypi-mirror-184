@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: reposcraping
+Version: 0.0.1
+Summary: Scraping GitHub repository
+Author: emresvd
+Keywords: github,scraping,repository,clone
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
