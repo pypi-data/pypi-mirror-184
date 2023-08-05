@@ -1,0 +1,12 @@
+nostrfastr/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+nostrfastr/_modidx.py,sha256=fa3Yo8afwsUQrly7nkhEZtrIoLx00qMudC_-KNV8LLU,13399
+nostrfastr/client.py,sha256=UxF2SVtgfvRng93X1KvrANsak7bA_f2DW7wXl6cunTw,16741
+nostrfastr/nostr.py,sha256=HFDOVpqdV-_rFF0vYms4lppfP9AiMV6SSdhx7sIWNns,6631
+nostrfastr/notifyr.py,sha256=pxhsFGwq3UWWPH_TpNfPlor-sy9EP0DV8eT4gHNMqz8,4908
+nostrfastr/vanity.py,sha256=VuTxyIyQXU3xXbTfJbYhqUUpJ2JcSE6rmvNAJOR8WwI,1692
+nostrfastr-0.0.1.dist-info/LICENSE,sha256=rMvq2ZqXzM2_Q7bnCKDrifpQLwNezNT1LYS8RIzUcBM,1071
+nostrfastr-0.0.1.dist-info/METADATA,sha256=bTW6IqFRbgwRqsLqhZhrYIBq_aYTlbT6t6eoQ0j1XO0,4427
+nostrfastr-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nostrfastr-0.0.1.dist-info/entry_points.txt,sha256=nmInz3e-R_MHSEBnQfhrQNfW0R_JI8xFTGDM5WvaTVk,42
+nostrfastr-0.0.1.dist-info/top_level.txt,sha256=CslbN9uo6lot32SFrWQhNhl3ZQyvFuTcjgowOpKmQoQ,11
+nostrfastr-0.0.1.dist-info/RECORD,,
