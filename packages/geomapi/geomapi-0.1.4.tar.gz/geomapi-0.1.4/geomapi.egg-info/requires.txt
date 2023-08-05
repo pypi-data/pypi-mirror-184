@@ -1,0 +1,15 @@
+open3d
+opencv-python
+pye57
+numpy
+numpy-quaternion
+rdflib
+opencv-python
+typing_extensions
+matplotlib
+install-ifcopenshell-python==0.1.0
+scipy
+Pillow
+XlsxWriter
+trimesh
+python-fcl
