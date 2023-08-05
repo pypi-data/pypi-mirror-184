@@ -1,0 +1,3 @@
+recursive-include dist/obfuscated/merged/btgatt/pytransform *.so
+recursive-include dist/obfuscated/merged/btgatt/res *.json
+recursive-include dist/obfuscated/merged/btgatt/server *.sh
