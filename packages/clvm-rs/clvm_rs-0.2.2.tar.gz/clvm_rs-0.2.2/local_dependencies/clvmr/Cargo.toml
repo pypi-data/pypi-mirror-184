@@ -1,0 +1,36 @@
+[package]
+name = "clvmr"
+version = "0.2.2"
+authors = ["Richard Kiss <him@richardkiss.com>"]
+edition = "2021"
+license = "Apache-2.0"
+description = "Implementation of `clvm` for Chia Network's cryptocurrency"
+homepage = "https://github.com/Chia-Network/clvm_rs/"
+repository = "https://github.com/Chia-Network/clvm_rs/"
+readme = "README.md"
+
+[lib]
+name = "clvmr"
+crate-type = ["rlib"]
+
+[features]
+# when enabling the "counters" features, the CLVM interpreter is instrumented to
+# collect counters about the programs it executes
+counters = []
+
+# when enabled, pre-eval and post-eval callbacks are enabled. This is useful for
+# debugging and tracing of programs.
+pre-eval = []
+
+[profile.release]
+lto = true
+
+[dependencies]
+hex = "=0.4.3"
+lazy_static = "=1.4.0"
+num-bigint = "=0.4.3"
+num-traits = "=0.2.15"
+num-integer = "=0.1.45"
+bls12_381 = "=0.7.0"
+sha2 = "=0.10.2"
+openssl = { version = "=0.10.40", features = ["vendored"], optional = true }
