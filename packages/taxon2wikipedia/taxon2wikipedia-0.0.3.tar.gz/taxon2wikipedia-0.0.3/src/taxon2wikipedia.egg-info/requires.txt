@@ -1,0 +1,11 @@
+SPARQLWrapper
+beautifulsoup4
+click
+clipboard
+mwparserfromhell
+pywikibot
+requests
+wdcuration
+
+[tests]
+pytest
