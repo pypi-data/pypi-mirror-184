@@ -1,0 +1,4 @@
+selenium>=4.7
+requests>=2.28
+requests-html>=0.10
+networkx>=2.8
