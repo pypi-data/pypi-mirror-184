@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: rldog
+Version: 0.1.0
+Summary: Core 4 Reinforcement learning algorithms, implemented with very high quality code (think type hints, tests, pep8 etc). Very easy to use with gym or gym-like environments
+License: MIT
+Author: Charlie
+Author-email: CharlieJackCoding@Gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gym (==0.26.2)
+Requires-Dist: matplotlib (>=3.6.2,<4.0.0)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: pytest (>=7.2.0,<8.0.0)
+Requires-Dist: rich (>=13.0.0,<14.0.0)
+Requires-Dist: torch (==1.13.1)
+Description-Content-Type: text/markdown
+
+# PyRL
+Environment Agnostic RL algorithm implementations using Pytorch. High quality code, typehints, thorough tests, examples.
+Also uses minibatches correctly, which most public libraries don't implement.
+
+
+See examples for some, well, examples. Algos implemented:
+
+1. *Deep Q Learning (DQN)* <sub><sup> ([Mnih et al. 2013](https://arxiv.org/pdf/1312.5602.pdf)) </sup></sub>  
+ --- UPCOMING ---
+2. *DQN Experience Replay*  <sub><sup> ([Mnih et al. 2013](https://arxiv.org/pdf/1312.5602.pdf)) </sup></sub> 
+3. *DQN with Fixed targets* <sub><sup>([Mnih et al. 2013](https://arxiv.org/pdf/1312.5602.pdf)) </sup></sub> 
+4. *Double Q Learning (DDQN)* <sub><sup> ([arXiv:1509.06461v3 [cs.LG] 8 Dec 2015](https://arxiv.org/pdf/1509.06461v3.pdf)) </sup></sub>   
+5. REINFORCE <sub><sup> ([Richard S. Sutton et al 1999](https://proceedings.neurips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf))
+6. Advantage Actor Critic ([arXiv:1611.06256](https://arxiv.org/abs/1611.06256))
+
+3. PPO
+
+What i'm happy with
+Quality of the code, thorough tests, majority of functionality, ease of use & versatility
+
+Run tests with: pytest tests
