@@ -1,0 +1,8 @@
+fixie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fixie/client.py,sha256=dzh7EluApWBNns8NckHP5SGhpVxZ9Sw9AIZBqQskhwk,3933
+fixie/client_test.py,sha256=m4D-vvntALQNbLw5ZceGFhtd1Lrt5Z-WYYh-TCp1AQ8,1570
+fixie/main.py,sha256=xrU0pURMqrvdvMajXiA2uze5tUIlUFHH9FyMMTIz6Co,2118
+fixie_sdk-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fixie_sdk-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+fixie_sdk-0.1.0.dist-info/METADATA,sha256=0NqnlDvyFUh0pJuCTZNtR9kNKFYeWQ_XqyD6oscyEaI,578
+fixie_sdk-0.1.0.dist-info/RECORD,,
