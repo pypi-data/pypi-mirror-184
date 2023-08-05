@@ -1,0 +1,3 @@
+[console_scripts]
+zoritori=zoritori.cli:main
+
