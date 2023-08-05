@@ -1,0 +1,10 @@
+codeium/__init__.py,sha256=fW9yiGUUFLZIFw7atj0LNu-E8b43t6QfLsZ5XoefGxk,1081
+codeium/codeium.py,sha256=hcY-cpZrz6obNqCP1xaR-7TQTQ_TFewHjyLuuAkAQE0,7358
+codeium/handler.py,sha256=wQpWBBnirHgqTcSBV0zRnZQKjwa2bRTi-yhwhNNozVc,626
+codeium/static/README.rst,sha256=iSwVPgcIk_iHo0W652SDMv1qJkkIbiyuWsqLeFhHljw,2058
+codeium/static/codeium.yaml,sha256=autURo16A50WObCOOez_6e7ZtjyL6jTYFby63Gm79_U,205
+codeium/static/main.css,sha256=_IvKy55_iI03CeuIinJDgqf72IzhkNWRvwCa7aW2edY,107
+codeium/static/main.js,sha256=9vLPXcJNHTk5g3DRu7Z0WuNhHFUnz5IAYwCoYtSBWOU,20044
+codeium_jupyter-1.1.13.dist-info/METADATA,sha256=vaeVzxBEzcNHr2amCP5vYBkWmRnNdHWjgehyIFQiIKw,2468
+codeium_jupyter-1.1.13.dist-info/RECORD,,
+codeium_jupyter-1.1.13.dist-info/WHEEL,sha256=sobxWSyDDkdg_rinUth-jxhXHqoNqlmNMJY3aTZn2Us,91
