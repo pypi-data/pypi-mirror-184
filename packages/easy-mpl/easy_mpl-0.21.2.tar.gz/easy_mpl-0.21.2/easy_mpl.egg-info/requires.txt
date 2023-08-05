@@ -1,0 +1,7 @@
+matplotlib
+
+[all]
+numpy
+matplotlib
+pandas
+scipy
