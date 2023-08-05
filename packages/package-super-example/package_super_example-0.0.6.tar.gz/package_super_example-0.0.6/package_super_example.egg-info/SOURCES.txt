@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+package_super_example/__init__.py
+package_super_example/module.py
+package_super_example.egg-info/PKG-INFO
+package_super_example.egg-info/SOURCES.txt
+package_super_example.egg-info/dependency_links.txt
+package_super_example.egg-info/requires.txt
+package_super_example.egg-info/top_level.txt
