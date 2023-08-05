@@ -1,0 +1,7 @@
+downdot.py
+setup.py
+downdot.egg-info/PKG-INFO
+downdot.egg-info/SOURCES.txt
+downdot.egg-info/dependency_links.txt
+downdot.egg-info/requires.txt
+downdot.egg-info/top_level.txt
