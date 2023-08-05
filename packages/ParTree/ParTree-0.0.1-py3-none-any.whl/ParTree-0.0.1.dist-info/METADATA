@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ParTree
+Version: 0.0.1
+Summary: Package description
+Home-page: https://github.com/cri98li/ParTree
+Author: Cristiano Landi
+Author-email: cri98li@gmail.com
+License: BSD-Clause-2
+Keywords: keyword1 keyword2 keyword3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Other
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.15.*)
+Requires-Dist: scikit-learn (>=0.21.*)
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Provides-Extra: flag
+
+# ParTree
+
+## Data Partitioning through Tree-based Clustering Method
+
+
+

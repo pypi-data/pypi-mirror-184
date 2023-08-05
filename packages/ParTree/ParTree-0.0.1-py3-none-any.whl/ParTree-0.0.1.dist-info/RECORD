@@ -1,0 +1,17 @@
+ParTree/__init__.py,sha256=q5jH9BfJuMZ3pguH7m40MVUpIZpOzqA0_83oxibN3ZA,31
+ParTree/algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ParTree/algorithms/bic_estimator.py,sha256=4P6dp7BlyhAF0-plYWPzdrFwEN9nbhV5WifVKaaJJ58,6972
+ParTree/algorithms/data_splitter.py,sha256=XASCLMs_DYVJKKMMm2yvfuCBayyTcKr8SaBpv3fj-Tw,3102
+ParTree/classes/CenterParTree.py,sha256=FTN4ktUb-TKH8QvdnSghC7iofKJVND_BofasPIsKgis,5788
+ParTree/classes/CenterParTree2.py,sha256=9k7WlBoS5hf7onwdWKSzBks-Hz-QHvsvOzVC1QFUeFQ,5667
+ParTree/classes/ImpurityParTree.py,sha256=_f1ai66CvbHSloZ1qKCP3_Klqar9zQqo6gFgHFRDDBc,6687
+ParTree/classes/ImpurityParTree2.py,sha256=uY5f_dtuVZlI-UpcS4_2C8WOGmzSvhN_3zdlAE69XLM,6493
+ParTree/classes/ParTree.py,sha256=9hq3AKRXAdQTRpsmASvi4fCtHCVNCS-jx0tDKQA_msI,13737
+ParTree/classes/ParTree_node.py,sha256=q9toGScSl7P-1G3wLzlpvdZstBwU9OQ0OKWZq8Un2ug,480
+ParTree/classes/PrincipalParTree.py,sha256=PTo_EEZo-PechlofLwrTQjLeCCQAPVInWw_iXyJGwgk,3599
+ParTree/classes/__init__.py,sha256=otJxuk-FQtlyFDiBF5K4sRJ1yG1AD1XyumLKG9IiGIc,30
+ParTree-0.0.1.dist-info/LICENSE,sha256=6EkP2Rp31WfML6BK1oHp-6ehBxpmlIXd97PSXG477ac,1318
+ParTree-0.0.1.dist-info/METADATA,sha256=6J6T3KzdJ2AIX6MNi3yDayZ48Uvhh7HoXl0ZGN61kao,928
+ParTree-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ParTree-0.0.1.dist-info/top_level.txt,sha256=iB0MK87a54GzX8PwddQwWL5OLQB1yN7kgsUzVmzmwWk,8
+ParTree-0.0.1.dist-info/RECORD,,
