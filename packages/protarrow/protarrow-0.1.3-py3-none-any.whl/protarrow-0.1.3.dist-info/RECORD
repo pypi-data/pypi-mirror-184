@@ -1,0 +1,10 @@
+protarrow/__init__.py,sha256=y5foZJY6vJo-Njfc1_1rA90DZwRVo5Khp8kKbErh2H0,754
+protarrow/arrow_to_proto.py,sha256=mn1AMKewR_N6ahSldeqHengCbbopBxYZlOfg-XmPqhc,19405
+protarrow/cast_to_proto.py,sha256=aZZ3r_IvFQxx_rD9mvB-9MUirv7gWRBPY5FHSbiB2SU,7596
+protarrow/common.py,sha256=-COlLGKN1MfXaN-TsyubthjBfez8NsG2KXBrozOEhn0,1236
+protarrow/message_extractor.py,sha256=mQYIQvkw2h8w1gedIH0H0HC0m1eh0hTG6o-KqiT3yJk,4622
+protarrow/proto_to_arrow.py,sha256=iJkeZhHIMzHr1Rixqy1osBeT5Jo7Mn9y1xZF4pd6qc0,18838
+protarrow-0.1.3.dist-info/METADATA,sha256=v6WQ-D-QnePHoMzcoJ-jvqMYn4LOldfyQOS2epQFpxM,3506
+protarrow-0.1.3.dist-info/LICENSE,sha256=uyjEjj4HgWbpHPwrbbf_67iglzueI7PfBgVhKS2Naew,10140
+protarrow-0.1.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+protarrow-0.1.3.dist-info/RECORD,,
