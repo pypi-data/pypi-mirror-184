@@ -1,0 +1,60 @@
+[project]
+name = "mkdocs-terminal"
+
+description = "Terminal.css theme for MkDocs"
+
+version = "0.2.4"
+
+authors = [
+    { name = "Natan Organick" }
+]
+
+readme = "README.md"
+
+license = {file = "LICENSE"}
+
+requires-python = ">=3.7"
+
+keywords = ["mkdocs"]
+
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Environment :: Web Environment",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Topic :: Documentation",
+  "Topic :: Software Development :: Documentation",
+  "Topic :: Text Processing :: Markup :: HTML",
+]
+
+[project.urls]
+Source = "https://github.com/ntno/mkdocs-terminal"
+Issues = "https://github.com/ntno/mkdocs-terminal/issues"
+
+[project.entry-points."mkdocs.themes"]
+terminal = "mkdocs.themes.terminal"
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["mkdocs"]
+include = ["*"]
+namespaces = false
+
+[tool.hatch.version]
+path = "mkdocs/__init__.py"
+
+[tool.hatch.build]
+artifacts = ["/mkdocs/**/*.mo"]
+[tool.hatch.build.targets.sdist]
+include = ["/mkdocs"]
+[tool.hatch.build.targets.wheel]
+exclude = ["/mkdocs/tests/integration", "*.po", "*.pot", "babel.cfg"]
+[tool.hatch.build.hooks.custom]
+dependencies = [
+    "babel",
+]
