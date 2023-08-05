@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="xas input" qualified_name="orangecontrib.est.widgets.utils.xas_input.XASInputOW" project_name="est" version="" title="xas input" position="(36.0, 93.0)" />
+		<node id="1" name="pre edge" qualified_name="orangecontrib.est.widgets.larch.pre_edge.PreEdgeOW" project_name="est" version="" title="pre edge" position="(353.0, 217.0)" />
+		<node id="2" name="autobk" qualified_name="orangecontrib.est.widgets.larch.autobk.AutobkOW" project_name="est" version="" title="autobk" position="(486.0, 283.0)" />
+		<node id="3" name="xftf" qualified_name="orangecontrib.est.widgets.larch.xftf.XFTFOW" project_name="est" version="" title="xftf" position="(648.0, 352.0)" />
+		<node id="4" name="noise" qualified_name="orangecontrib.est.widgets.utils.noise.NoiseOW" project_name="est" version="" title="noise" position="(817.0, 440.0)" />
+		<node id="5" name="energy ROI" qualified_name="orangecontrib.est.widgets.utils.energyroi.EnergyRoiOW" project_name="est" version="" title="energy ROI" position="(217.0, 163.0)" />
+		<node id="6" name="plotdata" qualified_name="orangecontrib.est.widgets.utils.plotspectrumdata.PlotSpectrumDataOW" project_name="est" version="" title="plotdata" position="(998.0, 508.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="1" sink_node_id="2" source_channel="xas_obj" sink_channel="xas_obj" enabled="true" />
+		<link id="1" source_node_id="0" sink_node_id="5" source_channel="xas_obj" sink_channel="xas_obj" enabled="true" />
+		<link id="2" source_node_id="5" sink_node_id="1" source_channel="xas_obj" sink_channel="xas_obj" enabled="true" />
+		<link id="3" source_node_id="2" sink_node_id="3" source_channel="xas_obj" sink_channel="xas_obj" enabled="true" />
+		<link id="4" source_node_id="3" sink_node_id="4" source_channel="xas_obj" sink_channel="xas_obj" enabled="true" />
+		<link id="5" source_node_id="4" sink_node_id="6" source_channel="xas_obj" sink_channel="xas_obj" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
