@@ -1,0 +1,8 @@
+aoi/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+aoi/__main__.py,sha256=Pv-FWhm-VyXeUxe-nOpCxxe7fU33lPbvEpiGs7GM5Is,34
+aoi/_misc.py,sha256=sGWdGhXei9cXD7pV5n5xWS0ftY8nQfWqiJHnGyqJqZA,1593
+aoi/base.py,sha256=5phnUXzzl6IrmkDOfHFaWxzLnuedyUbm3YBr5u8XWW4,2706
+aoi/sqlite.py,sha256=3yiFOUL__S2RP5xgtCW4xC6o4vFb4mIOkWnLZOs8Jww,956
+aoi-0.1.1.dist-info/METADATA,sha256=jJ2hT3d4D8HFrplyt-5HP-RlBmR7u3nsExnOPyXI_Dg,1340
+aoi-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+aoi-0.1.1.dist-info/RECORD,,

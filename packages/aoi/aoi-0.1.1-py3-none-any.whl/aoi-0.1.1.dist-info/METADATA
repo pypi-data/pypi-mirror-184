@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: aoi
+Version: 0.1.1
+Summary: SQLITE3 CLI wrapper build on python.
+License: MIT
+Author: sarthhh
+Author-email: shiva02939@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Description-Content-Type: text/markdown
+
+# 🍥 aoi
+A simple python based sqlite3 CLI.
+
+---
+
+## Usage 
+```sh
+$python -m aoi [-c "path to connect"]
+```
+using the -c/--connect option will connect the application to the provided db file path.
+
+If no option is provided, `:memory:` ( in memory database ) will be used.
+
+## Additional Features
+
+Apart from normal sqlite quries you can run the following commands within the CLI:
+
+`:h/:help`: Get help for commands.
+
+`:q/:quit`: Exit the CLI.
+
+`:r/:recent [amount=5]`: Show last [amount=5] queries.
+
+---
+## Requirements
+* Python (3.8 or later)
+
+Installing aoi in your environment using pip, poetry or any favourable package manager
+```sh
+# pip
+$python -m pip install git+https://github.com/sarthhh/aoi.git
+# poetry
+$poetry add git+https://github.com/sarthhh/aoi.git
+```
