@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: parm-geo
+Version: 0.0.0
+Summary: test_code
+Home-page: https://github.com/lrxjason/
+Author: Ruixu
+Author-email: lrxjason@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+upload_test
+
