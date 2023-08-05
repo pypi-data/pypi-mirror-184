@@ -1,0 +1,9 @@
+SPARQLWrapper
+beautifulsoup4
+click
+clipboard
+requests
+wdcuration
+
+[tests]
+pytest
