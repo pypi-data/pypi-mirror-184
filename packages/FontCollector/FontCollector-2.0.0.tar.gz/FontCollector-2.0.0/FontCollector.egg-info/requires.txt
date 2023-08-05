@@ -1,0 +1,5 @@
+ass
+ass-tag-analyzer
+fontTools
+freetype-py
+matplotlib>=3.6
