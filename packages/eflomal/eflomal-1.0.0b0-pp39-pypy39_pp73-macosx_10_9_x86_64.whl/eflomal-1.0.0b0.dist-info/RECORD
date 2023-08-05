@@ -1,0 +1,11 @@
+eflomal-1.0.0b0.dist-info/RECORD,,
+eflomal-1.0.0b0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+eflomal-1.0.0b0.dist-info/WHEEL,sha256=hYENoTBUAfaD-HuFCiayfIGVDP6ISJKZtsrZQLdfYOo,116
+eflomal-1.0.0b0.dist-info/top_level.txt,sha256=6Aya7AzhcZAA7otMwAMAV2eignTEqyrHxxtU05edrkk,8
+eflomal-1.0.0b0.dist-info/METADATA,sha256=R4-fR8JbccKQ1d7R58Gp3-9BQS3IfZ9N_ocU9Z8rOCI,8492
+eflomal-1.0.0b0.data/scripts/eflomal-align,sha256=mWsqkQ0lFx3oPA1DuAiJ_rGjqpinmhW-svr8AsEzKqg,7066
+eflomal-1.0.0b0.data/scripts/eflomal-makepriors,sha256=NVR4W4ypygjWoB4GeWWWPgaVYxPiETPGL_qLPm5CKg4,3493
+eflomal/cython.pypy39-pp73-darwin.so,sha256=Pxt4x_SuqEE6bNnhdGUUav7aB8TKU8Jebr0YnhazOcc,98208
+eflomal/__init__.py,sha256=3KPac8VOBDYX42XmlBqEPHAT_bROFz9SQZtQ_Krig5o,12214
+eflomal/bin/eflomal,sha256=r7brmLdj8QOptgFikr7TalJec8MO_xutue_T8WZTC6U,108272
+eflomal/.dylibs/libgomp.1.dylib,sha256=HU1vp6fF_uyjswirgbQ_lH-xg0WMMy4Z7C4k4ej-YVM,438032
