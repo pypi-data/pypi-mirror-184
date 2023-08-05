@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: oath-ldap-web
+Version: 1.0.2
+Summary: OATH-LDAP web application
+Home-page: https://oath-ldap.stroeder.com
+Download-URL: https://pypi.org/project/oath-ldap-web/#files
+Author: Michael Stroeder
+Author-email: michael@stroeder.com
+Maintainer: Michael Stroeder
+Maintainer-email: michael@stroeder.com
+License: Apache-2.0
+Keywords: LDAP,OpenLDAP,OATH,OATH-LDAP,HOTP,TOTP,Yubikey
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+OATH-LDAP web applications
+==========================
+
+[OATH-LDAP](https://oath-ldap.stroeder.com/) directly integrates
+OTP-based two-factor authentication into
+[OpenLDAP](https://www.openldap.org) *slapd*.
+
+This package implements the web applications:
+
+  * Simple OATH enrollment web application
+
+Requirements
+------------
+
+  * Python 3.6+
