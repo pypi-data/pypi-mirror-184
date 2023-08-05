@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: currency-rate
+Version: 0.1.0
+Summary: Exchange rates and currency conversion
+Home-page: https://github.com/deadmerc/currency_rate
+Author: Maxim Milchakov
+Author-email: maxim.milchakov@ya.ru
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Internationalization
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: simplejson
+Requires-Dist: incremental
+
+Python library for easy currency conversion.
+Features:
+List of currency rates relatively base currency
+List of currencies
+Get history currency rate
+Convert one currency to another with specific amount
+Currency symbols
+Currency description
