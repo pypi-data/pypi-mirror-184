@@ -1,0 +1,2 @@
+[pdm]
+update-interactive = pdm_update_interactive:update_interactive
