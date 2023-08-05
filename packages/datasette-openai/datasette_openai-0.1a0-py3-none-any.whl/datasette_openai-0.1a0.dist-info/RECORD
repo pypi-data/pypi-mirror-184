@@ -1,0 +1,7 @@
+datasette_openai/__init__.py,sha256=43BBTqd6RbbRhxSW6mIWICvFlsR6TjYKKvfAxqwzweQ,1645
+datasette_openai-0.1a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_openai-0.1a0.dist-info/METADATA,sha256=jpYVeKx_WdpSg7ImxO2CtRMmgzijZlE1OKBrjmX4hI0,3892
+datasette_openai-0.1a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+datasette_openai-0.1a0.dist-info/entry_points.txt,sha256=-wWwndDsl8IcXaBa7nWuEcf84S2toXpA7EzuAwZ4wvg,38
+datasette_openai-0.1a0.dist-info/top_level.txt,sha256=QInsiAzRt5vVNEs6e-vNC4DD8QX9aN4gmBHPoRpaYRI,17
+datasette_openai-0.1a0.dist-info/RECORD,,
