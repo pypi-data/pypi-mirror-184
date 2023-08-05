@@ -1,0 +1,6 @@
+PyJWT
+requests
+redis
+xj_role
+rest_framework
+xmltodict
