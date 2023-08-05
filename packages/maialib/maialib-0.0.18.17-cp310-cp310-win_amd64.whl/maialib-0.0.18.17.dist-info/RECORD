@@ -1,0 +1,11 @@
+maialib/__init__.py,sha256=ku5FJ1prG4Bc_SyXHfZIkU2NpiA38HVUfjKksPDFVTc,48
+maialib/maiacore/__init__.py,sha256=UilyfHU5tPR_6cmL8zlihlLWjrSHYbqg0RJ6TiLoubg,25
+maialib/maiacore/Release/maiacore.cp310-win_amd64.pyd,sha256=Q4XKQX22Jmx06HC5sjexRtZ-xP8AHIGK6YAoNzkiYhg,3811328
+maialib/maiapy/__init__.py,sha256=Bl1VOROS0ljStZvoHmHjknJ0bpnpLXi85D5tnPuacss,44
+maialib/maiapy/other.py,sha256=rFZEJpAt10CBEmFykj8mIGgIja2TDZhdc0BIaGH4s2c,34
+maialib/maiapy/plots.py,sha256=El0yuClTUQM3HKIEjNWEVkj2oOBc13Wjcjxatzb3RGk,69
+maialib-0.0.18.17.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+maialib-0.0.18.17.dist-info/METADATA,sha256=tUtMSFNHKpqQA5RuQNoSq6oesgGbFe7LHUIFleAAsHE,5111
+maialib-0.0.18.17.dist-info/WHEEL,sha256=rneS2j8QNmAwdNKHN86s6-qP7AMcWZgqiEoH3bdbh_Y,102
+maialib-0.0.18.17.dist-info/top_level.txt,sha256=sZWQaa-Up2ba00WpAxBhOLKM6qQYTpUKJMXgSE0Nc48,17
+maialib-0.0.18.17.dist-info/RECORD,,
