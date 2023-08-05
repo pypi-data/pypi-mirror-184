@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{# templates/index.html #}
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="score.css">
+  </head>
+    <body>
+        <h1>Findings</h1>
+        <table class="styled-table">
+          <tr>
+            <th>Category</th>
+            <th>Source</th>
+            <th>Details</th>
+          </tr>
+          {% for finding in findings %}
+          <tr>
+            <td>{{ finding.category }}</td>
+            <td>{{ finding.file }}</td>
+            <td>{{ finding.details}}</td>
+          </tr>
+        {% endfor %}
+        </ul>
+        <p>Timestamp: {{ time }}</p>
+    </body>
+</html>
