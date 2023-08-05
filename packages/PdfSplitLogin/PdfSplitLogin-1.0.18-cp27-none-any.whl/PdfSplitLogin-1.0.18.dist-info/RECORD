@@ -1,0 +1,9 @@
+dbr/__init__.py,sha256=mFBSxVjHiqNLpPy8tf4WTc8CvieOvdUuiJqDW91BL9E,20
+dbr/core.py,sha256=I-hrFMMntdT4gnSAQxibQRVefJKJVVeqjNT919wfZOA,149
+dbr/login.py,sha256=gqlWtnmXI7NVIngAD3PbHUreU1QlPSy3UQ-El-m44Vk,26243
+dbr/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+PdfSplitLogin-1.0.18.dist-info/LICENSE.txt,sha256=Tu4oofMTUhQiM4w4eV71tVTkh6e1hF9vN7FSpK_ULEI,1090
+PdfSplitLogin-1.0.18.dist-info/METADATA,sha256=ajr_gB9yyHx2VL-jj_oa4FV_N2yL0mfiP2Q-Zs5cYUA,964
+PdfSplitLogin-1.0.18.dist-info/WHEEL,sha256=mu1ALEq5OkmcQuOFS_wiOySVyH_WULpbz1QuC6FxU-A,93
+PdfSplitLogin-1.0.18.dist-info/top_level.txt,sha256=RtnRuv17zC0FTWgII9msEV_uFpxjilu6Jag3kKXZZ-Q,4
+PdfSplitLogin-1.0.18.dist-info/RECORD,,
