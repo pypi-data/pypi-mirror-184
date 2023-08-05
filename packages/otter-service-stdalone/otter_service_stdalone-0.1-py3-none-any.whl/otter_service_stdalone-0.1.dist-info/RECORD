@@ -1,0 +1,10 @@
+otter_service_stdalone/__init__.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+otter_service_stdalone/app.py,sha256=4Mp4l5Ndo4r7XpUS8TePtPpxVmhnbUVYM0Ax93tqP7k,5172
+otter_service_stdalone/index.html,sha256=vmw6fWkaXv9O8vpM1cqVcLaRo0Xd8X3J341odIJ4ccM,5540
+otter_service_stdalone/secrets/gh_key.yaml,sha256=1G6ch6IgtBiqe2CR3ERCs9G32jcM5u7qp6l-MBoS-uk,983
+otter_service_stdalone/secrets/gke_key.yaml,sha256=NZmD3cnf9bnySIil2FPmT_ft77i7jYjh7arYD8miUGY,1229
+otter_service_stdalone-0.1.dist-info/METADATA,sha256=kXS95t6Xde-RGFfyi2XwQjijb_BP3KkAEEmt6dJ0_wo,486
+otter_service_stdalone-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+otter_service_stdalone-0.1.dist-info/entry_points.txt,sha256=cx447chuIEl8ly9jEoF5-2xNhaKsWcIMDdhUMH_00qQ,75
+otter_service_stdalone-0.1.dist-info/top_level.txt,sha256=6UP22fD4OhbLt23E01v8Kvjn44vPRbyTIg_GqMYL-Ng,23
+otter_service_stdalone-0.1.dist-info/RECORD,,
