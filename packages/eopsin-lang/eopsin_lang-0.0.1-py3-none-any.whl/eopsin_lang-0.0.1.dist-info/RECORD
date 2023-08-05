@@ -1,0 +1,14 @@
+eopsin/__init__.py,sha256=tLl8WxJ_-nm9D9KJqncMVjp8VP9YMD9E-LhrX7Use9E,410
+eopsin/__main__.py,sha256=XQdvnIKJr3dZQmRGkmBazu-sg4jI8JOC_BB7rDyI27E,1746
+eopsin/compiler.py,sha256=4tbM0d5i4L3fBxd-8KNKXkhNz_-FzfY7C9MUWgIdo2Q,15194
+eopsin/prelude.py,sha256=VbgNh5apgwFkeEy5y3UzhEIBYYjfBNRBZduKmbsMtjA,3376
+eopsin/rewrite_augassign.py,sha256=fuCyZs45WHzlSJeQHRsKJfV7mI0YEN-kXkVYKdu64JM,529
+eopsin/rewrite_dataclass.py,sha256=15P8c79EejEl2NPh3LpAqOm0ZOZDngazLr1bVi4jTo8,1686
+eopsin/rewrite_for.py,sha256=hFwLww5ZRJhVaN-YFLm7cOjw1VoBjUvXdYWjcNLmIAQ,2571
+eopsin/rewrite_tuple_assign.py,sha256=72s5O9-tgDIidFsObi26xe8FFAbmbw4QCFssAAaQ4Dw,1023
+eopsin/type_inference.py,sha256=7oy_-2j1_dItSAV9k14LtECVnjK5xSZcURhpq20py2s,11375
+eopsin/typed_ast.py,sha256=zsSUms_FKRH6nnEghr_ELU4oG2vo_h_3wnf-ROEqkdI,4479
+eopsin_lang-0.0.1.dist-info/METADATA,sha256=dmBr1PDh8JiH7czNSuERGWPPIZPeqO4JWiUhkFeof-k,2480
+eopsin_lang-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+eopsin_lang-0.0.1.dist-info/top_level.txt,sha256=e_ib2e8YIGrjB0GwdZopx1hVZOqhsB-h-UQhj-NbeM4,7
+eopsin_lang-0.0.1.dist-info/RECORD,,
