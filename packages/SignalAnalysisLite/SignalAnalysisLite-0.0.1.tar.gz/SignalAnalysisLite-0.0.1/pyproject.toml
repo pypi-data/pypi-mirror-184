@@ -1,0 +1,8 @@
+[project]
+name = "SignalAnalysisLite"
+version = "0.0.1"
+authors = [
+    {name = "Russell Burgett", email = "rwb273@cornell.edu"},
+]
+readme = "README.md"
+requires-python = ">=3.8"
