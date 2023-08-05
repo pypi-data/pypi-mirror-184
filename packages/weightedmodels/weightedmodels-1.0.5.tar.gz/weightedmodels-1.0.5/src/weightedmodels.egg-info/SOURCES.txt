@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mainClass/__init__.py
+src/mainClass/core.py
+src/weightedmodels.egg-info/PKG-INFO
+src/weightedmodels.egg-info/SOURCES.txt
+src/weightedmodels.egg-info/dependency_links.txt
+src/weightedmodels.egg-info/requires.txt
+src/weightedmodels.egg-info/top_level.txt
