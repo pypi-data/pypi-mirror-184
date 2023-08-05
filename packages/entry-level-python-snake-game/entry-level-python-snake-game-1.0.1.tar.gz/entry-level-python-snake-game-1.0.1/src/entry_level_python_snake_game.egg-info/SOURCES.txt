@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/entry_level_python_snake_game.egg-info/PKG-INFO
+src/entry_level_python_snake_game.egg-info/SOURCES.txt
+src/entry_level_python_snake_game.egg-info/dependency_links.txt
+src/entry_level_python_snake_game.egg-info/top_level.txt
