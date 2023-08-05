@@ -1,0 +1,4 @@
+include play_audio_with_vlc/requirements.txt
+include play_audio_with_vlc/thirdparty.json
+include play_audio_with_vlc/README.MD
+include play_audio_with_vlc/LICENSE

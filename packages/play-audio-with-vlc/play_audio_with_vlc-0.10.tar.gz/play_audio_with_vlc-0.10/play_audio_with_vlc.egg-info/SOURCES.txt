@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+play_audio_with_vlc/LICENSE
+play_audio_with_vlc/README.MD
+play_audio_with_vlc/__init__.py
+play_audio_with_vlc/requirements.txt
+play_audio_with_vlc/thirdparty.json
+play_audio_with_vlc.egg-info/PKG-INFO
+play_audio_with_vlc.egg-info/SOURCES.txt
+play_audio_with_vlc.egg-info/dependency_links.txt
+play_audio_with_vlc.egg-info/requires.txt
+play_audio_with_vlc.egg-info/top_level.txt

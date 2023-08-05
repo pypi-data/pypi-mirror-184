@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: play-audio-with-vlc
+Version: 0.10
+Summary: Play audio with VLC (headless) without blocking the console
+Home-page: https://github.com/hansalemaos/play_audio_with_vlc
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: vlc,audio
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# Play audio with VLC (headless) without blocking the console
+
+```python
+# Tested with:
+# Python 3.9.13
+# Windows 10
+
+pip install play-audio-with-vlc
+
+from play_audio_with_vlc import play_with_vlc
+
+play_with_vlc(
+    file=r"F:\misfits-skulls.mp3", vlc_path=None, exit_keys="ctrl+alt+o"
+)
+
+
+```
+
+
+
