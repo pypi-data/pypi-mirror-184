@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: brownian-diffuser
+Version: 0.0.0
+Summary: Brownian diffuser
+Home-page: https://github.com/mvinyard/brownian-diffuser
+Author: Michael E. Vinyard - Harvard University - Broad Institute of MIT and Harvard - Massachussetts General Hospital
+Author-email: mvinyard@broadinstitute.org
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.12.0)
+
+# brownian-diffuser
+
+Forward integrate torch neural networks
+
+Similar to `torchsde.sdeint` or torchdiffeq.odeint` but for vanilla neural networks. 
