@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyfunction_package_zhanghpy
+Version: 0.0.2
+Summary: A simple user-defined function library
+Project-URL: Homepage, https://github.com/zhanghpy/pypa
+Project-URL: Bug Tracker, https://github.com/zhanghpy/pypa/issues
+Author-email: zhanghpy <zh15133119447@163.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is simple user-defined function library. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
