@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+josh22pdf.egg-info/PKG-INFO
+josh22pdf.egg-info/SOURCES.txt
+josh22pdf.egg-info/dependency_links.txt
+josh22pdf.egg-info/top_level.txt
+joshpdf/__init__.py
+joshpdf/pdf2text.py
