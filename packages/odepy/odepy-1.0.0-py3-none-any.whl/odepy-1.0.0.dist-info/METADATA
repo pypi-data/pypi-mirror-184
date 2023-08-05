@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: odepy
+Version: 1.0.0
+Summary: An extremely fast propagator for Python, in Python
+Author-email: Michele Ceresoli <michele.ceresoli7@gmail.com>, Andrea Pasquale <andrea.pasquale@outlook.it>
+Project-URL: homepage, https://github.com/MicheleCeresoli/odepy
+Project-URL: documentation, https://micheleceresoli.github.io/odepy/
+Project-URL: repository, https://github.com/MicheleCeresoli/odepy.git
+Keywords: integration,numba,speed
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: <3.11,>=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numba
+Requires-Dist: scipy
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest (~=6.2) ; extra == 'test'
+Requires-Dist: pytest-cov (~=2.12) ; extra == 'test'
+
+# odepy
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Stable Docs](https://img.shields.io/badge/docs-stable-blue.svg)](https://micheleceresoli.github.io/odepy/)
+[![Build Status](https://github.com/MicheleCeresoli/odepy/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/MicheleCeresoli/odepy/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/MicheleCeresoli/odepy/branch/main/graph/badge.svg?token=ECDAU1ZURX)](https://codecov.io/gh/MicheleCeresoli/odepy)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+An extremely fast propagator for Python, in Python.

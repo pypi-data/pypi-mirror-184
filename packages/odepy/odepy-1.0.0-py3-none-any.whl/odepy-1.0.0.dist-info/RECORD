@@ -1,0 +1,13 @@
+odepy/__init__.py,sha256=8XserM_0R_VLAyYEX9Xs_8hylzGYAzSPqALSrgmAcyY,454
+odepy/controllers.py,sha256=bBA0kcOmtZZ3fTB5eXdmseyohnnzd9xXPrtPPtkk2wA,6074
+odepy/dense.py,sha256=DxcrO4RKwy56CPQ4mUtXyG3ZOuLNVxxNQvSdm0nVyDY,5577
+odepy/events.py,sha256=Hq5DuA_dbmMzMCovVu9W97osXgU33HZTn-B0Us8fvy4,9738
+odepy/integrator.py,sha256=N4z08vawK7cK4lj33dlqHjc-mXHljCUByiehwTZmT0c,27289
+odepy/step.py,sha256=ASzvyAwgQvHGb-unb2Ez4vJhBJBcSL27NSTgRzOvpN8,13822
+odepy/tableaus.py,sha256=4ev89rf6SQwmNQUeFiw7vOp7dJi97G0Dsdmw3Wb6eoc,51976
+odepy/utils.py,sha256=jQ0FgsN-39K23Y8YkNxg33I0uwRJ6c4XWY3noIweYIo,1425
+odepy/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+odepy-1.0.0.dist-info/METADATA,sha256=AmgjpkJ4KtRsZOQJE_iYg2slLW0XyPHyjO6yVrRJ2iI,1776
+odepy-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+odepy-1.0.0.dist-info/top_level.txt,sha256=mPkEv-aa0n3SXtvDas7uW_IMAoAFGxkWd7I83sovRc0,6
+odepy-1.0.0.dist-info/RECORD,,
