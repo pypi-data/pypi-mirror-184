@@ -1,0 +1,14 @@
+LICENSE,sha256=RJ3-9u2M1ao9FJDQymYOZ27KJLYkWds-fzcwBpxetKc,1079
+word2quiz/.pytest_cache/.gitignore,sha256=Ptcxtl0GFQwTji2tsL4Gl1UIiKa0frjEXsya26i46b0,37
+word2quiz/.pytest_cache/CACHEDIR.TAG,sha256=N9yI75oKvt2-gQU6bdj9-xOvthMEXqHrSlyBWnSjveQ,191
+word2quiz/.pytest_cache/README.md,sha256=c_1vzN2ALEGaay2YPWwxc7fal1WKxLWJ7ewt_kQ9ua0,302
+word2quiz/.pytest_cache/v/cache/nodeids,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+word2quiz/.pytest_cache/v/cache/stepwise,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+word2quiz/__init__.py,sha256=zqnumc9wSPTVmFojeTBLYLbmoYyHOsc8fynPQV54aBc,475
+word2quiz/locales/en/LC_MESSAGES/base.po,sha256=IoP3gGn-8fmFByfgzT8zokaypNXCweUeytjFef-PH3Y,572
+word2quiz/main.py,sha256=yYAixW_h2H4jPf_mhDV3z89TqHceVv4AFWfc-KWHgtY,17532
+word2quiz/word2quiz.log,sha256=lAh-mcUbRq3NeW6BwuL8bfj8cRm67X0aVv7XYChr7fU,736123
+word2quiz-0.1.15.dist-info/LICENSE,sha256=RJ3-9u2M1ao9FJDQymYOZ27KJLYkWds-fzcwBpxetKc,1079
+word2quiz-0.1.15.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+word2quiz-0.1.15.dist-info/METADATA,sha256=q6bnYQ83l6gmuR3yQLb7nnOiXjgq3gIqEQ97vy45ip8,1437
+word2quiz-0.1.15.dist-info/RECORD,,
