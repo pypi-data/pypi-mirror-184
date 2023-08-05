@@ -1,0 +1,12 @@
+alphacore/__init__.py,sha256=1cVitfuvf2abGaHjEqkWPNveqiV1mtrunelBb0B3VL8,515
+alphacore/distributions.py,sha256=U2g0foNj9YYhxqWSvz3h-cHwxOC_oupRa53fhguqar8,43411
+alphacore/fit_distribution.py,sha256=zr4N9-w5QHTtsmlGzP-if0XEHEODSTk_e_RyJudLJbM,25607
+alphacore/fit_linear.py,sha256=PPZGutc-9u_QqLJdK4HSy_Dwajfcgna9aDg68Lo-I74,3308
+alphacore/sandbox.py,sha256=WTqv9nRpcK0QKc6islTWn10c7w7jbp0gnif9nsB-FD8,756
+alphacore/sandbox2.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alphacore/utils.py,sha256=P7-vPUtiyZ1XRsFbnLyOs6LIg5Qu8ifTnkxLUwgJRFc,193108
+alphacore-0.0.7.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+alphacore-0.0.7.dist-info/METADATA,sha256=ghhLhhr1bI0zEypy-oYOoglgmrUdcqcVlvKArIuyS3U,687
+alphacore-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+alphacore-0.0.7.dist-info/top_level.txt,sha256=vG7I4yTZtwFwNdmbVXX8ijPwQ0j5A1kKBdEhrocDydE,10
+alphacore-0.0.7.dist-info/RECORD,,
