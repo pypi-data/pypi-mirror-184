@@ -1,0 +1,9 @@
+ffhq_align/__init__.py,sha256=VF7xGA_K-Lt8GoUsNiE_kIwZYiGE16aZ4UYTz8XqJ5Q,222
+ffhq_align/__version__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+ffhq_align/module.py,sha256=o8dHtttH-AC_PeHk_P3rpGl-EGz3QYpsdKtOFpAbPYk,5356
+ffhq_align/ops.py,sha256=yLsVtbfzlsOe2gs2I13ALXk8GaFO4bO-Ca_nkfqsj4I,9981
+ffhq_align/utils.py,sha256=UzdPE87bChVzy0Hy5kroErwKsEPZHtCNyoLsxEnp3Fc,1677
+ffhq_align-1.0.0.dist-info/METADATA,sha256=GCc4FyGNX3TA06hQYaUlOkl_MPW89WnYJWunbAJTDrM,688
+ffhq_align-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ffhq_align-1.0.0.dist-info/top_level.txt,sha256=rtL0cbGJn7N8QvR6PPHf44u3s6FzIEUr4uH45wi-HfY,11
+ffhq_align-1.0.0.dist-info/RECORD,,
