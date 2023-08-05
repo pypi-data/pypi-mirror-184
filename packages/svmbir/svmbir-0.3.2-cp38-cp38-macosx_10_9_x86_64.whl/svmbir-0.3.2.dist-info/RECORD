@@ -1,0 +1,13 @@
+svmbir-0.3.2.dist-info/RECORD,,
+svmbir-0.3.2.dist-info/LICENSE,sha256=vchy_BUCaZafIUF-_rPkv6pJhjn5Iz54NhoE8z7wkOE,1559
+svmbir-0.3.2.dist-info/WHEEL,sha256=I1bcPHHR6tn3lGqH6h9j_EhkVKjU_znt4i8IyWREJLE,109
+svmbir-0.3.2.dist-info/top_level.txt,sha256=YK5QGj7Q_EL_WQDYW5Q-GWf8pFcPGhb6TruZZQ4ytfU,7
+svmbir-0.3.2.dist-info/METADATA,sha256=bl9v_mehQYuiIr6WQFl7uqAjqvYbQA41qhzMK8CM4fQ,1799
+svmbir/phantom.py,sha256=46bEaGEb2TvMpI4HoqBYdhESbiNJltha5PYauQC7MYc,10984
+svmbir/svmbir.py,sha256=Oe8lWW6ckMGFwIaNVlaPrBhJirQeUoTQ_mceA4Y8DTs,37994
+svmbir/interface_py_c.py,sha256=IM3Qyx6xePmfr4fs30FO4SeZ3Hem6dFzef-tWb8KLyA,22116
+svmbir/__init__.py,sha256=v-5A71VAj2FqIzwinL2jAhZWjUEw58qHlyZm7_Wk7Yw,217
+svmbir/interface_cy_c.cpython-38-darwin.so,sha256=n_BdK_T2o8LzTZdMtERwrQ24w24x7a9MADR__OPi4cE,533616
+svmbir/_utils.py,sha256=Ghe8_NvgezllZeLAKoUPosgmtMtJbamHVI6mfDOm7TE,14059
+svmbir/.dylibs/libgcc_s.1.dylib,sha256=UJWkx3sKkkBP-IwMKYsoGN6SmLUwQbZZniMK9Gg2Ubg,156448
+svmbir/.dylibs/libgomp.1.dylib,sha256=O40s-9RpqDxxvZTpLfFqMunBwYnOlyaGa7ArKMVTB_g,362096
