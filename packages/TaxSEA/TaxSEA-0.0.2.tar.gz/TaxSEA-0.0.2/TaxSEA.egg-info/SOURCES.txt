@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TaxSEA.egg-info/PKG-INFO
+TaxSEA.egg-info/SOURCES.txt
+TaxSEA.egg-info/dependency_links.txt
+TaxSEA.egg-info/top_level.txt
