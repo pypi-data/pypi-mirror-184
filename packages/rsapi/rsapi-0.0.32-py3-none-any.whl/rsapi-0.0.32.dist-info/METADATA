@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rsapi
+Version: 0.0.32
+Summary: Python library for accessing Runescape APIs
+Home-page: https://github.com/ostracker-xyz/pyrsapi
+Author: ostracker.xyz
+Author-email: admin@ostracker.xyz
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: idna (==3.4)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: urllib3 (==1.26.13)
+Provides-Extra: dev
+Requires-Dist: pytest (==6.2.2) ; extra == 'dev'
+Requires-Dist: responses (==0.13.1) ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest (==6.2.2) ; extra == 'tests'
+Requires-Dist: responses (==0.13.1) ; extra == 'tests'
+
