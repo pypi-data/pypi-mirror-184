@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nb2mail
+Version: 0.8
+Summary: Convert notebooks to email
+Home-page: http://github.com/nfultz/nb2mail
+Download-URL: https://github.com/nfultz/nb2mail/tarball/0.8
+Author: Neal Fultz
+Author-email: nfultz@gmail.com
+License: BSD
