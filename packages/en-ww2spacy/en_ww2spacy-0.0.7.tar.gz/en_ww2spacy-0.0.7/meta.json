@@ -1,0 +1,78 @@
+{
+  "lang":"en",
+  "name":"ww2spacy",
+  "version":"0.0.7",
+  "description":"This is a spaCy pipeline for processing primary and secondary sources pertaining to World War 2",
+  "author":"W.J.B. Mattingly",
+  "email":"",
+  "url":"https://github.com/wjbmattingly/ww2-spacy",
+  "license":"",
+  "spacy_version":">=3.4.4,<3.5.0",
+  "spacy_git_version":"77833bfef",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "sentencizer":[
+
+    ],
+    "span_ruler":[
+      "AIRBORN_DIVISION",
+      "AMPHIBIOUS_VESSEL",
+      "ANTI_TANK",
+      "ARMORED_DIVISION",
+      "BATTALION",
+      "BATTLE",
+      "BATTLESHIP",
+      "BLADE",
+      "CAMP",
+      "CARRIER",
+      "CARRIER_ESCORT",
+      "CAVALRY",
+      "CRUISER",
+      "DESTROYER",
+      "FLAMETHROWER",
+      "FRIGATE_DESTROYER_ESCORT",
+      "GRENADE",
+      "GUNBOAT",
+      "INFANTRY_DIVISION",
+      "MACHINE_GUN",
+      "MINE_VESSEL",
+      "MORTAR",
+      "MOUNTAIN_DIVISION",
+      "OPERATION",
+      "PISTOL",
+      "PLANE",
+      "RIFLE",
+      "SHOTGUN",
+      "SUBMACHINE_GUN",
+      "SUBMARINE",
+      "TANK"
+    ]
+  },
+  "pipeline":[
+    "sentencizer",
+    "span_ruler",
+    "military_personnel",
+    "find_ghetto",
+    "clean_spans",
+    "clean_tank"
+  ],
+  "components":[
+    "sentencizer",
+    "span_ruler",
+    "military_personnel",
+    "find_ghetto",
+    "clean_spans",
+    "clean_tank"
+  ],
+  "disabled":[
+
+  ],
+  "requirements":[
+
+  ]
+}
