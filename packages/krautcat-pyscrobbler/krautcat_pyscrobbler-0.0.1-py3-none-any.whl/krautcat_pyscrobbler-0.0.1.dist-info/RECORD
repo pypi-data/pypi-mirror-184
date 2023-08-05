@@ -1,0 +1,7 @@
+krautcat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+krautcat/lastfm/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+krautcat/lastfm/scrobbler.py,sha256=WizHYz9RunYjBBw6sgh6T3EbPjk4fxDOZt4oAJQGpw4,11501
+krautcat_pyscrobbler-0.0.1.dist-info/METADATA,sha256=kj7kdf5l87E-dDY85WWawXO9o90LUlTVxmw4vjwISw0,739
+krautcat_pyscrobbler-0.0.1.dist-info/WHEEL,sha256=uowK1IU2Mr84Y-Zer0AkNPWpF6NqJUMrUTigrBnI0N8,87
+krautcat_pyscrobbler-0.0.1.dist-info/entry_points.txt,sha256=p5KMnZ22vIg48bUDtCDq-G8Y1TEEhw99KWJPpRIspP4,78
+krautcat_pyscrobbler-0.0.1.dist-info/RECORD,,

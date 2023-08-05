@@ -1,0 +1,2 @@
+[console_scripts]
+krautcat-rockbox-scrobbler = krautcat.lastfm.scrobbler:main

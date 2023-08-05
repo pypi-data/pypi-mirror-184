@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: krautcat-pyscrobbler
+Version: 0.0.1
+Summary: .scrobbler.log (Rockbox offline last.fm scrobling format) submitter with support of timeless files
+Project-URL: Homepage, https://github.com/krautcat/pyscrobbler
+Author-email: Georgiy Odisharia <georgiy.odisharia@gmail.com>
+License-Expression: MIT
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: pyaml
+Requires-Dist: pylast
+Description-Content-Type: text/markdown
+
+# krautcat-pyscrobbler
+
+Scrobbler for `.scrobbler.log` files from Rockbox with support
+of multiple Last.fm profiles and recalculating of timeless log
+files.
+
+## Installation
+
+```
+pip install krautcat-pyscrobbler
+```
