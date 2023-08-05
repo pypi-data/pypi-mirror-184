@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.9.1
+------
+
+* Workaround the manage images command (#284)
