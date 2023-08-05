@@ -1,0 +1,8 @@
+numpy
+scipy
+jieba
+requests
+pdfplumber
+urllib
+json
+pandas
