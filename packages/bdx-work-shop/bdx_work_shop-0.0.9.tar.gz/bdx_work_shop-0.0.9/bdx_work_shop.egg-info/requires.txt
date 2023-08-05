@@ -1,0 +1,5 @@
+numpy
+numba
+brotli
+requests
+mido
