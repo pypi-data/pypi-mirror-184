@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: torchpruner
+Version: 0.0.1
+Summary: pruning pytorch neural networks
+Author: Ashhadul Islam, Samir Brahim Belhaouari
+License-File: LICENSE.rst
