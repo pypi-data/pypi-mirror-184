@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: launchdarkly-eventsource
+Version: 1.0.0
+Summary: LaunchDarkly SSE Client
+Home-page: https://github.com/launchdarkly/python-eventsource
+Author: LaunchDarkly
+Author-email: dev@launchdarkly.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+LaunchDarkly SSE Client for Python
+
