@@ -1,0 +1,4 @@
+include cv2_fit_text_in_box/requirements.txt
+include cv2_fit_text_in_box/thirdparty.json
+include cv2_fit_text_in_box/README.MD
+include cv2_fit_text_in_box/LICENSE

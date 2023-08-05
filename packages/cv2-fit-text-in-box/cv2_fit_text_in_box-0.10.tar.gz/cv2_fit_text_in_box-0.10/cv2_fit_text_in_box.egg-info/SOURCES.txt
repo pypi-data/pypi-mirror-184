@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cv2_fit_text_in_box/LICENSE
+cv2_fit_text_in_box/README.MD
+cv2_fit_text_in_box/__init__.py
+cv2_fit_text_in_box/requirements.txt
+cv2_fit_text_in_box/thirdparty.json
+cv2_fit_text_in_box.egg-info/PKG-INFO
+cv2_fit_text_in_box.egg-info/SOURCES.txt
+cv2_fit_text_in_box.egg-info/dependency_links.txt
+cv2_fit_text_in_box.egg-info/requires.txt
+cv2_fit_text_in_box.egg-info/top_level.txt
