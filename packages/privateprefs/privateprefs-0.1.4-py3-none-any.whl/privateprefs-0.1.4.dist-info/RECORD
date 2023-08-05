@@ -1,0 +1,11 @@
+privateprefs/__about__.py,sha256=v5PPNPlsi5DuwjO1dgCsjttf4hJKZlHEoi7w40EJfHk,132
+privateprefs/__init__.py,sha256=dVlKZ787IxmGW4ik2wBH5bJarWAt3b0tQYs6YaSM4rc,172
+privateprefs/privateprefs.py,sha256=QzPFOk63dFBQW2keJKV7Y6oV4q6RcaiXty_KvTxIqBs,837
+privateprefs/internal/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+privateprefs/internal/cli.py,sha256=Jp1GvcEw44HW202ctWoA5NrYpIt67NJv1mK8K11_xXY,4855
+privateprefs/internal/data_serializer.py,sha256=mV9UC030r_yiNrr14spFTS-jP56LxPR-ppym8px-hXE,3004
+privateprefs/internal/data/prefs.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+privateprefs-0.1.4.dist-info/METADATA,sha256=gGrUdgtQG3RGtAu6sz_prk5C_EYv5judYSbr-Hrj2DI,3911
+privateprefs-0.1.4.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+privateprefs-0.1.4.dist-info/entry_points.txt,sha256=pJreyhSVMqic07oZJAztEV5A5UYs64X8xVDRK9EfEPY,64
+privateprefs-0.1.4.dist-info/RECORD,,
