@@ -1,0 +1,10 @@
+dymaxion/__init__.py,sha256=cOL9ZNbhQhuOlKBv5LM0zWMHXFGretY45O_PX3Mq6b0,453
+dymaxion/__main__.py,sha256=6IZ0ekgdTzAnxEuM-wQEFmJ0Z9a8QfznGvDL-M6nb9Q,911
+dymaxion/polyhedron/__init__.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+dymaxion/polyhedron/cube.py,sha256=HzeEwqrCLR8m5BC7xCKSk-xs3m4AJ2Yie66QAqNANsk,1049
+dymaxion/polyhedron/icosahedron.py,sha256=fx0uoIZXypee_LPQM0ru04OQF4ha38hv4snlm80ZXHc,1518
+dymaxion-0.0.0.dist-info/METADATA,sha256=8ohDeJzuALw4gZHZ2xI20DplwCPBTBV60YpSo8s2si8,3306
+dymaxion-0.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dymaxion-0.0.0.dist-info/top_level.txt,sha256=romz12J0Vy6YZvLv9BJ5NG7-m7Xav9Lb1OG7h4IfW50,9
+dymaxion-0.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dymaxion-0.0.0.dist-info/RECORD,,
