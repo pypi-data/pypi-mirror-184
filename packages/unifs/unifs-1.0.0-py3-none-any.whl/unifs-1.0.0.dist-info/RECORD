@@ -1,0 +1,12 @@
+unifs/config.py,sha256=P7TDoi968fs8XToaolM5-0P9lJYQBa_Q3VSpEnfT1k0,2011
+unifs/file_system.py,sha256=xC6WgnQcX1lzRTrWfXaFcFnJ5oNq-vLT9pfY-6tteos,365
+unifs/cli/conf.py,sha256=ZWNi1b0YiiUuKT7TtlTZ1zaYECVico1C-dIVgtlDUnU,818
+unifs/cli/fs.py,sha256=njCw6C9HtnRXEENZrIolTZw2oQyq4bpnyq7UiH9UJJU,1529
+unifs/cli/impl.py,sha256=r9qjm6k4ozOFhTJ0N2a4GR57Ww2N6p0g_H-Y6-niD9U,1568
+unifs/cli/main.py,sha256=Qs8I5x-OxOoQk8k44mrS1_lmQBTje8qlQOp4sr35G1w,137
+unifs-1.0.0.dist-info/LICENSE,sha256=cwk1DWgBpQXBOTaEwK0iuNxkceleaYJBzo_XJqytoJQ,1066
+unifs-1.0.0.dist-info/METADATA,sha256=UdXEcekas1MfCZakk0yV6zqVedK9nPac5HcgRiX47nc,7607
+unifs-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+unifs-1.0.0.dist-info/entry_points.txt,sha256=wCgxzTUF4iRvSPmzs63TRrTWaWA3lD54X6IWj0W3Zxw,45
+unifs-1.0.0.dist-info/top_level.txt,sha256=50cib-9ljS8YXezDxQD1HSrpEKE7oe-gDcKtFqSHCq0,6
+unifs-1.0.0.dist-info/RECORD,,
