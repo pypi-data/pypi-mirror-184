@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pydate-fns
+Version: 0.1.0
+Summary: A Python3 implementation of the popular Javascript date library date-fns
+Home-page: https://github.com/yashvesikar/pydate-fns
+Author: Yash Vesikar
+Author-email: yash@vesikar.com
+Keywords: date
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# A Sensible Python Date Library
+
+----
+
+TODO: add documentation on how to use this library.
+
+Author: [Yash Vesikar](vesikar.com)
