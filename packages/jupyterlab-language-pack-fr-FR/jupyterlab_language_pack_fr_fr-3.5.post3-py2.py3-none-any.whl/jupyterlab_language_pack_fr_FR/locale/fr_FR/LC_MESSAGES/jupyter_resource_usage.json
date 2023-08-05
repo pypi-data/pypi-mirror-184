@@ -1,0 +1,17 @@
+{
+    "": {
+        "domain": "jupyter_resource_usage",
+        "language": "fr-FR",
+        "plural_forms": "nplurals=2; plural=(n > 1);",
+        "version": "jupyterlab"
+    },
+    "Current memory usage": [
+        "Utilisation actuelle de la m\u00e9moire"
+    ],
+    "Mem: %1 %2": [
+        "M\u00e9m: %1 %2"
+    ],
+    "Mem: %1 / %2 %3": [
+        "M\u00e9m: %1 / %2 %3"
+    ]
+}
