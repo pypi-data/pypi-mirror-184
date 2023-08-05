@@ -1,0 +1,8 @@
+customtkinter
+tkinter
+os
+time
+sys
+PIL
+requests
+io
