@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/typing_exe/__init__.py
+src/typing_exe/annotations.py
+src/typing_exe/decorators.py
+src/typing_exe/early_return.py
+src/typing_exe/parameter_data.py
+src/typing_exe/util.py
+src/typing_exe.egg-info/PKG-INFO
+src/typing_exe.egg-info/SOURCES.txt
+src/typing_exe.egg-info/dependency_links.txt
+src/typing_exe.egg-info/top_level.txt

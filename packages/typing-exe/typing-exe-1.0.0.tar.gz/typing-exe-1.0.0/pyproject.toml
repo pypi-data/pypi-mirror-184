@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typing-exe"
+version = "1.0.0"
+authors = [{name="Sebastian Müller"}, {email="sebastian.nicolas.mueller@gmail.com"}]
+description = "Executable typehints for Python: make assertions about and/or modify parameters & return values"
+readme = "README-PyPI.md"
+requires-python = ">=3.8"
+keywords = ["parameters", "return-value", "typing", "assert", "modify", "decorator", "typehint"]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.license]
+file = "LICENCE"
+
+
+[project.urls]
+repository = "https://github.com/snimu/typing-exe"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["typing_exe*"]
+exclude = ["venv", "tests", ".*", "*.md"]
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=typing_exe"
+testpaths = [
+    "tests",
+]
