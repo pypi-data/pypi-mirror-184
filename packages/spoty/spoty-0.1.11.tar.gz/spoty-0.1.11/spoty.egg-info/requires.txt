@@ -1,0 +1,11 @@
+click
+deemix
+deezersdk
+dynaconf
+Flask
+loguru
+mutagen
+numpy
+python-dateutil
+spotipy
+toml

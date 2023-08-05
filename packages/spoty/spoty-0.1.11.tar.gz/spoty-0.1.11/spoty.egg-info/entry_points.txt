@@ -1,0 +1,2 @@
+[console_scripts]
+spoty = spoty.cli:cli
