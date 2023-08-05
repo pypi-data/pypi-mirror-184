@@ -1,0 +1,6 @@
+setup.py
+tttk.egg-info/PKG-INFO
+tttk.egg-info/SOURCES.txt
+tttk.egg-info/dependency_links.txt
+tttk.egg-info/top_level.txt
+tttk.egg-info/zip-safe
