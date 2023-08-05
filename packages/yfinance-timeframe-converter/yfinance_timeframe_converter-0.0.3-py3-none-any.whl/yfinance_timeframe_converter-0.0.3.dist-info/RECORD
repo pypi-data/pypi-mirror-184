@@ -1,0 +1,8 @@
+yfinance_timeframe_converter/__init__.py,sha256=MGPF4GNObARcR-iLJQpgMpCKbLW6KoTcBhMOONDNtQs,569
+yfinance_timeframe_converter/available_timeframes.py,sha256=cc7NfYIZFEQOcwy6KcMtGEO1MtOV7iIwdovWLnkdS_c,1248
+yfinance_timeframe_converter/timeframe_converter.py,sha256=ZbJwTX3fwyNmx0kl8fvWTLyF8gcN4ErB8jsA7gYKGHY,1532
+yfinance_timeframe_converter-0.0.3.dist-info/LICENSE.txt,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+yfinance_timeframe_converter-0.0.3.dist-info/METADATA,sha256=KbkQ-zoFOMuj-JNAHtv3YZ9pd17YwYlcM6JAVI-ck_Q,3229
+yfinance_timeframe_converter-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+yfinance_timeframe_converter-0.0.3.dist-info/top_level.txt,sha256=OhgsphgJc0cqCU2zELT-MbbRKzjP3nkWZ3Sr3YF6lXI,29
+yfinance_timeframe_converter-0.0.3.dist-info/RECORD,,
