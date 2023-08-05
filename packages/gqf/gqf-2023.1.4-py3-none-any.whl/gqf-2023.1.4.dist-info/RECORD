@@ -1,0 +1,14 @@
+gqf/HTTP.py,sha256=el3clgf0F-Lxy5AakOIdXLaWy4yq8y2IzMNQXTQbJTQ,3421
+gqf/__init__.py,sha256=3yd113j6k8Tsd6lpk2DnsEglEIDk3kkgWhuf805jmlE,550
+gqf/beautify.py,sha256=z5CPrhMOYSTHsnfqak-r4lm2U3skIEooWfPHHqIki-Y,71
+gqf/crypto.py,sha256=7K9x8QIO1-gYecXrw3F1hDkEadou6Sa4v6sz7z-9PcU,1297
+gqf/dict.py,sha256=0jfh4_QvLWyzPvT9hIQY5Xr5xm3C_ZCo9gaLNx-5Wgg,469
+gqf/file.py,sha256=Ymden4-aAiLzwEZEHqNekDz1vSiXZV_yjni6oRb1iAI,1966
+gqf/mouse.py,sha256=O7XSWvISPhy6Ytdaws55-ZXvaQkmWXE2CfAEY3yPmdo,760
+gqf/process.py,sha256=fjVZmNyO5Ed7WRKq_4eOz77kUCDFbL-g1SUyIsx22l0,349
+gqf/str.py,sha256=MFjcbwshZlY5EHxrc37C8tOfXYV3nt04zq5s8TceRBo,1110
+gqf/time.py,sha256=qEI11af4HHFmwfHhCFiFItmP7w4Frta88_SJkFQKED0,568
+gqf-2023.1.4.dist-info/METADATA,sha256=8dHWnTjxXapHL9q59upX0QTEZyDNioeUASaVvhKSqAc,171
+gqf-2023.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gqf-2023.1.4.dist-info/top_level.txt,sha256=EezO0nOGf4ttptztM2eM2rhs0lOL-Fab3nJP0Ru_gXM,4
+gqf-2023.1.4.dist-info/RECORD,,
