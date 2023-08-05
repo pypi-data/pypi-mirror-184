@@ -1,0 +1,3 @@
+[console_scripts]
+dir2md=dir2md:main
+
