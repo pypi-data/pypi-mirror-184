@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+Xgression_tk.egg-info/PKG-INFO
+Xgression_tk.egg-info/SOURCES.txt
+Xgression_tk.egg-info/dependency_links.txt
+Xgression_tk.egg-info/requires.txt
+Xgression_tk.egg-info/top_level.txt
+xgression_tk/__main__.py
