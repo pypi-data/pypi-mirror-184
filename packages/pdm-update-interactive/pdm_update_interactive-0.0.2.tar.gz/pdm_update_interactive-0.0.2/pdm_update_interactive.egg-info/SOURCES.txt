@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pdm_update_interactive.py
+setup.cfg
+setup.py
+pdm_update_interactive.egg-info/PKG-INFO
+pdm_update_interactive.egg-info/SOURCES.txt
+pdm_update_interactive.egg-info/dependency_links.txt
+pdm_update_interactive.egg-info/entry_points.txt
+pdm_update_interactive.egg-info/requires.txt
+pdm_update_interactive.egg-info/top_level.txt
