@@ -1,0 +1,15 @@
+numpy
+sympy
+tabulate
+
+[dev]
+pre-commit
+isort
+pycln
+pylint
+
+[docs]
+pdoc
+
+[tests]
+pytest
