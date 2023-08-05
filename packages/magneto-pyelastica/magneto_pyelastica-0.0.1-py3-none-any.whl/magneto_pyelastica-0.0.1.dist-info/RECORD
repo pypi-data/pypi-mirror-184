@@ -1,0 +1,9 @@
+magneto_pyelastica/__init__.py,sha256=xhZguypUJFZA6cG9EqSuYhnicCY0wDQJbUVOpDX2XmU,136
+magneto_pyelastica/magnetic_field.py,sha256=fBo6O4nDGdlXHTu-79W8_aJR1o7oMjY8WDXJMaSEDpY,6484
+magneto_pyelastica/magnetic_forces.py,sha256=olr0ec06i53l9I6apcCUu_zy0Luvkk0KnQzhg6wkFYQ,4115
+magneto_pyelastica/utils.py,sha256=AF7X9pI7QTP2eRDPQB99zN66xAn3hymKSApoCHci51g,907
+magneto_pyelastica/version.py,sha256=Q8raD6k02z4DoYniAz3iui5d6EdM1el95SMTLXJbeCA,18
+magneto_pyelastica-0.0.1.dist-info/LICENSE,sha256=Gb3_xKeVB-fMSvN9tC25hKZqDcqzcKyxJGlSlqITTvU,1071
+magneto_pyelastica-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+magneto_pyelastica-0.0.1.dist-info/METADATA,sha256=1D8JsHmat98UNrbJz1sBLYy3PXw98GoA5UbY3PJGHfU,837
+magneto_pyelastica-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: magneto-pyelastica
+Version: 0.0.1
+Summary: Python software for simulating magnetic Cosserat rods.
+Home-page: https://github.com/armantekinalp/MagnetoPyElastica
+License: MIT
+Author: Arman Tekinalp
+Author-email: armant2@illinois.edu>, Yashraj Bhosale <bhosale2@illinois.edu
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: examples
+Requires-Dist: cma[examples] (>=3.2.2,<4.0.0); extra == "examples"
+Requires-Dist: pyelastica @ git+https://github.com/GazzolaLab/PyElastica.git@update-0.3.0
+Project-URL: Repository, https://github.com/armantekinalp/MagnetoPyElastica
