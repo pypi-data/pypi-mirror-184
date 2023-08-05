@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asix_Tofik_Varo"
+version = "0.0.1"
+authors = [
+    { name="Tofik", email="onlyps3buys@gmail.com" },
+]
+description = "Ejemplo de como crear un paquete"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/levisman217/python"
+"Bug Tracker" = "https://github.com/levisman217/python/issues"

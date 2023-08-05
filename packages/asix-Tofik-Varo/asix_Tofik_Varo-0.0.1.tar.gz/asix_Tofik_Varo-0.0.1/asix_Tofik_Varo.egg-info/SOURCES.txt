@@ -1,0 +1,10 @@
+pyproject.toml
+asix_Tofik_Varo.egg-info/PKG-INFO
+asix_Tofik_Varo.egg-info/SOURCES.txt
+asix_Tofik_Varo.egg-info/dependency_links.txt
+asix_Tofik_Varo.egg-info/top_level.txt
+funciones/figuras.py
+funciones/número.py
+funciones/primos.py
+funciones/tabla.py
+funciones/texto.py
