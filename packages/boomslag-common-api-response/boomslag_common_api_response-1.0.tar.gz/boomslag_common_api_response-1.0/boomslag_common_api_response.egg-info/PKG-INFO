@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: boomslag-common-api-response
+Version: 1.0
+Summary: Standard APIReponse for Boomslag Microservices
+Home-page: https://boomslag.com
+Author: Boomslag
+Author-email: mail@boomslag.com
+Maintainer-email: support@boomslag.com
+License: MIT
+Keywords: boomslag common api response
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+This Api Response contains the views that standardize the Response of our requests, so any programming language may understand it.
