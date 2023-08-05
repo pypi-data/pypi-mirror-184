@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: imageai-org
+Version: 2.1.6
+Summary: This project is a fork of ImageAI project from https://github.com/OlafenwaMoses/ImageAI. In this fork, dependency versions are relaxed to allow usage with other packages in same environment
+Home-page: https://github.com/organon-gitadmin/ImageAI
+Author: Moses Olafenwa and John Olafenwa (forked by OrganonAnalytics)
+Author-email: support@organonanalytics.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
