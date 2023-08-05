@@ -1,0 +1,25 @@
+tensorflow_probability==0.17.0
+grpcio-tools==1.45.0
+grpcio==1.45.0
+
+[:python_version >= "3.8" and platform_system == "Darwin" and platform_machine != "arm64"]
+tensorflow==2.9.1
+
+[:python_version >= "3.8" and platform_system == "Darwin" and platform_machine == "arm64"]
+tensorflow-macos==2.9.2
+tensorflow-metal==0.5.0
+
+[:python_version >= "3.8" and platform_system == "Linux"]
+tensorflow==2.9.1
+
+[:python_version >= "3.8" and platform_system == "Windows"]
+tensorflow==2.9.1
+
+[build]
+tox==3.24.3
+build
+twine
+pylint
+
+[test]
+gym[classic_control]==0.25.0
