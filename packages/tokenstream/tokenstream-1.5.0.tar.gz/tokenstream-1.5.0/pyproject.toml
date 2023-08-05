@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "tokenstream"
+version = "1.5.0"
+description = "A versatile token stream for handwritten parsers"
+authors = ["Valentin Berlier <berlier.v@gmail.com>"]
+license = "MIT"
+
+homepage = "https://github.com/vberlier/tokenstream"
+repository = "https://github.com/vberlier/tokenstream"
+documentation = "https://github.com/vberlier/tokenstream"
+
+readme = "README.md"
+
+keywords = [
+  "parsing",
+  "tokenizer",
+  "lexer",
+  "recursive-descent-parser",
+  "token-stream",
+]
+
+include = ["tokenstream/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+pytest = "^7.2.0"
+isort = "^5.11.4"
+python-semantic-release = "^7.32.2"
+mudkip = "^0.8.0"
+
+[tool.pytest.ini_options]
+addopts = "tests tokenstream --doctest-modules --import-mode=importlib"
+doctest_optionflags = "NORMALIZE_WHITESPACE IGNORE_EXCEPTION_DETAIL ELLIPSIS"
+
+[tool.pyright]
+typeCheckingMode = "strict"
+reportShadowedImports = false
+
+[tool.black]
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+
+[tool.semantic_release]
+branch = "main"
+version_variable = ["tokenstream/__init__.py:__version__"]
+version_toml = "pyproject.toml:tool.poetry.version"
+build_command = "poetry build && poetry run mudkip build --update-gh-pages --repository https://x-access-token:${GH_TOKEN}@github.com/vberlier/tokenstream"
+
+[tool.mudkip]
+preset = "furo"
+
+[tool.mudkip.override]
+html_title = "tokenstream"
+suppress_warnings = ["myst.header"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
