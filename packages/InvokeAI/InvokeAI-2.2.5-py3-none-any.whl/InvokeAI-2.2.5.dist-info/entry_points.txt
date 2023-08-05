@@ -1,0 +1,8 @@
+[console_scripts]
+configure_invokeai = scripts:configure_invokeai.main
+dream = ldm.invoke:CLI.main
+invoke = ldm.invoke:CLI.main
+legacy_api = scripts:legacy_api.main
+load_models = scripts:configure_invokeai.main
+merge_embeddings = scripts:merge_embeddings.main
+preload_models = scripts:configure_invokeai.main
