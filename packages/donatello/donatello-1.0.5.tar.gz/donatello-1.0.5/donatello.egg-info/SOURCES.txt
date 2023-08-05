@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+donatello/__init__.py
+donatello/exceptions.py
+donatello.egg-info/PKG-INFO
+donatello.egg-info/SOURCES.txt
+donatello.egg-info/dependency_links.txt
+donatello.egg-info/requires.txt
+donatello.egg-info/top_level.txt
