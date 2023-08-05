@@ -1,0 +1,4 @@
+fire
+omegaconf
+pytorch_lightning
+torch
