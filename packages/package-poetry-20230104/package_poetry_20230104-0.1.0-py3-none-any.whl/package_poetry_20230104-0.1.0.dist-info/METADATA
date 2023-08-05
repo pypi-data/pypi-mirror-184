@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: package-poetry-20230104
+Version: 0.1.0
+Summary: This is a package publication test from Poetry
+Home-page: https://github.com/DjKuj/package-poetry
+Keywords: test,dependencies,documentation
+Author: Arthur Couget
+Author-email: arthur.couget@viseo.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: pandas (>=1.5.2,<2.0.0)
+Project-URL: Repository, https://github.com/DjKuj/package-poetry
+Description-Content-Type: text/markdown
+
+My long description blah blah blah blah.
+Change Log
+================
+0.0.1 (Dec 1, 2021)
+ — — — — — — — — — — — — — — — -
+- First Release
+0.0.2 (Dec 2, 2021)
+ — — — — — — — — — — — — — — — -
+- Did some more stuff
