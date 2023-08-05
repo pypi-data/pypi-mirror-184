@@ -1,0 +1,6 @@
+constrained_decoding
+markupsafe==2.0.1
+qanom>=0.0.30
+roleqgen
+spacy>=3.0.0
+transformers==4.15.0
