@@ -1,0 +1,16 @@
+openseries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openseries/datefixer.py,sha256=tr6T_FtqBBhU-u2nzC8UwmbBu2hw1JZkdKo5ZVziHjA,3658
+openseries/frame.py,sha256=t3cNPVb9lJ7zLIZqjJk8NTf5nQDzZqFT47pWYAUSNcc,101305
+openseries/load_plotly.py,sha256=k0VTs3NQUXJlz2bCWZRJzySxQE8qeWayl381KDVErxs,557
+openseries/openseries.json,sha256=iDVYB4d-GfVBUmaVyV-0wtaD1rflb3_atP_fwe-CxZ8,1321
+openseries/plotly_captor_logo.json,sha256=FvKtwfiLXTkCS0MgKP1H3rvyVpV5tEHbl9mt9JblOoE,177
+openseries/plotly_layouts.json,sha256=ozSgzG2gVIXkzXYHo3UWJ986cRKrXCtbWZ8c_99wd9w,1348
+openseries/risk.py,sha256=25BgYTEAIeqpETv4opCxToIfSruvi3IAV_9hXEZ0laQ,4767
+openseries/series.py,sha256=L0nhwIfUeFGcBuGLtAyN5aFTqlMyQ2qxz_hd-eY6QIk,68069
+openseries/sim_price.py,sha256=undTLt3Q5cI98TXFDiO9N8L-HLRj1jvCKW9-EWNKu_8,11329
+openseries/stoch_processes.py,sha256=_dx3uzR1ADQRFi8YCalasBVSQZJV_InwhsU0Tx7qhJM,16075
+openseries-0.9.0.dist-info/LICENSE,sha256=SPBd8Vzchj0u8iS1Oxy3y9Xn2r0L3OKlnT1TG3m3zgY,1533
+openseries-0.9.0.dist-info/METADATA,sha256=fh8hjy_a77VIkd3HnSX34FGZxWmwpp_zk9XGaPXG3zo,40814
+openseries-0.9.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+openseries-0.9.0.dist-info/top_level.txt,sha256=q9dahjM8aRGIM9O62j_NWkxIu4-bRDI7EiJekdccNME,11
+openseries-0.9.0.dist-info/RECORD,,
