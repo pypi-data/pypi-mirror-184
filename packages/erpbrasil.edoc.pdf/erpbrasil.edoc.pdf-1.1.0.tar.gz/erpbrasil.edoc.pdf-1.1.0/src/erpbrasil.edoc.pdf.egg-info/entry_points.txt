@@ -1,0 +1,2 @@
+[console_scripts]
+erpbrasil-edoc-pdf = erpbrasil.edoc.pdf.cli:main
