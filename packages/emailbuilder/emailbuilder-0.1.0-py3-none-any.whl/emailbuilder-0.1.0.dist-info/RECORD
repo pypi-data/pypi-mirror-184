@@ -1,0 +1,12 @@
+emailbuilder/__init__.py,sha256=x91w0nb85SHY3s8j9rVQdAlY-ATWm89d7VDaVBTNsQo,68
+emailbuilder/email.py,sha256=61DQKV3q4HvazTbjVnrgAril6TaTORUf51exouGxiGY,3433
+emailbuilder/utils.py,sha256=PGXn2tHMIq4d71jgRcGiSbB4Xuq_fpgvM6zyS82Nxh0,978
+emailbuilder/components/__init__.py,sha256=dxzqVhCGALUuvtRppt3k_-Obbjq1FmBOgsbvhe2OKUk,97
+emailbuilder/components/base.py,sha256=SLjsG9j5JHmwtWlfwCcPMcK4dhSwnlkHsEyeTEh_0zE,2513
+emailbuilder/components/containers.py,sha256=nQucNFOSXPzGR_AL-7rLu7CV2VDRz0O8rMCjWmVxV78,2467
+emailbuilder/components/elements.py,sha256=sg_IwkfErANTefbKHVJyXk_5ZkuvTrduXhQNF-K_smw,955
+emailbuilder/components/embeddables.py,sha256=KI-s8oVsLKodkrcr_d7KzCIsZr9Aprfjj-MDaULO-0U,2280
+emailbuilder-0.1.0.dist-info/METADATA,sha256=W8mGpO4AuTDP7W8XebyLRBeDWuIFz8ym4b2Z3VHeBxQ,5075
+emailbuilder-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+emailbuilder-0.1.0.dist-info/top_level.txt,sha256=2vlzORN0MtsKUlvw3t7qPxnYQeMBL1S2Hg5PFbO43eU,13
+emailbuilder-0.1.0.dist-info/RECORD,,
