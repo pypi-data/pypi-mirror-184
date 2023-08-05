@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: search-in-syspath
+Version: 0.10
+Summary: Search for files in sys.path
+Home-page: https://github.com/hansalemaos/search_in_syspath
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: search,files,sys
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: flatten-everything
+Requires-Dist: regex
+
+
+# Search for files in sys.path 
+
+
+
+```python
+
+
+
+$pip install search-in-syspath
+
+
+
+
+
+from search_in_syspath import search_in_syspath
+
+print(search_in_syspath(filename="__init__.py", isregex=False))
+
+print(search_in_syspath(filename=r"_+i.it_+\.py", isregex=True))
+
+
+
+...
+
+'C:\\Users\\Gamer\\anaconda3\\envs\\dfdir\\lib\\site-packages\\torch\\nn\\quantized\\dynamic\\__init__.py', 
+
+'C:\\Users\\Gamer\\anaconda3\\envs\\dfdir\\Lib\\site-packages\\tensorflow\\_api\\v2\\compat\\v2\\types\\__init__.py', 
+
+'C:\\Users\\Gamer\\anaconda3\\envs\\dfdir\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\_securetransport\\__init__.py',
+
+ 'C:\\Users\\Gamer\\anaconda3\\envs\\dfdir\\lib\\site-packages\\tabledata\\__init__.py', 
+
+...
+
+
+
+```
+
