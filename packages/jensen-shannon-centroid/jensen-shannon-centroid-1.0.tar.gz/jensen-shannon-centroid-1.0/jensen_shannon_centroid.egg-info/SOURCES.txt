@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jensen_shannon_centroid/__init__.py
+jensen_shannon_centroid/jensen_shannon_centroid.py
+jensen_shannon_centroid.egg-info/PKG-INFO
+jensen_shannon_centroid.egg-info/SOURCES.txt
+jensen_shannon_centroid.egg-info/dependency_links.txt
+jensen_shannon_centroid.egg-info/requires.txt
+jensen_shannon_centroid.egg-info/top_level.txt
