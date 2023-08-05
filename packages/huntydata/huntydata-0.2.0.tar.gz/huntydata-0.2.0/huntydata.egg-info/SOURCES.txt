@@ -1,0 +1,10 @@
+README.md
+setup.py
+huntydata/__init__.py
+huntydata/errors.py
+huntydata/standardized.py
+huntydata.egg-info/PKG-INFO
+huntydata.egg-info/SOURCES.txt
+huntydata.egg-info/dependency_links.txt
+huntydata.egg-info/requires.txt
+huntydata.egg-info/top_level.txt
