@@ -1,0 +1,23 @@
+ploomber-core>=0.1.*
+debuglater
+nbclient
+ipython
+parso
+nbformat
+click
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+pkgmt
+pytest
+flake8
+invoke
+twine
+matplotlib
+pandas
+numpy
+sklearn-evaluation
+jupytext
+psutil
