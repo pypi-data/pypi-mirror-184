@@ -1,0 +1,8 @@
+LICENCE.txt
+README.txt
+setup.py
+ProAiLaba/__init__.py
+ProAiLaba.egg-info/PKG-INFO
+ProAiLaba.egg-info/SOURCES.txt
+ProAiLaba.egg-info/dependency_links.txt
+ProAiLaba.egg-info/top_level.txt
