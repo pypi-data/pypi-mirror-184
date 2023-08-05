@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+lightgbm
+keras
+tensorflow
+pickleshare
+optuna
+plotly
