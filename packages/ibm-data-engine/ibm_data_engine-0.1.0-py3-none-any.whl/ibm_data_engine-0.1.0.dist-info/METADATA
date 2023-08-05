@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ibm-data-engine
+Version: 0.1.0
+Summary: Feast offline feature store implementation backed by the IBM Cloud Data Engine
+Author: Michal Siedlaczek
+Author-email: michal.siedlaczek@ibm.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: feast (>=0.25.0,<0.26.0)
+Requires-Dist: ibmcloudsql (>=0.5.11,<0.6.0)
