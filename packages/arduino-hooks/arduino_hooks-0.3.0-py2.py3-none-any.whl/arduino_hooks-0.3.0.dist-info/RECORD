@@ -1,0 +1,9 @@
+arduino_hooks/__init__.py,sha256=5J-n9bwRkTw3Z2XHRjF3bswOo1b_YS83bK_HNzVFMew,65
+arduino_hooks/arduino_cli.py,sha256=sfpErrJ0CP-IvU_CAQlRpwH-5gHqVPihhPXmhtG0EkU,1734
+arduino_hooks/arduino_lint.py,sha256=pjcfhDFsPWqYL0N84Ow9i1Jx5q2FSPYBxdNL5XeJ0FE,1810
+arduino_hooks-0.3.0.dist-info/LICENSE.md,sha256=kqOZTg-KqLvvf5ZLmluflpmbsqx1Uii2cqJZrE2zog4,1163
+arduino_hooks-0.3.0.dist-info/METADATA,sha256=b4lqktZsQa51vafiaigECvjU9YDUhdipthBKXoG_hFg,6667
+arduino_hooks-0.3.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+arduino_hooks-0.3.0.dist-info/entry_points.txt,sha256=mwZqNAehgQYfD9R3s1dSdk0FTAQ-UKK8Ln2rty8mPBA,120
+arduino_hooks-0.3.0.dist-info/top_level.txt,sha256=jVkhxc6GRvbMaUWla3TmNfqCuEVaQxq_v4Qq701i4Vk,14
+arduino_hooks-0.3.0.dist-info/RECORD,,
