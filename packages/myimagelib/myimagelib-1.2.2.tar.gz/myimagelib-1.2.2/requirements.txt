@@ -1,0 +1,7 @@
+numpy
+matplotlib
+scikit-image
+pandas
+scipy
+nd2reader
+openpiv
