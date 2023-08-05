@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/check.yml
+.vscode/settings.json
+rmspace/__init__.py
+rmspace/__main__.py
+rmspace/main.py
+rmspace.egg-info/PKG-INFO
+rmspace.egg-info/SOURCES.txt
+rmspace.egg-info/dependency_links.txt
+rmspace.egg-info/top_level.txt
