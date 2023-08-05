@@ -1,0 +1,8 @@
+langchain
+openai
+dataclasses_json
+transformers
+nltk
+numpy
+tenacity
+tiktoken
