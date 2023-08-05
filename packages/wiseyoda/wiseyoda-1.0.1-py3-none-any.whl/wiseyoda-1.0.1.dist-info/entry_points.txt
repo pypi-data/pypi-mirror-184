@@ -1,0 +1,3 @@
+[console_scripts]
+wiseyoda=wise_yoda.cli:main
+
