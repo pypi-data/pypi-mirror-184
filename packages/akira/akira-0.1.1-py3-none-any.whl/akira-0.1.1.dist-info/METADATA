@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: akira
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/PDA-FGA/Playground
+Author: Bruno-Felix
+Author-email: auxbfelix@gmail.com
+Maintainer: Bruno-Felix
+Maintainer-email: auxbfelix@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas (>=1.5.2,<2.0.0)
+Requires-Dist: pytest (>=7.2.0,<8.0.0)
+Requires-Dist: pytest-cov (>=4.0.0,<5.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Project-URL: Repository, https://github.com/PDA-FGA/Playground
+Description-Content-Type: text/markdown
+
+
