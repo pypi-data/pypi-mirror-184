@@ -1,0 +1,40 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "clutchGen"
+version = "0.1.0"
+description = ""
+authors = ["alexey.reket <alexey.reket@gmail.com>"]
+readme = "README.md"
+repository = "https://gitlab.com/AlexeyReket/clutchgen"
+homepage = "https://gitlab.com/AlexeyReket/clutchgen/-/wikis/home"
+packages = [
+    { include = "clutchGen" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7.2"
+Mako = "^1.1.6"
+PyYAML = "^6.0"
+click = "^8.0.4"
+
+[tool.poetry.group.dev.dependencies]
+devtools = "^0.10.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.1.2"
+black = "^22.6.0"
+isort = "^5.10.1"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.scripts]
+clutchGen = "clutchGen.__main__:cli"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+line_length = 120
+profile = "black"
