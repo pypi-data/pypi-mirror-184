@@ -1,0 +1,3 @@
+[console_scripts]
+aceye=leopold.script:run
+
