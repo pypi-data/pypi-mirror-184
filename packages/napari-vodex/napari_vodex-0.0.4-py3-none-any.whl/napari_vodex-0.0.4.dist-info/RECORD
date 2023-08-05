@@ -1,0 +1,12 @@
+napari_vodex/__init__.py,sha256=Fp1uJgEVnzzSw3D_T-Yq_wdIqCD2z2gBfN7YHEofrrA,88
+napari_vodex/_version.py,sha256=C_sEDFDxz5lXxlK-Oo8_UXoTORDgjzXO4KLRiUAkVKA,160
+napari_vodex/_widget.py,sha256=vq853E1KYIYuZwDeHLxndosqWaJRrB2GI8McJ0Zzw6Y,65381
+napari_vodex/napari.yaml,sha256=2wFERXnZj1JrqO5MJ06JKWe9ANYKTdVw6ewHW6oyAjo,277
+napari_vodex/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_vodex/_tests/test_widget.py,sha256=PIafCP6gG2L4oCj9ecXs2W2XBU5WMBUpk4Ehx7EzFLY,752
+napari_vodex-0.0.4.dist-info/LICENSE,sha256=CbzDoOD1iO4v2L34EeWFPlthc8Gv6Yxmq7JAvEhXAbU,1489
+napari_vodex-0.0.4.dist-info/METADATA,sha256=XzgSNJCd3X7DxvFhrd4dlhmEvCoD8uH__1VwP07bznY,4310
+napari_vodex-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+napari_vodex-0.0.4.dist-info/entry_points.txt,sha256=KQ24k09zKfOEsKaV0MEhj3rkN15XMAp22hrIVe9M3_k,58
+napari_vodex-0.0.4.dist-info/top_level.txt,sha256=SIlTU0hVA3rTpDNP1866UvCTwiVn3oqL9FN-DK6Zn-c,13
+napari_vodex-0.0.4.dist-info/RECORD,,
