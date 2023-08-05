@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: mkdocs-terminal
+Version: 0.3.1
+Summary: Terminal.css theme for MkDocs
+Project-URL: Repository, https://github.com/ntno/mkdocs-terminal.git
+Author: Natan Organick
+License-Expression: MIT
+License-File: LICENSE
+Keywords: documentation,mkdocs,theme
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Python: >=3.7
+Requires-Dist: colorama>=0.4
+Requires-Dist: jinja2>=3.0
+Requires-Dist: markdown>=3.2
+Requires-Dist: mkdocs-material-extensions>=1.1
+Requires-Dist: mkdocs>=1.4.2
+Requires-Dist: pygments>=2.14
+Requires-Dist: pymdown-extensions>=9.9
+Requires-Dist: regex>=2022.4.24
+Requires-Dist: requests>=2.26
+Description-Content-Type: text/markdown
+
+# mkdocs-terminal
+[Gioni06/terminal.css](https://github.com/Gioni06/terminal.css) theme for MkDocs
+
+## Quick start
+
+terminal.css theme for MkDocs can be installed with `pip`:
+
+``` sh
+pip install mkdocs-terminal
+```
+
+Add the following lines to `mkdocs.yml`:
+
+``` yaml
+theme:
+  name: terminal
+```
+
+## Documentation
+
+[mkdocs-terminal docs](https://ntno.github.io/mkdocs-terminal/)
