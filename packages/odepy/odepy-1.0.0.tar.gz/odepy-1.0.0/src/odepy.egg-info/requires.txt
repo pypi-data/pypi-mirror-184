@@ -1,0 +1,10 @@
+numba
+scipy
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest~=6.2
+pytest-cov~=2.12

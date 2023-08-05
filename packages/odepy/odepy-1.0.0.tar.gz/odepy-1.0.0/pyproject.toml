@@ -1,0 +1,60 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project] 
+name = "odepy"
+description = "An extremely fast propagator for Python, in Python"
+keywords = ["integration", "numba", "speed"]
+version = "1.0.0"
+authors = [
+    { name = "Michele Ceresoli", email="michele.ceresoli7@gmail.com" },
+    { name = "Andrea Pasquale", email="andrea.pasquale@outlook.it"},
+]
+
+readme = "README.md"
+license = { file = "COPYING" }
+requires-python = ">=3.7, <3.11"
+classifiers = [
+    "Programming Language :: Python :: 3", 
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)", 
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numba",
+    "scipy"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest~=6.2",
+    "pytest-cov~=2.12",
+]
+docs = [
+    "sphinx",
+    "sphinx_rtd_theme"
+]
+
+[project.urls]
+homepage = "https://github.com/MicheleCeresoli/odepy"
+documentation = "https://micheleceresoli.github.io/odepy/"
+repository = "https://github.com/MicheleCeresoli/odepy.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "tests",
+]
+filterwarnings = [
+    "ignore::numba.core.errors.NumbaExperimentalFeatureWarning"
+]
+
+[tool.coverage.run]
+source = ["src"]
