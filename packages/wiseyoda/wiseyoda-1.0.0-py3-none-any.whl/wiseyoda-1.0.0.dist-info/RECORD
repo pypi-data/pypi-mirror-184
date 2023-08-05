@@ -1,0 +1,9 @@
+wise_yoda/__init__.py,sha256=H-IzFsp8W-pSGSVaqV1VswIsN2l8AdFpCeofkGh0ATs,82
+wise_yoda/cli.py,sha256=OLosduoNTBh1eOONBFi7mr3XgQLHybnVr1uQl2x9NtU,1406
+wise_yoda/data/quotes.json,sha256=-HspxbKieE-PZw_V9xVqVZNl4LYPGaEkSiMhUXjvtFU,24875
+wise_yoda/wisdom.py,sha256=S_krBQ-RxQqRb7DY9Vi0a_2_6ai0txQqcHRYQYgY3ug,2531
+wiseyoda-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wiseyoda-1.0.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+wiseyoda-1.0.0.dist-info/entry_points.txt,sha256=rpRbNaFqBB767L1EoTXLdTIUHub8LULF_J5ea1tXThs,47
+wiseyoda-1.0.0.dist-info/METADATA,sha256=zp97FKYnXSSE_cLDddk0tR8S1XduyaOS2Kd3DDiBmWM,4512
+wiseyoda-1.0.0.dist-info/RECORD,,
