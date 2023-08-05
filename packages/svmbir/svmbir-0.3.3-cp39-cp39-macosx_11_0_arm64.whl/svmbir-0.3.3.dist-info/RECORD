@@ -1,0 +1,12 @@
+svmbir-0.3.3.dist-info/RECORD,,
+svmbir-0.3.3.dist-info/LICENSE,sha256=vchy_BUCaZafIUF-_rPkv6pJhjn5Iz54NhoE8z7wkOE,1559
+svmbir-0.3.3.dist-info/WHEEL,sha256=C_UN2A-Q94yg5uF00Lizg2aQEZjfzpeyFE_wdLoeYLk,108
+svmbir-0.3.3.dist-info/top_level.txt,sha256=YK5QGj7Q_EL_WQDYW5Q-GWf8pFcPGhb6TruZZQ4ytfU,7
+svmbir-0.3.3.dist-info/METADATA,sha256=rrN95zesLP6pNNVe4ZBXFjnxK_6qgH3Sh_YFVJQqSAA,1799
+svmbir/phantom.py,sha256=46bEaGEb2TvMpI4HoqBYdhESbiNJltha5PYauQC7MYc,10984
+svmbir/svmbir.py,sha256=Oe8lWW6ckMGFwIaNVlaPrBhJirQeUoTQ_mceA4Y8DTs,37994
+svmbir/interface_cy_c.cpython-39-darwin.so,sha256=cQ6683JfqBf5st6_05YfdxnDRSwExVjp8wVGJ-EhLSA,506912
+svmbir/interface_py_c.py,sha256=IM3Qyx6xePmfr4fs30FO4SeZ3Hem6dFzef-tWb8KLyA,22116
+svmbir/__init__.py,sha256=xHILHdaG_p-OY1yUPYbbUffJHB1bLgZ9Feut1TNgCiY,217
+svmbir/_utils.py,sha256=Ghe8_NvgezllZeLAKoUPosgmtMtJbamHVI6mfDOm7TE,14059
+svmbir/.dylibs/libgomp.1.dylib,sha256=jsx2J6m3XWDYPwQALLRKsxCLv4zPKozlPAZ4lLRoRds,312800
