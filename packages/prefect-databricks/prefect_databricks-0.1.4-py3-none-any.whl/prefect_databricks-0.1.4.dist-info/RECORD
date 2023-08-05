@@ -1,0 +1,16 @@
+prefect_databricks/__init__.py,sha256=qwHGO9KG4313a3WhmuWUaif1vx17UX7gD59SvYaWuzU,128
+prefect_databricks/_version.py,sha256=5AKSk-gPXOdl9dQ4wAuFiSW8o4vT7x5iQgmVzmXZnOY,497
+prefect_databricks/credentials.py,sha256=VbbNDbYaSfvnG5D2lLvO7BB0tsl5flTYbaM0dV6TOhM,2438
+prefect_databricks/flows.py,sha256=wCjI74MalLViPmDfpS9vI1XT6LTTTKM8AvXyicYKh2o,18358
+prefect_databricks/jobs.py,sha256=RU72bynhqsxIKkbEXc9WeiBpfsk4ryUvH7cxGQp3b8g,81198
+prefect_databricks/rest.py,sha256=AJQ5P7gGKy3XvCBI_NF4JptQHSTN6Yxu5JydGpiwjmI,4626
+prefect_databricks/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefect_databricks/models/jobs.py,sha256=Llq_vEeld_hr25glSfmw4eCLXPAJZ-yVFluaoOyU9DU,168201
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/generate.py,sha256=TJ88WudWNjF-Y1URwW3ptprjmE8Fxsf76HKeOb7ATKc,3050
+prefect_databricks-0.1.4.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_databricks-0.1.4.dist-info/METADATA,sha256=SIlGtXRThjvj02IE1dq_ygzIAMpoiW0aPqIVUJZHaQk,8318
+prefect_databricks-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+prefect_databricks-0.1.4.dist-info/entry_points.txt,sha256=vG67eYDv0udT2WjzkcKcKfo9WUBT9a77CSCQ18KPcB4,62
+prefect_databricks-0.1.4.dist-info/top_level.txt,sha256=jrcbCYkbIEmoArAgEiSur4vJpQMjJrCkx03crsMUgl0,27
+prefect_databricks-0.1.4.dist-info/RECORD,,
