@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+davinciGPT/__init__.py
+davinciGPT/main.py
+davinciGPT.egg-info/PKG-INFO
+davinciGPT.egg-info/SOURCES.txt
+davinciGPT.egg-info/dependency_links.txt
+davinciGPT.egg-info/requires.txt
+davinciGPT.egg-info/top_level.txt
+test/test_chatbot.py
