@@ -1,0 +1,6 @@
+pyproject.toml
+src/DotCS/__init__.py
+src/PointCS.egg-info/PKG-INFO
+src/PointCS.egg-info/SOURCES.txt
+src/PointCS.egg-info/dependency_links.txt
+src/PointCS.egg-info/top_level.txt
