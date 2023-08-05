@@ -1,0 +1,6 @@
+pyproject.toml
+src/DotCS/__init__.py
+src/DotCS.egg-info/PKG-INFO
+src/DotCS.egg-info/SOURCES.txt
+src/DotCS.egg-info/dependency_links.txt
+src/DotCS.egg-info/top_level.txt
