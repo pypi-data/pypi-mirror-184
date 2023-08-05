@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: clutchgen
+Version: 0.1.0
+Summary: 
+Home-page: https://gitlab.com/AlexeyReket/clutchgen/-/wikis/home
+Author: alexey.reket
+Author-email: alexey.reket@gmail.com
+Requires-Python: >=3.7.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Mako (>=1.1.6,<2.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Project-URL: Repository, https://gitlab.com/AlexeyReket/clutchgen
+Description-Content-Type: text/markdown
+
+This README for develop
+ing, read it if you are going to contribute.
+
+Info about usage you can find on [WIKI pages](https://gitlab.com/AlexeyReket/clutchgen/-/wikis/home)
+
+## Get started
+
+If you wish you can config your poetry
+
+```shell
+poetry config --local virtualenvs.create true
+poetry config --local virtualenvs.in-project true
+```
+
+Install required libraries
+
+```shell
+poetry install
+```
+
+Activate created environment
+
+```shell
+source .venv/bin/activate
+```
+
+and enable autoComplete
+
+```shell
+# for bash
+eval "$(_CLUTCHGEN_COMPLETE=bash_source clutchGen)"
+
+# for zsh
+eval "$(_CLUTCHGEN_COMPLETE=zsh_source clutchGen)"
+```
+
+## Quality assurance
+
+You can run tests
+
+```shell
+make test
+```
+
+And can apply formatting:
+
+```shell
+make format
+```
+
+Please in case if contributing make tests and save code-style 
+
