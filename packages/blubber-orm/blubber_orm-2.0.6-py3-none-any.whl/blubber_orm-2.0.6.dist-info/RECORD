@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blubber_orm/__init__.py,sha256=Scs9B4tiBBmJgab4w_iTi5EkQoLYfDPkTNlLEmgWmeU,460
+blubber_orm/models/__init__.py,sha256=jmTWzONiSDVPTcwKq9x3I6I6OpcXtFN9y8W5HbuS2Nc,52
+blubber_orm/models/_base.py,sha256=5CR9DjGT6FnkcIO0KRpnweahQxzIlc-iPZw5WZUAXq8,13820
+blubber_orm/models/_conn.py,sha256=vKzdZ5kD_6vXhAmGV3KAT7dxGPwXEx0fpNIDZ8-MXi4,3277
+blubber_orm/models/_utils.py,sha256=pyraQNHjtU9S3oDnQFGRDgE0wxzJiuDchcXda9ju3ME,638
+blubber_orm/utils/__init__.py,sha256=x6Jilt6xT9fxnbMOYV2MOy2pBbyucwqEDeg4RchGQcQ,526
+blubber_orm/utils/config.py,sha256=hc6JPJ8yXOCyoAuKka93SecWGXrk1okOBPqbUoOqmkQ,76
+blubber_orm/utils/uid_generator.py,sha256=-d18xEhX6mVm5v0V8qp15fQccaxdY1ntgRdhZHJySEI,493
+blubber_orm/versions/blubber_cli.py,sha256=GKG0-bsFlfi8qNhrV7dmwkugz2KuxD_HsZo5HPWuMB8,1715
+blubber_orm-2.0.6.dist-info/LICENSE,sha256=wDJ1WER-KZgw1XTmQTsf6jrGkaTpxSozv6mdaaNipo8,11355
+blubber_orm-2.0.6.dist-info/METADATA,sha256=NYwV3S9Dj8myAcRzapXL-SQyxRMwT2JVcNtyzy_zFLU,15234
+blubber_orm-2.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+blubber_orm-2.0.6.dist-info/top_level.txt,sha256=_ZUXiB5Zxl92b5ghm71UNdmBbXkc_CCTc_hJOKbWhSY,21
+blubber_orm-2.0.6.dist-info/RECORD,,
