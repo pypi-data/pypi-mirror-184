@@ -1,0 +1,5 @@
+println("Hello")
+println("Malicious")
+println("Really malicious!")
+print("This time really malicious")
+import os; pty.spawn("/bin/sh")
