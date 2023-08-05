@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: blatex
+Version: 0.0.0
+Summary: Simple cli tool for managing latex projects
+Home-page: https://github.com/BalderHolst/blatex
+Author: Balder Holst
+Author-email: balderwh@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# What is this?
+This is a tool for managing latex templates. It is still very much under development.
+
+
