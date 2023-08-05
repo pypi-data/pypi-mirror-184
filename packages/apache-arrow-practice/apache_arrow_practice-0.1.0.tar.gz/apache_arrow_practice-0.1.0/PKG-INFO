@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: apache-arrow-practice
+Version: 0.1.0
+Summary: 
+Author: dev-owner
+Author-email: yureka1112@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyarrow (>=10.0.1,<11.0.0)
+Description-Content-Type: text/markdown
+
+

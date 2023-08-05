@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "apache-arrow-practice"
+version = "0.1.0"
+description = ""
+authors = ["dev-owner <yureka1112@gmail.com>"]
+readme = "README.md"
+packages = [{include = "apache_arrow_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyarrow = "^10.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
