@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: datasense
+Version: 1.0.5
+Summary: Make sense of your data
+Home-page: UNKNOWN
+Author: Terrin Babu Pulikottil
+Author-email: <terrinbabu@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+Requires-Dist: matplotlib
+
+UNKNOWN
+
