@@ -1,0 +1,6 @@
+brokerstream/__init__.py,sha256=ecuSgesbvgsIZNk3jdAPYtTwd5oAl6_UYS_H-dQSDM8,82
+brokerstream/kafka_stream.py,sha256=OvMrZSav3w-uGuaWT2tIYtlJSdFQGO-5H0wgewmJsVM,3045
+brokerstream-0.0.13.dist-info/METADATA,sha256=SV7sYUih68D-uIQiN6pAkVTU1MeRCcEDRWa7ncokSvs,566
+brokerstream-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+brokerstream-0.0.13.dist-info/top_level.txt,sha256=r8az4_lacinoUM3ThSou82IyI50U6EUpLvHJN2GkFx0,13
+brokerstream-0.0.13.dist-info/RECORD,,
