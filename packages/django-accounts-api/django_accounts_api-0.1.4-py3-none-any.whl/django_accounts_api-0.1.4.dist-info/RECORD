@@ -1,0 +1,14 @@
+django_accounts_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_accounts_api/api_login_tests.py,sha256=gpfKEYSAsJulLJjLADZKUD-oKmT0NCc3zYAvZ27t6ew,2562
+django_accounts_api/apps.py,sha256=4oRE55en196uSwEdEdRUtv9OqNw28wnvmp0H7gMhICc,159
+django_accounts_api/login_logout_tests.py,sha256=N5AKTzNGggUrCzdV1JcmX5RcABTNX-RAeKJN6FIi75o,5645
+django_accounts_api/manifest_tests.py,sha256=ZMcfaKPZUPeOeenC7__rJtLjX1tTquBZW6V7En8cOhA,622
+django_accounts_api/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_accounts_api/password_change_tests.py,sha256=pFZqOrHTVONEnzcpIf_FNQ-yOudbrNsjfJQoPaNRV9M,1874
+django_accounts_api/templates/django_accounts_api/login.html,sha256=fpdOGS0c6NVGTj6cBYX6d2hRlVNSm3WzBU2RFZt7MKI,18
+django_accounts_api/templates/django_accounts_api/password_change.html,sha256=fpdOGS0c6NVGTj6cBYX6d2hRlVNSm3WzBU2RFZt7MKI,18
+django_accounts_api/urls.py,sha256=RIyEQBHMqJv06TNkILR-kHJTEy37aZJakl9_xZP0-0Q,452
+django_accounts_api/views.py,sha256=N0_oQLx7M15C7gTJuTbAwyEbrdPoTqD6BYyHTy7eIzs,6016
+django_accounts_api-0.1.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+django_accounts_api-0.1.4.dist-info/METADATA,sha256=0HmkJPshe-d45YbewSO01UcLkL0uR7YdpwwjpVlgncc,1470
+django_accounts_api-0.1.4.dist-info/RECORD,,
