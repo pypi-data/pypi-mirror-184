@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tolerant_isinstance/LICENSE
+tolerant_isinstance/README.MD
+tolerant_isinstance/__init__.py
+tolerant_isinstance/requirements.txt
+tolerant_isinstance/thirdparty.json
+tolerant_isinstance.egg-info/PKG-INFO
+tolerant_isinstance.egg-info/SOURCES.txt
+tolerant_isinstance.egg-info/dependency_links.txt
+tolerant_isinstance.egg-info/requires.txt
+tolerant_isinstance.egg-info/top_level.txt

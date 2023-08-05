@@ -1,0 +1,4 @@
+include tolerant_isinstance/requirements.txt
+include tolerant_isinstance/thirdparty.json
+include tolerant_isinstance/README.MD
+include tolerant_isinstance/LICENSE
