@@ -1,0 +1,4 @@
+project: miniofs
+host: 10.1.0.13:9000
+username: minioadmin
+password: minioadmin
