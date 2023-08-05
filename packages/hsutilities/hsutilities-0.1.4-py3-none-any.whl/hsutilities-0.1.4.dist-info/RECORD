@@ -1,0 +1,9 @@
+hsutilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hsutilities/admin.py,sha256=hWTFs3A_F75qj5kwPbbdMTcmcSsa80bsChz73grFUwY,1019
+hsutilities/domains.py,sha256=rpWbC33N004HdYfJaKAAHneyFDREQKpX1ca9M2u62R4,894
+hsutilities/users.py,sha256=iJEJgchJzOvd1yWT2ZsxXtB6Q5ny31UUqxaa-EpzVpg,356
+hsutilities-0.1.4.dist-info/LICENSE,sha256=aYQax1mikB6yB2kwOAsuKJUUFZAnxI52YeX2t2vNC6M,1472
+hsutilities-0.1.4.dist-info/METADATA,sha256=3Km7DKJQOXho9gngRDHrtuU3IhrpYDl_5rxnZNeMoK8,1358
+hsutilities-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hsutilities-0.1.4.dist-info/top_level.txt,sha256=9uYTylJtXJ46JlyMPfp2BaoEKJ1dvibbqpWDevHmGNg,12
+hsutilities-0.1.4.dist-info/RECORD,,
