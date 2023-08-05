@@ -1,0 +1,15 @@
+policyengine_canada/__init__.py,sha256=Q_cXwvcagv31xPcCkeE_qn_mU_txVLY2pDBNC0hE6Wk,1661
+policyengine_canada/constants.py,sha256=yZqfcG2gY-HJVWOf7gEsBtayIry0fy1xiVffDe0gkM8,62
+policyengine_canada/entities.py,sha256=7A-f2cgeZfjfkuHsbcd5NxFd-E6-G3kJNvsYceUK8Qs,786
+policyengine_canada/model_api.py,sha256=iDYjsax-RBLByo1L_DPYMYzCkdaNmKBYbSKJdKl0YpI,107
+policyengine_canada/data/__init__.py,sha256=ZW_kba1eovucCTqGSutNhBd-hnqDpd9aV9zKnTxJOKM,45
+policyengine_canada/data/datasets/__init__.py,sha256=eNEBXErr8xb-mKGrsxruVWAmsXibWrKlaJalfWiQENc,61
+policyengine_canada/data/datasets/country_template_dataset.py,sha256=2xNdXXBal9BVkCiwQJCRbMezr4WN6lZlTFzxP-2rrOs,1516
+policyengine_canada/reforms/__init__.py,sha256=g9Kq0udY0pE_RI45y-b8kUliRiJ8B2uAUA9y6J1ogoc,223
+policyengine_canada/situation_examples/__init__.py,sha256=OZ9-BxmLr-AeJc372MXEh4GQ4HVGlWU2Z31NVPVJomc,151
+policyengine_canada/variables/__init__.py,sha256=S2ZMjfc8msxeX6d9lIcIuRgMcUfJLkm0pn9-5aKTjWQ,185
+policyengine_canada-0.16.3.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+policyengine_canada-0.16.3.dist-info/METADATA,sha256=3HWBv-Con6SgvUGJk4vOm_A0CiSAhdc2xfJ0NN0jA-Y,2044
+policyengine_canada-0.16.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+policyengine_canada-0.16.3.dist-info/top_level.txt,sha256=EZmfzhY5ROUOBe-gdPAz34a02EVVPlER8-KunT9t3IA,20
+policyengine_canada-0.16.3.dist-info/RECORD,,
