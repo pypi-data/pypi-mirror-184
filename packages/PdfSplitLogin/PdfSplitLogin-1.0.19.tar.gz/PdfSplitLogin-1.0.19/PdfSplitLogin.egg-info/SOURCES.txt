@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+PdfSplitLogin.egg-info/PKG-INFO
+PdfSplitLogin.egg-info/SOURCES.txt
+PdfSplitLogin.egg-info/dependency_links.txt
+PdfSplitLogin.egg-info/requires.txt
+PdfSplitLogin.egg-info/top_level.txt
+dbr/__init__.py
