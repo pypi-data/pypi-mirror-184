@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: slimfat
+Version: 1.4.2
+Summary: Create macOS universal binaries more easily outside of macOS
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
