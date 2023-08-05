@@ -1,0 +1,4 @@
+include search_in_syspath/requirements.txt
+include search_in_syspath/thirdparty.json
+include search_in_syspath/README.MD
+include search_in_syspath/LICENSE

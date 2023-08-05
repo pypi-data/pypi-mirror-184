@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+search_in_syspath/LICENSE
+search_in_syspath/README.MD
+search_in_syspath/__init__.py
+search_in_syspath/requirements.txt
+search_in_syspath/thirdparty.json
+search_in_syspath.egg-info/PKG-INFO
+search_in_syspath.egg-info/SOURCES.txt
+search_in_syspath.egg-info/dependency_links.txt
+search_in_syspath.egg-info/requires.txt
+search_in_syspath.egg-info/top_level.txt
