@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: twdown
+Version: 0.0.1
+Summary: Twitter video downloader
+Home-page: https://github.com/QIN2DIM/twdown-api
+Author: QIN2DIM
+Author-email: yaoqinse@gmail.com
+License: MIT
+Keywords: twdown,twitter-video-downloader
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (~=2.28.1)
+Requires-Dist: bs4 (~=0.0.1)
+Requires-Dist: beautifulsoup4 (~=4.11.1)
+
+# twdown-api
+Twitter video downloader
+
+
