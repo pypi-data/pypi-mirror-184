@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: svreg
+Version: 0.1.0.post1
+Summary: Module to perform regression using Shapley Values.
+Keywords: regression,shapley value,game theory,explainability
+Author-email: Yannick Stoll <yannick@pixelforest.io>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: alive_progress
+Requires-Dist: black
+Requires-Dist: cython>=0.28.5
+Requires-Dist: dpcpp-cpp-rt
+Requires-Dist: icecream
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pre-commit
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: scikit-learn==1.0.1
+Requires-Dist: scikit-learn-intelex>=2021.6.0
+Requires-Dist: scipy
+Project-URL: Source, https://bitbucket.org/pixelforest/sv_regression/src/master/
+Project-URL: original_article, https://www.researchgate.net/publication/229728883_Analysis_of_Regression_in_Game_Theory_Approach
+
+# svreg : regression based on Shapley Values.
+
+----
+
+## Installation
+
+For now, svreg is only available on Test Pypi.
+To install the package, please run the following command:
+
+```bash
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple sv_regression
+```
+
+## Requirements
+
+See requirements.txt
+
+## Example
+
+Please have a look at the notebook basic_example.ipynb for indications on how to use this package.
+
+
+## Changelog
+
+- 0.1.0: Initial release
+
