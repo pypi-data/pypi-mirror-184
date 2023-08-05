@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyfunction_package_zhanghpy"
+version = "0.0.1"
+authors = [
+  { name="zhanghpy", email="zh15133119447@163.com" },
+]
+description = "A simple user-defined function library"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/zhanghpy/pypa"
+"Bug Tracker" = "https://github.com/zhanghpy/pypa/issues"
