@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: creeper-adventure
+Version: 5.0.0
+Summary: a top down 2d adventure game
+Project-URL: Documentation, https://github.com/unknown/creeper-adventure#readme
+Project-URL: Issues, https://github.com/unknown/creeper-adventure/issues
+Project-URL: Source, https://github.com/unknown/creeper-adventure
+Author-email: "Waylon S. Walker" <waylon@waylonwalker.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: click
+Requires-Dist: more-itertools
+Requires-Dist: pygame
+Description-Content-Type: text/markdown
+
+# creeper-adventure
+
+[![PyPI - Version](https://img.shields.io/pypi/v/creeper-adventure.svg)](https://pypi.org/project/creeper-adventure)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/creeper-adventure.svg)](https://pypi.org/project/creeper-adventure)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install creeper-adventure
+```
+
+## License
+
+`creeper-adventure` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
