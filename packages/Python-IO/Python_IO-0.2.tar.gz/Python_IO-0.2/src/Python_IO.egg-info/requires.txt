@@ -1,0 +1,3 @@
+customtkinter
+PIL
+requests
