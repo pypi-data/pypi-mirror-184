@@ -1,0 +1,1 @@
+from djangocamera.streaming import video_feed
