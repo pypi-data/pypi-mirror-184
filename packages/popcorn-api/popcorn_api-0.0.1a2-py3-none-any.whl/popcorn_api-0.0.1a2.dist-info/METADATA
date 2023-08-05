@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: popcorn_api
+Version: 0.0.1a2
+Summary: A package that facilitates the interaction with the popcorntime api
+Author: RedCoded
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+## Popcorntime api

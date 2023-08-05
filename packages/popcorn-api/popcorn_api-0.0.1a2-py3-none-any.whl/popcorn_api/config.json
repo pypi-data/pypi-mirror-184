@@ -1,0 +1,16 @@
+{
+    "apis": [
+        "https://shows.cf/",
+        "https://movies-api.ga/",
+        "https://movies-api.tk/",
+        "https://popcorn-time.ga"
+    ],
+    "cam_keywords": [
+        "CAM",
+        "HDCAM",
+        "TS",
+        "TC",
+        "TELESYNC",
+        "HDTS"
+    ]
+}
