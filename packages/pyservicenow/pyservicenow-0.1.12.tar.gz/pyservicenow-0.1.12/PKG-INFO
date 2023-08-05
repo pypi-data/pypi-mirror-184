@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyservicenow
+Version: 0.1.12
+Summary: Python wrapper for Service-Now REST API
+Author: michaeldcanady
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: homepage, https://github.com/michaeldcanady/pyservicenow#readme
+Project-URL: repository, https://github.com/michaeldcanady/pyservicenow
+
+# PyServiceNow
+
+## Distributing
+Check any of the Release/* branches to find the needed version
+Check under dist for the .whl file
+
+```bash
+pip install *.whl
+```
+
+## Making Wheel
+```bash
+python setup.py bdist_wheel --universal
+```
+
+## Example Basic Call
+```python
+from pyservicenow.core import UsernamePasswordCredential, ServiceNowClient
+from pyservicenow.types.models.querybuilder import QueryBuilder
+
+credential = UsernamePasswordCredential("", "")
+
+client = ServiceNowClient(credential=credential, instance="instance")
+
+query = QueryBuilder().field("serial_number").equals("92XWKW2")
+
+Ticket = client.Now().Table("alm_hardware").Request.Query(str(query)).Limit(1).Get.Invoke
+```
