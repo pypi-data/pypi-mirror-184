@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+write_read_file/LICENSE
+write_read_file/README.MD
+write_read_file/__init__.py
+write_read_file/requirements.txt
+write_read_file/thirdparty.json
+write_read_file.egg-info/PKG-INFO
+write_read_file.egg-info/SOURCES.txt
+write_read_file.egg-info/dependency_links.txt
+write_read_file.egg-info/requires.txt
+write_read_file.egg-info/top_level.txt

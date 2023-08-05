@@ -1,0 +1,4 @@
+include write_read_file/requirements.txt
+include write_read_file/thirdparty.json
+include write_read_file/README.MD
+include write_read_file/LICENSE
