@@ -1,0 +1,11 @@
+macimg/__init__.py,sha256=Kxvvb-DkFIX20wz87M0p6Y637j6HxZFPOpuRSgN0Gck,30
+macimg/compositions.py,sha256=tAbgCRVt4cS7paG0c_atuCzvTJnhMfzgq8CTHBYUrtc,4068
+macimg/core.py,sha256=EALTiGF2xdFoL2qg2SOrT2ljs1S406hYCaP5sstps1g,33740
+macimg/distortions.py,sha256=C1mwfZDYSAvkGVBHup4h3wLPhFzB0w5jdEPVFs4Olw8,13111
+macimg/filters.py,sha256=q39bPogpWnb_FVW3a-ewyuxNUAYm-yO1bZgiE1iAOso,22419
+macimg/transforms.py,sha256=v_-E5p1m2I9FTbx_yYXOLhne9wQVAvoAi_q3kxgbwYg,5907
+macimg-0.0.2.dist-info/LICENSE,sha256=qWeB_EAPWXujHqmlAK9ZxwQN10zabsaNw2y3A0fLvww,1071
+macimg-0.0.2.dist-info/METADATA,sha256=ZSgC6215qWUYidgCmIYUy3GvJmZyS6Mr9Mp1WljWs6A,2735
+macimg-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+macimg-0.0.2.dist-info/top_level.txt,sha256=Hwx1v9ONyxIV7pv1WI7PWUOhzEN3zqHJeC0S8Wywri0,7
+macimg-0.0.2.dist-info/RECORD,,
