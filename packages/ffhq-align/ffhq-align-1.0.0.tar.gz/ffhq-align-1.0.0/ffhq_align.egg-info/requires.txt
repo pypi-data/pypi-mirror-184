@@ -1,0 +1,13 @@
+torch
+kornia
+face_alignment
+pillow
+
+[all]
+tqdm
+
+[dev]
+isort
+black
+pre-commit
+mypy
