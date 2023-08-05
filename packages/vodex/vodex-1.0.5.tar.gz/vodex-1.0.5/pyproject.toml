@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vodex"
+version = "1.0.5"
+description='volumetric data and experiment manager'
+readme = "README.md"
+authors = [{ name = "Anna Nadtochiy", email = "nadtochi@usc.edu" }]
+license = { file = "LICENSE" }
+classifiers=[
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Science/Research',
+    'Topic :: Scientific/Engineering :: Image Processing',
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent'
+]
+dependencies = [
+    'numpy',
+    'pathlib',
+    'tifffile',
+    'tqdm',
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls] # documentation will also go in here
+Homepage = "https://github.com/LemonJust/vodex"
