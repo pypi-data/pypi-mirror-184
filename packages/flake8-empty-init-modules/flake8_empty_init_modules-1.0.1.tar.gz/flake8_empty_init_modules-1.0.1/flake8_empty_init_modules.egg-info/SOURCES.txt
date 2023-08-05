@@ -1,0 +1,11 @@
+LICENSE
+README.md
+flake8_empty_init_modules.py
+setup.cfg
+setup.py
+flake8_empty_init_modules.egg-info/PKG-INFO
+flake8_empty_init_modules.egg-info/SOURCES.txt
+flake8_empty_init_modules.egg-info/dependency_links.txt
+flake8_empty_init_modules.egg-info/entry_points.txt
+flake8_empty_init_modules.egg-info/requires.txt
+flake8_empty_init_modules.egg-info/top_level.txt

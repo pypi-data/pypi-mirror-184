@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: flake8_empty_init_modules
+Version: 1.0.1
+Summary: flake8 plugin that checks for code in `__init__.py` modules
+Home-page: https://github.com/samueljsb/flake8-empty-init-modules
+Author: Samuel Searles-Bryant
+Author-email: sam@samueljsb.co.uk
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# flake8-empty-init-modules
+
+flake8 plugin that disallows code in `__init__.py` modules.
+
+## installation
+
+```sh
+python -m pip install flake8-empty-init-modules
+```
+
+## checks
+
+### EIM001
+
+Disallows all code in any `__init__.py` module.
+
+### EIM002
+
+Allows imports and assignment to `__all__` in `__init__.py` modules, but nothing
+else.
+
+This check is disabled by default. To use this check instead of `EIM001` add the
+following to your `setup.cfg`
+
+```ini
+[flake8]
+ignore = EIM001
+enable-extensions=EIM002
+```
+
+## rationale
+
+Code in `__init__.py` modules is often unwanted because:
+
+- it runs at import-time - this can cause surprising import-time side-effects
+- these modules are often empty, so code there is easily missed
+
+The relaxed version of this check allows convenience imports in `__init__.py`
+modules without allowing 'real' code to hide out there.
