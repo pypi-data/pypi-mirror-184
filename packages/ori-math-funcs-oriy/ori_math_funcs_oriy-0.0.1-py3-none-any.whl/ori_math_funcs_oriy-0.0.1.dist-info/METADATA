@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ori_math_funcs_oriy
+Version: 0.0.1
+Summary: A small math functions package
+Project-URL: Homepage, https://github.com/oriyafe1/math_funcs
+Project-URL: Bug Tracker, https://github.com/oriyafe1/math_funcs/issues
+Author-email: oriy <ori987yafe@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ori_math_func
+
+cool math functions package
