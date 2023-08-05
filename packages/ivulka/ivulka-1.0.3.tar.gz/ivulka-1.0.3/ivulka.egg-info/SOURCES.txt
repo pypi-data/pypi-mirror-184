@@ -1,0 +1,9 @@
+LICENCE
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+ivulka.egg-info/PKG-INFO
+ivulka.egg-info/SOURCES.txt
+ivulka.egg-info/dependency_links.txt
+ivulka.egg-info/top_level.txt
