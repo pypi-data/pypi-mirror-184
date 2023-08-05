@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+cleantable.egg-info/PKG-INFO
+cleantable.egg-info/SOURCES.txt
+cleantable.egg-info/dependency_links.txt
+cleantable.egg-info/requires.txt
+cleantable.egg-info/top_level.txt
