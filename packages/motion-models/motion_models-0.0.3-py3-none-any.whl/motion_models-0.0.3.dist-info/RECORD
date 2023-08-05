@@ -1,0 +1,10 @@
+__init__.py,sha256=OsiIa4PS4FhiJpAIghTkWROxJO7wwsURMma-d3my7X4,85
+motion_models_2d.py,sha256=kRNEJj9MS7hBTCmQ6Q8y8Xwm6-LodZtJ3ndnj1l7lxo,7633
+motion_models_2d_torch.py,sha256=l-EdIdiUgP7FZ4SkgLBLp4c63O5pmpnC1YA8t4lBDz4,7838
+motion_models_3d.py,sha256=ISNc84pBx2cx9vwKlCrjbLQNYccqpcaNyZEzekM0gMI,28549
+test.py,sha256=ztqMYEYS_MtlV6ilr9fMkfWBBioT0K0jZIELhnxKcIc,6771
+test_torch.py,sha256=T6IPKoHXWjunTXMo8iyrYeLTaRxMUpEUSl7IS7WKj-A,6782
+motion_models-0.0.3.dist-info/METADATA,sha256=QQIFhw_dGqEIyCPn16uEinRS3YVZH81hyASyRGH4bXQ,392
+motion_models-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+motion_models-0.0.3.dist-info/top_level.txt,sha256=fe8P9zlSBFNilYAbEPB7_62BSqSSu81G2J0T8Dh-blM,82
+motion_models-0.0.3.dist-info/RECORD,,
