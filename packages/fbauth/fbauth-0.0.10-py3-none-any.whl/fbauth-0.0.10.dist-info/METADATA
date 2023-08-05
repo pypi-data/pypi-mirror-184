@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fbauth
+Version: 0.0.10
+Summary: Authentication for Fastberry
+Author-email: hlop3z <23062270+hlop3z@users.noreply.github.com>
+Requires-Python: >=3.10
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: passlib[bcrypt]>=1.7.4
+Requires-Dist: python-jose[cryptography]>=3.3.0
+Requires-Dist: python-multipart>=0.0.5
+Description-Content-Type: text/markdown
+
+# fbauth
+
