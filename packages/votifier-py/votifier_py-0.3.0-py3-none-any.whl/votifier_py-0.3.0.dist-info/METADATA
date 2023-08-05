@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: votifier_py
+Version: 0.3.0
+Summary: A Python implementation of the Minecraft Votify project.
+License: MIT
+Author-email: Thaodan <unclethaodan@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: pycryptodome>=3.16.0
+Requires-Dist: pydantic>=1.10.4
+Project-URL: Repository, https://gitlab.com/UncleThaodan/votifier_py
+Description-Content-Type: text/markdown
+
+# votifier_py
+
+A Python implementation of the Minecraft Votify/NuVotify projects.
+
+Acts as a votifier server; receiving, unpacking and interpreting incoming votes asynchronously from voting websites for all your pythonic backend needs. Think [Vanilla Votifier](https://github.com/xMamo/VanillaVotifier) but as a Python library.
+
+Currently supports the original Votifier protocol as well as Votifier2.
+
+**Note**: Expect breaking changes until people pester me with issues. :)
+
