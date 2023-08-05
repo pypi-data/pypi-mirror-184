@@ -1,0 +1,13 @@
+LICENSE
+README.md
+cfcs.py
+config.py
+my_strings.py
+my_utils.py
+setup.cfg
+setup.py
+calc_files_control_sum.egg-info/PKG-INFO
+calc_files_control_sum.egg-info/SOURCES.txt
+calc_files_control_sum.egg-info/dependency_links.txt
+calc_files_control_sum.egg-info/entry_points.txt
+calc_files_control_sum.egg-info/top_level.txt
