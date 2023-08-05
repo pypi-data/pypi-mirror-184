@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: ga-utils
+Version: 0.0.5
+Summary: 通过GA协议获取数据，用于调试GA控件树
+Home-page: https://git.woa.com/janeajian/ga-util
+Author: janeluck
+Author-email: janeluck158@outlook.com
+License: MIT
+Description: 通过GA协议获取数据，用于调试GA控件树，示例：ga-utils get 300 --port 2004
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
