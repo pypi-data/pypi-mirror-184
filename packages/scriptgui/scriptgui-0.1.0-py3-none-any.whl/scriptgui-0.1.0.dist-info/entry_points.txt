@@ -1,0 +1,3 @@
+[console_scripts]
+ms=scriptgui.web:main
+
