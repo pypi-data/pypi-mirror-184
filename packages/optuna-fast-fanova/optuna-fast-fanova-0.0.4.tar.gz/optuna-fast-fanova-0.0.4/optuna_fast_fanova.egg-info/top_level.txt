@@ -1,0 +1,6 @@
+dist
+optuna_fast_fanova
+tests
+tmp
+tools
+venv
