@@ -1,0 +1,13 @@
+accentdatabase/__init__.py,sha256=vk87FzRkOYpIhctljNPWMNJZQmJP030P4Tlopuo_9t8,132
+accentdatabase/base.py,sha256=RebGlSM7lL-5PNb75bFZHMtU2I5QIlvwdrj6qUV4PUA,484
+accentdatabase/config.py,sha256=BvVjEYlQiUrW7vrv6YIdhM2Le7wvf2Iu0IPup6a7Rjg,345
+accentdatabase/encoders.py,sha256=b9gmii5D1l6-0soOR9pMOJ6tDyIiVBXXCp1K6L0Lpgs,333
+accentdatabase/engine.py,sha256=2OXWF8QfYvTbd9U60mDp7Np0oBEW88qyrsJpKC8qpqY,238
+accentdatabase/mixins.py,sha256=FYJwLH33FJmtvhDOXXBuehmY5p7v27WuwAH1LV8rLqU,604
+accentdatabase/operations.py,sha256=4BT2MRCm_jNu79HGYWrFkIILI6OTqvJJvHO50VLlNfQ,6675
+accentdatabase/session.py,sha256=pfCXoDs_3v0b6SgQCP5NE01nbiJ4ErJYdIZMJWY9Ek8,782
+accentdatabase/testing.py,sha256=MEK2mtI3UINYPGqrVoR36vFzPu6lW9VPFOrRAkW2dmQ,966
+accentdatabase-0.0.3.dist-info/LICENSE,sha256=PhikoSF3z6YP2xOF11JMB4u0Ijg4OnP_kL6IJuJHqF4,1090
+accentdatabase-0.0.3.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+accentdatabase-0.0.3.dist-info/METADATA,sha256=RHWipcpAOr8Nb4wB9U_zIVz4kaqgjcjAJkisWd5VVD0,1327
+accentdatabase-0.0.3.dist-info/RECORD,,
