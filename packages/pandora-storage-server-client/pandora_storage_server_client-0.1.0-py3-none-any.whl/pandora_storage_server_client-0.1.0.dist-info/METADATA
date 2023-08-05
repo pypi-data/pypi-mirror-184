@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pandora-storage-server-client
+Version: 0.1.0
+Summary: Pandora Storage Server Client.
+Author: Juan Carlos Juárez
+Author-email: <jc.juarezgarcia@outlook.com>
+Keywords: Storage,Key-Value,Server,NoSQL,Schemaless,GNU/Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Pandora Storage Server Python Client 🪐🐍
+
+This is the Python Client implementation for the Key-Value Pairs Schemaless Pandora Storage Server.
