@@ -1,0 +1,12 @@
+tensorwrap/__init__.py,sha256=tbs4c-enjSXHCTt8rMShZcivRh1d19jbZwWDP0u24l8,129
+tensorwrap/self.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorwrap/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorwrap/version.py,sha256=Hn29SESqVLg9Wmeo7k5XsR9yVUG6wsY7LVv9xJEe8TY,57
+tensorwrap/core/__init__.py,sha256=Da9Y31M7ogtbQoBC0HpEJxe5__7woKxZ90-4xT9Dhs8,16
+tensorwrap/core/nn/__init__.py,sha256=kBeAGddJlHSWja5pw1gEWNFRZuM-WCUP8iXo7jsZfuY,62
+tensorwrap/core/nn/layers.py,sha256=8SF0T15tC0BTuQ_0_nFDe1INlZ-Gh1yT9k8EY9ZSMiA,63
+tensorwrap-0.0.0.1.dist-info/LICENSE,sha256=88n48sLDmDQM6x3aoC_gZBdHMGnIRozFlN8QzHNCrXw,1064
+tensorwrap-0.0.0.1.dist-info/METADATA,sha256=_OXRpyj-SDfwS-MU3IQ3DxQrTJ5r3NLc1no8NU5O3rs,1911
+tensorwrap-0.0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tensorwrap-0.0.0.1.dist-info/top_level.txt,sha256=NmcppFe20JCQEONnN5c6uc2XuU0WhK8rAlt4UVESaf0,11
+tensorwrap-0.0.0.1.dist-info/RECORD,,

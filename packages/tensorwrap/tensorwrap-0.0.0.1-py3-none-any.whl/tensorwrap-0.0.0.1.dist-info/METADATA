@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: tensorwrap
+Version: 0.0.0.1
+Summary: TensorWrap: A high level TensorFlow wrapper for JAX.
+Home-page: https://github.com/Impure-King/base-tensorwrap
+Author: Lelouch
+Author-email: ImpureK@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.12)
+Requires-Dist: jax (>=0.3.16)
+Requires-Dist: matplotlib
+Requires-Dist: msgpack
+Requires-Dist: optax
+Requires-Dist: orbax
+Requires-Dist: tensorstore
+Requires-Dist: rich (>=11.1)
+Requires-Dist: typing-extensions (>=4.1.1)
+Requires-Dist: PyYAML (>=5.4.1)
+Provides-Extra: testing
+Requires-Dist: atari-py (==0.2.5) ; extra == 'testing'
+Requires-Dist: clu ; extra == 'testing'
+Requires-Dist: gym (==0.18.3) ; extra == 'testing'
+Requires-Dist: jaxlib ; extra == 'testing'
+Requires-Dist: jraph (>=0.0.6dev0) ; extra == 'testing'
+Requires-Dist: ml-collections ; extra == 'testing'
+Requires-Dist: mypy ; extra == 'testing'
+Requires-Dist: opencv-python ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-custom-exit-code ; extra == 'testing'
+Requires-Dist: pytest-xdist (==1.34.0) ; extra == 'testing'
+Requires-Dist: pytype ; extra == 'testing'
+Requires-Dist: sentencepiece ; extra == 'testing'
+Requires-Dist: tensorflow-text (>=2.4.0) ; extra == 'testing'
+Requires-Dist: tensorflow-datasets ; extra == 'testing'
+Requires-Dist: tensorflow ; extra == 'testing'
+Requires-Dist: torch ; extra == 'testing'
+
+# TensorWrap
+ A Jax-based wrapper that is supposed to give a familiar interface for TensorFlow users.
+ Currently, it is in beta and not accessible for public-use.
