@@ -1,0 +1,4 @@
+include cv2_multistack/requirements.txt
+include cv2_multistack/thirdparty.json
+include cv2_multistack/README.MD
+include cv2_multistack/LICENSE

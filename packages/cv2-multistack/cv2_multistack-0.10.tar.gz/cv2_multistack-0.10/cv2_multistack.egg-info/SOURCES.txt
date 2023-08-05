@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cv2_multistack/LICENSE
+cv2_multistack/README.MD
+cv2_multistack/__init__.py
+cv2_multistack/requirements.txt
+cv2_multistack/thirdparty.json
+cv2_multistack.egg-info/PKG-INFO
+cv2_multistack.egg-info/SOURCES.txt
+cv2_multistack.egg-info/dependency_links.txt
+cv2_multistack.egg-info/requires.txt
+cv2_multistack.egg-info/top_level.txt
