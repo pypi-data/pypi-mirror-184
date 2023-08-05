@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: lm-identifier
+Version: 0.0.1
+Summary: A toolkit for identifying pretrained language models from AI-generated text
+License: MIT
+Author: Jaesung Tae
+Author-email: jaesungtae@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Requires-Dist: torch (>=1.13.1,<2.0.0)
+Requires-Dist: transformers (>=4.25.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# LM Identifier
+
+With a surge of generative pretrained language models, it is becoming increasingly important to distinguish between human and AI-generated text. Inspired by [GPTZero](https://etedward-gptzero-main-zqgfwb.streamlit.app), an app that seeks to detect AI-generated text, LM Identifier pokes at this question even further by providing a growing suite of tools to help identify *which (publicly available) language model* might have been used to generate some given chunck of text.
+
+## Installation
+
+LM Identifier is available on PyPI.
+
+```
+$ pip install lm-identifier
+```
+
+To develop locally, first install pre-commit:
+
+```
+$ pip install --upgrade pip wheel
+$ pip install pre-commit
+$ pre-commit install
+```
+
+Install the package in editable mode.
+
+```
+pip install -e .
+```
+
+## Usages
+
+WIP
+
