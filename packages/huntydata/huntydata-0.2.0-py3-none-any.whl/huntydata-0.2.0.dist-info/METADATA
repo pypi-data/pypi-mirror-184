@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: huntydata
+Version: 0.2.0
+Summary: Contains functions that are useful for daily programing problems in Hunty operation
+Home-page: https://github.com/Huntyjobs/data_library
+Author: Hunty Data Team: Diegui Lesmes, Santi R ft.Andrew Ferreira
+Project-URL: Bug Tracker, https://github.com/Huntyjobs/data_library/issues
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: python-dotenv
+
+Contains functions that are useful for daily programing problems in Hunty operation
