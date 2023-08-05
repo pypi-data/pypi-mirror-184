@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: TaxSEA
+Version: 0.0.2
+Summary: A taxonomic enrichment analysis toolkit
+Home-page: https://github.com/abdohlman/TaxSEA
+Author: Anders B. Dohlman
+Author-email: Anders Dohlman <abdohlman@gmail.com>
+Project-URL: Homepage, https://github.com/abdohlman/TaxSEA
+Project-URL: Bug Tracker, https://github.com/abdohlman/TaxSEA/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7
+License-File: LICENSE
+
