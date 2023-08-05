@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: faber_fireplace
+Version: 0.0.2
+Summary: Python package for controlling a Faber fireplace
+Project-URL: Homepage, https://github.com/Andreas-Utkilen/faber_fireplace
+Project-URL: Bug Tracker, https://github.com/Andreas-Utkilen/faber_fireplace/issues
+Author-email: Andreas Traa Utkilen <andreastraautkilen@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+  <h3 align="center">Faber Fireplace ITC v2</h3>
+
+  <p align="center">
+    A simple python library for controlling a Faber fireplace
+  </p>
+</div>
+<br>
+<br>
+<br>
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
