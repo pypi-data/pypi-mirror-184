@@ -1,0 +1,124 @@
+#  Copyright (c) 2022 Push Technology Ltd., All Rights Reserved.
+#
+#  Use is subject to license terms.
+#
+#  NOTICE: All information contained herein is, and remains the
+#  property of Push Technology. The intellectual and technical
+#  concepts contained herein are proprietary to Push Technology and
+#  may be covered by U.S. and Foreign Patents, patents in process, and
+#  are protected by trade secret or copyright law.
+import typing
+
+import pydantic
+
+import diffusion
+from diffusion.datatypes.timeseries import VT
+from diffusion.datatypes.timeseries.types import (
+    TimeSeriesValueType,
+)
+from diffusion.internal.serialisers.pydantic import (
+    MarshalledModel,
+)
+
+
+class TimeSeriesAppendRequest(MarshalledModel):
+    topic_path: str = pydantic.Field(alias="path")
+    value_type: typing.Union[
+        str, typing.Type[TimeSeriesValueType]
+    ] = pydantic.Field(alias="data-type-name")
+    value: typing.Union[TimeSeriesValueType, bytes]
+
+    # noinspection PyUnusedLocal,PyNestedDecorators
+    @pydantic.validator("value_type", pre=True)
+    @classmethod
+    def validate_dt(
+        cls,
+        field_value: typing.Type[VT],
+        values: typing.Dict[str, typing.Any],
+        field,
+        config,
+    ) -> str:
+        return str(field_value)
+
+    # noinspection PyUnusedLocal,PyNestedDecorators
+    @pydantic.validator("value", pre=True)
+    @classmethod
+    def validate_value(
+        cls,
+        field_value: TimeSeriesValueType,
+        values: typing.Dict[str, typing.Any],
+        field,
+        config,
+    ) -> bytes:
+        return bytes(field_value)
+
+    class Config(MarshalledModel.Config):
+        alias = "time-series-append-request"
+
+
+class TimeSeriesTimestampAppendRequest(
+    TimeSeriesAppendRequest
+):
+    timestamp: int
+
+    class Config(MarshalledModel.Config):
+        alias = "time-series-timestamp-append-request"
+
+
+class TimeSeriesEditRequest(MarshalledModel):
+    """
+    The time series edit request.
+    Added in version 6.8.3
+    """
+
+    topic_path: str = pydantic.Field(alias="path")
+    """
+    The topic path.
+    """
+
+    value_type: str = pydantic.Field(alias="data-type-name")
+
+    # noinspection PyUnusedLocal,PyNestedDecorators
+    @pydantic.validator("value_type", pre=True)
+    @classmethod
+    def validate_dt(
+        cls,
+        field_value: typing.Type[VT],
+        values: typing.Dict[str, typing.Any],
+        field,
+        config,
+    ) -> str:
+        return str(field_value)
+
+    @property
+    def type(self):
+        return diffusion.datatypes.get(self.value_type)
+
+    """
+    The corresponding data type name of the value type.
+    """
+    original_sequence: int = pydantic.Field(
+        alias="sequence"
+    )
+    """
+    The original sequence number.
+    """
+
+    value: bytes = pydantic.Field(alias="bytes")
+    """
+    The value in serialised form.
+    """
+    # noinspection PyUnusedLocal,PyNestedDecorators
+    @pydantic.validator("value", pre=True)
+    @classmethod
+    def validate_value(
+        cls,
+        field_value: TimeSeriesValueType,
+        values: typing.Dict[str, typing.Any],
+        field,
+        config,
+    ) -> bytes:
+        return bytes(field_value)
+
+    class Config(MarshalledModel.Config):
+        alias = "time-series-edit-request"
