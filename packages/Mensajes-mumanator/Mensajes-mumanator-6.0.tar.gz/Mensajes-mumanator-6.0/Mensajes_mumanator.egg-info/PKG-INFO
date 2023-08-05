@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Mensajes-mumanator
+Version: 6.0
+Summary: un paquete para saludar y despedir
+Home-page: https://www.hektor.dev
+Author: jhonatan Rincon
+Author-email: jeramix92@gmail.com
+License: UNKNOWN
+Description: # Mensajes
+        
+        El paquete de mensajerias para pruebas de Jhonatan Rincon.
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
