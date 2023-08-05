@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/xandroid/__init__.py
+src/xandroid.egg-info/PKG-INFO
+src/xandroid.egg-info/SOURCES.txt
+src/xandroid.egg-info/dependency_links.txt
+src/xandroid.egg-info/top_level.txt
+src/xandroid/xmlparser/__init__.py
+src/xandroid/xmlparser/axmlparser.py
+src/xandroid/xmlparser/axmlprinter.py
+src/xandroid/xmlparser/bytecode.py
+src/xandroid/xmlparser/stringblock.py
+src/xandroid/xmlparser/typeconstants.py
