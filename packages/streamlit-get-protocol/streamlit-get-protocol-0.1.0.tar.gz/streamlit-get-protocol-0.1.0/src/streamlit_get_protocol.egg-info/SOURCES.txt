@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/streamlit_get_protocol/__init__.py
+src/streamlit_get_protocol.egg-info/PKG-INFO
+src/streamlit_get_protocol.egg-info/SOURCES.txt
+src/streamlit_get_protocol.egg-info/dependency_links.txt
+src/streamlit_get_protocol.egg-info/requires.txt
+src/streamlit_get_protocol.egg-info/top_level.txt
+src/streamlit_get_protocol/frontend/index.html
+src/streamlit_get_protocol/frontend/main.js
+src/streamlit_get_protocol/frontend/streamlit-component-lib.js

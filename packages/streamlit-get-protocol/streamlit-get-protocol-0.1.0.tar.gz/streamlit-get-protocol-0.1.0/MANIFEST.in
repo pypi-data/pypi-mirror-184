@@ -1,0 +1,3 @@
+recursive-include src/streamlit_get_protocol/frontend *
+include README.md
+include LICENSE
