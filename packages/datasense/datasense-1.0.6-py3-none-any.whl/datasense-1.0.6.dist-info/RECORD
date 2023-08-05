@@ -1,0 +1,11 @@
+datasense/__init__.py,sha256=-2KABfl_7eL4SFYQ36ilfU2CoSjhQ3q9tVM60dEbOL4,149
+datasense/data_access.py,sha256=TeRcA776i519wF9zBTLYgT-khiwO6ctyT9HReI9BhSs,748
+datasense/data_analysis.py,sha256=jj464e9SfxInJAxBhsMRkE0pMddAvNIeZ8fl-2TqmN0,1913
+datasense/data_plot.py,sha256=mZ3LXOfBgkrcKkg29sWy6Z35UPtofwzSMcpLKV8O7Ig,4159
+datasense/data_type.py,sha256=jMn0xZqV7J7z21KPPnPOXCF8mK_bAcaSOWQj_SVcM64,2159
+datasense/info.py,sha256=idBcNgxjp2qeGHdWQl5CQKUqOer-NwFC2ORSoLvZdeM,598
+datasense-1.0.6.dist-info/LICENSE.txt,sha256=VfU8zjQ0AgsIT1X4St4eXwF45beILytwb6ToOYmrHaM,1098
+datasense-1.0.6.dist-info/METADATA,sha256=cFC8fTK7t-AEBZbPuW0LR6EMrkSlVJJnoIpQPiRXCMs,568
+datasense-1.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+datasense-1.0.6.dist-info/top_level.txt,sha256=aSrjpd2auXlr4nFJ2nQ5_vI3ZPlB2vCpxylUY07ptfQ,10
+datasense-1.0.6.dist-info/RECORD,,
