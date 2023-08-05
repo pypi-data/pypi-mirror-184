@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+cri_data_tools.egg-info/PKG-INFO
+cri_data_tools.egg-info/SOURCES.txt
+cri_data_tools.egg-info/dependency_links.txt
+cri_data_tools.egg-info/top_level.txt
