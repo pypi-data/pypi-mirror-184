@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: parm_geo
+Version: 0.0.1
+Summary: Roof detection
+Home-page: https://github.com/lrxjason
+Author: Ruixu
+License: Mit
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
