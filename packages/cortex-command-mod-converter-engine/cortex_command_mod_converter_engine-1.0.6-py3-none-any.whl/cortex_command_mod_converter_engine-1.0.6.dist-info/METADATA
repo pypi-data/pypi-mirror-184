@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cortex-command-mod-converter-engine
+Version: 1.0.6
+Summary: Automatically converts mods to the latest version of the Cortex Command Community Project.
+Project-URL: Homepage, https://github.com/MyNameIsTrez/Cortex-Command-Mod-Converter-Engine
+Project-URL: Bug Tracker, https://github.com/MyNameIsTrez/Cortex-Command-Mod-Converter-Engine/issues
+Author-email: MyNameIsTrez <welfje@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Cortex Command Mod Converter Engine
+
+Automatically converts mods to the latest version of the Cortex Command Community Project.
+
+# Contributing
+
+## Locally testing your changes
+
+1. Generate distribution archives and overwrite the old distribution archive with `py -m build && pip install dist/*.tar.gz`
+
+## Running the tests
+`py -m unittest`
+
+## Updating this project on PyPI
+
+1. Generate distribution archives with `py -m build`
+2. Update this package on PyPI with `twine upload dist/*`. You'll have to enter your PyPI username and password.
