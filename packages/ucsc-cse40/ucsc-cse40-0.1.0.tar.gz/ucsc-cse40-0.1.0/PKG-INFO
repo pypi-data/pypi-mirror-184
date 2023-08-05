@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ucsc-cse40
+Version: 0.1.0
+Summary: Dependencies for UCSC's CSE 40: Machine Learning Basics: Data Analysis and Empirical Methods.
+Home-page: https://github.com/ucsc-cse-40/ucsc-cse40
+Maintainer: Eriq Augustine
+Maintainer-email: eaugusti@ucsc.edu
+Keywords: grading
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: /home/eriq/code/cse-40/ucsc-cse40/LICENSE.txt
+
+# UCSC CSE 40
+
+Materials CSE 40 source by Lise Getoor.
+Managed by the [LINQS group](linqs.org).
