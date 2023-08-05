@@ -1,0 +1,11 @@
+setup.py
+fluentbox.egg-info/PKG-INFO
+fluentbox.egg-info/SOURCES.txt
+fluentbox.egg-info/dependency_links.txt
+fluentbox.egg-info/requires.txt
+fluentbox.egg-info/top_level.txt
+src/__init__.py
+src/fluentbox/__init__.py
+src/fluentbox/box.py
+tests/__init__.py
+tests/test_sequence_box.py

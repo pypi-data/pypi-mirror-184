@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fluentbox
+Version: 1.0.0
+Summary: Fluent chainable interface for container data types
+Home-page: https://github.com/griendt/box
+Author: Alex van de Griendt
+Author-email: alex@e-cube.nl
+Keywords: collection,fluent,development
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8, <4
+Provides-Extra: test
