@@ -1,0 +1,13 @@
+cse40/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cse40/assignment.py,sha256=QkrKVyYcQSeAciXJxnWEzqDjTDTqLg5ICOx7-78g3zQ,2509
+cse40/ipynbimport.py,sha256=0QiR23uOVPH7833uJY-xt1gb-O3YONzJHRsc8reVlX4,7246
+cse40/question.py,sha256=2tauZFFrMyKaLSH0-TzfD2xBnk3zQWv3_RmQg64jahE,3980
+cse40/style.py,sha256=_Se8eP1P_KG1Havm0dyAt7aQyCj3C3EwW3oO3uREifc,3843
+cse40/submit.py,sha256=AmWvtjDeARRyV9spM18s7cyVQrgBCpzZiSIUS5y-8pA,2336
+cse40/testgrader.py,sha256=-LqdZuYX1oRQdmK_Fd-Z3QGP9VyjRMit0GdyuE0TCvg,1470
+cse40/utils.py,sha256=Vb_1OTeSuADEBC0-CXnjlazFXXJihkFqdUqwVH0wYs0,4850
+ucsc_cse40-0.1.0.dist-info/LICENSE.txt,sha256=2UmbxeTTj3YyCt18R5BlEp8j74hliRu7dPZC1h8mfvA,1067
+ucsc_cse40-0.1.0.dist-info/METADATA,sha256=iNLf5l6YbTiUbgyorD7Q-EB0ElCnAc74TTcOVI5s6C0,874
+ucsc_cse40-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ucsc_cse40-0.1.0.dist-info/top_level.txt,sha256=Kfp52i466_pbuhOranSE_IeiczgFcIPZGUiH_Mm3Sno,6
+ucsc_cse40-0.1.0.dist-info/RECORD,,
