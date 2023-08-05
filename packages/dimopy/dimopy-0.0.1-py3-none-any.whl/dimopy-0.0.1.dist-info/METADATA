@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dimopy
+Version: 0.0.1
+Summary: 描述信息
+Download-URL: https://pypi.doban.com/simple
+Author: sunshubei
+Author-email: shubei.sun@di-matrix.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: pyod
+Requires-Dist: seaborn
+Requires-Dist: pymysql
+Requires-Dist: clickhouse-driver
+Requires-Dist: tensorflow
+Requires-Dist: torch
+Requires-Dist: prophet
+Requires-Dist: xgboost
+
+## Di-Matrix dimpy工具库
+
