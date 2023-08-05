@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: telegram-log
+Version: 1.0.14
+Summary: Telegram Log Handler
+Author: Ruzzy
+Author-email: ruzzyrullezz@gmail.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytelegrambotapi (>=4.9.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+
