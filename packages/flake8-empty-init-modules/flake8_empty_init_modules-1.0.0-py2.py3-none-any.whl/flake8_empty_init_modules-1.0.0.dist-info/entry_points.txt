@@ -1,0 +1,3 @@
+[flake8.extension]
+EIM001 = flake8_empty_init_modules:EIM001
+EIM002 = flake8_empty_init_modules:EIM002
