@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: HedgehogEncoder
+Version: 1.0
+Summary: A simple and secure encryption tool using the AES algorithm in CTR mode. Encrypts data using a password-generated key and encodes it as a base64 string with added random characters. Includes encode and decode methods for easy use.
+Home-page: https://github.com/BlackSnowDot/HedgehogEncoder
+Author: BlackSnowDot
+Author-email: 
+License: MIT
+License-File: LICENSE
+Requires-Dist: cryptography
+
