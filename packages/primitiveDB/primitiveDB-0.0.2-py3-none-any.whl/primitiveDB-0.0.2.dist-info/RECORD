@@ -1,0 +1,10 @@
+primitiveDB/__init__.py,sha256=lIhkj7DgWk54x3_uOOSn56mZNNN5WZR0MRMHZe29AnE,628
+primitiveDB/client/Client.py,sha256=TZUI31lvq2kL8AeOJkqNxkdEsmyMWZvUf0hSrzj0HA8,3552
+primitiveDB/client/__init__.py,sha256=Bs62mlbk846NfXJbmGxrDZFzrLauCwuOQRWMYGSRI4Y,618
+primitiveDB/server/Server.py,sha256=KAZh-IhZRX4VWBs_-ma0XN5q1efauRyXQMRjPlKGjKQ,9940
+primitiveDB/server/__init__.py,sha256=dzni0cCQZ-7P9geQujhTbgCSKzMWwFNMTQvJy8C3LVM,602
+primitiveDB-0.0.2.dist-info/LICENSE.txt,sha256=KrUX6xgU5YXwag4hR3TI6WOwuZgg82jdEuSLb8Y_QLk,11343
+primitiveDB-0.0.2.dist-info/METADATA,sha256=V_hAsX05r39q2RBfCC4PTcYmG3nWvTO3Ri5OTXlGyqg,2842
+primitiveDB-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+primitiveDB-0.0.2.dist-info/top_level.txt,sha256=ydE3EO7_GvrPar-MPdjPo6AG7wSIpSw-9tmcQ_I8MkY,12
+primitiveDB-0.0.2.dist-info/RECORD,,
