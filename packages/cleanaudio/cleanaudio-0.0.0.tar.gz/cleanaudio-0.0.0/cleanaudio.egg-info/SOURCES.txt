@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+cleanaudio.egg-info/PKG-INFO
+cleanaudio.egg-info/SOURCES.txt
+cleanaudio.egg-info/dependency_links.txt
+cleanaudio.egg-info/requires.txt
+cleanaudio.egg-info/top_level.txt
