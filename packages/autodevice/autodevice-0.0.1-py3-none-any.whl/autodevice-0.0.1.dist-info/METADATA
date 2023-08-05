@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: autodevice
+Version: 0.0.1
+Summary: Automatically assign available hardware on the fly, in-line with PyTorch code.
+Home-page: https://github.com/mvinyard/autodevice
+Author: Michael E. Vinyard - Harvard University - Massachussetts General Hospital - Broad Institute of MIT and Harvard
+Author-email: mvinyard@broadinstitute.org
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.12.0)
+
+# autodevice
+
+Automatically assign devices in-line with pytorch code
+
+### Usage
+
+```python
+from autodevice import AutoDevice
+
+x = torch.randn([200, 50]).to(AutoDevice())
+```
+
+### Installation
+
+```
+pip install auto-device
+```
