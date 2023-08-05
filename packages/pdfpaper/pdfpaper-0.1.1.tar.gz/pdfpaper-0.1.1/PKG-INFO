@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pdfpaper
+Version: 0.1.1
+Summary: pdf paper parser
+License: MIT
+Author: luzhixing12345
+Author-email: luzhixing12345@163.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# pdfpaper
+
+pdf论文格式解析和信息提取
+
+
