@@ -1,0 +1,13 @@
+boxmake/__init__.py,sha256=zq629f5gWvWO4cvTuIHXqYLRJF9w3y5RzJsNBn7Vgcc,23
+boxmake/cli/add.py,sha256=zzAwMdUCMOlEs2jCIlFVUn1s7p1oIAFWrAXPGbCyc_M,5304
+boxmake/cli/cli.py,sha256=Zqp1wv_TM_0_QbMTsosyVd9GLOgJ1qqSiD6Pyv9wTaM,1325
+boxmake/cli/create.py,sha256=gFnLMzkRvUun1GN5X9fSZHuxeQGnnwS7i-cpJ5BwmEs,6293
+boxmake/cli/list.py,sha256=ubGsI2KHNmXzdqnBNtkfFCvpolgFR5DPauxvUZ9Afvw,1172
+boxmake/database/__init__.py,sha256=hNaWhJBP2Ni_E_yGU9S8jGWDz_U6Kxn-dWPE3qp9Ahg,40
+boxmake/database/create.py,sha256=u4IaARCqDfYcwkdxTV9XOqyTaMT-q1bMjQKeB6AgNIQ,452
+boxmake/database/edit.py,sha256=2Ki3qtkcs5YTKUizPyB_Jy5YFe2S4TCjHyL96ndf890,1346
+boxmake-0.0.13.dist-info/METADATA,sha256=GpGlNcLAF-NInQspOfoxGw_HWrlU7fX-p9Dzu_2Tb3U,2042
+boxmake-0.0.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+boxmake-0.0.13.dist-info/entry_points.txt,sha256=7k1f0n_VRT3kQMiqEk9PRY-GaQ1xaaGJq4tBpeT1shA,50
+boxmake-0.0.13.dist-info/top_level.txt,sha256=9Ux-VY-GW1dcpMBD2Aj6MW6BouQz6OpibP9UL1E6orY,8
+boxmake-0.0.13.dist-info/RECORD,,
