@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mainClass/__init__.py
+src/mainClass/core.py
+src/weightedmodels.egg-info/PKG-INFO
+src/weightedmodels.egg-info/SOURCES.txt
+src/weightedmodels.egg-info/dependency_links.txt
+src/weightedmodels.egg-info/top_level.txt
