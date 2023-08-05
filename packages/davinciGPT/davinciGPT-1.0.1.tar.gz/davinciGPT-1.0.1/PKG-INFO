@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: davinciGPT
+Version: 1.0.1
+Summary: davinciGPT uses API from OpenAI and help you easily integrate it in your python project.
+Home-page: https://github.com/SOME-1HING/davinciGPT
+Author: SOME1HING
+Author-email: yashprakash2005@gmail.com
+License: GNU General Public License v3.0
+Keywords: telegram,chatbot,chatgpt,davinci,api,ai
+Classifier: Framework :: AsyncIO
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Welcome to davinciGPT
+
+davinciGPT uses API from OpenAI and help you easily integrate it in your python project.
+
+## Getting Started
+
+To get started, first install the module using the following command in your terminal:
+
+```pip install davinciGPT```
+
+## Token
+
+To get your own token to get access to chatbot, please visit [here](https://t.me/SOME1_HING/220)
+
+## Example
+
+```python
+from davinciGPT import Chatbot
+
+bot = Chatbot(<YOUR TOKEN>)
+res = bot.chatbot("Hello")
+
+print(res)
+```
+
+Output: ```Hi there! How can I help you?```
