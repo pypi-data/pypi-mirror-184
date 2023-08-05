@@ -1,0 +1,5 @@
+numpy
+shapely
+cbor2
+xarray
+pandas
