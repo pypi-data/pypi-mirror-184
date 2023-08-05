@@ -1,0 +1,6 @@
+click>=8.1.3
+tasklib>=2.5.1
+
+[dev]
+black
+isort
