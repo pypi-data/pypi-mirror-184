@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: onelogin
+Version: 3.1.0
+Summary: OneLogin API
+Home-page: 
+Author: OneLogin
+Author-email: support@onelogin.com
+License: MIT
+Keywords: OpenAPI,OpenAPI-Generator,OneLogin API
+Requires-Python: >=3.6
+License-File: LICENSE
+
+    OpenAPI Specification for OneLogin  # noqa: E501
+    
