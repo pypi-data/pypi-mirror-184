@@ -1,0 +1,14 @@
+myriade/__init__.py,sha256=zTFpI2FCGy002e3ST40WlvXpH4crpUyWQsXJVi2Oev0,94
+myriade/base.py,sha256=8PF1l9opDhGs6lB0P1L3NtaRtqrHmGHh99vXp2kT4-0,3053
+myriade/branch.py,sha256=oacUYDtvOYYmw01ejjCZazzE86Gqz5uZo7AAhuUiUVA,1275
+myriade/datasets.py,sha256=JThsz_7WkCsXUvOoraUBkKz4lN7Wd9w_Z1v2nwdJgyM,7895
+myriade/multiclass/__init__.py,sha256=-WZXIFB4WpWubWo6seERJv_k48AcRh4WeoXs79vZgNI,356
+myriade/multiclass/balanced.py,sha256=2wO07_F3soPm1APdyuhGGYBXY3wqfSE-J8vzett9jgc,3221
+myriade/multiclass/manual.py,sha256=3LiPBkyHvXzhisoNA548DVnK9Cood1OMqBNHg26WDNg,395
+myriade/multiclass/optimal.py,sha256=c3oS7Az1ESEvCgxxdQtob7tiCyQTVOAxhlP_5aHPmBw,4360
+myriade/multiclass/random.py,sha256=StDJ3VKi_Q2uUb9LbZRGd2CPchQ-IAUHitxyx3m14LI,1091
+myriade/multiclass/test_manual.py,sha256=JhjQ0CKUrbepP1b23O5x8bt0t4GYanjCDd_52COMfq8,533
+myriade-0.2.0.dist-info/LICENSE,sha256=o-Wg87OIP7G-Et9bR6h--2DlhA_k3LUKW1wJJQ03sxg,1068
+myriade-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+myriade-0.2.0.dist-info/METADATA,sha256=zoQGngT5yAQiVxorbdBnW8xj8N7RC_yZ-a3NImNCHVo,11286
+myriade-0.2.0.dist-info/RECORD,,
