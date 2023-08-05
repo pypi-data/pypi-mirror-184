@@ -1,0 +1,13 @@
+doup/DockerImage.py,sha256=YmWYyPE4Zfn0i7iU19D4yCBYkjVAhGqraB2htMsc64k,3729
+doup/DockerVersionGrepper.py,sha256=x3uDycx7PWkwGEqxTcLQtHrp2N_YcomYm5PieHc-8f4,2741
+doup/DockerVersionUpdater.py,sha256=mOokG18Wqw4SpvOpx4uGb3iFFVsgshH8InwDq2M8OJM,2267
+doup/EntryPoint.py,sha256=gbpaWKhBfZewsek6R0b5ZSeMGojC8HINEAjrKPE3HsI,1522
+doup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doup/analyzer/StringAnalyzer.py,sha256=kd9hUGDiDI88kVAOCcfZTl5SFDiTmg2TdmvTUkjqot0,737
+doup/analyzer/VersionAnalyzer.py,sha256=eXnGSuDvXzAEsD-ADjGz-GiKJqu8spTQ_jAA2yZzx3E,671
+doup-1.4.1.dist-info/LICENSE,sha256=abPomD3jEcrp0NpU6WLRZqZrCeFUe48UEV8pmDmJzqU,1061
+doup-1.4.1.dist-info/METADATA,sha256=MRQ1n_RI_8_FstdFsvVuU6njPQqdb_g_dGBU4UKmSW8,2243
+doup-1.4.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+doup-1.4.1.dist-info/entry_points.txt,sha256=m-BGAgaQn7WuLQEUqsrku2sherKaAnn_ZNfsl6G5CzI,46
+doup-1.4.1.dist-info/top_level.txt,sha256=ixqtTdI05bkRGW1jmMG6_domqsYhRivUHCdCWEYd7Co,5
+doup-1.4.1.dist-info/RECORD,,
