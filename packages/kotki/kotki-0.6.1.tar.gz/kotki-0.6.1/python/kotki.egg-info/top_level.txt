@@ -1,0 +1,3 @@
+kotki
+kotki_cli
+kotki_web
