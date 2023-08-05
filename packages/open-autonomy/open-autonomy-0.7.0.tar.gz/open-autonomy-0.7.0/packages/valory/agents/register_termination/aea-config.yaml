@@ -1,0 +1,117 @@
+agent_name: register_termination
+author: valory
+version: 0.1.0
+license: Apache-2.0
+description: Register terminate to test the termination feature.
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  README.md: bafybeiamp5k2dtww2rxaxu4kqsi3yon6mhofezlgcyzrialt2rnigkk43y
+  __init__.py: bafybeihgxrmmp63exxkdmvlu565kehvuucg4iivnejwutaehb2p7xzxu4q
+  tests/__init__.py: bafybeiftvheymtbp6iilmx7dceh46hplfxa3lss4xghz623gdon7jhpidi
+  tests/base.py: bafybeig37cqcgtwcusq3r2ntx46cf5gsc6oxytilfd26dotixr5vfmryl4
+  tests/test_register_reset.py: bafybeiclnr2ozprldqhcy6fwltzptr4aenvddtxc5kjunrcv32752xl4xe
+fingerprint_ignore_patterns: []
+connections:
+- valory/abci:0.1.0:bafybeifln72jkbha5xtkafjj4swrwrktck4ziwk6j7plmzecskhlyamgu4
+- valory/http_client:0.23.0:bafybeigggahci7hq6tr3tyueatgkvgn73y4b3av2vk7vtr7jkeuwsqcteq
+- valory/ledger:0.19.0:bafybeicpxyoxez7lperltamvikxu6vzk2lhqakbivce4nzywyzoqbxoogm
+- valory/p2p_libp2p_client:0.1.0:bafybeiayoofxmj6z3pasn2akqj3udgq2ta2ar6mv6zoehstul2btvv3gqa
+contracts:
+- valory/gnosis_safe:0.1.0:bafybeiamw5sluyueflxsvzukmayctl3ijc76fx5twstwnc7ons6lw2goa4
+- valory/gnosis_safe_proxy_factory:0.1.0:bafybeieqvrttr6fiidrzab5t2toyewixqg7oayvdo64sidi33ouro5ixdu
+- valory/multisend:0.1.0:bafybeigjywkl7hydjsrkogob3xebj2ifhqwmfhhxoeyrndzhhxi5u6amey
+- valory/service_registry:0.1.0:bafybeif4mgymtachjdhyzemxp7oj2i7itusjvrsxw7cheuvhtypizutu5e
+protocols:
+- open_aea/signing:1.0.0:bafybeihgwrowgtegpe4ixe3iy5jx65u7pxebl5btrkywzmx7g52gjtbnpi
+- valory/abci:0.1.0:bafybeihkgako44fzgurcv4hgbems4ptdtosae4lopnnr75eczb6kx3x2lm
+- valory/acn:1.1.0:bafybeieldogmtf3m4jdsvt4vvyay3jh54rjn3deasymfw43vz3o42vigmq
+- valory/contract_api:1.0.0:bafybeif32nchkgn6yet7e5gt4auhf7lsahxnj4t36kxbw55p3gi7qpeuxq
+- valory/http:1.0.0:bafybeifru3qs6udfzprax7jxktbsuzn7immfvi3scgfspifq3zdxwkgvnm
+- valory/ledger_api:1.0.0:bafybeigqr4y3ykz3iulrcoqmji7hy3dxaoy7zmyyzff4ivpbubcpwdknai
+- valory/tendermint:0.1.0:bafybeid6b2wlb24g6d3godmqms44qvnpkhlvb27icotuobvnscmdmlhaha
+skills:
+- valory/abstract_abci:0.1.0:bafybeieeqbasxxghxaj7xffnto7ybegom2kl4y544cskysowmjcjd3szhe
+- valory/abstract_round_abci:0.1.0:bafybeibfemo6nqd5itfd2damllya56qi4jrtythwcsb7wyt55qtxtsuu3u
+- valory/register_termination_abci:0.1.0:bafybeien2ghzd4vcrzgkxrvhqnsgcg32p3ilgaluyhqrl2fat3rcpmoche
+- valory/registration_abci:0.1.0:bafybeih6tbs4mt6x7g642kwhthxxs3qxpzsh4cy7uavrk4att3mqul6hhu
+- valory/reset_pause_abci:0.1.0:bafybeihjsv2mkwrf55wtmawn7kjylm75thg7jjp7y4bfnezrkr3hu7jytu
+- valory/termination_abci:0.1.0:bafybeid3hyrw2tujhjvs7wrzzxe7copgzaf3vnmvvul4gfobrqca3e6a4m
+- valory/transaction_settlement_abci:0.1.0:bafybeidy4dsrzpn5pg7ikq5te4ayufjmktzv5sp7ten5g62hidcdqgfsme
+default_ledger: ethereum
+required_ledgers:
+- ethereum
+default_routing: {}
+connection_private_key_paths: {}
+private_key_paths: {}
+logging_config:
+  version: 1
+  disable_existing_loggers: false
+  formatters:
+    standard:
+      format: '[%(asctime)s] [%(levelname)s] %(message)s'
+  handlers:
+    logfile:
+      class: logging.FileHandler
+      formatter: standard
+      filename: ${LOG_FILE:str:log.txt}
+      level: INFO
+    console:
+      class: logging.StreamHandler
+      formatter: standard
+      stream: ext://sys.stdout
+  loggers:
+    aea:
+      handlers:
+      - logfile
+      - console
+      propagate: false
+dependencies:
+  open-aea-ledger-ethereum:
+    version: ==1.27.0
+  open-aea-test-autonomy:
+    version: ==0.7.0
+default_connection: null
+---
+public_id: valory/abci:0.1.0
+type: connection
+config:
+  target_skill_id: valory/register_termination_abci:0.1.0
+  host: ${ABCI_HOST:str:localhost}
+  port: ${ABCI_PORT:int:26658}
+  use_tendermint: ${ABCI_USE_TENDERMINT:bool:false}
+---
+public_id: valory/register_termination_abci:0.1.0
+type: skill
+models:
+  benchmark_tool:
+    args:
+      log_dir: ${SKILL_REGISTER_RESET_ABCI_MODELS_BENCHMARK_TOOL_ARGS_LOG_DIR:str:/benchmarks}
+  params:
+    args:
+      tendermint_url: ${TENDERMINT_URL:str:http://localhost:26657}
+      tendermint_com_url: ${TENDERMINT_COM_URL:str:http://localhost:8080}
+---
+public_id: valory/p2p_libp2p_client:0.1.0
+type: connection
+config:
+  nodes:
+  - uri: ${P2P_URI:str:acn.staging.autonolas.tech:9005}
+    public_key: ${P2P_PUBLIC_KEY:str:02d3a830c9d6ea1ae91936951430dee11f4662f33118b02190693be835359a9d77}
+  - uri: ${P2P_URI:str:acn.staging.autonolas.tech:9006}
+    public_key: ${P2P_PUBLIC_KEY:str:02e741c62d706e1dcf6986bf37fa74b98681bc32669623ac9ee6ff72488d4f59e8}
+cert_requests:
+- identifier: acn
+  ledger_id: ethereum
+  message_format: '{public_key}'
+  not_after: '2023-01-01'
+  not_before: '2022-01-01'
+  public_key: ${P2P_PUBLIC_KEY:str:02d3a830c9d6ea1ae91936951430dee11f4662f33118b02190693be835359a9d77}
+  save_path: .certs/acn_cosmos_9005.txt
+- identifier: acn
+  ledger_id: ethereum
+  message_format: '{public_key}'
+  not_after: '2023-01-01'
+  not_before: '2022-01-01'
+  public_key: ${P2P_PUBLIC_KEY:str:02e741c62d706e1dcf6986bf37fa74b98681bc32669623ac9ee6ff72488d4f59e8}
+  save_path: .certs/acn_cosmos_9006.txt
+is_abstract: true
