@@ -1,0 +1,11 @@
+stages:
+    - build
+
+stage_build_text:
+    stage: build
+    image: ubuntu:22.04
+    script:
+        - echo 'Prive Prdivet'
+        - dpkg --print-architecture
+        - ls -a
+
