@@ -1,0 +1,15 @@
+.bd-search-container {
+  margin: 2em;
+  // Remove the search field on the search page since we have one in the sidebar
+  h1:first-child {
+    display: none;
+  }
+  #search-results {
+    h2:first-child {
+      display: none;
+    }
+  }
+  .bd-search {
+    display: none !important;
+  }
+}

@@ -1,0 +1,39 @@
+/*********************************************
+* Left Nav Bar *
+*********************************************/
+
+.bd-sidebar-primary {
+  transition: margin-left $animation-time ease 0s,
+    opacity $animation-time ease 0s, visibility $animation-time ease 0s;
+  font-size: $sbt-font-size-small-1;
+
+  .navbar-brand {
+    height: unset;
+  }
+
+  // Remove the header items that pop into the sidebar in the pydata theme
+  .sidebar-header-items {
+    display: none;
+  }
+
+  // Remove the top border since there's no header items above
+  .sidebar-start-items {
+    border-top: none;
+  }
+
+  // On wide screens we have a smaller sidebar width than PST
+  @media (min-width: $breakpoint-md) {
+    flex-basis: $sidebar-primary-width-widescreen;
+  }
+}
+
+// Default visibility for left sidebar is the reverse of what it is on mobile.
+// It is shown by default, and hidden with a click.
+// Mobile behavior is defined in the pydata sphinx theme
+@media (min-width: $breakpoint-md) {
+  input#__primary:checked ~ .bd-container .bd-sidebar-primary {
+    margin-left: -$sidebar-primary-width-widescreen;
+    visibility: hidden;
+    opacity: 0;
+  }
+}

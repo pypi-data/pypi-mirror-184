@@ -1,0 +1,31 @@
+/*********************************************
+* Utility classes used in a few places
+*********************************************/
+// For the helper pixel that we can watch to decide whether we've scrolled
+.sbt-scroll-pixel-helper {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  top: 0;
+  left: 0;
+}
+
+// We define our own display-none class since bootstrap uses !important and we want to be able to over-ride
+.d-n {
+  display: none;
+}
+
+// Print-specific utility classes
+.onlyprint {
+  display: none;
+
+  @media print {
+    display: block !important;
+  }
+}
+
+.noprint {
+  @media print {
+    display: none !important;
+  }
+}
