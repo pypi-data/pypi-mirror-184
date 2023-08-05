@@ -1,0 +1,1 @@
+This just a test package to send automated mails.

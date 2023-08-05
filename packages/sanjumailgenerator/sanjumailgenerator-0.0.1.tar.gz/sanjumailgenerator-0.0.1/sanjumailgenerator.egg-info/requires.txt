@@ -1,0 +1,7 @@
+configparser
+os
+smtplib
+email.mime.text
+email.mime.multipart
+ast
+email.mime.application
