@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+currency_rate.egg-info/PKG-INFO
+currency_rate.egg-info/SOURCES.txt
+currency_rate.egg-info/dependency_links.txt
+currency_rate.egg-info/requires.txt
+currency_rate.egg-info/top_level.txt
