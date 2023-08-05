@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: unid
+Version: 0.0.0rc4
+Summary: Easy ID generation system
+Keywords: python,id,manager
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+
+Documentation will be available soon.
