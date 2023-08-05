@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tcod-ec
+Version: 0.0.2
+Summary: Basic Entity/Component containers for implementing composition over inheritance.
+Author-email: Kyle Benesch <4b796c65+github@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: attrs >= 22.2.0
+Requires-Dist: pytest>=7.2.0 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: mypy>=0.991 ; extra == "test"
+Project-URL: Changelog, https://github.com/HexDecimal/python-tcod-camera/blob/main/CHANGELOG.md
+Project-URL: Home, https://github.com/HexDecimal
+Project-URL: Source, https://github.com/HexDecimal/python-tcod-camera
+Provides-Extra: test
+
+# About
+
+[![PyPI](https://img.shields.io/pypi/v/tcod-clock)](https://pypi.org/project/tcod-es/)
+[![PyPI - License](https://img.shields.io/pypi/l/tcod-es)](https://github.com/HexDecimal/python-tcod-es/blob/main/LICENSE)
+[![Documentation Status](https://readthedocs.org/projects/python-tcod-es/badge/?version=latest)](https://python-tcod-es.readthedocs.io)
+[![codecov](https://codecov.io/gh/HexDecimal/python-tcod-es/branch/main/graph/badge.svg?token=UP161WEo0s)](https://codecov.io/gh/HexDecimal/python-tcod-es)
+
+Basic Entity/Component containers for implementing composition over inheritance.
+
