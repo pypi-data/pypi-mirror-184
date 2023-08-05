@@ -1,0 +1,14 @@
+imgtools_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgtools_cli/__main__.py,sha256=9tKZv7O-pmhcANcuWxpTK5yf5h627JMu5KTlarLGpvA,2188
+imgtools_cli/autocrop.py,sha256=LnVg1SfB5b1_cLcAAz0srFKcfxVGxg72Y_nW2gBcF6U,11508
+imgtools_cli/download.py,sha256=RYMxQVhxnRVl2luf0wSbDya2A0kC83swc4kjDZ-vQx8,1642
+imgtools_cli/hassan_people_remover.py,sha256=b3bnVbpzkEN8IplpUZBC-3-5hisGP2dOOZffl9_X8IU,1580
+imgtools_cli/image2chunks.py,sha256=ieFdRYbLi481KULc2-k034WE05hQ6wny9HxjGIXzyoQ,1891
+imgtools_cli/image2png.py,sha256=WPYxxuGOxOzzoREXtzmHTGKv22KaNcdXALp_LisJ-Nk,1667
+imgtools_cli/image_resize.py,sha256=8cr3iDan79R5OdFRYl4FyPMZE1L063ezLYYOD2kI9w0,2555
+imgtools_cli-1.0.8.dist-info/LICENSE,sha256=Xtw_AL7Bdj946C_PYa7Y_dsAPVTBRZOSu79mj80zm1A,1066
+imgtools_cli-1.0.8.dist-info/METADATA,sha256=b2r3kHPPdsOYAqZYV7AYpqmH14jaV87jRy832ceOrJ4,5104
+imgtools_cli-1.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+imgtools_cli-1.0.8.dist-info/entry_points.txt,sha256=CMMmVhEsxFjg6oPfoFdynwD2cXb1VPqDIxe55yHn0Sk,56
+imgtools_cli-1.0.8.dist-info/top_level.txt,sha256=D1_UkW2Qd-Bx1-mB-JFA2_9_-rKdOor5jeJxDdgFvZ4,13
+imgtools_cli-1.0.8.dist-info/RECORD,,
