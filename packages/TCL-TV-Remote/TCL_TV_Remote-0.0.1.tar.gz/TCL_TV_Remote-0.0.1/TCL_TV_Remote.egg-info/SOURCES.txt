@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.py
+TCL_TV_Remote.egg-info/PKG-INFO
+TCL_TV_Remote.egg-info/SOURCES.txt
+TCL_TV_Remote.egg-info/dependency_links.txt
+TCL_TV_Remote.egg-info/top_level.txt
+tcltvremote/__init__.py
+tcltvremote/tcltvremote.py
