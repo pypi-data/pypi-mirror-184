@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: p2p-crypto
+Version: 0.0.1
+Summary: Python3 library for interacting with P2P trading on different cryptoexchanges
+Home-page: https://github.com/exsplashit/p2p
+Author: exsplash.it
+License: MIT
+Project-URL: Documentation, https://github.com/exsplashit/p2p
+Project-URL: Source, https://github.com/exsplashit/p2p/
+Project-URL: Tracker, https://github.com/exsplashit/p2p/issues
+Keywords: p2p crypto api
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# Welcome to Python Crypto P2P package 👋
+
+### 🏠 [Homepage](https://github.com/exsplashit/p2p)
+
+## Install
+
+```sh
+pip3 install p2p-crypto
+```
+
+## Run tests
+
+```sh
+make tests
+```
+
+## Author
+
+👤 **exsplash.it**
+
+* Twitter: [@exsplashit](https://twitter.com/exsplashit)
+* Github: [@exsplashit](https://github.com/exsplashit)
+* LinkedIn: [@zhashkovs](https://www.linkedin.com/in/zhashkovs/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! \
+Feel free to check [issues page](https://github.com/exsplashit/p2p/issues). 
+
+
+## TODO
+- [ ] Add support Bybit cryptoexchange
+- [ ] Add support Huobi cryptoexchange
+- [ ] Prettify image with PIL and user's template 
