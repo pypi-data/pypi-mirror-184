@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/ganx/MAXRF_class.py
+src/ganx/RGB_segmentation_utils.py
+src/ganx/XRF_generator_classes.py
+src/ganx/__init__.py
+src/ganx/generator_methods.py
+src/ganx.egg-info/PKG-INFO
+src/ganx.egg-info/SOURCES.txt
+src/ganx.egg-info/dependency_links.txt
+src/ganx.egg-info/requires.txt
+src/ganx.egg-info/top_level.txt
