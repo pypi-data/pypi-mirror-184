@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: imgextractor
+Version: 0.1.1
+Summary: Extract images from images
+License: GPL-2.0
+Author: Jiri Podivin
+Author-email: jpodivin@gmail.com
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (>=9.3.0,<10.0.0)
+Requires-Dist: numpy (>=1.23.5,<2.0.0)
+Requires-Dist: tensorflow (>=2.11.0,<3.0.0)
+Requires-Dist: tensorflow-hub (>=0.12.0,<0.13.0)
+Requires-Dist: tflite-support (>=0.4.3,<0.5.0)
+Description-Content-Type: text/markdown
+
+
