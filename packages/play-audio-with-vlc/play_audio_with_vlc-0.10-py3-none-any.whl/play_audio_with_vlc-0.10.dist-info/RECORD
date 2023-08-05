@@ -1,0 +1,10 @@
+play_audio_with_vlc/LICENSE,sha256=q5AZUyTwx8nlW-2D2bxuQd36rLJ9EDulKh76xA09pj8,1069
+play_audio_with_vlc/README.MD,sha256=KOc-D_2hpHXGrZEJSQxkY03fpn_0ohnS-wa5ooNjXhQ,297
+play_audio_with_vlc/__init__.py,sha256=IeWC1nxqzsCSPUIvOWWnWb7XZIkFiHRiB98H5Yf_-ho,1357
+play_audio_with_vlc/requirements.txt,sha256=yi-DikC6gRVGJWlaHlIJ2DuKQSmULkoj_kahMoSA3b0,38
+play_audio_with_vlc/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+play_audio_with_vlc-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+play_audio_with_vlc-0.10.dist-info/METADATA,sha256=Jacxls1sdPd7umVyc3BlGDyzc-eHSk-h5gnGmqLKpto,1278
+play_audio_with_vlc-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+play_audio_with_vlc-0.10.dist-info/top_level.txt,sha256=8zSfYTAuQFKaIGbQrbBEmNxAR4c_IW_Bq6oSZTd5OvE,20
+play_audio_with_vlc-0.10.dist-info/RECORD,,
