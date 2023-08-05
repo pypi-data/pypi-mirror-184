@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+rect_intersection/LICENSE
+rect_intersection/README.MD
+rect_intersection/__init__.py
+rect_intersection/requirements.txt
+rect_intersection/thirdparty.json
+rect_intersection.egg-info/PKG-INFO
+rect_intersection.egg-info/SOURCES.txt
+rect_intersection.egg-info/dependency_links.txt
+rect_intersection.egg-info/requires.txt
+rect_intersection.egg-info/top_level.txt

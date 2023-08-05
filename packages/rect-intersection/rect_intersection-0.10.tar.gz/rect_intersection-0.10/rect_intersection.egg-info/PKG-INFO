@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: rect-intersection
+Version: 0.10
+Summary: Checks if two rectangles intersect
+Home-page: https://github.com/hansalemaos/rect_intersection
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: rectangles,intersect
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# Checks if two rectangles intersect 
+
+
+```python
+# Tested with:
+# Python 3.9.13
+# Windows 10
+
+from rect_intersection import intersects
+
+# Allowed formats for box1/box2 
+format_1x4 = (0, 0, 100, 200)
+format_4x2 = [(0, 0), (100, 0), (100, 200), (0, 200)]
+format_2x2 = [(0, 0), (100, 200)]
+
+box1 = (0, 0, 100, 200)
+
+
+box2 = (1000, 1000, 2000, 2000)
+print(intersects(box1, box2))
+box2 = (50, 20, 2000, 2000)
+print(intersects(box1, box2))
+box2 = [(50, 20), (2000, 20), (2000, 2000), (50, 2000)]
+print(intersects(box1, box2))
+box2 = [(50, 20), (2000, 2000)]
+print(intersects(box1, box2))
+
+
+box2 = (1000, 1000, 2000, 2000)
+print(intersects(box1, box2))
+box2 = (50, 20, 2000, 2000)
+print(intersects(box1, box2))
+box2 = [(50, 20), (2000, 20), (2000, 2000), (50, 2000)]
+print(intersects(box1, box2))
+box2 = [(50, 20), (2000, 2000)]
+print(intersects(box1, box2))
+
+box2 = (1000, 1000, 2000, 2000)
+print(intersects(box1, box2))
+box2 = (50, 20, 2000, 2000)
+print(intersects(box1, box2))
+box2 = [(50, 20), (2000, 20), (2000, 2000), (50, 2000)]
+print(intersects(box1, box2))
+box2 = [(50, 20), (2000, 2000)]
+print(intersects(box1, box2))
+
+
+
+False
+True
+True
+True
+False
+True
+True
+True
+False
+True
+True
+True
+
+	
+```
+
+
+
+

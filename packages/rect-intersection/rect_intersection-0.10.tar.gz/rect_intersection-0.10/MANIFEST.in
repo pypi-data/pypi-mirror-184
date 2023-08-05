@@ -1,0 +1,4 @@
+include rect_intersection/requirements.txt
+include rect_intersection/thirdparty.json
+include rect_intersection/README.MD
+include rect_intersection/LICENSE
