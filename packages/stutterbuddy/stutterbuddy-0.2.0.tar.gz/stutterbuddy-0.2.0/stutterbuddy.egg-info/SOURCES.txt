@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+stutterbuddy/__init__.py
+stutterbuddy.egg-info/PKG-INFO
+stutterbuddy.egg-info/SOURCES.txt
+stutterbuddy.egg-info/dependency_links.txt
+stutterbuddy.egg-info/requires.txt
+stutterbuddy.egg-info/top_level.txt
