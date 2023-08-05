@@ -1,0 +1,2 @@
+[console_scripts]
+osmsg = app:main

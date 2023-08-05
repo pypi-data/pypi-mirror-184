@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: osmsg
+Version: 0.0.1
+Summary: Simple python script processes OSM files and produces stats from changefiles on the fly
+Home-page: https://github.com/kshitijrajsharma/OSMSG
+Author: Kshitij Raj Sharma
+Author-email: skshitizraj@gmail.com
+License: MIT
