@@ -1,0 +1,15 @@
+fsLogger/__init__.py,sha256=69oghGCgmYBaIys_HJawD-ffU4F1RbOAyyz17-QX3e0,1726
+fsLogger/abcs.py,sha256=bZlrkU_TqS-YHZmrmGe6Bc94DQUVjdHFCEsuOBJI8yg,2898
+fsLogger/filter.py,sha256=VkmKOEFzMtyP_g-ekJCf9oaF7dFW9NmsoiAHoCrllLU,3017
+fsLogger/globHandler.py,sha256=UvmZXEa2_0bZ7lDbl4a5AvhOzl-6-WbCjUuuxwbVneU,1694
+fsLogger/globalLocker.py,sha256=zzCixNg6GeDK7bhHfkFkm4zEJeMxnUGwnBhbFU4HYnw,109
+fsLogger/levels.py,sha256=uBv-xF-v3Xki_wnRHYNNE1ocUR2zwpbf_Xmgqnm7s34,2001
+fsLogger/logger.py,sha256=_P2iU_U261o852eS91l6WvUUXjHoSkO_Z073aQdrPOg,3154
+fsLogger/loggerManager.py,sha256=2Q7l9Jfr6Z_onXy6RY25WrPOeNFxmoF4l9EiQL2y55c,5224
+fsLogger/modules.py,sha256=zEUiuYFhUVX0bsKWmv9-Yreqe3nfGl4wqtpEs6caePQ,5868
+fsLogger/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_fslogger-0.2.3.dist-info/LICENSE.md,sha256=iIU6MftWbN7eXWzsnecjd2JIllANlJ1W8pxvkv0jL-s,712
+python_fslogger-0.2.3.dist-info/METADATA,sha256=o63HLQMna5E_hV83qTtGe4xn2wIUp_MJMWSWBjyRCn8,2416
+python_fslogger-0.2.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+python_fslogger-0.2.3.dist-info/top_level.txt,sha256=-SVZ_Q0Yn6_zdEokO9muW0CZxfG_VA_DjKnojPSdlFM,9
+python_fslogger-0.2.3.dist-info/RECORD,,
