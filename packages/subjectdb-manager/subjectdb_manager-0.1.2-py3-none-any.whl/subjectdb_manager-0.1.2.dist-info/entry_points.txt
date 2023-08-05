@@ -1,0 +1,3 @@
+[console_scripts]
+subjectdb-manager=subjectdb_manager.subjectdb_manager:cli
+
