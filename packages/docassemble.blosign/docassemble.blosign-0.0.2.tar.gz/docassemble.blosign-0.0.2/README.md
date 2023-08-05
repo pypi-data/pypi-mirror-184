@@ -1,0 +1,46 @@
+# docassemble.blosign
+
+A docassemble extension that allows you to sign pdf documents with [Blosign](https://blosign.com)
+
+## Installation
+
+Install this package from within your Docassemble package management screen.
+
+## Configuration
+
+This package use a Personal Access Token (PAT) to authenticate with the Blosing API. See Blosign documentation for details
+
+To configure Doccassemble to access your Blosign account, go into the configuration screen of you docassemble instance and add the following configuration lines.
+
+```
+blosign:
+  token: { Your personal access token }
+  test-mode: True
+```
+
+### Test Mode
+If you set `test-mode: True`, the extension will use sandbox environment on the Blosing API.
+
+If you set `test-mode: False`, the extension will use production environment on the Blosing API.
+
+### Usage
+Include the module in your interview.
+
+```
+---
+modules:
+  - docassemble.blosing.blosing
+---
+``` 
+
+Ask your questions and call Blosing API:
+
+```
+api.request_signatures(people, document, signInOrder=False, message=None, filename=None, expiryDate=None)
+```
+
+You can see an interview example on 
+`<your docassemble>/interview?i=docassemble.blosign:data/questions/blosign_test.yml`
+
+## API Documentation
+Visit: https://api.blosing.com/v2/docs/
