@@ -1,0 +1,2 @@
+pynut-Files==2.2.4
+pyodbc==4.0.32
