@@ -1,0 +1,15 @@
+globalsearch/control/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+globalsearch/control/gs_prepare.py,sha256=fWZnh7jpk6w_IVLrBNWU-JMwuYygYKeXqqqXX8LO3pE,5506
+globalsearch/control/gs_submit.py,sha256=xtB9r0M3-p7sSrCqrde2nayvmj8epsiYfMR15rStbCQ,1006
+globalsearch/rnaseq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+globalsearch/rnaseq/find_files.py,sha256=F5Ar1reNHG7THj7nYO06wY3VV6fDs-Rqob2FHucY3-o,6351
+globalsearch/rnaseq/make_star_salmon_job.py,sha256=F9jMHdFqsrwnt57N7x7PfTc96iXiXYsYVPgjJPJU2_Q,3359
+globalsearch/rnaseq/run_kallisto.py,sha256=9rPQ3wdBESjOI2HGmTtR8pXkCTLrNFbm0hQ6a6CstWQ,5496
+globalsearch/rnaseq/run_star_salmon.py,sha256=UUJqsdyooMPij2fVp9omgWqPJfIOljzDvhk9ocMk0Gg,15064
+globalsearch/rnaseq/submit_Kallisto_jobs_Acerv_Smic-reefGenomics.py,sha256=XlEDLb_nYJiYuyayx-1GyeJkCYkxTX-ysYmvqoFwk4U,2112
+globalsearch/rnaseq/trim_galore.py,sha256=n0HPuWq9XT2JPQjhynwVS_mFWpVpEHmd2ZO5VfuO0sY,2854
+globalsearch-0.0.4.data/scripts/gs_submit,sha256=iR1_hTOdZ5snRVhILQGKHRuZrnHR13KsOQavl4Eal4U,354
+globalsearch-0.0.4.dist-info/METADATA,sha256=hTI2Il7s2d1TkXyyeIfYOp7bKz-jygFz5O0TYTWxV50,1017
+globalsearch-0.0.4.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+globalsearch-0.0.4.dist-info/top_level.txt,sha256=X338bhxqn5u0zGOKs5T68g3UMBdx0Vb5EIOhFdT8r0c,13
+globalsearch-0.0.4.dist-info/RECORD,,
