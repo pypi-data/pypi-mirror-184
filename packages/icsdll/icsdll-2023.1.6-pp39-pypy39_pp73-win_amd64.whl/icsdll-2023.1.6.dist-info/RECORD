@@ -1,0 +1,11 @@
+icsdll-2023.1.6.data/purelib/icsdll/ICSx64.dll,sha256=WRD9FlifFEl1CEl_sPhLncJCD_w5LOGFNQf9yNfVYyw,45220352
+icsdll-2023.1.6.data/purelib/icsdll/__init__.py,sha256=YGqKJ3sfpd79jTE4Q60oLbHprC57pOTf8ObB89W6mag,98
+icsdll-2023.1.6.data/purelib/icsdll/icsdll.py,sha256=6_I3rJZ1Rm5BawZK8hRjcdhdDoPEpqEoo92FyNtF2Ug,43891
+icsdll-2023.1.6.data/purelib/icsdll/vcomp140.dll,sha256=y3Ifd1ze5zDZ1p69nnI8Bame4YBfjSOlKnT8AVqj2WU,191824
+icsdll-2023.1.6.data/purelib/icsdll/vcruntime140.dll,sha256=dv24P94jgia1vrrzOS7lYuLLfKjT73WYO_X51scRlkQ,109392
+icsdll-2023.1.6.data/purelib/icsdll/vcruntime140_1.dll,sha256=4LZmAcwo7LFxw9S3rGkMZn9H2mthg7_4BgTITADSZas,49488
+icsdll-2023.1.6.dist-info/LICENSE,sha256=w7JiiqUSyuptdgHhMXYZ_KwOXqEHAsbuzp52QLyH2xs,1559
+icsdll-2023.1.6.dist-info/METADATA,sha256=x5WO6FTkTZTg4S7SSXPsvOu2jxS1NUMMM5bnxnUxZLY,3729
+icsdll-2023.1.6.dist-info/WHEEL,sha256=AnaNvFkvs503-LQMtNBCk8o2g2w7u9jd8HIjaK8ju8I,107
+icsdll-2023.1.6.dist-info/top_level.txt,sha256=3YIZRiaGh-S7w8eUo9ekF94goryR0_Fm80Owf1-RE0o,7
+icsdll-2023.1.6.dist-info/RECORD,,
