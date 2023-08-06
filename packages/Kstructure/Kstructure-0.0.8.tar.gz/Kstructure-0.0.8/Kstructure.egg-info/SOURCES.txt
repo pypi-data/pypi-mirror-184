@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Kstructure/__init__.py
+Kstructure/test_environment.py
+Kstructure.egg-info/PKG-INFO
+Kstructure.egg-info/SOURCES.txt
+Kstructure.egg-info/dependency_links.txt
+Kstructure.egg-info/top_level.txt
