@@ -1,0 +1,15 @@
+README.md
+setup.py
+forexpy/__init__.py
+forexpy.egg-info/PKG-INFO
+forexpy.egg-info/SOURCES.txt
+forexpy.egg-info/dependency_links.txt
+forexpy.egg-info/requires.txt
+forexpy.egg-info/top_level.txt
+forexpy/backtesting/__init__.py
+forexpy/backtesting/backtester.py
+forexpy/backtesting/data_manager.py
+forexpy/backtesting/forex_pip.py
+forexpy/backtesting/grapher.py
+forexpy/backtesting/position.py
+forexpy/backtesting/position_manager.py
