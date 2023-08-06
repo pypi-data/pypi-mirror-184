@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+src/helpers/__init__.py
+src/helpers/coalesce.py
+src/helpers/concatLatex.py
+src/helpers/firstAfterOrNone.py
+src/helpers/firstBeforeOrNone.py
+src/helpers/lastOrNone.py
+src/mathkeyboardengine.egg-info/PKG-INFO
+src/mathkeyboardengine.egg-info/SOURCES.txt
+src/mathkeyboardengine.egg-info/dependency_links.txt
+src/mathkeyboardengine.egg-info/top_level.txt
