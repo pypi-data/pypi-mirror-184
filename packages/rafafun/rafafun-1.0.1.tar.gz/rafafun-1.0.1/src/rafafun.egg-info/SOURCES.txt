@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dist/rafafun-1.0.tar.gz
+src/__init__.py
+src/rafafun.egg-info/PKG-INFO
+src/rafafun.egg-info/SOURCES.txt
+src/rafafun.egg-info/dependency_links.txt
+src/rafafun.egg-info/requires.txt
+src/rafafun.egg-info/top_level.txt
