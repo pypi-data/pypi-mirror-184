@@ -1,0 +1,9 @@
+python_mads/__init__.py,sha256=TL-gLZbLfU-K33Ij05SgCJjsBdC6HBIpCE6anaNtejQ,110
+python_mads/add.py,sha256=sHk-bSuCJ6KzKbhJ9C1CwHoCmdUrAl__P7mzCsKuOWI,30
+python_mads/divide.py,sha256=6W1LopB8T4og0Dk7FcltQRLhhEEE9WMEOjwem1ZIFLE,34
+python_mads/multiply.py,sha256=TVOHaj9xzOS2jCI07Ai2OrQ8ZWaOZq9H7vqh5ZP5WNw,36
+python_mads/subtract.py,sha256=KrSnBEprDLYYurVMnAO5S6t3M1qggx5P7dp2sL21mmU,36
+python_mads-0.0.1.dist-info/METADATA,sha256=ICTat5ACOJpprLkstAgBaES3TVAg67PT0Oj7jFLy6v8,579
+python_mads-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_mads-0.0.1.dist-info/top_level.txt,sha256=_YXak_GchY1uen291GJ45H47KlKKIHmi_aIqKaw2lzA,12
+python_mads-0.0.1.dist-info/RECORD,,
