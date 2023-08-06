@@ -1,0 +1,11 @@
+graphviz
+matplotlib
+mpi4py
+pandas
+scikit-learn
+
+[testing]
+black
+pytest
+pylint
+numpydoc
