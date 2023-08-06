@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: abi-maker
+Version: 0.1.0
+Summary: 
+Author: Athiriyya
+Author-email: athiriyya@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: web3 (>=5.30.0,<6.0.0)
