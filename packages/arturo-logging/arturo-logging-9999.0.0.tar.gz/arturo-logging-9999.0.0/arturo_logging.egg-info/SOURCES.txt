@@ -1,0 +1,5 @@
+setup.py
+arturo_logging.egg-info/PKG-INFO
+arturo_logging.egg-info/SOURCES.txt
+arturo_logging.egg-info/dependency_links.txt
+arturo_logging.egg-info/top_level.txt
