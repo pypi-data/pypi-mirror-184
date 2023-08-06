@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "logicsim"
+version = "0.0.1"
+authors = [
+  { name="Barrett Wise", email="barrettkwise@gmail.com" },
+]
+description = "Python package that parses files and simulates the resulting logic circuit"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Github Page" = "https://github.com/barrettkwise/circuitsim"
+
