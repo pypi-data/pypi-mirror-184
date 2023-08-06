@@ -1,0 +1,9 @@
+psutil
+matplotlib
+flameprof
+memray
+gprof2dot
+py-spy
+importlib-metadata
+Jinja2
+humanize

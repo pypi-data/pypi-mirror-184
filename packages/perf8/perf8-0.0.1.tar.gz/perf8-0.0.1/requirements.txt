@@ -1,0 +1,9 @@
+psutil>=5.9.4
+matplotlib>=3.6.2
+flameprof>=0.4
+memray>=1.5.0
+gprof2dot>=2022.7.29
+py-spy>=0.3.14
+importlib-metadata>=5.1.0
+Jinja2>=3.1.2
+humanize>=4.4.0

@@ -1,0 +1,11 @@
+include CHANGELOG.rst
+include README.rst
+include LICENSE
+include CHANGES.rst
+include requirements.txt
+include tests-requirements.txt
+include tox.ini
+include Makefile
+include NOTICE.txt
+recursive-include perf8/templates *.html
+recursive-include perf8/speedscope *.*
