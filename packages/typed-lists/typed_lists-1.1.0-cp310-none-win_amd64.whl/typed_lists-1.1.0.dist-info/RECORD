@@ -1,0 +1,8 @@
+typed_lists-1.1.0.dist-info/METADATA,sha256=vaZpwFs89eQwFeNT3dLLkDWr__pPaL1X7RfP5adRlDo,1639
+typed_lists-1.1.0.dist-info/WHEEL,sha256=keLBtIOE7ZgLyd8Cijw37iqv72a2jhfxMdDu8Unr7zo,96
+typed_lists-1.1.0.dist-info/license_files/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+typed_lists/typed_list.py,sha256=0ToJFBf5vuT-fCP_0thDU_64j47hrFaoUzys6lPzUI0,1588
+typed_lists/_typed_lists_ext.pyi,sha256=7TiZS1Hu8MfLS-B-Lygc6fWqabkqg1-V9iQs9OpwPt8,431
+typed_lists/__init__.py,sha256=FI1qVbkG3oFjZ5h_tU6pjMDQw7lVCPaKv-gRIg_9kEM,97
+typed_lists/_typed_lists_ext.cp310-win_amd64.pyd,sha256=Bp4nZ6f5KBiqxR7Rubf6s1GoqUz_NQO_SXPVFE3qk40,2219520
+typed_lists-1.1.0.dist-info/RECORD,,
