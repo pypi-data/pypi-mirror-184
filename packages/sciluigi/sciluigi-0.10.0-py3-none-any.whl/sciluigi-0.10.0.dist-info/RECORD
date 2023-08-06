@@ -1,0 +1,13 @@
+sciluigi/__init__.py,sha256=BZWeEzxMCrVAB0mcJfNKPfsTKhKkCrcECfkpeB2V0Xo,2012
+sciluigi/audit.py,sha256=fRGaFrIaJWSpoCoRyjMiXkb3Hrm4TEaTmRInRnnK_Ho,2755
+sciluigi/dependencies.py,sha256=9NBg1nxzvn8BjHpIr1_OOeQ0UpKHeMIr5ozgJqNZ4vA,5733
+sciluigi/interface.py,sha256=jS3Q4ZNM7-T8G5e9fZC-GhW_TDXWZMe9xxJ-tu8RAGg,1978
+sciluigi/parameter.py,sha256=u0doPdOLLlRdA9OF02lH4uFvFo4Nm8rPNjLabvKMbSo,294
+sciluigi/slurm.py,sha256=Ulh4oAdKBkC-dDoHiAPFkK4tjUiGuve3gXizs9zURyc,8310
+sciluigi/task.py,sha256=3wXSlXutF9N78Bp1ZoimTbktyHR75yK4GVZTBQo1DO4,3680
+sciluigi/util.py,sha256=tF-SD7DGbleQyl9NwmwmC-DXaXWGpDHRxZR8qXqM3oc,1313
+sciluigi/workflow.py,sha256=JsRPKD8_ICjvqHYnqBktCNMBaDs68AiNtjIEtCWyE7g,5568
+sciluigi-0.10.0.dist-info/LICENSE,sha256=9dBNAi-tlZNb31Za-oeF5pqS_hHczLkg2uteYNLm294,1079
+sciluigi-0.10.0.dist-info/METADATA,sha256=CCyURkNNSnlJngugDqduEKO6D8EP7Hq5SRe1Ndp7r7M,381
+sciluigi-0.10.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sciluigi-0.10.0.dist-info/RECORD,,
