@@ -1,0 +1,2 @@
+[console_scripts]
+diligent = diligent.cli:cli
