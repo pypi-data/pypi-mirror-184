@@ -1,0 +1,5 @@
+[console_scripts]
+TimeCellAnalysis.ground_truth_check = TimeCellAnalysis.__main__:run_ground_truth
+TimeCellAnalysis.r2b_demo = TimeCellAnalysis.__main__:run_r2bdemo
+TimeCellAnalysis.run_batchanalysis = TimeCellAnalysis.__main__:run_batchanalysis
+TimeCellAnalysis.ti_demo = TimeCellAnalysis.__main__:run
