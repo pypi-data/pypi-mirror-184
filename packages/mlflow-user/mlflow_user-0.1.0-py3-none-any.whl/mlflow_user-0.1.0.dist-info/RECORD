@@ -1,0 +1,5 @@
+mlflow_user/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlflow_user/app.py,sha256=bUYDuY0LOdinpBLLO8n1VfptF3Y4S_DWoWV7pMdGy7Q,11
+mlflow_user-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mlflow_user-0.1.0.dist-info/METADATA,sha256=8bUtokSiaKpCeIDZzd9q9YxOsz_FsrplduCa1znZMkI,302
+mlflow_user-0.1.0.dist-info/RECORD,,
