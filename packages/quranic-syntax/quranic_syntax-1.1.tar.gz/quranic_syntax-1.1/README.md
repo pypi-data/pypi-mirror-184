@@ -1,0 +1,119 @@
+<!-- <h1 align="center">
+  <img src="images/dadmatech.jpeg"  width="150"  />
+   Dadmatools
+</h1> -->
+
+<h2 align="center">QuaranicTools: A Python NLP Library for syntax quarn</h2>
+
+<div align="center">
+  <a href="https://pypi.org/project/quranic-syntax/"><img src="https://shields.io/pypi/v/quranic-syntax.svg"></a>
+  <a href=""><img src="https://img.shields.io/badge/license-Apache%202-blue.svg"></a>
+</div>
+
+<div align="center">
+  <h5>
+      Part of Speech Tagging
+    <span> | </span>
+      Dependency Parsing
+    <span> | </span>
+      Lemmatizer
+  </h5>
+</div>
+
+# Quranic Syntax
+
+Quranic Syntax is a repository for Natural Language Processing resources for the Quran. The aim is to make it easier and more applicable to use syntactic composition in quran, and hence this project is licensed to allow use.
+
+Contents:
+
+- [Installation](#installation)
+- [Pipline (dep,pos,lem,root)](#pipeline)
+- [Example](#example)
+
+## Installation
+
+To get started using Quranic Syntax in your python project, simply install via the pip package.
+
+### Install with pip
+
+To get started using Quranic Syntax, simply install the project with pip:
+
+```bash
+pip install quranic-syntax
+```
+
+You can check the `requirements.txt` file to see what the packages has been needed.
+
+## Pipeline
+
+Containing POS Tagger, Dependancy Parser, Lemmatizer, Root from verb.
+
+```python
+from quranic_syntax import language
+
+pips = 'dep,pos,root,lemma'
+nlp = language.Pipeline(pips)
+```
+
+[`doc`](https://spacy.io/api/doc) doc object has different extensions.
+First, there are `sentences` in `doc` which is indicate ayeh.
+Second, there are `ayeh` in `doc` which is indicate number ayeh in soure.
+Third, there are `soure` in `doc` which is indicate name of soure.
+Fourth, there are `order` in `doc` which is indicate order of revelation of the ayeh.
+`doc` which is the list of [`Token`](https://spacy.io/api/token) also has its own extensions.
+
+Note that we defined our own extension as well in Quranic Syntax. If any pipeline related to the specific extensions is not called, that extension will have no value.
+
+## Example
+
+```python
+from quranic_syntax import language
+
+pips = 'dep,pos,root,lemma'
+nlp = language.Pipeline(pips)
+
+doc = nlp('1#1')
+
+print(doc)
+print(doc._.soure)
+print(doc._.ayeh)
+print(doc._.order)
+```
+
+```
+الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِینَ *
+فاتحه
+1
+63
+```
+
+```python
+print(doc[1])
+print(doc[1].head)
+print(doc[1].dep_)
+print(doc[1]._.dep_arc)
+print(doc[1]._.root)
+print(doc[1].lemma_)
+print(doc[1].pos_)
+```
+
+```
+حَمْدُ
+*
+خبر
+LTR
+حمد
+
+NOUN
+```
+
+To better see the results which you can use this code:
+
+```python
+dictionary = language.to_json(pips, doc)
+print(dictionary)
+```
+
+```python
+[{'id': 1, 'text': الْ, 'root': None, 'lemma': '', 'pos': 'INTJ', 'rel': 'تعریف', 'arc': 'RTL', 'head': حَمْدُ}, {'id': 2, 'text': حَمْدُ, 'root': 'حمد', 'lemma': '', 'pos': 'NOUN', 'rel': 'خبر', 'arc': 'LTR', 'head': *}, {'id': 3, 'text': لِ, 'root': None, 'lemma': '', 'pos': 'INTJ', 'rel': 'متعلق', 'arc': 'LTR', 'head': *}, {'id': 4, 'text': لَّهِ, 'root': 'أله', 'lemma': '', 'pos': 'NOUN', 'rel': 'نعت', 'arc': 'LTR', 'head': رَبِّ}, {'id': 5, 'text': رَبِّ, 'root': 'ربب', 'lemma': '', 'pos': 'NOUN', 'rel': 'مضاف الیه ', 'arc': 'LTR', 'head': عَالَمِینَ}, {'id': 6, 'text': الْ, 'root': None, 'lemma': '', 'pos': 'INTJ', 'rel': 'تعریف', 'arc': 'RTL', 'head': عَالَمِینَ}, {'id': 7, 'text': عَالَمِینَ, 'root': 'علم', 'lemma': '', 'pos': 'NOUN', 'rel': '', 'arc': None, 'head': عَالَمِینَ}, {'id': 8, 'text': *, 'root': None, 'lemma': '', 'pos': '', 'rel': '', 'arc': None, 'head': *}]
+```

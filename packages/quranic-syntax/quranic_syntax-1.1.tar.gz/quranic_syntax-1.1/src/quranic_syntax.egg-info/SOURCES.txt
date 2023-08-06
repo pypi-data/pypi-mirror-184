@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/quranic_syntax/__init__.py
+src/quranic_syntax/dependency_parsing.py
+src/quranic_syntax/language.py
+src/quranic_syntax/lemmatizer.py
+src/quranic_syntax/postagger.py
+src/quranic_syntax/root.py
+src/quranic_syntax/utils.py
+src/quranic_syntax.egg-info/PKG-INFO
+src/quranic_syntax.egg-info/SOURCES.txt
+src/quranic_syntax.egg-info/dependency_links.txt
+src/quranic_syntax.egg-info/requires.txt
+src/quranic_syntax.egg-info/top_level.txt
