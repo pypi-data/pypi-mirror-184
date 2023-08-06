@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pysyncon/__init__.py
+pysyncon/dataprep.py
+pysyncon/synth.py
+pysyncon.egg-info/PKG-INFO
+pysyncon.egg-info/SOURCES.txt
+pysyncon.egg-info/dependency_links.txt
+pysyncon.egg-info/requires.txt
+pysyncon.egg-info/top_level.txt
