@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "searchlauncher"
+version = "0.1.0"
+description = "Search multiple websites using a single shortcut."
+authors = ["Mikuláš Zelinka <mikulas@zelinka.dev>"]
+readme = "README.md"
+repository = "https://github.com/MikulasZelinka/searchlauncher"
+
+[tool.poetry.scripts]
+searchlauncher = 'searchlauncher.cli:cli'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+keyboard = "^0.13.5"
+typer = {extras = ["all"], version = "^0.7.0"}
+loguru = "^0.6.0"
+pydantic = "^1.10.4"
+tomlkit = "^0.11.6"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+pre-commit = "^2.20.0"
+pyproject-flake8 = "^0.0.1a5"
+pytest = "^7.2.0"
+mypy = "^0.931"
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+include = '\.py$'
+exclude = ''
+
+[tool.flake8]
+max-line-length = 120
+extend-ignore = "E203"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+disallow_untyped_defs = true
+strict = true
+
+# this is specifically for "from ctypes import windll  # type: ignore"
+# open issue: https://github.com/python/mypy/issues/8823
+warn_unused_ignores = false
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+
+[[tool.mypy.overrides]]
+module = [
+    "keyboard",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
