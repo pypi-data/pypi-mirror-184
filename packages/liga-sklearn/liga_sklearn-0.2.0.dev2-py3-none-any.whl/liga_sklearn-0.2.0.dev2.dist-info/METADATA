@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: liga-sklearn
+Version: 0.2.0.dev2
+Requires-Python: <3.10,>=3.8
+Requires-Dist: liga (==0.2.0.dev2)
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+
