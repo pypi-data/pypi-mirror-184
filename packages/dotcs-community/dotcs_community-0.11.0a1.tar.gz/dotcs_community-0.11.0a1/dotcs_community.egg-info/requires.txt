@@ -1,0 +1,15 @@
+bdx_work_shop
+psutil
+requests
+pymysql
+qrcode
+websocket-client
+brotli
+pillow
+rich
+numpy
+pyinstaller
+mido
+pycryptodome
+wget
+flashtext
