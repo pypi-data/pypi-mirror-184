@@ -1,0 +1,8 @@
+sentry_dynamic_sampling_lib/__init__.py,sha256=SBkTKw-_LIWv8x7c-J8t6Jr9eTyk8iM2I99YX_Xym3k,1837
+sentry_dynamic_sampling_lib/sampler.py,sha256=ZBeMV2YrRFUEJUzi5cvY6T20LKJYhwZnYE_A7ZbaT_s,3555
+sentry_dynamic_sampling_lib/shared.py,sha256=IclZkx-apRzUjPXFYuFQHr0dxnCqpnOf0FfxL-eN7kE,1764
+sentry_dynamic_sampling_lib/utils.py,sha256=aq7pobw2YT4qZAPKq-haanOY8UhskGht3qEBVgp747Y,211
+sentry_dynamic_sampling_lib-0.1.0.dist-info/LICENSE,sha256=DDLiMW0QnOvlhJ9qzPNJvnJtwq_qpbpv6q51NXJV7zY,1303
+sentry_dynamic_sampling_lib-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+sentry_dynamic_sampling_lib-0.1.0.dist-info/METADATA,sha256=2vnRNeei_s8ZfQ8EYkx8yt4sRBHsS8lQFcjfTBdv470,1333
+sentry_dynamic_sampling_lib-0.1.0.dist-info/RECORD,,
