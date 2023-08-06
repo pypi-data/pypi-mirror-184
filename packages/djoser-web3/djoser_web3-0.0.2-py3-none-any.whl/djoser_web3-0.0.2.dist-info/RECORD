@@ -1,0 +1,13 @@
+djoser_web3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djoser_web3/admin.py,sha256=sYx839GbFz5-mPm_F-PNkawtkNPDLGnw36Gx62gsrns,359
+djoser_web3/apps.py,sha256=13bIogKO1VHN_WRFShM6ys8eUuBvfE4IEhPssHYv-Ac,153
+djoser_web3/models.py,sha256=-Z4oIIxjNEpcXgt4zYtbdcKOUlXYpCVKH__0bV9W6oo,8014
+djoser_web3/serializers.py,sha256=nG6i7ZeiyLtwnfQFaPKXDY0EjJOzRfYbsZw5gzVkbkg,1563
+djoser_web3/urls.py,sha256=Ussd5y_pSO5NvWULhCYlcykvyG7CtwkNjVZq8xBibwQ,76
+djoser_web3/utils.py,sha256=THsvzOOcZUWYYWkAoKHHCcZvN3rbajodK03J5Q7ql2o,279
+djoser_web3/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djoser_web3-0.0.2.dist-info/LICENSE,sha256=BaiCHcWBTbY7H4Ha_OxvtrEitF8lrUFjknxd4250rPI,1096
+djoser_web3-0.0.2.dist-info/METADATA,sha256=368LeD_CJZAoJevVm20bHwoHhttX4dlj_XpgV5FWzIw,13231
+djoser_web3-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+djoser_web3-0.0.2.dist-info/top_level.txt,sha256=DVQgH1o7jVn9W5Hh06CdOBf49ntoBRxpdQEfUjiIsZU,12
+djoser_web3-0.0.2.dist-info/RECORD,,
