@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "triz2DAAD"
+version = "1.0.4b8"
+authors = [
+  { name="Pedro Fernández", email="rockersuke@gmail.com" },
+]
+description = "Convierte mapas de aventuras de texto generados por Trizbort en código fuente para el DAAD."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://zonafi.es/triz2DAAD/"

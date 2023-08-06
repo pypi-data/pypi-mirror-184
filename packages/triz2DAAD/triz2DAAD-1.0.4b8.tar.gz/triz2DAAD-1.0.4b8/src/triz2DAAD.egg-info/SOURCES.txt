@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/triz2DAAD/__init__.py
+src/triz2DAAD/triz2DAAD.py
+src/triz2DAAD.egg-info/PKG-INFO
+src/triz2DAAD.egg-info/SOURCES.txt
+src/triz2DAAD.egg-info/dependency_links.txt
+src/triz2DAAD.egg-info/top_level.txt
