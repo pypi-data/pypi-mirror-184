@@ -1,0 +1,4 @@
+include kthread_sleep/requirements.txt
+include kthread_sleep/thirdparty.json
+include kthread_sleep/README.MD
+include kthread_sleep/LICENSE
