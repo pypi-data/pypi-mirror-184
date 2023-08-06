@@ -1,0 +1,8 @@
+siemenslogo/src/siemenslogo/__init__.py,sha256=EzMZUAtR8rafdWnBFvBjG_Tl6yLhbnZE5nu7TzcvkrE,47
+siemenslogo/src/siemenslogo/exceptions.py,sha256=qvkhVnWMkGDMgSbeuqi3ZYRXUSVaUUChODONmk7SBsA,45
+siemenslogo/src/siemenslogo/modbus.py,sha256=P1iL_knhuYl0tRi3qiirX1qpTsUafIDKRUMLBUBQyLc,1867
+siemenslogo/src/siemenslogo/unit.py,sha256=tWrn_l6evWmMjkTXTv67endsLcmQmpL3K5lvO5Jifkw,3612
+siemenslogo-0.0.1.dist-info/METADATA,sha256=79KDB2N78D1xyLkuEFAfTRF_bXUoJrV__MsePr1wRUA,461
+siemenslogo-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+siemenslogo-0.0.1.dist-info/top_level.txt,sha256=C5hugEH3B2Ic4pvFXRinncwiRIqt3oCl4OjlDZK5Eds,12
+siemenslogo-0.0.1.dist-info/RECORD,,
