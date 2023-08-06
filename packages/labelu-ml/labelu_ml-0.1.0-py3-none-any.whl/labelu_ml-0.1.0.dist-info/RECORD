@@ -1,0 +1,12 @@
+labelu_ml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labelu_ml/api.py,sha256=IIhHld3uVnQ9JKEFt7djmym7eQAewQ0-0-6SARafbFA,412
+labelu_ml/examples/the_simplest_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+labelu_ml/examples/the_simplest_app/_wsgi.py,sha256=oX6VidC4FMVUNm5Zr-NA7Ib8aTbST_TNsvImbVcNC9s,172
+labelu_ml/examples/the_simplest_app/model.py,sha256=Dlww8LD7PnhzBfwlD-OVkjX9bp_g1UJyAGtrygiPdv0,451
+labelu_ml/examples/the_simplest_app/requirements.txt,sha256=oQmhe58eZTR8PcZaLkFABtTviDbTT_T6VCl1mt3w85s,84
+labelu_ml/main.py,sha256=DpwUSd0xNbB2qytUEd4stAsDGgQg-CwE_nU4xRpQBrE,1820
+labelu_ml/model.py,sha256=T9NNPxZ1wrepsv29yqz7zS-8dzKfqnRw4_THNXRfUi4,220
+labelu_ml-0.1.0.dist-info/entry_points.txt,sha256=urTV0fnHVuIBFdks48nLnh__ai51A02EHIlnLwQ5lLE,48
+labelu_ml-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+labelu_ml-0.1.0.dist-info/METADATA,sha256=YR9EhDbdC-3vaMBaM9sUDW8oMyIyp9epOBQ6tvRb3BA,4211
+labelu_ml-0.1.0.dist-info/RECORD,,

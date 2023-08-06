@@ -1,0 +1,3 @@
+[console_scripts]
+labelu-ml=labelu_ml.main:cli
+
