@@ -1,0 +1,12 @@
+ttally/__init__.py,sha256=z-_G8wy0zslsI3eq9kNSs1H24pS9kI8jsni-AN1ZJ7c,1567
+ttally/__main__.py,sha256=7p_RTap9Y7_rFOEQeyoGbMDwg8m2Eqe8hm-MueY1C1I,381
+ttally/config.py,sha256=6vJePe_vIsa2jlReo3XByNlNVNGw-iJWXAdWsz4aAec,144
+ttally/core.py,sha256=LPSh4x1qrwlnCfbqkeiDGRhIrYRnCjGY_wKQ4AF5y5g,17696
+ttally/main.py,sha256=peq3vTghYpP5oCVLOB78ZH1jSo6nHkqFiyaZY0SQuKI,9249
+ttally/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ttally-0.1.2.dist-info/LICENSE,sha256=DLAorQX7ouXcNHtSqiIVQDT7LK3JgZRV30drSyxo9o8,1074
+ttally-0.1.2.dist-info/METADATA,sha256=7MzTK4hL01-MbvYgY6rNXMAEtOG9Puw_VVbu6gPIHrk,10294
+ttally-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ttally-0.1.2.dist-info/entry_points.txt,sha256=NhTR8BGSTGUevSfA983ky3CPPxaLIgLy3bqU-xUXVqk,48
+ttally-0.1.2.dist-info/top_level.txt,sha256=HbEJOleDnP2cItStrnJOWeQGU2k8njRs87blwD8mpgU,7
+ttally-0.1.2.dist-info/RECORD,,
