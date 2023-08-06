@@ -1,0 +1,34 @@
+# ======================================================================================
+#
+# This file is auto-generated from environment_dev.yml file.
+#
+# !!! DO NOT MODIFY !!!
+#
+# See in `environment_dev.yml` for more information.
+#
+# ======================================================================================
+quadprog
+brukeropusreader
+numpy-quaternion
+colorama
+dill
+ipython
+jinja2
+matplotlib
+numba
+numpy
+pint
+requests
+scipy
+tqdm
+traitlets
+traittypes
+xlrd
+pyyaml
+ipywidgets
+ipympl
+setuptools
+setuptools_scm
+gitpython
+jupyterlab
+nodejs
