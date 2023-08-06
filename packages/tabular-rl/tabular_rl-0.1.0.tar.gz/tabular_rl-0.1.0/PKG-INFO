@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: tabular_rl
+Version: 0.1.0
+Summary: This repository aims to contain implementations of the main tabular methods in Reinforcement Learning. The goal is to provide a framework that allows to easily compare different methods and to easily implement new ones.
+Home-page: https://github.com/Pabloo22/tabular_rl
+Author: Pablo
+Author-email: pablete.arino@gmail.com
+License: MIT
+Download-URL: https://github.com/Pabloo22/tabular_rl/archive/refs/tags/v0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: Reinforcement Learning,Machine Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
