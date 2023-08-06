@@ -1,0 +1,5 @@
+PyYAML<7,>=6.0
+antlr4-python3-runtime==4.11.1
+
+[:python_version<"3.9"]
+importlib_resources
