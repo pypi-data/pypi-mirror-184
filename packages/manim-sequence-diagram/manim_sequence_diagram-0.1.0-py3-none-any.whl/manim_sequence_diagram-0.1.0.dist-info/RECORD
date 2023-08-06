@@ -1,0 +1,10 @@
+manim_sequence_diagram/__init__.py,sha256=UWXpe9CmwnC2fEW3J-hPGVY1spQnMR8o8squ7c9uJpQ,157
+manim_sequence_diagram/constants.py,sha256=uT8REWd8Voat3NB_0u4it0XZ8CAxoL2WghOmi2TSJYU,44
+manim_sequence_diagram/seq_action.py,sha256=kwKWmL3dsvWdGSpEBKTxdvQ7x5tRPFn3SAH6lEsmkNE,2513
+manim_sequence_diagram/seq_actor.py,sha256=RU8xeaVxu8DgXHHfixn9IzBoqJZrTc7bAz3sowC8uwc,2205
+manim_sequence_diagram/seq_object.py,sha256=cqHfXL2Fpiyvlzjc4giKYzOdLfr0UOqxskynAx_Z64k,677
+manim_sequence_diagram-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+manim_sequence_diagram-0.1.0.dist-info/entry_points.txt,sha256=7ltThu28GwouKQTJZEeGQ4gxXnE6V--SeIF9FNCrKCY,63
+manim_sequence_diagram-0.1.0.dist-info/LICENSE.txt,sha256=Ks_7MGxMCoeB5RAq1ZAij3igE9k6sR2J4bfBx-kZbKg,1078
+manim_sequence_diagram-0.1.0.dist-info/METADATA,sha256=OYyjgJdKe7zyOrZQfNHB4tjjD1Jla5L9fkwFdJxVqZ0,3250
+manim_sequence_diagram-0.1.0.dist-info/RECORD,,
