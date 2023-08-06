@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+alextoolkit.egg-info/PKG-INFO
+alextoolkit.egg-info/SOURCES.txt
+alextoolkit.egg-info/dependency_links.txt
+alextoolkit.egg-info/requires.txt
+alextoolkit.egg-info/top_level.txt
