@@ -1,0 +1,6 @@
+testcontainers/rabbitmq/__init__.py,sha256=GXErAXcJovYPgcNCReGNcEPge_5EBWuX6IV_lyvCgVo,3441
+tests/test_rabbitmq.py,sha256=UgDqSB54SH8Zw3C3o6Sv18ZU_ELN4L5A6QscQp2cYwo,1710
+testcontainers_rabbitmq-0.0.1rc1.dist-info/METADATA,sha256=WRG1kHcxDwjYLwBrgM_GXaNl9FAJvA_LEAvroqHZ2zg,352
+testcontainers_rabbitmq-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_rabbitmq-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_rabbitmq-0.0.1rc1.dist-info/RECORD,,
