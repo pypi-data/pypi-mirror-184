@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: alice-host
+Version: 0.0.5
+Summary: Alice Host its come with ui page!
+Home-page: https://github.com/alice-api/alice-host
+Author: pipatpong
+Author-email: kanyatit2500@email.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: templates
+
+
+# Alice Host
+
+Alice Host its come with ui page!
+
+
+## Usage/Examples
+
+```python
+import alice_host
+alice_host.run()
+```
+
+
+# Demo
+
+[Click Here](https://demo-host.alice-api.space)
