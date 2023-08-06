@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+
+import os
+import json
+from ramda import *
+
+SOURCES = "./ramda/"
+
+docs = map(evolve({"name": replace(r"^_", "")}), json.load(open("./jsdocs.json")))
+
+filter_functions = filter(both(test(r".py$"), complement(test("_test"))))
+clear_description = replace(r"\.?\n$", "")
+
+files = filter_functions(os.listdir(SOURCES))
+cutPy = replace(r".py$", "")
+
+
+readme = """
+# Docs
+```python
+"""
+
+for filename in sorted(files):
+    name = to_lower(cutPy(filename))
+    source = open(SOURCES + filename).read()
+
+    func = find(prop_eq("name", name), docs)
+
+    if not func:
+        print(f"{name} has no description")
+        continue
+
+    doc_string = f'\n    """{clear_description(func["description"])}"""\n'
+
+    modified = if_else(
+        test('"""'),
+        replace(fr'\n\s+"""(.*\n)*.*"""\n', doc_string),
+        replace(fr"(def {name}.*:)\n", rf"\1{doc_string}"),
+        source,
+    )
+
+    open(SOURCES + filename, "w").write(modified)
+
+    try:
+        signature = head(match(r"def (.*):\n", source))
+    except IndexError:
+        signature = source
+    readme = f"{readme}{signature}{doc_string}\n"
+
+
+with open("./README.md", "r") as f:
+    readme = replace(r"# Docs\n```python\n(.*\n)+```", f"{readme}```", f.read())
+
+with open("./README.md", "w") as f:
+    f.write(readme)
+
+
+print("\n\nnot done:")
+converge(
+    print, [join("\n"), length], difference(pluck("name", docs), map(cutPy, files))
+)

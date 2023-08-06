@@ -1,0 +1,3 @@
+#!/usr/bin/env fish
+
+nosetests  -x && black --safe ramda --target-version py39 && nosetests --with-coverage
