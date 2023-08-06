@@ -1,0 +1,12 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/autotest23.egg-info/PKG-INFO
+src/autotest23.egg-info/SOURCES.txt
+src/autotest23.egg-info/dependency_links.txt
+src/autotest23.egg-info/requires.txt
+src/autotest23.egg-info/top_level.txt
+src/test23/__init__.py
+src/test23/__main__.py
