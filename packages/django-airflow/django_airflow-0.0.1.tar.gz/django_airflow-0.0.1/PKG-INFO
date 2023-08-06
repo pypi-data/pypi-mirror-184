@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: django-airflow
+Version: 0.0.1
+Summary: using Django features in Airflow DAG
+Home-page: https://github.com/2ykwang/django-airflow
+License: MIT
+Keywords: django,airflow
+Author: Youngkwang Yang
+Author-email: immutable000@gmail.com
+Maintainer: Youngkwang Yang
+Maintainer-email: immutable000@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: apache-airflow (>=2.0)
+Requires-Dist: django (>=3.2)
+Project-URL: Repository, https://github.com/2ykwang/django-airflow
+Description-Content-Type: text/markdown
+
+# django-airflow
+django airflow
+

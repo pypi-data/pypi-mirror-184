@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "django-airflow"
+description = "using Django features in Airflow DAG"
+version = "0.0.1" 
+authors = [
+    "Youngkwang Yang <immutable000@gmail.com>"
+]
+maintainers = [
+    "Youngkwang Yang <immutable000@gmail.com>",
+]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "django_airflow"}
+]
+keywords = ["django", "airflow"]
+homepage = "https://github.com/2ykwang/django-airflow"
+repository = "https://github.com/2ykwang/django-airflow"
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.0",
+    "Framework :: Django :: 4.1",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+django = ">=3.2"
+apache-airflow = ">=2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
