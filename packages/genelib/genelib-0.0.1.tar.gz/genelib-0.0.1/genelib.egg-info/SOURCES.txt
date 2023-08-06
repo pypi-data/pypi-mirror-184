@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+genelib.egg-info/PKG-INFO
+genelib.egg-info/SOURCES.txt
+genelib.egg-info/dependency_links.txt
+genelib.egg-info/requires.txt
+genelib.egg-info/top_level.txt
