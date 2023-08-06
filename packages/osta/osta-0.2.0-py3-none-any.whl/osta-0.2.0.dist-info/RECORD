@@ -1,0 +1,10 @@
+osta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osta/change_names.py,sha256=OmjvQvpDCIqc76m7Vm5IdfL23wwOnXi3V_2KUmKMSrg,27947
+osta/resources/land_codes.csv,sha256=El1oOGy2_h1PHLRfdkfk1cYedxV2vW0LLMEBjnCn_l8,13038
+osta/resources/mandatory_fields.csv,sha256=Em6tH0D9P2A3Ldx6bvlSXqMD7dTMt772B67_m73g9Fk,1372
+osta/resources/optional_fields.csv,sha256=-yfp8IgwOuyPNQtnulBaHs2D63ufWpFerMBP4xpd3Jg,259
+osta-0.2.0.dist-info/LICENSE,sha256=TKuwBAaxCrlg0-u1wU5QQs9U0rlwzEBHWIqijHA1Jf4,9073
+osta-0.2.0.dist-info/METADATA,sha256=OdEdyRaL91r123Q4I5kE1h47HMeaGnH-D1c7aeuhWYk,648
+osta-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+osta-0.2.0.dist-info/top_level.txt,sha256=G9JZjfT0FeUqkUpEoMC3i2DvtKX6mA_XVhwn4hOHkfg,5
+osta-0.2.0.dist-info/RECORD,,
