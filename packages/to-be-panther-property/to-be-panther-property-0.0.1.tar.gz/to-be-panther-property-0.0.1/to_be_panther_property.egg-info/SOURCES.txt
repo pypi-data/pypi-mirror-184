@@ -1,0 +1,5 @@
+setup.py
+to_be_panther_property.egg-info/PKG-INFO
+to_be_panther_property.egg-info/SOURCES.txt
+to_be_panther_property.egg-info/dependency_links.txt
+to_be_panther_property.egg-info/top_level.txt
