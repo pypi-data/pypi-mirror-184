@@ -1,0 +1,6 @@
+packaging_tutorial/src/example_package_mikcut/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_tutorial/src/example_package_mikcut/example.py,sha256=oyWBOZfb7XSxKmDzgg0HD6g3cqd1iBi7Qnopq1d1C4k,62
+example_package_mikcut_123-0.0.1.dist-info/METADATA,sha256=k6AyvWkUC9cHer3kwUIy-cnlzt5a1Mo0o3YF4BrPALI,687
+example_package_mikcut_123-0.0.1.dist-info/WHEEL,sha256=hKi7AIIx6qfnsRbr087vpeJnrVUuDokDHZacPPMW7-Y,87
+example_package_mikcut_123-0.0.1.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+example_package_mikcut_123-0.0.1.dist-info/RECORD,,
