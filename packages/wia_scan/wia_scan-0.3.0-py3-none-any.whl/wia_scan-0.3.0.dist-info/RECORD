@@ -1,0 +1,8 @@
+wia_scan/__init__.py,sha256=gJIQ-rx2zUeNxWjGgRYDk1NxCb3OKgirT9rXAHpU-Ls,428
+wia_scan/scan_functions.py,sha256=L0m965rbaZVd_kKmfOqN7Cf2kLPtGHMyMMaeM_WhCzc,8100
+wia_scan/scan_main.py,sha256=oo4RbQtFnzTCYHUdo_2tRh0AXidBQc4qI3Qtl0mOSMc,1516
+wia_scan-0.3.0.dist-info/entry_points.txt,sha256=8gF2Lifdm249T-gN5_47rHpC0RL1XdvhH66yuYYUiPE,42
+wia_scan-0.3.0.dist-info/LICENSE,sha256=KB2lQ3QQN3-wil-zb9Og2aLjYTeFNWhUsC5YSusc_BA,1091
+wia_scan-0.3.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+wia_scan-0.3.0.dist-info/METADATA,sha256=kdeCL5Vkg0ntyqfmJHrf_xkNkzC09K7xutdqiajrpWM,2014
+wia_scan-0.3.0.dist-info/RECORD,,
