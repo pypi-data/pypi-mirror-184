@@ -1,0 +1,12 @@
+dip/__init__.py,sha256=iD0y5QJ46Boi1SVmDHNZZUqExFiuwYa655PEb1Bprns,123
+dip/_version.py,sha256=JlNZ9fbls7QoufPk1NVgm_stmbsONGAgPujQgJy8Svs,513
+dip/client.py,sha256=8RxA94yywk9Er5eWB-UnoLRP9DEg-QprwaDT4DHTCaM,2432
+dip/connection.py,sha256=aRyip_4HGcM2KVwBQf9g49vYIsVLCTEMYfLaCDhZmUI,2727
+dip/errors.py,sha256=y_1zHDHZJYl1hdF5yHJGTKa-zGH3JZULEj8L1DSU0ic,776
+dip/pool.py,sha256=-Drs59YsX4U9NlMtwBIBcITRXhjn7FX2nEFH_gWs1O8,2145
+dip/proto.py,sha256=V7RSO2o7FYL_fjx1mrsq3S-GrYjwVt8F7bZ9r8y5TzU,5886
+dip/server.py,sha256=5Vm528ptdgRftJL41jgm2DheqRleMOm8twYsvQ6pHLQ,3949
+deepfos_ipc_protocol-1.2.1.dist-info/METADATA,sha256=vuHafJT_bHdf_e4YVIjPWS3TXOdYqZlPr-KMM47Lxk4,3272
+deepfos_ipc_protocol-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+deepfos_ipc_protocol-1.2.1.dist-info/top_level.txt,sha256=FInKZ960ITPE3C2lxpQJHBBEW83AeZBZei3Xp8yg1TU,4
+deepfos_ipc_protocol-1.2.1.dist-info/RECORD,,
