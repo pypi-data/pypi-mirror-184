@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yolov7-wky
+Version: 2022.1.6.5
+Author: biantsh
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# YoloV7
+
+A packaged version of the yolov7 implementation by Wong Kin Yiu:
+https://github.com/WongKinYiu/yolov7
+
+# Example usage
+
+After installation, import with `import yolov7`. To import a module, such as
+`models` or `utils`, you can do: `import yolov7.models` and `yolov7.utils`
+respectively.
