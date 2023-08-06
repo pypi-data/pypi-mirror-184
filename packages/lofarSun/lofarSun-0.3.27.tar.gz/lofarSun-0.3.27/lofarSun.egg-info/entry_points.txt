@@ -1,0 +1,4 @@
+[console_scripts]
+lofarBFcube = lofarSun.BF.GUI.lofarBFgui:main
+pymsDatetime2Index = lofarSun.cli.pyms_datetime_to_index:main
+pymsOverview = lofarSun.cli.pyms_overview:main
