@@ -1,0 +1,2 @@
+pibooth_qr_download
+qr_filetransfer
