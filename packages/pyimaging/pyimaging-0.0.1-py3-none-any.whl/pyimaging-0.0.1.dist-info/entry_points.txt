@@ -1,0 +1,3 @@
+[console_scripts]
+imaging=src.imaging.main:app
+

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyimaging
+Version: 0.0.1
+Summary: 轻量级 Python 图像处理库
+Home-page: https://github.com/yiyungent/imaging
+License: Apache-2.0
+Author: yiyun
+Author-email: yiyungent@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Project-URL: Repository, https://github.com/yiyungent/imaging
+Description-Content-Type: text/markdown
+
+# imaging
+
+> 轻量级 Python 图像处理库
+
+
