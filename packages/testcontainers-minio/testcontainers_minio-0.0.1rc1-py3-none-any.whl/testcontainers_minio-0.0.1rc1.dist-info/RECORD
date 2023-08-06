@@ -1,0 +1,6 @@
+testcontainers/minio/__init__.py,sha256=jNLtUqnJsSiKFycer1TGEGgy0CvsHTDE4g5F4y1JP6s,4252
+tests/test_minio.py,sha256=v37Rhm_ZT09yXTkdRxU7j5u-BGAluFx2l0kW_xoSNsI,683
+testcontainers_minio-0.0.1rc1.dist-info/METADATA,sha256=OMQN2Bal-Ds_jkXWpQJKuGT0fPwNJbdqxR84t41hRtg,344
+testcontainers_minio-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_minio-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_minio-0.0.1rc1.dist-info/RECORD,,
