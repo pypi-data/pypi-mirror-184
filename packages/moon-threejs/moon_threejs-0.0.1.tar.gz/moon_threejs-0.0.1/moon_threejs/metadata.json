@@ -1,0 +1,23 @@
+{
+  "src/lib/components/MoonThreejs.react.js": {
+    "description": "",
+    "displayName": "MoonThreejs",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": ""
+      },
+      "radius": {
+        "type": {
+          "name": "number"
+        },
+        "required": true,
+        "description": ""
+      }
+    }
+  }
+}
