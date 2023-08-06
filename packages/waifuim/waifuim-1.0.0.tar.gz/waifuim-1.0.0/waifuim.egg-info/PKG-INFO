@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: waifuim
+Version: 1.0.0
+Summary: A Python wrapper for the Waifu.im API
+Author: Avimetry Development
+Author-email: avizum <juliusrt@outlook.com>
+License: MIT License
+Project-URL: homepage, https://github.com/avimetry/waifuim
+Project-URL: documentation, https://readthedocs.io
+Project-URL: repository, https://github.com/avimetry/waifuim
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+License-File: LICENSE
