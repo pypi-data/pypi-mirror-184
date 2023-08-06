@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: testcontainers-mssql
+Version: 0.0.1rc1
+Summary: Microsoft SQL Server component of testcontainers-python.
+Home-page: https://github.com/testcontainers/testcontainers-python
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: testcontainers-core
+Requires-Dist: sqlalchemy
+Requires-Dist: pymssql
+
+Microsoft SQL Server component of testcontainers-python.
