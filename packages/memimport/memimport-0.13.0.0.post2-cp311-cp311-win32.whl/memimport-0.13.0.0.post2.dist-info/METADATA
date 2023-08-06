@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: memimport
+Version: 0.13.0.0.post2
+Summary: Helps import Python extensions from memory, e.g. extensions from Zip files or Web.
+Home-page: http://github.com/SeaHOH/memimport
+Author: Thomas Heller <theller@ctypes.org>, Alberto Sottile <alby128@gmail.com>
+Maintainer: SeaHOH
+Maintainer-email: seahoh@gmail.com
+License: MIT/X11
+Project-URL: Tracker, http://github.com/SeaHOH/memimport/issues
+Keywords: memory importer zip loader
+Platform: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6, <3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+memimport for Python 3
+========================
+
+`memimport` is a part of `py2exe`, which helps import Python extensions from
+memory, e.g. extensions from Zip files or Web.
+
+This repo via CI to build it as Python extensions, beacause the original has
+been built into the py2exe runstubs, only run with script, no REPL.
+
+Development of `memimport` is hosted here: https://github.com/SeaHOH/memimport.
+
+Development of `py2exe` is hosted here: https://github.com/py2exe/py2exe.
+
+
+Compatibility
+-------------
+
+Windows, CPython >= 3.6
+
+
+Usage
+-----
+
+```python
+import zipextimporter
+import sys
+
+sys.path.insert(0, 'path/to/libs.zip')
+```
+
+then
+
+```python
+zipextimporter.monkey_patch()  # recommend, only monkey patch `zipimport.zipimporter`
+```
+
+or
+
+```python
+zipextimporter.install()       # also, install to `sys.path_hooks` is still available
+```
+
+then
+
+```python
+import ext_mod_in_zip          # now, support __init__.pyd in packages
+
+ext_mod_in_zip                 # <module 'ext_mod_in_zip' from 'path\\to\\libs.zip\\ext_mod_in_zip\\__init__.pyd'>
+ext_mod_in_zip.__file__        # 'path\\to\\libs.zip\\ext_mod_in_zip\\__init__.pyd'>
+ext_mod_in_zip.__loader__      # <ZipExtensionImporter object 'path\to\libs.zip\'>
+
+import py_mod_in_zip
+
+py_mod_in_zip                  # <module 'py_mod_in_zip' from 'path\\to\\libs.zip\\py_mod_in_zip\\__init__.py'>
+py_mod_in_zip.__file__         # 'path\\to\\libs.zip\\py_mod_in_zip\\__init__.py'>
+py_mod_in_zip.__loader__       # <zipimporter object 'path\to\libs.zip\'>
+```
+
+More usage see source or use help function.
