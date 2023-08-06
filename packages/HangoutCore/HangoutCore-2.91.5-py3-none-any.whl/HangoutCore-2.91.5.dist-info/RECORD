@@ -1,0 +1,17 @@
+hangoutcore/__init__.py,sha256=MBNDoN_Q9XItge7gtv0jnLc3-k5ddmI2W204PQvyk5k,22
+hangoutcore/__main__.py,sha256=7l116UEqpxUpKMBOe4X3RRansSBco1tkjgnF3ixKUkY,16473
+hangoutcore/bot.py,sha256=co3hn65ysH4wUbsLNaAQMnJxd6kWoUcV0gFgKkBoiAs,8223
+hangoutcore/setup.py,sha256=CiY_up_ss1uePFLWAEy2Jlbz5gev26eX8bO_OZXwT_8,2464
+hangoutcore/util.py,sha256=0JYGpEjlYqi-SHnxgjF_vu4p2j5KAJgVf56RgVpcpek,82679
+hangoutcore/SystemCogs/development.py,sha256=msqyu8ytNWC3gYFj2kGXGwgJPPOSSp2FA0c8r02jC5w,8532
+hangoutcore/SystemCogs/economy.py,sha256=uiAHyMVvDuawcCOxKZZiCoGI7KHDf9gcOsWzdQOOyso,3917
+hangoutcore/SystemCogs/general.py,sha256=NiIYpt05cy33o92bNglAFKM7si5rbUHH4ExZVtyd32o,13859
+hangoutcore/SystemCogs/moderation.py,sha256=rhaqziYolOr5YhAwRrpycI15Zph3HVb5uTNkDrDQNYA,8107
+hangoutcore/SystemCogs/music.py,sha256=qvqsc99W4R8LScpt9-JLOFr2dk6Q7TeSG9ppyGw-MtE,1673
+hangoutcore/SystemCogs/system.py,sha256=_RPRcyhsgNGOPqslz1qtSpJnvI8c9c6uyntuzcIYSYE,32248
+HangoutCore-2.91.5.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+HangoutCore-2.91.5.dist-info/METADATA,sha256=SWqv2_EnuyrhnEF3HXll5X0FqDqQVKYuFHmyFIwQ3wk,6568
+HangoutCore-2.91.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+HangoutCore-2.91.5.dist-info/entry_points.txt,sha256=dCIPYNeBGsnVTSMRKdYU9MSFRAGYU4ccF6CvIeLorhA,58
+HangoutCore-2.91.5.dist-info/top_level.txt,sha256=mLh2Y8rSgkIsOcR2l4oL9vXTJ4wDPB82s-K2QU3t87o,12
+HangoutCore-2.91.5.dist-info/RECORD,,
