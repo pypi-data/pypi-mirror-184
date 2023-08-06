@@ -1,0 +1,2 @@
+[console_scripts]
+wp-tdk = src.main:cli

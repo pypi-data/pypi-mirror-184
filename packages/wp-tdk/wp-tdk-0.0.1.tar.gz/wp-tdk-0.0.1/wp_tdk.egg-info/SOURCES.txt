@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/__init__.py
+src/main.py
+src/snippets/__init__.py
+src/snippets/css.py
+src/snippets/html.py
+src/snippets/php.py
+src/snippets/sass.py
+src/vars/__init__.py
+wp_tdk.egg-info/PKG-INFO
+wp_tdk.egg-info/SOURCES.txt
+wp_tdk.egg-info/dependency_links.txt
+wp_tdk.egg-info/entry_points.txt
+wp_tdk.egg-info/top_level.txt

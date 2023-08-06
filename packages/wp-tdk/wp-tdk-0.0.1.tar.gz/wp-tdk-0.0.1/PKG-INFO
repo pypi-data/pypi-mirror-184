@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wp-tdk
+Version: 0.0.1
+Summary: Generates the boilerplate files for a custom wordpress theme
+Home-page: https://github.com/matthewBeckwith/wp-tdk
+Author: Matthew Beckwith
+Author-email: kodahscripts@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Wordpress Theme Development Kit
+
+Wisk is a CLI Tool to build all the boilerplate files for a Custom Wordpress Theme.  Just navigate to your themes folder in your terminal and use 'wsk' to generate the files.  There are options for with or without bootstrap, sass, and classic or block templating.  By default, bootstrap, sass, and classic mode are True.  
