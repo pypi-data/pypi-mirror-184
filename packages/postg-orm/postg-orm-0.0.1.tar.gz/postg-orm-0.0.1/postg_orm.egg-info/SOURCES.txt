@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+pgorm/__init__.py
+postg_orm.egg-info/PKG-INFO
+postg_orm.egg-info/SOURCES.txt
+postg_orm.egg-info/dependency_links.txt
+postg_orm.egg-info/top_level.txt

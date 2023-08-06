@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: postg-orm
+Version: 0.0.1
+Summary: A simple ORM for PostgreSQL based on asyncpg.
+Author-email: Dragon-GCS <878173121@qq.com>
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Pg-Orm
+
+A simple orm for postgresql
