@@ -1,0 +1,7 @@
+setup.py
+pytempmail/__init__.py
+temporary_mail.egg-info/PKG-INFO
+temporary_mail.egg-info/SOURCES.txt
+temporary_mail.egg-info/dependency_links.txt
+temporary_mail.egg-info/requires.txt
+temporary_mail.egg-info/top_level.txt
