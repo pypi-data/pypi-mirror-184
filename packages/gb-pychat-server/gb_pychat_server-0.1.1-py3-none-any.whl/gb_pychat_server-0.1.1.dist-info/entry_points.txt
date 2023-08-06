@@ -1,0 +1,4 @@
+[console_scripts]
+server-cli=server.run_server_cli:run
+server-gui=server.run_server_gui:run
+
