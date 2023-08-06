@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cyberprime.egg-info/PKG-INFO
+cyberprime.egg-info/SOURCES.txt
+cyberprime.egg-info/dependency_links.txt
+cyberprime.egg-info/requires.txt
+cyberprime.egg-info/top_level.txt
