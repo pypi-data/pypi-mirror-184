@@ -1,0 +1,7 @@
+LICENSE.txt
+lplus_obfuscator.py
+setup.py
+lplus_obfuscator.egg-info/PKG-INFO
+lplus_obfuscator.egg-info/SOURCES.txt
+lplus_obfuscator.egg-info/dependency_links.txt
+lplus_obfuscator.egg-info/top_level.txt
