@@ -1,0 +1,11 @@
+openweatherclass/__init__.py,sha256=9euxFCfkqcGxUApAbXifBxIf-VBniQ6amuj8euAri5s,82
+openweatherclass/condition_codes.py,sha256=2EeY-W00q6pcuV15Oz1tr3EjAL74dV1pyvjUTmISdho,5755
+openweatherclass/functions.py,sha256=YIUB4cfIsHNqnix_oB20693SG33wa6Qs-Nyiy61yWSY,1634
+openweatherclass/geodataclass.py,sha256=J_xmlxngApr9FsB5SQmf9rCQSLxzw75V8RlDSOAivHc,173
+openweatherclass/historydataclass.py,sha256=BOlVeu0YEZJONRwGg6sUH1XZ2H6M1SMOpmEgpqxJ6G0,1058
+openweatherclass/weatherclass.py,sha256=eocdMgCTJiJ2UiGLObjbyE_dJot88rvjfeFmvzFaQQY,3550
+openweatherclass/weatherdataclass.py,sha256=0OfW_GmAmPgWS5XHHgrw-NVwB-jwFWsGP-LuaOby03Q,839
+openweatherclass-0.5.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+openweatherclass-0.5.1.dist-info/METADATA,sha256=g4aG7Am0f-Atmz_euKhrKy8sFBDeHbBfAUPoBA-4Sls,1206
+openweatherclass-0.5.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openweatherclass-0.5.1.dist-info/RECORD,,
