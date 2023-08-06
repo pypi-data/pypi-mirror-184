@@ -1,0 +1,6 @@
+testcontainers/keycloak/__init__.py,sha256=R8Wjaxn2D6grp0709YQi-Cpdsmlx0bJoxZ98gWB9ISI,2476
+tests/test_keycloak.py,sha256=7RY13tNP9w-xK-JggR1AoULwo6Vy2CbR7ZzfRaao3_M,273
+testcontainers_keycloak-0.0.1rc1.dist-info/METADATA,sha256=HplYN0YgyQNiYrHDg0FhKs8mdE6vrzf5YtbJeXU-Qws,363
+testcontainers_keycloak-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_keycloak-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_keycloak-0.0.1rc1.dist-info/RECORD,,
