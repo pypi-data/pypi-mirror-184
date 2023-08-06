@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+shiftES/__init__.py
+shiftES/shift_effectsize.py
+shiftES/shiftes.py
+shiftES/tests.py
+shiftES.egg-info/PKG-INFO
+shiftES.egg-info/SOURCES.txt
+shiftES.egg-info/dependency_links.txt
+shiftES.egg-info/requires.txt
+shiftES.egg-info/top_level.txt
