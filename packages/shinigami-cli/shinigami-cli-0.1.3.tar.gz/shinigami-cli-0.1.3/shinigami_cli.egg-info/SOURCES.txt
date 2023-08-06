@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+shinigami_cli.egg-info/PKG-INFO
+shinigami_cli.egg-info/SOURCES.txt
+shinigami_cli.egg-info/dependency_links.txt
+shinigami_cli.egg-info/entry_points.txt
+shinigami_cli.egg-info/requires.txt
+shinigami_cli.egg-info/top_level.txt
+src/cli.py
