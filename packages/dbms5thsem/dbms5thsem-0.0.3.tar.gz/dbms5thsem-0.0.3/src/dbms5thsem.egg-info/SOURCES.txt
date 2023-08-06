@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/dbms5thsem.py
+src/dbms5thsem.egg-info/PKG-INFO
+src/dbms5thsem.egg-info/SOURCES.txt
+src/dbms5thsem.egg-info/dependency_links.txt
+src/dbms5thsem.egg-info/top_level.txt
