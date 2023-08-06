@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: snow-pal
+Version: 0.1.3
+Summary: Snow inspired palettes for your everyday plots
+Home-page: https://github.com/brentwilder/snow-pal
+Author: Brent Wilder
+Author-email: brentwilder@boisestate.edu
+License: UNKNOWN
+Description:  Snow-pal is a fast and easy-to-use color palette dictionary based on real life photos from great winter locations.        Try snow-pal and create cool snow figures to share with your colleagues. Snow-pal is compatible with Python 2.7x and 3.4+.
+Keywords: snow,plot,winter,graph
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
