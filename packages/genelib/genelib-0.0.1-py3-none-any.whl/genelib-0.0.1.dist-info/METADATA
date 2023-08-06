@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: genelib
+Version: 0.0.1
+Summary: Genetic Library.
+Author: Yan Kuang
+Author-email: YTKme@Outlook.com
+License: MIT License
+Keywords: genetic genelib
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Python Genetic Library
+Python Genetic Library
