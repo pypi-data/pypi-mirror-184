@@ -1,0 +1,6 @@
+README.md
+setup.py
+korcount.egg-info/PKG-INFO
+korcount.egg-info/SOURCES.txt
+korcount.egg-info/dependency_links.txt
+korcount.egg-info/top_level.txt
