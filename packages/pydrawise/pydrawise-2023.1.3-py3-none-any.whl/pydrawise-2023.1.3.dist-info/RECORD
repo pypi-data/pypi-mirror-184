@@ -1,0 +1,15 @@
+pydrawise/__init__.py,sha256=US_Z0-t3NwNmM4yeYb-UFKoX7Me_twBw_XK1zNiB3Aw,505
+pydrawise/auth.py,sha256=E8Hg3HAhgA1fib79-i8_FOd__gC8yP9p1sXPoOzMB64,3595
+pydrawise/client.py,sha256=ylPaMYY8jXcFSVmEKaZvc_PyatQJmgUcNpteXY1tjcY,5390
+pydrawise/exceptions.py,sha256=MYH2-RyMKLJ_IKreg2D0-bgLf3VJkTV-En92aPHDHus,455
+pydrawise/schema.py,sha256=gcqZ9Qa3bvHBkeX_PzCKzmS1Zb_rXtANRjxNSHI1U84,15334
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_auth.py,sha256=nNOEPwh7MqYbZ9IrX7gwC_hilwil7m51qK6ZaJ856Cw,63
+tests/test_client.py,sha256=EMMdI4h2Bh9XaknxrSazibBhS7PYvqqpihSunb_a_AI,65
+tests/test_schema.py,sha256=9V6B-_XV3lISv9bi7_GMhMP4KEbwIHeZtgGBLdHOcjM,65
+pydrawise-2023.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydrawise-2023.1.3.dist-info/METADATA,sha256=G5Pcp9BabEOtvmvOxsaZ0gKulmJPyWAS_Cb4mSadw3o,1445
+pydrawise-2023.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pydrawise-2023.1.3.dist-info/top_level.txt,sha256=wR75tIBDpHeA9rBNPItkyeOPK_SDfLHKtjsSQrP6zio,16
+pydrawise-2023.1.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pydrawise-2023.1.3.dist-info/RECORD,,
