@@ -1,0 +1,11 @@
+linque/__init__.py,sha256=QBpcCq8CHVYPb1oJhMr2riaBbJRAKcAeAVeoPq4efkM,861
+linque/iters.py,sha256=XooYbUxA0m9e8D2-3iRL_9wpPBKdNA-M7npZDGRvcWA,17958
+linque/linque.py,sha256=Z1Bhn--7CToL3z5Rdy_bTSFO3A4-sfLIYgJMNt8fYDk,24393
+unittests/__init__.py,sha256=Q9lhQIUnnYsdm7WR_usgMVkK6SdTMaOdnKXQkZB_0cs,324
+unittests/test_iters.py,sha256=17A1yMjpDdp0vlkon9QsGuYvs-dqUvlXWw9MYgRYof8,24168
+unittests/test_linq.py,sha256=RwGgJtMVI-49xUpMCJ_i-oU0CqPM6D4YdlYRyXGq1g8,33668
+linque-4.0.0.dist-info/LICENSE,sha256=NtSZBeSRWzjgp_9PAus2uKIJL90HkebOd_hPCsGgHZ0,1071
+linque-4.0.0.dist-info/METADATA,sha256=QpKsLWxiQEIb_0753_7WZIQcZDFwzXueisWfaHF4B4M,26192
+linque-4.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+linque-4.0.0.dist-info/top_level.txt,sha256=oP-Gv6UKXUhJWrhZTwnhh7VV7b-TJmWBkfFSci0K34M,17
+linque-4.0.0.dist-info/RECORD,,
