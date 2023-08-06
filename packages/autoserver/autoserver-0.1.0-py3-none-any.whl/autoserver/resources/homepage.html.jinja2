@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://raj457036.github.io/attriCSS//themes/midnight-green.css">
+</head>
+<body>
+<nav>
+    <header>
+        <a href="/">AutoServer</a>
+        <label for="nav"><i class="fas fa-bars"></i></label>
+    </header>
+    <input type="checkbox" id="nav" hidden checked>
+    <div overflow>
+        <ul>
+            {%  for fn in fnList %}
+            <li><a href="{{ fn.frontEndPoint }}">{{ fn.name }}</li>
+            {% endfor %}
+            <li><a href="/">Home</a></li>
+        </ul>
+    </div>
+</nav>
+<h1 style="text-align:center">Welcome to AutoServer</h1>
+<hr>
+<table style="margin: auto;">
+    <tr>
+        <th>Function</th>
+        <th>Description</th>
+    </tr>
+    {% for fn in fnList %}
+        <tr>
+            <th><a href="{{ fn.frontEndPoint }}">{{ fn.name }}</a></th>
+            <th>{{ fn.desc }}</th>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

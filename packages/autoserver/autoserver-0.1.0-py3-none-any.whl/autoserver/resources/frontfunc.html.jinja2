@@ -1,0 +1,85 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://raj457036.github.io/attriCSS//themes/midnight-green.css">
+<script>
+    function submitForm() {
+        const form = document.getElementById('sampleForm');
+        const formData = new FormData(form);
+        const outputSection = document.getElementById('response')
+        const data = {};
+        for (const [key, value] of formData.entries()) {
+            data[key] = value;
+        }
+        fetch('{{ fnObj.backEndPoint }}', {
+            method: 'POST',
+            body: JSON.stringify(data),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }).then((response) => response.json())
+            .then((data) => outputSection.innerHTML = data);
+
+    }
+</script>
+</head>
+<body>
+<nav>
+    <header>
+        <a href="/">AutoServer</a>
+        <label for="nav"><i class="fas fa-bars"></i></label>
+    </header>
+    <input type="checkbox" id="nav" hidden checked>
+    <div overflow>
+        <ul>
+            {%  for fn in fnList %}
+            <li><a href="{{ fn.frontEndPoint }}">{{ fn.name }}</li>
+            {% endfor %}
+            <li><a href="/">Home</a></li>
+        </ul>
+    </div>
+</nav>
+<h1 style="text-align:center">{{ fnObj.name }}</h1>
+<p style="text-align:center">{{ fnObj.desc }}</p>
+<hr>
+<table style="margin: auto;">
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+    </tr>
+    {% for key, value in fnObj.paramDesc.items() %}
+        <tr>
+        <th>{{ key }}</th>
+        <th>{{ value }}</th>
+        </tr>
+    {% endfor %}
+</table>
+<hr>
+<form id="sampleForm" onsubmit="submitForm()" action="javascript:void(0);">
+<fieldset>
+<legend>Function Form</legend>
+    {% for rowData in formRows %}
+        <div>
+        <label for="{{ rowData.varName }}">{{ rowData.varName }}</label>
+        {% if rowData.varType == 'str' %}
+            <input type="text" id="{{ rowData.varName }}" name="{{  rowData.varName }}"><br>
+        {%  elif rowData.varType == 'int' %}
+            <input type="number" step=1 id="{{ rowData.varName }}" name="{{  rowData.varName }}"><br>
+        {% elif rowData.varType == 'float' %}
+            <input type="number" step=0.0000000001 id="{{ rowData.varName }}" name="{{  rowData.varName }}"><br>
+        {% else %}
+            rowData.varType
+        {% endif %}
+        </div>
+    {%  endfor %}
+    <div>
+    <input type="submit" value="Submit">
+    </div>
+</fieldset>
+</form>
+<fieldset>
+    <legend>Function Output</legend>
+<div id="response">
+</div>
+</fieldset>
+</body>
+</html>

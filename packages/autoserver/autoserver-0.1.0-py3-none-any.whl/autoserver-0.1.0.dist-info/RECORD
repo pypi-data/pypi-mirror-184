@@ -1,0 +1,7 @@
+autoserver/__init__.py,sha256=IgcekMByAMlWSWBX7p8hxtA7oiOu_kFQrk9vAgema_s,2928
+autoserver/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoserver/resources/frontfunc.html.jinja2,sha256=nk5iMn2fC_nJmRFhHeF507DHtjD9OiiEq-qhEOgcaKk,2626
+autoserver/resources/homepage.html.jinja2,sha256=P7lfo3smpGMn4aH8r1-qTRZ4Vil5y-9vkPoRO46Hbjc,943
+autoserver-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+autoserver-0.1.0.dist-info/METADATA,sha256=kaSo36DCJFXIXdxIl7edw2mMc7rq1WOS01s5yV6fR3M,1664
+autoserver-0.1.0.dist-info/RECORD,,
