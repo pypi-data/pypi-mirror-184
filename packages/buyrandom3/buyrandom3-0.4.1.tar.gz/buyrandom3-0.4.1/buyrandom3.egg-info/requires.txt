@@ -1,0 +1,17 @@
+click
+
+[dev]
+pre-commit
+pylint
+click
+
+[docs]
+sphinx
+myst_parser
+furo
+sphinx-click
+
+[testing]
+setuptools
+pytest
+pytest-cov
