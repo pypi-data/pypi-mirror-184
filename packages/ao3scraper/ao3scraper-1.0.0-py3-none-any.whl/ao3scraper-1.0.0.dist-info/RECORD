@@ -1,0 +1,12 @@
+ao3scraper/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+ao3scraper/__main__.py,sha256=sKAI-XeW0rLzLyEKrXE6gpJG3y7avKRhVAhV0ry9ZYI,10188
+ao3scraper/constants.py,sha256=-LSXjpHAU1rrFL1AIs7MLfgbGpvr92PueVT4ey1Y57Y,2800
+ao3scraper/construct_list.py,sha256=sRICMoYYREVr6JXlqXpjCi_bvNjJRs0tm27gHA8ddW0,742
+ao3scraper/database.py,sha256=CEuxeQHxmFrgGWOePPHHxUeerDo2y13MLXura0qTi28,2800
+ao3scraper/file_validator.py,sha256=EiEyjCMan8KJzCvmaZZLDWFwvDqYU43-1H2mu-drOwQ,4070
+ao3scraper/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ao3scraper/tests/test_ao3scraper.py,sha256=wFdOmlZld-GIIaFRGJZQO7tIPeA5BfaDnHMdCt0Tty4,91
+ao3scraper-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ao3scraper-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ao3scraper-1.0.0.dist-info/METADATA,sha256=KOKEexNEDdFXmV4CMMwc61-FRzY3ke_QxieICAfPP0U,1163
+ao3scraper-1.0.0.dist-info/RECORD,,
