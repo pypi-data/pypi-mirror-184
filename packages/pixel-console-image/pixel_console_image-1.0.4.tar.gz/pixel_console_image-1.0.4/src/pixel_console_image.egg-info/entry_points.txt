@@ -1,0 +1,3 @@
+[console_scripts]
+pci = pci.__main__
+
