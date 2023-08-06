@@ -1,0 +1,12 @@
+deepcolor/__init__.py,sha256=I8ljy-4Xbjb32nCdILGsZfN4MjjmJ9AWHp2_tZ6h73c,235
+deepcolor/commons.py,sha256=JgQiS3HNohERx9WyDFTuB2eS5tqe7rdJ3DEQ8zN9338,6682
+deepcolor/dataset.py,sha256=i7vzHcLYVN-di9ndkPu7QwmGXva1LQbwxpu9joV_eG0,5054
+deepcolor/exp.py,sha256=jT7NUGoY1q6ZlyEfy1DPjkTWpxvR5za7L26iJ2Zv898,7954
+deepcolor/funcs.py,sha256=IJ9UhUIxQDChP1VgxVDPQDkGCIPNwTR49al1jULSPZI,475
+deepcolor/modules.py,sha256=xF_PdxR3fqMWYbG_VaGeBG5AgjY4AErZSKxHPKltOV4,8227
+deepcolor/workflow.py,sha256=1xOjH8-A9ENxEFW-cJ4SrR0rwQxiEj8DPDJxPZv-mvU,15617
+deepcolor-0.0.4.dist-info/LICENSE,sha256=u2RtcYIWf56BlPfQjgwWB1NB2e6aCsSj6BK5b8xcvS8,1071
+deepcolor-0.0.4.dist-info/METADATA,sha256=Ju0O8j7T-iotI25AovuUcp06liEd--eNZS4qYQvD5Ys,1362
+deepcolor-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+deepcolor-0.0.4.dist-info/top_level.txt,sha256=OyInaR4qtci7RU0UtqB3eHioUrXpyvxI-KXkOCDLxs4,10
+deepcolor-0.0.4.dist-info/RECORD,,
