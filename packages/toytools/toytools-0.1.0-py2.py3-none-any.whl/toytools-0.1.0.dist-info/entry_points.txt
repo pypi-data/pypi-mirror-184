@@ -1,0 +1,3 @@
+[console_scripts]
+toytools = toytools.cli:main
+

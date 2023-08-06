@@ -1,0 +1,9 @@
+toytools/__init__.py,sha256=ME1Y_nA2jNJiPtVGmmCioJkZ0HsVeEJw7K2yx-Rk5UM,65
+toytools/cli.py,sha256=V281983B3NsMBiGsGrXTwswclbgkmOd5KXqZpA0JL-Q,439
+toytools/io/__init__.py,sha256=ldLsQcbPUVFWAZX8jdqre-Erw5USzXYOj-92M5GEHt0,35
+toytools/io/file.py,sha256=xfYYdj12lmsHmwTUVsPQqlMay7YtDEaTwdLCIh3RuSc,100
+toytools-0.1.0.dist-info/METADATA,sha256=UuBqeeJt1VtBmquB1AFbUqqHU0YJNX48gdE_LIP4Qsk,1598
+toytools-0.1.0.dist-info/RECORD,,
+toytools-0.1.0.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+toytools-0.1.0.dist-info/entry_points.txt,sha256=BJUGlhHJ9IXHPIdJzkLNovrBV-BoWUX8T6SXsnRHZV8,48
+toytools-0.1.0.dist-info/top_level.txt,sha256=AuKOWv24TXw-nJTf9X043_BBs3FQJEn_4mZ9wlnsb10,9
