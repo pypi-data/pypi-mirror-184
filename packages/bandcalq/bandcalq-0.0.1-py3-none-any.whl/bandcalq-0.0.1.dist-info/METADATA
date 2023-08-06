@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bandcalq
+Version: 0.0.1
+Summary: Band theory calculations using variational quantum algorithms
+Home-page: https://github.com/m-lewand/BandCalQ
+Author: Michał Lewandowski
+Author-email: michal.lewand99@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: qiskit
+Requires-Dist: qiskit-terra
+Requires-Dist: tqdm
+
+# BandCalQ
+**BandCalQ** is a Qiskit library created for band theory calculations using variational quantum algorithms. This framework's goal is to deliver a simple interface that allows users to acquire electronic band structures providing minimal input. 
+
+## Installation
+BandCalQ can be installed via ``pip`` using the following command.
+```bash
+pip install bandcalq
+```
+All dependencies are handled automatically.
+## Usage
+Usage of the BandCalQ library is explained in provided Jupyter Notebooks - ``example_simple.ipynb`` and ``example_advanced.ipynb`` that can be found in examples directory.
