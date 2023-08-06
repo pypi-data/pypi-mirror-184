@@ -1,0 +1,6 @@
+flask
+websocket-client
+numpy
+pynacl
+pyogg
+youtube_dl
