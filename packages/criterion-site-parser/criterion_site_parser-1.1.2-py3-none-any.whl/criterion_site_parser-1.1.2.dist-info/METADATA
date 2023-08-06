@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: criterion-site-parser
+Version: 1.1.2
+Summary: Prints movies information parsed from criterionchannel.com
+Author-email: pistolbarrel <gboes@pistolbarrel.net>
+Project-URL: Homepage, https://github.com/pistolbarrel/criterion-site-parser
+Keywords: criterion,parser,movies
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: html5lib
+Requires-Dist: bs4
+Requires-Dist: requests
+
