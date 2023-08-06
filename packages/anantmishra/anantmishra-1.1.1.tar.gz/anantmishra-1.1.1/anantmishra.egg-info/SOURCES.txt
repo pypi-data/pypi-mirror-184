@@ -1,0 +1,8 @@
+README.md
+anant.py
+setup.cfg
+setup.py
+anantmishra.egg-info/PKG-INFO
+anantmishra.egg-info/SOURCES.txt
+anantmishra.egg-info/dependency_links.txt
+anantmishra.egg-info/top_level.txt
