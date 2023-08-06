@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dbms5thsem
+Version: 0.0.2
+Summary: DBMS lab programs definitions
+Author: aiml department
+Author-email: aiml@gmail.com
+License: MIT
+Keywords: DBMS lab
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DBMS Lab
+              
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
+
+
