@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-progressbar-simenf05
+Version: 0.0.1
+Summary: A small and easy progressbar in python.
+Project-URL: Homepage, https://github.com/simenf05/python-progressbar
+Project-URL: Bug Tracker, https://github.com/simenf05/python-progressbar/issues
+Author-email: Simen Fritsvold <sifra002@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.6
+Description-Content-Type: text/markdown
+
+# python-progressbar
