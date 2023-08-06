@@ -1,0 +1,3 @@
+[console_scripts]
+liu=liualgotrader.scripts.liu:main_cli
+
