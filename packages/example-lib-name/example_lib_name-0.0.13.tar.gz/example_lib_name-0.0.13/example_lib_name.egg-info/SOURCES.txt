@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+example_lib_name/__init__.py
+example_lib_name/_nbdev.py
+example_lib_name/module.py
+example_lib_name.egg-info/PKG-INFO
+example_lib_name.egg-info/SOURCES.txt
+example_lib_name.egg-info/dependency_links.txt
+example_lib_name.egg-info/requires.txt
+example_lib_name.egg-info/top_level.txt
