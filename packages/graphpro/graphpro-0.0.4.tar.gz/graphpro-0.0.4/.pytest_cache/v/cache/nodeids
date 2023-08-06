@@ -1,0 +1,4 @@
+[
+  "test/graphpro/graphgen_test.py::test_graph_generation_from_mdanalysis",
+  "test/graphpro/graphgen_test.py::test_graph_generation_from_mdanalysis_custom_residue"
+]
