@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+alice_host/__init__.py
+alice_host/web_api.py
+alice_host.egg-info/PKG-INFO
+alice_host.egg-info/SOURCES.txt
+alice_host.egg-info/dependency_links.txt
+alice_host.egg-info/requires.txt
+alice_host.egg-info/top_level.txt
