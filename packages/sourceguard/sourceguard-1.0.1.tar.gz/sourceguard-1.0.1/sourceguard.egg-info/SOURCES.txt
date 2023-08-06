@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sourceguard/__init__.py
+sourceguard/__main__.py
+sourceguard/banrule.py
+sourceguard/engine.py
+sourceguard/git.py
+sourceguard/main.py
+sourceguard.egg-info/PKG-INFO
+sourceguard.egg-info/SOURCES.txt
+sourceguard.egg-info/dependency_links.txt
+sourceguard.egg-info/entry_points.txt
+sourceguard.egg-info/requires.txt
+sourceguard.egg-info/top_level.txt
