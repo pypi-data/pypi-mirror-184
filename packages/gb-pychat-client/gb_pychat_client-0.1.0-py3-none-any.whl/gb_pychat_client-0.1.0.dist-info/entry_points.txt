@@ -1,0 +1,3 @@
+[console_scripts]
+client-gui=client.run_client:run
+
