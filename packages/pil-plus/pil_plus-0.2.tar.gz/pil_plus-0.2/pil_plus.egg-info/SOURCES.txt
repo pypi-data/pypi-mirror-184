@@ -1,0 +1,9 @@
+README.md
+pil_plus.py
+setup.cfg
+setup.py
+pil_plus.egg-info/PKG-INFO
+pil_plus.egg-info/SOURCES.txt
+pil_plus.egg-info/dependency_links.txt
+pil_plus.egg-info/requires.txt
+pil_plus.egg-info/top_level.txt
