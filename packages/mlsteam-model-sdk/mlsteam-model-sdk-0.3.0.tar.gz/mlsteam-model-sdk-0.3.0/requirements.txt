@@ -1,0 +1,5 @@
+bravado  # tested on 11.0.2
+click
+pythemis  # tested on 0.14.0
+
+swagger-spec-validator<3.0.0; python_version < '3.8'

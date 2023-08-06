@@ -1,0 +1,17 @@
+bravado
+click
+pythemis
+
+[:python_version < "3.8"]
+swagger-spec-validator<3.0.0
+
+[dev]
+build
+bump2version
+george-walrus
+myst-nb
+myst-parser
+pytest
+sphinx
+sphinx_rtd_theme
+twine
