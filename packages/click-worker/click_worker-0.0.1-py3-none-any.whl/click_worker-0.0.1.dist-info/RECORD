@@ -1,0 +1,8 @@
+clicker/__init__.py,sha256=JpC0qYCow7FdBtNmlBH2ZahpLvhgWaXuA3tl9dT21Uo,25
+clicker/cli.py,sha256=xiUib2Hysmfp19dCASlJgQSODQWHYeo9BjnSFRo20kU,383
+clicker/worker.py,sha256=7425uHTIP5bAp9EDKCflDm5NOmNKzA9a-LYcrWX6Bfo,440
+click_worker-0.0.1.dist-info/METADATA,sha256=ogGo9ml4E4808zv5R44ZQ6A6QcS44ZqXoOi22yTrfE0,556
+click_worker-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+click_worker-0.0.1.dist-info/entry_points.txt,sha256=Tip-TczCP3G5fnyihRmi3mb4-wY5tgGNbMmU1QiXqtQ,43
+click_worker-0.0.1.dist-info/top_level.txt,sha256=A48iishfG5fyCMAP4v6BlmF6F7-f6zyHkuGRubojf2M,8
+click_worker-0.0.1.dist-info/RECORD,,
