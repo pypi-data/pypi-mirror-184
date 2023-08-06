@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dkconverters
+Version: 0.0.1
+Summary: A package to convert between different numeral systems
+Home-page: https://github.com/pypa/sampleproject
+Author: Dev Keshwani
+Author-email: dev.keshwani345@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE

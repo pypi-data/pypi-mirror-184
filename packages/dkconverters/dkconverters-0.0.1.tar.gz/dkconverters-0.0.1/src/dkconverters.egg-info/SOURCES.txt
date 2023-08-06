@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dkconverter/__init__.py
+src/dkconverter/conv.py
+src/dkconverters.egg-info/PKG-INFO
+src/dkconverters.egg-info/SOURCES.txt
+src/dkconverters.egg-info/dependency_links.txt
+src/dkconverters.egg-info/top_level.txt
