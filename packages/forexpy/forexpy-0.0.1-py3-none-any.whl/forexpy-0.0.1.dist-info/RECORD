@@ -1,0 +1,12 @@
+forexpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forexpy/backtesting/__init__.py,sha256=YxIOWB1jc-l6D4r95M239gl7cCCgjg_sfMgOOeEYOok,212
+forexpy/backtesting/backtester.py,sha256=XWXeYUln1NII-MrtfHK0Zuieipf09A0aB643n4mnmWw,3528
+forexpy/backtesting/data_manager.py,sha256=EUeSRTWz35o0X3SLBibesiLv_utxcV-phcZiREp6WQo,1900
+forexpy/backtesting/forex_pip.py,sha256=3wMta9KjxA92za7Pd6VMcHo_ZLcyyDKfeYfO4G-PeLQ,606
+forexpy/backtesting/grapher.py,sha256=Wh4qu-7L-Yrkudgm9U3Fad4DNsizGTHPEpe2VED-q1A,1268
+forexpy/backtesting/position.py,sha256=pwORJSyMXEa55XUX_wKqbr-2oHAkenI2ThNgA7lVFsU,1895
+forexpy/backtesting/position_manager.py,sha256=pXCJLYugc-tmeoFqOf7HTC0b8aIv-Ox7ud64cD87KgU,2317
+forexpy-0.0.1.dist-info/METADATA,sha256=z7lN0Wd0kUWCYMLPCXNXqZqRVUerT_M1Cfb9y3qB7gg,598
+forexpy-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+forexpy-0.0.1.dist-info/top_level.txt,sha256=6Os1TQQIi2UCsnFAtVunc2bqmOUjAolV_7M1uTGEKpw,8
+forexpy-0.0.1.dist-info/RECORD,,
