@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+proofutils/__init__.py
+proofutils.egg-info/PKG-INFO
+proofutils.egg-info/SOURCES.txt
+proofutils.egg-info/dependency_links.txt
+proofutils.egg-info/top_level.txt
