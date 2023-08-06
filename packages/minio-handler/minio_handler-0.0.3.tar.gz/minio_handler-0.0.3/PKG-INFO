@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: minio_handler
+Version: 0.0.3
+Summary: an abstraction on top of the minio package to make basic functions easier
+Home-page: https://github.com/ReinierNel/opstools/tree/main/libraries/python3/minio_handler
+Author: Reinier Nel
+Author-email: hi@reinier.co.za
+License: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
