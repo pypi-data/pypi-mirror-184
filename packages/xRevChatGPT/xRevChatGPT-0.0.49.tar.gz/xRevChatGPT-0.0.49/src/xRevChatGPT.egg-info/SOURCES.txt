@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/xRevChatGPT/ChatGPT.py
+src/xRevChatGPT/__init__.py
+src/xRevChatGPT/__main__.py
+src/xRevChatGPT.egg-info/PKG-INFO
+src/xRevChatGPT.egg-info/SOURCES.txt
+src/xRevChatGPT.egg-info/dependency_links.txt
+src/xRevChatGPT.egg-info/entry_points.txt
+src/xRevChatGPT.egg-info/requires.txt
+src/xRevChatGPT.egg-info/top_level.txt
