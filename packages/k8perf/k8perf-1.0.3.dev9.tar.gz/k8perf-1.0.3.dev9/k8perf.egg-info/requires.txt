@@ -1,0 +1,14 @@
+typer
+kubernetes
+rich
+InquirerPy
+uplink
+PyYAML
+setuptools_scm
+matplotlib
+seaborn
+
+[dev]
+pytest>=6.2.5
+regex
+tox
