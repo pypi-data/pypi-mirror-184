@@ -1,0 +1,3 @@
+[console_scripts]
+dpn=pydpn.cli:main
+
