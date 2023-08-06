@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "pybaserepo"
+version = "0.2.2"
+description = "base repo config"
+authors = [
+    "Ivan Lamperti <ivan.lamperti.work@gmail.com>"
+]
+license = "LICENSE"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.3"
+
+[tool.poetry.group.dev.dependencies]
+tox = "~=4.2.0"
+bumpver = "^2022.1120"
+
+
+[tool.poetry.group.test.dependencies]
+check-manifest = "^0.49"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"'
+]
+
+[tool.bumpver]
+current_version = "0.2.2"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = true
