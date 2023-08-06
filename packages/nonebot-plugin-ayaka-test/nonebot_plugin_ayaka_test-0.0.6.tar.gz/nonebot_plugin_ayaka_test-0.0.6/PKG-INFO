@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-ayaka-test
+Version: 0.0.6
+Summary: ayaka_test
+Home-page: https://github.com/bridgeL/nonebot-plugin-ayaka-test
+License: MIT
+Author: Su
+Author-email: wxlxy316@163.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: nonebot2 (>=2.0.0b5,<3.0.0)
+Project-URL: Repository, https://github.com/bridgeL/nonebot-plugin-ayaka-test
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+# ayaka_test - 0.0.6
+
+</div>
+
+## 文档
+
+https://bridgel.github.io/ayaka_doc/latest/develop/test
+
