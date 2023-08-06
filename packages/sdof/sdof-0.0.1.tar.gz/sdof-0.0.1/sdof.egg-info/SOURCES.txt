@@ -1,0 +1,17 @@
+Makefile
+README.md
+alpha.c
+modal.c
+newmark.c
+sdof.py
+theory.md
+dat/elCentro.AT2
+dat/elCentro.txt
+dist/alpha.js
+dist/alpha.wasm
+sdof.egg-info/PKG-INFO
+sdof.egg-info/SOURCES.txt
+sdof.egg-info/dependency_links.txt
+sdof.egg-info/top_level.txt
+tests/chopra.sh
+wasm/index.js
