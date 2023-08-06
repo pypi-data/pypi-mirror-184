@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "game-core-integrations"
+version = "0.2.5"
+description = "The integrations library for GameCore."
+authors = ["Lamarcke <cassiolamarcksilvafreitas@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{ include = "gc_integrations" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+pydantic = "^1.10.3"
+python-dotenv = "^0.21.0"
+howlongtobeatpy = "^1.0.5"
+aiohttp = "^3.8.3"
+httpx = "^0.23.3"
+
+[tool.poetry.dev-dependencies]
+black = "^22.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
