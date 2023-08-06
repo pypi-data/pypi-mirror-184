@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+dbutil/__init__.py
+dbutil/dbutils.py
+dbutilstest2.egg-info/PKG-INFO
+dbutilstest2.egg-info/SOURCES.txt
+dbutilstest2.egg-info/dependency_links.txt
+dbutilstest2.egg-info/entry_points.txt
+dbutilstest2.egg-info/not-zip-safe
+dbutilstest2.egg-info/requires.txt
+dbutilstest2.egg-info/top_level.txt
