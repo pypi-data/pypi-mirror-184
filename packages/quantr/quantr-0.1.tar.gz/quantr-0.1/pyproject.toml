@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantr"
+version = "0.1"
+authors = [
+  { name="Chloe Papp", email="adorapapp@gmail.com" },
+]
+description = "A simple quantum computer simulator."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+	"Development Status :: 4 - Beta",
+	"Intended Audience :: Science/Research",
+	"Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = ['numpy>=1.22.3']
+[project.urls]
+"Homepage" = "https://github.com/ChloeForSure/quantr"
+"Bug Tracker" = "https://github.com/ChloeForSure/quantr/issues"
