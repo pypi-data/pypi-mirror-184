@@ -1,0 +1,2 @@
+pymysql>=0.10.0
+openpyxl>=3.0.5

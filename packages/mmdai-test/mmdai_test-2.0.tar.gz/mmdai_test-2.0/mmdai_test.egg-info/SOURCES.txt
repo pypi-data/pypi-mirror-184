@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mmdai_test/__init__.py
+mmdai_test/print_str.py
+mmdai_test.egg-info/PKG-INFO
+mmdai_test.egg-info/SOURCES.txt
+mmdai_test.egg-info/dependency_links.txt
+mmdai_test.egg-info/requires.txt
+mmdai_test.egg-info/top_level.txt
