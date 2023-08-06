@@ -1,0 +1,17 @@
+defit/AdjustModel_func.py,sha256=EU7jUGoPUDU2SymE7QE1xxRO4eUU_-m21gV6gnv2PuE,1208
+defit/CalcDe_func.py,sha256=T2IkFY02XqdhXaJjPx2v4R17mJdJblQ-ixqOY7mMDuk,726
+defit/IntiOption_func.py,sha256=DhnPH4EPz1id8J1uDUYWyxKiy-id4NYK_p5nuH4Fh8I,1479
+defit/JudgeModel_func.py,sha256=LwxHD6UNOxbw_EU9UXJSvEsXP6sqQSuwKU445uYemBA,960
+defit/PlotDe_func.py,sha256=IW8OeUA0xDzdhA19J98EqtcRFWGp9vD0pSp03Ppw4gE,615
+defit/Slover_BiFirst_func.py,sha256=u3Ng5a5qvuNk-WyVUgEeD_xBnD78a0tHbisGurbltIM,7319
+defit/Slover_UniSec_func.py,sha256=8knomI3-MAibmIM_Hcb3N060VLZjVQIiaE_bKuoYpwg,5890
+defit/__about__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+defit/__init__.py,sha256=R6MENlrVQo3fBRVwVaBxzgUryp3tVV5P9PxBk0SsY7k,724
+defit/defit.py,sha256=uMEjNWRPCdAAiUoxpw65o6893MQSbWdkgNNfuEgkQPM,3405
+tests/__init__.py,sha256=M7t48vVydZPYmlTAdKDi2xR_PnN7NM62ebflIfqAFt4,103
+tests/test_defit.py,sha256=eBJAlQczPl3xXa47DnJvyc2ASknmVqzD8aYIFjNWi8g,1006
+deFit-0.1.0.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+deFit-0.1.0.dist-info/METADATA,sha256=nyxoHbggSAHWKLdA5ZYJQCrXbe9Bw_A1BsiaynGdSZ4,2507
+deFit-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+deFit-0.1.0.dist-info/top_level.txt,sha256=tbXqVUy3d_oc-BQSFF0OzHJ_Dnr_cxPvRe7Hpl2po5M,12
+deFit-0.1.0.dist-info/RECORD,,
