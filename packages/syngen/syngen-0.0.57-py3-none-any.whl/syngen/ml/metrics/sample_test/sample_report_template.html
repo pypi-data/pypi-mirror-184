@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Report</title>
+</head>
+<body>
+<h1>Sampling quality report</h1>
+<div>
+    <h2>Univariate distributions</h2>
+    <p>Here "Synthetic" means "Sampled"</p>
+    {% for title, uni_img in uni_imgs.items() -%}
+    <div>
+        <h3>{{title}}</h3>
+        <img src="{{uni_img}}">
+    </div>
+    {% endfor %}
+</div>
+</body>
+</html>
