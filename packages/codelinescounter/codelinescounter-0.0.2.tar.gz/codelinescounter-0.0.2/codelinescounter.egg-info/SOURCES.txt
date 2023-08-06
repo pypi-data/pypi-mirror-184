@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+clc/__init__.py
+clc/__main__.py
+codelinescounter.egg-info/PKG-INFO
+codelinescounter.egg-info/SOURCES.txt
+codelinescounter.egg-info/dependency_links.txt
+codelinescounter.egg-info/requires.txt
+codelinescounter.egg-info/top_level.txt
