@@ -1,0 +1,7 @@
+quickdna/__init__.py,sha256=eqimKxVfV0hQ450aYM16rSUiol1XdHWhO--wp75FkJQ,6384
+quickdna/.gitignore,sha256=hb4XJYR9dELcPt93wdvgfiU74uDvErV0lg_e6gMdALI,4
+quickdna/quickdna.cpython-38-x86_64-linux-gnu.so,sha256=ZQInvQALgNhJ_X2hoqk7odILlKnnTW7WjE4L86gxurY,4466624
+quickdna/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickdna-0.5.0.dist-info/RECORD,,
+quickdna-0.5.0.dist-info/METADATA,sha256=e0xvx59NhHb8fwv0ony41pVLmG53my_2jY3mYR1rps8,5977
+quickdna-0.5.0.dist-info/WHEEL,sha256=LtEQHSYBVhetkm341MTRdG8AL1Y_Gj4XNT3Se4r7pOU,202
