@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: caseMFiX
+Version: 0.0.1.1
+Summary: Create and manipulate MFiX-DEM cases
+Home-page: https://github.com/thesystempostech/thesystempostech_CFD
+Author: Ungjin Na
+Author-email: jinny942@postech.ac.kr
+License: GPLv3
+Project-URL: Issue Tracker, https://github.com/thesystempostech/thesystempostech_CFD
+Keywords: cfd,MFiX-DEM,postProcessing
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+
+Hi!
+
+Good day!
