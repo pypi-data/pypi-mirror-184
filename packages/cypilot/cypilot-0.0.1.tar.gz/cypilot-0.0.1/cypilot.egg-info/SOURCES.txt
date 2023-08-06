@@ -1,0 +1,5 @@
+setup.py
+cypilot.egg-info/PKG-INFO
+cypilot.egg-info/SOURCES.txt
+cypilot.egg-info/dependency_links.txt
+cypilot.egg-info/top_level.txt
