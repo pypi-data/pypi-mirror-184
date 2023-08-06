@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: search-lyrics
+Version: 0.0.1
+Summary: Search for lyric
+License: MIT
+Author-email: Xavier Mitault <xavier.mitault@epitech.eu>
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# search-lyrics
