@@ -1,0 +1,18 @@
+[project]
+name = "homedashview"
+version = "0.0.1"
+authors = [
+  { name="RoBiApps007 (Robert Binder)", email="robert.rothschaedl@hotmail.com" },
+]
+description = "First project to create a dashboard of available smarthome devices"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License (GPL)",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

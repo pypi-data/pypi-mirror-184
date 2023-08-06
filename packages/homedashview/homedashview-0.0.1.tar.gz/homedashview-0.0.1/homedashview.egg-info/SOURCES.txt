@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+homedashview.egg-info/PKG-INFO
+homedashview.egg-info/SOURCES.txt
+homedashview.egg-info/dependency_links.txt
+homedashview.egg-info/top_level.txt
+tests/__init__.py
