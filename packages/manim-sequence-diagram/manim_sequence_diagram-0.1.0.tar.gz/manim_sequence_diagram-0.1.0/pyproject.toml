@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "manim-sequence-diagram"
+version = "0.1.0"
+description = "Manim extension to generate UML sequence diagrams"
+authors = ["Thomas Chen <tom.chen@sony.com>"]
+readme = "README.md"
+packages = [{include = "manim_sequence_diagram", from = "src"}]
+repository = "https://github.com/foxnewsnetwork/manim-sequence-diagram"
+documentation="https://github.com/foxnewsnetwork/manim-sequence-diagram"
+classifiers= [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Multimedia :: Graphics",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+	  "Programming Language :: Python :: 3.9",
+    "Natural Language :: English",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+manim = ">=0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pylint = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."manim.plugins"]
+"manim_sequence_diagram" = "manim_sequence_diagram"
