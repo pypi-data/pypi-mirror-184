@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: btrsync
+Version: 0.1
+Summary: Replicate btrfs subvolumes, handling Copy-on-Write (COW) relationships and incremental transfers automatically.
+Home-page: https://github.com/andreittr/btrsync
+Author: Andrei Tatar
+Author-email: andrei.ttr@gmail.com
+License: GPL-3.0-or-later
+Project-URL: Home-page, https://github.com/andreittr/btrsync
+Project-URL: Documentation, https://btrsync.readthedocs.io
+Project-URL: Issue-tracker, https://github.com/andreittr/btrsync/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Archiving :: Mirroring
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
