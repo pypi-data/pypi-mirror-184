@@ -1,0 +1,15 @@
+LICENSE
+README.md
+django_xss_protector.egg-info/PKG-INFO
+django_xss_protector.egg-info/SOURCES.txt
+django_xss_protector.egg-info/dependency_links.txt
+django_xss_protector.egg-info/top_level.txt
+src/__init__.py
+src/setup.py
+src/xss_protector/__init__.py
+src/xss_protector/decorator/__init__.py
+src/xss_protector/decorator/xss_protector.py
+src/xss_protector/utils/__init__.py
+src/xss_protector/utils/exclude_fields.py
+src/xss_protector/utils/filter_fields.py
+src/xss_protector/utils/silent_delete_from_dictionary.py
