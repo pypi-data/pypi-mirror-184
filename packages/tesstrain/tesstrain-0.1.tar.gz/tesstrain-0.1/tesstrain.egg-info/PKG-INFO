@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: tesstrain
+Version: 0.1
+Summary: Training utils for Tesseract
+Home-page: https://github.com/tesseract-ocr/tesstrain
+Author: Tesseract contributors
+License: Apache Software License 2.0
+Keywords: Tesseract,tesseract-ocr,OCR,optical character recognition
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# tesstrain.py
+
+Utilities for working with Tesseract >= 4 using artificial training data.
+
+## Install
+
+This package requires the Tesseract training tools to be available on your system.
+
+To install the PIP package, either use `pip install tesstrain` (for existing packages) or `pip install .` (from source checkout).
+A supported Python version (at least 3.7) is required for running.
+
+## Running
+
+* Use the terminal interface to directly interact with the tools: `python -m tesstrain --help`.
+* Call it from your own code using the high-level interface `tesstrain.run()`.
+
+## License
+
+Software is provided under the terms of the `Apache 2.0` license.
+
+Sample training data provided by [Deutsches Textarchiv](https://deutschestextarchiv.de) is [in the public domain](http://creativecommons.org/publicdomain/mark/1.0/).
+
+
