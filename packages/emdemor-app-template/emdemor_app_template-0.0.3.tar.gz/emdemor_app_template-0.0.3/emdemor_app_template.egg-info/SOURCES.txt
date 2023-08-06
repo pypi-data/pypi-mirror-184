@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+emdemor_app_template/__init__.py
+emdemor_app_template/__main__.py
+emdemor_app_template/_version.py
+emdemor_app_template/utils.py
+emdemor_app_template.egg-info/PKG-INFO
+emdemor_app_template.egg-info/SOURCES.txt
+emdemor_app_template.egg-info/dependency_links.txt
+emdemor_app_template.egg-info/entry_points.txt
+emdemor_app_template.egg-info/requires.txt
+emdemor_app_template.egg-info/top_level.txt
+emdemor_app_template/mymodule/__init__.py
+emdemor_app_template/mymodule/hello.py
