@@ -1,0 +1,8 @@
+numpy<2,>=1.21.6
+
+[example]
+scikit-learn
+matplotlib
+
+[scikit-learn]
+scikit-learn
