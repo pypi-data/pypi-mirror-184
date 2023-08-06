@@ -1,0 +1,2 @@
+[console_scripts]
+hledger-edit = hledger_utils.commands.edit:cli
