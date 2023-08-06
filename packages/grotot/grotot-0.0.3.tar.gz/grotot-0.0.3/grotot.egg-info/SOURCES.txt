@@ -1,0 +1,11 @@
+README.md
+setup.py
+grotot/__init__.py
+grotot/grotot.py
+grotot.egg-info/PKG-INFO
+grotot.egg-info/SOURCES.txt
+grotot.egg-info/dependency_links.txt
+grotot.egg-info/requires.txt
+grotot.egg-info/top_level.txt
+grotot/fns/__init__.py
+grotot/fns/math_funcs.py
