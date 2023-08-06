@@ -1,0 +1,6 @@
+include src/test23/tests/robot/src/managepom/property/pom.xml
+include src/test23/tests/robot/src/managepom/property/pom_module_map.xml
+include src/test23/tests/robot/src/managepom/property/pom_map_dict.txt
+include src/test23/pytest.ini
+include src/test23/tests/robot/desktop.ini
+include src/test23/requirements
