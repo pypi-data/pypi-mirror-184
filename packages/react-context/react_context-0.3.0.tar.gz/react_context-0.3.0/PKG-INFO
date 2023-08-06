@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: react_context
+Version: 0.3.0
+Summary: An API to pass data in the sub-function inspired by React Context
+Home-page: https://github.com/alessandro308/react_context
+Author: Alessandro Pagiaro
+Author-email: alessandropagiaro@gmail.com
+License: MIT
+License-File: LICENSE
