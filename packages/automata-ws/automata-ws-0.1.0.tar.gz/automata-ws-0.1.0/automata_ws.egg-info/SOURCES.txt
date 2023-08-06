@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+automata/__init__.py
+automata/automata.py
+automata/utils/__init__.py
+automata/utils/errors.py
+automata/utils/payloads.py
+automata_ws.egg-info/PKG-INFO
+automata_ws.egg-info/SOURCES.txt
+automata_ws.egg-info/dependency_links.txt
+automata_ws.egg-info/requires.txt
+automata_ws.egg-info/top_level.txt
+test/test_invalid_automata_setup.py
+test/test_invalid_runtime.py
+test/test_valid_automata_setup.py
+test/test_valid_runtime.py
