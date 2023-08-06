@@ -1,0 +1,11 @@
+[
+  "tests/test_account.py::test_changes_writes_to_uri",
+  "tests/test_account.py::test_get_accounts",
+  "tests/test_account.py::test_get_accounts_writes_to_uri",
+  "tests/test_account.py::test_get_changes",
+  "tests/test_account.py::test_get_changes_writes_to_uri",
+  "tests/test_account.py::test_get_instruments",
+  "tests/test_account.py::test_get_instruments_writes_to_uri",
+  "tests/test_account.py::test_get_summary",
+  "tests/test_account.py::test_get_summary_writes_to_uri"
+]
