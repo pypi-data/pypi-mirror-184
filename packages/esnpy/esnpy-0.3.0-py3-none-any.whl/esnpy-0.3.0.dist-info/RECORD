@@ -1,0 +1,12 @@
+esnpy/__init__.py,sha256=vO2TZOARK8pjH9CCM0IXmd0faPTxUXcVTGEd4bC9ezg,325
+esnpy/esn.py,sha256=JZkLxmVD3vHaD0FhUaBeUHJtGdqjbGzdf7L0ck5xOM4,2728
+esnpy/init.py,sha256=GiHgW5wT0wAu6I81WKrC9OJbmFdSk91K3f2XcCLVhYM,2118
+esnpy/reservoir.py,sha256=3yrHa66rTS4p9-7r-Jk9DkrazBdN5ntcuS9TejYJkvU,2111
+esnpy/train.py,sha256=Xj--NB3EGAW1tDkVyrHcHNrUZw8YPEak-3MSkq_8CTI,1304
+esnpy/tune.py,sha256=REo31a5UEczCNSJFaA9tmYCaZp-YUWP7G9xHn4Qb5f4,747
+esnpy/type.py,sha256=CeJwqR7MEdVulyN9tyvtCix-tBc4LThduhg_LYFwjiY,164
+esnpy-0.3.0.dist-info/LICENSE,sha256=KlDVuF33mgrYRGcLHJP7u_otJD4jEJqwTDsnOVDvoyk,1068
+esnpy-0.3.0.dist-info/METADATA,sha256=aXeUUGhrEFRCy2iYWjNGWINasFnCfFQOsaSnD0Rw-eM,7848
+esnpy-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+esnpy-0.3.0.dist-info/top_level.txt,sha256=y2q3zglrh5AXh0EBdSoakTLLCOK1Gu7_kjOXcF5gyOU,6
+esnpy-0.3.0.dist-info/RECORD,,
