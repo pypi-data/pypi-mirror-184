@@ -1,0 +1,3 @@
+[console_scripts]
+fritzbox-tray=fritzbox_tray.__main__:main
+
