@@ -1,0 +1,10 @@
+django_single_table_db_storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_single_table_db_storage/models.py,sha256=TYNFFWFMN5pmOq1WGSYyn8SjLNTVz1gSO0pvdseveHA,700
+django_single_table_db_storage/storage.py,sha256=zG89VBKoY8lbAjeeHv7wu9XGuVpKRLMd7OcR0sZ2mmA,2055
+django_single_table_db_storage/urls.py,sha256=U97VggQpP3Wv1gcnmQj8E3AvZsXHJaBiMiRXGJtQ3PA,165
+django_single_table_db_storage/views.py,sha256=6Ym2TQzozZkNJDN9e0cxgAbfRVxexgRWBDfB21moaqI,640
+django_single_table_db_storage-0.1.1.dist-info/LICENSE.md,sha256=15xEgovKLiEdkUMApXARmr_9s5FVEf89x93-rnK6n2A,1065
+django_single_table_db_storage-0.1.1.dist-info/METADATA,sha256=GE_CBTA0ebDzbzLVFmcaZnL-eR4ZYdCgwg6uMnPIzvQ,3281
+django_single_table_db_storage-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_single_table_db_storage-0.1.1.dist-info/top_level.txt,sha256=v4C2jo-246ehPT4JU3hqZ0meD-QOjsOYqSJqFtqJFEo,31
+django_single_table_db_storage-0.1.1.dist-info/RECORD,,
