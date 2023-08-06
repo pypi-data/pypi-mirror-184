@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: quantr
+Version: 0.1
+Summary: A simple quantum computer simulator.
+Author-email: Chloe Papp <adorapapp@gmail.com>
+Project-URL: Homepage, https://github.com/ChloeForSure/quantr
+Project-URL: Bug Tracker, https://github.com/ChloeForSure/quantr/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.22.3)
+
+# Quantr
+
+A simple quantum computer simulator.
