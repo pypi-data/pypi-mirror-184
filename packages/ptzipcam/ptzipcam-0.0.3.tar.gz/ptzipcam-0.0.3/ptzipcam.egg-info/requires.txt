@@ -1,0 +1,7 @@
+numpy==1.18.3
+pyyaml
+opencv-python==3.4.2.16
+onvif-zeep
+screeninfo
+imutils
+camml
