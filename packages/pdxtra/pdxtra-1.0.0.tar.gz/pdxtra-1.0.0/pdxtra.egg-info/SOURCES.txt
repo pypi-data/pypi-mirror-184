@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+pdxtra.py
+setup.py
+pdxtra.egg-info/PKG-INFO
+pdxtra.egg-info/SOURCES.txt
+pdxtra.egg-info/dependency_links.txt
+pdxtra.egg-info/requires.txt
+pdxtra.egg-info/top_level.txt
