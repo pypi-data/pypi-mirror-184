@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: mypygls
+Version: 0.0.1
+Summary: Mypy turned into LSP.
+Author-email: gjeusel <gjeusel@gmail.com>
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Requires-Python: >=3.10
+Requires-Dist: mypy[dmypy]
+Requires-Dist: pygls>=1.0.0a3
+Provides-Extra: all
+Requires-Dist: mypygls[dev]; extra == 'all'
+Requires-Dist: mypygls[doc]; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black==22.10.*; extra == 'dev'
+Requires-Dist: cookiecutter; extra == 'dev'
+Requires-Dist: coverage[toml]<7.0,>=6.5.0; extra == 'dev'
+Requires-Dist: cruft; extra == 'dev'
+Requires-Dist: pdbpp; extra == 'dev'
+Requires-Dist: pre-commit==2.20.*; extra == 'dev'
+Requires-Dist: ptpython; extra == 'dev'
+Requires-Dist: pytest-mock==3.10.*; extra == 'dev'
+Requires-Dist: pytest-sugar==0.9.*; extra == 'dev'
+Requires-Dist: pytest==7.1.*; extra == 'dev'
+Requires-Dist: rich; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: markdown-include; extra == 'doc'
+Requires-Dist: mdx-truly-sane-lists; extra == 'doc'
+Requires-Dist: mkdocs; extra == 'doc'
+Requires-Dist: mkdocs-exclude; extra == 'doc'
+Requires-Dist: mkdocs-material; extra == 'doc'
+Requires-Dist: mkdocstrings[python]; extra == 'doc'
+Description-Content-Type: text/markdown
+
+<h1> mypygls </h1>
+
+<p align="center">
+  <a href="https://github.com/gjeusel/mypygls/actions?query=workflow%3ACI+branch%3Amain">
+      <img src="https://github.com/gjeusel/mypygls/workflows//CI/badge.svg?event=push&branch=main" alt="Test Suite" onerror="this.style.display='none'">
+  </a>
+  <a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/gjeusel/mypygls" alt="Test Coverage" onerror="this.style.display='none'">
+      <img src="https://coverage-badge.samuelcolvin.workers.dev/gjeusel/mypygls.svg" alt="Coverage">
+  </a>
+  <a href="https://pypi.org/project/mypygls/">
+      <img src="https://badge.fury.io/py/mypygls.svg" alt="Package version" onerror="this.style.display='none'">
+  </a>
+  <a href="https://gjeusel.github.io/mypygls/">
+    <img src="https://img.shields.io/badge/mkdocs-pages-brightgreen" alt="MKDocs github page">
+  </a>
+  <a href="https://github.com/pre-commit/pre-commit">
+      <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white" alt="pre-commit">
+  </a>
+</p>
+
+<p align="center">
+  <em>Mypy turned into LSP.</em>
+</p>
+
+---
+
+## Installation
+
+```bash
+pip install mypygls
+```
+
+### Developper
+
+##### Install
+
+```bash
+make install
+```
+
+##### Launch tests:
+
+```bash
+pytest
+```
+
+##### Write docs:
+
+```bash
+mkdocs serve --watch .
+```
+
+### Update Cookiecutter Template
+
+```bash
+cruft update --skip-apply-ask --allow-untracked-files --project-dir .
+```

@@ -1,0 +1,10 @@
+mypygls/__init__.py,sha256=8_IUnlMUwQMbxHqyZZEplvrIQlYhbROvSsHF3f-IWTk,111
+mypygls/__main__.py,sha256=_sNygrJpI68TSVkwqiQRw9zT3o_0YCWklU8mggeq7fU,355
+mypygls/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypygls/server.py,sha256=_cuc3aRpICJuZEemX8qCaK2o4jAU0lFQkSElpSsKn3g,12285
+mypygls/timer.py,sha256=Y2xlTLWrKe2kNPc48dMwPi2G9Su9CdxKfHmZIGtpvsg,581
+mypygls-0.0.1.dist-info/METADATA,sha256=iUX_jbkPU4Ou5mqE_XihTQxADhJ2AT-QEOEF5_j8r9s,2982
+mypygls-0.0.1.dist-info/WHEEL,sha256=hKi7AIIx6qfnsRbr087vpeJnrVUuDokDHZacPPMW7-Y,87
+mypygls-0.0.1.dist-info/entry_points.txt,sha256=A4GSNwTN8WNU4lUxCC5Fs24EspX-OazaOhMeEV9TDDc,50
+mypygls-0.0.1.dist-info/licenses/LICENSE,sha256=IPSkng4Uwjzgh_HnVrb954Y-Ab_x1tqVFFtzpCjf3n0,1097
+mypygls-0.0.1.dist-info/RECORD,,
