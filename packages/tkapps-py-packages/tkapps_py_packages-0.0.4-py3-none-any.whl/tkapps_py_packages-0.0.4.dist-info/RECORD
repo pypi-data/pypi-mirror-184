@@ -1,0 +1,17 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkaws/__init__.py,sha256=pAKKazB5EN9OGGi9SG-OOde5hQj0YqcwrIbr38p-V-M,142
+tkaws/tkdynamodb.py,sha256=_CY8zcrg9U5JPx_DbMc4pYRlAg1V1tYXBURGVRMwYWE,4849
+tkaws/tklambda.py,sha256=_zZ9HIoyIJZgu9bkvY-oA-r2Vp1K0nCn6TEklARc2Bo,1591
+tkaws/tks3.py,sha256=3YSEy8knYwN4iaFO-D_V7ZATMi-zggXyJ-Mtf4G-coQ,2784
+tkaws/tkses.py,sha256=DbWBRsk6mwv5GubzoGdmeSeWlwEDQbyRMTEpWjLiCXw,2392
+tkaws/tksns.py,sha256=1dW7K7t03007C3Li5914d92GPMHYsLHpK2aBopDHO48,1097
+tkemail/__init__.py,sha256=NVTlFS3tsJU4BkQsfPN3D99fHLEVjhpjJJuEEuzuBaI,31
+tkemail/tkemail.py,sha256=GjbdwLnrPhz0wVGne4BXK3OhLvlmqVeqclc3PYHUOTE,3439
+tkteams/__init__.py,sha256=G-iDT28RBleT3jiUiZmkFZRusqr20z_FsVq6sFylpv0,56
+tkteams/message.py,sha256=YHyTuhgmNhlbFrJzCtO2EAMzLJCgXHc2TQ2ktKk2IVo,6264
+tkteams/teams.py,sha256=wh24AAOa6bv2CQS0TeEdStgqmE9h_Pj1P8mZwOJKyIg,2210
+tkapps_py_packages-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+tkapps_py_packages-0.0.4.dist-info/METADATA,sha256=GxYRleqUCveJkOfOy2ZGnGWqjaliHGP_3WdGVuOm6Sk,818
+tkapps_py_packages-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tkapps_py_packages-0.0.4.dist-info/top_level.txt,sha256=Ly_kbgsVl58VwK81vbW_vsoN2n2oUdtkYkvDmeAnL1o,31
+tkapps_py_packages-0.0.4.dist-info/RECORD,,
