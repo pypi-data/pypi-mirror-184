@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LISCENCE.txt
+MANIFEST.in
+README.md
+client.py
+server.py
+setup.py
+CypherIt/__init__.py
+CypherIt.egg-info/PKG-INFO
+CypherIt.egg-info/SOURCES.txt
+CypherIt.egg-info/dependency_links.txt
+CypherIt.egg-info/top_level.txt
