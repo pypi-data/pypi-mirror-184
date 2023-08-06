@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/KriouachPackage/KriouachForm.py
+src/KriouachPackage/__init__.py
+src/THEG.O.A.TLegacy10.egg-info/PKG-INFO
+src/THEG.O.A.TLegacy10.egg-info/SOURCES.txt
+src/THEG.O.A.TLegacy10.egg-info/dependency_links.txt
+src/THEG.O.A.TLegacy10.egg-info/top_level.txt
