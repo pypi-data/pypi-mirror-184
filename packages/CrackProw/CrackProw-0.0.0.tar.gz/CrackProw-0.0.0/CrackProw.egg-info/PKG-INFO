@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: CrackProw
+Version: 0.0.0
+Summary: PythonTutorial
+Author: Developer Gautam
+Author-email: developergautam07@gmail.com
+Keywords: python,tutorial,area of figs,area,developergautam
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package to find area of different figures

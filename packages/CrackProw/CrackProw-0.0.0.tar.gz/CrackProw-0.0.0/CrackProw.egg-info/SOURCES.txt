@@ -1,0 +1,5 @@
+setup.py
+CrackProw.egg-info/PKG-INFO
+CrackProw.egg-info/SOURCES.txt
+CrackProw.egg-info/dependency_links.txt
+CrackProw.egg-info/top_level.txt
