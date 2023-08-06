@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: ftdiapp
+Version: 0.0.2
+Summary: use ftdi for spi control
+Home-page: https://github.com/xxxxxxxxxxxxxxx
+Author: XieDing
+Author-email: xdhum@126.com
+License: Modified BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyftdi
+
+*****************************************************************************
+******** this is module based on ftdi to control spi              ***********
+******** command to packaging:  python setup.py sdist bdist_wheel ***********
+*****************************************************************************
+
+Release History:
+
+---------------------------------------------------------------
+Release Date: 2021-08-16
+Release Note:
+1. Fix bug for flash device realization
+2. update spigpio return value from string to tuple
+---------------------------------------------------------------
