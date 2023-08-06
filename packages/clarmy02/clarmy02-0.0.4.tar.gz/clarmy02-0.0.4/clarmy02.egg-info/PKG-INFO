@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: clarmy02
+Version: 0.0.4
+Summary: example
+Home-page: https://github.com/Clarmy/clarmy02
+Author: Wentao Li
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# clarmy02
+clarmy02
+
+[![download](https://anaconda.org/clarmy/clarmy02/badges/downloads.svg)](https://anaconda.org/Clarmy/clarmy02/files)
+
+如何开发一个开源的 Python 扩展包
+
+## 基本步骤
+
+1. 本地功能调通
+2. 添加测试用例
+```bash
+$ pytest ./tests/
+```
+
+3. 测试本地安装成功
+```bash
+$ python setup.py install && python -c "import clarmy02"
+```
+
+4. 构建、上传到 pypi.org
+```
+$ rm -rf ./dist
+$ python setup.py sdist
+$ twine upload dist/*
+```
+5. 测试用 pip 从 pypi.org 安装自己的包
+```bash
+$ pip install -i https://pypi.org/simple/ clarmy02==0.0.1
+```
+
+6. 构建、上传到 anaconda.org
+编写 meta.yaml，定义元信息。
+```bash
+$ conda build .
+$ anaconda upload <path>
+```
+
+## 高阶技巧
+https://pyopensourcepkgdevguide.readthedocs.io/zh_CN/latest/index.html

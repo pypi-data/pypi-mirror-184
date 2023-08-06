@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+clarmy02/__init__.py
+clarmy02.egg-info/PKG-INFO
+clarmy02.egg-info/SOURCES.txt
+clarmy02.egg-info/dependency_links.txt
+clarmy02.egg-info/requires.txt
+clarmy02.egg-info/top_level.txt
