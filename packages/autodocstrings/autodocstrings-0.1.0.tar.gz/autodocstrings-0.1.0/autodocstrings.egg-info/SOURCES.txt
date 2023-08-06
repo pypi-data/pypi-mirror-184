@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+autodocstrings/__init__.py
+autodocstrings/main.py
+autodocstrings.egg-info/PKG-INFO
+autodocstrings.egg-info/SOURCES.txt
+autodocstrings.egg-info/dependency_links.txt
+autodocstrings.egg-info/entry_points.txt
+autodocstrings.egg-info/requires.txt
+autodocstrings.egg-info/top_level.txt
