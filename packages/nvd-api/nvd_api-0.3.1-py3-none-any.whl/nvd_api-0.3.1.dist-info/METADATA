@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: nvd-api
+Version: 0.3.1
+Summary: NVD API 2.0 Python API
+Author: kannkyo
+Author-email: 15080890+kannkyo@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: certifi (>=2022.12.7,<2023.0.0)
+Requires-Dist: frozendict (>=2.3.4,<3.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Requires-Dist: setuptools (>=65.6.3,<66.0.0)
+Requires-Dist: typing-extensions (>=4.4.0,<5.0.0)
+Requires-Dist: urllib3 (>=1.26.13,<2.0.0)
+Description-Content-Type: text/x-rst
+
+=================
+nvd-api
+=================
+
+NVD API 2.0 client
+
