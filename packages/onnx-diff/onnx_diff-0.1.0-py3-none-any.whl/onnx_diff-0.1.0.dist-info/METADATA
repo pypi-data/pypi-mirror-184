@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: onnx-diff
+Version: 0.1.0
+Summary: 
+Author: magnus
+Author-email: contact@magnus.co.uk
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GraKeL (>=0.1.9,<0.2.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Requires-Dist: onnx (>=1.13.0,<2.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
