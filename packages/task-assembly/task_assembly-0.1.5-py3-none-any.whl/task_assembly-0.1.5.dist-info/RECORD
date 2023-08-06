@@ -1,0 +1,8 @@
+task_assembly/__init__.py,sha256=kNDgg5XZs9U6B2NAQm503Q_1y_yiwRyIlf28rYJEf_4,15758
+task_assembly/__main__.py,sha256=q6SvQ6RyMcydH46838OLWYn_kyuokMmLKxiqaDXgKt8,12725
+task_assembly/handlers.py,sha256=FkBBRoAVBvx7zmLjIk5PI-l6c0NB-PJPlVUg0DHwvOA,1341
+task_assembly-0.1.5.dist-info/entry_points.txt,sha256=VhGrnT-yghG_qKEvdrHvmT91Pg15pNHmqVx9sH40smo,57
+task_assembly-0.1.5.dist-info/LICENSE,sha256=YN-3pDaMuQ22TDX2yUanmonp9fKIxz4h-GT216ik8Ds,1091
+task_assembly-0.1.5.dist-info/METADATA,sha256=Ml8DN744-aESf0irdZJkyI5x211WOi9uaTWs86DA70s,761
+task_assembly-0.1.5.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+task_assembly-0.1.5.dist-info/RECORD,,
