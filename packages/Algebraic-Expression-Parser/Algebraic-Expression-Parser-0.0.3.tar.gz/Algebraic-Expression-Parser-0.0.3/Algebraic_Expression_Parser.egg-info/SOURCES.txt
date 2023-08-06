@@ -1,0 +1,13 @@
+README.md
+setup.py
+AlgebraicExpressionParser/__init__.py
+AlgebraicExpressionParser/exceptions/__init__.py
+AlgebraicExpressionParser/exceptions/exceptions.py
+AlgebraicExpressionParser/parser/__init__.py
+AlgebraicExpressionParser/parser/node.py
+AlgebraicExpressionParser/parser/operators.py
+AlgebraicExpressionParser/parser/parser.py
+Algebraic_Expression_Parser.egg-info/PKG-INFO
+Algebraic_Expression_Parser.egg-info/SOURCES.txt
+Algebraic_Expression_Parser.egg-info/dependency_links.txt
+Algebraic_Expression_Parser.egg-info/top_level.txt
