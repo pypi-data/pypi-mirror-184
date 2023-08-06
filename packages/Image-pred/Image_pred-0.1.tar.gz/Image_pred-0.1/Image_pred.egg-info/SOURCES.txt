@@ -1,0 +1,7 @@
+LICENCE.txt
+setup.py
+Image_pred/__init__.py
+Image_pred.egg-info/PKG-INFO
+Image_pred.egg-info/SOURCES.txt
+Image_pred.egg-info/dependency_links.txt
+Image_pred.egg-info/top_level.txt

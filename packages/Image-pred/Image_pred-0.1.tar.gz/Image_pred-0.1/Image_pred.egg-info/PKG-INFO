@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Image-pred
+Version: 0.1
+Summary: An demonstration of how to create, document, and publish to the cheese shop a5 pypi.org.
+Home-page: UNKNOWN
+Author: AG
+License: UNKNOWN
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENCE.txt
+
+UNKNOWN
+
