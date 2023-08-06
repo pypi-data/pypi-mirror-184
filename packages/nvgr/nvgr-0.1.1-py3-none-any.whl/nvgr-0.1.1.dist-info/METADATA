@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nvgr
+Version: 0.1.1
+Summary: Navigare - Nautical calculations
+License: GPL-3.0-or-later
+Author-email: Cees van de Griend <cees@griend.eu>
+Requires-Python: >=3.9
+Requires-Dist: pylint>=2.15.9
+Description-Content-Type: text/markdown
+
+# nvgr
+
+Navigare - Nautical calculations
+
