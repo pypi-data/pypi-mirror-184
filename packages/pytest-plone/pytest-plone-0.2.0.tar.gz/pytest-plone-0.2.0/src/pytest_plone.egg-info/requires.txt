@@ -1,0 +1,6 @@
+Plone
+setuptools
+gocept.pytestlayer
+plone.app.testing
+plone.app.robotframework
+pytest
