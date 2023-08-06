@@ -1,0 +1,12 @@
+xlrd
+openpyxl
+requests
+beautifulsoup4
+Pillow
+python-dateutil
+cssutils
+webcolors
+currency-symbols
+chardet
+fonttools
+PyYAML
