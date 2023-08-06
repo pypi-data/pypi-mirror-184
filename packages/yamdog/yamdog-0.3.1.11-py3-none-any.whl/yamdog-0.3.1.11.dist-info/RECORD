@@ -1,0 +1,9 @@
+yamdog/API.py,sha256=PEv_13-f0Hf0QgGqq1S4UhaWNK2OLVBU2ORn1ru50tI,37910
+yamdog/__init__.py,sha256=WEtEa7XKoyY_drS_NXc1fjYtz6aWpGpYfaYWz3c_dKY,41
+yamdog/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yamdog/dataclass_validate.py,sha256=98-3PPjS4-hznJ6oaE-B04vD8Lb4vfw8c1MxhlH2kxY,3775
+yamdog-0.3.1.11.dist-info/LICENSE.txt,sha256=zlPot2enMd2gmjJrDG4LH43w3jrgHhpUHDUk-dX4hdU,1085
+yamdog-0.3.1.11.dist-info/METADATA,sha256=Pn6vvAFR-XsUD25h6Np0DG5Ego1vik-fmqr24_2aQPY,18601
+yamdog-0.3.1.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+yamdog-0.3.1.11.dist-info/top_level.txt,sha256=MHDv067KMrKmWjridhtmul1P4z-vPz3JQr-1vkOTLiE,7
+yamdog-0.3.1.11.dist-info/RECORD,,
