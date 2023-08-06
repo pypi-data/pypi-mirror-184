@@ -1,0 +1,12 @@
+emdemor_app_template/__init__.py,sha256=IqDTtIJVQOfHaPFV-j3KaRefGEu-lJJCc6L9DlVYy2c,54
+emdemor_app_template/__main__.py,sha256=WkA4y9gVmACBTTMR6FRhFD6o5kI0Vngt7fOy7-m08XI,451
+emdemor_app_template/_version.py,sha256=xy5icTVL_-T_uZleOq5SPoLjDLVLWIK0U8whN-ij6kI,21
+emdemor_app_template/utils.py,sha256=qrFwnGQ2SodTRrHxVvZ2boxokxkPqhiHVe9uFC4g5lU,159
+emdemor_app_template/mymodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emdemor_app_template/mymodule/hello.py,sha256=yvdZWog6P0Gu42Rahp9w2CSR46WUAkTku8OHhC9b-pA,99
+emdemor_app_template-0.0.2.dist-info/LICENSE,sha256=0MSFPiNsFSHlzhgrOu77lbJP0ceZgoJABd0NiwG2sXk,1286
+emdemor_app_template-0.0.2.dist-info/METADATA,sha256=NfjHYQS41IezbHc7by6p8qF2zoNuoOfv1DnqIS51Yh4,4403
+emdemor_app_template-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+emdemor_app_template-0.0.2.dist-info/entry_points.txt,sha256=8dMASS4nIDSQxKIixLla9tRRJ1fuFFKy6uN_y49ynQM,63
+emdemor_app_template-0.0.2.dist-info/top_level.txt,sha256=gU44xRUcytTs0qqM7ur5I1_LcQs2kw7nDVNpmMhtndA,21
+emdemor_app_template-0.0.2.dist-info/RECORD,,
