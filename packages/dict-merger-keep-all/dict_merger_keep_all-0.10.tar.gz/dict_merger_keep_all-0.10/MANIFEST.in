@@ -1,0 +1,4 @@
+include dict_merger_keep_all/requirements.txt
+include dict_merger_keep_all/thirdparty.json
+include dict_merger_keep_all/README.MD
+include dict_merger_keep_all/LICENSE
