@@ -1,0 +1,13 @@
+bamRefine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bamRefine/__main__.py,sha256=laHiGemjwKOl1CmLjsO3-sSktYdHjA18HtXts7UdW7g,8695
+bamRefine/functions.py,sha256=eGEN7WUvRrUa4vICCrqjwlqR7c2L_ow5F5oyIaM6ndk,7232
+bamRefine/man/man1/bamrefine.1,sha256=wjK40N-t0DLZz69oOtsTggPtyo2h0NxckejjxenEDQw,2649
+bamRefine/sample_data/omitColumn_sampleSNPs.bed,sha256=q7TdIzn5jIil29JLbHYM1fQssyMK5xZ09f-Ay0GT4Lo,780
+bamRefine/sample_data/sampleSNPs.bed,sha256=6FStQytUG8yFb19yZ0vNo0Dg7ojansJft3t6kRsCrO8,1236
+bamRefine/sample_data/sampleSNPs.snp,sha256=_WT_l4sp1rotcpJHJcx-ux1iRbzR-JeaHjCTRpCy8Qk,1790
+bamrefine-0.1.0.dist-info/LICENSE,sha256=29beSSWAbzOkMI6EaaLtTtMqCj3-BXH7YF-oAED4hYQ,1518
+bamrefine-0.1.0.dist-info/METADATA,sha256=MuSDoCv0TChIfKlkJDE4K2PWPt1Cjj9xDNhwhjm9ikA,7153
+bamrefine-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bamrefine-0.1.0.dist-info/entry_points.txt,sha256=GNy5r9-zbXStc1wKMJssmL6bXBBXGJO_M3O48z_wmCg,135
+bamrefine-0.1.0.dist-info/top_level.txt,sha256=TU96kJlRWw8cYsTYk_j07JGjbpWy48c1YOMVzPFwFw8,10
+bamrefine-0.1.0.dist-info/RECORD,,
