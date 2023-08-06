@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+bluewave/models/clf.p
+src/bluewave.egg-info/PKG-INFO
+src/bluewave.egg-info/SOURCES.txt
+src/bluewave.egg-info/dependency_links.txt
+src/bluewave.egg-info/requires.txt
+src/bluewave.egg-info/top_level.txt
