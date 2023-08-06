@@ -1,0 +1,2 @@
+include jdlfactory/include/*
+include jdlfactory/server/jdlfactory_server.py
