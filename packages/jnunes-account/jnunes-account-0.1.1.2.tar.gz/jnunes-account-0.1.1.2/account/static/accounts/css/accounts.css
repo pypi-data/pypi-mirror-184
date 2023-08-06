@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin div:not(:nth-child(2)) input {
+    border-radius: 0;
+}
+
+
+.form-signin div:nth-child(2) input {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.form-signin div:nth-child(5) input {
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+
+div.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.actions a, div.register a {
+    color: var(--bs-primary);
+}

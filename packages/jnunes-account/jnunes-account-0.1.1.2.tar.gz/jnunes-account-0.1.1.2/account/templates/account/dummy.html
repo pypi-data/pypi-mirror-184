@@ -1,0 +1,10 @@
+{% extends 'account/base.html' %}
+{% load static %}
+
+{% block  container %}
+    <h2>Welcome {{ user.get_username }}</h2>
+    <h4><a href="{% url 'account:logout' %}">Logout</a></h4>
+    <br>
+    <h4><a href="{% url 'account:change_password' %}">Change password</a></h4>
+
+{% endblock %}
