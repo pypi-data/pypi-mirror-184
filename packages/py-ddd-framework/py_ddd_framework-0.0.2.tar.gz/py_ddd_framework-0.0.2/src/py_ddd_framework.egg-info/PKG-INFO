@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: py-ddd-framework
+Version: 0.0.2
+Summary: Python Domain-Driven Design (DDD) Framework
+Home-page: https://github.com/vklap/py_ddd_framework
+Author: Victor Klapholz
+Author-email: victor.klapholz@gmail.com
+License: MIT
+Keywords: DDD Domain Driven Design Framework
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# py_ddd_framework
+Python Domain-Driven Design Framework
+
+# A Domain-Driven Design (DDD) Framework for Python Developers :snake::snake::snake:
+
+## What is this library good for?
+This is a lightweight framework that provides a quick setup for
+[Domain-Driven](https://en.wikipedia.org/wiki/Domain-driven_design) designed apps that
+are easy to unit test - and is based on battle tested DDD Design Patterns, such as:
+
+1. `Domain Layer` entities with domain events for handling side effects (or even support Event-Driven Architectures) 
+2. `Application Service Layer` flow handlers that are being executed by units of work (to commit/rollback operations)
+3. `Infrastructure/Adapters Layer` to external resources (such as: database repositories, web service clients, etc.)
+4. `CQRS` (Command Query Responsibility Separation) with domain commands
