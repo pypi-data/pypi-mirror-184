@@ -1,0 +1,13 @@
+intake_erddap/__init__.py,sha256=s7WHF7RfTOOHX94sM9kQifwszfIcq9sST9Pu04TpuiM,249
+intake_erddap/_version.py,sha256=k2uKAAzDEmm1BIVWeztFlHrCh9fq64H6szFcsXW7tvs,21
+intake_erddap/cache.py,sha256=yNOIrbySctJARMyKiWiwzoCiPc-nNyJMcKEqoHP1qiI,4054
+intake_erddap/erddap.py,sha256=Oou5u_6TeSRV79zxF0HnnDyAD6r4e8ihHa8ojkmN-54,14196
+intake_erddap/erddap_cat.py,sha256=QbWEJ3xd4WVF54dciOh-FeDfUdqCm4ILmU2hyaWSQfw,17463
+intake_erddap/utils.py,sha256=A7knmuYJRUezrQ1bPWugVz_SI1Ncp4gICCj2jltUsO0,6632
+intake_erddap/version.py,sha256=Sm2PoUPeAVZTcT72N3xBJEjCBRq2Qu9j0KcQWMHgo_w,250
+intake_erddap-0.2.4.dist-info/LICENSE,sha256=Yss_kvV1o5K8_mcBjfUkyHN6tQFQ7LuJKTupPc7aNLs,1323
+intake_erddap-0.2.4.dist-info/METADATA,sha256=YnyNVJfmLYUf-_NOYH_9o68ayLpnni-f-0zCvObOU1w,5913
+intake_erddap-0.2.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+intake_erddap-0.2.4.dist-info/entry_points.txt,sha256=Lu477v3cFFz34hkhX6hXNwmCZNpaUUDDUgncJ8KHL9M,161
+intake_erddap-0.2.4.dist-info/top_level.txt,sha256=RgsG9Q3FY1ikOqykks8ZJBip2wn7tJniicke7L0_tNw,14
+intake_erddap-0.2.4.dist-info/RECORD,,
