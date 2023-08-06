@@ -1,0 +1,10 @@
+mlbands/ML.py,sha256=aML6HnnfHa8hyw8zGOycabi1iq-fmhXZIgcUpt7FdGs,4983
+mlbands/__init__.py,sha256=Ov2CHthookWvT1tVYGBLbao6NzU1WKA5BksrhFheQ20,108
+mlbands/main.py,sha256=38w9mdS6jov3vDYvvp-a08hIiAIefYPOVpH-KCRry4w,13716
+mlbands/misc.py,sha256=5yMatlPfMIcaXqAYsDMWEOAP0fqhVL29ZnI0o2p-eLA,1334
+mlbands/neuralnets/__init__.py,sha256=Wo9K7OO0OpBE9XiXvQm-kzP6ydEvssgqD8zrxTkqZmc,56
+mlbands/neuralnets/lenet3d.py,sha256=K4A_lCsIfKOcBPLHF7Esz0QVBJMdt9YlmGcJ3ZJjnlU,1250
+mlbands/neuralnets/lenet5.py,sha256=kbcZllqKmtcf6tDUL7ArdFCiLfLNK1Yih32Re5mBuFk,1169
+mlbands-1.0.0.dist-info/METADATA,sha256=g3ZaCR6e0olw4gmy58pnZXKkUKhXufta7LzY6cW0Jo8,1945
+mlbands-1.0.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+mlbands-1.0.0.dist-info/RECORD,,
