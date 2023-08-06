@@ -1,0 +1,3 @@
+pandas
+thefuzz[python-levenshtein]
+pytest
