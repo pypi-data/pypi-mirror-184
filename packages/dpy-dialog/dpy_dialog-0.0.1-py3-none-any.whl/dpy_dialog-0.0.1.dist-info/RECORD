@@ -1,0 +1,14 @@
+dpydialog/__init__.py,sha256=Vg8HLx_RCeyNCoATAULlRQf2iS_gla2OkQfn1h5_sjY,915
+dpydialog/_config.py,sha256=B6XAYNcSDL8FSNaQxR6EPQTza9T3sldAehEJSDK1nFM,2817
+dpydialog/_dialog.py,sha256=91aOknSQFxHoGHCdMaK7CIohQCvBaukSheY0sYQX-3Y,9789
+dpydialog/_formatter.py,sha256=hzPY6ztwYBSE9IR9RKsh4G_wdCbnXhdtCEaoEaT43GE,3771
+dpydialog/_runner.py,sha256=zxWlrrLIY2N7ALuKwcwnz1vXHZcDmL1N4gZ6rLqTr0o,2475
+dpydialog/constants.py,sha256=NMT_YVI7koDO5Jsl_nS57VWcDnN15mxbQ4c6ufl-TDU,345
+dpydialog/default_formatters.py,sha256=dW__GjB9OL2-W0vEC5s1nmp2JH3qxJlMFk3z6J1ikCY,20756
+dpydialog/exceptions.py,sha256=rDjVV11FXHXx4ayk2cyWX8lWh7_idN9Dk_pz6m-1Fmg,425
+dpydialog/types.py,sha256=g86SitCOw5xm5805S82uUcS_sk3sbLGzc1UHWtCsgYY,112
+dpy_dialog-0.0.1.dist-info/LICENSE,sha256=rj5V8vDULEgL4ngfPi9EdqMfq1b_FCWAoefV9adoH9w,1096
+dpy_dialog-0.0.1.dist-info/METADATA,sha256=cmN_5kBWioEFPBEzD8WNIWeWiL0QqX7Ld-80xp_Vt3Y,610
+dpy_dialog-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dpy_dialog-0.0.1.dist-info/top_level.txt,sha256=wJmzF1oQ4POJa_tPIs7oG166inuMJRZKck3ejzohm_0,10
+dpy_dialog-0.0.1.dist-info/RECORD,,
