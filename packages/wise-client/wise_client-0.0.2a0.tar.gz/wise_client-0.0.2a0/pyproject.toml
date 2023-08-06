@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wise_client"
+version = "0.0.2a0"
+description = "An asynchronous HTTP API wrapper for the Wise API"
+authors = [
+    { name = "Chen Kang Yang" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["wise", "transferwise", "async", "REST API", "api", "exchange rate",
+            "currency", "finance"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+license = { file = "LICENSE" }
+
+dependencies = [
+    "anyio==3.6.2",
+    "certifi==2022.12.7",
+    "h11==0.14.0",
+    "h2==4.1.0",
+    "hpack==4.0.0",
+    "httpcore==0.16.3",
+    "httpx==0.23.3",
+    "hyperframe==6.0.1",
+    "idna==3.4",
+    "rfc3986==1.5.0",
+    "sniffio==1.3.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest==7.2.0",
+    "pytest-asyncio==0.20.3",
+    "pytest-cov==4.0.0",
+    "pytest-httpx==0.21.2",
+]
+doc = [
+
+]
+
+[project.urls]
+repository = "https://github.com/chen-ky/wise-client"
