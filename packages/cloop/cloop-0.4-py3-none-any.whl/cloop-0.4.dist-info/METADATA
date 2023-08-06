@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cloop
+Version: 0.4
+Summary: CLoop
+Home-page: https://catalyseur.ca
+Author: Francis B. Lavoie
+Author-email: francis.b.lavoie@usherbrooke.ca
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: mariadb
+Requires-Dist: pyodbc
+Requires-Dist: cloopui
+Requires-Dist: cloopui-server
+Requires-Dist: rapidb
+
+CLoop
+
