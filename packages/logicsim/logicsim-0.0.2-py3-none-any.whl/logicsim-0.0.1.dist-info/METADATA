@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: logicsim
+Version: 0.0.1
+Summary: Python package that parses files and simulates the resulting logic circuit
+Project-URL: Github Page, https://github.com/barrettkwise/circuitsim
+Author-email: Barrett Wise <barrettkwise@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# About
+Python package that parses files in the format of netlist.txt and simulates the resulting logic circuit 
