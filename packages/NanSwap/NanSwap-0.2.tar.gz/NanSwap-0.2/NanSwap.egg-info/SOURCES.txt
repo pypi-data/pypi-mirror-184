@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+NanSwap/nanswap.py
+NanSwap/setup.py
+NanSwap.egg-info/PKG-INFO
+NanSwap.egg-info/SOURCES.txt
+NanSwap.egg-info/dependency_links.txt
+NanSwap.egg-info/top_level.txt
