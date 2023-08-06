@@ -1,0 +1,4 @@
+pero-ocr
+pandas
+transformers
+whoosh

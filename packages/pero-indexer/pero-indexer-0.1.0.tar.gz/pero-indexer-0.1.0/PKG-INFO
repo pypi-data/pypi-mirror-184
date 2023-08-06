@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pero-indexer
+Version: 0.1.0
+Summary: Toolkit for information extraction from image documents
+Author-email: Michal Hradiš <hradis@fit.vutbr.cz>
+Project-URL: homepage, https://pero.fit.vutbr.cz/
+Project-URL: repository, https://github.com/DCGM/pero-indexer
+Keywords: Information extraction,Semi-structured data,OCR
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pero-indexer
+Tool to automaticaly extract database records from digitized index cards.
