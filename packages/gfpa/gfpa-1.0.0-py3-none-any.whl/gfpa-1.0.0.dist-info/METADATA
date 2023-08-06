@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: gfpa
+Version: 1.0.0
+Summary: Gene function and cell surface protein association analysis based on single-cell multiomics data.
+Home-page: https://github.com/studentiz/gfpa
+Author: studentiz
+Author-email: studentiz@live.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: bokeh (>=2.4.2)
+Requires-Dist: Pillow (>=9.0.1)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: cloudpickle (>2.0.0)
+Requires-Dist: scikit-misc (>=0.1.4)
+Requires-Dist: leidenalg (>=0.8.8)
+Requires-Dist: matplotlib (>=3.5.1)
+Requires-Dist: numpy (>=1.21.5)
+Requires-Dist: pandas (>=1.4.1)
+Requires-Dist: PhenoGraph (>=1.5.7)
+Requires-Dist: scanpy (>=1.8.2)
+Requires-Dist: scikit-bio (>=0.5.6)
+Requires-Dist: scikit-learn (>=1.0.2)
+Requires-Dist: scipy (>=1.8.0)
+Requires-Dist: seaborn (>=0.11.2)
+Requires-Dist: statsmodels (>=0.13.1)
+Requires-Dist: umap-learn (>=0.5.2)
+
+
+# Gene function and cell surface protein association analysis based on single-cell multiomics data
+It is a single-cell multiomics data analysis framework that analyzes the association of gene function and cell surface proteins. 
+The python packages, datasets and user-friendly manuals of GFPA are freely available at https://github.com/studentiz/gfpa.
+
+## The GFPA framework works with scanpy and supports the following single-cell multimodal analyses
+* Single-cell multi-omics data preprocessing
+* Quantification of gene function
+* Gene function and protein association mining
+* Visualization
+
+## Pip install
+```python
+pip install gfpa
+```
+## Datasets
+The dataset participating in "Gene function and cell surface protein association analysis based on single-cell multiomics data" can be downloaded at [GFPA data warehouse](http://101.34.64.251:8800/)
