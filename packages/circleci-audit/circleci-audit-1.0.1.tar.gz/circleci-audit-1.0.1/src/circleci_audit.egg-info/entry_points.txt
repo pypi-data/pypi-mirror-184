@@ -1,0 +1,2 @@
+[console_scripts]
+circleci-audit = circleci_audit.main:main
