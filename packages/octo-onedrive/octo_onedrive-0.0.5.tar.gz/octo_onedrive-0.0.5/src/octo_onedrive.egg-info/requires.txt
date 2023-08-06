@@ -1,0 +1,6 @@
+msal<2,>=1.18.0
+cryptography
+python-dateutil
+
+[develop]
+pre-commit
