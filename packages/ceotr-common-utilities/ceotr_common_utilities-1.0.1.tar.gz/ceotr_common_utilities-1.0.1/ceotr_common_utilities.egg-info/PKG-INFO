@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ceotr-common-utilities
+Version: 1.0.1
+Summary: Common Python
+Home-page: https://gitlab.oceantrack.org/ceotr-public/ceotr_app_common/ceotr_common_utilities
+Author: CEOTR
+Author-email: support@ceotr.ca
+License: GNU General Public License v3 (GPLv3)
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
