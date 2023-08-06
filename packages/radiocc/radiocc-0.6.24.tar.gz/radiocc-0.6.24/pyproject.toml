@@ -1,0 +1,95 @@
+[tool.poetry]
+name = "radiocc"
+version = "0.6.24"
+description = "Radio occultations"
+license = "Apache-2.0"
+authors = ["Ananya Krishnan <ananyakrishnaniiserk@gmail.com>", "Greg Henry <gregoire.henry@oma.be>"]
+readme = "README.md"
+repository = "https://gitlab-as.oma.be/radiocc/radiocc"
+keywords = ["radio", "occultation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Telecommunications Industry",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Environment :: Console",
+    "Framework :: Matplotlib",
+    "Framework :: Pytest",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: POSIX :: Linux",
+    "Natural Language :: English",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+pudb = "*"
+click = "*"
+envtoml = "*"
+dotmap = "*"
+PyYAML = "*"
+"ruamel.yaml" = "*"
+colored = "*"
+numpy = "*"
+nptyping = "*"
+scipy = "*"
+spiceypy = "*"
+matplotlib = "*"
+pandas = "*"
+arrow = "*"
+bs4 = "*"
+urlpath = "*"
+tqdm = "*"
+requests = "*"
+PyGObject = "*"
+pycairo = "*"
+
+[tool.poetry.dev-dependencies]
+flake8 = "*"
+flake8-bugbear = "*"
+mypy = "*"
+isort = "*"
+black = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-sugar = "*"
+pytest-cov = "*"
+Sphinx = "*"
+pydata-sphinx-theme = "*"
+sphinx-autoapi = "*"
+twine = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+radiocc = "radiocc.cli:main"
+
+[tool.poetry.extras]
+test = ["pytest", "coverage"]
+doc = ["sphinx"]
+
+[tool.pytest]
+testpaths = "tests"
+
+[tool.mypy]
+files = ["radiocc", "tests"]
+exclude = "radiocc/old"
+follow_imports = "silent"
+strict = true
+ignore_missing_imports = true
+show_column_numbers = true
+show_error_codes = true
+
+[tool.black]
+line_length = 88
+exclude = "radiocc/old"
+
+[tool.isort]
+profile = "black"
+skip = "radiocc/old"
