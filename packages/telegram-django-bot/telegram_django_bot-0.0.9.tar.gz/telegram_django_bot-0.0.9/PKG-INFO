@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: telegram_django_bot
+Version: 0.0.9
+Summary: Telegram Django Bot Bridge
+Home-page: https://github.com/alexanderaleskin/telegram_django_bot_bridge
+Author: Alexander Aleskin
+Author-email: alexanderaleskin@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet
+Requires-Python: >=3.8
+License-File: LICENSE
+
+Telegram Django Bot Bridge
+============================
+
+This library provides a Python interface for creating Telegram Bots. The library combines
+`Django <https://www.djangoproject.com/>`_ and `Python-Telegram-Bot <https://python-telegram-bot.org/>`_.
+and provides extra powerful utilities based on this libraries.
+
+
+By simple combining of  `Django <https://www.djangoproject.com/>`_ and `Python-Telegram-Bot <https://python-telegram-bot.org/>`_
+you will get next opportunities:
+
+Python-Telegram-Bot:
+
+* Python Interface for communication with Telegram API;
+* Web-sevice for get updates from telegram;
+
+Django:
+
+* Django ORM  (communication with Database);
+* Administration panel for management.
+
+
+Telegram Django Bot Bridge provides next special opportunities:
+
+* using Django Forms;
+* using Viewsets (typical action with model (create, update, list, delete));
+* using Django localization;
+* using function routing like urls routing in Django;
+* creating tests;
+* creating general menu items with no-coding (through Django Admin Panel);
+* extra high-level Bot functions, such as wrapper for send delayed (or scheduled) messages;
+* collecting stats from user actions in the bot;
+* creating user triggers;
+* commonly used utilities.
+
+
+
+
+Install
+------------
+
+.. code:: shell
+
+    $ pip install telergam_django_bot
+
+
+
+
+Quick start
+------------
+
+
+1. Add "telegram_django_bot" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'telegram_django_bot',
+    ]
+
+
+
+2. Run ``python manage.py migrate`` to create the polls models.
+
+3. Add TELEGRAM_TOKEN, TELEGRAM_TEST_USER_IDS, TELEGRAM_ROOT_UTRLCONF in settings for full use all library advantages.
+
+
+
