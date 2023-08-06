@@ -1,0 +1,5 @@
+{
+  "test_log.py::test_case_is_error": true,
+  "test_log.py::test_case_is_pass": true,
+  "test_log.py::test_case_is_skip": true
+}

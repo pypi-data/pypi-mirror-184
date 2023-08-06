@@ -1,0 +1,10 @@
+[
+  "test_log.py::test_a",
+  "test_log.py::test_case_is_error",
+  "test_log.py::test_case_is_fail",
+  "test_log.py::test_case_is_pass",
+  "test_log.py::test_case_is_skip",
+  "test_log.py::test_case_is_xfail",
+  "test_log.py::test_case_is_xpass",
+  "test_log.py::test_skip"
+]
