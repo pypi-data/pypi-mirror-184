@@ -1,0 +1,12 @@
+pythonimmediate/__init__.py,sha256=Uyrdv6omEJ9JRxfyEU1nrLTxBR0eBhWgePeg7EnYcHc,78321
+pythonimmediate/communicate.py,sha256=6rD0X6cYhPlLD9hucSY5siUkbogPML5hmGDoUzXjvkM,2900
+pythonimmediate/copy_to_stderr.py,sha256=av6OZYjylYNusdpfsFJYkI3MA-Il4eFcgdZUtPJ0e50,227
+pythonimmediate/decode_8bit.py,sha256=6q9sDLLhpR_wVikKE4D4tnQ67yNWgzhwUqO9iORcVYg,237
+pythonimmediate/engine.py,sha256=vWpmSv-dswyta3Rmw85xsHuqzhXO9SIp9wyZccLKEY0,8860
+pythonimmediate/pytotex.py,sha256=h39Yn2NCaQScHG_QMxSGY603cEY0wHgd3YGG5I_0Mkc,1392
+pythonimmediate/simple.py,sha256=oywVea5wQ-EdsVHSm0885RrZCo_EJrULTEE5L7z59f8,27575
+pythonimmediate/textopy.py,sha256=otH30WbuprMVAgrZAS7n1f2yGUYhcDxvtMKBZFVwTTs,797
+pythonimmediate_tex-0.1.0.dist-info/METADATA,sha256=1z8PNEBjFV9DDnrUWAz8s-Jo7ZWhyluBNGPAfl0oZnA,2065
+pythonimmediate_tex-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pythonimmediate_tex-0.1.0.dist-info/top_level.txt,sha256=EtBXBnBHNEotiZzIMT0ObxoVT272EiifXfy76DCgvU4,16
+pythonimmediate_tex-0.1.0.dist-info/RECORD,,
