@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+versioneer.py
+jaxkern/__init__.py
+jaxkern/_version.py
+jaxkern/kernels.py
+jaxkern.egg-info/PKG-INFO
+jaxkern.egg-info/SOURCES.txt
+jaxkern.egg-info/dependency_links.txt
+jaxkern.egg-info/requires.txt
+jaxkern.egg-info/top_level.txt
