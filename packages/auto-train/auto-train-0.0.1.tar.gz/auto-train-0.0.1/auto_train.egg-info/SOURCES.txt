@@ -1,0 +1,7 @@
+README.md
+setup.py
+auto_train.egg-info/PKG-INFO
+auto_train.egg-info/SOURCES.txt
+auto_train.egg-info/dependency_links.txt
+auto_train.egg-info/requires.txt
+auto_train.egg-info/top_level.txt
