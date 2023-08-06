@@ -1,0 +1,4 @@
+requests
+cv2
+loguru
+requests_toolbelt
