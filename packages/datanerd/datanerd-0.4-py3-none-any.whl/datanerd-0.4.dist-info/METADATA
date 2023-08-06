@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: datanerd
+Version: 0.4
+Summary: Contains multiple functions, stats() and iv_woe(), stats() function takes the dataframe and returns statistics i.e count, percentiles, unique_values etc and iv_woe() function is used to calculate the Weight of Evidence (woe) and Information Value (iv) for a dataframe
+Author: Sunil Aleti
+Author-email: iam@sunilaleti.dev
+Keywords: python,describe,stats,unique values,information value,woe,iv
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+
+This function provides some statistical summary of a given dataframe.
+
+The <b>stats()</b> function takes in a dataframe and returns the following statistics:
+<ul>
+<li>count</li>
+<li>mean</li>
+<li>std</li>
+<li>min</li>
+<li>10th percentile</li>
+<li>20th percentile</li>
+<li>25th percentile</li>
+<li>30th percentile</li>
+<li>40th percentile</li>
+<li>50th percentile (median)</li>
+<li>60th percentile</li>
+<li>70th percentile</li>
+<li>75th percentile</li>
+<li>80th percentile</li>
+<li>90th percentile</li>
+<li>95th percentile</li>
+<li>99th percentile</li>
+<li>max</li>
+<li>% of missing values</li>
+<li>% of non-zero values</li>
+<li>#numberofunique_values</li>
+</ul>
+
+The <b>iv_woe()</b> function is used to calculate the Weight of Evidence (WoE) and Information Value (IV) for a given dataframe. The WoE is a measure of how much the presence or absence of a predictor (feature) contributes to the probability of a response (target). The IV is a measure of the strength of the relationship between the predictor and the response.
+
+The <b>iv_woe()</b> function takes in the following arguments:
+
+<b>data:</b> a dataframe containing the predictor variables and the target variable
+<b>target:</b> the name of the target variable
+<b>bins:</b> the number of bins to use for discretizing continuous variables
+<b>optimize:</b> a boolean indicating whether to optimize the binning of the continuous variables
+<b>thresold:</b> the minimum percentage of non-events (negative outcome) in each bin for optimization.
+If optimize is set to True, the function will iterate over the number of bins from 20 to 1 and calculate the WoE and IV for each bin. If the percentage of non-events in each bin is greater than or equal to the specified thresold, it will return the WoE and IV for that bin. If it cannot find a binning that meets the thresold, it will return the WoE and IV for the best bin it could find.
+
+If optimize is set to False, the function will calculate the WoE and IV for the specified number of bins.
+
+The function returns a dataframe containing the WoE and IV for each predictor variable.
+
+
+
+
