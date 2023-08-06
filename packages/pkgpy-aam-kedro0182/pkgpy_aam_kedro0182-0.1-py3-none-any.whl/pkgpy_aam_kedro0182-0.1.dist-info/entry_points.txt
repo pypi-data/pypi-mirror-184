@@ -1,0 +1,2 @@
+[console_scripts]
+pkgpy-aam-kedro0182 = pkgpy_aam_kedro0182.__main__:main
