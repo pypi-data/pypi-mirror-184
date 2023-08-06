@@ -1,0 +1,7 @@
+pyproject.toml
+wwpy/__init__.py
+wwpy/__main__.py
+wwpy.egg-info/PKG-INFO
+wwpy.egg-info/SOURCES.txt
+wwpy.egg-info/dependency_links.txt
+wwpy.egg-info/top_level.txt
