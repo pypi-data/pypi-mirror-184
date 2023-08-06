@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fonts/Impacted.ttf
+fonts/impact.ttf
+fonts/impact.zip
+fonts/sharefonts.net.txt
+fonts/unicode.impact.ttf
+openai_maas.egg-info/PKG-INFO
+openai_maas.egg-info/SOURCES.txt
+openai_maas.egg-info/dependency_links.txt
+openai_maas.egg-info/requires.txt
+openai_maas.egg-info/top_level.txt

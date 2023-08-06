@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: openai-maas
+Version: 1.0.0
+Summary: Creates memes leveraging OpenAI API
+Home-page: https://github.com/bgeels/openai-maas
+Author: Ben Geels
+Author-email: ben.geels019@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
