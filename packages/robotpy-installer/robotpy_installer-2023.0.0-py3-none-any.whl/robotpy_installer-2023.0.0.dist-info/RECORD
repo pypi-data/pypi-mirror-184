@@ -1,0 +1,17 @@
+robotpy_installer/__init__.py,sha256=b7zO50apZxt9Hg2eOkJhRLrXgACR8eS5b-Rphdn5qNQ,44
+robotpy_installer/__main__.py,sha256=adTEg8k8SERRAaUNMC5AuRpr3QPmtHHi8ljkXwYxCjE,71
+robotpy_installer/_pipstub.py,sha256=ZK3ZRsSg5OsKcaE41X9xq2xJmDBN14kaB2H5K5-H2Tk,657
+robotpy_installer/cacheserver.py,sha256=urS640RiLo5-1aGQflmW08-WSphiufGe8D5gBC7lqy8,2176
+robotpy_installer/errors.py,sha256=lYZ5-IDOY9pFKUW-qj93PL_UDwfnsMQPMGoo8HyobCs,231
+robotpy_installer/installer.py,sha256=Eyga1nLAd4cNXRmoaUEET2KJy3YFZEgxuThKYcVdCe8,22812
+robotpy_installer/opkgrepo.py,sha256=d7Xmrb2LsRvraYMucdn_frWAbVhJ9SNapyVRfhqf8E0,8290
+robotpy_installer/robotfinder.py,sha256=lNxYLb-IVSbwsvdvyUxyahW1u7ACAY5eYF3JZEdBarU,1437
+robotpy_installer/sshcontroller.py,sha256=T-TSd3CsKEpJnpmeupHuUGv36vBtA3vrO8iwdZBWc1Q,6958
+robotpy_installer/utils.py,sha256=qYf7P-hqtkWS6rNPHQNdl6KHsbs2A7nqiZ28Six8RBc,4638
+robotpy_installer/version.py,sha256=Ug4zTEkx6513Q-zHylhqg5o2mVEVHD_HGB8sdXVccQc,166
+robotpy_installer-2023.0.0.dist-info/LICENSE,sha256=0VnfT-fREcLKCNLvRufl4u0Y3SfvQsDNkIGwc6uZYNc,1081
+robotpy_installer-2023.0.0.dist-info/METADATA,sha256=CrrVLCOHMexf1yVURUGjasIIQvteXLfhB2zdp9_GBKI,1639
+robotpy_installer-2023.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+robotpy_installer-2023.0.0.dist-info/entry_points.txt,sha256=M63CrgVlX8rCQBNw9PFWzrzizq5FJW_9Ncc5VTocuP4,71
+robotpy_installer-2023.0.0.dist-info/top_level.txt,sha256=MLAzsYud-IF9C5hYSv9iZhWbvctYdCKo5jqNOz4b8KM,18
+robotpy_installer-2023.0.0.dist-info/RECORD,,
