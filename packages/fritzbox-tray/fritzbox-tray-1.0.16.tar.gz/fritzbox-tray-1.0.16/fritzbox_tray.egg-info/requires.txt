@@ -1,0 +1,8 @@
+certifi
+charset-normalizer
+idna
+Pillow
+pystray
+requests
+six
+urllib3
