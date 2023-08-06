@@ -1,0 +1,11 @@
+django_db_schema_renderer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_db_schema_renderer/forms.py,sha256=DRa-GU-fZP5QnyDKWx40FewJL--kGz2wK8e1fR6zqQQ,1092
+django_db_schema_renderer/templates/admin/index.html,sha256=gHNZqrE2_l0JvaWUEhKRRQXWezf8Ddjh40Q1s1fU6eo,190
+django_db_schema_renderer/templates/input.html,sha256=_eUsX2vA5qKzJYfuZdUonIRv2yNQwPORw5pts6D_cKs,940
+django_db_schema_renderer/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_db_schema_renderer/urls.py,sha256=R3ArepQR29fdRfRo-ncKxo4ll7KjPFM6jmg7Tu8V5w4,142
+django_db_schema_renderer/views.py,sha256=kzFDGB972IPvi2gRHLw8K1r-C0LlFKfIy82to7NllsQ,3041
+django_db_schema_renderer-0.1.0.dist-info/LICENSE,sha256=3LzXQKNgxJUFoB_ePF0SoGnoKHqjN1iAw8u_IRpQuHQ,1071
+django_db_schema_renderer-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+django_db_schema_renderer-0.1.0.dist-info/METADATA,sha256=EAiFsiaAe9IRV0-wbycLYg7lgly51NLCkbi9MT8F6S8,1317
+django_db_schema_renderer-0.1.0.dist-info/RECORD,,
