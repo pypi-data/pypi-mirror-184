@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nerdbridge"
+version = "0.2.0"
+description = "server and client for playing bridge in asci format"
+authors = ["Pythor and Keumes"]
+license = "GPL v3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+
+[tool.poetry.scripts]
+bridge="nerdbridge.run:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
