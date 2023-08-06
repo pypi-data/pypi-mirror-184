@@ -1,0 +1,3 @@
+[console_scripts]
+readmetester=readmetester.__main__:main
+

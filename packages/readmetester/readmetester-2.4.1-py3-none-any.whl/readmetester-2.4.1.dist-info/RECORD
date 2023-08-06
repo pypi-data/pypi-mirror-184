@@ -1,0 +1,13 @@
+readmetester/__init__.py,sha256=55Kpcpi1rKHhMGqG_aWVj21KPkb2GlLa7aIq1k6NWmY,207
+readmetester/__main__.py,sha256=rW2cvHEMT6gYFNZ4GZSWDS9JdNsIM8_fXV0CHnm1vfw,121
+readmetester/_assert.py,sha256=B_z8my_12SgLVixd_h64maxanW5id3fIes1DyIIJRdE,2235
+readmetester/_core.py,sha256=7yl4lD7LsLhJyjoQ9gKCGaGLAf0jatgg6I8gy1RJpVQ,16478
+readmetester/_main.py,sha256=ktbkDS_RUeWqF0UHjARDvgRDMGS64I608iSDcf8aaW4,3527
+readmetester/_version.py,sha256=4lM7NINiG7ZKz_waI0IavigdpZySun8iSxzWTdhxCbA,222
+readmetester/exceptions.py,sha256=Dnhpo-62bI0MoPIh1X7xP8ZZTa8xvHveOHfpQ_pXJDo,1797
+readmetester/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+readmetester-2.4.1.dist-info/entry_points.txt,sha256=zFAe7b01s_WPMNKm1IisV79m-6sJurlU8SDhKaQ2KZs,59
+readmetester-2.4.1.dist-info/LICENSE,sha256=h8K3h-_cbia716SjBz4MJvYLIeyGr3pGEFj2BIc8bbg,1073
+readmetester-2.4.1.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+readmetester-2.4.1.dist-info/METADATA,sha256=Pd4ve55D8n-Ga2oz0JCsxZcJhg5GmkcRZslt11E58ms,3550
+readmetester-2.4.1.dist-info/RECORD,,
