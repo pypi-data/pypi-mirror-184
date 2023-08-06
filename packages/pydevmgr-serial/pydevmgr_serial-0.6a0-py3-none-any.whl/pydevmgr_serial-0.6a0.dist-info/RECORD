@@ -1,0 +1,9 @@
+pydevmgr_serial/__init__.py,sha256=NFVQROrHFPLs6YbG30dgIjwFt5de0nFlfSy3HLxvv2c,165
+pydevmgr_serial/device.py,sha256=ueGHp22VWIYyu0W1Dbxe0DuuVQkrmi24tA5MYY1CMGc,818
+pydevmgr_serial/engine.py,sha256=w-mNEHiLsufGjXeRuShQSSBnJynW3rHj1YJsNF-RsGc,2950
+pydevmgr_serial/interface.py,sha256=7FMoOo6KHwXn0CBCOpaUQMqEiXqadkaMETmAYgguX0w,268
+pydevmgr_serial/node.py,sha256=Ygvyu_AU_9dN7ZtCRcvhq9GGkpcEmR5SZrRSx7ivkVU,489
+pydevmgr_serial/rpc.py,sha256=XVoCcJs-NkOXFhnXQdslaPw8y7xnora01ZMuuvdWB20,394
+pydevmgr_serial-0.6a0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pydevmgr_serial-0.6a0.dist-info/METADATA,sha256=mz_WKrUfjabaTBYxlOgrk6RkvPGUNgImRsb32odwrLc,2291
+pydevmgr_serial-0.6a0.dist-info/RECORD,,
