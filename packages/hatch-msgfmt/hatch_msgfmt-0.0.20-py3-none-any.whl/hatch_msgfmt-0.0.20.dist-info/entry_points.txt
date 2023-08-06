@@ -1,0 +1,4 @@
+[hatch]
+msgfmtcmd=hatch_msgfmt.hooks
+msgfmtpy=hatch_msgfmt.hooks
+
