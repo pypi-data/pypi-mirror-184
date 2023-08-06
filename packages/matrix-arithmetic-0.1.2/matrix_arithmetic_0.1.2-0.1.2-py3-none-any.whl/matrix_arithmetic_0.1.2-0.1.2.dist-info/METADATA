@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: matrix-arithmetic-0.1.2
+Version: 0.1.2
+Summary: library to perform basic matrix arithmetic
+Home-page: UNKNOWN
+Author: Niraj Acharya
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+UNKNOWN
+
