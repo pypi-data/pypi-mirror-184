@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+mathkeyboardengine.egg-info/PKG-INFO
+mathkeyboardengine.egg-info/SOURCES.txt
+mathkeyboardengine.egg-info/dependency_links.txt
+mathkeyboardengine.egg-info/top_level.txt
+src/GetLatex.py
+src/KeyboardMemory.py
+src/LatexConfiguration.py
+src/__init__.py
