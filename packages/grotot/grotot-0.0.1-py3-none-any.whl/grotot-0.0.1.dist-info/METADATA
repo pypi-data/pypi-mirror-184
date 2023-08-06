@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: grotot
+Version: 0.0.1
+Summary: PDE solver
+Home-page: UNKNOWN
+Author: Sachin S. Rawat, Shawan K. Jha
+Author-email: <sachinr@iitk.ac.in>, <shawankumar@iitg.ac.in>
+License: UNKNOWN
+Keywords: python,gpe,gpu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+
+Readme for this project
+
