@@ -1,0 +1,14 @@
+saltext/bitwarden/__init__.py,sha256=D7LywTuuKOLBckMpBTKjqwuIS6PABYTo1qDO2n02Vus,863
+saltext/bitwarden/loader.py,sha256=mCbo8ioiNcXjjkFso6GGgcyeDDfuXBvLSEwCVU6HPm0,801
+saltext/bitwarden/version.py,sha256=tvpzK92Ypf9Lgk0HabxytOOdJxtTcdfbzhvFCvLQWG0,24
+saltext/bitwarden/modules/bitwarden_mod.py,sha256=ShAgKho30YPp0KCm_YW2ol15rh9bLicBqhBfaSsXS7w,5092
+saltext/bitwarden/runners/bitwarden_mod.py,sha256=UkgICfJUzNOkfRgfcFTHzY3bvvpgxQYBAcy77ZNAuSs,5069
+saltext/bitwarden/sdb/bitwarden_mod.py,sha256=ju5lfKrGPX_q3CD0N3OfhaM7j0mYYmBg03d_2YSblDA,7023
+saltext/bitwarden/states/bitwarden_mod.py,sha256=Q4W_9uyEqFN5CGrehOFlKrXV__GEIJbO9tRMCZ6923c,5922
+saltext/bitwarden/utils/bitwarden_mod.py,sha256=F5zHxSq-7Sc5w8UDvJrhPeC_7Mw2vvoBaN5qW_vTIBw,15957
+saltext.bitwarden-0.0.1b2.dist-info/LICENSE,sha256=834qkKfU_QC7ji94B-Qetu9edbDIC2UHxYZBRlb3bsA,11344
+saltext.bitwarden-0.0.1b2.dist-info/METADATA,sha256=pHgSrYgfPWdHHu2bEcMDN9AVFO-fZ1smumjTYRZnSX4,8806
+saltext.bitwarden-0.0.1b2.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+saltext.bitwarden-0.0.1b2.dist-info/entry_points.txt,sha256=Q8jtFgpspPcnySOUt8qm8CHNNehzMrp4mNpFT_EhRGM,52
+saltext.bitwarden-0.0.1b2.dist-info/top_level.txt,sha256=6cynQgWBWnAPoXMnUaVitGzM6k7PzacwjLBPgrjOfi4,8
+saltext.bitwarden-0.0.1b2.dist-info/RECORD,,
