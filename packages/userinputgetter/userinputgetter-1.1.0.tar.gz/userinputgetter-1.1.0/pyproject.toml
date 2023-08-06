@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "userinputgetter"
+version = "1.1.0"
+authors = [
+  { name="Conor McIndoe", email="conormcindoe1@gmail.com" },
+]
+description = "Provides an interface, and several implementations, of classes which continuously request command-line user input until a valid response has been attained, and parse the output as a desired type"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mcindoe/userinputgetter"
+"Bug Tracker" = "https://github.com/mcindoe/userinputgetter/issues"
