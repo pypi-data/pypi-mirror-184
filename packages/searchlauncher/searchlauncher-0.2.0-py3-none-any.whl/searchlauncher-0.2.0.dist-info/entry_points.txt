@@ -1,0 +1,3 @@
+[console_scripts]
+searchlauncher=searchlauncher.cli:cli
+
