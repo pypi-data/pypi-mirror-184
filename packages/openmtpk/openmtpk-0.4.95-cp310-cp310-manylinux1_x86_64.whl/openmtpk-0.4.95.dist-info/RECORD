@@ -1,0 +1,10 @@
+openmtpk.cpython-310-x86_64-linux-gnu.so,sha256=Gb0NDnOF9et4LeN_cBYV_UR0rq-3nEuOLOs8460owhg,588272
+openmtpk/__init__.py,sha256=b7zb0a4Kh-B0Via8GPeNGALYOyfFdyqFzNBBQFiLhbU,49
+openmtpk/openmtpk.py,sha256=B1e1AE84zP5cSSboQcXUx_Ztd5YO6W47KHaGvH4oXCY,5845
+openmtpk/openmtpk_wrap.cxx,sha256=mdyCMM6qIuLZA8AYSSzxpRx1vlF546Hlpcax3Ay6l5c,162590
+openmtpk/setup.py,sha256=Ek01-GSMh5LLax1GmphCe1-sXrs-AISucpVR43oCb_s,773
+openmtpk-0.4.95.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+openmtpk-0.4.95.dist-info/METADATA,sha256=J2bxFmT10n7UXJE6qieGsp_tR3e55NYDdWQVFdoV_B8,8680
+openmtpk-0.4.95.dist-info/WHEEL,sha256=19bJhXs1MGq3pTh0j4vUSn7LWruPAG0SnX2g17bykm0,110
+openmtpk-0.4.95.dist-info/top_level.txt,sha256=VKTPbwRjYteySPtWPhbcwH8YFI7qJ_5SRYYk6BCETek,9
+openmtpk-0.4.95.dist-info/RECORD,,
