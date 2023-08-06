@@ -1,0 +1,6 @@
+testcontainers/selenium/__init__.py,sha256=8wA9GvjnOUmbQu09Ghkvfpd9oPZNqOme-DwatI1tA0Y,2614
+tests/test_selenium.py,sha256=nyrNU-mtTi0ctrL0J8MmHhYggUKY2g4CmQZgdRdEffg,967
+testcontainers_selenium-0.0.1rc1.dist-info/METADATA,sha256=5xtq8M0-w_fpiXEVgKN6x7EKi_kTl5svJXw2dPySJyY,356
+testcontainers_selenium-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_selenium-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_selenium-0.0.1rc1.dist-info/RECORD,,
