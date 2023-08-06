@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: testcontainers
+Version: 4.0.0rc1
+Summary: Python interface for throwaway instances of anything that can run in a Docker container.
+Home-page: https://github.com/testcontainers/testcontainers-python
+Author: Sergey Pirogov
+Author-email: automationremarks@gmail.com
+Keywords: testing,logging,docker,test automation
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: testcontainers-core
+Provides-Extra: arangodb
+Requires-Dist: testcontainers-arangodb ; extra == 'arangodb'
+Provides-Extra: azurite
+Requires-Dist: testcontainers-azurite ; extra == 'azurite'
+Provides-Extra: clickhouse
+Requires-Dist: testcontainers-clickhouse ; extra == 'clickhouse'
+Provides-Extra: docker-compose
+Requires-Dist: testcontainers-compose ; extra == 'docker-compose'
+Provides-Extra: google-cloud-pubsub
+Requires-Dist: testcontainers-gcp ; extra == 'google-cloud-pubsub'
+Provides-Extra: kafka
+Requires-Dist: testcontainers-kafka ; extra == 'kafka'
+Provides-Extra: keycloak
+Requires-Dist: testcontainers-keycloak ; extra == 'keycloak'
+Provides-Extra: minio
+Requires-Dist: testcontainers-minio ; extra == 'minio'
+Provides-Extra: mongo
+Requires-Dist: testcontainers-mongo ; extra == 'mongo'
+Provides-Extra: mssqlserver
+Requires-Dist: testcontainers-mssql ; extra == 'mssqlserver'
+Provides-Extra: mysql
+Requires-Dist: testcontainers-mysql ; extra == 'mysql'
+Provides-Extra: neo4j
+Requires-Dist: testcontainers-neo4j ; extra == 'neo4j'
+Provides-Extra: opensearch
+Requires-Dist: testcontainers-opensearch ; extra == 'opensearch'
+Provides-Extra: oracle
+Requires-Dist: testcontainers-oracle ; extra == 'oracle'
+Provides-Extra: postgresql
+Requires-Dist: testcontainers-postgres ; extra == 'postgresql'
+Provides-Extra: rabbitmq
+Requires-Dist: testcontainers-rabbitmq ; extra == 'rabbitmq'
+Provides-Extra: redis
+Requires-Dist: testcontainers-redis ; extra == 'redis'
+Provides-Extra: selenium
+Requires-Dist: testcontainers-selenium ; extra == 'selenium'
+
+Python interface for throwaway instances of anything that can run in a Docker container. See https://testcontainers-python.readthedocs.io/en/latest/ for details.
