@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: gfpa
+Version: 1.0.0
+Summary: Gene function and cell surface protein association analysis based on single-cell multiomics data.
+Home-page: https://github.com/studentiz/gfpa
+Author: studentiz
+Author-email: studentiz@live.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# Gene function and cell surface protein association analysis based on single-cell multiomics data
+It is a single-cell multiomics data analysis framework that analyzes the association of gene function and cell surface proteins. 
+The python packages, datasets and user-friendly manuals of GFPA are freely available at https://github.com/studentiz/gfpa.
+
+## The GFPA framework works with scanpy and supports the following single-cell multimodal analyses
+* Single-cell multi-omics data preprocessing
+* Quantification of gene function
+* Gene function and protein association mining
+* Visualization
+
+## Pip install
+```python
+pip install gfpa
+```
+## Datasets
+The dataset participating in "Gene function and cell surface protein association analysis based on single-cell multiomics data" can be downloaded at [GFPA data warehouse](http://101.34.64.251:8800/)
