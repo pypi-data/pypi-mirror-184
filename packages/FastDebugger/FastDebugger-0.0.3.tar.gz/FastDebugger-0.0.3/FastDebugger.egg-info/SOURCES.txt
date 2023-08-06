@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+FastDebugger/FastDebugger.py
+FastDebugger/__init__.py
+FastDebugger.egg-info/PKG-INFO
+FastDebugger.egg-info/SOURCES.txt
+FastDebugger.egg-info/dependency_links.txt
+FastDebugger.egg-info/requires.txt
+FastDebugger.egg-info/top_level.txt
