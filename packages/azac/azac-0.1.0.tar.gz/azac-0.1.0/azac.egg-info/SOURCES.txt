@@ -1,0 +1,7 @@
+LICENSE.md
+README.md
+setup.py
+azac.egg-info/PKG-INFO
+azac.egg-info/SOURCES.txt
+azac.egg-info/dependency_links.txt
+azac.egg-info/top_level.txt
