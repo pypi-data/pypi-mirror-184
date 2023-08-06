@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: heatgraphy
+Version: 0.1.0
+Summary: Create grid layout visualization
+Author-email: Mr-Milk <yb97643@um.edu.mo>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib>=3.6
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: legendkit
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: scikit-learn ; extra == "dev"
+Requires-Dist: sphinx ; extra == "dev"
+Requires-Dist: numpydoc ; extra == "dev"
+Requires-Dist: sphinx_design ; extra == "dev"
+Requires-Dist: pydata-sphinx-theme ; extra == "dev"
+Requires-Dist: sphinx-copybutton ; extra == "dev"
+Project-URL: Home, https://github.com/mr-milk/heatgraphy
+Provides-Extra: dev
+
+![Logo](img/logo.png)
+
+❗Still under development, Bug Expected
+
+Create grid layout visualization!
+
+Quick start in the web without coding!
+[Open App](https://heatgraphy.streamlit.app)
+
+### Installation
+
+```shell
+pip install heatgraphy
+```
+
