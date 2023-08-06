@@ -1,0 +1,9 @@
+pyproject.toml
+siemenslogo.egg-info/PKG-INFO
+siemenslogo.egg-info/SOURCES.txt
+siemenslogo.egg-info/dependency_links.txt
+siemenslogo.egg-info/top_level.txt
+siemenslogo/src/siemenslogo/__init__.py
+siemenslogo/src/siemenslogo/exceptions.py
+siemenslogo/src/siemenslogo/modbus.py
+siemenslogo/src/siemenslogo/unit.py
