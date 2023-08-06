@@ -1,0 +1,2 @@
+[console_scripts]
+interceptoraptor = interceptoraptor.cli:cli
