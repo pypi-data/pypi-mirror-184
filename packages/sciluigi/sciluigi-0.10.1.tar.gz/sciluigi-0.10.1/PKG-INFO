@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sciluigi
+Version: 0.10.1
+Summary: Helper library for writing dynamic, flexible workflows in luigi
+Home-page: https://github.com/pharmbio/sciluigi
+Author: Samuel Lampa
+Author-email: samuel.lampa@rilnet.com
+License: MIT
+Keywords: workflows workflow pipeline luigi
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+License-File: LICENSE
+
+.. note::
+
+   For the latest source, issues and discussion, etc, please visit the
+   `GitHub repository <https://github.com/pharmbio/sciluigi>`_
+
+
+For documentation, see the `README file on GitHub <https://github.com/pharmbio/sciluigi#readme>`__
