@@ -1,0 +1,225 @@
+Django Rest Framework API Response
+===================================
+
+
+**Getting Started**
+********************
+
+To get started with Djoser in Django, you will need to install the Djoser library and configure it in your Django project. Here are the steps you can follow:
+
+#. **Step 1**. Install the Djoser library using pip:
+
+    .. code-block:: python
+
+        pip install djoser djoser-web3
+
+#. **Step 2**. Add **`djoser`** and **`djoser-web3`** to the **INSTALLED_APPS** list in your Django project's **`settings.py`** file:
+
+    .. code-block:: python
+
+        DJANGO_APPS = [
+            'django.contrib.admin',
+            'django.contrib.auth',
+            'django.contrib.contenttypes',
+            'django.contrib.sessions',
+            'django.contrib.messages',
+            'django.contrib.staticfiles',
+        ]
+
+        PROJECT_APPS = [
+        ]
+
+        THIRD_PARTY_APPS = [
+
+            'djoser', 
+            'djoser-web3',
+
+            'rest_framework',
+            'rest_framework_simplejwt',
+            'rest_framework_simplejwt.token_blacklist',
+
+            'social_django',
+        ]
+
+        INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
+
+
+#. **Step 3 (Optional)**. Configure social_django middleware (Optional if you decide to use Social Auth)
+   
+    .. code-block:: python
+
+        MIDDLEWARE = [
+
+            'social_django.middleware.SocialAuthExceptionMiddleware',
+
+            'django.middleware.security.SecurityMiddleware',
+            'django.contrib.sessions.middleware.SessionMiddleware',
+            'django.middleware.common.CommonMiddleware',
+            'django.middleware.csrf.CsrfViewMiddleware',
+            'django.contrib.auth.middleware.AuthenticationMiddleware',
+            'django.contrib.messages.middleware.MessageMiddleware',
+            'django.middleware.clickjacking.XFrameOptionsMiddleware',
+        ]
+
+
+#. **Step 4 (Optional)**. Copy paste this password hashers in settings.py
+
+    .. code-block:: python
+
+        # Password validation
+        PASSWORD_HASHERS = [
+            "django.contrib.auth.hashers.Argon2PasswordHasher",
+            "django.contrib.auth.hashers.PBKDF2PasswordHasher",
+            "django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher",
+            "django.contrib.auth.hashers.BCryptSHA256PasswordHasher",
+        ]
+
+
+#. **Step 5**. Configure Settings.py to work with REST_FRAMEWORK, DJOSER and SIMPLE_JWT. Here i show a simple example of how this could be achieved.
+
+    .. code-block:: python
+        
+        # REST FRAMEWORK
+        REST_FRAMEWORK = {
+            'DEFAULT_PERMISSION_CLASSES': [
+                'rest_framework.permissions.IsAuthenticatedOrReadOnly'
+            ],
+            'DEFAULT_AUTHENTICATION_CLASSES': (
+                'rest_framework_simplejwt.authentication.JWTAuthentication',
+            ),
+        }
+        #Authentication backends
+        AUTHENTICATION_BACKENDS = (
+            'social_core.backends.google.GoogleOAuth2',
+            'social_core.backends.facebook.FacebookOAuth2',
+            'django.contrib.auth.backends.ModelBackend',
+        )
+        #Simple JWT
+        SIMPLE_JWT = {
+            'AUTH_HEADER_TYPES': ('JWT', ),
+            'ACCESS_TOKEN_LIFETIME': timedelta(minutes=10080),
+            'REFRESH_TOKEN_LIFETIME': timedelta(days=30),
+            'ROTATE_REFRESFH_TOKENS':True,
+            'BLACKLIST_AFTER_ROTATION': True,
+            'AUTH_TOKEN_CLASSES': (
+                'rest_framework_simplejwt.tokens.AccessToken',
+            )
+        }
+
+        #Djoser
+        DJOSER = {
+            'LOGIN_FIELD': 'email',
+            'USER_CREATE_PASSWORD_RETYPE': True,
+            'USERNAME_CHANGED_EMAIL_CONFIRMATION': True,
+            'PASSWORD_CHANGED_EMAIL_CONFIRMATION': True,
+            'SEND_CONFIRMATION_EMAIL': True,
+            'SEND_ACTIVATION_EMAIL': True,
+            'SET_USERNAME_RETYPE': True,
+            'PASSWORD_RESET_CONFIRM_URL': 'password/reset/confirm/{uid}/{token}',
+            'SET_PASSWORD_RETYPE': True,
+            'PASSWORD_RESET_CONFIRM_RETYPE': True,
+            'USERNAME_RESET_CONFIRM_URL': 'email/reset/confirm/{uid}/{token}',
+            'ACTIVATION_URL': 'activate/{uid}/{token}',
+            'SOCIAL_AUTH_TOKEN_STRATEGY': 'djoser.social.token.jwt.TokenStrategy',
+            'SOCIAL_AUTH_ALLOWED_REDIRECT_URIS': ['http://localhost:8000/google', 'http://localhost:8000/facebook'],
+            'SERIALIZERS': {
+                'user_create': 'apps.user.serializers.UserSerializer',
+                'user': 'apps.user.serializers.UserSerializer',
+                'current_user': 'apps.user.serializers.UserSerializer',
+                'user_delete': 'djoser.serializers.UserDeleteSerializer',
+            },
+        }
+
+        SOCIAL_AUTH_GOOGLE_OAUTH2_KEY=os.environ.get('SOCIAL_AUTH_GOOGLE_OAUTH2_KEY')
+        SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET=os.environ.get('SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET')
+        SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
+            'https://www.googleapis.com/auth/userinfo.email',
+            'https://www.googleapis.com/auth/userinfo.profile',
+            'openid'
+        ]
+        SOCIAL_AUTH_GOOGLE_OAUTH2_EXTRA_DATA = ['first_name', 'last_name']
+
+        SOCIAL_AUTH_FACEBOOK_KEY = os.environ.get('SOCIAL_AUTH_FACEBOOK_KEY')
+        SOCIAL_AUTH_FACEBOOK_SECRET = os.environ.get('SOCIAL_AUTH_FACEBOOK_SECRET')
+        SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+        SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {'fields': 'email, first_name, last_name'}
+
+You may want to explore djoser's documentation to understand in more detail each field and the possible parameters you might want to explore using.
+
+
+#. **Step 6**. Include the Djoser URL patterns in your project's root urls.py file:
+
+    .. code-block:: python
+
+        from django.urls import path, include
+        from django.contrib import admin
+        from django.conf import settings
+        from django.conf.urls.static import static
+
+        urlpatterns = [
+            path('auth/', include('djoser.urls')),
+            path('auth/', include('djoser.urls.jwt')),
+            path('auth/', include('djoser.social.urls')),
+
+            path('admin/', admin.site.urls),
+        ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+#. **Step 7**. Include you **ACTIVE_CAMPAIGN** api key and user information in your **`settings.py`**, this is so users that register will automatically be added to your marketing pipeline.
+
+    .. code-block:: python
+
+        ACTIVE_CAMPAIGN_URL = os.environ.get('ACTIVE_CAMPAIGN_URL')
+        ACTIVE_CAMPAIGN_KEY = os.environ.get('ACTIVE_CAMPAIGN_KEY')
+
+#. **Step 8**. Install **Stripe** package. This is so users that register on your site will also get added to your stripe customer list and stripe connect sellers.
+
+    .. code-block:: python
+
+        pip install stripe
+
+#. **Step 9**. Get the stripe api keys and create a stripe webhook (just a demo one, you may add any events you like), add those values to the **`settings.py`**.
+
+    .. code-block:: python
+
+        STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY_DEV')
+        STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY_DEV')
+        STRIPE_WEBHOOK_SECRET= os.environ.get('STRIPE_WEBHOOK_SECRET_DEV')
+
+#. **Step 10**. Now declare the custom user model in settings.py.
+
+    .. code-block:: python
+
+        AUTH_USER_MODEL = 'djoser_web3.UserAccount'
+
+#. **Step 11**. Configure email backends to send email.
+
+    .. code-block:: python
+
+        EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
+
+#. **Step 12**. Run the migrations to create the necessary database tables
+
+    .. code-block:: python
+
+        python manage.py makemigrations
+        python manage.py migrate
+
+
+With this basic setup you have a website that is capable of registering users while at the same time it: Creates a User Profile, User Ethereum Wallet, User Stripe Account, User Stripe Connect Account
+
+You may now extend any model from djoser_web3 and create your views and urls.
+
+Test the Djoser authentication views by sending HTTP requests to the endpoint URLs. For example, you can use a tool like curl to send a POST request to the /auth/users/ endpoint to create a new user.
+
+Here's an example curl command to create a new user:
+
+    .. code-block:: bash
+
+        curl -X POST -d "username=myuser&email=myuser@example.com&password=mypassword&agreed=false" http://localhost:8000/auth/users/
+
+Notice this model is using an "Agreed" field, this field will decide wether the user wants to be added to the marketing llist and receive automated emails.
+
+This should create a new user with the specified username, email, and password. You can then use the Djoser views to authenticate users, reset passwords, etc.
+
+For more information, you can **refer to the Djoser documentation**: **`https://djoser.readthedocs.io/en/latest/index.html`**

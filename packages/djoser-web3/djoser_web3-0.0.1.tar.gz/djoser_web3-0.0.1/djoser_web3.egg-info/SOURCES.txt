@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+djoser_web3/__init__.py
+djoser_web3/admin.py
+djoser_web3/apps.py
+djoser_web3/models.py
+djoser_web3/serializers.py
+djoser_web3/urls.py
+djoser_web3/utils.py
+djoser_web3/views.py
+djoser_web3.egg-info/PKG-INFO
+djoser_web3.egg-info/SOURCES.txt
+djoser_web3.egg-info/dependency_links.txt
+djoser_web3.egg-info/top_level.txt
