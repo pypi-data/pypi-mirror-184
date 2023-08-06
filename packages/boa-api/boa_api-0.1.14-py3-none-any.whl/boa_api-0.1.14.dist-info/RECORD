@@ -1,0 +1,15 @@
+boaapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boaapi/boa_client.py,sha256=sN-uAE-1_WeOrbDrBLM0j8lS4spj3entIN7D9z3WaZg,13866
+boaapi/boa_client.pyi,sha256=TaidK9nefHThZfzz_qP7KWbkZQHS3GKRHiCzZdun4yc,1727
+boaapi/job_handle.py,sha256=LTz50n5QoIa3WfQpXjC_4MCBDmJWsAkaGBDFDTif8eE,4560
+boaapi/job_handle.pyi,sha256=NTm71mLtC6R-XtEnPHp8lGk4URi2t2tPhtEjFC9sQZU,1567
+boaapi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boaapi/status.py,sha256=_WGo4pxRR9jxRkmxr00AE6MjNW6IO8WckhB46ok8DMs,218
+boaapi/status.pyi,sha256=K91GrKsaAdcNAvG3KA0sB7qFlgCv-C9jfGg9BaT-4EI,858
+boaapi/util.py,sha256=enD-Q8h8-mX4RiFeRJ1Qn-fxhdXsLP0Jbmz7j1Q3ehI,3381
+boaapi/util.pyi,sha256=udN3AufQdm2aqNjh1s9AT_U_EFMmPZQPAGXq3LJaUuM,1280
+boa_api-0.1.14.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+boa_api-0.1.14.dist-info/METADATA,sha256=KHZyw4lcjHjjOyKsBrgL-hMaoa5LaEHtqkfB99joubE,2614
+boa_api-0.1.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+boa_api-0.1.14.dist-info/top_level.txt,sha256=OC7J3VUOAUPWOjKHXgjBk_0Mxd9iIcRzItAEuVWYRLo,7
+boa_api-0.1.14.dist-info/RECORD,,
