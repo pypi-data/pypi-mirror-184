@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: commitcollector
+Version: 1.0.14
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Welcome to the commit message generator!
+        
+        This script allows you to generate a summary of commit messages made by you in the specified number of days, organized by date and repository.
+        
+        ## How to use
+        
+        To use this script, you will need to have Python installed on your system. You will also need to have git configured with your username.
+        
+        To run the script, open your terminal and navigate to the directory where the script is located. Then, run the following command:
+        
+        ```python commit_message_generator.py [days]```
+        
+        
+        Replace `[days]` with the number of days you want to filter the commit messages by. For example, to get a summary of commit messages made by you in the past 7 days, you would run:
+        
+        ```python commit_message_generator.py 7```
+        
+        
+        The script will then generate a text file called `commit_messages.txt` in an `output` directory, which will contain the commit messages organized by date and repository.
+        
+        ## Additional features
+        
+        The script also allows you to specify the time range for the commit messages using the `--since` flag. For example, to get a summary of commit messages made by you in the past month, you could run:
+        
+        ```python commit_message_generator.py --since='1 month ago'```
+        
+        
+        ## Notes
+        
+        - The script will only consider commit messages made by the user who is currently logged in to git.
+        - The script will only consider commit messages made on branches, not tags.
+        
+        We hope you find this script helpful in organizing and summarizing your commit messages!
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
