@@ -1,0 +1,7 @@
+cn2an
+rish
+ntplib
+pyinstaller
+numpy
+sympy
+cython
