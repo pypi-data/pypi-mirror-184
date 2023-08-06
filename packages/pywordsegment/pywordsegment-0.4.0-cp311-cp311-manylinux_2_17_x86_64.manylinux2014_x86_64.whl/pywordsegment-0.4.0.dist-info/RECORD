@@ -1,0 +1,8 @@
+pywordsegment-0.4.0.dist-info/METADATA,sha256=nxQjyvXspoVXF98r1aTk93-OFPAy6Pd1fa1AnbjkeRE,3207
+pywordsegment-0.4.0.dist-info/WHEEL,sha256=AjvrwGjpFb1Kov20VJmskKVF6sLrBJZ1h1tDL1tIRz0,131
+pywordsegment/pywordsegment.pyi,sha256=UnmyGqMt0FUaBccFbQxdC_wGMuHciUWeL2vakVDvFVc,276
+pywordsegment/__init__.py,sha256=48I_NcGOg6jbWeApooeYsO8RlDBH7jW6YVyKsUHB8kg,1398
+pywordsegment/unigrams.msgpack.gz,sha256=S9a9ZuOF5D_u9dxXKH1LNp-5wSzpass4ZnOltXFOXvo,8275016
+pywordsegment/bigrams.msgpack.gz,sha256=DFGGmqkw9FgIYoRgw_MJFTx-L7Gu85yykJbEODoM68c,1172411
+pywordsegment/pywordsegment.cpython-311-x86_64-linux-gnu.so,sha256=7oO1bBMrLhL853_KcDeCKobFb-AOTwgY_O5hYuBirKg,424352
+pywordsegment-0.4.0.dist-info/RECORD,,
