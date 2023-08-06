@@ -1,0 +1,14 @@
+# files and directories to ignore
+.DS_Store
+.ipynb_checkpoints
+__pycache__/
+
+# personal files to ignore
+data/
+datasets/
+devices/
+dist/
+examples/
+gds/
+models/
+scripts/
