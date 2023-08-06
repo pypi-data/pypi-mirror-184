@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.pivot">
+
+  <genericsetup:registerProfile
+      zcml:condition="have plone-60"
+      name="upgrade_1000_to_1001"
+      title="Upgrade collective.messagesviewlet from 1000 to 1001"
+      directory="profiles/1000_to_1001"
+      description="Migrate content types icons"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:upgradeSteps
+      zcml:condition="have plone-60"
+      source="1000"
+      destination="1001"
+      profile="collective.pivot:default">
+    <genericsetup:upgradeDepends
+        title="Migrate content types icons"
+        import_profile="collective.pivot.upgrades:upgrade_1000_to_1001"
+        import_steps="typeinfo"
+        />
+  </genericsetup:upgradeSteps>
+</configure>

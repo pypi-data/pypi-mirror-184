@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object
+    name="collective.pivot.Family"
+    meta_type="Dexterity FTI"
+    i18n:domain="collective.pivot"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+  <property name="icon_expr">string:journal-richtext</property>
+
+</object>

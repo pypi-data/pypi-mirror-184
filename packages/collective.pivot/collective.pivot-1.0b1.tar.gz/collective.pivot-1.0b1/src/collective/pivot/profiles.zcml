@@ -1,0 +1,78 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.pivot">
+
+  <genericsetup:registerProfile
+      name="install-base"
+      title="collective.pivot installation"
+      directory="profiles/base"
+      description="Installs the collective.pivot add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <genericsetup:registerProfile
+      name="content"
+      title="Add collective.pivot content"
+      directory="profiles/content"
+      description="Add default categories for collective.pivot"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      zcml:condition="not-have plone-5"
+      name="default"
+      title="collective.pivot plone4 installation"
+      directory="profiles/plone4"
+      description="Installs the collective.messagesviewlet add-on on Plone 4."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <configure zcml:condition="not-have plone-60">
+    <genericsetup:registerProfile
+        zcml:condition="have plone-5"
+        name="default"
+        title="collective.pivot plone5 installation"
+        directory="profiles/plone5"
+        description="Installs the collective.pivot add-on on Plone 5."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+  </configure>
+
+  <genericsetup:registerProfile
+      zcml:condition="have plone-60"
+      name="default"
+      title="collective.pivot plone6 installation"
+      directory="profiles/plone6"
+      description="Installs the collective.pivot add-on on Plone 6."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+    <genericsetup:registerProfile
+      name="testing"
+      title="collective.pivot (testing))"
+      directory="profiles/testing"
+      description="Install collective.messagesviewlet.testing profile"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      zcml:condition="have plone-5"
+      name="uninstall"
+      title="collective.pivot (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the collective.pivot add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.uninstall"
+      />
+
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="collective.pivot-hiddenprofiles"
+      />
+
+</configure>
