@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="calint" description="Ewoks workflow 'xrpd_id31'">
+	<nodes>
+		<node id="0" name="CalibrateSingle" qualified_name="orangecontrib.ewoksxrpd.calibratesingle.OWCalibrateSingle" project_name="ewoksxrpd" version="" title="calib_singledistance" position="(321.0, 392.0)" />
+		<node id="1" name="Integrate1D" qualified_name="orangecontrib.ewoksxrpd.integrate1d.OWIntegrate1D" project_name="ewoksxrpd" version="" title="integrate1d" position="(682.0, 558.0)" />
+		<node id="2" name="DiagnoseCalibrateSingleResults" qualified_name="orangecontrib.ewoksxrpd.diagnose_singlecalib.OWDiagnoseCalibrateSingleResults" project_name="ewoksxrpd" version="" title="diagnose_singlecalib" position="(436.0, 487.0)" />
+		<node id="3" name="DiagnoseIntegrate1D" qualified_name="orangecontrib.ewoksxrpd.diagnose_integrate1d.OWDiagnoseIntegrate1D" project_name="ewoksxrpd" version="" title="diagnose_integrate1d" position="(1012.0, 423.0)" />
+		<node id="4" name="SaveNexusPattern1D" qualified_name="orangecontrib.ewoksxrpd.nexus.OWSaveNexusPattern1D" project_name="ewoksxrpd" version="" title="save_nexus" position="(1011.0, 566.0)" />
+		<node id="5" name="PyFaiConfig" qualified_name="orangecontrib.ewoksxrpd.pyfaiconfig.OWPyFaiConfig" project_name="ewoksxrpd" version="" title="configuration" position="(71.0, 563.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="geometry" sink_channel="geometry" enabled="true" />
+		<link id="1" source_node_id="0" sink_node_id="1" source_channel="energy" sink_channel="energy" enabled="true" />
+		<link id="2" source_node_id="0" sink_node_id="2" source_channel="geometry" sink_channel="geometry" enabled="true" />
+		<link id="3" source_node_id="0" sink_node_id="2" source_channel="energy" sink_channel="energy" enabled="true" />
+		<link id="4" source_node_id="0" sink_node_id="2" source_channel="rings" sink_channel="rings" enabled="true" />
+		<link id="5" source_node_id="1" sink_node_id="4" source_channel="x" sink_channel="x" enabled="true" />
+		<link id="6" source_node_id="1" sink_node_id="4" source_channel="y" sink_channel="y" enabled="true" />
+		<link id="7" source_node_id="1" sink_node_id="4" source_channel="yerror" sink_channel="yerror" enabled="true" />
+		<link id="8" source_node_id="1" sink_node_id="4" source_channel="xunits" sink_channel="xunits" enabled="true" />
+		<link id="9" source_node_id="1" sink_node_id="4" source_channel="info" sink_channel="header" enabled="true" />
+		<link id="10" source_node_id="5" sink_node_id="0" source_channel="calibrant" sink_channel="calibrant" enabled="true" />
+		<link id="11" source_node_id="5" sink_node_id="0" source_channel="detector" sink_channel="detector" enabled="true" />
+		<link id="12" source_node_id="5" sink_node_id="0" source_channel="energy" sink_channel="energy" enabled="true" />
+		<link id="13" source_node_id="5" sink_node_id="0" source_channel="geometry" sink_channel="geometry" enabled="true" />
+		<link id="14" source_node_id="5" sink_node_id="1" source_channel="mask" sink_channel="mask" enabled="true" />
+		<link id="15" source_node_id="5" sink_node_id="1" source_channel="integration_options" sink_channel="integration_options" enabled="true" />
+		<link id="16" source_node_id="0" sink_node_id="2" source_channel="detector" sink_channel="detector" enabled="true" />
+		<link id="17" source_node_id="0" sink_node_id="1" source_channel="detector" sink_channel="detector" enabled="true" />
+		<link id="18" source_node_id="5" sink_node_id="2" source_channel="calibrant" sink_channel="calibrant" enabled="true" />
+		<link id="19" source_node_id="1" sink_node_id="3" source_channel="y" sink_channel="y" enabled="true" />
+		<link id="20" source_node_id="1" sink_node_id="3" source_channel="xunits" sink_channel="xunits" enabled="true" />
+		<link id="21" source_node_id="1" sink_node_id="3" source_channel="x" sink_channel="x" enabled="true" />
+		<link id="22" source_node_id="1" sink_node_id="3" source_channel="yerror" sink_channel="yerror" enabled="true" />
+		<link id="23" source_node_id="0" sink_node_id="3" source_channel="energy" sink_channel="energy" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_ewoks_default_inputs': {}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xe9\x00\x00\x00{\x00\x00\x07\xe4\x00\x00\x03\xaa\x00\x00\x00\xe9\x00\x00\x00\xa0\x00\x00\x07\xe4\x00\x00\x03\xaa\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\xe9\x00\x00\x00\xa0\x00\x00\x07\xe4\x00\x00\x03\xaa', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'_ewoks_default_inputs': {}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x046\x00\x00\x01\xfa\x00\x00\x08\x00\x00\x00\x047\x00\x00\x046\x00\x00\x02\x1f\x00\x00\x08\x00\x00\x00\x047\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x046\x00\x00\x02\x1f\x00\x00\x08\x00\x00\x00\x047', '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'_ewoks_default_inputs': {}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xe0\x00\x00\x00\xc8\x00\x00\t\xff\x00\x00\x04\xf8\x00\x00\x00\xe0\x00\x00\x00\xed\x00\x00\t\xff\x00\x00\x04\xf8\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\xe0\x00\x00\x00\xed\x00\x00\t\xff\x00\x00\x04\xf8', '__version__': 1}</properties>
+		<properties node_id="3" format="literal">{'_ewoks_default_inputs': {}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00L\x00\x00\x00\xbc\x00\x00\tk\x00\x00\x04\xc7\x00\x00\x00L\x00\x00\x00\xbc\x00\x00\tk\x00\x00\x04\xc7\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00L\x00\x00\x00\xbc\x00\x00\tk\x00\x00\x04\xc7', '__version__': 1}</properties>
+		<properties node_id="4" format="literal">{'_ewoks_default_inputs': {}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x06\x04\x00\x00\x02\xfa\x00\x00\tx\x00\x00\x05\x12\x00\x00\x06\x04\x00\x00\x03\x1f\x00\x00\tx\x00\x00\x05\x12\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x06\x04\x00\x00\x03\x1f\x00\x00\tx\x00\x00\x05\x12', '__version__': 1}</properties>
+		<properties node_id="5" format="literal">{'_ewoks_default_inputs': {}, '_ewoks_execinfo': {}, '_ewoks_varinfo': {}, 'controlAreaVisible': True, 'default_inputs': {}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03@\x00\x00\x01\x96\x00\x00\x06\xf4\x00\x00\x03\xae\x00\x00\x03@\x00\x00\x01\xbb\x00\x00\x06\xf4\x00\x00\x03\xae\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03@\x00\x00\x01\xbb\x00\x00\x06\xf4\x00\x00\x03\xae', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
