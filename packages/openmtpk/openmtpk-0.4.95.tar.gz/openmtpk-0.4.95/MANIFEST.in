@@ -1,0 +1,9 @@
+include pyproject.toml
+include Python/openmtpk/*.so
+include *.md
+include LICENSE
+exclude Python/openmtpk/setup.py
+recursive-include modules *.cpp
+recursive-include include *.hpp
+
+
