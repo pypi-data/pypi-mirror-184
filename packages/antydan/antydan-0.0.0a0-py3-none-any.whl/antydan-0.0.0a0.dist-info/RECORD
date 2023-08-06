@@ -1,0 +1,12 @@
+antydan/__init__.py,sha256=UGiZPn4mDEcLdz23QevSls8btg-F-QGvhfO-ukFd6G0,40
+antydan/main.py,sha256=5-6xvlHE12G_vql-sCxNtRQtl1UmDF1ePy5iO93_Pkw,73
+antydan/types.py,sha256=RL0cvffRf1e6IrQqRCe01E9oO0Jjz5iWsA6cy-7PCNU,180
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=FokqNu2ExzNkAYGop4DDQ13784d2PEDUy6EI8NUKW1I,176
+tests/test_main.py,sha256=qINgMl96zIyb1teZi5pZCJ1pzqWMnnV2SfBEUQPKy-M,134
+tests/test_version.py,sha256=fbEOo3gi0Mgk7-nvWIz9stWkvmTVYxDMULWV11OLTQ8,97
+antydan-0.0.0a0.dist-info/LICENSE,sha256=z5d5SEI0iv9JmhPjvJ2y16EHOR7qb17CzNUqUzZ7fNA,1056
+antydan-0.0.0a0.dist-info/METADATA,sha256=eFYm2obQOo_c2t3KytHtv6XhVvQXB-A1f7jjU0CgJeU,922
+antydan-0.0.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+antydan-0.0.0a0.dist-info/top_level.txt,sha256=xXCmhc068ghUzZpNOAtEaOSDyB9It6qKVeQ58vI2EmI,14
+antydan-0.0.0a0.dist-info/RECORD,,
