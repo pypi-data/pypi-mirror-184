@@ -1,0 +1,7 @@
+setup.py
+hello/__init__.py
+hello/hello.py
+susilpkg.egg-info/PKG-INFO
+susilpkg.egg-info/SOURCES.txt
+susilpkg.egg-info/dependency_links.txt
+susilpkg.egg-info/top_level.txt
