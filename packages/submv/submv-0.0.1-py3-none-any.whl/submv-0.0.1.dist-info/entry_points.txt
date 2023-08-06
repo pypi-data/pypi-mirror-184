@@ -1,0 +1,2 @@
+[console_scripts]
+submv = submv.main:main
