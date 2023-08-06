@@ -1,0 +1,5 @@
+tiledimage
+scikit-build
+videosequence
+opencv-python-headless
+pyqt6
