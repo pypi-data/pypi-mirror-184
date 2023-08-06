@@ -1,0 +1,8 @@
+README.md
+setup.py
+DFAnalyzer/__init__.py
+DFAnalyzer/hello.py
+dfanalyzer.egg-info/PKG-INFO
+dfanalyzer.egg-info/SOURCES.txt
+dfanalyzer.egg-info/dependency_links.txt
+dfanalyzer.egg-info/top_level.txt
