@@ -1,0 +1,4 @@
+BetterPrinting
+pyaudio
+pyautogui
+KeyloggerScreenshot
