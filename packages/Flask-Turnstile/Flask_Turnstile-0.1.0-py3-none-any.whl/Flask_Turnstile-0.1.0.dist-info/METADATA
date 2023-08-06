@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Flask-Turnstile
+Version: 0.1.0
+Summary: A Cloudflare Turnstile extension for Flask based on flask-recaptcha
+Home-page: http://github.com/tech1k/flask-turnstile/
+Download-URL: http://github.com/tech1k/flask-turnstile/tarball/master
+Author: Kristian (originally ReCaptcha by Mardix)
+Author-email: kristian@kk.dev
+License: MIT
+Keywords: flask,turnstile,validate
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: MarkupSafe
+
+
+A Cloudflare Turnstile extension for Flask based on flask-recaptcha
