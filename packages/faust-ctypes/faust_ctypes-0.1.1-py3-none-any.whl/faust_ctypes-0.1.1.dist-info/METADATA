@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: faust-ctypes
+Version: 0.1.1
+Summary: a port of Marc Joliet's FaustPy to Ctypes
+Author: Antonin Dudermel
+Author-email: antonin.dudermel@caramail.fr
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy (>=1.18.0)
+Description-Content-Type: text/markdown
+
+# Faust Ctypes
+
+## include Faust compiled DSP into Python
+
+a port of Marc Joliet's [FaustPy](https://github.com/marcecj/faust_python) from
+[CFFI](https://cffi.readthedocs.org/) to
+[Ctypes](https://docs.python.org/3/library/ctypes.html)
+
+## Introduction
+
+[FAUST](https://faust.grame.fr/) is a programming language dedicated to sound
+synthesis and audio processing. Faust-Ctypes provides a way to compile a faust
+code into a dynamically linked library(DLL), which can then be called from any
+Python program as a simple Python library thanks to the CTypes library.
+
+## Documentation
+
+Faust-Ctypes documentation is available online at https://adud2.gitlab.io/faust-ctypes/
+
