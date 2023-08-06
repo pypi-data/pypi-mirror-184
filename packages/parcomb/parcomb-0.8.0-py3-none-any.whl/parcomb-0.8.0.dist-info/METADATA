@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: parcomb
+Version: 0.8.0
+Summary: Parser combinators library
+Keywords: parser,parser-combinators
+Author-email: Tobias Wennergren <wennergr@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Typing :: Typed
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pip-tools ; extra == "dev"
+Project-URL: Homepage, https://github.com/wennergr/parcomb
+Provides-Extra: dev
+
+# parcomb
+Parser combinators library for Python
+
