@@ -1,0 +1,3 @@
+#!/bin/bash
+
+coverage run --source=mjcgraph -m pytest -v && coverage report -m
