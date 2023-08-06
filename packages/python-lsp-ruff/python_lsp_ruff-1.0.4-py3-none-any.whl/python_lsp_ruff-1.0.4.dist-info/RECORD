@@ -1,0 +1,8 @@
+pylsp_ruff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylsp_ruff/ruff_lint.py,sha256=BVysbiVH7UJLrCm2mEGDC5DBElnC4P0qzfh6PgLHpmI,7911
+python_lsp_ruff-1.0.4.dist-info/LICENSE,sha256=SnT8ycQtohkw2_3DUZPgoSH6ulLLECgo4mRD3fQLhFE,1138
+python_lsp_ruff-1.0.4.dist-info/METADATA,sha256=5hfgfhnaxK7RUVMp37ybtAuVK74e0O9ttJu6vPukcG0,2409
+python_lsp_ruff-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+python_lsp_ruff-1.0.4.dist-info/entry_points.txt,sha256=_XL-Dgstl8PXmPZ7ApzNKLNcQhuYYqBKjVSxNsHxUIc,42
+python_lsp_ruff-1.0.4.dist-info/top_level.txt,sha256=OkiEK0ptFLBoMUYEevbtFZBG1-BWQaMhAIrMQm275rY,11
+python_lsp_ruff-1.0.4.dist-info/RECORD,,
