@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/quantr/__init__.py
+src/quantr.egg-info/PKG-INFO
+src/quantr.egg-info/SOURCES.txt
+src/quantr.egg-info/dependency_links.txt
+src/quantr.egg-info/requires.txt
+src/quantr.egg-info/top_level.txt
