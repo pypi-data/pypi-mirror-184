@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+# pylint: disable=C0115,C0116,C0413,W0212,C0301,W0613,E0611,E0401
+
+
+"@KarimKhanQC reconsider OTP-CR-117/19"
+
+
+## imports
+
+
+import inspect
+import os
+import sys
+import traceback
+
+
+from gcid import Cfg, Command, Wd, scan, wait
+from gcid.modules import irc, rss, sts
+
+
+## defines
+
+
+Cfg.banner = "@KarimKhanQC reconsider OTP-CR-117/19"
+Cfg.name = "gcided"
+Cfg.version = "118"
+
+
+Wd.workdir = "/var/lib/gcid"
+
+
+## utilities
+
+
+def daemon():
+    pid = os.fork()
+    if pid != 0:
+        os._exit(0)
+    os.setsid()
+    os.umask(0)
+    sis = open("/dev/null", 'r')
+    os.dup2(sis.fileno(), sys.stdin.fileno())
+    if not Cfg.verbose:
+        sos = open("/dev/null", 'a+')
+        ses = open("/dev/null", 'a+')
+        os.dup2(sos.fileno(), sys.stdout.fileno())
+        os.dup2(ses.fileno(), sys.stderr.fileno())
+
+
+def scan(mod):
+    for key, cmd in inspect.getmembers(mod, inspect.isfunction):
+        if key.startswith("cb"):
+            continue
+        names = cmd.__code__.co_varnames
+        if "event" in names:
+            Command.add(cmd)
+
+
+def waiter():
+    for evt in Command.errors:
+        ex = evt.__exc__
+        traceback.print_exception(type(ex), ex, ex.__traceback__)
+
+
+## runtime
+
+
+def main():
+    daemon()
+    scan(irc)
+    scan(rss)
+    scan(sts)
+    irc.init()
+    rss.init()
+    wait(waiter)
+
+
+main()
