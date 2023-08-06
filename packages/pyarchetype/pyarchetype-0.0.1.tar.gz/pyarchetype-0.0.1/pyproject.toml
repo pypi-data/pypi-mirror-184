@@ -1,0 +1,26 @@
+[project]
+name = "pyarchetype"
+version = "0.0.1"
+description = "Your tool to create the skeleton of python projects"
+authors = [
+  { name="Jordi Redondo", email="jordipromotions@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/redcorjo/pyarchetype"
+"Bug Tracker" = "https://github.com/redcorjo/pyarchetype/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+my-client = "pyarchetype.pyarchetype:main"
+
