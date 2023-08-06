@@ -1,0 +1,3 @@
+[console_scripts]
+ls-tree=ls_tree.cli:run
+
