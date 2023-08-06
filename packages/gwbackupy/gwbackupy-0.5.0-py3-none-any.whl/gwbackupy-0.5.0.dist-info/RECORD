@@ -1,0 +1,16 @@
+gwb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gwb/global_properties.py,sha256=5YaUCuhM3iffPnYe7rgM8Irlgkfyh-SVnfwesYe74s0,85
+gwb/gmail.py,sha256=mMjoQuhUMfOYor3M4chPqETR7hD0Yd7lqKlwTu7E1co,31492
+gwb/gwbackupy.py,sha256=GmfDWEfUh8fa5HBiSGaqubQvZwPnR3kzTBqV8BVYwzs,6740
+gwb/helpers.py,sha256=NTypGdYVtvaHUTOHvldxyZ2hZC0ebysCt75zYlD1if8,1703
+gwb/storage_descriptor.py,sha256=u7D_c-pBwKt5AY540dVpc09LZ6uBvqMo1Es_aTtQqrA,2191
+gwb/filters/filter_interface.py,sha256=fCoo2Nv5mzj6HXEqgz0c5boOI2kD6ZZXBXWMC8DRCJQ,352
+gwb/filters/gmail_filter.py,sha256=GgFS7IDAb0pe6qb7UxGXXF-hTRc3JwlmmoeLEwmZ1_M,1364
+gwb/storage/file_storage.py,sha256=zJYTytzEOf23elJkk9l8zTeaJnA7BH6aeigJCio-tDM,10436
+gwb/storage/storage_interface.py,sha256=VvDvLboYjE3mkeucJAneIS_jzzmw6Oyk8x_OYMSBH0U,3591
+gwbackupy-0.5.0.data/scripts/gwbackupy,sha256=J6EXmm8xHTDBMc9YrKZKH-8xO0H-mjk3vB86rR4UgeE,61
+gwbackupy-0.5.0.dist-info/LICENSE,sha256=kR4yPbO5ZoBlpXwz9GTJEL9Bn171zepcb8CStDVwlzs,1530
+gwbackupy-0.5.0.dist-info/METADATA,sha256=8fGEHm5xa4EnKJ7j-UqirCp_leLwZHwkr_s_YcXV44s,4178
+gwbackupy-0.5.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gwbackupy-0.5.0.dist-info/top_level.txt,sha256=pEhF3tDvCX1dDKMCP7_IQ5w-dmkblckJ3XUAGgmpGug,4
+gwbackupy-0.5.0.dist-info/RECORD,,
