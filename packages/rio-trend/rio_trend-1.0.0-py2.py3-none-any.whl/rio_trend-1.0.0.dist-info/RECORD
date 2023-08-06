@@ -1,0 +1,10 @@
+rio_trend/__init__.py,sha256=eb7Ole8NVcGLUJ9ZtBu1VgWPuCybcefdOqMsBHbdLK8,42
+rio_trend/colorspace.pyx,sha256=yvpuyrdKDXyvEF1JSc6_TJ5hnwLFFCMpBnBL3mSixB8,11490
+rio_trend/operations.py,sha256=265UcJ5eS4BT3_khGMO0xVITg2EyuKIjZlTwsEFSZ7E,8807
+rio_trend/scripts/__init__.py,sha256=8iF5D9ZrvsGsdFQSEQbOypD-hTGhtqz07nCK5dJlUQU,22
+rio_trend/scripts/cli.py,sha256=lAQ-sKdH-4XSkaesRTwqlhO6NayPDUI66H6PUCmXcdE,3457
+rio_trend/utils.py,sha256=nhtZoLfiycwV2wT-CU33OTegp4Z5gup0G2sBGGKJpE4,2376
+rio_trend/workers.py,sha256=em7j6PnxtO0R0U_RgeGolSQQtj6q4_R4zxoYWv05tYY,2697
+rio_trend-1.0.0.dist-info/METADATA,sha256=-8kP4R3C2MU6ahnAl_Ng1pgkY8kcFcYW2KcqJDtYymk,627
+rio_trend-1.0.0.dist-info/WHEEL,sha256=SlW3K6T2LNPbN9-QzFT1pS72PIuYOJEoe_9_lIJkxrk,92
+rio_trend-1.0.0.dist-info/RECORD,,
