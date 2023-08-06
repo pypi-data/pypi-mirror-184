@@ -1,0 +1,12 @@
+quranic_syntax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quranic_syntax/dependency_parsing.py,sha256=bANfIQKuB1PV0sEAmleDDxAhuYakSi45GABflrveoAM,1744
+quranic_syntax/language.py,sha256=IiayJa3jIYQ7CzLoYsjGZbhhDNnBgNBm9oopRBf37_4,6719
+quranic_syntax/lemmatizer.py,sha256=EPl3D8gbGMpQNCDsn_LzAbXnPodZvzIH3j7xaFX07zI,684
+quranic_syntax/postagger.py,sha256=nKniv3mI-uR_FNQ2k4IESkulHtJBWV7x0MQxRmeQ710,598
+quranic_syntax/root.py,sha256=A42qcop0_WG0xZfhZsroWuIZ3bfrQIrTi4CdHMr7iEQ,715
+quranic_syntax/utils.py,sha256=s9N-GfChiHQl7aTKj-eI6a_etwT22tCeoYsDkofbQOU,5243
+quranic_syntax-1.1.dist-info/LICENSE,sha256=LalVI9eqlAAKzGJjQMFe_vV53pp2iWKK3Mgw4Uy14-w,1069
+quranic_syntax-1.1.dist-info/METADATA,sha256=0HOHUUafnJd6Ve8tOt2JBEcqX7b2u0uiyKe3ZZPVSU8,4027
+quranic_syntax-1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+quranic_syntax-1.1.dist-info/top_level.txt,sha256=BD71mN1N7osYH1VK0R0harppmHq9BF5N7JjAEDe8_Js,15
+quranic_syntax-1.1.dist-info/RECORD,,
