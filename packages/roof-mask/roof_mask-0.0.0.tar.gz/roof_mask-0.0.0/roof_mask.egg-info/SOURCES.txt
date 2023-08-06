@@ -1,0 +1,5 @@
+setup.py
+roof_mask.egg-info/PKG-INFO
+roof_mask.egg-info/SOURCES.txt
+roof_mask.egg-info/dependency_links.txt
+roof_mask.egg-info/top_level.txt
