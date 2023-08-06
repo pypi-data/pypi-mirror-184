@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: WhatsAppBot_Nanda
+Version: 0.0.4
+Summary: A cross platform Python package to automate sending and receiving of WhatsApp messages using PyAutoGUI.
+Home-page: https://github.com/nandakishfast/WhatsAppBot_Nanda
+Author: Nanda Kishore B
+Author-email: <pgsbssnk@gmail.com>
+License: UNKNOWN
+Keywords: WhatsApp,WhatsApp Bot,Chat Bot,automation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: win32
+License-File: LICENSE
+
+
+# Project Description
+### A cross platform Python package to automate sending and receiving of WhatsApp messages
+
+## Functions
+```python
+    newMessagesThere(self)
+    getNewMessages(self)
+    sendMessage(self, personal_or_grp, message_to, message_type, text, image_location)
+    sendMultipleMessages(self, list_of_replies)
+    getPreviousMessages(self, count, personal_or_grp, ph_no_or_name, message_type, start_date_time, end_date_time)
+```
+### Full Documentation Link 
+[https://whatsappbotdocs.readthedocs.io/en/latest/](https://whatsappbotdocs.readthedocs.io/en/latest/)
+
+### Author
+[Nanda Kishore B](https://github.com/nandakishfast)
+
+### Other Contributors
+[Arvindram K](https://github.com/ArvindR07) - Documentation
+[Niresh K](https://github.com/21-niresh-21) - Setup
+
+### Mentor
+[Dr. Bagavathi Sivakumar P](https://scholar.google.co.in/citations?user=vrMN16EAAAAJ&hl=en)
+
+
