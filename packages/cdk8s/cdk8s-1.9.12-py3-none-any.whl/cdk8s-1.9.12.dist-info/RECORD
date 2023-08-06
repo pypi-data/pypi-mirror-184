@@ -1,0 +1,10 @@
+cdk8s/__init__.py,sha256=i44dpHP60uH3GkFXRwvBno6XRiGTwFBO9K9EFdDLxdk,136000
+cdk8s/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk8s/_jsii/__init__.py,sha256=HmTdDD3E5ZO9nnnfXbsrUg6TQWa-vq-z7BgSfSycPaU,358
+cdk8s/_jsii/cdk8s@1.9.12.jsii.tgz,sha256=5Ac3gpo0GR66d8kq_bsBijQxO-0V6TnMHF5x6Ot0Yz0,286529
+cdk8s-1.9.12.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk8s-1.9.12.dist-info/METADATA,sha256=p8Wz2HST6EZ_WNQ6ScJ43T3VM4UWN-uio8BJPumtiB8,2851
+cdk8s-1.9.12.dist-info/NOTICE,sha256=1CkO1kwu3Q_OHYTj-d-yiBJA_lNN73a4zSntavaD4oc,67
+cdk8s-1.9.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cdk8s-1.9.12.dist-info/top_level.txt,sha256=nP39GBVCF19__xrbQYJ4PDRCFSFT77ThiT2pIj6Far4,6
+cdk8s-1.9.12.dist-info/RECORD,,
