@@ -1,0 +1,6 @@
+testcontainers/localstack/__init__.py,sha256=iEMZFMhz---fS1_ry14Q-DSGGO2wPfEZqKE6ibg7GQc,2519
+tests/test_localstack.py,sha256=cwzanjS6WjFcX1IsoYiajQ91Eob-9Woo1X9tp1-ZAQE,574
+testcontainers_localstack-0.0.1rc1.dist-info/METADATA,sha256=QX7PI67HGt9FSbyhEut-s4RK2yqZIuNue9XE9YuBr8s,338
+testcontainers_localstack-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_localstack-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_localstack-0.0.1rc1.dist-info/RECORD,,
