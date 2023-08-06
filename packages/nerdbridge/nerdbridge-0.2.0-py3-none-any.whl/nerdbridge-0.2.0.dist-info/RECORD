@@ -1,0 +1,10 @@
+nerdbridge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nerdbridge/run.py,sha256=lbnmncJvqHtZ_OpcXADMxait3IomSCM0yyxphFbDVIQ,2778
+nerdbridge/scorecalc.py,sha256=xacWUqTvVpHydssvszGZtCVsAYOrBBFISU5SX7HmuK8,2628
+nerdbridge/server.py,sha256=ISl36cmcNaWBNc_cD9__d8q0WKOBJEZlxUJqlaEtJV4,12430
+nerdbridge/textclient.py,sha256=_wcc3icREjVYD9t3GOHFolJRcwSYR_rPJspKtEncSoI,8504
+nerdbridge-0.2.0.dist-info/entry_points.txt,sha256=Glh0U0CAcmTyD1fPTCLoRfwC1MOs7mW6u1dFCzssfAo,45
+nerdbridge-0.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+nerdbridge-0.2.0.dist-info/METADATA,sha256=N-PNcT3i4EK8HeubDyHGd4JhA0SyRvbKclHheIIJ3Dw,965
+nerdbridge-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nerdbridge-0.2.0.dist-info/RECORD,,

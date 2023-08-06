@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nerdbridge
+Version: 0.2.0
+Summary: server and client for playing bridge in asci format
+License: GPL v3
+Author: Pythor and Keumes
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# nerdbridge
+
+the nerdbridge package contains a minimal version of a bridge server and client which allows running a (local) bridge server from the command line and connecting 4 clients to it.
+The clients get an asci style window which shows the hand and allows them to do the bidding and play the game.
+
+There's also a scorecalc which can calculate the score for each hand after it has been played, but that has not yet been implemented.
+
