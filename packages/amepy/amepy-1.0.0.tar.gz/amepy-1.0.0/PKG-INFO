@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: amepy
+Version: 1.0.0
+Summary: A Python wrapper for the Discord API
+Home-page: https://github.com/TheMaster3558/amepy
+Author: The Master
+License: MIT
+Project-URL: Documentation, https://amepy.readthedocs.io/en/latest/
+Project-URL: Github, https://github.com/TheMaster3558/amepy
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.7.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+pyame
+=====
+An API Wrapper that interacts with the AmÃ©thyste API
+
+
+Documentation
+-------------
+https://pyame.readthedocs.io/en/latest
+
+
+Installation
+------------
+Requires python 3.7 or higher
+
+.. code:: sh
+
+    # Linux/MacOS
+    python3 -m pip install pyame
+
+    # Windows
+    py -3 -m pip install pyame
+
+
+License
+-------
+MIT
