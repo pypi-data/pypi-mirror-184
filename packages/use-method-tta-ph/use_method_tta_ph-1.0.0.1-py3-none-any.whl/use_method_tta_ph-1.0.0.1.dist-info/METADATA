@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: use-method-tta-ph
+Version: 1.0.0.1
+Summary: UNKNOWN
+Home-page: 
+Author: TTA_DE_PH
+Author-email: kanjanggun@crowdworks.kr
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: struct
+Requires-Dist: binascii
+Requires-Dist: shutil
+Requires-Dist: boto3
+Requires-Dist: PILLOW
+Requires-Dist: alive-progress
+Requires-Dist: shapely
+Requires-Dist: smart-open
+
+UNKNOWN
+
