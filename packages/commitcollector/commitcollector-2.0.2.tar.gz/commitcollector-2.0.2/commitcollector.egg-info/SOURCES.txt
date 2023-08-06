@@ -1,0 +1,8 @@
+README.md
+commitcollector.py
+setup.py
+commitcollector.egg-info/PKG-INFO
+commitcollector.egg-info/SOURCES.txt
+commitcollector.egg-info/dependency_links.txt
+commitcollector.egg-info/entry_points.txt
+commitcollector.egg-info/top_level.txt
