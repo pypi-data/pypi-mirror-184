@@ -1,0 +1,9 @@
+hatch_msgfmt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_msgfmt/hooks.py,sha256=431rewADYslY9ANUfmpF5ragcyV40vawrlJIq6_u1tw,151
+hatch_msgfmt/plugin.py,sha256=BI0wUQQaQEfzTexEe-Dhibh0MpEvkXdrOAtPnzwAbSI,2673
+hatch_msgfmt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_msgfmt/cmd/plugin.py,sha256=gloW12_ZMwPQHW3Q7Fxu2BnfmtTJdP17CAl_jKY7T8o,555
+hatch_msgfmt-0.0.28.dist-info/entry_points.txt,sha256=vpraSSzTNDbtf2yvj77KDN0jyTru_O1cNEJs4-hUqVo,35
+hatch_msgfmt-0.0.28.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+hatch_msgfmt-0.0.28.dist-info/METADATA,sha256=yJWwdtrPA7G2lnibkMrajTadmbLCX-9dTqicS_n1BuI,732
+hatch_msgfmt-0.0.28.dist-info/RECORD,,
