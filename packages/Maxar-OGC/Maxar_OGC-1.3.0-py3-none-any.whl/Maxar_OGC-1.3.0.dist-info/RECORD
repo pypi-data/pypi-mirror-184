@@ -1,0 +1,16 @@
+Maxar_OGC/__init__.py,sha256=UqR_fkx4VM2a0ACpBio6atC44KTECSltS2wTMhph3zs,34
+Maxar_OGC/auth.py,sha256=MrRv4mvCy79-YjTnh34Aibq30DvUpQ4nRPxsSS4ZF2I,4581
+Maxar_OGC/cli_commands.py,sha256=F0iGZO2taWN8TgSea0QeW7Wns-EuQAakjxiR16K02Ak,10366
+Maxar_OGC/interface.py,sha256=GCQfdQJLgK-jNcVezrcv4ksPrOUx_Ir5OOej-CA1Jx8,41855
+Maxar_OGC/process.py,sha256=mpG6R4D8F9aq1NEjJ3n0YkZc5E7jSesSSfazjEkIzik,15323
+Maxar_OGC/wcs.py,sha256=sj7GmsnnupSficMhzJjGx6aRdBjNuUrOZc1t6sRFcRc,3956
+Maxar_OGC/wfs.py,sha256=F0cntmv40p5_FAm_pRV_yiJdfwcWSkqUHaN4r2iEJI4,5457
+Maxar_OGC/wms.py,sha256=6AqyF1emm0-OfB5ijhpJppNZzKzimf94wjXUTC2l_bI,3491
+Maxar_OGC/wmts.py,sha256=J4CCP3GkEeJxOcENKH2y3GQY4wwLL4ygn2ay2fIRkEY,6409
+Maxar_OGC-1.3.0.dist-info/LICENSE,sha256=BsMrknuqjQGyzbJ9MuuKRaSq-yNvqInY3gvy3NBe9_I,15959
+Maxar_OGC-1.3.0.dist-info/LICENSE.txt,sha256=BsMrknuqjQGyzbJ9MuuKRaSq-yNvqInY3gvy3NBe9_I,15959
+Maxar_OGC-1.3.0.dist-info/METADATA,sha256=Gm01R8TXXAtWtbKT6KpcO_2GP07ualnwaSzMk7QPKJk,2908
+Maxar_OGC-1.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Maxar_OGC-1.3.0.dist-info/entry_points.txt,sha256=CDGl2L61_YfT83OrbXY_iBYAiYx0VXL-BOgs2vcZ70w,292
+Maxar_OGC-1.3.0.dist-info/top_level.txt,sha256=z1rIgs12vBf2D-XHq4rNStwyiqUyX9c2-tW-6xb_4pY,10
+Maxar_OGC-1.3.0.dist-info/RECORD,,
