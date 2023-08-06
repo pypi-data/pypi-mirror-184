@@ -1,0 +1,7 @@
+README.rst
+setup.py
+caseMFiX/caseMFiX.egg-info/PKG-INFO
+caseMFiX/caseMFiX.egg-info/SOURCES.txt
+caseMFiX/caseMFiX.egg-info/dependency_links.txt
+caseMFiX/caseMFiX.egg-info/not-zip-safe
+caseMFiX/caseMFiX.egg-info/top_level.txt
