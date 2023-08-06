@@ -1,0 +1,15 @@
+numpy
+cython
+matplotlib
+scipy
+tqdm
+astropy
+pysiaf
+jwst
+astroquery
+grizli
+mastquery
+
+[test]
+pytest>=5.1
+flake8
