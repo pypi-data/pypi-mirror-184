@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: testcontainers-clickhouse
+Version: 0.0.1rc1
+Summary: ClickHouse component of testcontainers-python.
+Home-page: https://github.com/testcontainers/testcontainers-python
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: testcontainers-core
+Requires-Dist: clickhouse-driver
+
+ClickHouse component of testcontainers-python.

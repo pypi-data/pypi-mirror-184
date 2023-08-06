@@ -1,0 +1,6 @@
+testcontainers/clickhouse/__init__.py,sha256=EtmC2i1C9Bu6Mdh82w80HIgm1gKf2WpXAFf3cyv2VdQ,2843
+tests/test_clickhouse.py,sha256=fYAW07TQn688kUn0629h4kCJgGYLtnr2iYeATfG6EjY,390
+testcontainers_clickhouse-0.0.1rc1.dist-info/METADATA,sha256=qPiGCdSD76t2B8NBfzLvSGOgV02KHpuKALQDJ5TRWCQ,371
+testcontainers_clickhouse-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_clickhouse-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_clickhouse-0.0.1rc1.dist-info/RECORD,,
