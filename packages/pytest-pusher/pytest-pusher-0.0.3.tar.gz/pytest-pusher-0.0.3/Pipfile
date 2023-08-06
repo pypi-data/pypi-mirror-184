@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+minio = "*"
+loguru = "*"
+twine = "*"
+pytest = "*"
+allure-pytest = "*"
+pytest-pusher = "==0.0.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+upload = 'twine upload dist/*'
+build = 'python setup.py sdist bdist_wheel'
+test = 'pytest -s -v --alluredir reports'
