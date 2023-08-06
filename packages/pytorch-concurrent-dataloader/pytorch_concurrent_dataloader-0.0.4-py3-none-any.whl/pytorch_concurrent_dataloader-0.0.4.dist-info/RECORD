@@ -1,0 +1,8 @@
+pytorch_concurrent_dataloader/__init__.py,sha256=QDfYOn93KCaoYRjyUJLo1EEkmcZOihD4U0pphMQnit8,57
+pytorch_concurrent_dataloader/dataloader.py,sha256=u99KP6gq3xvFOUK6IZuSrL_V9bJPyJpqYFRyZ1EeYa0,75079
+pytorch_concurrent_dataloader/fetch.py,sha256=MnYj8H2KiRrTu_-BMCRuhLwSZz93sghC1HiRu1vlCOc,8414
+pytorch_concurrent_dataloader/worker.py,sha256=jV5dh0CvgHrbIsCarP2Tf72j-MqtVhmfXvpi7ZsbJEo,16628
+pytorch_concurrent_dataloader-0.0.4.dist-info/METADATA,sha256=L8Be_ZHxDRXPsMnwR22CxD3uN1xIfGMdkwdzAW9X5fA,1405
+pytorch_concurrent_dataloader-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pytorch_concurrent_dataloader-0.0.4.dist-info/top_level.txt,sha256=eLjscblMWKB5OTZKfAwfCeIOG0oMPpg5SCyw4i0Hp7A,30
+pytorch_concurrent_dataloader-0.0.4.dist-info/RECORD,,
