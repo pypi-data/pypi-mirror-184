@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: fast-poibin
+Version: 0.2.2
+Summary: Package for computing PMF and CDF of Poisson binomial distribution.
+License: MPL-2.0
+Author: Hugo Sansaqua
+Author-email: privet.kitty99@gmail.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numba (>=0.56.0,<0.57.0)
+Requires-Dist: numpy (>=1.23.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# fast-poibin
+
+[![Build Status](https://github.com/privet-kitty/fast-poibin/workflows/CI/badge.svg)](https://github.com/privet-kitty/fast-poibin/actions)
+[![Coverage Status](https://coveralls.io/repos/github/privet-kitty/fast-poibin/badge.svg?branch=main)](https://coveralls.io/github/privet-kitty/fast-poibin?branch=main)
+
+_This repository is still in alpha stage._
+
+fast-poibin is a Python package for efficiently computing PMF or CDF of Poisson binomial distribution.
+
+
+- Documentation: https://privet-kitty.github.io/fast-poibin/
+- Repository: https://github.com/privet-kitty/fast-poibin/
+
+
+## Dependencies
+
+You need Python version 3.8.1 or later. As of this writing, Python 3.11.x isn't supported, but it will be available as soon as [numba supports it](https://github.com/numba/numba/issues/8304).
+
+
+## Copyright
+
+Copyright (c) 2023 Hugo Sansaqua.
+
