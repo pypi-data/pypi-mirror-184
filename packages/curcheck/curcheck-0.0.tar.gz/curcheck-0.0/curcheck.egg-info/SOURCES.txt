@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+curcheck/__init__.py
+curcheck/base.py
+curcheck.egg-info/PKG-INFO
+curcheck.egg-info/SOURCES.txt
+curcheck.egg-info/dependency_links.txt
+curcheck.egg-info/not-zip-safe
+curcheck.egg-info/top_level.txt
