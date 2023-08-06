@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/gqlrequests_api_tibber/__init__.py
+src/gqlrequests_api_tibber.egg-info/PKG-INFO
+src/gqlrequests_api_tibber.egg-info/SOURCES.txt
+src/gqlrequests_api_tibber.egg-info/dependency_links.txt
+src/gqlrequests_api_tibber.egg-info/top_level.txt

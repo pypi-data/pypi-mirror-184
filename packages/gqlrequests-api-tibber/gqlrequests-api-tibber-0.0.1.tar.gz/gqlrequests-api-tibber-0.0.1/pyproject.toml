@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gqlrequests-api-tibber"
+version = "0.0.1"
+authors = [
+  { name="BeatsuDev" },
+]
+description = "Dataclasses for all GraphQL queries, subscriptions and mutations for Tibber API. Meant to be used with gqlrequests."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/BeatsuDev/gqlrequests-api-tibber"
+"Bug Tracker" = "https://github.com/BeatsuDev/gqlrequests-api-tibber/issues"
