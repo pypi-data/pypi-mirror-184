@@ -1,0 +1,17 @@
+widgetron/__init__.py,sha256=qSuE7XE6WuK3LjoCpunIWLZhh-T-o48lG_iYyHrBlig,18
+widgetron/__main__.py,sha256=S96XqYU8vmFcMwL-TfBYPvsRHt8OUgqfe6RZSk_dnX0,5250
+widgetron/jinja_functions.py,sha256=peSykHwPuDo9b1omDCutMgeRfbwRin4OaY5GKf8oo4o,1195
+widgetron/templates/constructor/construct.yaml,sha256=CokrrrZhJq4p0gr9lPfeAfHa72tOtTICz4MUj0_YBPo,225
+widgetron/templates/electron/index.html,sha256=YyCqeEgE-7S-bQIqcbNpe5qN9Z-3X63doWSsmIwUWnI,327
+widgetron/templates/electron/main.js,sha256=qW-A1zaO9i6GxFcDHK55eQfUErk0LcPMZq5GLW--Zgw,1015
+widgetron/templates/electron/package.json,sha256=mhmrFxlXVcw423KpaSQi_Mhid5ADFQ3ecHJGjBSgHn8,342
+widgetron/templates/recipe/bld.bat,sha256=MnBwoYYh1oTqpu3n3UXmhNlSAcuSpVLQiHwtXZZWBCg,156
+widgetron/templates/recipe/meta.yaml,sha256=Q2YJ_KVcG9z4liE-RVKNx8lRlmxHEfEiP9aLQ5z_sB8,413
+widgetron/templates/server/setup.cfg,sha256=Sw1O6Vcw2jyzpurL_0JeK-3DhTki96ii1rGFaviP5t4,177
+widgetron/templates/server/setup.py,sha256=3otGwHAQSSpreWmzPLVgY35HwZiGzvyN6jIr4gLGF1c,92
+widgetron/templates/server/widgetron_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+widgetron-0.0.5.dist-info/METADATA,sha256=Qmf1WejL2OcRjX-WfGtZlgYN7IRfiDjv7VwAYEp7kcY,4255
+widgetron-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+widgetron-0.0.5.dist-info/entry_points.txt,sha256=f4UfBBmvBQDgo8GUxX-hhT0R3up1uTH0rM5lQaqUjqg,53
+widgetron-0.0.5.dist-info/top_level.txt,sha256=tIR-rhA0BUaNNxQQsTw82SbJa6e4KOl8FxLIS0-xiHc,10
+widgetron-0.0.5.dist-info/RECORD,,
