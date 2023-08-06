@@ -1,0 +1,1 @@
+Simple code which print hello word on console
