@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: omicscope
+Version: 1.0.0
+Summary: OmicScope: from DIA proteomics to Systems Biology visualisation
+Home-page: https://github.com/guireiso/omicscope
+Author: Guilherme Reis-de-Oliveira
+Author-email: guioliveirareis@gmail.com
+License: MIT
+Project-URL: Documentation, https://omicscope.readthedocs.io/
+Project-URL: Changelog, https://omicscope.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/guireiso/omicscope/issues
+Keywords: Proteomics,Omics,Differential Expression,Systems Biology
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+========
+Overview
+========
+
+
+
+OmicScope: from DIA proteomics to Systems Biology visualisation
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install omicscope
+
+You can also install the in-development version with::
+
+    pip install https://github.com/guireiso/omicscope/archive/main.zip
+
+
+Documentation
+=============
+
+
+https://omicscope.readthedocs.io/
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+1.0.0 (2022-11-10)
+------------------
+
+* First release on PyPI.
