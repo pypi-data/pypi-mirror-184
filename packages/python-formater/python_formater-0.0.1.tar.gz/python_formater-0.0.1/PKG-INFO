@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: python_formater
+Version: 0.0.1
+Summary: format the python code
+Home-page: 
+Author: Rakesh M
+Author-email: rakesh.manjunath21@gmail.com
+License: MIT
+Keywords: code formater
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Sample function
+
+Change Log 
+
+==========
+
+0.0.1 (First release)

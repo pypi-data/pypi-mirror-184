@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+main.py
+setup.py
+python_formater/__init__.py
+python_formater.egg-info/PKG-INFO
+python_formater.egg-info/SOURCES.txt
+python_formater.egg-info/dependency_links.txt
+python_formater.egg-info/top_level.txt
