@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+steam_interfaces/__init__.py
+steam_interfaces/__main__.py
+steam_interfaces.egg-info/PKG-INFO
+steam_interfaces.egg-info/SOURCES.txt
+steam_interfaces.egg-info/dependency_links.txt
+steam_interfaces.egg-info/requires.txt
+steam_interfaces.egg-info/top_level.txt

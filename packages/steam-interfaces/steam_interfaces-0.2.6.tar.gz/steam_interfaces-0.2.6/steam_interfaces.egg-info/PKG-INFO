@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: steam-interfaces
+Version: 0.2.6
+Summary: Python library for working with the Steam API.
+Home-page: https://github.com/Weebp-Team/steamapi
+Download-URL: https://github.com/Weebp-Team/steamapi/archive/main.zip
+Author: Tarodictrl
+Author-email: vudi600@gmail.com
+License: MIT License, see LICENSE file
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# steam-interfaces
+![PyPI](https://img.shields.io/pypi/v/steam_interfaces?color=orange) ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Weebp-Team/steam_interfaces?color=blueviolet) ![License](https://img.shields.io/pypi/l/steam_interfaces?color=blueviolet) ![Forks](https://img.shields.io/github/forks/Weebp-team/steam_interfaces?style=social)
+
+Python library for working with the Steam API.
+
+**API Documentation:** 
+- https://partner.steamgames.com/doc/webapi
+- https://steamapi.xpaw.me
+
+## Installation
+
+```sh
+pip install steam_interfaces 
+```
+
+## Usage
+How get player info:
+```python
+from steam_interfaces import ISteamUser
+import os
+
+key = os.getenv('STEAM_API_KEY')
+
+steam_user = ISteamUser(key)
+user_info = steam_user.get_player_summaries(76561198248393810)
+``` 
+
+## Supported interfaces
+- IBroadcastService
+- ICheatReportingService
+- IDOTA2Fantasy_570
+- IDOTA2MatchStats_570
+- IDOTA2Match_570
+- IDOTA2StreamSystem_205790
+- IDOTAChat_570
+- IEconMarketService
+- ILobbyMatchmakingService
+- IPlayerService
+- ISiteLicenseService
+- ISteamApps
+- ISteamCommunity
+- ISteamGameServerStats
+- ISteamNews
+- ISteamUser
+- ISteamWebAPIUtil
+- IWorkshopService
+
+## Dependencies
+
+[requests](https://pypi.org/project/requests/)
+
+## Contributing
+
+Bug reports and/or pull requests are welcome
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
