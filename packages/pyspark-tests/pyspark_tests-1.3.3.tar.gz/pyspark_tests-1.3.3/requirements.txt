@@ -1,0 +1,10 @@
+databricks-connect
+pandas
+pyarrow
+requests
+ipython
+build
+twine
+pytest
+sphinx
+sphinx-rtd-theme
