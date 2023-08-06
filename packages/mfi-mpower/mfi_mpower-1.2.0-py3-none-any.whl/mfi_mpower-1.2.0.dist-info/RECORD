@@ -1,0 +1,10 @@
+mfi_mpower/__init__.py,sha256=6btaDtH7DLxw3sGi83h6IX3mmxtTMkvO8VbL1UsGyN4,174
+mfi_mpower/board.py,sha256=qyt-Te-2bG7XH3Dj-XCE7p3SOEBNevcUnstntjPJ-t8,6545
+mfi_mpower/device.py,sha256=aHtHXWCewumpplCevtI7pCe33bM5AL_3cfIOzRtbxuo,12160
+mfi_mpower/entities.py,sha256=mroyItjkIji2N0R1WoYZ3NbuT1uyr6zfVGly9Ui9CII,5637
+mfi_mpower/exceptions.py,sha256=0Q_q52iLiNxSFhd_dO_EH4vr9ZvqicCtHtMPQghuN6E,1088
+mfi_mpower-1.2.0.dist-info/LICENSE,sha256=yhvJgMtw0FOaThhfnd2-6XUv_HQ249OHfvugtG_Wt28,1084
+mfi_mpower-1.2.0.dist-info/METADATA,sha256=ruG6xdPUFER9XQxdJwgAkAM--s8t6MSVrGXDo9WPtwI,6301
+mfi_mpower-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mfi_mpower-1.2.0.dist-info/top_level.txt,sha256=-XAiCQGLkjgAyrtXvUkkMEP764Ol59tQpoo_huiNyKU,11
+mfi_mpower-1.2.0.dist-info/RECORD,,
