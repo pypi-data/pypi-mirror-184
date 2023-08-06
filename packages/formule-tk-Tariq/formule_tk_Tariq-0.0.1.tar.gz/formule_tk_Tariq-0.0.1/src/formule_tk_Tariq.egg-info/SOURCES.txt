@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/Formule_Tariq/__init__.py
+src/Formule_Tariq/tariq_formule.py
+src/formule_tk_Tariq.egg-info/PKG-INFO
+src/formule_tk_Tariq.egg-info/SOURCES.txt
+src/formule_tk_Tariq.egg-info/dependency_links.txt
+src/formule_tk_Tariq.egg-info/top_level.txt
