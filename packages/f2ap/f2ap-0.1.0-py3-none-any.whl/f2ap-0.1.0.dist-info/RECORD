@@ -1,0 +1,17 @@
+f2ap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+f2ap/__main__.py,sha256=EKLXOl-6S9amAx-Qsa0_cI48ojzAxf9Le57QPTCL0-c,2012
+f2ap/activitypub.py,sha256=5XfqltVDCd82wt-NwVUTNNnb-qv6NR8MKKHusaFLx14,3982
+f2ap/config.py,sha256=2fGxVJ9VY2aKzlk_Tjv4mDWBKwLc_y_AUuSWCMKp_NA,2821
+f2ap/data.py,sha256=ODN67VBCVSw5e2DkYRRrkJpKX058_FkVDJL18xCyQAs,9725
+f2ap/feed.py,sha256=az5WSGfo28tfJg156G8HVf38e0RbI6dxtFtaX6j2zAE,4198
+f2ap/json.py,sha256=Itu0660mi3lQHHWDiCukEdccdgOBL1u5gD9XJZ6gWO4,238
+f2ap/markdown.py,sha256=oW3vQwbAQ3UDow8F44l3fvwpBSpqXUxIgQ6bx2sMjmI,1879
+f2ap/model.py,sha256=hCrQC4mR20s2P5VWtHF92DtJhjYdrn0o9rEoVSfRDBY,7145
+f2ap/postie.py,sha256=C_AaT3D49lS9V-lX2sLUycgADFV8uLs0aQdvixAk394,1636
+f2ap/signature.py,sha256=52N0LNdl2Z66ydFiqNFXfRECdtmoBN6ewvRRxSgK9RA,2015
+f2ap/webserver.py,sha256=5BzHoczpSG26wBQu0T7ea_SdJAE0gRA-T72k6uA5yWs,11016
+f2ap-0.1.0.dist-info/entry_points.txt,sha256=4Jvo1YRQWP8wTs5WvYtzbmOmRcMEVfWCvraUyCik3Uk,43
+f2ap-0.1.0.dist-info/LICENSE.md,sha256=RJ2-swY_vL3Gml_ztYPGMBd7WuPJBnfdWw1Tf_KbOvc,32089
+f2ap-0.1.0.dist-info/METADATA,sha256=lW1PiSP_NOj52fKbXVrGaipyKP3DCPCUwzZaaf0e5qE,5076
+f2ap-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+f2ap-0.1.0.dist-info/RECORD,,
