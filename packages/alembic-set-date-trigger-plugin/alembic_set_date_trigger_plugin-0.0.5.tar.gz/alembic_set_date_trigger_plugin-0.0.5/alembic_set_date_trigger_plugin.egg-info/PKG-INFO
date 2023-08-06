@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: alembic-set-date-trigger-plugin
+Version: 0.0.5
+Home-page: https://github.com/samarcan/alembic-set-date-trigger-plugin
+Author: Samuel Martín Cantalejo
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
