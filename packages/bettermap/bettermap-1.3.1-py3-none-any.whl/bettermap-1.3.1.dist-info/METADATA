@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bettermap
+Version: 1.3.1
+Summary: Parallelized drop-in replacements for Python's map function
+Home-page: https://github.com/allenai/bettermap
+Author: Dirk Groeneveld
+Author-email: dirkg@allenai.org
+License: Apache
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dill
+Provides-Extra: dev
+Requires-Dist: flaky ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: packaging ; extra == 'dev'
+Requires-Dist: pytest-sphinx ; extra == 'dev'
+Requires-Dist: pytest (>=6.2.5) ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: twine (>=1.11.0) ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+bettermap
+=========
+
+`bettermap` is a drop-in replacement for Python's map function. It parallelizes
+the map function across all available processors.
+
+Install with `pip install https://github.com/allenai/bettermap/releases/download/v1.3.1/bettermap-1.3.1-py3-none-any.whl`
+
+
