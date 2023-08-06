@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: my-django-crud
+Version: 1.1
+Summary: This is a python library that helps you create CRUD functionalites in django with few lines of code.
+Author: Jehoshaphat Tatiglo
+Author-email: khalshaphat@gmail.com
+Maintainer: Jehoshaphat Tatiglo
+Maintainer-email: khalshaphat@gmail.com
+License: MIT
+Keywords: django crud python library
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+

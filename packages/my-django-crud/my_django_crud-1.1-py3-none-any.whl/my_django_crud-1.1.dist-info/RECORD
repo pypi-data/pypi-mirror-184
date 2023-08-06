@@ -1,0 +1,13 @@
+DjangoCrud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DjangoCrud/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+DjangoCrud/apps.py,sha256=1rvWKa8Rhwmlvd7Ap11c5uidgdKaNvlyjrviDpa4flE,158
+DjangoCrud/models.py,sha256=9b3S6EUJP9g6LGuuQr6N5L_36j7WxDcfVGvn860vKMo,152
+DjangoCrud/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+DjangoCrud/views.py,sha256=2Atje1_mXpQUL0OGVJfkl_Cn2Yeq-kzu1VtBcvaa6OM,2220
+DjangoCrud/migrations/0001_initial.py,sha256=sYP4qx1gngmRJTdsI33x43J3cwZQIPcCjetciU7pYtM,518
+DjangoCrud/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_django_crud-1.1.dist-info/LICENSE,sha256=McsFUCI12ngPB5VFTY8yHBZD07J2nGUGJDkWEN60n7Q,1083
+my_django_crud-1.1.dist-info/METADATA,sha256=OGy8AaVkSyB9RpgZ-Gtj4BgZZErU2F5wv7V66KM1kao,936
+my_django_crud-1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+my_django_crud-1.1.dist-info/top_level.txt,sha256=M1bV9z_2pVOeiTrx_R6UVOo70_HTtRiU5KFRnwPotV8,11
+my_django_crud-1.1.dist-info/RECORD,,
