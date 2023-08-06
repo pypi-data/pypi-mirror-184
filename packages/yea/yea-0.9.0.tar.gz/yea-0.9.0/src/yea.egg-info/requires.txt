@@ -1,0 +1,7 @@
+coverage
+importlib-metadata>=3.0.0
+jsonschema
+PyYAML
+requests
+six
+typing_extensions
