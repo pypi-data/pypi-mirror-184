@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core>=3.2"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "JSGFToolsLeyzer"
+version = "0.2.0"
+authors = [
+  { name="cartesinus", email="msowansk@gmail.com" },
+]
+description = "Tools for JSGF grammar expansion."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    'pyparsing ~= 3.0.9'
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cartesinus/JSGFToolsLeyzer"
+"Bug Tracker" = "https://github.com/cartesinus/JSGFToolsLeyzer/issues"
