@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+threadingbatch/LICENSE
+threadingbatch/README.MD
+threadingbatch/__init__.py
+threadingbatch/requirements.txt
+threadingbatch/thirdparty.json
+threadingbatch.egg-info/PKG-INFO
+threadingbatch.egg-info/SOURCES.txt
+threadingbatch.egg-info/dependency_links.txt
+threadingbatch.egg-info/requires.txt
+threadingbatch.egg-info/top_level.txt

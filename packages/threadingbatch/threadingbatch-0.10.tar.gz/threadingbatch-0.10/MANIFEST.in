@@ -1,0 +1,4 @@
+include threadingbatch/requirements.txt
+include threadingbatch/thirdparty.json
+include threadingbatch/README.MD
+include threadingbatch/LICENSE
