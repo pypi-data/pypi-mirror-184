@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+sfsdsd/__init__.py
+sfsdsd.egg-info/PKG-INFO
+sfsdsd.egg-info/SOURCES.txt
+sfsdsd.egg-info/dependency_links.txt
+sfsdsd.egg-info/top_level.txt
