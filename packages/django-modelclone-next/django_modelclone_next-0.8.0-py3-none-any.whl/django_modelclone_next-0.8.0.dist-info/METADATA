@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: django-modelclone-next
+Version: 0.8.0
+Summary: Django application that allows users to clone a model in Admin
+Home-page: https://github.com/xuhcc/django-modelclone
+Author: xuhcc
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
+

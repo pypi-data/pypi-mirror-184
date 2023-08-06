@@ -1,0 +1,11 @@
+modelclone/__init__.py,sha256=MYJodq3oNUhZp463GbzBOn9Gl8Uqv7mMMSAB8BVEHR0,39
+modelclone/admin.py,sha256=nVyBLoNTCSi3HAIoCRk9wGNG1mwHK9USwUfPMbj8f2s,10544
+modelclone/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelclone/urls.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelclone/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelclone/templates/modelclone/change_form.html,sha256=ZdeQGomIOlqFytz6MMO1JxgCsx8sSndzI1Rlq0BGezY,310
+django_modelclone_next-0.8.0.dist-info/LICENSE,sha256=-TiGIr3mYXg2RbgZXNexT0IyVpjAYfigNK51FDc0OPE,1147
+django_modelclone_next-0.8.0.dist-info/METADATA,sha256=8RR01GXsNbkFvvoBD0OHGy_f1DcRm0WayrFivBwh0rk,502
+django_modelclone_next-0.8.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_modelclone_next-0.8.0.dist-info/top_level.txt,sha256=ZkRhRy5hMbJXynJ017noEnJ6cP9CkFtLBqQcn-jCAY8,11
+django_modelclone_next-0.8.0.dist-info/RECORD,,
