@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: abrain
+Version: 0.1b0
+Summary: NeuroEvolution in Python backed by C++ computations
+Author-email: Kevin Godin-Dubois <k.j.m.godin-dubois@vu.nl>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Artificial Life
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Provides-Extra: docs
+License-File: LICENSE
+
+# Artificial Brains (ABrain) for Python
+
+[![Documentation Status](https://readthedocs.org/projects/abrain/badge/?version=latest)](https://abrain.readthedocs.io/en/latest/?badge=latest)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wiki/kgd-al/abrain/badge-flake.md)
+
+### Release
+![](https://img.shields.io/badge/on-!-900?logo=pypi)
+![](https://img.shields.io/badge/unix-!-900)
+![](https://img.shields.io/badge/windows-!-900)
+
+### Development
+![](https://img.shields.io/badge/version-!-900)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wiki/kgd-al/abrain/badge-tests.md)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wiki/kgd-al/abrain/badge-cov.md)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wiki/kgd-al/abrain/badge-pcov.md)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wiki/kgd-al/abrain/badge-ccov.md)
+
+
+
+C++/Python implementation of the genotype/phenotype components of Evolvable Substrate HyperNEAT (read without evolution and speciation).
+
+## Optional dependencies:
+
+    - Graphviz (dot) to generate directed graphs for the genomes
+
+## Todo list:
+ - Functionalities:
+   - Order-independent ANN evaluation (with back buffer)?
+   - Crossover / historical markings
+     - Actually needed?
+   - MANN Integration
+     - Easy extraction
+     - built-in testing
+     - C++ wrapper
+     - Visu
+     
+  - Misc:
+    - Documentation
+      - Usage
+      
+    - Continuous integration
+      - build / tests
+      - Badges
+      
+    - Packaging:
+      - include c++ stubs?
+      - move to scikit/poetry/... ?
