@@ -1,0 +1,10 @@
+pkgs_test/__init__.py,sha256=x6QTfhsDQvMW3E0-lGrn0FJDa3CuFlxx6dkujT6dTKY,258
+pkgs_test/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkgs_test/data/flatland.txt,sha256=ELR5Z7sWSaE9qpZssPQlLUBNNT2b0DMX0zGqJMb37S8,219001
+pkgs_test/datasets.py,sha256=jxThLnrPOWST7XwOjKbN5OmGlrxY1GlA-yd1Awhu1V8,387
+pkgs_test/pkgs_test.py,sha256=BT0e_oqjXH1cxcDbfbt9dJINhWZK57aVzHQqjgyHnxA,1809
+pkgs_test/plotting.py,sha256=ct6kl0vm5Ve_UJgxkcjBGwxvwJyHERRZ20qatXawWpA,992
+pkgs_test-0.2.0.dist-info/LICENSE,sha256=_yUdamAKF_DVHxvWZXxG59cUJx0PNJ1XyFn1rcteZbw,1094
+pkgs_test-0.2.0.dist-info/METADATA,sha256=8HbPkCwEBG1li5XXE_W4l2SNhnBw6XHU7OsJrn-Xop0,1411
+pkgs_test-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pkgs_test-0.2.0.dist-info/RECORD,,
