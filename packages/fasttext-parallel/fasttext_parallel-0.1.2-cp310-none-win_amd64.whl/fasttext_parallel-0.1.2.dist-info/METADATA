@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: fasttext-parallel
+Version: 0.1.2
+Classifier: Programming Language :: Rust
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy >= 1.20.0
+Requires-Dist: fasttext; extra == 'tests'
+Provides-Extra: tests
+License-File: LICENSE
+Summary: FastText Multithreading Inference
+Keywords: fasttext
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Multithreading For FastText
+
+```
+pip install fasttext-parallel
+```
+
+```python
+import fasttext_parallel as ft
+model = ft.load_model("./model/lid.176.bin")
+result = model.batch(["你好", "how are you"])
+```
+
