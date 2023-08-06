@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "rebuild",
+			"command": "py -m build && pip install dist/*.tar.gz",
+			"type": "shell",
+			"group": "build"
+		}
+	]
+}
