@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+capture_stdout_decorator/LICENSE
+capture_stdout_decorator/README.MD
+capture_stdout_decorator/__init__.py
+capture_stdout_decorator/requirements.txt
+capture_stdout_decorator/thirdparty.json
+capture_stdout_decorator.egg-info/PKG-INFO
+capture_stdout_decorator.egg-info/SOURCES.txt
+capture_stdout_decorator.egg-info/dependency_links.txt
+capture_stdout_decorator.egg-info/top_level.txt

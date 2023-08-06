@@ -1,0 +1,4 @@
+include capture_stdout_decorator/requirements.txt
+include capture_stdout_decorator/thirdparty.json
+include capture_stdout_decorator/README.MD
+include capture_stdout_decorator/LICENSE
