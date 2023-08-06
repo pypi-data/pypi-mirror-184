@@ -1,0 +1,15 @@
+{% load pwa %}
+{
+  "name": {{ settings.title|js }},
+  "short_name": {{ settings.title|js }},
+  "description": {{ settings.description|js }},
+  "start_url": {{ base_url|js }},
+  "display": "standalone",
+  "scope": "/",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": {{ settings.color|js }},
+  "icons": {{ PWA_APP_ICONS|js }},
+  "dir": "ltr",
+  "lang": {{ PWA_APP_LANG|js }}
+}
