@@ -1,0 +1,12 @@
+cgiw/__init__.py,sha256=VfmPRM1OFoL-hhoNZbachCAW-1fdTwefnQLN1SKxJgw,478
+cgiw/composers.py,sha256=ueDdSRjdrBG1owD5e5vMv3lRluK2OpoMbzwGhM5kI_s,271
+cgiw/decorators.py,sha256=JDgr18EjMiQTV2HXwjJr52ZjVn-ohL71xE6OoNaNVJ4,465
+cgiw/handler.py,sha256=icyK4Zg6iJ5IfUZqfVqpDtNadI_YZ82hudVRvu57x4w,500
+cgiw/parsers.py,sha256=-mWitoQah4s66IjKYAAQbDhM_pyd-BRB1k5nYDa-W_U,519
+cgiw/responses.py,sha256=bSZb9Z6qukDWPvSUUC4-7Ozi_iGXFSg4ZJPD0y2eedQ,423
+cgiw/schemas.py,sha256=jptqxZQC_7OzedjsJ8RqfVKxNGcNRPPVXvcbA6GwOCs,409
+cgiw-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cgiw-0.0.3.dist-info/METADATA,sha256=ZqwHBGOkCPUkgJGSxUNy4ihIGXgQAz41MxkCVLsgxm0,1015
+cgiw-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cgiw-0.0.3.dist-info/top_level.txt,sha256=WfeJToHZhyrz645MDqjvNcKUeFTm6fYS8zwt_-92mBQ,5
+cgiw-0.0.3.dist-info/RECORD,,
