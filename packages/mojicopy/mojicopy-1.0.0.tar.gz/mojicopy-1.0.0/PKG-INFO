@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: mojicopy
+Version: 1.0.0
+Summary: Emoji Generation CLI tool using OpenAI
+Home-page: https://github.com/sasha-tkachev/emoget
+Author: Alexander Tkachev
+Author-email: sasha64sasha@gmail.com
+License: UNKNOWN
+Keywords: emoji,openai,ChatGPT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 📋 Mojicopy
+
+Tool to generate emojis from text prompts stored in the clipboard using OpenAI.
+
+## 🔨 Installation
+
+First you need to install the emoget python package
+
+```shell
+pip install mojicopy
+```
+
+### VSCode Integration
+
+TBD
+
+### IntelliJ Integration
+
+TBD
+
+
