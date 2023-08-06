@@ -1,0 +1,9 @@
+pytest_datarecorder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_datarecorder/datarecorder.py,sha256=MbTvC0BswYx1W_7Xmx_7WsGQDOdqvSIflAAI4WE46VA,11278
+pytest_datarecorder/fixtures.py,sha256=INuREEI1_CvoRQq-9VQpcB_juEucNNaJpyh0GoxTpZU,160
+pytest_datarecorder-1.4.0.dist-info/LICENSE.rst,sha256=HArmY8aYqGyVqtLfpBVBWf1vgzJbKUS-QmZfvekTA3Q,1505
+pytest_datarecorder-1.4.0.dist-info/METADATA,sha256=WsjpqxOPbhHbWK0NcxdGOPPBX_oJh8XqUxJXk3mEyaA,4607
+pytest_datarecorder-1.4.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+pytest_datarecorder-1.4.0.dist-info/entry_points.txt,sha256=u2NyTIld7LdRhprDFPoeHsrfw73O3e_z8htcHkFl-J4,56
+pytest_datarecorder-1.4.0.dist-info/top_level.txt,sha256=vqXBQuelL6af1En0AAYeEySBNh9wc-GgkhL7kixd4RA,20
+pytest_datarecorder-1.4.0.dist-info/RECORD,,
