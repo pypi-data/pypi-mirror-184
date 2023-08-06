@@ -1,0 +1,12 @@
+README.md
+setup.py
+sd_upload/module_1.py
+sd_upload/module_2.py
+sd_upload/module_3.py
+sd_upload/upload.py
+sd_upload/upload_v2.py
+sd_upload.egg-info/PKG-INFO
+sd_upload.egg-info/SOURCES.txt
+sd_upload.egg-info/dependency_links.txt
+sd_upload.egg-info/requires.txt
+sd_upload.egg-info/top_level.txt
