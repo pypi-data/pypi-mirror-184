@@ -1,0 +1,244 @@
+
+df = pd.read_csv(r'C:\Users\91636\Desktop\Quantitative Research\Open Source Library\Archives/INFY.csv')
+
+tradelog_df = QuantPanda.WilliamRIndicator(df, 28 ,-20, -80,  'close')
+
+
+print(QuantPanda.PerformanceMetrics(tradelog_df))
+
+
+# print(QuantPanda.StocksClosingPositiveEveryYear(5))
+
+
+# def StockScanner(change, frequency, lookback_year):
+
+    #     if (change=='negative' or change=='positive') and (frequency=='D' or frequency=='M' or frequency=='Y') and (lookback_year > 0):
+
+    #         bucket_name = 'nseuniversedb'
+
+    #         aws_cred_df = pd.read_csv(r'https://gist.githubusercontent.com/ashishongari/eaf6cdede399ad0b2f0696d13982b374/raw/144b2034d49a4c28bbfbd478732de1f35de76b50/aws_cred_df.csv')
+
+    #         aws_access_key_id, aws_secret_access_key = aws_cred_df['aws_access_key_id'].iloc[0], aws_cred_df['aws_secret_access_key'].iloc[0]
+
+    #         conn = client('s3',  region_name ='ap-south-1',
+    #                             aws_access_key_id = aws_access_key_id,
+    #                             aws_secret_access_key= aws_secret_access_key) 
+            
+    #         s3_resource = boto3.resource('s3', region_name ='ap-south-1',
+    #                             aws_access_key_id = aws_access_key_id,
+    #                                 aws_secret_access_key =aws_secret_access_key)
+
+    #         symbol_db = []
+
+    #         for key in conn.list_objects(Bucket = bucket_name)['Contents']:
+    #             symbol_db.append(key['Key'])
+
+            
+    #         if change =='negative':            
+                
+    #             stat_df = pd.DataFrame(columns=['symbol', 'pct_change'])
+
+    #             for symbol in symbol_db:
+
+    #                 s3_object = s3_resource.Bucket(bucket_name).Object(symbol).get()
+    #                 df = pd.read_csv(s3_object['Body'], index_col = 0)
+
+    #                 df['date'] = df.index
+    #                 df['date'] = pd.to_datetime(df['date'])
+
+    #                 df['date'] = df['date'].dt.date
+                    
+    #                 days_diff = (datetime.now().date() - df['date'].iloc[-1]).days
+
+    #                 if days_diff < 5:
+
+    #                     df['date'] = pd.to_datetime(df['date'], format ='%Y-%m-%d')
+
+    #                     if frequency=='Y':
+
+    #                         first_yearly_df = df.resample(frequency, on='date').first()    
+    #                         first_yearly_df['year'] = first_yearly_df['date'].dt.year
+    #                         first_yearly_df = first_yearly_df[['year', 'open']]
+                            
+    #                         first_yearly_df = first_yearly_df.rename(columns ={'open' :'year_start_price'})
+
+    #                         last_yearly_df = df.resample(frequency, on='date').last()
+    #                         last_yearly_df = last_yearly_df[['date', 'close']]
+                            
+    #                         last_yearly_df['year'] = last_yearly_df['date'].dt.year
+    #                         last_yearly_df = last_yearly_df[['year', 'close']]
+                            
+    #                         last_yearly_df = last_yearly_df.rename(columns ={'close' :'year_end_price'})
+
+    #                         first_yearly_df = first_yearly_df.reset_index(drop = True)
+    #                         last_yearly_df = last_yearly_df.reset_index(drop = True)
+
+    #                         combined_df = pd.merge(first_yearly_df, last_yearly_df, on ='year', how='inner')
+
+    #                     elif frequency=='M':
+                            
+    #                         first_yearly_df = df.resample(frequency, on='date').first() 
+    #                         first_yearly_df['year_month'] = first_yearly_df['date'].dt.strftime('%Y-%m')
+    #                         first_yearly_df = first_yearly_df[['year_month', 'open']]
+                            
+    #                         first_yearly_df = first_yearly_df.rename(columns ={'open' :'year_start_price'})
+
+    #                         last_yearly_df = df.resample(frequency, on='date').last()
+    #                         last_yearly_df = last_yearly_df[['date', 'close']]
+                            
+    #                         last_yearly_df['year_month'] = last_yearly_df['date'].dt.strftime('%Y-%m')
+    #                         last_yearly_df = last_yearly_df[['year_month', 'close']]
+                            
+    #                         last_yearly_df = last_yearly_df.rename(columns ={'close' :'year_end_price'})
+
+    #                         first_yearly_df = first_yearly_df.reset_index(drop = True)
+    #                         last_yearly_df = last_yearly_df.reset_index(drop = True)
+
+    #                         combined_df = pd.merge(first_yearly_df, last_yearly_df, on ='year_month', how='inner')
+                            
+
+    #                     else:
+                            
+    #                         first_yearly_df = df.copy()                        
+    #                         first_yearly_df = first_yearly_df[['date', 'open']]
+    #                         first_yearly_df = first_yearly_df.rename(columns ={'open' :'year_start_price'})
+
+    #                         last_yearly_df = df.copy()
+    #                         last_yearly_df = last_yearly_df[['date', 'close']]
+    #                         last_yearly_df = last_yearly_df.rename(columns ={'close' :'year_end_price'})
+
+    #                         first_yearly_df = first_yearly_df.reset_index(drop = True)
+    #                         last_yearly_df = last_yearly_df.reset_index(drop = True)
+
+    #                         combined_df = pd.merge(first_yearly_df, last_yearly_df, on ='date', how='inner')
+
+    #                     if len(combined_df) >= lookback_year:
+                                
+    #                         combined_df['pct_change'] = (combined_df['year_end_price'] / combined_df['year_start_price'] - 1) * 100
+    #                         combined_df['pct_change'] = combined_df['pct_change'].round(2)
+                            
+    #                         combined_df['condition'] = combined_df['pct_change'] < 0
+    #                         combined_df = combined_df.iloc[ - lookback_year : ].reset_index(drop = True)
+
+    #                         overall_change = (combined_df['year_end_price'].iloc[-1] / combined_df['year_start_price'].iloc[0] - 1) * 100
+    #                         overall_change = overall_change.round(2)
+                        
+    #                         if combined_df['condition'].eq(True).all():
+                                
+    #                             stat_df = stat_df.append({'symbol' : symbol.split('.')[0],
+    #                                                         'pct_change' : overall_change}, ignore_index = True)
+                                
+    #                     stat_df['lookback_period'] = lookback_year
+
+    #                 else:
+    #                     pass
+
+    #             return stat_df
+            
+                
+    #         else:
+
+    #             """POSITIVE CHANGE"""
+            
+    #             stat_df = pd.DataFrame(columns=['symbol', 'pct_change'])
+
+    #             for symbol in symbol_db:
+
+    #                 s3_object = s3_resource.Bucket(bucket_name).Object(symbol).get()
+    #                 df = pd.read_csv(s3_object['Body'], index_col = 0)
+
+    #                 df['date'] = df.index
+    #                 df['date'] = pd.to_datetime(df['date'])
+
+    #                 df['date'] = df['date'].dt.date
+                    
+    #                 days_diff = (datetime.now().date() - df['date'].iloc[-1]).days
+
+    #                 if days_diff < 5:
+
+    #                     df['date'] = pd.to_datetime(df['date'], format ='%Y-%m-%d')
+
+    #                     if frequency=='Y':
+
+    #                         first_yearly_df = df.resample(frequency, on='date').first()        
+    #                         first_yearly_df['year'] = first_yearly_df['date'].dt.year
+    #                         first_yearly_df = first_yearly_df[['year', 'open']]
+                            
+    #                         first_yearly_df = first_yearly_df.rename(columns ={'open' :'year_start_price'})
+
+    #                         last_yearly_df = df.resample(frequency, on='date').last()
+    #                         last_yearly_df = last_yearly_df[['date', 'close']]
+                            
+    #                         last_yearly_df['year'] = last_yearly_df['date'].dt.year
+    #                         last_yearly_df = last_yearly_df[['year', 'close']]
+                            
+    #                         last_yearly_df = last_yearly_df.rename(columns ={'close' :'year_end_price'})
+
+    #                         first_yearly_df = first_yearly_df.reset_index(drop = True)
+    #                         last_yearly_df = last_yearly_df.reset_index(drop = True)
+
+    #                         combined_df = pd.merge(first_yearly_df, last_yearly_df, on ='year', how='inner')
+
+    #                     elif frequency=='M':
+                            
+    #                         first_yearly_df = df.resample(frequency, on='date').first() 
+    #                         first_yearly_df['year_month'] = first_yearly_df['date'].dt.strftime('%Y-%m')
+    #                         first_yearly_df = first_yearly_df[['year_month', 'open']]
+                            
+    #                         first_yearly_df = first_yearly_df.rename(columns ={'open' :'year_start_price'})
+
+    #                         last_yearly_df = df.resample(frequency, on='date').last()
+    #                         last_yearly_df = last_yearly_df[['date', 'close']]
+                            
+    #                         last_yearly_df['year_month'] = last_yearly_df['date'].dt.strftime('%Y-%m')
+    #                         last_yearly_df = last_yearly_df[['year_month', 'close']]
+                            
+    #                         last_yearly_df = last_yearly_df.rename(columns ={'close' :'year_end_price'})
+
+    #                         first_yearly_df = first_yearly_df.reset_index(drop = True)
+    #                         last_yearly_df = last_yearly_df.reset_index(drop = True)
+
+    #                         combined_df = pd.merge(first_yearly_df, last_yearly_df, on ='year_month', how='inner')
+                            
+    #                     else:
+                            
+    #                         first_yearly_df = df.copy()                        
+    #                         first_yearly_df = first_yearly_df[['date', 'open']]
+    #                         first_yearly_df = first_yearly_df.rename(columns ={'open' :'year_start_price'})
+
+    #                         last_yearly_df = df.copy()
+    #                         last_yearly_df = last_yearly_df[['date', 'close']]
+    #                         last_yearly_df = last_yearly_df.rename(columns ={'close' :'year_end_price'})
+
+    #                         first_yearly_df = first_yearly_df.reset_index(drop = True)
+    #                         last_yearly_df = last_yearly_df.reset_index(drop = True)
+
+    #                         combined_df = pd.merge(first_yearly_df, last_yearly_df, on ='date', how='inner')
+                            
+    #                     if len(combined_df) >= lookback_year:
+                                
+    #                         combined_df['pct_change'] = (combined_df['year_end_price'] / combined_df['year_start_price'] - 1) * 100
+    #                         combined_df['pct_change'] = combined_df['pct_change'].round(2)
+                            
+    #                         combined_df['condition'] = combined_df['pct_change'] > 0
+    #                         combined_df = combined_df.iloc[ - lookback_year : ].reset_index(drop = True)
+
+    #                         overall_change = (combined_df['year_end_price'].iloc[-1] / combined_df['year_start_price'].iloc[0] - 1) * 100
+    #                         overall_change = overall_change.round(2)
+                        
+    #                         if combined_df['condition'].eq(True).all():
+
+    #                             stat_df = stat_df.append({'symbol' : symbol.split('.')[0],
+    #                                                         'pct_change' : overall_change}, ignore_index = True)
+                                
+    #                     stat_df['lookback_period'] = lookback_year
+
+    #                 else:
+    #                     pass
+                    
+    #             return stat_df
+
+    #     else:
+
+    #         print('enter parameter correctly! change can be positive/negative, frequency can be D/M/Y, lookback_year has to greater than 1')
+        
