@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry-demo-victorio"
+version = "0.1.0"
+description = ""
+authors = ["Victorio <victorio.lazaro15@gmail.com>"]
+readme = "README.md"
+packages = [{include = "poetry_demo_victorio/my_package"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+my_package = 'poetry_demo_victorio.my_package.msg:say_hello'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
