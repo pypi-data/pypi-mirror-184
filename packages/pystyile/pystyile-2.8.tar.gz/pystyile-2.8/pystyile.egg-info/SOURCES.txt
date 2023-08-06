@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pystyile/__init__.py
+pystyile.egg-info/PKG-INFO
+pystyile.egg-info/SOURCES.txt
+pystyile.egg-info/dependency_links.txt
+pystyile.egg-info/top_level.txt
