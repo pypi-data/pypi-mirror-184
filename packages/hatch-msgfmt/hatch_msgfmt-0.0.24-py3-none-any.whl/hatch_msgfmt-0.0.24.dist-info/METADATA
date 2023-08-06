@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hatch-msgfmt
+Version: 0.0.24
+Summary: Msgfmt build hook, replacing all po with mo in build
+Author-email: "Taylor C. Richberger" <tcr@absolute-performance.com>
+Maintainer-email: "Taylor C. Richberger" <tcr@absolute-performance.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Hatch
+Requires-Dist: hatchling
+Project-URL: repository, https://github.com/absperf/hatch-msgfmt
+
+# hatch-msgfmt
+A hatch msgfmt plugin, integrating msgfmt.py to convert .po files to .mo during build.
+
