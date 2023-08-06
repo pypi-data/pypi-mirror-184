@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dcpAlive
+Version: 1.0.1
+Summary: DCP-o-Matic with Progress Bars
+Home-page: https://github.com/thegreentimtam/dcpAlive
+Author: Tim Green
+Author-email: the.green.timtam@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dcpAlive
+
+Runs DCP-o-Matic with Alive Progress Bars
+
+## Requires
+
+Requires DCP-o-Matic CLI and FFMPEG to be installed.
+
+## Usage
+
+```python
+from dcpAlive import dcpAlive
+dcpAlive( 'input.mkv' )
+```
+
+### Parameters
+`input` - the input video file
+`output` - the output directory, defaults to `'.'`
+`name` - the name of the film. Defaults to `False`. When `False`, uses the input filename.
+`type` - the type of content. Defaults to `'FTR'`
