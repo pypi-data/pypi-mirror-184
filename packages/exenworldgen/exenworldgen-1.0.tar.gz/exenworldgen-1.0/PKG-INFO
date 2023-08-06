@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: exenworldgen
+Version: 1.0
+Summary: Cool world generator
+Home-page: https://github.com/Exenifix/worldgen
+License: MIT
+Author: Exenifix
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: exencolor (>=1.0,<2.0)
+Project-URL: Repository, https://github.com/Exenifix/worldgen
+Description-Content-Type: text/markdown
+
+# ExenWorldGen
+Module for quicks maze-like 2D world generations <br>
+![https://github.com/Exenifix/worldgen/blob/master.github/res/maze.png](https://github.com/Exenifix/worldgen/blob/master/.github/res/maze.png)
+
+## Installation
+Library is available on PyPI:
+```shell
+$ pip install exenworldgen
+```
+
+## Code Usage
+```python
+from exenworldgen import World
+
+world = World((25, 25))
+data = world.generate()  # data can also be obtained via world.data
+world.print()  # print the world
+```
+
+## CLI Usage
+```shell
+python -m exenworldgen 25x25      # one world of size 25x25
+python -m exenworldgen 10x10 30   # 30 worlds of size 10x10
+```
+
