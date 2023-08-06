@@ -1,0 +1,12 @@
+fe507/__init__.py,sha256=xuzdayHdDVQDDmpgUbYup2Phorzd7ZIAzucA8NgjLt4,327
+fe507/collection.py,sha256=XSawW2TY2FbL9U9VL5ImQnb-2ILTKnUSiFf6IZeWm68,9531
+fe507/constants.py,sha256=XG0J6fbuTdDg8DMY35gfkEV0fbkt--MLHLOhG6VSY_s,56
+fe507/df.py,sha256=p5n8mm7cfEfxOBHxdsxImgzbuLEsWbi8FfR9EkNLWNk,2430
+fe507/fe507.py,sha256=qlAUIrJWWSshyIW-WEw10Px4Wwl7YLAzxKYmBFE8fV8,10514
+fe507/report.py,sha256=kk6vyJ9RsafLtc0Tbp1qxDVUKv3btdVZY624lyXvUjg,86
+fe507/settings.py,sha256=EykmlW4r5PjLco9zPkKuNskW01tOAchP8htHUchvpgA,364
+fe507/utils.py,sha256=nV6bkjLdMrnfgeFwc77moXBrEFpfjPiNQGKE7Ln0agU,162
+fe507-0.4.9a0.dist-info/LICENSE,sha256=X09M2wuzyvThymhKOu2DH-dpBAK0aV6Z9HyNEWjLUwg,475
+fe507-0.4.9a0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+fe507-0.4.9a0.dist-info/METADATA,sha256=qosIm_niEYabUBkoobXX45DyvkDiii1sXuvN_Y_40zA,1084
+fe507-0.4.9a0.dist-info/RECORD,,
