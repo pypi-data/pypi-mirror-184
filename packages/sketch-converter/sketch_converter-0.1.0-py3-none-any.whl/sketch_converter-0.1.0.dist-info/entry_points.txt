@@ -1,0 +1,3 @@
+[console_scripts]
+sketch_converter=sketchconverter.cli:app
+
