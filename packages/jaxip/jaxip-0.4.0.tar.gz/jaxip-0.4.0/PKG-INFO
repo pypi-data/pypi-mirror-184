@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jaxip
+Version: 0.4.0
+Summary: JAX-based Interatomic Potential
+Home-page: https://github.com/hghcomphys/jaxip
+Author: Hossein Ghorbanfekr
+Author-email: hgh.comphys@gmail.com
+License: GNU General Public License v3
+Keywords: jaxip
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
