@@ -1,0 +1,3 @@
+[console_scripts]
+autotrain = autotrain.cli.autotrain:main
+
