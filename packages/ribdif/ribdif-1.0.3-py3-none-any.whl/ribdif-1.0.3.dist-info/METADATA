@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ribDif
+Version: 1.0.3
+Summary: A program to analyse the usefulness of amplicon sequences
+Project-URL: Homepage, https://github.com/Rob-murphys/RibDif2
+Project-URL: Bug Tracker, https://github.com/Rob-murphys/RibDif2/issues
+Author-email: Robert Murphy <Robert.murphy@bio.ku.dk>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# RibDif
+
+Just some place holder text
