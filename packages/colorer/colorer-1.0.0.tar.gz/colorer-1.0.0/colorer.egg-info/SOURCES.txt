@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+colorer/__init__.py
+colorer/colors.py
+colorer/main.py
+colorer.egg-info/PKG-INFO
+colorer.egg-info/SOURCES.txt
+colorer.egg-info/dependency_links.txt
+colorer.egg-info/top_level.txt
