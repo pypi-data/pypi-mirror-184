@@ -1,0 +1,16 @@
+{
+  "src/lib/components/PagenotfoundThreejs.react.js": {
+    "description": "",
+    "displayName": "PagenotfoundThreejs",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": ""
+      }
+    }
+  }
+}
