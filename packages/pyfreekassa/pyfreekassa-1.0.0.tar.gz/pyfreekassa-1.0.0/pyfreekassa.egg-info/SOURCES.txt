@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pyfreekassa/__init__.py
+pyfreekassa/pyfreekassa.py
+pyfreekassa.egg-info/PKG-INFO
+pyfreekassa.egg-info/SOURCES.txt
+pyfreekassa.egg-info/dependency_links.txt
+pyfreekassa.egg-info/requires.txt
+pyfreekassa.egg-info/top_level.txt
