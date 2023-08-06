@@ -1,0 +1,2 @@
+[console_scripts]
+scmaui = scmaui.cli:main
