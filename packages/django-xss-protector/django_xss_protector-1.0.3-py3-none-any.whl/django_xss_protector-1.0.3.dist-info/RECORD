@@ -1,0 +1,14 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/setup.py,sha256=ca3C09JRjdu4e-rjmXETB46OKCI37-lBBxvdlk7i6lA,339
+src/xss_protector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/xss_protector/decorator/__init__.py,sha256=QVYZl_H3ycWfO7LyrAuyYvOP9Fz58ZxutjQ94OmjQEQ,41
+src/xss_protector/decorator/xss_protector.py,sha256=asEaTJb9VZSD5C-piNHJMLyHAXlzyMUhaq9i5Xmgx48,1769
+src/xss_protector/utils/__init__.py,sha256=YErH34hNoWHM7_CKmb9czKS1Xfls0hTBX1MG_GMtWPk,157
+src/xss_protector/utils/exclude_fields.py,sha256=hnzzMeozY9LdsuX50BPtKOnSoCLA3klJSc40COAruiQ,525
+src/xss_protector/utils/filter_fields.py,sha256=TKoDM5Nemt-j-9-yCebHXXGzNKG23VhyT1kqddWrRKw,461
+src/xss_protector/utils/silent_delete_from_dictionary.py,sha256=9n8BfTzHEKMBoLeHEqvt6Hm8JbuLI8bXYUcidTpfRUA,423
+django_xss_protector-1.0.3.dist-info/LICENSE,sha256=L8vFn9ZHT3RRpTtzuzhkgDTutx_NNhMzCw_9YpbZR4Q,35129
+django_xss_protector-1.0.3.dist-info/METADATA,sha256=LyGa8YTs-1_untPPljVpI31EsVugoGEN1wtNbJ2t9Js,1580
+django_xss_protector-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_xss_protector-1.0.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+django_xss_protector-1.0.3.dist-info/RECORD,,
