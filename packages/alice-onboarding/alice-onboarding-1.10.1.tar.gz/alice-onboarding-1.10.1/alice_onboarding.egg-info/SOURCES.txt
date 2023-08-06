@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+alice/VERSION
+alice/__init__.py
+alice/config.py
+alice/public_api.py
+alice_onboarding.egg-info/PKG-INFO
+alice_onboarding.egg-info/SOURCES.txt
+alice_onboarding.egg-info/dependency_links.txt
+alice_onboarding.egg-info/not-zip-safe
+alice_onboarding.egg-info/requires.txt
+alice_onboarding.egg-info/top_level.txt
