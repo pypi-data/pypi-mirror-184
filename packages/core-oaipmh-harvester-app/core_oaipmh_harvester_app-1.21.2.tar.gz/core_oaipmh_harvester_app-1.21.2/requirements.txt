@@ -1,0 +1,10 @@
+celery
+Django
+djangorestframework
+django-rest-framework-mongoengine
+django-simple-menu
+django-mongoengine
+mock
+mongoengine
+requests
+sickle==0.7.0
