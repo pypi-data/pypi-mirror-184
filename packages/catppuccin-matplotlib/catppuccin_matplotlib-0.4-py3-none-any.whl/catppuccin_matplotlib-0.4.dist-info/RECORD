@@ -1,0 +1,14 @@
+mplcatppuccin/__init__.py,sha256=bToYjFzCwVjxBvGLsBoVq3JrgqW7FCbMra5_-Hti5Bs,797
+mplcatppuccin/colormaps.py,sha256=hNzPQ5mBdygtUsDXl1gKJULVswuznpuP5z0gTJ6A8CU,316
+mplcatppuccin/palette.py,sha256=1CvOcZghfd05zViOZmZxsb2ZjOxMuk5dFHaw62kA01g,336
+mplcatppuccin/plots.py,sha256=9WcnYv9nq6Az2nONahQdnM_m2qUhFZgtzt0cliErFGI,3686
+mplcatppuccin/data/frappe.mplstyle,sha256=P0tUyuDtSBrhDhXQgjlTqmqAewrbeM6mjDPctXA8fbs,1313
+mplcatppuccin/data/latte.mplstyle,sha256=hopd5T0U3g4yd4FwkyfmMHcNqzg45NLpM1On0kwEMMg,1312
+mplcatppuccin/data/macchiato.mplstyle,sha256=Sd6GxjLAO1imfb1sy38DcAPvU-lZZYEK3HhbjAS-t5w,1316
+mplcatppuccin/data/mocha.mplstyle,sha256=xgl2MAT-_y8cIgPnO6jZBiOnqasjt2VcpUXYhMG7B6U,1312
+mplcatppuccin/data/palettes.json,sha256=Ne8Vybd0LPGH3QsJCVIdqh6m3-YIXKZ5Yi0TiQH-lxk,8404
+catppuccin_matplotlib-0.4.dist-info/LICENSE,sha256=gUCW0sNMwhbGJHOKSTVvMrcjdzO09-2waF9OUO9QdLo,1067
+catppuccin_matplotlib-0.4.dist-info/METADATA,sha256=k4MtOPcPLUoWBkvpmm2LeOzqU8JnbfjEF7Ufr45BAnE,5528
+catppuccin_matplotlib-0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+catppuccin_matplotlib-0.4.dist-info/top_level.txt,sha256=KtRmuG_3qDQNHoVXWSpihrqpgFLL-IAjhjtU7L9oBp0,14
+catppuccin_matplotlib-0.4.dist-info/RECORD,,
