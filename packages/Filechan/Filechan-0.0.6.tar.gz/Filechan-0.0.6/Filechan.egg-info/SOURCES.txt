@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Filechan/___init__.py
+Filechan/filechan.py
+Filechan.egg-info/PKG-INFO
+Filechan.egg-info/SOURCES.txt
+Filechan.egg-info/dependency_links.txt
+Filechan.egg-info/requires.txt
+Filechan.egg-info/top_level.txt

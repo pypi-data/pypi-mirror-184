@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Filechan
+Version: 0.0.6
+Summary: Simple FileChan Module
+Author: Mugunthan
+Author-email: the.mugunthan@gmail.com
+Keywords: filechan,filechan-api
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FileChan Module
+An Module for filechan.org made in python.
+
+
+# Installation
+
+```sh
+pip3 install Filechan
+```
+
+# USAGE
+
+```py
+from Filechan import filechan
+
+obj = filechan.url_info("https://filechan.org/p0L7GdQ7y3")
+print(obj.direct_url, obj.file_name)
+```
