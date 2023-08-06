@@ -1,0 +1,5 @@
+[console_scripts]
+snakecdysis = snakecdysis.main:main
+
+[snakecdysis]
+snakecdysis = __init__

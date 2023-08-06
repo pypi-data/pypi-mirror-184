@@ -1,0 +1,17 @@
+snakecdysis/Snakecdysis_logo.png,sha256=aP7WcBPuVI-GUQGT1K5-DUK5LONxUAOvXWftn3jAEXw,285846
+snakecdysis/VERSION,sha256=3mcazVHkvTvEDWhY8s3MjOJkVviKu5UK9uxR8AMEhqI,9
+snakecdysis/__init__.py,sha256=QDEPphiJTV-NHLOgr-W8q6KkEqfklikCese1fMVRebo,418
+snakecdysis/_version.py,sha256=O-XtX7rNv9UuDfS2CFnM-83vC5EY81pf3WFwV_OatgQ,192
+snakecdysis/cli_wrapper.py,sha256=HYq_k5JygrbE27fCaYJ2j5q8zcPHXKo4O0qVKZ6PFjE,12003
+snakecdysis/edit_files.py,sha256=8R2VVaoYP3uOp8rwChoNdEy4LhBOe22slLGE5HgrPmc,2558
+snakecdysis/global_variable.py,sha256=rC29pZ2g-CcZGtUukTS1Nr9haJOymu7H6HeniOfAhHg,179
+snakecdysis/install.py,sha256=1WaIPU7GihrYnHN4wwttTwcTPAGEVYBJtlkNrpFykgA,8550
+snakecdysis/run.py,sha256=NQnwoQAzfIfQbm8hJ3l8iYLj-NIOv4SUqnZA80dfaL4,5255
+snakecdysis/snake_wrapper.py,sha256=X8AP40ehwwWS855Vi_G-92KDhgcZx6bIfKExJa6HnuE,23523
+snakecdysis/usefull_function.py,sha256=kzq-ybsNsSWwcwV1q3sgNqSpIBSumfH4KsRGZeqQXPo,5326
+snakecdysis-0.0.1rc0.dist-info/METADATA,sha256=a76iPXaqqsoGk-sgIK8wgVFHVJAe8EWQ0YE_p89OPg0,3002
+snakecdysis-0.0.1rc0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snakecdysis-0.0.1rc0.dist-info/entry_points.txt,sha256=xW81zhCNmshY_6_PHDJxa_ZB9-SSP9DV56bBm4clzds,92
+snakecdysis-0.0.1rc0.dist-info/top_level.txt,sha256=0Kj9bHoCm9xkCa3WhD_loSYFAflAb8tnAFXny4ejWKE,12
+snakecdysis-0.0.1rc0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+snakecdysis-0.0.1rc0.dist-info/RECORD,,
