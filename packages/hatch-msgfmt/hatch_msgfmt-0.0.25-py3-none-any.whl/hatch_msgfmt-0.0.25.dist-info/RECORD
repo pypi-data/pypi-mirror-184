@@ -1,0 +1,12 @@
+hatch_msgfmt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_msgfmt/plugin.py,sha256=75vPp2JBuvkww3Q8L_Q2dDovTr2-81KIqsc97joqTwk,2176
+hatch_msgfmt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hatch_msgfmt/cmd/hooks.py,sha256=431rewADYslY9ANUfmpF5ragcyV40vawrlJIq6_u1tw,151
+hatch_msgfmt/cmd/plugin.py,sha256=6l4tWSvIfpHtCwpMh6nWlbD2DszNS-5qoq9gnyt_IbA,505
+hatch_msgfmt/py/hooks.py,sha256=AmjMj9-oajzEdZzDOJALjKaGjvZs89Wg4l-UdvzvWHQ,149
+hatch_msgfmt/py/msgfmt.py,sha256=lJz7qTk705cFUFqqGXKw66YVFKO7m4pkrdqxUFB8Cmo,5749
+hatch_msgfmt/py/plugin.py,sha256=bTuTCIo650kr4sYiLvl6byq7E697dLTtCjlFUmSJ9GM,405
+hatch_msgfmt-0.0.25.dist-info/entry_points.txt,sha256=rxVkGhOGeiESnL9-GHax02KiNzmC0eZjZT2F9bwnFWY,73
+hatch_msgfmt-0.0.25.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+hatch_msgfmt-0.0.25.dist-info/METADATA,sha256=DgAbr26FXcCNnFHddEwIfWvlApFcLPQXukn6PWqEkKU,638
+hatch_msgfmt-0.0.25.dist-info/RECORD,,
