@@ -1,0 +1,6 @@
+deck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deck/api.py,sha256=GjXMIkve_laV0aeUDqziTUdkrq4JlM_z8MIpFRoJBWA,9917
+deck/models.py,sha256=poyyDRvSyVdJJ4HpnqYJFqodqg_WsItNCfbkL9w_1kk,2304
+nextcloud_deck-0.2.1.dist-info/METADATA,sha256=E4DEkIwmAzImqVuvy85UsXFKKdqBVss7GZNT612hWns,1061
+nextcloud_deck-0.2.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nextcloud_deck-0.2.1.dist-info/RECORD,,
