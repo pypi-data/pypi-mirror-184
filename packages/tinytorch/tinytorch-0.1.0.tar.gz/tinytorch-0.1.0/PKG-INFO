@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tinytorch
+Version: 0.1.0
+Summary: TinyTorch: A simplest pytorch implementation for learning(under construction)
+Author: yewentao256
+Author-email: zhyanwentao@outlook.com
+Requires-Python: >=3.7
+Provides-Extra: test
+License-File: LICENSE

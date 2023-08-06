@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tinytorch.egg-info/PKG-INFO
+tinytorch.egg-info/SOURCES.txt
+tinytorch.egg-info/dependency_links.txt
+tinytorch.egg-info/requires.txt
+tinytorch.egg-info/top_level.txt
