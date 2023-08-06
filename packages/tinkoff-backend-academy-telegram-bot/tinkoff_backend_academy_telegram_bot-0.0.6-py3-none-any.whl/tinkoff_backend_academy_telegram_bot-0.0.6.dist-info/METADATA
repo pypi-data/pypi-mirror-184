@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tinkoff-backend-academy-telegram-bot
+Version: 0.0.6
+Summary: Telegram bot API facade that provides the subscription to custom chat commands via python decorators.
+Home-page: UNKNOWN
+Author: Vladislav Artiukhov
+License: MIT
+Keywords: telegram-bot,telegram-bot-api,telegram-api,telegram,bot-api,bot,tinkoff
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: requests (>=2.25.0)
+
+UNKNOWN
+

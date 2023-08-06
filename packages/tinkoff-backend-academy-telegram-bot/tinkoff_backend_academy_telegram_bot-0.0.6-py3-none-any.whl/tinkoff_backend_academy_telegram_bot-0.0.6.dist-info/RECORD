@@ -1,0 +1,10 @@
+telegrambot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegrambot/bot.py,sha256=hgzpsQchfHSiYackRFYKmOvfgOIKdINTfIR1xYlrsL8,4582
+telegrambot/error.py,sha256=rFLTPihSFtfO-yUJaK7iMSX-3lSaH50VY821ge21LUg,242
+telegrambot/message.py,sha256=ropjWpBxSJBt7DOJOrUjE0EJtjnliuAAQAURh1iPQDc,396
+telegrambot/parser.py,sha256=WNXLrHJrgRZXZVLnPq_h9BrIM408FtalvWwo9AdrFKM,1791
+tinkoff_backend_academy_telegram_bot-0.0.6.dist-info/LICENSE,sha256=F81gelCTLtwv9Soa8PARC3uoWWDsZt7T-XFD54F3A-o,1091
+tinkoff_backend_academy_telegram_bot-0.0.6.dist-info/METADATA,sha256=exBPvVLyglZhFZfYeWFWjBqS3_1OelZml1SK6cX13o0,581
+tinkoff_backend_academy_telegram_bot-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tinkoff_backend_academy_telegram_bot-0.0.6.dist-info/top_level.txt,sha256=xVxbDSGfwYVC4mnPqnmRanWqaIxwhgL-qbkesUzDczM,12
+tinkoff_backend_academy_telegram_bot-0.0.6.dist-info/RECORD,,
