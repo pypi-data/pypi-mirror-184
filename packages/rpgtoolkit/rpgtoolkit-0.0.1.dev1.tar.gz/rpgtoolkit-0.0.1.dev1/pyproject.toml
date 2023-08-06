@@ -1,0 +1,21 @@
+[project]
+name = "rpgtoolkit"
+version = "0.0.1.dev1"
+authors = [
+  { name="Adam Silkey", email="adam.silkey@gmail.com" },
+]
+description = "A Toolkit for RPGs"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/adamsilkey/rpgtoolkit"
+"Bug Tracker" = "https://github.com/adamsilkey/rpgtoolkit/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
