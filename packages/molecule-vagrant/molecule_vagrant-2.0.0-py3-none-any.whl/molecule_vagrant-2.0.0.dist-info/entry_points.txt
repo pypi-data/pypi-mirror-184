@@ -1,0 +1,2 @@
+[molecule.driver]
+vagrant = molecule_vagrant.driver:Vagrant
