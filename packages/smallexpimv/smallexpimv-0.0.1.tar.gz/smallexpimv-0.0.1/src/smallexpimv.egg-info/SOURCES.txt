@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/smallexpimv/F_smallexpimv.F90
+src/smallexpimv/__init__.py
+src/smallexpimv/_version.py
+src/smallexpimv/smallexpimv_pyclasses.py
+src/smallexpimv.egg-info/PKG-INFO
+src/smallexpimv.egg-info/SOURCES.txt
+src/smallexpimv.egg-info/dependency_links.txt
+src/smallexpimv.egg-info/top_level.txt

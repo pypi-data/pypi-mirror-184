@@ -1,0 +1,32 @@
+[project]
+name = "smallexpimv"
+version = "0.0.1"
+authors = [
+  { name="Tobias Jawecki", email="tobias.jawecki@gmail.com" },
+]
+keywords = [
+    "matrix-exponential"
+]
+maintainers = [
+  { name="Tobias Jawecki", email="tobias.jawecki@gmail.com" },
+]
+description = "A package to apply the imaginary exponential of a small-dimensional matrix to a vector."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/newbisi/smallexpimv"
+"Bug Tracker" = "https://github.com/newbisi/smallexpimv/issues"
+
+[build-system]
+requires = [
+    'setuptools >= 61.0.0',
+    'numpy', # required to compile f2py extension
+    ]
+build-backend = "setuptools.build_meta"
+
