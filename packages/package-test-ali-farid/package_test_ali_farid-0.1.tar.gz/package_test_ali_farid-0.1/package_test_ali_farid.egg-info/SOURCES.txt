@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+PackageTest/__init__.py
+PackageTest/admin.py
+PackageTest/apps.py
+PackageTest/models.py
+PackageTest/tests.py
+PackageTest/views.py
+PackageTest/migrations/__init__.py
+package_test_ali_farid.egg-info/PKG-INFO
+package_test_ali_farid.egg-info/SOURCES.txt
+package_test_ali_farid.egg-info/dependency_links.txt
+package_test_ali_farid.egg-info/top_level.txt
