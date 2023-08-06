@@ -1,0 +1,8 @@
+setup.py
+adm4/__init__.py
+adm4/main.py
+adm4.egg-info/PKG-INFO
+adm4.egg-info/SOURCES.txt
+adm4.egg-info/dependency_links.txt
+adm4.egg-info/requires.txt
+adm4.egg-info/top_level.txt
