@@ -1,0 +1,15 @@
+CHANGELOG.md,sha256=7ZEkBJZZl5mgtqirw2TMyDPxyttXgZfdxP2rXQoQAtw,9163
+LICENSE,sha256=aHDnBq0f1LrDjBex4pKrYps1zKb60caqzKxxgFS-joc,1084
+SECURITY.md,sha256=pmeABMPfm53wSLk4zHzI7h9I2joopce-qF-B5YE_nxQ,3351
+deepl/__init__.py,sha256=0oz2eFsB5wKwnxihO6e7goN0NOplCxFWd1p28T96_u8,873
+deepl/__main__.py,sha256=ckz1CCOTVTNOHwJs39RoFBDQOQ0Tpwoa9IZCXbIc1Ks,18192
+deepl/exceptions.py,sha256=e-BcDZHt024liGrj99T4ircVg8Djy2JZa-MHzpUX2z0,2709
+deepl/http_client.py,sha256=QFQo4a4jzKDaQ1Edvy2Ug8jBfarWMaWZ7svNP6jXaqE,6954
+deepl/translator.py,sha256=qIOpNNlvVBdES20mZl0OgZz1d64rfig9gsV8zCusfHU,48199
+deepl/util.py,sha256=SGGAz8fPbDPi5OLsmdzH-tX4-PmlX8jsQ-Tir5VzbSc,3803
+deepl/version.py,sha256=Ir7V7EeZfYFDQMSxekiyHg7yfrqJN4EmvNZHVKmOptw,167
+deepl-1.12.0.dist-info/entry_points.txt,sha256=LCzWecFrG8EXDH4dsB5vjAaPMTyETwh18wuQvGozprY,45
+deepl-1.12.0.dist-info/LICENSE,sha256=aHDnBq0f1LrDjBex4pKrYps1zKb60caqzKxxgFS-joc,1084
+deepl-1.12.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+deepl-1.12.0.dist-info/METADATA,sha256=k6JoCFamBFJgtgknUoVYIumy7T9e38osoU387Wv70c8,23355
+deepl-1.12.0.dist-info/RECORD,,
