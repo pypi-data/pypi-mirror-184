@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: AutoNaviAPI
+Version: 0.0.2
+Summary: Use AutoNavi API for map-related operations
+Home-page: https://github.com/John-is-playing/AutoNaviAPI
+Author: 姬乔恩
+Author-email: x297269694@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a module that uses the AmapNavi API for route planning, geographic latitude and longitude coordinate conversion, inverse transformation, and other operations
+这是一个使用高德地图API进行路线规划、地理经纬度坐标转换、逆转换等操作的模块
+
