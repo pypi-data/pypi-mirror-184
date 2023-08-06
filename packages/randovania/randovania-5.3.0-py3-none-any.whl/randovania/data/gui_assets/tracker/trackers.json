@@ -1,0 +1,20 @@
+{
+    "trackers": {
+        "prime1": {
+            "Game Art (Standard)": "prime1-game.json",
+            "Game Art (3 Lines)": "prime1-game-three-lines.json",
+            "Game Art (2 Lines)": "prime1-game-two-lines.json"
+        },
+        "prime2": {
+            "Game Art (Standard)": "prime2-game.json",
+            "Game Art (3 Lines)": "prime2-game-three-lines.json",
+            "Game Art (2 Lines)": "prime2-game-two-lines.json"
+        },
+        "prime3": {
+            "Game Art": "prime3-game.json"
+        },
+        "dread": {
+            "Game Art": "dread-game.json"
+        }
+    }
+}
