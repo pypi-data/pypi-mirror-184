@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mcstools/mcstools.egg-info/PKG-INFO
+mcstools/mcstools.egg-info/SOURCES.txt
+mcstools/mcstools.egg-info/dependency_links.txt
+mcstools/mcstools.egg-info/requires.txt
+mcstools/mcstools.egg-info/top_level.txt
