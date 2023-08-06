@@ -1,0 +1,10 @@
+[console_scripts]
+cns = interaction.cns:main
+discord = chat.discord.bot:main
+dreams = dreams.dreams:main
+interact = interaction.interact_server:main
+kill_bot = kill_bot:main
+launch_bot = launch_bot:main
+mastodon = chat.mastodon.bot:main
+slack = chat.slack.bot:main
+stable_diffusion = dreams.stable_diffusion:main
