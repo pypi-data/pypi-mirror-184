@@ -1,0 +1,15 @@
+clinproc/__init__.py,sha256=t9_cThoz-VKqKzwZq3-YIEpr7ppyoYgloPu2eQOoetc,3010
+clinproc/ctconfig.py,sha256=PkA44nhJ137-WDl-nDGKqR-xZi49f22lrzeoTGzbSQo,1326
+clinproc/ctdocument.py,sha256=ar0k6uNEp9xvOc3SBddlqn2frGlEnHnn2cduvlKV-Zo,4206
+clinproc/eligibility.py,sha256=FcfVmeHBW8ac7XgM7x1jhfKj48VAkV8dDrZwwanMM_M,4069
+clinproc/proc.py,sha256=5LTLxIbYkogZCwj2CEF6Vc4f_dQCLKi2NSiVDWkWnho,19760
+clinproc/regex_patterns.py,sha256=AUv0kng_IgZBANsHpM5mZ-R-g8LcV3ayOtBLrM-tuHk,678
+clinproc/stats.py,sha256=dirxlEwU_wL1PeberiUU5NxJDHNRMox7FgYXzIXUx6I,815
+clinproc/utils.py,sha256=mQp7omm7ua0mi0e2VkF9wM0lejV6bqrZu-mJu3dOyZo,6029
+clinproc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clinproc/tests/clinproc_tests.py,sha256=KRWBvjK0rbOXuZbWufMdtOyx6MFY9mvhmapLdOgvsaA,6325
+clinproc-0.1.42.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+clinproc-0.1.42.dist-info/METADATA,sha256=Qf2Mpzsgpq56p7oV35bG77Olvtw5EXAyh0NntMDK9RE,4700
+clinproc-0.1.42.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+clinproc-0.1.42.dist-info/top_level.txt,sha256=82rm3kjlW7F13mXPLBufgrmU5M_eEoaiH7zOBwnigFc,9
+clinproc-0.1.42.dist-info/RECORD,,
