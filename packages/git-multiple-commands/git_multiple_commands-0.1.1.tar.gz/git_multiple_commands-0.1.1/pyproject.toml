@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "git-multiple-commands"
+version = "0.1.1"
+description = "Run git commands in multiple directories at once"
+authors = ["Bogdan Rizac"]
+readme = "README.md"
+packages = [{include = "git_multiple_commands"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyyaml = "^6.0"
+typer = "^0.7.0"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.0.3"
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+gmc = "git_multiple_commands.gmc:app"
