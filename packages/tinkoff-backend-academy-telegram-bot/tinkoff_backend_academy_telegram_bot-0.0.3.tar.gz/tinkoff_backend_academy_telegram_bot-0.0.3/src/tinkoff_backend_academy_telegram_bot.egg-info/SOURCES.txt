@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/bot.py
+src/error.py
+src/message.py
+src/parser.py
+src/tinkoff_backend_academy_telegram_bot.egg-info/PKG-INFO
+src/tinkoff_backend_academy_telegram_bot.egg-info/SOURCES.txt
+src/tinkoff_backend_academy_telegram_bot.egg-info/dependency_links.txt
+src/tinkoff_backend_academy_telegram_bot.egg-info/requires.txt
+src/tinkoff_backend_academy_telegram_bot.egg-info/top_level.txt
