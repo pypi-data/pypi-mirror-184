@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: NSFopen
+Version: 2.0.1
+Summary: Read data and parameters from Nanosurf NID and NHF files
+Home-page: https://www.nanosurf.com
+Author: Nanosurf
+Author-email: scripting@nanosurf.com
+
