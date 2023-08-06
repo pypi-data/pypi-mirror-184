@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: tabular-hypernet
+Version: 0.1.0
+Summary: TBD
+Requires-Dist: numpy (>=1.11.1)
+Requires-Dist: matplotlib (>=1.5.1)
+
