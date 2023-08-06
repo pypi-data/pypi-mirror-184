@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: robotframework-mongodb-library4
+Version: 4.0
+Summary: Mongo Database utility library for Robot Framework
+Home-page: https://github.com/aabashkin/robotframework-mongodb-library
+Author: Anton Abashkin
+Author-email: anton.abashkin@keemail.me
+Keywords: mongodb,robotframework,robotframework-mongodb-library,MongoDBLibrary
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+License-File: LICENSE
