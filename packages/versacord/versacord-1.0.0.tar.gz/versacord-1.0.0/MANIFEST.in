@@ -1,0 +1,6 @@
+include README.rst
+include LICENSE
+include requirements.txt
+include versacord/bin/*.dll
+include versacord/py.typed
+include discord/py.typed
