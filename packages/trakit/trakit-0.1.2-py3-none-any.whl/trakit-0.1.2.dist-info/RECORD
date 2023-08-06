@@ -1,0 +1,16 @@
+trakit/__init__.py,sha256=yIjpQc5lyqXXWX7oQ9G2y-lTlvPFeCY_HV5b3UWsLHI,24
+trakit/__main__.py,sha256=sOVxYeVDUxPUfF1XgbrQtuoFyYW6A7FdZsJcw_s7oAk,228
+trakit/api.py,sha256=eRIveImjBhdayNck4IHKdJHflUrj6gv4sniIRlimh7Y,195
+trakit/config.py,sha256=9Sf6tn4o7O0V4niIqSNWAHWuFqY2q07CmPZ8Cv_d-GI,696
+trakit/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trakit/converters/country.py,sha256=eTQFtfO3bsd9vyqAhdjsBIkqN2ZbRaDn04zrobiUUQg,869
+trakit/converters/language.py,sha256=SuBaWOX1SDbMYZQgXqvX3c8Z9SS75D88HVnLcCXCLqc,1076
+trakit/data/config.json,sha256=uwGIWRlZoWA8NSOhn5HyNiU_-4NY7bKtzl1aetlh7h8,21185
+trakit/language.py,sha256=zedxjeBYW_JebBcZkppMUBtFgJppY5lae-QYNa_ays0,6158
+trakit/patterns.py,sha256=-xp7-XwMUln_uPz6LfDPuYUNDzbOEFA2sDR_mca-cxc,1045
+trakit/words.py,sha256=CF8sqzjPUOoquw_j3VFkJ_PJMnAdiwNhrgnwn3q39UQ,2552
+trakit-0.1.2.dist-info/entry_points.txt,sha256=ua6hFDKScrfZ2Xs1RaVrkvyYK4QLZEfGRuqY6P7ZmV4,47
+trakit-0.1.2.dist-info/METADATA,sha256=tsmodkUUMr5KmqMW6gBrDMM4h-jzVgnGMICbE3VDkMg,4704
+trakit-0.1.2.dist-info/LICENSE,sha256=SQOlWLdyOaJn59XweZU7tqq5GShFrWixpgZA7BqePkc,1061
+trakit-0.1.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+trakit-0.1.2.dist-info/RECORD,,
