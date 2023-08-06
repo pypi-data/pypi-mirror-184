@@ -1,0 +1,10 @@
+dclimplode.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+dclimplode.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+dclimplode/__init__.py,sha256=jy7HvoMvDeH0y49ImKI4VdkHyC2RC1420s8-gcr_I6o,350
+dclimplode/version.py,sha256=k7Ox3HPklGxsMIqzhNZyY0OnNubGp9vEE86tPyJlfLg,24
+dclimplode/dclimplode.cpython-38-x86_64-linux-gnu.so,sha256=vEqEu_Iuonm-qNYurrQTblHYwuARo8W8vV9kWZtkDqc,212641
+dclimplode-0.0.1.0.dist-info/RECORD,,
+dclimplode-0.0.1.0.dist-info/METADATA,sha256=idDNbfkHNiOXEquPFX5q7v0oZUfmtpvDaoCeDFOkP0M,2228
+dclimplode-0.0.1.0.dist-info/top_level.txt,sha256=6M8tP_yHoImGWxZSsYe056p5H1IPT8jmvJO70Xz7akY,11
+dclimplode-0.0.1.0.dist-info/LICENSE,sha256=79x5rR705B2q_SDW65ZHGr6qHTOJV9QP13v3LWdhQXk,1061
+dclimplode-0.0.1.0.dist-info/WHEEL,sha256=lb6q83cSSjN97qvFUVTL3e2aOZEde7r_eqCDzXmlUgA,111
