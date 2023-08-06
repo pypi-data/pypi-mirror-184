@@ -1,0 +1,7 @@
+datazip_sqloxide-0.1.26.dist-info/RECORD,,
+datazip_sqloxide-0.1.26.dist-info/METADATA,sha256=3UH7x3rOuITJXNQDnF_ow81uD_XahJkD6ukbkLSQT-0,5603
+datazip_sqloxide-0.1.26.dist-info/top_level.txt,sha256=Leb9wM_DJt4zHo7Z9O2E5VnyOT9ElIC4mE3jtMH5KQs,9
+datazip_sqloxide-0.1.26.dist-info/LICENSE,sha256=SIftBQVFfTh-f37_2iAr4jdDefT-z0keVMpn9Zp3ZAs,1067
+datazip_sqloxide-0.1.26.dist-info/WHEEL,sha256=rPCrA0b2UKlQytFRNFYtMIePhix1C8RdnQroblF8q2o,209
+sqloxide/__init__.py,sha256=YWWJ4Oxst8aHv4I65-AyfUWQqNkSLUltGNfyAiiDjdU,56
+sqloxide/sqloxide.cpython-39-i386-linux-gnu.so,sha256=-F7THaYHyBWP0kQPgwPWBhJVWBPbpbwZWMZ2T-fLxjA,5088212
