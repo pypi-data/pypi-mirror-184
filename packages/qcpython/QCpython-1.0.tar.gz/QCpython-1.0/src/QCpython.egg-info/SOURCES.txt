@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/QCpy/QuantumCircuit.py
+src/QCpy/QuantumGate.py
+src/QCpy/Qubit.py
+src/QCpy/Visualizer.py
+src/QCpy/__init__.py
+src/QCpython.egg-info/PKG-INFO
+src/QCpython.egg-info/SOURCES.txt
+src/QCpython.egg-info/dependency_links.txt
+src/QCpython.egg-info/requires.txt
+src/QCpython.egg-info/top_level.txt
