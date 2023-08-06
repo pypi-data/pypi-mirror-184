@@ -1,0 +1,13 @@
+iseqspreadsheet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iseqspreadsheet/spreadsheetutils.py,sha256=YV-Z464YXqr3bA-98hZJfeWrUajNlZaZHHrSQjRhLqg,2422
+iseqspreadsheet/to_inputs.py,sha256=eF8W6ep6R7-NZ-hpmvoIbNrOQR8UNseJ9ymcNdtP_AE,4853
+iseqspreadsheet/to_outputs.py,sha256=Ph6ZSUqKocmKdVV3GDMYPA15StaqAzE-Vqa_LrW5NSo,4001
+iseqspreadsheet/to_workflows.py,sha256=eeMq-3aKAJcVwUczBsqZKuR4uwYYpw5UaUao3k8Bl7c,3688
+iseqspreadsheet/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iseqspreadsheet/test/spreadsheetutils_test.py,sha256=b7et5yQRNO5PzQqIOG1-mjmwAxeeGkMXPoCzxt1oa4c,5259
+iseqmetatools-0.0.4.dist-info/LICENSE,sha256=HakHJjO15CkWCLIFpmTVr4PLLFoQQvjTTk7yGz3VBPY,460
+iseqmetatools-0.0.4.dist-info/METADATA,sha256=KLjIZVHzNkZsOEYCIB5X9gd592hr6gDHor2StndfBI8,1818
+iseqmetatools-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+iseqmetatools-0.0.4.dist-info/entry_points.txt,sha256=yXmnGGLIPkX6HdGK2kbZ1muKKaJu5awtTiNxQ2V4aCw,164
+iseqmetatools-0.0.4.dist-info/top_level.txt,sha256=e-Ay1PUlsHPcxjHg6pljQUlSmz7XSqCZeHtdyUaBFwE,16
+iseqmetatools-0.0.4.dist-info/RECORD,,
