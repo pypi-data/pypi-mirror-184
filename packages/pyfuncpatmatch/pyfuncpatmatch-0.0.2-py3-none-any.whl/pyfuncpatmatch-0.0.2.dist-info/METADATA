@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyfuncpatmatch
+Version: 0.0.2
+Summary: Pattern matching (like haskell) for python fonctions
+License: MIT
+Author-email: Xavier Mitault <xavier.mitault@epitech.eu>
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# pyfuncpatmatch
+
+Pattern matching (like haskell) for python fonctions
+
