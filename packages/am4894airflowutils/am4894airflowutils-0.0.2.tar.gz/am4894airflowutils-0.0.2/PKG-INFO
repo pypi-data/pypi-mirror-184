@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: am4894airflowutils
+Version: 0.0.2
+Summary: Airflow Utils
+Project-URL: Homepage, https://github.com/andrewm4894/am4894airflowutils
+Project-URL: Bug Tracker, https://github.com/andrewm4894/am4894airflowutils/issues
+Author-email: andrewm4894 <andrewm4894@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# am4894airflowutils
+
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+```bash
+# build dist
+py -m build
+```
+
+```bash
+# upload to testpypi
+py -m twine upload --repository testpypi dist/*
+```
+
+```bash
+# upload to pypi
+py -m twine upload --repository pypi dist/*
+```
+
+```bash
+# install dev requirements
+pip install -r .\requirements-dev.txt
+```
+
+```bash
+# run pytest
+pytest
+```

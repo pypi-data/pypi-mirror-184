@@ -1,0 +1,10 @@
+PyYAML
+Jinja2
+apache-airflow
+apache-airflow-providers-google
+pendulum
+dataclasses
+numpy
+pandas
+requests
+google-api-python-client
