@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: fs-wrapcifs
+Version: 0.1.0
+Summary: Pyfilesystem2 wrapper for case insensitive access to a filesystem
+Home-page: https://github.com/Omniflux/fs.wrapcifs
+License: MIT
+Keywords: filesystem,Pyfilesystem2
+Author: Omni Flux
+Author-email: omniflux@omniflux.com
+Requires-Python: >=3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Filesystems
+Requires-Dist: fs (>=2.4.16,<3.0.0)
+Project-URL: Repository, https://github.com/Omniflux/fs.wrapcifs
+Description-Content-Type: text/x-rst
+
+fs.wrapcifs
+===========
+
+``fs.wrapcifs`` is a PyFileSystem2 wrapper which makes path lookups case insensitive.
+
+Supported Python versions
+-------------------------
+
+- Python 3.11
+
+Usage
+-----
+
+.. code:: python
+
+    >>> from fs.wrapcifs import WrapCaseInsensitive
+    >>> from fs.zipfs import ReadZipFS
+
+    >>> WrapCaseInsensitive(ReadZipFS('example.zip')).getinfo('abc').name == 'ABC'
+    ....
+    True
+
+License
+-------
+
+This module is published under the MIT license.
