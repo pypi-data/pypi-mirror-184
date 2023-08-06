@@ -1,0 +1,8 @@
+datasets_genie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datasets_genie/csv_generator.py,sha256=a8oQWBcaltg4VDFAwBh9ySlsqR0zrx6TFEdlQblmKOU,2225
+datasets_genie/faker_utils.py,sha256=ygyKVktNDmZtXhX6uTxNVihp27_ZhP-gyAEhg3c3gug,1722
+datasets_genie/utils.py,sha256=w9EGIVPv6kxGZYKBU89s3qe0ZCz3ltxXdBh0Qt_Gk4w,1684
+datasets_genie-0.1.0.dist-info/LICENSE,sha256=5t6lcWcFU3TBO5wwq9PYNbgzfVfFUuL-80v5BTGuuMQ,11334
+datasets_genie-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+datasets_genie-0.1.0.dist-info/METADATA,sha256=op9NpUP7VeJvSVvynnZBOcaj7a9ypb2fXUUUHLLs47Q,955
+datasets_genie-0.1.0.dist-info/RECORD,,

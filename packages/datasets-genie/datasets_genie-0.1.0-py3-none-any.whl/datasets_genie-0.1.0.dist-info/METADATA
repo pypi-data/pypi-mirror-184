@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: datasets-genie
+Version: 0.1.0
+Summary: Package for generating fake data in CSV, JSON, and XML formats. It can be used to create placeholder data for testing or demonstration purposes.
+License: Apache-2.0
+Keywords: datagenerator
+Author: Sai Ranga Reddy Nukala
+Author-email: sairangareddy22@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: faker (>=15.3.4,<16.0.0)
+Description-Content-Type: text/markdown
+
+# datagenie
+
+package for generating fake data in CSV, JSON, and XML formats. It can be used to create placeholder data for testing or demonstration purposes.
+
+```
+pip install datagenie
+```
+
+
