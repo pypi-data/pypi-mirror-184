@@ -1,0 +1,6 @@
+six
+pyyaml
+bronx
+
+[docs]
+sphinx
