@@ -1,0 +1,6 @@
+testcontainers/arangodb/__init__.py,sha256=W8HL60lEQiMsWOH5Dbz_ylFksmPnQDX2lof84ZOylE8,3739
+tests/test_arangodb.py,sha256=zNa1kzrg_y3FjAk_Umqn3rpxaeQLKQRXQROCklco1nk,4199
+testcontainers_arangodb-0.0.1rc1.dist-info/METADATA,sha256=jcoN9pGGulRfC4KkqHYLuWQ3dbj08j5nTUJy4JMe9F8,363
+testcontainers_arangodb-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_arangodb-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_arangodb-0.0.1rc1.dist-info/RECORD,,
