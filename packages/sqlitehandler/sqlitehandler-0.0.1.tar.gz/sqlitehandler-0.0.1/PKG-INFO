@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sqlitehandler
+Version: 0.0.1
+Summary: SQLite handler package
+Author: kaki8b (Daniel F.C. F.)
+Author-email: <mail@kaki8b.com>
+Keywords: python,video,stream,video stream,camera stream,sockets
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Package to quickly use SQLite, without having to know sql, with basic functionality.
