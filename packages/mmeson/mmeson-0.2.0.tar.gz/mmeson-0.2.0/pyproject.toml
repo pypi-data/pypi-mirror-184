@@ -1,0 +1,41 @@
+# SPDX-FileCopyrightText: 2022 Stephan Lachnit <stephanlachnit@debian.org>
+# SPDX-License-Identifier: EUPL-1.2
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mmeson"
+description = "ccmake for Meson projects"
+version = "0.2.0"
+requires-python = ">=3.9"
+dependencies = [
+    "urwid",
+    "setuptools",
+]
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved",
+    "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Development Status :: 3 - Alpha",
+]
+keywords = ["meson", "ccmake"]
+
+[project.urls]
+"Documentation" = "https://stephanlachnit.github.io/mmeson/"
+"Source" = "https://github.com/stephanlachnit/mmeson"
+"Bug Tracker" = "https://github.com/stephanlachnit/mmeson/issues"
+
+[project.scripts]
+mmeson = "mmeson.cli:main"
+
+[project.optional-dependencies]
+docs = ["sphinx", "sphinx_rtd_theme", "myst-parser", "sphinxcontrib.apidoc", "sphinx_paramlinks"]
+test = ["pytest"]
