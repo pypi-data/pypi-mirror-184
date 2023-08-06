@@ -1,0 +1,7 @@
+setup.py
+Whatfuscator/__init__.py
+Whatfuscator.egg-info/PKG-INFO
+Whatfuscator.egg-info/SOURCES.txt
+Whatfuscator.egg-info/dependency_links.txt
+Whatfuscator.egg-info/requires.txt
+Whatfuscator.egg-info/top_level.txt
