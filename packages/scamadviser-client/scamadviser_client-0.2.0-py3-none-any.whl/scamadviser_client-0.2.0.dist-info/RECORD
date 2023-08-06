@@ -1,0 +1,12 @@
+LICENSE,sha256=egkNdE0XXeWMcDa8bZKbxc8x4LayNBW9HsVCbL7t2Cc,1070
+scamadviser_client/__init__.py,sha256=tas4IqWGOKd9OWgJVtAHUpQOVzU_QrWizOTi9KiC1Ew,94
+scamadviser_client/base_api.py,sha256=okkJG_yqyLHM3JrkEPbwS5Ap3vCijJ3j_hMMNduy6gE,81
+scamadviser_client/feed_api.py,sha256=lNLCB3fzaQ0NuTJ4pxVREMiRde3i1Y4yK7ELd4Lx3C4,2355
+scamadviser_client/request.py,sha256=taGPIVb6-9hm9PuO10z3PDPdpXb-VYrLOUPgMgzeahQ,669
+scamadviser_client/schema/__init__.py,sha256=mMnYhPiEu1EVdSGluJIQHIlaFOk4t7zbPCnv9K1uliQ,78
+scamadviser_client/schema/feed_params.py,sha256=Vr_MxE0pOLRqcAovQD0R__swk3peFpCR2zuR0Qs8ThA,249
+scamadviser_client/schema/response.py,sha256=Hgm2Vg1G5UUGKPeOnCaCQ3y4yqMhkbn09gsNOhHe-C0,119
+scamadviser_client-0.2.0.dist-info/LICENSE,sha256=egkNdE0XXeWMcDa8bZKbxc8x4LayNBW9HsVCbL7t2Cc,1070
+scamadviser_client-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+scamadviser_client-0.2.0.dist-info/METADATA,sha256=LQK45negc02d6cmZtL8oYBlNITbxFSELoRYcqNkQWBA,1678
+scamadviser_client-0.2.0.dist-info/RECORD,,
