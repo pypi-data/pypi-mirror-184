@@ -1,0 +1,9 @@
+bearface/__init__.py,sha256=NFEx8n9nrHqLkwkuG9_C37iqQSBvhjx5dUZ-Nv_GS6I,226
+bearface/import_utils.py,sha256=NX8fzsRN78Mp8oSY5HsdN6Xj1sWB-QTOw3K48fIIr70,212
+bearface/pytorch.py,sha256=bzMphVXZ6lxCJHFjBDEUiZJ2Zl7IR47ko09_-U9-iIY,638
+bearface/registry.py,sha256=y3RfqrQqLgYwUh8X9rOVw9SOVGqoLBpcfZ_5wp9-DiA,2127
+bearface/resolvers.py,sha256=a_cujoMfxQBDa4sbCLTOfodmgAZ04yA_QrHS8FqLVqs,3627
+bearface-0.0.1.dist-info/METADATA,sha256=Ba9KQO9pDKcGwiykSEbPDspuzR23f0BKoH0ldnn97QE,4159
+bearface-0.0.1.dist-info/LICENSE,sha256=7wnC4cmbLW29-edCxt2DQq9uo1vLirgRpscnqfg-7ZQ,1501
+bearface-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+bearface-0.0.1.dist-info/RECORD,,
