@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: simply-ocr
+Version: 0.0.1
+Summary: Read text from images, using pytesseract and opencv
+Home-page: https://github.com/jeroguzman
+Author: Jeroben Guzmán
+Author-email: jeroguzman@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: pytesseract
+Requires-Dist: opencv-python
+Requires-Dist: scikit-image
+
+# Simply-ocr 0.0.1
+
+[By Jeroben Guzmán ](https://github.com/jeroguzman) 
+
+<br>
+
+For text extraction from images on a simple way / Para extraer texto de imagenes de forma sencilla
+
+<br>
+
+## 💡 Prerequisites
+
+   [Python 3](https://www.python.org/downloads/release/python-3111/)
+
+<br>
+
+## 📚 Examples
+
+```
+from simply_ocr import read_image_en, read_image_es
+
+read_image_en('test.jpg') #for english
+
+read_image_es('test.jpg') #for spanish
+```
