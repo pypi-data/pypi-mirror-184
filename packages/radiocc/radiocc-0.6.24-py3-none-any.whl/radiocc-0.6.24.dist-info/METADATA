@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: radiocc
+Version: 0.6.24
+Summary: Radio occultations
+Home-page: https://gitlab-as.oma.be/radiocc/radiocc
+License: Apache-2.0
+Keywords: radio,occultation
+Author: Ananya Krishnan
+Author-email: ananyakrishnaniiserk@gmail.com
+Requires-Python: >=3.9,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: Matplotlib
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: PyGObject
+Requires-Dist: PyYAML
+Requires-Dist: arrow
+Requires-Dist: bs4
+Requires-Dist: click
+Requires-Dist: colored
+Requires-Dist: dotmap
+Requires-Dist: envtoml
+Requires-Dist: matplotlib
+Requires-Dist: nptyping
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pudb
+Requires-Dist: pycairo
+Requires-Dist: requests
+Requires-Dist: ruamel.yaml
+Requires-Dist: scipy
+Requires-Dist: spiceypy
+Requires-Dist: tqdm
+Requires-Dist: urlpath
+Project-URL: Repository, https://gitlab-as.oma.be/radiocc/radiocc
+Description-Content-Type: text/markdown
+
+# radiocc
+
+> Provide a tool to compute radio occulations for planetary missions.
+
+---
+
+[Requirements](#requirements) |
+[Installation](#installation) |
+[Usage](#usage) |
+[Configuration](#configuration) |
+[Roadmap](#roadmap) |
+[License](#license)
+
+---
+
+## Requirements
+
+### Ubuntu 21.10
+
+```sh
+sudo apt install -y python3-gi libgirepository1.0-dev libcairo2-dev
+gobject-introspection gir1.2-gtk-3.0
+```
+
+### Fedora 35
+
+```sh
+sudo dnf install gcc cairo-devel pkg-config python3-devel
+gobject-introspection-devel cairo-gobject-devel gtk3
+```
+
+## Installation
+
+```sh
+# Create directory.
+mkdir radiocc && cd radiocc
+
+# Create virtual environnement to install package and activate it.
+# Please read: https://docs.python.org/3/library/venv.html
+python -m venv .env
+source .env/bin/activate
+
+# Install radiocc
+pip install radiocc
+```
+
+## Usage
+
+If you use **radiocc** as a command-line, you should read the
+[command line guide][command-line-guide file].
+
+If you decide to use it from Python, you should read the
+[library guide][library-guide file].
+
+## Configuration
+
+**radiocc**
++ runs a list of input folders gathered in a "to_process" folder
++ writes the ouputs and saves figures in a "results" folder
+
+To understand the config file, you should read the
+[config file guide][config-file-guide file].
+
+## Roadmap
+
++ improve old code for lisibility, portability and testing
++ optimise code speed
++ improve CLI interface, library API and config file for parameter tuning
++ provide GUI interface for parameter tuning and application of corrections
+
+## License
+
+Licensed under the [Apache 2.0 license][license file].
+
+[repo url]: https://gitlab-as.oma.be/radiocc/radiocc
+[pypi url]: https://pypi.org/project/radiocc
+[command-line-guide file]: ./command-line-guide.md
+[library-guide file]: ./doc/usage/library-guide.md
+[config-file-guide file]: ./doc/usage/config-file-guide.md
+[license file]: ./doc/usage/LICENSE
+
