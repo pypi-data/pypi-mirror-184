@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: flask-admin-cli
+Version: 0.1.1
+Summary: 
+Home-page: https://mariofix.github.io/flask-admin-cli/
+License: MIT
+Keywords: flask-admin,cli,python,console
+Author: Mario Hernandez
+Author-email: mariofix@proton.me
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: asyncclick (>=8.1.3.4,<9.0.0.0)
+Project-URL: Documentation, https://mariofix.github.io/flask-admin-cli/
+Project-URL: Repository, https://github.com/mariofix/flask-admin-cli
+Description-Content-Type: text/markdown
+
+# flask admin cli
