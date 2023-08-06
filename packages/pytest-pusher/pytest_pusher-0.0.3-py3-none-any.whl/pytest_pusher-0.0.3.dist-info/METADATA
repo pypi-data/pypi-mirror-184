@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pytest-pusher
+Version: 0.0.3
+Summary: pytest plugin for push report to minio
+Home-page: https://github.com/no8ge/pytest-pusher
+Author: lunz1207
+Author-email: lunz1207@gmail.com
+License: Mozilla Public License 2.0 (MPL 2.0)
+Keywords: pytest pytest report push
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.0,  !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+License-File: LICENSE
+Requires-Dist: pytest (>=3.6)
+Requires-Dist: loguru (==0.6.0)
+Requires-Dist: minio (==7.1.12)
+
+# pytest-plugin
+push report to minio
