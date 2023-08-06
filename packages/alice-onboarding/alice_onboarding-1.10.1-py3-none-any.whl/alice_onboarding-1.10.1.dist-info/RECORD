@@ -1,0 +1,9 @@
+alice/VERSION,sha256=a1becxu6fSo0CzXh-GOeiAZjwhklQeSrgYlb8OHxF5g,6
+alice/__init__.py,sha256=rMc5tkgNhnJWddS7Xkq2XJc9xG2cgZO_QR_Gn3jlZj4,213
+alice/config.py,sha256=j-MaVqYwUVE4Tkw7V5NvXLTw2_GsvcOSFaFmzDsv7N0,638
+alice/public_api.py,sha256=AXroVRX_7Gg9CByEx0ziNfhspsWLo4sGNhkj5U9cZ_s,2198
+alice_onboarding-1.10.1.dist-info/LICENSE,sha256=iJD-U2XdZvPH5E1NcBmyPbaKBJJ-L-j2aid-zIPm1Xw,37
+alice_onboarding-1.10.1.dist-info/METADATA,sha256=qKQb--d3r8VdariETGiVKzFNKKnUfZd-K1u3COJHawc,4667
+alice_onboarding-1.10.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+alice_onboarding-1.10.1.dist-info/top_level.txt,sha256=-HFl4wWw98SCTTgGQ0-dCQlhCiVkGrh3PPkqSMnXdnA,6
+alice_onboarding-1.10.1.dist-info/RECORD,,
