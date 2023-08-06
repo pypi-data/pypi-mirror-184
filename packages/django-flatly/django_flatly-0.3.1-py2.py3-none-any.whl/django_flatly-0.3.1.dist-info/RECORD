@@ -1,0 +1,11 @@
+flatly/__init__.py,sha256=r4xAFihOf72W9TD-lpMi6ntWSTKTP2SlzKP1ytkjRbI,22
+flatly/conf.py,sha256=S0zZJ3dCamqSsCbaIGQaAg4O-FlNZoAy-__vXML4v8g,292
+flatly/exceptions.py,sha256=UFasm3P2JL3VpD0HSUwzU8o3yelq2C_a7AqOwP5ErDg,47
+flatly/helpers.py,sha256=3TbCzNITcsBnuYz9Pds7CwEr5SfzHD0F3Q-6cXwveIg,2613
+flatly/urls.py,sha256=zaiJh0ItnPCQhb81TbNKq4r02wsJNFYmzT56jQ2-fzY,2665
+flatly/views.py,sha256=lkp1mVSSkqPoO5bSoT3rjI0bB387XYbTasNsaBuiwaE,145
+django_flatly-0.3.1.dist-info/LICENSE,sha256=KCsRlLIq1Xez6p3B4wYIN2MiJ5m9dnx_KaabkNdGeOs,1515
+django_flatly-0.3.1.dist-info/METADATA,sha256=7XswsATQVab2BtGyk6IiL2zHXZ6jxFeP25h4mt8-wZk,4335
+django_flatly-0.3.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+django_flatly-0.3.1.dist-info/top_level.txt,sha256=dtL1XKn7Vfyi421e6LZsWGX0A-P8GGJf2XG21Ru-xsQ,7
+django_flatly-0.3.1.dist-info/RECORD,,
