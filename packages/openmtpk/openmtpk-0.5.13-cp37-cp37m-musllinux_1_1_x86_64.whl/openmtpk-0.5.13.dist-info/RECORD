@@ -1,0 +1,10 @@
+openmtpk/__init__.py,sha256=b7zb0a4Kh-B0Via8GPeNGALYOyfFdyqFzNBBQFiLhbU,49
+openmtpk/openmtpk.py,sha256=s6k_h-7D6p-28oljC0U2qDZbqODMSrW3NnfjFpCyFYk,8263
+openmtpk/_openmtpk.cpython-37m-x86_64-linux-gnu.so,sha256=ZM5GoMdxIOk9JbFAMwLxGTd6-XqxH3cp3S4BTRlm3DE,1102113
+openmtpk.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+openmtpk.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+openmtpk-0.5.13.dist-info/RECORD,,
+openmtpk-0.5.13.dist-info/METADATA,sha256=nfu7X1TeG7oTrZREKCmWYdkCqW1vOcyHlSOG4aU0qAY,8780
+openmtpk-0.5.13.dist-info/top_level.txt,sha256=VKTPbwRjYteySPtWPhbcwH8YFI7qJ_5SRYYk6BCETek,9
+openmtpk-0.5.13.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+openmtpk-0.5.13.dist-info/WHEEL,sha256=0p99oO35YLwRGkMNgGQ_vAB4FGL7J2qpN6XrcpinrBM,112
