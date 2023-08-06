@@ -1,0 +1,9 @@
+otter_service_stdalone/__init__.py,sha256=QiiYsv0kcJaB8wCWyT-FnI2b6be87HA-CrrIUn8LQhg,22
+otter_service_stdalone/app.py,sha256=98bfaBtCjq5wrGXDksU7b0pyzZMyeXi_G8T17zY33so,8451
+otter_service_stdalone/fs_logging.py,sha256=B5bb57q46qTmEDDphjokFOnSiweIu6Ls2gxqdRTKptg,1734
+otter_service_stdalone/index.html,sha256=6WBs17ZJ9GRxB33k2M57JHMOQqv7vV3HmLvvwzQ1Alg,5590
+otter_service_stdalone-0.0.6.dist-info/METADATA,sha256=MvRW3QW3xJ_TzB5vP3gnNUrVRsDGfeA0zcolHwMhySA,488
+otter_service_stdalone-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+otter_service_stdalone-0.0.6.dist-info/entry_points.txt,sha256=cx447chuIEl8ly9jEoF5-2xNhaKsWcIMDdhUMH_00qQ,75
+otter_service_stdalone-0.0.6.dist-info/top_level.txt,sha256=6UP22fD4OhbLt23E01v8Kvjn44vPRbyTIg_GqMYL-Ng,23
+otter_service_stdalone-0.0.6.dist-info/RECORD,,
