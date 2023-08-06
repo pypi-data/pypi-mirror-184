@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: server-d-pnd-123
+Version: 0.0.1
+Summary: Dicom server example
+Home-page: UNKNOWN
+Author: artur24814
+Author-email: artur24814@gmail.com
+License: UNKNOWN
+Keywords: pydicom,server,pynetdicom,convert dicom
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: pydicom
+Requires-Dist: pynetdicom
+
+A simple example of dicom server with using PyNetDicom.
+
+
