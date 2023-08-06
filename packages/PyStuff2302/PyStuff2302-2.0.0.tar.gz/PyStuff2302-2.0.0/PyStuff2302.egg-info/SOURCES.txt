@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+PyStuff2302.egg-info/PKG-INFO
+PyStuff2302.egg-info/SOURCES.txt
+PyStuff2302.egg-info/dependency_links.txt
+PyStuff2302.egg-info/entry_points.txt
+PyStuff2302.egg-info/not-zip-safe
+PyStuff2302.egg-info/top_level.txt
+pystuff/__init__.py
+pystuff/test.py
