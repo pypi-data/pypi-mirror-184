@@ -1,0 +1,8 @@
+argparse
+auto-editor
+moviepy==2.0.0.dev2
+python-editor
+srt
+torch@ https://download.pytorch.org/whl/torch_stable.html#==1.13.1+cpu
+uuid
+whisper-openai
