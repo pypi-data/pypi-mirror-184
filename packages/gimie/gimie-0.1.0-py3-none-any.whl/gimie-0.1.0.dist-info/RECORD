@@ -1,0 +1,12 @@
+gimie/__init__.py,sha256=AlUmV23egi0nyLBcSJsVGHyW4oxOwaC6Sz87WIddhfA,841
+gimie/cli.py,sha256=-DAdXvMEW6ds3dUrEQiqBokorAqrFkz41zRP5WKe0Ms,2085
+gimie/repo.py,sha256=EA1eLv_rC3Tz0M9PaUjMwrnNYywXF2YjuRsvwS9PZMg,2780
+gimie/sources/files.py,sha256=8W-fw2_iuLG5oE3WTa1uMx4TFlrj4rZrzr_1EL0PZtU,830
+gimie/sources/git.py,sha256=4LN1Fo7DQjsntpJ8pv0KhV897W8_iE5JEr5JrybTsec,3041
+gimie/sources/license.py,sha256=7p-RC3GStMQMMY4FZdsDjbTcsb2UmBAKuSvllWLxevA,832
+gimie/sources/web.py,sha256=Lu3N3AQnMLVOvNg1kR5fgvAAAfYvYi7Fy5ALkM24Jkg,825
+gimie-0.1.0.dist-info/entry_points.txt,sha256=3OVypV0byvTocslthm8wAVtEUwkkqwfXCkeMWdc9Y3k,39
+gimie-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gimie-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+gimie-0.1.0.dist-info/METADATA,sha256=wAY_ADwq0A9yB1z5NtvnT0KEOjp_BSmqLST73xmzzLo,3407
+gimie-0.1.0.dist-info/RECORD,,
