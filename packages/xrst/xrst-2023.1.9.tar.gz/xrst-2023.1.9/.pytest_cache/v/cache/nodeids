@@ -1,0 +1,4 @@
+[
+  "pytest/test_rst.py::test_rst",
+  "tests/test_rst.py::test_rst"
+]

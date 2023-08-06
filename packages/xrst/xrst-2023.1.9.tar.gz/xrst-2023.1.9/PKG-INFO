@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: xrst
+Version: 2023.1.9
+Summary: This is a Sphinx wrapper that extracts RST file from source code
+and then runs sphinx to obtain html, tex, or pdf output files.
+It includes automatic processing and commands that make sphinx easier to use.
+
+Project-URL: Homepage, https://bradbell.github.io/xrst
+Project-URL: Bug Tracker, https://github.com/bradbell/xrst/issues
+Author-email: "Bradley M. Bell" <bradbell@seanet.com>
+License-Expression: GPL-3.0-or-later
+Keywords: documentation,rst,source,sphinx
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Python: >=3.0
+Requires-Dist: build
+Requires-Dist: furo
+Requires-Dist: pyenchant
+Requires-Dist: pyspellchecker
+Requires-Dist: pytest
+Requires-Dist: sphinx
+Requires-Dist: sphinx-book-theme
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: toml
+Description-Content-Type: text/markdown
+
+# Extract Sphinx RST Files
+
+## Install
+
+    pip install xrst
+
+## Documentation
+https://xrst.readthedocs.io
+
+## Git Repository
+https://github.com/bradbell/xrst
