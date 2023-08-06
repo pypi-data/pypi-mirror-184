@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: nbxmpp-client
+Version: 1.0.0
+Summary: XMPP Test Client
+Author: Philipp Hörist
+Author-email: philipp@hoerist.com
+License: MIT
+Project-URL: repository, https://dev.gajim.org/gajim/nbxmpp-client
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nbxmpp (>=4.0.0)
+Provides-Extra: dev
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+
+# nbxmpp-client
+
+A small GTK test client to test various ways to connect to a server.
+
+
+## Installation
+
+	$ pip install nbxmpp-client
+
+
+## Usage
+
+	$ nbc
