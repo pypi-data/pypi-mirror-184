@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: SNV-FEAST
+Version: 0.0.8
+Summary: A package to get signature SNVs from a given strain and set of sink and sources, using MIDAS output
+Author-email: "Leah Briscoe, Eran Halperin, Nandita Garud" <leahpbriscoe@gmail.com>
+Project-URL: Homepage, https://github.com/garudlab/SNV-FEAST
+Project-URL: Bug Tracker, https://github.com/garudlab/SNV-FEAST/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# SNV-FEAST
+
+SNV-FEAST is a method to generate signature SNVs for input into FEAST (Shenhav et al. 2019) from MIDAS (Nayfach et al. 2017) SNV output. 
+
+## Quick start tutorial
+1. Install SNV-FEAST with pip
+
+```
+python3 -m pip install SNV-FEAST==0.0.4
+```
+
+
+
+### Option 1: Run as a python module in your code
+1. Install SNV-FEAST with pip
+2. [Set up your directories and config](dirconfig)
+3. use the module
+
+```
+from snv_feast import snv_feast
+snv_feast.signature_snvs("Bacteroides_uniformis_57318", 5, 1, 200, "<directory to your config file>config.yaml")
+
+```
+
+### Option 2: Run as a command line tool
+1. git clone this repository 
+2. Set up your directories and config
+3. Run CLI script
+
+```
+python snv_feast_cli.py --strain Bacteroides_uniformis_57318 --min_reads 5 --start_index 1 --end_index 200 --config_file_path <directory in which you cloned this repo>/snv-feast/configs/config.yaml
+```
+
+
+
+
+##<a name="dirconfig">Setting up directory and config file </a>
+'example_template' shows how the directory and config should be set up
+
+Required input:
+1. midas_output: MIDAS output with a subdirectory called 'snps/' with it's own subdirectory for each species. In side each species subsubdirectory are two bzipped files 'snps_depth.txt.bz2' and 'snps_ref_freq.txt.bz2'
+2. sink_source.csv : a comma-delimited file with the sink source configuration. It should have the accession numbers  in the first column for each sink of interest, and in the following columns, the accession numbers for the sources for each sink
+
+# Try running with 'example_1' on command line
+
+Run in terminal:
+
+```
+snv_feast_cli --strain Bacteroides_uniformis_57318 --min_reads 5 --start_index 1 --end_index 200 --config_file_path /Users/leahbriscoe/Documents/FEASTX/snv-feast/configs/config.yaml
+
+```
+
+
+# Try running with 'example_1' in a python script
+
+```
+import snv_feast
+snv_feast.signature_snvs(strain="Bacteroides_uniformis_57318", min_reads=5, start_index=1, end_index=200, config_file_path="/Users/leahbriscoe/Documents/FEASTX/snv-feast/configs/config.yaml")
+```
+
+
