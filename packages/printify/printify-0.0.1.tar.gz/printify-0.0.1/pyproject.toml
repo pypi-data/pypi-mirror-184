@@ -1,0 +1,17 @@
+[project]
+name = "printify"
+version = "0.0.1"
+authors = [
+  { name="Amir", email="grjiamir@gmail.com" },
+]
+description = "A small printer package to get some better looking print statements."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/amirxpr/python-pretty-print.git"

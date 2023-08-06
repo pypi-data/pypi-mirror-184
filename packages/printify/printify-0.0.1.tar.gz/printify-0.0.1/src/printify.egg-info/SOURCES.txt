@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/printify/__init__.py
+src/printify/main.py
+src/printify.egg-info/PKG-INFO
+src/printify.egg-info/SOURCES.txt
+src/printify.egg-info/dependency_links.txt
+src/printify.egg-info/top_level.txt
