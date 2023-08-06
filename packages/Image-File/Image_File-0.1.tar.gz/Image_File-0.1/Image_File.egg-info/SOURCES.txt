@@ -1,0 +1,7 @@
+LICENCE.txt
+setup.py
+Image_File/__init__.py
+Image_File.egg-info/PKG-INFO
+Image_File.egg-info/SOURCES.txt
+Image_File.egg-info/dependency_links.txt
+Image_File.egg-info/top_level.txt
