@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: surquest-GCP-logger
+Version: 0.0.1rc2
+Summary: Wrapper around Google Cloud Platform (GCP) logging library to simplify creation of traced logs.
+Project-URL: Homepage, https://github.com/surquest/python-gcp-logger
+Project-URL: Bug Tracker, https://github.com/surquest/python-gcp-logger/issues
+Author-email: Michal Švarc <michal.svarc@surquest.com>
+License-File: LICENSE
+Requires-Dist: surquest-gcp-tracer<0.1.0
+Description-Content-Type: text/markdown
+
+# Introduction
+
+This project provides easy to use wrapper around the Google Cloud Platform logging library to simplify creation of the traced logs.
+
+# Quick Start
+
+```python
+from surquest.GCP.logger import Logger
+
+# request is an object which allows to check the request headers
+# request.headers.get('X-Cloud-Trace-Context', None)
+request = None
+logger = Logger(request=request)
+logger.log(
+    severity="INFO",
+    message="This is a test message",
+    context={
+        "key1": "value1",
+        "key2": "value2"
+    }
+)
+```
