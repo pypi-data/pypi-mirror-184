@@ -1,0 +1,195 @@
+Metadata-Version: 2.1
+Name: archai
+Version: 0.7.0
+Summary: Platform for Neural Architecture Search
+Home-page: https://github.com/microsoft/archai
+Author: Microsoft
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE.md
+License-File: AUTHORS.md
+Requires-Dist: h5py
+Requires-Dist: hyperopt
+Requires-Dist: kaleido
+Requires-Dist: matplotlib
+Requires-Dist: onnx (>=1.10.2)
+Requires-Dist: onnxruntime (>=1.10.0)
+Requires-Dist: overrides (==3.1.0)
+Requires-Dist: plotly
+Requires-Dist: psutil
+Requires-Dist: pyunpack
+Requires-Dist: pyyaml
+Requires-Dist: ray (>=1.0.0)
+Requires-Dist: requests
+Requires-Dist: runstats (>=2.0.0)
+Requires-Dist: seaborn
+Requires-Dist: send2trash (>=1.8.0)
+Requires-Dist: statopt
+Requires-Dist: tensorboard
+Requires-Dist: tensorwatch
+Requires-Dist: tqdm
+Provides-Extra: all
+Requires-Dist: gorilla (>=0.4.0) ; extra == 'all'
+Requires-Dist: scikit-learn ; extra == 'all'
+Requires-Dist: torchvision ; extra == 'all'
+Requires-Dist: coloredlogs ; extra == 'all'
+Requires-Dist: datasets (>=2.4.0) ; extra == 'all'
+Requires-Dist: evaluate (>=0.3.0) ; extra == 'all'
+Requires-Dist: ftfy ; extra == 'all'
+Requires-Dist: sacremoses ; extra == 'all'
+Requires-Dist: sympy ; extra == 'all'
+Requires-Dist: tokenizers (>=0.10.3) ; extra == 'all'
+Requires-Dist: transformers (>=4.25.1) ; extra == 'all'
+Provides-Extra: cv
+Requires-Dist: gorilla (>=0.4.0) ; extra == 'cv'
+Requires-Dist: scikit-learn ; extra == 'cv'
+Requires-Dist: torchvision ; extra == 'cv'
+Provides-Extra: dev
+Requires-Dist: gorilla (>=0.4.0) ; extra == 'dev'
+Requires-Dist: scikit-learn ; extra == 'dev'
+Requires-Dist: torchvision ; extra == 'dev'
+Requires-Dist: coloredlogs ; extra == 'dev'
+Requires-Dist: datasets (>=2.4.0) ; extra == 'dev'
+Requires-Dist: evaluate (>=0.3.0) ; extra == 'dev'
+Requires-Dist: ftfy ; extra == 'dev'
+Requires-Dist: sacremoses ; extra == 'dev'
+Requires-Dist: sympy ; extra == 'dev'
+Requires-Dist: tokenizers (>=0.10.3) ; extra == 'dev'
+Requires-Dist: transformers (>=4.25.1) ; extra == 'dev'
+Requires-Dist: nbsphinx ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-book-theme ; extra == 'dev'
+Requires-Dist: sphinx-git ; extra == 'dev'
+Requires-Dist: sphinx-sitemap ; extra == 'dev'
+Requires-Dist: sphinx-inline-tabs ; extra == 'dev'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'dev'
+Requires-Dist: sphinxcontrib-mermaid ; extra == 'dev'
+Requires-Dist: flake8 (>=5.0.4) ; extra == 'dev'
+Requires-Dist: nbval ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-book-theme ; extra == 'docs'
+Requires-Dist: sphinx-git ; extra == 'docs'
+Requires-Dist: sphinx-sitemap ; extra == 'docs'
+Requires-Dist: sphinx-inline-tabs ; extra == 'docs'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'docs'
+Requires-Dist: sphinxcontrib-mermaid ; extra == 'docs'
+Provides-Extra: nlp
+Requires-Dist: coloredlogs ; extra == 'nlp'
+Requires-Dist: datasets (>=2.4.0) ; extra == 'nlp'
+Requires-Dist: evaluate (>=0.3.0) ; extra == 'nlp'
+Requires-Dist: ftfy ; extra == 'nlp'
+Requires-Dist: sacremoses ; extra == 'nlp'
+Requires-Dist: sympy ; extra == 'nlp'
+Requires-Dist: tokenizers (>=0.10.3) ; extra == 'nlp'
+Requires-Dist: transformers (>=4.25.1) ; extra == 'nlp'
+Provides-Extra: tests
+Requires-Dist: flake8 (>=5.0.4) ; extra == 'tests'
+Requires-Dist: nbval ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+
+<h1 align="center">
+   <img src="https://user-images.githubusercontent.com/9354770/171523113-70c7214b-8298-4d7e-abd9-81f5788f6e19.png" alt="Archai logo" width="384px" />
+   <br />
+</h1>
+
+<div align="center">
+   <b>Archai</b> accelerates your Neural Architecture Search (NAS) through <b>fast</b>, <b>reproducible</b> and <b>modular</b> research, allowing you to generate efficient deep networks for your applications.
+</div>
+
+<br />
+
+<div align="center">
+	<img src ="https://img.shields.io/github/release/microsoft/archai?style=flat-square" alt="Release version" />
+	<img src ="https://img.shields.io/github/issues-raw/microsoft/archai?style=flat-square" alt="Open issues" />
+	<img src ="https://img.shields.io/github/contributors/microsoft/archai?style=flat-square" alt="Contributors" />
+	<img src ="https://img.shields.io/pypi/dm/archai?style=flat-square" alt="PyPI downloads" />
+	<img src ="https://img.shields.io/github/license/microsoft/archai?color=red&style=flat-square" alt="License" />
+</div>
+
+<br />
+
+<div align="center">
+   <a href="#installation">Installation</a> •
+   <a href="#quickstart">Quickstart</a> •
+   <a href="#examples">Examples</a> •
+   <a href="#documentation">Documentation</a> •
+   <a href="#support">Support</a>
+</div>
+
+## Installation
+
+There are various methods to install Archai, but it is recommended to use it within a virtual environment, such as `conda` or `pyenv`. This ensures that the software runs in a consistent and isolated environment, and allows for easy management of installed packages and dependencies.
+
+PyPI provides a convenient way to install Python packages, as it allows users to easily search for and download packages, as well as automatically handle dependencies and other installation requirements. This is especially useful for larger Python projects that require multiple packages to be installed and managed.
+
+**Archai requires Python 3.7+ and PyTorch 1.7.0+.**
+
+```bash
+pip install archai
+```
+
+Please refer to the [installation guide](https://microsoft.github.io/archai/getting_started/installation.html) for more information.
+
+## Quickstart
+
+To run a specific NAS algorithm, specify it by the `--algos` switch:
+
+```terminal
+python scripts/main.py --algos darts --full
+```
+
+Please refer to [available algorithms](https://microsoft.github.io/archai/advanced_guide/nas/available_algorithms.html) for more information on available switches and algorithms.
+
+## Examples
+
+Archai is a cutting-edge NAS platform that uses advanced Machine Learning algorithms to perform a wide range of tasks. In order to illustrate the capabilities of Archai, we will present a series of examples that showcase its ability:
+
+* [Notebooks](https://microsoft.github.io/archai/basic_guide/notebooks.html);
+* [Scripts](https://microsoft.github.io/archai/basic_guide/examples_scripts.html);
+* [30-Minute Tutorial](https://microsoft.github.io/archai/basic_guide/tutorial.html);
+* [Petridish](https://microsoft.github.io/archai/advanced_guide/nas/petridish.html);
+* [Implementing DARTS](https://microsoft.github.io/archai/advanced_guide/nas/implementing_darts.html).
+
+## Documentation
+
+Please refer to the [documentation](https://microsoft.github.io/archai) for more information.
+
+## Support
+
+If you have any questions or feedback about the Archai project or the open problems in Neural Architecture Search, please feel free to contact us using the following information:
+
+* Email: archai@microsoft.com
+* Website: https://github.com/microsoft/archai/issues
+
+We welcome any questions, feedback, or suggestions you may have and look forward to hearing from you.
+
+### Team
+
+Archai has been created and maintained by [Shital Shah](https://shital.com), [Debadeepta Dey](www.debadeepta.com), [Gustavo de Rosa](https://www.microsoft.com/en-us/research/people/gderosa), Caio Mendes, [Piero Kauffmann](https://www.microsoft.com/en-us/research/people/pkauffmann/), and [Ofer Dekel](https://www.microsoft.com/en-us/research/people/oferd) at Microsoft Research.
+
+### Contributions
+
+This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.microsoft.com.
+
+When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repositories using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+### Trademark
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow Microsoft's Trademark & Brand Guidelines. Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship. Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+### License
+
+This project is released under the MIT License. Please review the [file](https://github.com/microsoft/archai/blob/main/LICENSE) for more details.
