@@ -1,0 +1,7 @@
+README.md
+naquadah.py
+setup.py
+naquadah.egg-info/PKG-INFO
+naquadah.egg-info/SOURCES.txt
+naquadah.egg-info/dependency_links.txt
+naquadah.egg-info/top_level.txt

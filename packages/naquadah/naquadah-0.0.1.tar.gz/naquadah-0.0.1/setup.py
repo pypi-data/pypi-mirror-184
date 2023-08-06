@@ -1,0 +1,2 @@
+from setuptools import setup
+setup(name="naquadah", version="0.0.1", py_modules=["naquadah"], author="me", author_email="me@me.com", description="This is a placeholder package created by registerit.", url="http://www.github.com")
