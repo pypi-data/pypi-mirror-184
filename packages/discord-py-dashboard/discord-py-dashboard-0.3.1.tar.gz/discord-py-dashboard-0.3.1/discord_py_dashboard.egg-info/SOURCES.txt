@@ -1,0 +1,11 @@
+README.md
+setup.py
+discord/py/dashboard/__init__.py
+discord/py/dashboard/dashboard.py
+discord/py/dashboard/errors.py
+discord/py/dashboard/server.py
+discord_py_dashboard.egg-info/PKG-INFO
+discord_py_dashboard.egg-info/SOURCES.txt
+discord_py_dashboard.egg-info/dependency_links.txt
+discord_py_dashboard.egg-info/requires.txt
+discord_py_dashboard.egg-info/top_level.txt
