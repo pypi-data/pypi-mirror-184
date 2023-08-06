@@ -1,0 +1,11 @@
+searchlauncher/__init__.py,sha256=bRQQ5b7hEkooW8dEyZBGbhsmNxgEXspP9LKJcGfLoJU,184
+searchlauncher/cli.py,sha256=t0AcL24UP7T7qgTdvUjoDv-7X4mP2fIWQpDxbOfMw3o,1987
+searchlauncher/gui.py,sha256=jc__hcE5RLbcXC8a2ti-AhRk3IfYhuE8Mi79v8RhQFs,2500
+searchlauncher/search.py,sha256=XyUb4Q97vw7gzb8oZlWok3TJF3_IZFDgpvC3vDIUUpA,1221
+searchlauncher/settings/default.toml,sha256=XGSqlf99-ctBqUfsT_NCDZgNrWTPSYDpjhhh66-M-Sw,1237
+searchlauncher/settings.py,sha256=crKxz59J87q0uO083h7huATICI0JeOKu35fEzU8ahZI,1627
+searchlauncher/utils.py,sha256=LbcgbGd2FemiqVbZ4bjfI9bsNPwpahlYQ-EarHwWkHk,203
+searchlauncher-0.1.1.dist-info/entry_points.txt,sha256=a4VpyktBgvsqSGSt08hnMPTfVTEQ-vtkKfXWMClOvXE,57
+searchlauncher-0.1.1.dist-info/METADATA,sha256=LvPTHF74g9ZqQjbPJM74c0rmJn1-pgK6uccUIae7XkY,2656
+searchlauncher-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+searchlauncher-0.1.1.dist-info/RECORD,,
