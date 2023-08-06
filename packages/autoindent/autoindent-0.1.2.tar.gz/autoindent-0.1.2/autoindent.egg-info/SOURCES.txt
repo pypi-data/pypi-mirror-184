@@ -1,0 +1,8 @@
+LICENSE
+README.md
+autoindent.py
+pyproject.toml
+autoindent.egg-info/PKG-INFO
+autoindent.egg-info/SOURCES.txt
+autoindent.egg-info/dependency_links.txt
+autoindent.egg-info/top_level.txt

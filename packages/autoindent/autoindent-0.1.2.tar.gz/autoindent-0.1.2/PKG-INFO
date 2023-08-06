@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: autoindent
+Version: 0.1.2
+Summary: A string indentation package
+Author-email: AvesterHupper <avestor.git@gmail.com>
+Project-URL: Homepage, https://github.com/AvesterHupper/StrIndent/
+Project-URL: Bug Tracker, https://github.com/AvesterHupper/StrIndent/issues
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# StrIndent
+
+> Easy to use, mistakes protected lib to make indents in strings easily
+
+``` python
+from autoindent import Indent
+
+indent = Indent()
+
+indent.add("Some head strings")
+indent.add("Indent is necessary", 2)
+
+print(str(indent))
+```
+
+**StrIndent** is a easy to use, mistakes protected lib that makes your routine formatting less complicated
