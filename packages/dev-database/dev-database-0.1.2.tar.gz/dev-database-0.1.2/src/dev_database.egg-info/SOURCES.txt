@@ -1,0 +1,13 @@
+LICENSE
+setup.cfg
+setup.py
+src/Database/__init__.py
+src/Database/config.py
+src/Database/exceptions.py
+src/Database/main.py
+src/Database/test.py
+src/Database/text.py
+src/dev_database.egg-info/PKG-INFO
+src/dev_database.egg-info/SOURCES.txt
+src/dev_database.egg-info/dependency_links.txt
+src/dev_database.egg-info/top_level.txt
