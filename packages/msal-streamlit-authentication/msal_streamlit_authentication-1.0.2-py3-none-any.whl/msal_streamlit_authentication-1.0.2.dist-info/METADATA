@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: msal-streamlit-authentication
+Version: 1.0.2
+Summary: Streamlit Authentication library based on MSAL.JS
+Author: Michael Staal-Olsen
+Requires-Python: >=3.9.12,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: streamlit
+Description-Content-Type: text/plain
+
+Streamlit Authentication library based on MSAL.JS
