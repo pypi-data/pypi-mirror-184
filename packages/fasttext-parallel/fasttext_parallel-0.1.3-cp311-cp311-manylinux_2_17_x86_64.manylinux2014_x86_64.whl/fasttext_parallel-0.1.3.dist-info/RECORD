@@ -1,0 +1,8 @@
+fasttext_parallel-0.1.3.dist-info/METADATA,sha256=wnibFR0CJ8-lT9JFu4DluvKopUN0RaoClKEXUipuF0Y,1856
+fasttext_parallel-0.1.3.dist-info/WHEEL,sha256=HwOzyb9ngW-p5byV0edknMEkPWyKHHko_HAEhjzge7Q,130
+fasttext_parallel-0.1.3.dist-info/license_files/LICENSE,sha256=SbSoJN0RhrRknbrlp97h4L8hhhIDv0gU19v3uq9glSk,1063
+fasttext_parallel/__init__.py,sha256=_8yL1bGiLSjI3MAN2ocXbg4wVgqrX-L-qWVsOmE7TKI,96
+fasttext_parallel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fasttext_parallel/fasttext_parallel.pyi,sha256=6utQmtA7vEykwuMYdskeI2NNsC2KhUpssMX8izZQ7xU,387
+fasttext_parallel/fasttext_parallel.cpython-311-x86_64-linux-gnu.so,sha256=NDCuRLa69c4UQgXD02dPc696TLJC_5y_PvJXp8IppDY,5226496
+fasttext_parallel-0.1.3.dist-info/RECORD,,
