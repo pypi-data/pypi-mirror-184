@@ -1,0 +1,14 @@
+codec/diameter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codec/diameter/_avp_decoder.py,sha256=HnUmLBTLo6kRMHKBgD6ONpP2_a2G4g9uIcaKDB04XAk,7807
+codec/diameter/_avp_encoder.py,sha256=pMTC1uXy4oyPPAXEOTB0FxlCn9VMfLaYctJ-mNNp17I,9638
+codec/diameter/_diam_tools.py,sha256=k4BoFh36unVjhFb4tEZTqIWpFx1QeCU48NsXzP5419E,5102
+codec/diameter/diameter.py,sha256=LsCtNhS8ykclgUhb9Ar7NxntICSn41xVWvUDE5W9-as,6510
+codec/diameter/dictionary.py,sha256=b384lzNCc3HQuu0J0Tobp9djiyIn_B9yyizlcC_DG2s,7941
+diameter_codec-1.0.1.data/scripts/tcp_client.py,sha256=yXvo8INLY8al-KuZJ3By_f_Xj2AO43DO6-NcoW6jrL0,5835
+diameter_codec-1.0.1.data/scripts/tcp_server.py,sha256=6rz5lWk2CJz5Pz5UeFRnA1Uxd_mvDCY6XwRn8r4M6bM,1519
+diameter_codec-1.0.1.dist-info/METADATA,sha256=lzDhjHDACM6Y1Bx0rq7P93cXtPKOiG68RADHEE9epoo,2819
+diameter_codec-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+diameter_codec-1.0.1.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+diameter_codec-1.0.1.dist-info/top_level.txt,sha256=WlYPRRCdlIvZyJKG05JkLmZ9WtkqDc2sOOOhZtpLHic,6
+diameter_codec-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+diameter_codec-1.0.1.dist-info/RECORD,,
