@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+moon_threejs/MoonThreejs.py
+moon_threejs/_imports_.py
+moon_threejs/metadata.json
+moon_threejs/moon_threejs.min.js
+moon_threejs/moon_threejs.min.js.map
+moon_threejs/package-info.json
+moon_threejs.egg-info/PKG-INFO
+moon_threejs.egg-info/SOURCES.txt
+moon_threejs.egg-info/dependency_links.txt
+moon_threejs.egg-info/top_level.txt
