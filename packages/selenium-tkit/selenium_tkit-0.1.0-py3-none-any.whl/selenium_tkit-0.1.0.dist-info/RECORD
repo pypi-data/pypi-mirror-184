@@ -1,0 +1,8 @@
+selenium_tkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selenium_tkit/chrome.py,sha256=rRYmcxj_VGxNmm9CLNrVpHVO7IWB6a94V7-6qN86WT0,16420
+selenium_tkit/custom_webdriver.py,sha256=j6PSmaZmvcctL4JcQ6L6jzX3wwEHHXsTzpLd0fd4Pqk,28369
+selenium_tkit/edge.py,sha256=13Usmzt2t706qo1t5KrU9Fsi7_Ju-3cbfBaNPscQLsM,3132
+selenium_tkit/firefox.py,sha256=8JMk44YnV_7HnKtUFwUGaq2S7YOfZkEj1xRJjbuO8C8,10934
+selenium_tkit-0.1.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+selenium_tkit-0.1.0.dist-info/METADATA,sha256=0JICSd3xMJDhRsMuBuEWGamjeWnVLbZiOgJuInS44j0,649
+selenium_tkit-0.1.0.dist-info/RECORD,,
