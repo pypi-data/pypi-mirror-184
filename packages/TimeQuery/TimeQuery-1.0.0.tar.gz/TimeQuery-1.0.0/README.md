@@ -1,0 +1,94 @@
+## Introduction
+
+TimeQuery is a Python module that allows you to get the time from anywhere in the world. It is designed to be more user-firendly then datetime and zoneinfo, and is programmed to act as a midway point between your application and these two modules. Designed to be as simple as possible, TimeQuery is small and yet effective in many ways.
+
+## Usage
+
+In order to get the time from anywhere in the world, you first need to use the `now_in(...)` function. In order to use `now_in(...)`, you simply pass the location of where you want to tell the time into it's only parameter: "`cont`". An example is shown below: \
+\
+`>>> loc = TimeQuery.now_in('Japan')`
+\
+If a country has more than one timezone, you can do this:\
+\
+`>>> loc = TimeQuery.now_in('Chile/EasterIsland')` \
+\
+This "`now_in(...)`" function will then return data which can be stored in a variable or passed into the next function, which will output the time itself - `now(...)`. An example of you to use "`now(...)`" is shown below: \
+\
+`>>> TimeQuery.now(loc)`\
+\
+If you used the code from before, you should have a readout of the time on your screen, featuring the date (in DMY form - **you will know how to change this in a sec**), 12 hour time, 24 hour time, and the current timezone you are in (abbreviated). \
+\
+If you wish to have that date written out in a different form, you can use the following \
+command:\
+\
+`>>> TimeQuery.now(loc, TimeQuery.time_formats['ymd all'])`\
+\
+This will show the time exactly same as before, but the data is now in YMD form. \
+
+### Formatting Options
+
+
+The formatting dictionary, as it currently is, has these options: 
+
+#### Day-Month-Year
+##### Time-Inc
+dmy date 12hr apm zone\
+dmy date 24hr zone\
+dmy date 12hr apm\
+dmy date 24hr
+##### No-Time
+dmy date\
+dmy date zone
+
+#### Year-Month-Day
+##### Time-Inc
+ymd date 12hr apm zone\
+ymd date 24hr zone\
+ymd date 12hr apm\
+ymd date 24hr
+##### No-Time
+ymd date\
+ymd date zone
+
+#### Month-Day-Year
+##### Time-Inc
+mdy date 12hr apm zone\
+mdy date 24hr zone\
+mdy date 12hr apm\
+mdy date 24hr
+##### No-Time
+mdy date\
+mdy date zone
+    
+#### Time Only
+12hr apm\
+24hr\
+12hr apm zone\
+24hr zone\
+24hr / 12hr apm\
+24hr / 12hr apm zone
+
+#### Special - "All"
+all dmy\
+all ymd\
+all mdy
+    
+#### Timezone [Special]
+tz
+
+### Getting the Areas
+
+It is quite hard to predict the names of the "`zoneinfo` places". That is why TimeQuery includes the function `tzfold()`, which will show you to the path(s) to the folder that all the "places" are in. In this folder, all the countries that *only have one timezone* are files. All the countries that have multiple are represented as folders, with the areas that have their own timezone within that "country folder". Note that several time-related acronyms can be located in the main and sub folders. Example usage is shown below: \
+\
+`>>> path = TimeQuery.tzfold()`
+
+## Technical ⚙️
+
+There is nothing too technical in this module.
+
+## Credits
+
+This module was put together by:\
+Pigeon Nation :] \
+\
+This module is mainly a in-between script. The true functionality that makes this module work comes from datetime and zoneinfo; this module just makes things simpler and more understandable.

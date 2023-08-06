@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+TimeQuery/__init__.py
+TimeQuery.egg-info/PKG-INFO
+TimeQuery.egg-info/SOURCES.txt
+TimeQuery.egg-info/dependency_links.txt
+TimeQuery.egg-info/top_level.txt
