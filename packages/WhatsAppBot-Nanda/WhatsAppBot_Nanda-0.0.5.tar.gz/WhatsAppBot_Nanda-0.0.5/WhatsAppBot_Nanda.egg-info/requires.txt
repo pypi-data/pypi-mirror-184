@@ -1,0 +1,10 @@
+pyautogui
+scipy
+pyperclip
+numpy
+pynput
+tkvideo
+Pillow
+
+[win32]
+pywin32
