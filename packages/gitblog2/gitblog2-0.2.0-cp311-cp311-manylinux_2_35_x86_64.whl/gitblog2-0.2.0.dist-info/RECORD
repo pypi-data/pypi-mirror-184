@@ -1,0 +1,15 @@
+gitblog2/__init__.py,sha256=TvErfjJgM9ag6zH-Hd9UDEnf4PDpbFUIDOgCAyz2qHs,25
+gitblog2/cli.py,sha256=Q0YEaPJCjZqEuZgLOri6AZtmLBMHdHL9nCWV1lYCZJ4,1145
+gitblog2/lib.py,sha256=BjIKIry72qm50gL5bAAkO3LVBRkjkOnCi9wkI9UTMqg,11516
+gitblog2/media/cc-by.svg,sha256=ZD48po96DH_Z104pxyN6GY95LOMivpcFlRfVTPBIjkk,8392
+gitblog2/media/favicon.svg,sha256=GDGSzCRUECtWKj43pgEk2daROm70RCZyc6wFtpQLvIU,361
+gitblog2/templates/article.html.j2,sha256=49-nIV0Mv-EZ6GCjBd2fjgSf1Ygsjp92kkV_ppozFGw,1384
+gitblog2/templates/footer.html.j2,sha256=rKxtrQcSBMD3oypzvq4OCSdTalMazAmtxUiOQ1ZogXQ,237
+gitblog2/templates/head_common.html.j2,sha256=O5uTBkm9lAKlvzy5eotQh_YHO_FVwvU1VyPzNp5Gobs,213
+gitblog2/templates/index.html.j2,sha256=FWBHxxAeHxWuxbcTa_Vh0MwtEvSyLx_H7k1bUoxQjrQ,426
+gitblog2/templates/navbar.html.j2,sha256=gL9KD8S_a5EOXgrHVKUZxwewiE84Dm0EHVWxN9oJx_0,193
+gitblog2-0.2.0.dist-info/METADATA,sha256=XZYFLr__3qmHklkJDnfdow69oPKWkV0aA3ulPBaoWA0,1632
+gitblog2-0.2.0.dist-info/entry_points.txt,sha256=puyuCYvqcxFyg7jaPZ95_p7MEllXnnHAAh53vJO2M8Y,46
+gitblog2-0.2.0.dist-info/LICENSE,sha256=nldeo8_DHZMkGJ2nlotUeqAeYNSXdez2WoDwbRGvnw4,1070
+gitblog2-0.2.0.dist-info/WHEEL,sha256=joXoN4aza87RFLV96ldRT0ollcA-Yh6s1YgIFkHg1ks,110
+gitblog2-0.2.0.dist-info/RECORD,,
