@@ -1,0 +1,6 @@
+testcontainers/mysql/__init__.py,sha256=Yhwd2pIF59mRU-MZST-_Fa8QhTwvdKLD5OM1qnEgfNI,2971
+tests/test_mysql.py,sha256=EOizXqtxPOzFVKVaVQHDe7iY_GEFPFRzt3xhEnsxGwM,787
+testcontainers_mysql-0.0.1rc1.dist-info/METADATA,sha256=LMxqTKJYUncF_4HwV-STU8VaIZIzTYbBT2DZnnhXSYo,372
+testcontainers_mysql-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_mysql-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_mysql-0.0.1rc1.dist-info/RECORD,,
