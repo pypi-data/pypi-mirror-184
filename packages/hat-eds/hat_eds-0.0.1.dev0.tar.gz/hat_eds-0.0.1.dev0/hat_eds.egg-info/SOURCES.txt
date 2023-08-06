@@ -1,0 +1,5 @@
+pyproject.toml
+hat_eds.egg-info/PKG-INFO
+hat_eds.egg-info/SOURCES.txt
+hat_eds.egg-info/dependency_links.txt
+hat_eds.egg-info/top_level.txt
