@@ -1,0 +1,12 @@
+pixsoup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixsoup/cli.py,sha256=9h2m_1K9RDKQs6sAImCimiLXfZ4qEvjZQ3iTCkGl2JA,9227
+pixsoup/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixsoup/api/api.py,sha256=UhsPMfHmaIH8lZOTJqdxmrP45pJjL2x6REyk406oHFI,2886
+pixsoup/api/data.py,sha256=extPzqWjc5XuZtALY4lL8V_UlA9E2xw-003ItMQMpWg,1138
+pixsoup/api/queries.py,sha256=8A-LmQs6akrhts0piaVQ-e5pNXw36Qa6KefKTxqims0,2482
+pixsoup-0.1.0.dist-info/LICENSE.txt,sha256=IKijOB023LfK-VdCY7UU5HOLsn9RF0ENEHLXMfBOf2Y,1063
+pixsoup-0.1.0.dist-info/METADATA,sha256=I0hhcH1aoMFMnS_ptLO7aEdV9FankRr4K30-yYI7NhQ,544
+pixsoup-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pixsoup-0.1.0.dist-info/entry_points.txt,sha256=EU2PedTu5901YqKd4lp24EzL0vN3LM_9N77tFrpHBFE,45
+pixsoup-0.1.0.dist-info/top_level.txt,sha256=UdweGsTK6RFDUSvP7mFf34OFVgfcrlDxsVMn6L_U_B4,8
+pixsoup-0.1.0.dist-info/RECORD,,
