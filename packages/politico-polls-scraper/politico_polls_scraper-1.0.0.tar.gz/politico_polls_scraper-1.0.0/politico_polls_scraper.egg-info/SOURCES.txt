@@ -1,0 +1,10 @@
+LICENSE
+PoliticoPolls.py
+README.md
+pyproject.toml
+setup.py
+politico_polls_scraper.egg-info/PKG-INFO
+politico_polls_scraper.egg-info/SOURCES.txt
+politico_polls_scraper.egg-info/dependency_links.txt
+politico_polls_scraper.egg-info/requires.txt
+politico_polls_scraper.egg-info/top_level.txt
