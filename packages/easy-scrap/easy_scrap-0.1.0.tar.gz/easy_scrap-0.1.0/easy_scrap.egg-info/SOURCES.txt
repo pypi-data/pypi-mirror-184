@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+easy_scrap/__init__.py
+easy_scrap/scrapper.py
+easy_scrap/utils.py
+easy_scrap.egg-info/PKG-INFO
+easy_scrap.egg-info/SOURCES.txt
+easy_scrap.egg-info/dependency_links.txt
+easy_scrap.egg-info/requires.txt
+easy_scrap.egg-info/top_level.txt
