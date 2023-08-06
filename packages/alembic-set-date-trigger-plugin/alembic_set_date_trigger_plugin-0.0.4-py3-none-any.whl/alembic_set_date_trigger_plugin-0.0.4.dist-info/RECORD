@@ -1,0 +1,9 @@
+alembic_set_date_trigger_plugin/__init__.py,sha256=QCyNsNGvA4LY0rourRqfrNXSBkS8C9jf397ejoI13Yk,183
+alembic_set_date_trigger_plugin/function_op.py,sha256=QkUFlVZnmugO5NvsHut1BIrZsgPK0PoE8kl2Xe95Rt8,4080
+alembic_set_date_trigger_plugin/sqlalchemy_types.py,sha256=DxZMg175qzSZupONx1BB4VibqtWA_lSodivAeuvb7Rg,723
+alembic_set_date_trigger_plugin/trigger_op.py,sha256=VJYkeY50Z-qMmQTpNONaNcgzGIzoX5rbVx1rFptG-b8,5732
+alembic_set_date_trigger_plugin-0.0.4.dist-info/LICENSE,sha256=So5q4mPiyu3ZjY2t4P4Cc7yRsU0Y7ybysXLitqz58Qw,1081
+alembic_set_date_trigger_plugin-0.0.4.dist-info/METADATA,sha256=ZlLALNiBD2uCjWAnTEw9nSKBmGHuLX0o1gdOZAbPjkc,307
+alembic_set_date_trigger_plugin-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+alembic_set_date_trigger_plugin-0.0.4.dist-info/top_level.txt,sha256=Uh_nKDJL0nCkjrxkHzbn9BpDuAIU_pBtNZqIpcEE4_8,32
+alembic_set_date_trigger_plugin-0.0.4.dist-info/RECORD,,
