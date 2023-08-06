@@ -1,0 +1,10 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+torchpruner/__init__.py
+torchpruner/torchpruner.py
+torchpruner.egg-info/PKG-INFO
+torchpruner.egg-info/SOURCES.txt
+torchpruner.egg-info/dependency_links.txt
+torchpruner.egg-info/top_level.txt

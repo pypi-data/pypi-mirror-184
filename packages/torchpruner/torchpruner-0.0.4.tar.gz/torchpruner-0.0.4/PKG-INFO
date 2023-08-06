@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: torchpruner
+Version: 0.0.4
+Summary: Python library to perform pruning of pytorch neural networks
+Home-page: UNKNOWN
+Author: Ashhadul Islam, Samir Brahim Belhaouari
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: This library takes any pytorch neural network and prunes its weights while maintaining accuracy
+Platform: UNKNOWN
