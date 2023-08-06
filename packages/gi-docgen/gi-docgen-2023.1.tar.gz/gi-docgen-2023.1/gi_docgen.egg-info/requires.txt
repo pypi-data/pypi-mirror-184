@@ -1,0 +1,8 @@
+Markdown>=3.2
+MarkupSafe
+Pygments
+jinja2
+typogrify
+
+[:python_version < "3.11"]
+tomli
