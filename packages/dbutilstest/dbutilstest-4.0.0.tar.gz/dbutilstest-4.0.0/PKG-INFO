@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dbutilstest
+Version: 4.0.0
+Summary: Demo Package for testing.
+Home-page: https://github.com/ardada2468/newpythonstuff
+Author: Arnav Dadarya
+Author-email: ardada2468@gmail.com
+License: MIT
+Keywords: arnav dadarya
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Sample Package made for a demo 	of its making for the GeeksforGeeks Article.
