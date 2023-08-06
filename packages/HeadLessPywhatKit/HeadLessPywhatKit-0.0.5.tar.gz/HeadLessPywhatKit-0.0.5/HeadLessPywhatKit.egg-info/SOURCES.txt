@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+HeadLessPywhatKit.egg-info/PKG-INFO
+HeadLessPywhatKit.egg-info/SOURCES.txt
+HeadLessPywhatKit.egg-info/dependency_links.txt
+HeadLessPywhatKit.egg-info/requires.txt
+HeadLessPywhatKit.egg-info/top_level.txt
+HeadlessPywhatKit/__init__.py
+HeadlessPywhatKit/app.py
+HeadlessPywhatKit/whats.py
