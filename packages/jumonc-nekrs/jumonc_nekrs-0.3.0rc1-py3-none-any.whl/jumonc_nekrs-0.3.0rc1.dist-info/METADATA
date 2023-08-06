@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jumonc-nekrs
+Version: 0.3.0rc1
+Summary: LogParser jumonc plugin for nekRS
+Home-page: https://gitlab.jsc.fz-juelich.de/coec/jumonc_nekrs
+Author: Christian Witzler
+Author-email: c.witzler@fz-juelich.de
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: JuMonC (>=0.10.0rc2)
+Requires-Dist: pluggy
+
+
+todo
+
