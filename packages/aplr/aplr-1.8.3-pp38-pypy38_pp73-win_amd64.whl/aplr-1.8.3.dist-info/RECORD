@@ -1,0 +1,9 @@
+aplr_cpp.cp38-win_amd64.pyd,sha256=fCi_Ys-rc1qiPGJGu1QZXnbmkugypvbehWZ1-Nd5p80,305664
+aplr_cpp.pypy38-pp73-win_amd64.pyd,sha256=5eKW8A_jrpFupvAG3d07We1krryE2XL9-4NzOcRABZs,303616
+aplr/__init__.py,sha256=jLHRAp1zq22wmHqFIghBqfVSnMBnd27LjffHgzI07Hw,19
+aplr/aplr.py,sha256=hInXS55jrL95_iqkU-hUQnLzOyl0i4XoXcfacFCAsaQ,5426
+aplr-1.8.3.dist-info/LICENSE,sha256=YOMo-RaL4P7edMZGD96-NskKpxyMZdP3-WiiMMmihNk,1134
+aplr-1.8.3.dist-info/METADATA,sha256=UoayHdTaKUQKWQ6N0CknRhqa-y_CXJSzslHLcMBbk6Y,626
+aplr-1.8.3.dist-info/WHEEL,sha256=06TODGy9zsn9QCb4Oo1wjtnM2jOjgiTR78nw1cWltRU,107
+aplr-1.8.3.dist-info/top_level.txt,sha256=DXVC0RIFGpzVnPeKWAZTXQdJheOEZL51Wip6Fx7zbR4,14
+aplr-1.8.3.dist-info/RECORD,,
