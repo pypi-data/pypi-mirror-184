@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dflow-phonon
+Version: 0.0.11
+Summary: A phonon calculation package based on dflow
+Home-page: https://github.com/Chengqian-Zhang/dflow-phonon
+Author: Chengqian Zhang
+Author-email: 2043899742@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides: dflowphonon
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dflow-phonon
