@@ -1,0 +1,12 @@
+uoshardware/__init__.py,sha256=PJaV8l2yK2XImhTDMDTjJ4JXeeEAfcxUrlt7Hbrqg1A,1356
+uoshardware/abstractions.py,sha256=HGg844Cydmv0yff6tQQWS1VDIiM40XU6q18nUlAgIYk,15353
+uoshardware/api.py,sha256=Qom8KfANWk4he7Q5bjCVEqxtlpv3fXLMKu5AGbIOPzw,12998
+uoshardware/devices/__init__.py,sha256=xeVWfz6jWFlYS5nE40QTayJ7r-guiJ4EboriTuc-u_w,715
+uoshardware/devices/_arduino.py,sha256=Fa3ytH4-1Side7i7BQc6hok9twPCScJeVLdNpNabJKo,3302
+uoshardware/interface/__init__.py,sha256=jDuXjLBP4bqOrMElybUHlBjLdJeIJZShLGOsX5b8ym8,278
+uoshardware/interface/serial.py,sha256=uTKuXyw_RAgmzP-tR5Cx71V8LMKQtuN7S3iprsturPA,10033
+uoshardware/interface/stub.py,sha256=ALxNhtotxiGgENWPUp-_6dxgojz2GQlc3aZ9k798mBc,3315
+uos_hardware-0.5.0.dist-info/LICENSE.md,sha256=YVRJ6cUpBLmwX7x0bBBcmtY36waJWvZWLWfUyEOGCiE,1163
+uos_hardware-0.5.0.dist-info/METADATA,sha256=Hut6FxluFzgjSWfDoQnzqT322M3JotNbpjXG6PWiWLY,2273
+uos_hardware-0.5.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+uos_hardware-0.5.0.dist-info/RECORD,,
