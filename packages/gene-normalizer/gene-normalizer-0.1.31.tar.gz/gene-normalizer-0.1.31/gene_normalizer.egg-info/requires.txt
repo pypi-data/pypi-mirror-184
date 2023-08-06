@@ -1,0 +1,12 @@
+boto3
+click
+fastapi
+ga4gh.vrsatile.pydantic~=0.0.11
+ga4gh.vrs~=0.8.1.dev0
+pydantic
+uvicorn
+
+[dev]
+biocommons.seqrepo
+gffutils
+psycopg2-binary
