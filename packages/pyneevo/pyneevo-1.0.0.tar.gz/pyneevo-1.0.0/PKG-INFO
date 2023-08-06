@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyneevo
+Version: 1.0.0
+Summary: Python library for interacting with the Neevo API
+Home-page: https://github.com/davidflypei/pyneevo
+Author: davidflypei
+Project-URL: Bug Tracker, https://github.com/davidflypei/pyneevo/issues
+Keywords: neevo,propane,tank,api
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyneevo
