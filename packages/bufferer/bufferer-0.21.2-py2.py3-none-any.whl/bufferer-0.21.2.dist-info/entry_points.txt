@@ -1,0 +1,2 @@
+[console_scripts]
+bufferer = bufferer.__main__:main
