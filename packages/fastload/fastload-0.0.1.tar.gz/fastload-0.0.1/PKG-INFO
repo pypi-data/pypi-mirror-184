@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fastload
+Version: 0.0.1
+Summary: A Fast File Downloader For Python
+Author: Danish Anodher
+Author-email: 
+Keywords: python,downloader,file_downloader,fast_downloader,download
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+
+FastLoad downloads files faster using the same technology as IDM aiming to utilize the maximum available bandwidth for faster downloading.
