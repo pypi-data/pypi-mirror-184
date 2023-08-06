@@ -1,0 +1,12 @@
+weave/__about__.py,sha256=jVZf7EtvF7uHx1pzvIz8juAd966YWDSKSr1ZM3Xz1V4,734
+weave/__init__.py,sha256=9QjY3aibI6C8C9G5N3RDok4yZtcjToFz7oudreHKjDI,35
+weave/dimension.py,sha256=RSK-0f9yK97bvMrr_HZMO5X0sPnE1GzQ1fzpEMnO-P0,23188
+weave/distance.py,sha256=00M3DifV9Gdtt4Dyvb5tBX_WovpzMvqPk99c36RKh3s,3537
+weave/kernels.py,sha256=ng0O7DfmXnBh3if2YKH_buC2wP-f_su_lWTwi3-9R-4,7163
+weave/smoother.py,sha256=_IL_VyCkAqnGeJ1qkyMYsHbVJBgry_MztzaB3iNSVu8,19139
+weave/utils.py,sha256=LNNsSrUVK2at7aJhPZ-oFcd0On8BK3Ea1VeE_jPgi8c,3344
+weighted_average-1.0.0.dist-info/LICENSE,sha256=178pzVV5-7CnH5w1wTzfYN1EpSGOZ65y2s9dFrpigN8,1328
+weighted_average-1.0.0.dist-info/METADATA,sha256=a_7SzXz0V5_Sv0ZYQgyfjT2fI6vxowF-cZQytSD97RE,1778
+weighted_average-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+weighted_average-1.0.0.dist-info/top_level.txt,sha256=wqry4TnAIO7OunE346dEGFGS08RA_SBvpufxTgJpYko,6
+weighted_average-1.0.0.dist-info/RECORD,,
