@@ -1,0 +1,8 @@
+streamdeck
+Pillow
+
+[:platform_system == "Linux"]
+xdg
+
+[backends]
+el_decko_backend_obs_ws>=0.0.1
