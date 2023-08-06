@@ -1,0 +1,4 @@
+include pyproject.toml
+include Python/openmtpk/*.so
+include *.md
+include LICENSE
