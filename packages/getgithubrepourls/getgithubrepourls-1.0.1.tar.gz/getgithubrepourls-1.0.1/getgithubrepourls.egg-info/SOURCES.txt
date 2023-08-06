@@ -1,0 +1,7 @@
+setup.py
+getgithubrepourls/__init__.py
+getgithubrepourls.egg-info/PKG-INFO
+getgithubrepourls.egg-info/SOURCES.txt
+getgithubrepourls.egg-info/dependency_links.txt
+getgithubrepourls.egg-info/requires.txt
+getgithubrepourls.egg-info/top_level.txt
