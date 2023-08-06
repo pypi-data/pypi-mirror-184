@@ -1,0 +1,332 @@
+Metadata-Version: 2.1
+Name: djoser_web3
+Version: 0.0.2
+Summary: Extension of Djoser package that includes Web3 Authentication for Django Rest Framework
+Home-page: https://boomslag.com
+Author: Boomslag
+Author-email: mail@boomslag.com
+Maintainer-email: support@boomslag.com
+License: MIT
+Keywords: djangorestframework web3 ethereum
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Djoser Web 3
+##################################
+
+
+**Getting Started**
+********************
+
+To get started with Djoser in Django, you will need to install the Djoser library and configure it in your Django project. Here are the steps you can follow:
+
+**Step 1**. Install the Djoser library using pip:
+
+    .. code-block:: python
+
+        pip install djoser djoser-web3
+
+**Step 2**. Add **`djoser`** and **`djoser-web3`** to the **INSTALLED_APPS** list in your Django project's **`settings.py`** file:
+
+    .. code-block:: python
+
+        DJANGO_APPS = [
+            'django.contrib.admin',
+            'django.contrib.auth',
+            'django.contrib.contenttypes',
+            'django.contrib.sessions',
+            'django.contrib.messages',
+            'django.contrib.staticfiles',
+        ]
+
+        PROJECT_APPS = [
+        ]
+
+        THIRD_PARTY_APPS = [
+
+            'djoser', 
+            'djoser-web3',
+
+            'rest_framework',
+            'rest_framework_simplejwt',
+            'rest_framework_simplejwt.token_blacklist',
+
+            'social_django',
+        ]
+
+        INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
+
+
+**Step 3 (Optional)**. Configure social_django middleware (Optional if you decide to use Social Auth)
+   
+    .. code-block:: python
+
+        MIDDLEWARE = [
+
+            'social_django.middleware.SocialAuthExceptionMiddleware',
+
+            'django.middleware.security.SecurityMiddleware',
+            'django.contrib.sessions.middleware.SessionMiddleware',
+            'django.middleware.common.CommonMiddleware',
+            'django.middleware.csrf.CsrfViewMiddleware',
+            'django.contrib.auth.middleware.AuthenticationMiddleware',
+            'django.contrib.messages.middleware.MessageMiddleware',
+            'django.middleware.clickjacking.XFrameOptionsMiddleware',
+        ]
+
+
+**Step 4 (Optional)**. Copy paste this password hashers in settings.py
+
+    .. code-block:: python
+
+        # Password validation
+        PASSWORD_HASHERS = [
+            "django.contrib.auth.hashers.Argon2PasswordHasher",
+            "django.contrib.auth.hashers.PBKDF2PasswordHasher",
+            "django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher",
+            "django.contrib.auth.hashers.BCryptSHA256PasswordHasher",
+        ]
+
+
+**Step 5**. Configure Settings.py to work with REST_FRAMEWORK, DJOSER and SIMPLE_JWT. Here i show a simple example of how this could be achieved.
+
+    .. code-block:: python
+        
+        # REST FRAMEWORK
+        REST_FRAMEWORK = {
+            'DEFAULT_PERMISSION_CLASSES': [
+                'rest_framework.permissions.IsAuthenticatedOrReadOnly'
+            ],
+            'DEFAULT_AUTHENTICATION_CLASSES': (
+                'rest_framework_simplejwt.authentication.JWTAuthentication',
+            ),
+        }
+        #Authentication backends
+        AUTHENTICATION_BACKENDS = (
+            'social_core.backends.google.GoogleOAuth2',
+            'social_core.backends.facebook.FacebookOAuth2',
+            'django.contrib.auth.backends.ModelBackend',
+        )
+        #Simple JWT
+        SIMPLE_JWT = {
+            'AUTH_HEADER_TYPES': ('JWT', ),
+            'ACCESS_TOKEN_LIFETIME': timedelta(minutes=10080),
+            'REFRESH_TOKEN_LIFETIME': timedelta(days=30),
+            'ROTATE_REFRESFH_TOKENS':True,
+            'BLACKLIST_AFTER_ROTATION': True,
+            'AUTH_TOKEN_CLASSES': (
+                'rest_framework_simplejwt.tokens.AccessToken',
+            )
+        }
+
+        #Djoser
+        DJOSER = {
+            'LOGIN_FIELD': 'email',
+            'USER_CREATE_PASSWORD_RETYPE': True,
+            'USERNAME_CHANGED_EMAIL_CONFIRMATION': True,
+            'PASSWORD_CHANGED_EMAIL_CONFIRMATION': True,
+            'SEND_CONFIRMATION_EMAIL': True,
+            'SEND_ACTIVATION_EMAIL': True,
+            'SET_USERNAME_RETYPE': True,
+            'PASSWORD_RESET_CONFIRM_URL': 'password/reset/confirm/{uid}/{token}',
+            'SET_PASSWORD_RETYPE': True,
+            'PASSWORD_RESET_CONFIRM_RETYPE': True,
+            'USERNAME_RESET_CONFIRM_URL': 'email/reset/confirm/{uid}/{token}',
+            'ACTIVATION_URL': 'activate/{uid}/{token}',
+            'SOCIAL_AUTH_TOKEN_STRATEGY': 'djoser.social.token.jwt.TokenStrategy',
+            'SOCIAL_AUTH_ALLOWED_REDIRECT_URIS': ['http://localhost:8000/google', 'http://localhost:8000/facebook'],
+            'SERIALIZERS': {
+                'user_create': 'apps.user.serializers.UserSerializer',
+                'user': 'apps.user.serializers.UserSerializer',
+                'current_user': 'apps.user.serializers.UserSerializer',
+                'user_delete': 'djoser.serializers.UserDeleteSerializer',
+            },
+        }
+
+        SOCIAL_AUTH_GOOGLE_OAUTH2_KEY=os.environ.get('SOCIAL_AUTH_GOOGLE_OAUTH2_KEY')
+        SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET=os.environ.get('SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET')
+        SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
+            'https://www.googleapis.com/auth/userinfo.email',
+            'https://www.googleapis.com/auth/userinfo.profile',
+            'openid'
+        ]
+        SOCIAL_AUTH_GOOGLE_OAUTH2_EXTRA_DATA = ['first_name', 'last_name']
+
+        SOCIAL_AUTH_FACEBOOK_KEY = os.environ.get('SOCIAL_AUTH_FACEBOOK_KEY')
+        SOCIAL_AUTH_FACEBOOK_SECRET = os.environ.get('SOCIAL_AUTH_FACEBOOK_SECRET')
+        SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+        SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {'fields': 'email, first_name, last_name'}
+
+You may want to explore djoser's documentation to understand in more detail each field and the possible parameters you might want to use.
+
+
+**Step 6**. Include the Djoser URL patterns in your project's root urls.py file:
+
+    .. code-block:: python
+
+        from django.urls import path, include
+        from django.contrib import admin
+        from django.conf import settings
+        from django.conf.urls.static import static
+
+        urlpatterns = [
+            path('auth/', include('djoser.urls')),
+            path('auth/', include('djoser.urls.jwt')),
+            path('auth/', include('djoser.social.urls')),
+
+            path('admin/', admin.site.urls),
+        ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+**Step 7**. Include you **ACTIVE_CAMPAIGN** api key and user information in your **`settings.py`**, this is so users that register will automatically be added to your marketing pipeline.
+
+    .. code-block:: python
+
+        ACTIVE_CAMPAIGN_URL = os.environ.get('ACTIVE_CAMPAIGN_URL')
+        ACTIVE_CAMPAIGN_KEY = os.environ.get('ACTIVE_CAMPAIGN_KEY')
+
+**Step 8**. Install **Stripe** package. This is so users that register on your site will also get added to your stripe customer list and stripe connect sellers.
+
+    .. code-block:: python
+
+        pip install stripe
+
+**Step 9**. Get the stripe api keys and create a stripe webhook (just a demo one, you may add any events you like), add those values to the **`settings.py`**.
+
+    .. code-block:: python
+
+        STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY_DEV')
+        STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY_DEV')
+        STRIPE_WEBHOOK_SECRET= os.environ.get('STRIPE_WEBHOOK_SECRET_DEV')
+
+**Step 10**. Now declare the custom user model in settings.py.
+
+    .. code-block:: python
+
+        AUTH_USER_MODEL = 'djoser_web3.UserAccount'
+
+**Step 11**. Configure email backends to send email.
+
+    .. code-block:: python
+
+        EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
+
+**Step 12**. Run the migrations to create the necessary database tables
+
+    .. code-block:: python
+
+        python manage.py makemigrations
+        python manage.py migrate
+
+* With this basic setup you have a website that is capable of registering users while at the same time it: 
+
+    #. Creates a User Profile
+    #. User Ethereum Wallet
+    #. User Stripe Account
+    #. User Stripe Connect Account
+    #. Adds user to marketing list
+
+You may now extend any model from djoser_web3 and create your views and urls.
+
+Test the Djoser authentication views by sending HTTP requests to the endpoint URLs. For example, you can use a tool like curl to send a POST request to the /auth/users/ endpoint to create a new user.
+
+**Example**
+============
+
+Here's an example json object to create a new user.
+
+In order to register using a frontend framework like React or Angular, you may send a post request with this format:
+
+    .. code-block:: json
+
+        {
+            "email":"test@gmail.com",
+            "username":"test",
+            "agreed":"True",
+            "first_name":"Test",
+            "last_name":"test",
+            "password":"1234!qwer",
+            "re_password":"1234!qwer"
+        }
+
+Notice this model is using an "Agreed" field, this field will decide wether the user wants to be added to the marketing llist and receive automated emails.
+
+This should create a new user with the specified username, email, and password. You can then use the Djoser views to authenticate users, reset passwords, etc.
+
+For more information, you can **refer to the Djoser documentation**: **`https://djoser.readthedocs.io/en/latest/index.html`**
+
+
+**Sending Ethereum Transactions**
+*********************************
+
+To retrieve the private key, you will need to store the original private key somewhere where it can be accessed later. 
+
+One way to do this is to store the private key in a separate database table with a reference to the hashed private key. 
+
+Then, you can retrieve the original private key by querying the database using the hashed private key as a lookup key.
+
+Here's an example of how you can retrieve the original private key:
+
+    .. code-block:: python
+
+        def get_private_key(private_key_hash):
+            # Query the database for the wallet with the matching private key hash
+            wallet = Wallet.objects.get(private_key_hash=private_key_hash)
+            
+            # Return the private key
+            return wallet.private_key
+
+You can then use this function to retrieve the private key whenever you need it for a transaction.
+
+To access the private key and use it to make an Ethereum transaction, you will need to retrieve the original private key using the hashed private key as a lookup key.
+
+Here's an example of how you can retrieve the private key and use it to sign and send a transaction:
+
+    .. code-block::python
+
+        from djoser_web3.utils import get_private_key
+
+        def send_transaction(private_key_hash, to, value):
+            # Retrieve the private key using the private_key_hash
+            private_key = get_private_key(wallet.private_key_hash)
+
+            # Set up the Ethereum transaction
+            tx = {
+                'to': to,
+                'value': value,
+                'gas': 2000000,
+                'gasPrice': 234567897654321,
+                'nonce': 0,
+                'chainId': 1
+            }
+
+            # Sign and send the transaction
+            signed_tx = acct.sign_transaction(tx)
+            tx_hash = web3.eth.sendRawTransaction(signed_tx.rawTransaction)
+
+            return tx_hash
+
+You can then call this function to send a transaction by passing in the hashed private key, the recipient address, and the value of the transaction the get_private_key function that I provided is the one you will use to retrieve the original private key using the hashed private key as a lookup key.
+
+It is a good idea to store this function in a separate file so that you can reuse it in different parts of your project. You can then import the function into any module that needs to use it by using the import statement.
+
+For example, you could create a utils.py file in your project and put the get_private_key function in that file. Then, in any other module where you want to use the function, you can do:
+
+    .. code-block:: python
+    
+        from utils import get_private_key
+
+        # Use the get_private_key function
+        private_key = get_private_key(private_key_hash)
