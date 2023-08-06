@@ -1,0 +1,12 @@
+obj2xgl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+obj2xgl/__main__.py,sha256=iyBkrt5oX8TtBUpgPZ9x7fHkOln4llmbJp8ZyZJLSCI,2273
+obj2xgl/parser.py,sha256=6DF5tlJdGtzAvtNvZiwq_iZ0kam1KOV_lwtZVbgAWxU,10125
+obj2xgl/generators/__init__.py,sha256=1--tWt5hmIRr-tbelYrZ_wY1Eonj8eSltZSEyH-swrY,960
+obj2xgl/generators/generator.py,sha256=cxSVBc_u8IrDeF_ZtKffjKp4U9X81ygCff3yo_Or7Rc,3112
+obj2xgl/generators/nds.py,sha256=sRHdXlPxDqawEYw8T7-tHCk0ZDDjQFWKHmjV9soGAAg,13490
+obj2xgl/generators/opengl.py,sha256=K2rV3no1GjJhl7sXr7U3bbhfjIwwN3d3WMPJ1aL5I6Y,9856
+obj2xgl-0.1.dist-info/METADATA,sha256=T_bvs_8nYewjLrY_PkDCd7i_MK6L7Z8tyavtXXRHgk4,1465
+obj2xgl-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+obj2xgl-0.1.dist-info/entry_points.txt,sha256=bTfs883OqVKstAzLhHki8mhI-PWqXvdwq98CL9L7LgI,50
+obj2xgl-0.1.dist-info/top_level.txt,sha256=m92E3ZW290UVF0aq-S8Wj4RQ-SpcngZVYFFY_ONTeOo,8
+obj2xgl-0.1.dist-info/RECORD,,
