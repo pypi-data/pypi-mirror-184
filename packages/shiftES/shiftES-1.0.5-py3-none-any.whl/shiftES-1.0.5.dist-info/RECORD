@@ -1,0 +1,10 @@
+shiftES/__init__.py,sha256=y5meXHLOhNeuqp1HRaMtS-NHSMFnZ4Uf5HQUoAcIZtI,63
+shiftES/shift_effectsize.py,sha256=xr711SEnSod7yXN4_x6TM5a5tf8LWXjxhBTwfBuFz4Q,5867
+shiftES/shiftes.py,sha256=sWu9f5KSGMlfhf-503uriuvxfeoQTsbfCk5Tnzk1xJQ,2982
+shiftES/tests.py,sha256=VvG4om6IIiKsWxpIq7U1PNvBi_xd8XWSlP_SUVbpTAA,1343
+shiftES-1.0.5.data/scripts/shift_effectsize.py,sha256=Rlv-7AXD9W4Bjv2xi-ro5xzgzvFdSMBdaobZbr-l4e4,5854
+shiftES-1.0.5.dist-info/LICENSE,sha256=sY_QGLgI0QLMUyFgepe0fiGCzOWZIe8smyKal-Hy6qM,1079
+shiftES-1.0.5.dist-info/METADATA,sha256=oNTirVbv9CVHAZsKP16pENJv4hjEY6j6uQ9hKSKuafQ,1293
+shiftES-1.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+shiftES-1.0.5.dist-info/top_level.txt,sha256=Vg7jsPnKx7F80KEe75eNC0UmqsKV40RQU4sTMMwOsQI,8
+shiftES-1.0.5.dist-info/RECORD,,
