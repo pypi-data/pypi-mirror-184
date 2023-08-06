@@ -1,0 +1,2 @@
+grpcio>=1.50.0
+protobuf>=4.21.9PyYAML>=6.0.0croniter==1.*
