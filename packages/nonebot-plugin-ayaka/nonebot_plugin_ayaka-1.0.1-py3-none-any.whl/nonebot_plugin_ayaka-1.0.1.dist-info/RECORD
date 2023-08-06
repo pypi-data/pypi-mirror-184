@@ -1,0 +1,12 @@
+ayaka/__init__.py,sha256=i4OOzcxxZ92c4CIHotDDleDGx4VM6simtVoO8l2DByQ,867
+ayaka/box.py,sha256=vV0TjNjiSyThY3lnfc4acpfiqzvMLw7rX_j7svB3-No,22603
+ayaka/config.py,sha256=rFajplYVubz3Q_CD_CWygOhBDl3pF1OzuB6PDLkxe2Q,3143
+ayaka/helpers.py,sha256=9eGoy8G7lTqm9m8xnDwcOWEYlnYuOnLXwu6oqhjyPxo,4355
+ayaka/lazy.py,sha256=E5eRk9xMVOHjQwJZrkPs_X0_uLnWboJnLH8YssaGuOI,399
+ayaka/log.py,sha256=Qs8hz-LMsXx3myMfc-COQSBo_QyFWotLQNM8IjZANGY,907
+ayaka/master.py,sha256=f6BS2pkkbWjxh1vpJHPIcH5Q7A8RruVRCwJOhdbG9_8,1423
+ayaka/orm.py,sha256=noxJ93mBmWXdOcjLWm7vC5BzEFuFBV-8wluyvdQhKak,9167
+nonebot_plugin_ayaka-1.0.1.dist-info/LICENSE,sha256=h46uoeNi_0PH0Yf6KOy7LyUwd9ONUAFKN1DVpfE5rdA,1091
+nonebot_plugin_ayaka-1.0.1.dist-info/METADATA,sha256=8bL5la0NNbrgd62J5HVjbjbjEviU1lGe5niJnCNm2kY,829
+nonebot_plugin_ayaka-1.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nonebot_plugin_ayaka-1.0.1.dist-info/RECORD,,
