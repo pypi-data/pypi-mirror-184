@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: waifuim
+Version: 1.0.0
+Summary: A Python wrapper for the Waifu.im API
+Author: Avimetry Development
+Author-email: avizum <juliusrt@outlook.com>
+License: MIT License
+Project-URL: homepage, https://github.com/avimetry/waifuim
+Project-URL: documentation, https://readthedocs.io
+Project-URL: repository, https://github.com/avimetry/waifuim
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: typing-extensions
+Provides-Extra: docs
+Requires-Dist: sphinx (==6.1.1) ; extra == 'docs'
+Requires-Dist: sphinxcontrib-trio (==1.1.2) ; extra == 'docs'
+Requires-Dist: sphinx-copybutton (==0.5.1) ; extra == 'docs'
+Requires-Dist: sphinx-inline-tabs (==2022.1.2b11) ; extra == 'docs'
+Requires-Dist: furo (==2022.12.7) ; extra == 'docs'
+Requires-Dist: setuptools (==65.6.3) ; extra == 'docs'
+
