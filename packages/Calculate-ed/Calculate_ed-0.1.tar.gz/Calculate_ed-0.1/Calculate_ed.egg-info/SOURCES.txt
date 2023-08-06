@@ -1,0 +1,8 @@
+setup.py
+Calculate_ed/Calculate_ed.py
+Calculate_ed/__init__.py
+Calculate_ed.egg-info/PKG-INFO
+Calculate_ed.egg-info/SOURCES.txt
+Calculate_ed.egg-info/dependency_links.txt
+Calculate_ed.egg-info/not-zip-safe
+Calculate_ed.egg-info/top_level.txt
