@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rpgtoolkit
+Version: 0.0.1.dev1
+Summary: A Toolkit for RPGs
+Project-URL: Homepage, https://github.com/adamsilkey/rpgtoolkit
+Project-URL: Bug Tracker, https://github.com/adamsilkey/rpgtoolkit/issues
+Author-email: Adam Silkey <adam.silkey@gmail.com>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+rpgtoolkit
+==========
+
+Tools for RPGs by Adam Silkey
