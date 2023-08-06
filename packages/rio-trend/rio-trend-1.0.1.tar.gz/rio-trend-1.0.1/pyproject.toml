@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+  "setuptools",
+  "wheel",
+  "cython==0.29.21",
+  "oldest-supported-numpy; python_version >= '3.5'",
+  "numpy; python_version < '3.5'"
+]
+
+[tool.poetry]
+name = "rio-trend"
+version = "1.0.1"
+description = ""
+authors = ["zenwalk"]
+
+[rasterio.rio_plugins]
+trend='rio_trend.scripts.cli:trend'
