@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emdemor_app_template" # Change app_name
+description = "Um template para começar o desenvolvimento de apps"
+readme = "README.md"
+authors = [
+    { name = "Eduardo", email = "emdemor415@gmail.com.br" }
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Utilities",
+]
+keywords = ["template", "app"]
+requires-python = ">=3.9"
+dynamic = ["dependencies", "version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "emdemor_app_template.__version__"}  # Change app_name
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+emdemor = "emdemor_app_template.__main__:main" # Change app_name

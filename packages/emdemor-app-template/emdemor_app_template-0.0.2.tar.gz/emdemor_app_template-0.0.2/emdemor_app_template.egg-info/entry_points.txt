@@ -1,0 +1,2 @@
+[console_scripts]
+emdemor = emdemor_app_template.__main__:main
