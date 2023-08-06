@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: HolisticTraceAnalysis
+Version: 0.1.1
+Summary: A python library for analyzing PyTorch Profiler traces
+Home-page: https://github.com/facebookresearch/HolisticTraceAnalysis
+Author: Meta Platforms Inc.
+Author-email: todo@meta.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: jupyterlab (>=3.5.1)
+Requires-Dist: kaleido (>=0.2.1)
+Requires-Dist: matplotlib (>=3.6.2)
+Requires-Dist: matplotlib-venn (>=0.11.7)
+Requires-Dist: numpy (>=1.23.5)
+Requires-Dist: pandas (>=1.5.2)
+Requires-Dist: plotly (>=5.11.0)
+Requires-Dist: coverage (>=7.0.2)
+
