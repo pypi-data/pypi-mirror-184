@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pytest.ini
+tox.ini
+src/pybaserepo/__init__.py
+src/pybaserepo/__main__.py
+src/pybaserepo.egg-info/PKG-INFO
+src/pybaserepo.egg-info/SOURCES.txt
+src/pybaserepo.egg-info/dependency_links.txt
+src/pybaserepo.egg-info/entry_points.txt
+src/pybaserepo.egg-info/requires.txt
+src/pybaserepo.egg-info/top_level.txt
+tests/__init__.py
+tests/test_basic.py

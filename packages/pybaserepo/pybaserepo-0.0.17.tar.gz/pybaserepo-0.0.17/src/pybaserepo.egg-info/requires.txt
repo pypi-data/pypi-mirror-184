@@ -1,0 +1,13 @@
+click
+
+[dev]
+tox~=4.2.0
+bumpver
+pip-tools
+twine
+
+[test]
+check-manifest
+pytest
+pytest-cov
+flake8

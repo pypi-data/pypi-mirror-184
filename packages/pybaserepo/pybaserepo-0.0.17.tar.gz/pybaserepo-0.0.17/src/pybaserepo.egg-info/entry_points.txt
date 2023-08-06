@@ -1,0 +1,2 @@
+[console_scripts]
+validator = pybaserepo.__main__:main
