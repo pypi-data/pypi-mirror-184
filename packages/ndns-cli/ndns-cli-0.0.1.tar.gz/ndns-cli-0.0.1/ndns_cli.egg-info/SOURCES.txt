@@ -1,0 +1,7 @@
+README.md
+ndns-cli.py
+setup.py
+ndns_cli.egg-info/PKG-INFO
+ndns_cli.egg-info/SOURCES.txt
+ndns_cli.egg-info/dependency_links.txt
+ndns_cli.egg-info/top_level.txt
