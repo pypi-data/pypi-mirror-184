@@ -1,0 +1,10 @@
+slz/__init__.py,sha256=G5xXSxbuRFxye6v2fRxgFhjCRoc-tMwIn-2MZgNbN5A,126
+slz/slz.exp,sha256=pX9jQqgeAFiYwZqcuLpOBkQXbZtUZCIzxB8JRsG9-vM,20498
+slz/slz.lib,sha256=IOU61q0AfZJgNH5yH_N09jMKEIDwA-PZXitdRWtrzeM,33164
+slz/slz.pyd,sha256=7FUqYI7WJNnyai1xP6VcCSNfvUKEPIW12QlOgO8R3wo,570368
+slz/version.py,sha256=X4RR7JDRWkft6bxCs5GWe7zhgPIhF4CQk7dmAp51v_Q,25
+slz-0.0.1.0.dist-info/LICENSE,sha256=6HEovqG40F0Sdc-1BQjvetkITVreUSCB8RKwnQDc8sE,1068
+slz-0.0.1.0.dist-info/METADATA,sha256=ScARIuJjUr4vS2edx8A2Se35KFA9uIs8K6gGo-495rw,1728
+slz-0.0.1.0.dist-info/WHEEL,sha256=6T9Pg2pD_yPHLuMTEFjb-Zm7zh3tSJ_FWsG-py1owQ4,101
+slz-0.0.1.0.dist-info/top_level.txt,sha256=ZbbQtkZgw2ThDKfdGq1JPFG1ztLxec0wmTpcfu8s0AY,4
+slz-0.0.1.0.dist-info/RECORD,,
