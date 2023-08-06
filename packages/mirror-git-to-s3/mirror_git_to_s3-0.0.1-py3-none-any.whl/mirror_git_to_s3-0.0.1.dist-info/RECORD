@@ -1,0 +1,5 @@
+mirror_git_to_s3.py,sha256=YRGSmxXQwbIF5d5xT5L_ARUMo9sbmaHB40NInZmIMOg,12346
+mirror_git_to_s3-0.0.1.dist-info/METADATA,sha256=Cyk5tvZTekkUPiB_IYz8W_HLQQK88Dng0zqQww2gCr8,3370
+mirror_git_to_s3-0.0.1.dist-info/WHEEL,sha256=hKi7AIIx6qfnsRbr087vpeJnrVUuDokDHZacPPMW7-Y,87
+mirror_git_to_s3-0.0.1.dist-info/licenses/LICENSE,sha256=cHkt61IbniJsshA1t-VHPRuogrRQ_M59ZOsMOzKCn2o,1091
+mirror_git_to_s3-0.0.1.dist-info/RECORD,,
