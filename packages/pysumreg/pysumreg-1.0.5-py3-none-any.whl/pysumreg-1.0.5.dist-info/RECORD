@@ -1,0 +1,10 @@
+pysumreg/LICENSE.txt,sha256=ygGuHQih7o3aatEZo46ZbF43njImo3geDrbrkPpzF5U,13125
+pysumreg/__init__.py,sha256=j1BYjJChvJBYN6FxzBJuIM8ynx0rtbwdoRz8UE6MdvM,853
+pysumreg/_version.py,sha256=KIoPiWI9Lv06DnwnndYW4EhKkRMwUEb1iyz_4LzE7-Q,160
+pysumreg/sum_registers.py,sha256=F_BusAaW5gVQDGjaUU_NfCiTqBcpixhE1R3rREMxCi8,7641
+pysumreg/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysumreg/tests/test_sum_registers.py,sha256=x7PW-j4h6rYIYHkZLkVe0uiwOERfgc9r-mECOrwMYb4,7900
+pysumreg-1.0.5.dist-info/METADATA,sha256=0tICCDZSPYSfG0YkfXVoZuicr2j6VbCfatfNf8LiVhs,5954
+pysumreg-1.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pysumreg-1.0.5.dist-info/top_level.txt,sha256=xBMGIxOSTmNeObdTvqyedMNW-DBdQin3RlP7pKQk0IU,9
+pysumreg-1.0.5.dist-info/RECORD,,
