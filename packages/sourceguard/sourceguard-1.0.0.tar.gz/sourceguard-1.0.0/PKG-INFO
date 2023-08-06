@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sourceguard
+Version: 1.0.0
+Home-page: https://github.com/whosayn/sourceguard
+Author: Hussein Faara
+Author-email: faarahussein@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sourceguard

@@ -1,0 +1,2 @@
+[console_scripts]
+sourceguard = sourceguard.main:main
