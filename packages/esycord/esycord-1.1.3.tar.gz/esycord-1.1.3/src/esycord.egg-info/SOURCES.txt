@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+src/esycord/__init__.py
+src/esycord/esycord.py
+src/esycord.egg-info/PKG-INFO
+src/esycord.egg-info/SOURCES.txt
+src/esycord.egg-info/dependency_links.txt
+src/esycord.egg-info/requires.txt
+src/esycord.egg-info/top_level.txt
