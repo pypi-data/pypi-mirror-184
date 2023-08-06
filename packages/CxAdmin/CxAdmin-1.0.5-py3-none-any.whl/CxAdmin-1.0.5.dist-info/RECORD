@@ -1,0 +1,16 @@
+CxAdmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CxAdmin/cx.py,sha256=Q1kF_vCYbn-4aRFFiGSzn1X62TNLcTcfjxvUDYo-V28,1998
+CxAdmin/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CxAdmin/api/cxEnvironment.py,sha256=diIF-6GsESMyElByo3mmXBShbgNm5dY6PIcOPSjYGus,222
+CxAdmin/api/cxFlows.py,sha256=pyWxnlbD72JyIS9C5HC1T3kkUW8OoeF0wcMP16GiD2A,228
+CxAdmin/api/cxItem.py,sha256=0Rf8OV2kELV0N2862lpDLxTf4mpqOrdbR8M3l4HG17I,251
+CxAdmin/api/cxLists.py,sha256=GZOBq7eDltae9eMkKvv9iqtrirZabXHgo3KAnBEo8WE,2453
+CxAdmin/api/cxQueues.py,sha256=JGHGPxZ6QKzOTL7EqoDjH1jbtIXMYHOQ9skUiC2XbWs,331
+CxAdmin/api/cxStatistics.py,sha256=XMTjxFlvV9FEvpvU-L4ntFneoBp3o0fEV_PjXDQLyuw,163
+CxAdmin/api/http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CxAdmin/api/http/httpClientModel.py,sha256=_lVb4MzvOZspMK8fSPlAmyh2qU01Ut0ANO6gxzxtl9g,551
+CxAdmin/api/http/httpclient.py,sha256=B4imcDe9httm7ocTJd8E45pp9V2U3njFdooDlI3VwKY,2340
+CxAdmin-1.0.5.dist-info/METADATA,sha256=VR2lU87j3USkyr2ir7y-yeW_jPoxa-QSwL2vX672TBE,394
+CxAdmin-1.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+CxAdmin-1.0.5.dist-info/top_level.txt,sha256=8a1xEoqhWXqb_gwMX4FW0I2P2xtvF8qPZX8axcAUkk4,8
+CxAdmin-1.0.5.dist-info/RECORD,,
