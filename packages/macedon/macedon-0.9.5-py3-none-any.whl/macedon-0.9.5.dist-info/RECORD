@@ -1,0 +1,17 @@
+macedon/__init__.py,sha256=bWZQ0WsiMQNq1suEWe1iG_yizakaBP6rfd-7eiLMn6k,347
+macedon/__main__.py,sha256=66CBZUwwJDOjsPj-rMZA3ZQRX5sWVQ-ln-qCb8Q8JRA,387
+macedon/_common.py,sha256=soanov39jmuZFa_-z5A_yL0cxCVEbRVvMrF0Tu1L82Y,1360
+macedon/_version.py,sha256=wcRza1CD1cHw1J5svop1y559FBOaSiXbxMGkQcMPTvw,287
+macedon/entrypoint.py,sha256=16btpK_TOF_OTD72O5Xnr2yWkwgLSnL4cdUqhjH_6m0,3435
+macedon/fileparser.py,sha256=GPy126zjXTbtq_3P7KbJxHrTlvRwb8xLJtNBWW0_KcE,3990
+macedon/io.py,sha256=JH_wQMpGyAatTdmiXLcmSJCLS5hKcPQ9Vg0FxGNenAU,3238
+macedon/logger.py,sha256=s16hSe5iV1acjIg2wejpTpdMQXEpgbNyYLgNAUzN2tg,2016
+macedon/printer.py,sha256=A-lWpLCo4-9zFa67OnuAYb0TrY91amqiWpxwkLFMGhw,10353
+macedon/synchronizer.py,sha256=5349brGysrqt4Yxy8MGhR1tJaOQ8VKZCymct9YP5WI0,2437
+macedon/worker.py,sha256=V78ZwSgRsWmttCFfzM7N6X49f_JHgonQ5uV-kyrOMww,3831
+macedon-0.9.5.dist-info/LICENSE,sha256=pf620fPn56Pz3m35O-Nr5Fbyod_DvcJg6fYQSQ2Fnls,1075
+macedon-0.9.5.dist-info/METADATA,sha256=1XMY-IaFt3r2pey_wEizzunTiWdZKO6b4Ke_x6ToM9A,1700
+macedon-0.9.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+macedon-0.9.5.dist-info/entry_points.txt,sha256=sKONqgfMy6P4YYY9g5KuK-e-V5iTmSgK9nBKVid0L5I,50
+macedon-0.9.5.dist-info/top_level.txt,sha256=rjy7xG4e6mXy3Qa3SMzBzpPhtcD53EST1xPVvB8dveQ,8
+macedon-0.9.5.dist-info/RECORD,,
