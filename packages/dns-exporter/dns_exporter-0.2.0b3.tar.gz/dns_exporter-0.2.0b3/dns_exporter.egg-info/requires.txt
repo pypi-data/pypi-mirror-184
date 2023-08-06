@@ -1,0 +1,13 @@
+dnspython>=2.2.1
+httpx>=0.23.3
+PyYAML>=6.0
+prometheus-client>=0.15.0
+
+[dev]
+twine==4.0.2
+pre-commit==2.21.0
+setuptools-scm==7.1.0
+
+[test]
+pytest==7.2.0
+tox==4.2.6
