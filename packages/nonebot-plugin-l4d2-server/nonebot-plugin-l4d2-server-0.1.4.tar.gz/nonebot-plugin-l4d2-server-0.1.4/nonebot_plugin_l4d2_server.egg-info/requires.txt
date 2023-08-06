@@ -1,0 +1,5 @@
+nonebot2<3.0.0,>=2.0.0b4
+nonebot-adapter-onebot<3.0.0,>=2.1.0
+httpx
+py7zr
+beautifulsoup4
