@@ -1,0 +1,11 @@
+lyrics_translator/__init__.py,sha256=ftGRde46R1KZXJvk6DIPQDIKvjdrJksf8hy_kbga8A4,491
+lyrics_translator/console.py,sha256=hf7RVCQc3kMpCZsd1HhqnQV4m-NoOsLZ6YG79pzNtUk,901
+lyrics_translator/core/lyrics.py,sha256=tJ2qS6g-5319amYztc6-w5tbb4_ATlONGeVNAL9c_ew,2867
+lyrics_translator/core/lyrics_translator.py,sha256=9nFjo3iBV8luaUrWC8clXM-hmlWSXKmMq_gRL2U1Lpc,2701
+lyrics_translator/core/saver.py,sha256=28Ns2YkJGIv_HXwULoPI660kJF-X1xP4E6p9fR_V7XQ,1523
+lyrics_translator/core/translator.py,sha256=Bcc7khuNF7dVtUpHJVV5QKzc652lGQwyBw5r7K1vIF4,5494
+lyrics_translator/core/utils.py,sha256=zz9vH7Wql1DIj22m3pceMPNkepPWAvo0kMQolwkroXc,758
+lyrics_translator-0.3.0.dist-info/entry_points.txt,sha256=fiJlhFCN40bMNPqYzdak8DBwifA4_ekk6Lop8c6arxM,68
+lyrics_translator-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+lyrics_translator-0.3.0.dist-info/METADATA,sha256=8zfJlMU4MbCU2nDvCejhYsLGko0dY8pILoBjJ07E1k8,5087
+lyrics_translator-0.3.0.dist-info/RECORD,,
