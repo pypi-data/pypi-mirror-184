@@ -1,0 +1,10 @@
+chalice_veneer/__init__.py,sha256=55EjWBa-yDYK4NTzjhCJfHdc847wx6ao9gd4NmzjH9s,243
+chalice_veneer/openapi_schema.py,sha256=IyQwyWuL-p6X5WfGoBPbUQHGiL3uwZaEzlM5fOrFldA,8082
+chalice_veneer/route.py,sha256=Ulhtki_goomHl6zKgwPOhBXbM5_A7BNmCDesg3BbocI,8670
+chalice_veneer/service.py,sha256=3XsrSjKSm7-4F8dIBLiQYj_O5tjXuR4OVeP3rktGbS0,2542
+chalice_veneer/service_blueprint.py,sha256=HOJn_DY7I1hgeJWcwPWU8zBnwdHJS4L3sj9kc9YeJfU,2090
+chalice_veneer-0.0.28.dist-info/LICENSE,sha256=SeTojxXDjEXU9Ef26-QDoUR7VzpyJi-c7v2nNxmA6GI,1089
+chalice_veneer-0.0.28.dist-info/METADATA,sha256=NmUiflgr_jtiEmkK-gqqeEfWJds4nlqycB5uxvgr0dU,910
+chalice_veneer-0.0.28.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chalice_veneer-0.0.28.dist-info/top_level.txt,sha256=zM0_JPVX-_xvg5ayNvO0qOipxMqLZ3jkWWVyekeXWPE,15
+chalice_veneer-0.0.28.dist-info/RECORD,,
