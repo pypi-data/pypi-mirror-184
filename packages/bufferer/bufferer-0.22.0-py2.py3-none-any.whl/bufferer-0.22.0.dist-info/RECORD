@@ -1,0 +1,10 @@
+bufferer/__init__.py,sha256=zwLV28pZqWoDCS5rsS7r7MJiVo10PM3LWplTEDNzKuw,80
+bufferer/__main__.py,sha256=UbiIDiw8sEftvFC7vRItGNNMcwxBvQskImZxZlFyN54,4297
+bufferer/_bufferer.py,sha256=YdKr21WP5SGRnmV7uP5gXkKhIzlIa1nAXmEl3mcYx00,18935
+bufferer/_log.py,sha256=lJu_qLo9aCKWKmBatgEiSLb34cn0VtcCeQaTQuuJ0kQ,871
+bufferer-0.22.0.dist-info/LICENSE.md,sha256=ipwlG9JdIRt_82uyvcBWtsUDxEOWti65y9fY3Iq6r8A,1083
+bufferer-0.22.0.dist-info/METADATA,sha256=zXupSM1dinLFsKNqak4HiFoDiSS1q7Xg43ZLZAm0bpM,9068
+bufferer-0.22.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+bufferer-0.22.0.dist-info/entry_points.txt,sha256=c-VTfEp7rVr6h9mf_mUbNw8I1U133mQpBxh4L4yM67g,52
+bufferer-0.22.0.dist-info/top_level.txt,sha256=s1prkxtSbSrI7ju3AOpGUKxHWzgeOYv66EJbcfduJ1g,9
+bufferer-0.22.0.dist-info/RECORD,,
