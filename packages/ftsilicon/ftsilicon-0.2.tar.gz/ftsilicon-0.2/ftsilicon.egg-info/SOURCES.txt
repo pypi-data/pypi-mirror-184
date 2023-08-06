@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+ftsilicon/__init__.py
+ftsilicon.egg-info/PKG-INFO
+ftsilicon.egg-info/SOURCES.txt
+ftsilicon.egg-info/dependency_links.txt
+ftsilicon.egg-info/requires.txt
+ftsilicon.egg-info/top_level.txt
