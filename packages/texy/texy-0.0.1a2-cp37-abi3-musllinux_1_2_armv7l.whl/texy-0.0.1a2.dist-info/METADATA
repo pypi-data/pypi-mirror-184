@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: texy
+Version: 0.0.1a2
+Summary: Supercharge text processing
+Author-email: Mamunur Rahaman Mamun <mdmmn378@gmail.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: homepage, https://github.com/mdmmn378/texy
+Project-URL: repository, https://github.com/mdmmn378/texy
+
+# Texy: A conservative text processing library
+
+---
+
+[![Python](https://github.com/mdmmn378/texy/actions/workflows/build-publish.yaml/badge.svg)](https://github.com/mdmmn378/texy/actions/workflows/build-publish.yaml)
+
+> Do text processing without getting your hands dirty
+
+## Installation
+
+> `pip install texy`
+
+## Example:
+
+```py
+from texy.pipelines import run_101
+run_101(["💩🔙🙈🚘🚺🦷🦨🧒🏻🫸🕑🐠🧷🍈🐟🐡🦈🐬  <hello>what's up</hello>,"])
+```
+
