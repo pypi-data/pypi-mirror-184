@@ -1,0 +1,24 @@
+<GMLFeatureClassList>
+  <GMLFeatureClass>
+    <Name>City</Name>
+    <ElementPath>City</ElementPath>
+    <GeometryName>geometry</GeometryName>
+    <GeometryElementPath>geometry</GeometryElementPath>
+    <!--POINT-->
+    <GeometryType>1</GeometryType>
+    <SRSName>urn:ogc:def:crs:EPSG:4326</SRSName>
+    <DatasetSpecificInfo>
+      <FeatureCount>3</FeatureCount>
+      <ExtentXMin>4.90000</ExtentXMin>
+      <ExtentXMax>12.50000</ExtentXMax>
+      <ExtentYMin>41.90000</ExtentYMin>
+      <ExtentYMax>52.40000</ExtentYMax>
+    </DatasetSpecificInfo>
+    <PropertyDefn>
+      <Name>name</Name>
+      <ElementPath>name</ElementPath>
+      <Type>String</Type>
+      <Width>9</Width>
+    </PropertyDefn>
+  </GMLFeatureClass>
+</GMLFeatureClassList>
