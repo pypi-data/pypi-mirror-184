@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.py
+childpages_card_grid/__init__.py
+childpages_card_grid/content_manager.py
+childpages_card_grid/page_parser.py
+childpages_card_grid/plugin.py
+childpages_card_grid/section_reader.py
+mkdocs_childpages_card_grid_plugin.egg-info/PKG-INFO
+mkdocs_childpages_card_grid_plugin.egg-info/SOURCES.txt
+mkdocs_childpages_card_grid_plugin.egg-info/dependency_links.txt
+mkdocs_childpages_card_grid_plugin.egg-info/entry_points.txt
+mkdocs_childpages_card_grid_plugin.egg-info/requires.txt
+mkdocs_childpages_card_grid_plugin.egg-info/top_level.txt
