@@ -1,0 +1,10 @@
+datasets==2.4.0
+opencv-python
+prometheus-client==0.15.0
+sanic==22.9.1
+tqdm==4.64.1
+transformers==4.25.1
+opencv-contrib-python
+torch==1.13.0+cu116
+torchvision==0.14.0+cu116
+numpy==1.23.4
