@@ -1,0 +1,10 @@
+README.md
+setup.py
+sinaToolsPyPip/__init__.py
+sinaToolsPyPip/main.py
+sinaToolsPyPip.egg-info/PKG-INFO
+sinaToolsPyPip.egg-info/SOURCES.txt
+sinaToolsPyPip.egg-info/dependency_links.txt
+sinaToolsPyPip.egg-info/not-zip-safe
+sinaToolsPyPip.egg-info/requires.txt
+sinaToolsPyPip.egg-info/top_level.txt
