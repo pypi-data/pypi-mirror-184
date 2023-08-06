@@ -1,0 +1,10 @@
+leagueregistrar/__init__.py,sha256=fQEg85p0Lpdr-G_MplZlukBG7mzTxGxNB3C1FFeH6Rc,1242
+leagueregistrar/dbutils.py,sha256=Tc8PwceN-wCev60DZufhTI6I9Kv_fY1qgDhhnncVdEI,14886
+leagueregistrar/models.py,sha256=DcO4ReUrAy89Ou69yNO3D3GpgCexxnn2zLHziBcvP1o,3022
+leagueregistrar/registrar.py,sha256=abEY1iYS-8i0ka3LE9YSp6PexC3VGVg-ZJOLaAiuYSE,25718
+leagueregistrar/types.py,sha256=Q12u9KpgVmXRN_BX3oFGSZadFk3gp1J4fMvnjLSTPZI,1347
+league_registrar-0.0.1.dist-info/LICENSE,sha256=rj5V8vDULEgL4ngfPi9EdqMfq1b_FCWAoefV9adoH9w,1096
+league_registrar-0.0.1.dist-info/METADATA,sha256=c10Z9RpRQ8aT1-n52g9VkgTcti7H4j76JSRbU0uuHYM,538
+league_registrar-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+league_registrar-0.0.1.dist-info/top_level.txt,sha256=UXerzJ9fu3Php85DKeWtaQRdnqtc6PzDi87XUdhfdLc,16
+league_registrar-0.0.1.dist-info/RECORD,,
