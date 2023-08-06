@@ -1,0 +1,14 @@
+zernpy/__init__.py,sha256=249hf2dbKP8GSjiWJGpvqxrZUKkRVnWNy-CaYm-p9rA,750
+zernpy/zernikepol.py,sha256=ZtaAdjDI_H1txB7N9kHS-dMOVjVhpgLE-M9T4rc64HE,50793
+zernpy/calculations/__init__.py,sha256=zAgwqgcMQfpKpNwOPpUOgEYnVqxkHYBlhuEKkE9qjoE,32
+zernpy/calculations/calc_zernike_pol.py,sha256=dIvfK_drQsp7US-yP-K6BOa1CVtLMB8PLgeN4rsoXrM,25100
+zernpy/plotting/__init__.py,sha256=6hWSRR6xoV5cl3V508Q-LHu_zwMyvOFwWZDRHid3aPM,26
+zernpy/plotting/plot_zerns.py,sha256=Da0ANrXRc8rhujRdCbkAeDHNHqmTvM_aipfjlU7jKMw,3482
+zernpy/tests/__init__.py,sha256=wZXDS49_hJD2d8iZuryRT7IL2CUJDVS9b35BOqBcmOY,207
+zernpy/tests/test_calculations.py,sha256=QBMcP9y6a5u1YPH9jX9o_fbg3PKCNQB2vmBhFLM3QQ0,3229
+zernpy/tests/test_polynomials_initialization.py,sha256=e159URrd2Pbc7208fEIJ56iTU0TmujYTWLwc1vzzkNI,4296
+zernpy-0.0.5.dist-info/LICENSE,sha256=qlOVuK4ZtbI9alSFRGsG38EoQQwgjOzX0XClgVN79Lo,1091
+zernpy-0.0.5.dist-info/METADATA,sha256=pVHfXZFch_sNPst81Nn-G3yxmRolE4ZSmxgOF9MtiOM,5592
+zernpy-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zernpy-0.0.5.dist-info/top_level.txt,sha256=_WMWxKAurgpKR82xLtOAsJHBDKDB-h1pBgTnM9tgX9E,7
+zernpy-0.0.5.dist-info/RECORD,,
