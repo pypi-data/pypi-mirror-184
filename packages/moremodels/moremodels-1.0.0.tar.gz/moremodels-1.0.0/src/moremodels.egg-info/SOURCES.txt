@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/moremodels/__init__.py
+src/moremodels/core.py
+src/moremodels.egg-info/PKG-INFO
+src/moremodels.egg-info/SOURCES.txt
+src/moremodels.egg-info/dependency_links.txt
+src/moremodels.egg-info/requires.txt
+src/moremodels.egg-info/top_level.txt
