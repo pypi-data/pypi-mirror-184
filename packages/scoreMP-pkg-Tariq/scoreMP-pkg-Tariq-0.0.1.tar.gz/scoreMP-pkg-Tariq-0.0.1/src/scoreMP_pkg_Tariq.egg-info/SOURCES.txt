@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/package_ScoreMP/MPscore.py
+src/package_ScoreMP/__init__.py
+src/scoreMP_pkg_Tariq.egg-info/PKG-INFO
+src/scoreMP_pkg_Tariq.egg-info/SOURCES.txt
+src/scoreMP_pkg_Tariq.egg-info/dependency_links.txt
+src/scoreMP_pkg_Tariq.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: scoreMP-pkg-Tariq
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: Tariq_azd
+Author-email: tarikazdoud00@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ProjetscoreMP
+Il s’agit d’un projet d’évaluation de la force d’un mot de pass
