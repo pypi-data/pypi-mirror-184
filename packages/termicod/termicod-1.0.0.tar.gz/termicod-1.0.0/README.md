@@ -1,0 +1,175 @@
+## Introduction
+
+`termicod` is a python module for printing text in any colour or style in the terminal. termicod also supports progress bars as an extra feature, enabeling you to create your own CLIs. Fonts and other things are (hopefully) going to be added in the future.
+
+## Usage
+
+### Text Colours
+
+In order to create coloured text, you have to use the `makecolour(...)` function. In order to use this, you have to give it the text that you would like to colorise, and the colours/styles that you would like to apply to it. You may add as many as you want. A few examples are shown below: \
+\
+`>>> print(termicod.makecolour('Hello, world!', fgcolours['blue']))` \
+This will print "Hello, world!" out in the shell in blue. \
+\
+`>>> print(termicod.makecolour(' Warning!! ', styles['highlight-warn'], styles['blink'], styles['bold']))` \
+This will show a blinking "Warning!!" in the terminal. \
+\
+`>>> print(termicod.makecolour('Bold', 1))` \
+This example uses the numbers shown in the data dictionarys directly. "1" can be found in the styles dictionary. It makes any text go bold. \
+\
+`>>> print(termicod.makecolour('Brass', 1, 2, 3))` \
+This will show the word "Brass" in bold italic green.  \
+\
+Scroll down to the bottom for the colouring option datasets.
+
+### Progress Bars
+
+It is actually pretty simple to create a progress bar using termifish. All you need to do is call the `progress(...)` function and pass in an iterator. This is all implemented in a `for <x> in <y>` loop, rather like this: \
+\
+`import termifish` \
+` ` \
+`stuff = [...]` \
+` ` \
+`for item in termifish.progress(stuff): ` \
+`	print('Doing Stuff... ', item) # Do Stuff` \
+\
+The progress bar produced looks like this: \
+`Progress: |████████--| 80.0% Complete` \
+Note that the bar shown above has been durasticly shortened. \
+The standard length is 100 blocks long. \
+\
+**NOTE**: Please See Credits
+
+## Technical ⚙️
+
+### Progress Bar Options
+
+It is possible to change the progress symbols, ect. using the keyword arguments of the `progress(...)` function. The options for the function are shown below: 
+
+- iterable    - Required  : Iterable object (iterable) 
+- prefix      - Optional  : The string used at the begining "Progress:" in the example. (str)
+- suffix      - Optional  : The string displayed at the end of the bar - "Complete" in the example. (str)
+- decimals    - Optional  : The number of decamals displayed in the percentage. (int)
+- length      - Optional  : The character length of bar (int)
+- fill        - Optional  : The character used as the bar's done symbol (█ is the default) (str)
+- ofill       - Optional  : The character used as the bar's not-done symbol (- is the default) (str)
+- printEnd    - Optional  : The end character (e.g. "\r", "\r\n") (str)
+
+### End Colours
+
+`endcolour` is a keyword argument for the `makecolour(...)` function. It specifies the colour to return to when the coloured text has ended. The default is black. This is defined in the `_backend = {...}` dictionary as `"end"`.
+
+### Other Functions
+
+#### `clearscreen(...)`
+
+This function clears the terminal window. It uses `os.system(...)`, and uses a different command depending on the operating system (`cls` is for windows, while everything else uses `clear`).
+
+#### `outlog/errlog/inplog(...)`
+
+These functions are designed to be quick and easy shortcuts for printing to `sys.stderr`, `sys.stdout` and `sys.stdin`. The pass any arguments or keyword arguments on to `print(...)` (or `input(...)`), and they only only affect the `file` keyword argument.
+
+## Data
+
+### Foreground Colours
+
+	fgcolours = {...}
+
+	# Grey-Scale 
+	'black': 30,
+	'grey': 90,
+	'white': 97,
+	'dim-white': 37,
+	
+	# Standards
+	'red': 31,
+	'green': 32,
+	'yellow': 93,
+	'orange': 33,
+	'blue': 34,
+	'pink': 35,
+	'aqua': 96,
+	
+	# Light Variants
+	'light-blue': 36,
+	
+	# Bright Variants
+	'bright-red': 91,
+	'bright-green': 92,
+	'bright-blue': 94,
+	'bright-pink': 95
+
+### Background Colours
+
+	bgcolours = {...}
+
+	# Grey-Scale
+	'black': 40,
+	'grey': 100,
+	'white': 107,
+	'dim-white': 47,
+	
+	# Standards
+	'red': 41,
+	'green': 42,
+	'yellow': 103,
+	'orange': 43,
+	'blue': 44,
+	'pink': 45,
+	'aqua': 106,
+	
+	# Light Variants
+	'light-blue': 46,
+	
+	# Bright-Variants
+	'bright-red': 101,
+	'bright-green': 102,
+	'bight-blue': 104,
+	'bright-pink': 105,
+
+### Styles
+	
+	styles = {...}
+
+	# Plain
+	'standard': 0,
+	'plain': 6,
+	'bare': 9,
+	
+	# Standard
+	'bold': 1,
+	'italic': 3,
+	'underline': 4,
+	
+	# Coloured
+	'success': 2,
+	'highlight-warn': 7,
+	
+	# Animated
+	'blink': 5,
+	
+	# Other
+	'invisible': 8
+
+## Coming Soon / Future Updates
+
+Features that may be implimented in the future are:
+- Unicode fonts
+- Unicode trees (this may or may not happen; I have already written a module for this called `unitrees`).
+- Actual cli tools
+- An possibly more... 
+
+## Changelog
+
+It's the first release! [1.0.0]
+
+## Credits
+
+The credits for 99.99999% of the `progress(...)` function go to: \
+Diogo and Greenstick on StackOverflow.com \
+Their question awnser can be found here: \
+[https://stackoverflow.com/questions/3173320/text-progress-bar-in-terminal-with-block-characters](url) \
+The author of this module did *not* ask the question. \
+\
+Author: \
+Pigeon Nation!! :]

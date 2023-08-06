@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+termicod/__init__.py
+termicod.egg-info/PKG-INFO
+termicod.egg-info/SOURCES.txt
+termicod.egg-info/dependency_links.txt
+termicod.egg-info/top_level.txt
