@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dns-exporter
+Version: 0.2.0b2
+Summary: Prometheus exporter for blackbox-style DNS monitoring
+Author: Thomas Steen Rasmussen
+Author-email: thomas@gibfest.dk
+License: BSD 3-Clause License
+Project-URL: homepage, https://github.com/tykling/dns_exporter
+Project-URL: documentation, https://dnsexporter.readthedocs.org/
+Keywords: prometheus,dns,monitoring
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dnspython (>=2.2.1)
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: prometheus-client (>=0.15.0)
+Provides-Extra: dev
+Requires-Dist: twine (==4.0.2) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.21.0) ; extra == 'dev'
+Requires-Dist: setuptools-scm (==7.1.0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (==7.2.0) ; extra == 'test'
+Requires-Dist: tox (==4.2.6) ; extra == 'test'
+
+# dns_exporter
+A Blackbox-style Prometheus exporter with a focus on DNS monitoring. Built on the excellent https://github.com/rthalley/dnspython and https://github.com/prometheus/client_python
+
+Following the `Multi Target Exporter Pattern` described in https://prometheus.io/docs/guides/multi-target-exporter/ `dns_exporter` can query any DNS server and return metrics based on the response.
+
+Note: The well known `Blackbox Exporter` also supports DNS probes and exports metrics about DNS lookups. The `dns_exporter` was made with an exclusive focus on DNS monitoring. As always use the tool which is the best fit for your usecase :)
+
+## Versioning and Releases
+Versioning, branching and tagging is done based on https://semver.org/ and https://nvie.com/posts/a-successful-git-branching-model/
