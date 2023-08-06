@@ -1,0 +1,9 @@
+onnx_diff/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+onnx_diff/diff.py,sha256=JURf8I7JyhUx182MI6Intyo_f9UHgGYebOjbJw49XZg,3944
+onnx_diff/run.py,sha256=peHtsCPHI9oVyZDYf3I7BzP1evAlBHTFphtf2yq-cGw,672
+onnx_diff/structs.py,sha256=XwM-Z8E4uAUL3qMeqT_Dpgl5-2NnluIh56jeIevcGKg,161
+onnx_diff/utils.py,sha256=ecpGmAwL8SIZgC7TLFxP6-IeBV4AuX7kQ9dIV9tiJkQ,1350
+onnx_diff-0.1.1.dist-info/entry_points.txt,sha256=iD4CgVLTiPkT28h5TqOHzFthvB_qiRHDLqfvWjEzbys,46
+onnx_diff-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+onnx_diff-0.1.1.dist-info/METADATA,sha256=3w-7sOB9XVLSoN5XufUKnBwd9vWqGRWPnUZHCe26DjI,1656
+onnx_diff-0.1.1.dist-info/RECORD,,

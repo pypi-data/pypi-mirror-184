@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: onnx-diff
+Version: 0.1.1
+Summary: Work in progress...
+Home-page: https://github.com/magnusmaynard/onnx-diff
+Keywords: onnx,compare,diff,difference,tool,model,ml,ai
+Author: magnus
+Author-email: contact@magnus.co.uk
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GraKeL (>=0.1.9,<0.2.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: numpy (>=1.24.1,<2.0.0)
+Requires-Dist: onnx (>=1.13.0,<2.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/magnusmaynard/onnx-diff
+Description-Content-Type: text/markdown
+
+# onnx-diff
+A tool to find differences between [ONNX](https://github.com/onnx/onnx) files.
+
+[![Workflow Badge](https://github.com/magnusmaynard/onnx-diff/actions/workflows/tests.yml/badge.svg)](https://github.com/magnusmaynard/onnx-diff/actions/workflows/tests.yml?query=workflow%3ATests)
+[![Test Results Badge](https://gist.github.com/magnusmaynard/2c0836a3d3e96d474f7c9190ae0096ba/raw/tests_badge.svg)](https://github.com/magnusmaynard/onnx-diff/actions/workflows/tests.yml?query=workflow%3ATests)
+[![Code Coverage Badge](https://gist.github.com/magnusmaynard/2c0836a3d3e96d474f7c9190ae0096ba/raw/coverage_badge.svg)](https://github.com/magnusmaynard/onnx-diff/actions/workflows/tests.yml?query=workflow%3ATests)
+
+
+## Install
+TODO:
+
+
+## Usage
+TODO:
+
+
+## Develop
+Build and install:
+```
+poetry install
+```
+
+Run:
+```
+poetry run python onnx_diff/diff.py </path/to/a.onnx> </path/to/b.onnx>
+```
+
+Test:
+```
+poetry run pytest -s
+```
+
