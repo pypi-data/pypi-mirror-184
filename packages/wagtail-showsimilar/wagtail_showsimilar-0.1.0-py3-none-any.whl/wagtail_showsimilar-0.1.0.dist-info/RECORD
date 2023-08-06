@@ -1,0 +1,14 @@
+wagtailshowsimilar/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+wagtailshowsimilar/edit_handlers.py,sha256=tqeUOQEgd53raum44muMsCpLGo6CruDVivwbhWX9ckM,1567
+wagtailshowsimilar/urls.py,sha256=lC3MP7wabTGUUhb9qm4_TxFdE9RK47Gxe9BN2yPOixQ,288
+wagtailshowsimilar/views.py,sha256=s2IOAuZf_uc3ufNU730lxOaGjbcOn1YFLagIjiSnOoY,2004
+wagtailshowsimilar/locale/zh_Hant/LC_MESSAGES/django.mo,sha256=2s0pP2dV_t0VZwXaK2Ix90jNGmEyEAcTJ9vCysIb7DQ,428
+wagtailshowsimilar/locale/zh_Hant/LC_MESSAGES/django.po,sha256=FvIDyHg_8ihxdH5mop2gGjg8SX-vEehFd5xKYvNCcO8,686
+wagtailshowsimilar/static/wagtailshowsimilar/showsimilar.js,sha256=R9MwlXnCRaHqGSRR_rnjN2Kyyv-d85xGP_ECVkZTWo0,2087
+wagtailshowsimilar/templates/wagtailshowsimilar/field.html,sha256=zJUBpCj1O_uiSiYodW4yKwr9hRALwNTg9FGzpddmyKk,282
+wagtailshowsimilar/templates/wagtailshowsimilar/field_panel.html,sha256=4FCGgj56yFWZ54E3MSyDUe3hHGb3sSObHtgQBr9ZPy4,127
+wagtail_showsimilar-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wagtail_showsimilar-0.1.0.dist-info/METADATA,sha256=0cMgsvnqVqiGhsy-Cqn-h2nnySNgZSuIQqLSB4vl21w,3500
+wagtail_showsimilar-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wagtail_showsimilar-0.1.0.dist-info/top_level.txt,sha256=XftvqZF2jUiI0LKHLJf2_iHNzt4bT__cyS1qRt1j4F4,19
+wagtail_showsimilar-0.1.0.dist-info/RECORD,,
