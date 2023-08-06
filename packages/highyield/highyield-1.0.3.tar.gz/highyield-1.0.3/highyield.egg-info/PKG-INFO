@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: highyield
+Version: 1.0.3
+Summary: Collection of high-yield functions intended to simplify and automate specific tasks.
+Home-page: https://github.com/kenf1/High-Yield
+Author: KF
+Author-email: kenfv1@outlook.com
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+README.md
