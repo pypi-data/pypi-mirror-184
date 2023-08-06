@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+hashfish/__init__.py
+hashfish.egg-info/PKG-INFO
+hashfish.egg-info/SOURCES.txt
+hashfish.egg-info/dependency_links.txt
+hashfish.egg-info/top_level.txt
