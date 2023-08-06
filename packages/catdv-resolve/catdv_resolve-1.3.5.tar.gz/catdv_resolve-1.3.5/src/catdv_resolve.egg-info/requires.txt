@@ -1,0 +1,11 @@
+future==0.18.2
+pythonnet==3.0.0a2
+clr-loader==0.1.7
+pywebview==3.6.3
+flask<=3.0.0,>=2.0.3
+pygetwindow==0.0.9
+pyobjc-framework-Quartz>=8.5.1
+requests>=2.27.1
+
+[:platform_system != "Windows"]
+pywebview[qt]==3.6.3
