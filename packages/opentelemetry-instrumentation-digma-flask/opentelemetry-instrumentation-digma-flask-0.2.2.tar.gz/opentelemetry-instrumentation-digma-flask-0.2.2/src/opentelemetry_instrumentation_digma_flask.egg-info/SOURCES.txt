@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/opentelemetry/instrumentation/digma/flask/__init__.py
+src/opentelemetry/instrumentation/digma/flask/version.py
+src/opentelemetry_instrumentation_digma_flask.egg-info/PKG-INFO
+src/opentelemetry_instrumentation_digma_flask.egg-info/SOURCES.txt
+src/opentelemetry_instrumentation_digma_flask.egg-info/dependency_links.txt
+src/opentelemetry_instrumentation_digma_flask.egg-info/requires.txt
+src/opentelemetry_instrumentation_digma_flask.egg-info/top_level.txt
