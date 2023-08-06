@@ -1,0 +1,10 @@
+README.md
+setup.py
+events_manager/entities.py
+events_manager/exceptions.py
+events_manager/managers.py
+generic_events_manager.egg-info/PKG-INFO
+generic_events_manager.egg-info/SOURCES.txt
+generic_events_manager.egg-info/dependency_links.txt
+generic_events_manager.egg-info/requires.txt
+generic_events_manager.egg-info/top_level.txt
