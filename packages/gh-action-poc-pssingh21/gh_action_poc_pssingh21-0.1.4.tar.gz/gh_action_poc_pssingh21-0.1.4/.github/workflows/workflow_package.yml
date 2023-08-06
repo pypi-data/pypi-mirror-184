@@ -1,0 +1,32 @@
+name: Execute Calling own pypackage
+
+on:
+#  # Triggers the workflow on push of a tag creation
+#  push:
+#    tags:
+#      - 'v*.*.*'
+  workflow_dispatch:
+      
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies 
+        run: |
+          pip install -r ./workflow_calling_package/requirements-gh.txt
+          
+      - name: run file
+        id: runfile
+        with:
+          who-to-greet: 'Mona the Octocat'
+        run: |
+          python3 -c 'from gh_action_poc_pssingh21 import hello_world; hello_world.sayHello()'
+      
+      - name: Get the output time
+        run: echo "The time was ${{ steps.runfile.outputs.time }}"
