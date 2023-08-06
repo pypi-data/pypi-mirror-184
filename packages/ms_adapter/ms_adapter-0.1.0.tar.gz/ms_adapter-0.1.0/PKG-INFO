@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ms_adapter
+Version: 0.1.0
+Summary: MSAdapter is a toolkit for support the pytorch model runing on ascend.
+Home-page: https://openi.pcl.ac.cn/OpenI/MSAdapter 
+Author: Peng Cheng Lab, HUAWEI
+Author-email: pcl.openi@pcl.ac.cn
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+MSAdapter is a toolkit for support the pytorch model runing on ascend.
+Usage: import ms_adapter.pytorch as ms 
+OpenI: https://openi.pcl.ac.cn/OpenI/MSAdapter 
+Email: pcl.openi@pcl.ac.cn
+
