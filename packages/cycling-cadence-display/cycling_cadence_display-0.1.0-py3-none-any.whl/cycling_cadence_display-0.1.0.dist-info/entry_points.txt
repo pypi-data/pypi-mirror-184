@@ -1,0 +1,3 @@
+[console_scripts]
+cycling_cadence_display = cycling_cadence_display.app:main
+
