@@ -1,0 +1,29 @@
+[
+  {
+  "device_type": "ios",
+  "device_name": "VAEITSW001a",
+  "useRadius": "True",
+  "hostname": "192.168.2.1",
+  "username": "",
+  "password": "",
+  "optional_args": {"dest_file_system": "flash:"}
+  },
+  {
+  "device_type": "ios",
+  "device_name": "VAEITSW002a",
+  "useRadius": "True",
+  "hostname": "192.168.2.2",
+  "username": "",
+  "password": "",
+  "optional_args": {"dest_file_system": "flash:"}
+  },
+  {
+  "device_type": "ios",
+  "device_name": "VAEITSW003",
+  "useRadius": "True",
+  "hostname": "192.168.2.3",
+  "username": "",
+  "password": "",
+  "optional_args": {"dest_file_system": "flash:"}
+  }
+]

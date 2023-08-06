@@ -1,0 +1,25 @@
+[2019-05-07 14:52:06] INFO:__main__:NetGaZer starting the GET_FACTS function
+[2019-05-07 14:52:06] INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+[2019-05-07 14:52:08] INFO:paramiko.transport:Auth banner: b'CC\r\nLogging into this device is potentially detrimental to your health.  Enter at your own risk!! \r\n'
+[2019-05-07 14:52:08] INFO:paramiko.transport:Authentication (password) successful!
+[2019-05-07 14:52:14] INFO:__main__:NetGaZer ended the GET_FACTS function
+[2019-05-07 15:26:08] INFO:__main__:Starting NetGazer Automation in INFO Mode...
+[2019-05-07 15:26:08] ERROR:__main__:2 Starting NetGazer Automation in ERROR Mode...
+[2019-05-07 15:26:08] INFO:__main__:2 Starting NetGazer Automation in INFO Mode...
+[2019-05-07 15:26:08] INFO:__main__:NetGaZer starting the GET_FACTS function
+[2019-05-07 15:26:08] INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+[2019-05-07 15:26:10] INFO:paramiko.transport:Auth banner: b'CC\r\nLogging into this device is potentially detrimental to your health.  Enter at your own risk!! \r\n'
+[2019-05-07 15:26:10] INFO:paramiko.transport:Authentication (password) successful!
+[2019-05-07 15:26:16] INFO:__main__:NetGaZer ended the GET_FACTS function
+[2019-05-07 15:28:59] INFO:__main__:Starting NetGazer Automation in INFO Mode...
+[2019-05-07 15:28:59] INFO:__main__:NetGaZer starting the GET_FACTS function
+[2019-05-07 15:28:59] INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+[2019-05-07 15:29:01] INFO:paramiko.transport:Auth banner: b'CC\r\nLogging into this device is potentially detrimental to your health.  Enter at your own risk!! \r\n'
+[2019-05-07 15:29:01] INFO:paramiko.transport:Authentication (password) successful!
+[2019-05-07 15:29:07] INFO:__main__:NetGaZer ended the GET_FACTS function
+[2019-05-07 15:51:36] INFO:__main__:Starting NetGazer Automation in INFO Mode...
+[2019-05-07 15:51:36] INFO:__main__:NetGaZer started the GET_FACTS function
+[2019-05-07 15:51:36] INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+[2019-05-07 15:51:38] INFO:paramiko.transport:Auth banner: b'CC\r\nLogging into this device is potentially detrimental to your health.  Enter at your own risk!! \r\n'
+[2019-05-07 15:51:38] INFO:paramiko.transport:Authentication (password) successful!
+[2019-05-07 15:51:44] INFO:__main__:NetGaZer completed the GET_FACTS function
