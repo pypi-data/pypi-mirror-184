@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gotji
+Version: 0.0.3
+Summary: gotji module on top !!
+Author: GxdjCoding
+Author-email: meoawcute@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# GOTji Hub
+It beta test ><
