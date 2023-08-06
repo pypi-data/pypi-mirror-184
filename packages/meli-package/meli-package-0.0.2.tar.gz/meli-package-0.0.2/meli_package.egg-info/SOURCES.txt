@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+meli_package.egg-info/PKG-INFO
+meli_package.egg-info/SOURCES.txt
+meli_package.egg-info/dependency_links.txt
+meli_package.egg-info/requires.txt
+meli_package.egg-info/top_level.txt
