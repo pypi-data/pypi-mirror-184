@@ -1,0 +1,8 @@
+README.md
+setup.py
+ERlib/Funciones.py
+ERlib/__init__.py
+ERlib.egg-info/PKG-INFO
+ERlib.egg-info/SOURCES.txt
+ERlib.egg-info/dependency_links.txt
+ERlib.egg-info/top_level.txt
