@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: thumbnails-readme
+Version: 0.1.0
+Summary: 
+Author: Rok Kukovec
+Author-email: rok.kukovec1@um.si
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: Pillow (>=9.4.0,<10.0.0)
+Requires-Dist: pdf2image (>=1.16.2,<2.0.0)
