@@ -1,0 +1,11 @@
+dagster_snowflake/__init__.py,sha256=w3nLDnvXosvqVx6I7-8VEt_FnczpR3Lzl_nFPyUIS0U,460
+dagster_snowflake/configs.py,sha256=szZA7_AmQG2cOe9qtuYyQFtafMznyt4762tH6xdS75Q,5699
+dagster_snowflake/resources.py,sha256=whtvzN4CspoX_UGA7cJZsCYpJKylAVmhoq1Vg5D1AI4,12232
+dagster_snowflake/snowflake_io_manager.py,sha256=ECDVVMpibM46xsesFvPeIxDgAo8w-kvTFadURnmQMvU,6373
+dagster_snowflake/solids.py,sha256=Ps9uTDWCfTQiu-itM9yiQc6f59l9AGr5Pp_umU3qiT8,2217
+dagster_snowflake/version.py,sha256=MY-kSx5QDTHjTQLJRkNa1ih3bsMMiGFMr264PPlSZRY,23
+dagster_snowflake-0.17.9.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+dagster_snowflake-0.17.9.dist-info/METADATA,sha256=Wkr5_Kq-u5mTR1GuaLoewO0NmUO2a7oMAij1ck8W4k0,935
+dagster_snowflake-0.17.9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+dagster_snowflake-0.17.9.dist-info/top_level.txt,sha256=uECYCiluOxLQ996SCUPBBwdK0CTyz45FjWqf7WDqMMc,18
+dagster_snowflake-0.17.9.dist-info/RECORD,,
