@@ -1,0 +1,5 @@
+numpy
+
+[gym]
+gym==0.26.0
+pygame==2.1.0
