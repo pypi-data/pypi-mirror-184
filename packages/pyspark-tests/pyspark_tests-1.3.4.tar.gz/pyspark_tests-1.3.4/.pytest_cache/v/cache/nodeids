@@ -1,0 +1,3 @@
+[
+  "tests/test_operations.py::test_write_silver_table"
+]
