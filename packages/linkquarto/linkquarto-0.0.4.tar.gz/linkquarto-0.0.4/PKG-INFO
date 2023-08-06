@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: linkquarto
+Version: 0.0.4
+Summary: Création de templates de publication scientifique LikPact
+Home-page: https://github.com/GuyNYAMSI/LinkQuarto
+Author: GuyNyamsi
+Author-email: nyamsguy@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+
+"README.md"
