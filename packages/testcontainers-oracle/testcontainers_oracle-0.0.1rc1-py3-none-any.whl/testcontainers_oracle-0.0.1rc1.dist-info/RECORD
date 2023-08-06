@@ -1,0 +1,6 @@
+testcontainers/oracle/__init__.py,sha256=dKjJ5xGfodS8iZr7DspadzWCeV8jAwck4sjkT8CVooA,1005
+tests/test_oracle.py,sha256=P8aCJZre0FRCJL0oRQvRb2GO_KpDJNiYKIvUmyE8AR8,757
+testcontainers_oracle-0.0.1rc1.dist-info/METADATA,sha256=adyIrdPI0b2jE8sPBErrU9QsRbRjEWL6BgOMLfSBzvY,377
+testcontainers_oracle-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_oracle-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_oracle-0.0.1rc1.dist-info/RECORD,,
