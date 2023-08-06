@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/single_sample_gsea/__init__.py
+src/single_sample_gsea/ssgsea.py
+src/single_sample_gsea.egg-info/PKG-INFO
+src/single_sample_gsea.egg-info/SOURCES.txt
+src/single_sample_gsea.egg-info/dependency_links.txt
+src/single_sample_gsea.egg-info/requires.txt
+src/single_sample_gsea.egg-info/top_level.txt
