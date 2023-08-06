@@ -1,0 +1,7 @@
+sqloxide-0.1.30.dist-info/RECORD,,
+sqloxide-0.1.30.dist-info/METADATA,sha256=5Vzd6kvzfqvFeP8_zI8FnOtjw1mlqrjAhaP4MXtGV3g,5595
+sqloxide-0.1.30.dist-info/top_level.txt,sha256=Leb9wM_DJt4zHo7Z9O2E5VnyOT9ElIC4mE3jtMH5KQs,9
+sqloxide-0.1.30.dist-info/LICENSE,sha256=SIftBQVFfTh-f37_2iAr4jdDefT-z0keVMpn9Zp3ZAs,1067
+sqloxide-0.1.30.dist-info/WHEEL,sha256=AZvMRZRhP9mpa2BxxKGFEJLXXIPmgMh0wi2b2p9oSdE,154
+sqloxide/__init__.py,sha256=YWWJ4Oxst8aHv4I65-AyfUWQqNkSLUltGNfyAiiDjdU,56
+sqloxide/sqloxide.cpython-311-aarch64-linux-gnu.so,sha256=Ft7kULS6vxd8reSeTHWP4MFH3VYCtwWkcS3_tjusnVc,5910264
