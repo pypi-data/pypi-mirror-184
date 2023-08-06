@@ -1,0 +1,21 @@
+channels:
+- conda-forge
+- nodefaults
+dependencies:
+- make
+- pytest
+- pytest-cov
+# DO NOT EDIT ABOVE THIS LINE, ADD DEPENDENCIES BELOW
+- cdsapi
+- cfgrib
+- fsspec
+- matplotlib
+- netCDF4
+- pandas
+- xarray
+- pip
+- pip:
+  - cgul
+  - emohawk
+  - coucal
+  - cacholote
