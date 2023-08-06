@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+yt_cli_dl/__init__.py
+yt_cli_dl/cli.py
+yt_cli_dl/version.py
+yt_cli_dl.egg-info/PKG-INFO
+yt_cli_dl.egg-info/SOURCES.txt
+yt_cli_dl.egg-info/dependency_links.txt
+yt_cli_dl.egg-info/entry_points.txt
+yt_cli_dl.egg-info/top_level.txt
