@@ -1,0 +1,11 @@
+feagi_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feagi_agent/configuration.py,sha256=lFxaRJZNLlAc09IOfrWzDT3dFK2LD5nwb9hTEJuLE00,1380
+feagi_agent/feagi_interface.py,sha256=cOxf8kP6pPJt69h7jmDDKufGJscW08EjyJNNyFdg2s0,9314
+feagi_agent/retina.py,sha256=RJxTd-pEgRMH2mDT7qS7aeZUbSZMH_ugQvKz8vUSgGA,5004
+feagi_agent/router.py,sha256=O3rARQ2da1qvthtpujF7-8PVxqtmCfdItU_7tHoLnlk,3904
+feagi_agent/webcam.py,sha256=siWKs0RN9cKf12o5DKsmUBPm_OvTY_Jw0n9qzuvCWHg,8216
+feagi_agent-0.0.17.dist-info/LICENSE,sha256=3t98W7Lkk6Wb-Q6WnLoN27XYIMlSMYYSL_JfPf2Tjg0,11344
+feagi_agent-0.0.17.dist-info/METADATA,sha256=QOlyMitCGR9JPzZB74IG6amCgeP8nbE0IxO5qcRxZEQ,3145
+feagi_agent-0.0.17.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+feagi_agent-0.0.17.dist-info/top_level.txt,sha256=FdRNAbZqkpqRAbNHVs7flgbsGTH6LEDYo2W2WVNSGBU,12
+feagi_agent-0.0.17.dist-info/RECORD,,
