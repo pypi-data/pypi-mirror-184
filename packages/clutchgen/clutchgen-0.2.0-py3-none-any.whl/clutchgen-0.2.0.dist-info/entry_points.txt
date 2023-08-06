@@ -1,0 +1,3 @@
+[console_scripts]
+clutchGen=clutchGen.__main__:cli
+

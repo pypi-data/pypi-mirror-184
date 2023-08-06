@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: clutchgen
+Version: 0.2.0
+Summary: 
+Home-page: https://gitlab.com/AlexeyReket/clutchgen/-/wikis/home
+Author: alexey.reket
+Author-email: alexey.reket@gmail.com
+Requires-Python: >=3.7.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Mako (>=1.1.6,<2.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Project-URL: Repository, https://gitlab.com/AlexeyReket/clutchgen
+Description-Content-Type: text/markdown
+
+ClutchGen is CLI tool for generating new projects structures. Developed on python.
+Using `.yaml` config files you can create structures any complexity
+
+For example with config like:
+
+```yaml
+$root:
+  - app:
+    - src:
+      - services:
+          - some_service.py
+      - settings.py
+    - main.py
+  - Makefile
+  - README.md
+```
+
+You will get structure like this:
+
+![img.png](docs/images/example_of_project.png)
+
+More info about usage you can find on [WIKI pages](https://gitlab.com/AlexeyReket/clutchgen/-/wikis/home)
+
