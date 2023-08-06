@@ -1,0 +1,29 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "politicopolls"
+version = "1.0.6"
+description = "Download polls data from Politico Polls."
+readme = "README.md"
+authors = [{ name = "Robert Vamosi", email = "vamosi.robert2@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["politico", "polls", "download", "scraper", "scraping", "election", "polls"]
+dependencies = [
+    "pandas",
+    "selenium",
+    'datetime',
+    "bs4",
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/VRobert123/politico_polls_scraper"
