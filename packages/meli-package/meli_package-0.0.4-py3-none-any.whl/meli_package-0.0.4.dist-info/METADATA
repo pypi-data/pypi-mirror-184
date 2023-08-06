@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: meli-package
+Version: 0.0.4
+Summary: A package with all endpoint of Mercado Libre API
+Author: Gabriel Celestino
+Author-email: Gabriel Celestino <gabrielceles1410@gmail.com>
+Project-URL: Homepage, https://github.com/GabrielCelestino432/meli-api-endpoints
+Keywords: python,mercadolivre,meli
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
