@@ -1,0 +1,10 @@
+codecs7z/__init__.py,sha256=4Ob0yiTyN9PNTfMudoTGhlOkud96bMthXjKSRpZ6Rgk,232
+codecs7z/codecs7z.exp,sha256=2yiBKUogSjzKYQwyzdfgzaT71de2qtjUDrEpXaR4xDc,20546
+codecs7z/codecs7z.lib,sha256=84zsudBaT9L9Rd7Ja9rpdiydqYSLsGWN0KmR1qeE8ZI,33742
+codecs7z/codecs7z.pyd,sha256=dUvboi4qXaJyU7u4Jl7ygL5wwBtQ8r06dardJ-HN5TE,602112
+codecs7z/version.py,sha256=X4RR7JDRWkft6bxCs5GWe7zhgPIhF4CQk7dmAp51v_Q,25
+codecs7z-0.0.1.0.dist-info/LICENSE,sha256=Hn5rrlpb3jLxrlp8N6CC0asDz4k1T3-TasQL6eOaZTE,27032
+codecs7z-0.0.1.0.dist-info/METADATA,sha256=NZ4cLhYMtBKLPCSNfRg7c3-ZsS9KWEXJp2DoeMMtxNU,2229
+codecs7z-0.0.1.0.dist-info/WHEEL,sha256=6T9Pg2pD_yPHLuMTEFjb-Zm7zh3tSJ_FWsG-py1owQ4,101
+codecs7z-0.0.1.0.dist-info/top_level.txt,sha256=o7B7cXBiN2M6SrQcj_BQRO84zMfBMtcoGEu_7vE0XiY,9
+codecs7z-0.0.1.0.dist-info/RECORD,,
