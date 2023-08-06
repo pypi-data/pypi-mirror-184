@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: smote-cd
+Version: 0.2.1
+Summary: A package to perform SMOTE on compositional data.
+Home-page: https://github.com/teongu/smote_cd
+Author: Teo Nguyen, Benoit Liquet, Kerrie Mengersen, Baptiste Bougoüin
+Maintainer: Teo Nguyen
+Maintainer-email: teo.nguyen@univ-pau.fr
+License: BSD-3-Clause
+Platform: Linux
+Platform: macOS
+Platform: Unix
+Platform: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: setuptools (>=50.3.1)
+Requires-Dist: numpy (>=1.14.5)
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: pandas (>=0.23.3)
+Requires-Dist: scipy (>=1.6.0)
+Requires-Dist: scikit-learn (>=0.24.1)
+Requires-Dist: numpydoc (>=1.5.0)
+Requires-Dist: pydata-sphinx-theme (>=0.12.0)
+
+###########################################################################
+SMOTE-CD : Synthetic Minority Oversampling TEchnique for Compositional Data
+###########################################################################
+
+SMOTE for Compositional Data is an adaptation of the well-known SMOTE algorithm 
+for the case where the labels of the dataset are compositional data. The package
+can also be used when the features are compositional data (but not when both are
+at the same time), by swapping the features and labels when calling the function.
+
+**Documentation:** https://smote-cd.readthedocs.io/
+
+Installation
+============
+
+SMOTE-CD can be installed on `Python 3.7 or above <https://www.python.org>`_.
+
+Dependencies
+------------
+
+The following Python packages are required by SMOTE-CD:
+
+* `NumPy <https://www.numpy.org>`_,
+* `SciPy <https://www.scipy.org>`_,
+* `Scikit-learn <https://scikit-learn.org/stable/index.html>`_
+
+User installation
+-----------------
+
+You can install SMOTE-CD using ``pip`` ::
+
+    python -m pip install smote-cd
