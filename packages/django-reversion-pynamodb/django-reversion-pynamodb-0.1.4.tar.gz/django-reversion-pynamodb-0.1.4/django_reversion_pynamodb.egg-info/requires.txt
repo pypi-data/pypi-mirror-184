@@ -1,0 +1,7 @@
+django>=2.2<4
+import_string>=0.1.0
+
+[dynamodb]
+boto3<=1.24.96
+pydjamodb>=0.0.9
+pynamodb<=5.1.0
