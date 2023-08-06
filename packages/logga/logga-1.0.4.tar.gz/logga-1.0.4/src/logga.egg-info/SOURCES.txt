@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/logga/VERSION
+src/logga/__init__.py
+src/logga.egg-info/PKG-INFO
+src/logga.egg-info/SOURCES.txt
+src/logga.egg-info/dependency_links.txt
+src/logga.egg-info/requires.txt
+src/logga.egg-info/top_level.txt
+src/logga/config/log.conf

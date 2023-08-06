@@ -1,0 +1,9 @@
+
+[dev]
+mkdocstrings-python
+pytest
+pytest-cov
+pytest-sugar
+sphinx_rtd_theme
+twine
+Sphinx
