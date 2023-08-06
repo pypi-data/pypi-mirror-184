@@ -1,0 +1,10 @@
+faiss-cpu
+flask
+googledrivedownloader
+numpy
+pandas
+scipy
+sentencepiece
+torch
+tqdm
+transformers
