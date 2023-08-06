@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wareroom
+Version: 0.0.1
+Summary: cloud object storage wrapper
+Home-page: https://github.com/lipicoder/wareroom
+Author: lipi
+Author-email: lipi <lipicoder@qq.com>
+Project-URL: Bug Tracker, https://github.com/lipicoder/wareroom/issues
+Project-URL: Homepage, https://github.com/lipicoder/wareroom
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: esdk-obs-python (==3.22.2)
+Requires-Dist: tomli ; python_version < "3.11"
+
+# wareroom
+cloud object storage wrapper
