@@ -1,0 +1,10 @@
+dclimplode/__init__.py,sha256=qzCRuk--sKk_U3U4G_cMkWRkV8uxK_X3SfXQl-2Q1Es,358
+dclimplode/dclimplode.exp,sha256=A9DEVu9zTXH7d0MMdOmuxG1lbzhE9vfPrY6ilkqdCS0,20082
+dclimplode/dclimplode.lib,sha256=kMw4BoQW8fRtaCStEoLgcQrA4y4zpewhVMJmiyc9L3Y,33178
+dclimplode/dclimplode.pyd,sha256=XFdHy3oq8cuWvPWXSa7kk8MHiVuH0IpLTb2SRuUjBqQ,384000
+dclimplode/version.py,sha256=X4RR7JDRWkft6bxCs5GWe7zhgPIhF4CQk7dmAp51v_Q,25
+dclimplode-0.0.1.0.dist-info/LICENSE,sha256=6HEovqG40F0Sdc-1BQjvetkITVreUSCB8RKwnQDc8sE,1068
+dclimplode-0.0.1.0.dist-info/METADATA,sha256=TPyUEeOzIAtCTlDytF5piWsCr470vwvFVReNLaApc4o,2283
+dclimplode-0.0.1.0.dist-info/WHEEL,sha256=M0wucWmhrISxWN-BAuk-SZ9y-dkkVTgAqJjlC9UI92s,97
+dclimplode-0.0.1.0.dist-info/top_level.txt,sha256=6M8tP_yHoImGWxZSsYe056p5H1IPT8jmvJO70Xz7akY,11
+dclimplode-0.0.1.0.dist-info/RECORD,,
