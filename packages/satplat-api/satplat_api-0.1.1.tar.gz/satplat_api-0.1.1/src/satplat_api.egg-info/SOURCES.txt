@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/satplat_api/__init__.py
+src/satplat_api/api.py
+src/satplat_api.egg-info/PKG-INFO
+src/satplat_api.egg-info/SOURCES.txt
+src/satplat_api.egg-info/dependency_links.txt
+src/satplat_api.egg-info/requires.txt
+src/satplat_api.egg-info/top_level.txt
+src/satplat_api.egg-info/zip-safe
