@@ -1,0 +1,84 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sweetpotato"
+version = "v0.7.0-alpha"
+authors = [
+    { name = "Greyson R. LaLonde", email = "greyson.r.lalonde@gmail.com" },
+    { name = "Devin LaCrosse", email = "devinlax@hotmail.com" },
+    { name = "Corey Mutnik", email = "cmutnik@gmail.com" }
+]
+description = "Sweetpotato provides an intuitive wrapper around React Native."
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Intended Audience :: Developers",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Operating System :: MacOS",
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "pydantic[email,dotenv]>=1.10.2"
+]
+
+[project.optional-dependencies]
+
+dev = [
+    "mypy==0.971",
+    "black==22.6.0",
+    "pylint==2.14.5",
+    "isort==5.10.1",
+    "flake8==5.0.4",
+    "autoflake==1.5.3",
+]
+doc = [
+    "Sphinx==4.5.0",
+    "furo==2022.6.21",
+    "sphinx-copybutton==0.5.0",
+    "sphinxext-opengraph==0.6.3",
+    "sphinx_design==0.2.0",
+]
+
+[project.urls]
+homepage = "https://github.com/greysonlalonde/sweetpotato"
+documentation = "https://sweetpotato.readthedocs.io"
+tracker = "https://github.com/greysonlalonde/sweetpotato/issues"
+
+[tool.black]
+color = true
+target-version = ['py310']
+
+[tool.mypy]
+python_version = '3.10'
+warn_return_any = true
+warn_unused_configs = true
+follow_imports = "silent"
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_any_generics = true
+check_untyped_defs = true
+no_implicit_reexport = true
+ignore_missing_imports = true
+disallow_untyped_defs = true
+
+[tool.flake8]
+max_line_length = 79
+
+[tool.isort]
+profile = "black"
+known_first_party = 'sweetpotato'
+force_to_top = ["annotations"]
+include_trailing_comma = true
+multi_line_output = 3
+combine_as_imports = true
