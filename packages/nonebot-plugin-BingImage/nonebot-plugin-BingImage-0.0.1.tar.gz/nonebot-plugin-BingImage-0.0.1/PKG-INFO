@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-BingImage
+Version: 0.0.1
+Summary: Get Bing Images for NoneBot2
+Home-page: https://github.com/ericzhang-debug/nonebot_plugin_BingImage
+Author: EricZhang
+Author-email: 15364519511@163.com
+License: GPLv3 Licence
+Keywords: nonebot,nonebot-plugin,BingImage,Bing,nonebot-plugin-BingImage
+Platform: any
+License-File: LICENSE
+
+A NoneBot2 plugin that gets bing images.
