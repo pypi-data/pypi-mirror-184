@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gps_uvsq_utils
+Version: 1.0.1
+Summary: Private Python library who provides incredible features.
+Home-page: https://gitlab.com/abdoufermat5/gps_utils
+Author: UVSQ Datascale students
+License: GPL
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Operating System
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# UVSQ GPS DATA
+
+### Description
+Some utilities to handle GPS data from Microsoft Trajectory Data.
