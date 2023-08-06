@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: dbtool
+Version: 0.1.0
+Summary: A lightweight db tools for sql.
+Author-email: Mario Luo <luokaiqiongmou@foxmail.com>
+Project-URL: Homepage, https://github.com/lkqm/dbtool.py
+Project-URL: Bug Tracker, https://github.com/lkqm/dbtool.py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#  dbtool
+A lightweight db tools for sql.
+
+```
+pip install dbtool
+```
+
+```
+# sqlite3 ....
+db = dbtool.DB('sqlite:///:memory:')
+db = dbtool.DB('mysql://root:123456@127.0.0.1:3306/test?client_flag=65536',  mincached=1, maxconnections=20)
+
+# sql
+db.execute(sql)
+db.execute_fetchone(sql)
+db.execute_cursor(sql)
+db.execute_batch(sql)
+db.execute_script(sql)
+
+# crud
+db.insert('user', dict)
+db.update('user', dict)
+db.delete('user', id=1)
+db.find('user', type=0)
+db.find_one('user', id=1)
+db.find_count('user', type=0)
+
+# transactions
+with db.transaction():
+    db.execute(sql1)
+
+```
+
+db vs driver
+
+- sqlite - sqlite3
+- mysql - pymysql
+- postgresql - psycopg2
+- sqlserver - pymssql
