@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: exhaustive-weighted-random-sampler
+Version: 0.0.1
+Summary: ExhaustiveWeightedRandomSampler is an advanced version of WeightedRandomSampler
+Home-page: https://github.com/louis-she/exhaustive-weighted-random-sampler
+Author: Chenglu She
+Author-email: chenglu.she@gmail.com
+License-File: LICENSE
