@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/handler.py
+src/responses.py
+src/cgiw.egg-info/PKG-INFO
+src/cgiw.egg-info/SOURCES.txt
+src/cgiw.egg-info/dependency_links.txt
+src/cgiw.egg-info/top_level.txt
