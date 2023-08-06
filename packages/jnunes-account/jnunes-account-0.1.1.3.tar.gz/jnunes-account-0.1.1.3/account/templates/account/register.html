@@ -1,0 +1,52 @@
+{% extends 'account/base.html' %}
+{% load static %}
+
+{% block title %}Sign up{% endblock %}
+{% block  container %}
+    <style>
+        div.actions {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        div.actions a, div.register a {
+            color: var(--bs-primary);
+        }
+    </style>
+    <main class="form-signin w-100 m-auto">
+        <form method="POST">
+            {% csrf_token %}
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+            <div class="form-floating">
+                {{ user_form.username }}
+                <label for="{{ form.username.id_for_label }}">Username</label>
+            </div>
+
+            <div class="form-floating">
+                {{ user_form.first_name }}
+                <label for="{{ form.first_name.id_for_label }}">Primeiro nome</label>
+            </div>
+
+            <div class="form-floating">
+                {{ user_form.email }}
+                <label for="{{ form.email.id_for_label }}">E-mail</label>
+            </div>
+
+            <div class="form-floating">
+                {{ user_form.password }}
+                <label for="{{ form.password.id_for_label }}">Senha</label>
+            </div>
+
+            <div class="form-floating">
+                {{ user_form.password2 }}
+                <label for="{{ form.password2.id_for_label }}">Confirmar senha</label>
+            </div>
+
+            <button class="w-100 btn btn-lg btn-primary mt-2" type="submit">Sign up</button>
+            <div class="register mt-2">
+                <span>Já possui uma conta? <a href="{% url 'account:login' %}">Faça login.</a></span>
+            </div>
+        </form>
+    </main>
+{% endblock %}
