@@ -1,0 +1,4 @@
+wagtail<4,>=2.15
+
+[testing]
+coverage[toml]
