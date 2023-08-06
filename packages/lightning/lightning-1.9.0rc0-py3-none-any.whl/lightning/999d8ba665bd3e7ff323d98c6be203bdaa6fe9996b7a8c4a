@@ -1,0 +1,59 @@
+include *.cff  # citation info
+include .actions/assistant.py
+include requirements/base.txt
+include src/lightning/app/CHANGELOG.md
+include src/lightning/app/README.md
+include src/lightning/app/components/serve/catimage.png
+include src/lightning/app/version.info
+include src/lightning/fabric/CHANGELOG.md
+include src/lightning/fabric/README.md
+include src/lightning/fabric/version.info
+include src/lightning/lightning/app/CHANGELOG.md
+include src/lightning/lightning/app/README.md
+include src/lightning/lightning/app/components/serve/catimage.png
+include src/lightning/lightning/app/version.info
+include src/lightning/lightning/fabric/CHANGELOG.md
+include src/lightning/lightning/fabric/README.md
+include src/lightning/lightning/fabric/version.info
+include src/lightning/lightning/version.info
+include src/lightning/lightning_app/CHANGELOG.md
+include src/lightning/lightning_app/README.md
+include src/lightning/lightning_app/version.info
+include src/lightning/lightning_fabric/CHANGELOG.md
+include src/lightning/lightning_fabric/README.md
+include src/lightning/lightning_fabric/version.info
+include src/lightning/pytorch/CHANGELOG.md
+include src/lightning/pytorch/README.md
+include src/lightning/pytorch/lightning/CHANGELOG.md
+include src/lightning/pytorch/lightning/README.md
+include src/lightning/pytorch/lightning/py.typed  # marker file for PEP 561
+include src/lightning/pytorch/lightning/version.info
+include src/lightning/pytorch/py.typed  # marker file for PEP 561
+include src/lightning/pytorch/version.info
+include src/lightning/version.info
+include src/lightning_app/CHANGELOG.md
+include src/lightning_app/README.md
+include src/lightning_app/version.info
+include src/lightning_fabric/CHANGELOG.md
+include src/lightning_fabric/README.md
+include src/lightning_fabric/version.info
+include src/pytorch_lightning/CHANGELOG.md
+include src/pytorch_lightning/README.md
+include src/pytorch_lightning/lightning/CHANGELOG.md
+include src/pytorch_lightning/lightning/README.md
+include src/pytorch_lightning/lightning/py.typed  # marker file for PEP 561
+include src/pytorch_lightning/lightning/version.info
+include src/pytorch_lightning/py.typed  # marker file for PEP 561
+include src/pytorch_lightning/version.info
+include src/version.info
+recursive-include requirements/app *.txt
+recursive-include requirements/fabric *.txt
+recursive-include requirements/pytorch *.txt
+recursive-include src/lightning/app/cli/*-template *
+recursive-include src/lightning/app/ui *
+recursive-include src/lightning/lightning/app/cli/*-template *
+recursive-include src/lightning/lightning/app/ui *
+recursive-include src/lightning/lightning_app/cli/*-template *
+recursive-include src/lightning/lightning_app/ui *
+recursive-include src/lightning_app/cli/*-template *
+recursive-include src/lightning_app/ui *
