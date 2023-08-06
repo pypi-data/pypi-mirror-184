@@ -1,0 +1,10 @@
+corpus_pax/__init__.py,sha256=1fKo16JQ_-EzssZ_WF43IvH_A-vt4LgrAffXQWR0PmA,305
+corpus_pax/__main__.py,sha256=kogCGLFek9DNC8d8o2FcFBjLfCw4NRX9eTTIQqh6ZKg,1542
+corpus_pax/_api.py,sha256=wjCkKyREXqRpF0p5KvZj8uR7zShNLjqa_J8_ddhfz0A,4371
+corpus_pax/articles.py,sha256=9v8HV9Q3boAf63cyWChHU21vfWUnQ6G3iBTcfaw21QU,3248
+corpus_pax/entities.py,sha256=KZwQ5mAnFF8vXOubgIGurg7tYObE74elFCz1zlB0UBQ,6021
+corpus_pax/resources.py,sha256=gP9izsbh2x6ytPMSy0gHWLOZ71KKfLTtAwg0DVBldmg,5975
+corpus_pax/templates/update_member_id_on_insert_email.sql,sha256=YatzJ7JVXLRXXbQKVUtA9-7LU1K2EAqfggnbPv3iAro,402
+corpus_pax-0.1.6.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+corpus_pax-0.1.6.dist-info/METADATA,sha256=TvD7MZ6_rgKispRiIvaGrQb31QoV0ewlfp64TDstR1k,3331
+corpus_pax-0.1.6.dist-info/RECORD,,
