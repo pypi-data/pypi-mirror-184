@@ -1,0 +1,8 @@
+mopdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mopdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mopdf/pdf2text.py,sha256=yXB2S3GiaVaYOwGnkolGIISVjQkD4eOO_1Z8TSDUUZA,37
+mopdf-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+mopdf-1.0.dist-info/METADATA,sha256=_lUcb07vywJlXiE9Asp8qEV_HNEYCwwW6k95ZcBBdrA,75
+mopdf-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mopdf-1.0.dist-info/top_level.txt,sha256=CUWtEPkFBtt3UiFvHEyRbOwpAZooCnixA6QvBuPf6rc,6
+mopdf-1.0.dist-info/RECORD,,
