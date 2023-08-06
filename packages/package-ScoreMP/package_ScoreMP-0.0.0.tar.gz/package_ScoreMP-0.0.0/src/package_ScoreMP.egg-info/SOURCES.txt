@@ -1,0 +1,9 @@
+README.md
+license
+pyproject.toml
+src/package_ScoreMP/MPscore.py
+src/package_ScoreMP/__init__.py
+src/package_ScoreMP.egg-info/PKG-INFO
+src/package_ScoreMP.egg-info/SOURCES.txt
+src/package_ScoreMP.egg-info/dependency_links.txt
+src/package_ScoreMP.egg-info/top_level.txt
