@@ -1,0 +1,10 @@
+pianopy/__init__.py,sha256=XnStEyLgmuwTwHQhbkOqf9eVm3ZUTc6qOY0aeC-nDhw,93
+pianopy/__main__.py,sha256=_p1etTiMsT5D1UpvAh012u1i5E3g0unXiBvPmOSkPro,1557
+pianopy/colors.py,sha256=ZZBDCxkYVJIHe08QKMwR7S2t0iPJ0_l6ycZeqeIyOGc,63
+pianopy/midi.py,sha256=GGxQAtwRxj79D13KDbNGu-40500PWVYUxPmOaQEqmzk,593
+pianopy/piano.py,sha256=M8jVSLRAwiy1ORQiM3ldsoc9Nzhg8t7fv508rSMSN5M,5047
+pianopy-0.0.1.dist-info/LICENSE,sha256=Nkw22grdQ-9i-I75ZCXrSPNC--QgC9idqKREtQc4a4U,1067
+pianopy-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pianopy-0.0.1.dist-info/entry_points.txt,sha256=tXCxMAqo-ZH3AWa2ZzcMWKIdzqrpxvYbLH25fl2uggo,49
+pianopy-0.0.1.dist-info/METADATA,sha256=h78OXZr-kDrlhBxiXUfpVVHemKtaOuA87OjcdQy6e1U,1946
+pianopy-0.0.1.dist-info/RECORD,,
