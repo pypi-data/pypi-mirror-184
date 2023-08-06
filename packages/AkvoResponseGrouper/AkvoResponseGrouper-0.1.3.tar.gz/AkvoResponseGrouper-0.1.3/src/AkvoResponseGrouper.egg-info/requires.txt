@@ -1,0 +1,5 @@
+pandas
+pydantic
+
+[dev]
+check-manifest

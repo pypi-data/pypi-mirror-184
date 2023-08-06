@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/AkvoResponseGrouper/__init__.py
+src/AkvoResponseGrouper/response_grouper.py
+src/AkvoResponseGrouper.egg-info/PKG-INFO
+src/AkvoResponseGrouper.egg-info/SOURCES.txt
+src/AkvoResponseGrouper.egg-info/dependency_links.txt
+src/AkvoResponseGrouper.egg-info/requires.txt
+src/AkvoResponseGrouper.egg-info/top_level.txt
+tests/test_example.py
