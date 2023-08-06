@@ -1,0 +1,6 @@
+msgpack
+psutil
+pydantic
+pyjwt
+requests
+tenacity
