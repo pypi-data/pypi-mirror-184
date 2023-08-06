@@ -1,0 +1,5 @@
+setup.py
+fatdata.egg-info/PKG-INFO
+fatdata.egg-info/SOURCES.txt
+fatdata.egg-info/dependency_links.txt
+fatdata.egg-info/top_level.txt
