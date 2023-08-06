@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: djambe
+Version: 0.1.0
+Summary: The Djambe web framework
+Author: Djambe
+Author-email: karthikb <karthikbhattar@outlook.com>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+Djambe: Python Web Framework for the future.
+
+Welcome to Djambe, a Python web framework that allows you to use JSX expressions in your applications! With Djambe, you can build dynamic web applications using the Model-View-Controller (MVC) architecture and a SQLite database. Installation
+
+To install Djambe, use pip:
+
+pip install djambe
+
+Usage
+
+To use Djambe in your application, you will need to create PyV (Python View) files that contain your JSX expressions. These PyV files will be rendered by the framework and sent to the client as HTML.
+
+Here is a simple example of a PyV file.
+
+<template>
+<h2>Hello, {noun}!</h2>
+</template>
+<script>
+  data = {
+    "noun": "World"
+  }
+</script>
+
+To use the MVC architecture with Djambe, you will need to create separate PyV files for your views and controllers. Your controllers will handle the logic of your application and interact with the SQLite database, while your views will contain the JSX expressions that are rendered and sent to the client.
+
+For more information on using Djambe and its MVC architecture, please refer to the documentation:
+
+https://djambe.readthedocs.io/
+
+If you have any questions or need additional help, please don't hesitate to reach out to our support team at support@djambe.com.
