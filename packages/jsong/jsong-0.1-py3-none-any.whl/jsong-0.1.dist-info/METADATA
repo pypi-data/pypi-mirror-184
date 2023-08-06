@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jsong
+Version: 0.1
+Summary: Transorms website data from allmusic.com into usable json files
+Author: OakTree
+Author-email: thefirstoaktree@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+jsong helps you avoid hours of manually copying data about musicians! Copy the link from the discography, or album of your choice musician and pass it to either of the methods (getDiscography & getAlbum). After a short time, you'll have a usable json file for your programming ventures!
