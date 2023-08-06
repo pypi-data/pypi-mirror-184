@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pyjarowinkler-stubs/__init__.pyi
+pyjarowinkler-stubs/distance.pyi
+pyjarowinkler_stubs.egg-info/PKG-INFO
+pyjarowinkler_stubs.egg-info/SOURCES.txt
+pyjarowinkler_stubs.egg-info/dependency_links.txt
+pyjarowinkler_stubs.egg-info/requires.txt
+pyjarowinkler_stubs.egg-info/top_level.txt

@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+  { name = "Selvakumar Ravichandran", email = "selvakumar030398@gmail.com" },
+]
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+]
+dependencies = []
+description = "Stubs for pyjarowinkler package"
+name = "pyjarowinkler-stubs"
+readme = "README.md"
+requires-python = ">=3.10"
+version = "0.0.1"
+
+[project.optional-dependencies]
+dev = [
+  "autopep8 ~= 2.0.1",
+  "flake8 ~= 6.0.0",
+  "isort ~= 5.10.1",
+  "mypy ~= 0.982",
+  "twine ~= 4.0.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SelvakumarRavichandran98/pyjarowinkler-stubs"
+"Bug Tracker" = "https://github.com/SelvakumarRavichandran98/pyjarowinkler-stubs/issues"
+
+[tool.autopep8]
+aggressive = 3
+hang-closing = false
+indent-size = 2
+max-complexity = 10
+max_line_length = 120
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[tool.flake8]
+aggressive = 3
+hang-closing = false
+indent-size = 2
+max-complexity = 10
+max-line-length = 120
+
+[tool.isort]
+line_length = 120
+multi_line_output = 5
+
+[tool.mypy]
+strict_optional = true
+
+[tool.setuptools.package-data]
+"*" = ["*.pyi", "**/*.pyi"]

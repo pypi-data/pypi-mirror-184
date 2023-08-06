@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyjarowinkler-stubs
+Version: 0.0.1
+Summary: Stubs for pyjarowinkler package
+Author-email: Selvakumar Ravichandran <selvakumar030398@gmail.com>
+Project-URL: Homepage, https://github.com/SelvakumarRavichandran98/pyjarowinkler-stubs
+Project-URL: Bug Tracker, https://github.com/SelvakumarRavichandran98/pyjarowinkler-stubs/issues
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+Jaro Winkler Distance Stubs
+=====================
+
+This package is written for fun to learn how to publish python packages to pypi.
+This is written for learning purpose to create stub packages.
