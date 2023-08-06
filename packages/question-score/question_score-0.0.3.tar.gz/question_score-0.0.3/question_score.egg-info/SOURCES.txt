@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+question_score.egg-info/PKG-INFO
+question_score.egg-info/SOURCES.txt
+question_score.egg-info/dependency_links.txt
+question_score.egg-info/top_level.txt
