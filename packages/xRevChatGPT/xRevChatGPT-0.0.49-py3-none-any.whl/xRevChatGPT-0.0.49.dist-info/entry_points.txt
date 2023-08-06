@@ -1,0 +1,2 @@
+[console_scripts]
+xRevChatGPT = xRevChatGPT.__main__:main
