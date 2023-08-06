@@ -1,0 +1,8 @@
+scriptgui/__init__.py,sha256=nx8uT9NOkkA2KzjU9Q36cvZlTi-7bCHVPIkXCQkwZf8,21
+scriptgui/decorator.py,sha256=65vxanJvKGLrXkiYXclq5KyVsjqSliEw2opFzbxwJWE,1014
+scriptgui/web.py,sha256=-_8aVHH1MHCoRcS0C8Q3OmswTcfxhvjMxqPGI7bl6AY,1074
+scriptgui-0.2.1.dist-info/entry_points.txt,sha256=xql21KL9egMXhAyvWoVQExvhsA1VXym7hvlzpp5qr5A,43
+scriptgui-0.2.1.dist-info/LICENSE.md,sha256=Pr_ZrqbdXtyiU5UPvhct4wvj61QxgqToIBaYDRStaqE,1067
+scriptgui-0.2.1.dist-info/METADATA,sha256=cocl66eGQJJjun2uF0s5XiafeCOMfHDfcNs6By_dB08,700
+scriptgui-0.2.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+scriptgui-0.2.1.dist-info/RECORD,,
