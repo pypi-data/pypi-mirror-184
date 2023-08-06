@@ -1,0 +1,16 @@
+src/__init__.py,sha256=aDgQGT7H6S_CnnL3zfFxi_89ArS0axNI2DKLZvC0jug,23
+src/book.py,sha256=zpr1CKyi6OfZve5_xLz_3vmRntthPgdl460WnTpU0Ks,9099
+src/categories/__init__.py,sha256=VnhMHUePfPaHvMKCAXsD4OQx73PEQDEyqjtIqFh0154,168
+src/categories/biography.py,sha256=c1g9wrCS7PZURHXgvqfU-zOJi2bgKvNcmJz8lNWF0eM,6597
+src/categories/history.py,sha256=ZTeiyq6IFhmf_JQOrCuExVlnRuKShm0_ZgMyoYEoGNg,6522
+src/categories/science.py,sha256=lniZPZs3B7_FgCdljVvyJ2CUFlmz0JUzq9d7Kzl0KUM,6960
+src/categories/selfimprovement.py,sha256=k6NTOD7v7wQoEEgYDpdyLi1hbQBYcrhB-0li8qRMGao,6209
+src/categories/travel.py,sha256=hKj9gUEbJrzK6e7TYds24dF_5WLJ0OTzNdXO2GIZI2U,6521
+src/exceptions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/utils/__init__.py,sha256=uvUpiuuevmn1YTAH454puwhlnl_Gsf9Y1lzqIQM7CgU,112
+src/utils/utils.py,sha256=ccHqfl-7PZ3pOyr4GKtI67NcYhnt0MZE7-To264YfCc,1017
+bookgpt-0.6.2.1.dist-info/LICENSE,sha256=MLd_23UXP00I-wHRSiCBmlfVe2lf6-fGlPP3H3P4inE,1088
+bookgpt-0.6.2.1.dist-info/METADATA,sha256=0xm8MRMhu2LD5yya0qz3uqLi2knVnnuBvBrAasJw-VM,3500
+bookgpt-0.6.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bookgpt-0.6.2.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+bookgpt-0.6.2.1.dist-info/RECORD,,
