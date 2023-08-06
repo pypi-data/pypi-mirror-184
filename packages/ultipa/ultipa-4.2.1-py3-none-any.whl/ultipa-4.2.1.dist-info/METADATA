@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ultipa
+Version: 4.2.1
+Summary: This is ultipa sdk
+Home-page: https://ultipa.cn/document/ultipa-drivers/python-installation
+Author: Ultipa
+Author-email: support@ultipa.com
+License: PSF
+Keywords: ultipa sdk
+Platform: UNKNOWN
+Requires-Dist: grpcio (==1.48.2)
+Requires-Dist: grpcio-tools (==1.48.2)
+Requires-Dist: protobuf (==3.19.0)
+Requires-Dist: google (==2.0.3)
+Requires-Dist: schedule (==1.1.0)
+Requires-Dist: prettytable (==2.5.0)
+Requires-Dist: treelib (==1.6.1)
+Requires-Dist: tzlocal (==4.2)
+Requires-Dist: pytz (==2022.7)
+
+UNKNOWN
+
