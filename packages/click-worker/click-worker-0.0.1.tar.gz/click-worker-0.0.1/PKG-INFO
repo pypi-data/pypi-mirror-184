@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: click-worker
+Version: 0.0.1
+Summary: click worker is event invoking app
+Home-page: https://github.com/samuraijack9005/click-worker
+Author: sAmurai_jack
+Author-email: spamersden555@gmail.com
+Project-URL: Bug Tracker, https://github.com/samuraijack9005/click-worker/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+This is Event Clicker
