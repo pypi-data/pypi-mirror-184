@@ -1,0 +1,15 @@
+ddd/__init__.py,sha256=iN0jjbLwDq3wD4Uh7Q8t33TDSq1eQThmDmlX-OKFXzM,71
+ddd/async_utils.py,sha256=0ULJyXRScyMypcKF3hS3TYiVHim85UhIOQjfK9VKkp4,340
+ddd/bootstrapper.py,sha256=1wiS2_fno-uG2YHsLIBqdcuoN7rcsbyI6UBc6yy_wZk,2806
+ddd/error.py,sha256=5YriwBB6wTDIpBnlC00pEwkhUq5NyN1P57GfnODXB0k,444
+ddd/factories.py,sha256=jncvzyofcZWHyGQiYJpPlZlYHfpocJAytTZ_lpHI2RI,2719
+ddd/handlers.py,sha256=bQqhTknnl-ZGlbFPwMOkysA3UcY-NgHRLW5AmwrQfmY,1596
+ddd/message_bus.py,sha256=H6TG9AM9alrvfdZ1A5bSHZ282Sg5FYO0GEH6MJ5fYmo,2585
+ddd/model.py,sha256=yNgIns2pvPY5AxEUX3fzvOdS-Td5rcMWKmyYdSjR9t8,855
+ddd/repository.py,sha256=NUvbrEJe_6mtc8Lfzm4j1aosB-ycNKMD5xuUj2BpBb0,494
+ddd/unit_of_work.py,sha256=E9Bdg37SqmoNuj0S4l5dJaxFkJAuP5TDkyUPrveg66Y,2287
+py_ddd_framework-0.0.2.dist-info/LICENSE,sha256=PDReUbOQNM3F0p3S24ZLlgT-lx1KHT59jsErviAFqek,1072
+py_ddd_framework-0.0.2.dist-info/METADATA,sha256=GM2L1k19Aj7s6GVzh667NV_9Miu13Wf4doajySvtrBk,1501
+py_ddd_framework-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+py_ddd_framework-0.0.2.dist-info/top_level.txt,sha256=US1HsO4MtGNZjrg3aEAhbtKGaEgwDVlSsuXv7jEe5rw,4
+py_ddd_framework-0.0.2.dist-info/RECORD,,
