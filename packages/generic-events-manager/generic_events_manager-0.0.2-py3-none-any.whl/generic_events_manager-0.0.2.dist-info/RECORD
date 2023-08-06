@@ -1,0 +1,8 @@
+events_manager/entities.py,sha256=a6uskKV_o3aLIAoefX2zsJno0JaYTTwBW1tsVnW2iik,159
+events_manager/exceptions.py,sha256=5YTg8ofOBhSPooJPNlBMM8h1gjYPr0-4HZmmDThJ5Pc,150
+events_manager/managers.py,sha256=rUCxJLIcwqqP5JSx3J9mHbBAeIS7nCRL1eAucuTv_Z8,2930
+generic_events_manager-0.0.2.dist-info/LICENSE,sha256=hvw_R5dFRm8lcubQec7UMRQMdmm1UlpZ3lEE_7qR5Ro,1080
+generic_events_manager-0.0.2.dist-info/METADATA,sha256=YTsUEDgoHuRw9CdxvR6Mfn_FdpC8gyLt6HHromj4RvI,762
+generic_events_manager-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+generic_events_manager-0.0.2.dist-info/top_level.txt,sha256=kG9dWUftjeYEnnz0lVIp-mxIk3tAKJCs5V3HtBbmlo4,15
+generic_events_manager-0.0.2.dist-info/RECORD,,
