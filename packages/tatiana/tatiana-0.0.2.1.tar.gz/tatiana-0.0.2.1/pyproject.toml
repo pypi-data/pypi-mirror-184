@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tatiana"
+version = "0.0.2.1"
+authors = [
+  { name="Alonzo Ximénez Qui", email="alonzo.ximenez.qui@gmail.com" },
+]
+description = "Un pobre intento de hacer un pequeño motor de videojuegos utilizando Python (≥ 3.10) y pygame"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pygame"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://soyeltata.github.io/tatiana/"
+"Bug Tracker" = "https://github.com/soyeltata/tatiana/issues"
+
+[tool.setuptools]
+packages=["tatiana"]

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+tatiana/__init__.py
+tatiana/entity.py
+tatiana/typenames.py
+tatiana/world.py
+tatiana.egg-info/PKG-INFO
+tatiana.egg-info/SOURCES.txt
+tatiana.egg-info/dependency_links.txt
+tatiana.egg-info/requires.txt
+tatiana.egg-info/top_level.txt
