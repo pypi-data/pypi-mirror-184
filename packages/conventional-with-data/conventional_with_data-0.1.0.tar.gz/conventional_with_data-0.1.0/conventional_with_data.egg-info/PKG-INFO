@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: conventional-with-data
+Version: 0.1.0
+Summary: Extend the Commitizen Conventional-Commits implementation to allow `data:` in the commit message.
+License: MIT
