@@ -1,0 +1,13 @@
+pytest_plone/__init__.py,sha256=KRQ4RLm9jENTQ42mhfQ81mQUZIpd_ghfzxh-pFZLiGY,46
+pytest_plone/helpers.py,sha256=y7CVnndOv2ZManXlmrdF_ecBFH2ok8WPslDdPYFjXmQ,422
+pytest_plone/fixtures/__init__.py,sha256=WMENMQr5OM59KnGeaqDA31JkOPyKMWrk5dpUYgjjDb0,591
+pytest_plone/fixtures/addons.py,sha256=uzob6FCSSWqwrAV0oLRdExAVHmwgw66m4614W5jFrAg,840
+pytest_plone/fixtures/base.py,sha256=WC_7KDBebHlqAUFwLgSBShbC2PYrpLsn72Cfa9zg_FQ,268
+pytest_plone/fixtures/content.py,sha256=FFD8n9lxR8n5We3m9MeUTSSPBhTXOakbOe0IPvi5W2M,629
+pytest_plone/fixtures/vocabularies.py,sha256=aQHjDN2pOYznq-LDfQ6CVwTPPXqvBSFEphCBPHCUjz0,450
+pytest_plone-0.2.0.dist-info/LICENSE.GPL,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+pytest_plone-0.2.0.dist-info/METADATA,sha256=oMxfOxPoaStZaa45UrvkgHCjvGXNTYYcOQA8DeAboeI,9878
+pytest_plone-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pytest_plone-0.2.0.dist-info/entry_points.txt,sha256=B2iFE6JWLGH4GY_T1OaK-WH_D0HhHARLaSktCKjtatw,41
+pytest_plone-0.2.0.dist-info/top_level.txt,sha256=2ct63MP7ox4kRy5xKhHFZfhZ2kZq5P_APDG2Qn5p1UU,13
+pytest_plone-0.2.0.dist-info/RECORD,,
