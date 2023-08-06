@@ -1,0 +1,11 @@
+{
+  "tests/end2end/document_tree/02_creating_document/validation/02_empty_document_path/test_01_empty_document_title.py": true,
+  "tests/end2end/document/06_create_requirement/validations/01_creating_requirement_with_no_title/test_01_creating_requirement_with_no_title.py::Test_06_01_ValidationRequirementWithNoTitle::test_01": true,
+  "tests/end2end/document/02_editing_document_free_text/validations/01_free_text_with_invalid_rst/test_01_editing_document_free_text.py": true,
+  "tests/end2end/document/02_editing_document_free_text/uc02_03_sanitizing_trailing_symbols/test_01_editing_document_free_text.py": true,
+  "tests/unit/strictdoc/export/test_rst_to_html_fragment_writer.py::test_with_validation_04_error_type_errors": true,
+  "tests/end2end/document/08_edit_section/10_editing_section_escaping_html/test_10_editing_section_escaping_html.py::Test_09_EditSection_TrailingSymbols::test_01": true,
+  "tests/end2end/document/wip/test_01_main_page.py": true,
+  "tests/end2end/document_tree/03_import_document_from_reqif/03_import_tree_of_2_documents/test_03_import_document_from_reqif.py": true,
+  "tests/unit/strictdoc/backend/sdoc/validations/test_requirement.py": true
+}
