@@ -1,0 +1,11 @@
+nonebot_plugin_learning_chat/__init__.py,sha256=Yn_NIiSPK-qzYIBveVJOLNMjwi4JY3MmP4CYbNLmMow,3494
+nonebot_plugin_learning_chat/config.py,sha256=f5-uadT5qfVuzEj7mCZc5luduZgGA19-v77Rr0s08V8,3940
+nonebot_plugin_learning_chat/genshin_word.txt,sha256=KAhvzYx40xqmOE8vSFC477hf4rcDeqX5kr2iZhviMHU,6587
+nonebot_plugin_learning_chat/handler.py,sha256=DD7dp3aC_HUUFEuL9QNlWUa-S-JdXz1_SfyKeGe_WRA,27703
+nonebot_plugin_learning_chat/models.py,sha256=iLhVZpPHn94tlNVRFM5ahlDPXucUusjU1MfXRwVMyKc,4423
+nonebot_plugin_learning_chat/web_api.py,sha256=bAFqx9mRwgC3U35gustrNoj1og_7hafmbDv1Anm1-qY,14386
+nonebot_plugin_learning_chat/web_page.py,sha256=QWOzNQxE-lhWOfyQWk5N1nIv5sX1JDwUw-PgT1YaTvE,27832
+nonebot_plugin_learning_chat-0.1.3.dist-info/METADATA,sha256=W2sztJm1OzHcEfx7LOs1pJ18RlEkMuGZwDYXO1mvLe8,8364
+nonebot_plugin_learning_chat-0.1.3.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+nonebot_plugin_learning_chat-0.1.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nonebot_plugin_learning_chat-0.1.3.dist-info/RECORD,,
