@@ -1,0 +1,68 @@
+# Welcome to the commit message generator!
+
+This script allows you to generate a summary of commit messages made by you in the specified number of days, organized by date and repository.
+
+## Requirements
+
+- Python 3.6 or later
+- Git
+
+## Installation
+To install the `commitcollector` package using pip, you can use the following command:
+
+```pip install `commitcollector```   
+
+This will install the latest version of the `commitcollector` package from PyPI (the Python Package Index). Once the installation is complete, you can use the `commitcollector` command from the command-line to run the script and collect commit messages from your Git repositories.
+
+If you want to install a specific version of the `commitcollector` package, you can specify the version number using the == operator, like this:
+
+```pip install commitcollector==0.1.0```
+This will install version 0.1.0 of the `commitcollector` package.
+
+## How to use
+
+To use this script, you will need to have Python installed on your system. You will also need to have git configured with your username.
+
+To run the script, open your terminal and navigate to the directory where the script is located. Then, run the following command:
+
+```python commit_message_generator.py [days]```
+
+
+Replace `[days]` with the number of days you want to filter the commit messages by. For example, to get a summary of commit messages made by you in the past 7 days, you would run:
+
+```python commit_message_generator.py 7```
+
+
+The script will then generate a text file called `commit_messages.txt` in an `output` directory, which will contain the commit messages organized by date and repository.
+
+## Additional features
+
+The script also allows you to specify the time range for the commit messages using the `--since` flag. For example, to get a summary of commit messages made by you in the past month, you could run:
+
+```python commit_message_generator.py --since='1 month ago'```
+
+## Optional Flags
+--jira: Use this flag to parse and collect only the JIRA ticket number from the commit messages. The ticket number is typically formatted as PROJECT-123 where PROJECT is the JIRA project key and 123 is the ticket number.
+--verbose: Use this flag to make the collector more talkative and print the names of the repositories as it processes them.
+
+## Notes
+
+- The script will only consider commit messages made by the user who is currently logged in to git.
+- The script will only consider commit messages made on branches, not tags.
+
+## Output
+The commit messages are written to a text file in the following format:
+```
+YYYY-MM-DD
+    repository-name
+        commit message
+        commit message
+        ...
+YYYY-MM-DD
+    repository-name
+        commit message
+        commit message
+        ...
+```
+
+We hope you find this script helpful in organizing and summarizing your commit messages!
