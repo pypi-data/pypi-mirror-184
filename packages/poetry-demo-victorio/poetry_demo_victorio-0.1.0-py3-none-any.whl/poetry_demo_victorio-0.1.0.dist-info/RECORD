@@ -1,0 +1,9 @@
+poetry_demo_victorio/my_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_demo_victorio/my_package/__main__.py,sha256=mK4VehPubJidbYb3ER8wbAq_rw_I0Y033ciiEgbbaMY,40
+poetry_demo_victorio/my_package/msg.py,sha256=ozuUXoEG84hjWetvv0Eewo9uSmwwgJmA22uVDZU7Ed8,41
+poetry_demo_victorio/my_package/teste.html,sha256=kl4-_HgeuTvIWIHV9jANnS6eLpyFSUeTwl5UBy3-oJY,283
+poetry_demo_victorio/my_package/vazio.py,sha256=1NEmUCOldAQjqubdDBc-846Q-gACWTT_Bzg2J6LhSjg,54
+poetry_demo_victorio-0.1.0.dist-info/METADATA,sha256=5Ali3sN_UUGQl8-Sa26KXj4mZ246nRA92d1m2GhwtQo,354
+poetry_demo_victorio-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+poetry_demo_victorio-0.1.0.dist-info/entry_points.txt,sha256=PVrlJH07EMzaZgrl1sIO2NyGwYqyHSqP5f_vMoNZRHY,76
+poetry_demo_victorio-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+my_package=poetry_demo_victorio.my_package.msg:say_hello
+
