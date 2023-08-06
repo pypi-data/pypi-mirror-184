@@ -1,0 +1,16 @@
+# this is a example
+
+q: question 1
+a: answer 1
+
+q:"""multiline
+
+question 2
+"""
+a: answer 2
+
+q:"""multiline
+question 3
+a:"""
+single line answer
+"""

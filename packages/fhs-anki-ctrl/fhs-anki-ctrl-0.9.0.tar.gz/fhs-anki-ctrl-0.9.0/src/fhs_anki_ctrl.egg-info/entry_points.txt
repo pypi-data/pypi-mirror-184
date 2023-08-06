@@ -1,0 +1,2 @@
+[console_scripts]
+fhs-anki-ctrl = fhs_anki_ctrl.cli:main
