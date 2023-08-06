@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+obj2xgl/__init__.py
+obj2xgl/__main__.py
+obj2xgl/parser.py
+obj2xgl.egg-info/PKG-INFO
+obj2xgl.egg-info/SOURCES.txt
+obj2xgl.egg-info/dependency_links.txt
+obj2xgl.egg-info/entry_points.txt
+obj2xgl.egg-info/top_level.txt
+obj2xgl/generators/__init__.py
+obj2xgl/generators/generator.py
+obj2xgl/generators/nds.py
+obj2xgl/generators/opengl.py
