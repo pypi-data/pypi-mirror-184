@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+orji/__init__.py
+orji/_version.py
+orji/app.py
+orji/note.py
+orji.egg-info/PKG-INFO
+orji.egg-info/SOURCES.txt
+orji.egg-info/dependency_links.txt
+orji.egg-info/entry_points.txt
+orji.egg-info/not-zip-safe
+orji.egg-info/requires.txt
+orji.egg-info/top_level.txt
