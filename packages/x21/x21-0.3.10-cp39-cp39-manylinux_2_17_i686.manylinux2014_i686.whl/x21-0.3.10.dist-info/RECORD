@@ -1,0 +1,10 @@
+_x21.cpython-39-i386-linux-gnu.so,sha256=6hfEJaXl47RT_f861IexMy9EHayZ5TMi_ZnuyzaPWqM,276488
+x21/__init__.py,sha256=HHvkmAltI00S1QOnnUKknmeHXTazp9AcU8zN6XrBSP0,256
+x21/_main.py,sha256=FzmlNMRetlXqlDPBYzbyv5Q33kGYE39fgA_C11Z0ys8,2060
+x21/build_meta.py,sha256=V6qGuQqZcx9DlGLUOYeXvIOERZSXqLdTI9CBWfHVaPk,2347
+x21/__about__.py,sha256=h9TycTJK2pK49s87IMbNRq4lTqRt3xctcJl2jxCe3sU,23
+x21/_encrypt_path.py,sha256=LOKhRBOGS1Cx9Qq8DTb45dNSWe4KNgpgtJAVyq2AF3U,3441
+x21-0.3.10.dist-info/RECORD,,
+x21-0.3.10.dist-info/METADATA,sha256=xc2-Oifx561oBvgdWO2P3_ebvC6hg3TyA1o52z0BwDc,118
+x21-0.3.10.dist-info/top_level.txt,sha256=c4bSgp9b3BZjBnKAR22xrvJp4H_s8-9Q71Vkd25ix8U,9
+x21-0.3.10.dist-info/WHEEL,sha256=6QWzO66c59ZKEzbVcdCGR7w0WuyZERjIumczlr6-mhA,144
