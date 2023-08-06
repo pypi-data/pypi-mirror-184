@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gotji/__init__.py
+gotji/gotji.py
+gotji.egg-info/PKG-INFO
+gotji.egg-info/SOURCES.txt
+gotji.egg-info/dependency_links.txt
+gotji.egg-info/requires.txt
+gotji.egg-info/top_level.txt
