@@ -1,0 +1,11 @@
+dill
+
+[dev]
+flaky
+mypy
+packaging
+pytest-sphinx
+pytest>=6.2.5
+setuptools
+twine>=1.11.0
+wheel
