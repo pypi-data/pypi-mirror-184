@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pytorch-concurrent-dataloader
+Version: 0.0.0
+Summary: Dataloader with concurrency improvements (from https://github.com/iarai/concurrent-dataloader)
+Home-page: https://github.com/BenediktAlkin/PytorchConcurrentDataloader
+Project-URL: Full Source Code, https://github.com/iarai/concurrent-dataloader
+Project-URL: Minimal Version, https://github.com/BenediktAlkin/PytorchConcurrentDataloader
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PytorchConcurrentDataloader
+
+Minimal version of the [ConcurrentDataloader repository](https://github.com/iarai/concurrent-dataloader) published to pip.
+`pip install concurrent-dataloader`
