@@ -1,0 +1,8 @@
+setup.py
+pip_utilities/__init__.py
+pip_utilities/pip_config.py
+pip_utilities.egg-info/PKG-INFO
+pip_utilities.egg-info/SOURCES.txt
+pip_utilities.egg-info/dependency_links.txt
+pip_utilities.egg-info/requires.txt
+pip_utilities.egg-info/top_level.txt
