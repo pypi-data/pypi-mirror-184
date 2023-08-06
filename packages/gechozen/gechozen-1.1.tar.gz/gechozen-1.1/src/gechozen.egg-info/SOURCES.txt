@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/gechozen/__init__.py
+src/gechozen/axmlparser.py
+src/gechozen/axmlprinter.py
+src/gechozen/bytecode.py
+src/gechozen/stringblock.py
+src/gechozen/typeconstants.py
+src/gechozen.egg-info/PKG-INFO
+src/gechozen.egg-info/SOURCES.txt
+src/gechozen.egg-info/dependency_links.txt
+src/gechozen.egg-info/top_level.txt
