@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: due-date-bot
+Version: 0.1.0
+Summary: Receive telegram messages with pregnancy status
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: python-telegram-bot[job-queue] (>=20.0,<21.0)
+Description-Content-Type: text/markdown
+
+# DueDateBot
+
+Receive telegram messages with
+
+`$ ddbot 2023-12-06 -l cz --token <your-bot-token> `
