@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloudshare"
+version = "0.1.3"
+authors = [
+  { name="Jonathan Sadan", email="jonathan@cloudshare.com" },
+]
+readme = "README.md"
+requires-python = ">=3.6"
+
+[project.urls]
+"Homepage" = "https://github.com/cloudshare/cloudshare-py-sdk"
+"Bug Tracker" = "https://github.com/cloudshare/cloudshare-py-sdk/issues"
