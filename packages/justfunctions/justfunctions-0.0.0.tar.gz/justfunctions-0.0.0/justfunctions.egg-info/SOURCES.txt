@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+justfunctions.egg-info/PKG-INFO
+justfunctions.egg-info/SOURCES.txt
+justfunctions.egg-info/dependency_links.txt
+justfunctions.egg-info/entry_points.txt
+justfunctions.egg-info/requires.txt
+justfunctions.egg-info/top_level.txt
+tests/__init__.py
+tests/test_simple.py
