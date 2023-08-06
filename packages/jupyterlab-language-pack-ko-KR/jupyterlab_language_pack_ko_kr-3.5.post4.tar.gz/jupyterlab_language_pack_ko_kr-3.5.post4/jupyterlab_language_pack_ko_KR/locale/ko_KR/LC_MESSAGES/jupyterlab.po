@@ -1,0 +1,5379 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jupyterlab\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: jupyterlab\n"
+"X-Crowdin-Project-ID: 409874\n"
+"X-Crowdin-Language: ko\n"
+"X-Crowdin-File: /main/jupyterlab/locale/jupyterlab.pot\n"
+"X-Crowdin-File-ID: 191\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"PO-Revision-Date: 2023-01-09 11:30\n"
+
+#: /examples/federated/md_package/schema/plugin.json:/description /packages/markdownviewer-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Markdown viewer settings."
+msgstr "마크다운 뷰어 설정"
+
+#: /examples/federated/md_package/schema/plugin.json:/jupyter.lab.setting-icon-label /packages/markdownviewer-extension/schema/plugin.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Markdown Viewer"
+msgstr "마크다운 뷰어"
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/fontFamily/description /packages/markdownviewer-extension/schema/plugin.json:/properties/fontFamily/description
+msgctxt "settings"
+msgid "The font family used to render markdown.\n"
+"If `null`, value from current theme is used."
+msgstr "마크다운을 표시할 때 사용하는 글꼴.\n"
+"값이 `null`이면 현재 테마의 해당 값이 사용됩니다."
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/fontFamily/title /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/fontFamily/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/fontFamily/title /packages/markdownviewer-extension/schema/plugin.json:/properties/fontFamily/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/fontFamily/title
+msgctxt "settings"
+msgid "Font Family"
+msgstr "글꼴"
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/fontSize/description /packages/markdownviewer-extension/schema/plugin.json:/properties/fontSize/description
+msgctxt "settings"
+msgid "The size in pixel of the font used to render markdown.\n"
+"If `null`, value from current theme is used."
+msgstr "마크다운에서 표시되는 글꼴 크기.\n"
+"'null'이면 현재 테마의 기본값을 사용합니다."
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/fontSize/title /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/fontSize/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/fontSize/title /packages/markdownviewer-extension/schema/plugin.json:/properties/fontSize/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/fontSize/title
+msgctxt "settings"
+msgid "Font Size"
+msgstr "글꼴 크기"
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/hideFrontMatter/description /packages/markdownviewer-extension/schema/plugin.json:/properties/hideFrontMatter/description
+msgctxt "settings"
+msgid "Whether to hide YAML front matter.\n"
+"The YAML front matter must be placed at the top of the document,\n"
+"started by a line of three dashes (---) and ended by a line of\n"
+"three dashes (---) or three points (...)."
+msgstr "YAML 머리말(front matter) 를 숨길 지 결정합니다.\n"
+"머리말은 문서의 최상단에 위치해야 하며, 세개의 대쉬(---) 로 시작하고 세개의 대쉬(---) 또는 세개의 점(...) 으로 끝나야 합니다."
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/hideFrontMatter/title /packages/markdownviewer-extension/schema/plugin.json:/properties/hideFrontMatter/title
+msgctxt "settings"
+msgid "Hide Front Matter"
+msgstr "머리말(Front Matter) 숨기기"
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/lineHeight/description /packages/markdownviewer-extension/schema/plugin.json:/properties/lineHeight/description
+msgctxt "settings"
+msgid "The line height used to render markdown.\n"
+"If `null`, value from current theme is used."
+msgstr "마크다운에서 표시되는 줄 간격.\n"
+"'null'이면 현재 테마의 기본값을 사용합니다."
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/lineHeight/title /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/lineHeight/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/lineHeight/title /packages/markdownviewer-extension/schema/plugin.json:/properties/lineHeight/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/lineHeight/title
+msgctxt "settings"
+msgid "Line Height"
+msgstr "줄 간격"
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/lineWidth/description /packages/markdownviewer-extension/schema/plugin.json:/properties/lineWidth/description
+msgctxt "settings"
+msgid "The text line width expressed in CSS ch units.\n"
+"If `null`, lines fit the viewport width."
+msgstr "글자 간격 (CSS ch단위).\n"
+"'null'이면 뷰포트 넓이에 맞춥니다."
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/lineWidth/title /packages/markdownviewer-extension/schema/plugin.json:/properties/lineWidth/title
+msgctxt "settings"
+msgid "Line Width"
+msgstr "글자 간격"
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/renderTimeout/description /packages/markdownviewer-extension/schema/plugin.json:/properties/renderTimeout/description
+msgctxt "settings"
+msgid "The render timeout in milliseconds."
+msgstr "렌더링 타임아웃 (ms)"
+
+#: /examples/federated/md_package/schema/plugin.json:/properties/renderTimeout/title /packages/markdownviewer-extension/schema/plugin.json:/properties/renderTimeout/title
+msgctxt "settings"
+msgid "Render Timeout"
+msgstr "렌더링 시간 초과"
+
+#: /examples/federated/md_package/schema/plugin.json:/title /packages/markdownviewer-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Markdown Viewer"
+msgstr "마크다운 뷰어"
+
+#: /packages/application-extension/schema/commands.json:/description
+msgctxt "schema"
+msgid "Application commands settings."
+msgstr "어플리케이션 명령어 설정"
+
+#: /packages/application-extension/schema/commands.json:/title
+msgctxt "schema"
+msgid "Application Commands"
+msgstr "어플리케이션 명령어"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menu/properties/disabled/description /packages/mainmenu-extension/schema/plugin.json:/definitions/menu/properties/disabled/description
+msgctxt "settings"
+msgid "Whether the menu is disabled or not"
+msgstr "메뉴 활성화/비활성화 선택"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menu/properties/icon/description /packages/mainmenu-extension/schema/plugin.json:/definitions/menu/properties/icon/description
+msgctxt "settings"
+msgid "Menu icon id"
+msgstr "메뉴 아이콘 ID"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menu/properties/id/description /packages/mainmenu-extension/schema/plugin.json:/definitions/menu/properties/id/description
+msgctxt "settings"
+msgid "Menu unique id"
+msgstr "메뉴 고유 ID"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menu/properties/items/description /packages/mainmenu-extension/schema/plugin.json:/definitions/menu/properties/items/description
+msgctxt "settings"
+msgid "Menu items"
+msgstr "메뉴 항목"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menu/properties/label/description /packages/mainmenu-extension/schema/plugin.json:/definitions/menu/properties/label/description
+msgctxt "settings"
+msgid "Menu label"
+msgstr "메뉴 레이블"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menu/properties/mnemonic/description /packages/mainmenu-extension/schema/plugin.json:/definitions/menu/properties/mnemonic/description
+msgctxt "settings"
+msgid "Mnemonic index for the label"
+msgstr "레이블의 니모닉 인덱스"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menu/properties/rank/description /packages/mainmenu-extension/schema/plugin.json:/definitions/menu/properties/rank/description
+msgctxt "settings"
+msgid "Menu rank"
+msgstr "메뉴 순위"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menuItem/properties/args/description /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/args/title /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/args/title /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/args/title /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/args/title /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/args/title /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/args/title /packages/mainmenu-extension/schema/plugin.json:/definitions/menuItem/properties/args/description /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/args/title
+msgctxt "settings"
+msgid "Command arguments"
+msgstr "명령어 인자"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menuItem/properties/command/description /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/command/title /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/command/title /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/command/title /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/command/title /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/command/title /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/command/title /packages/mainmenu-extension/schema/plugin.json:/definitions/menuItem/properties/command/description /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/command/title
+msgctxt "settings"
+msgid "Command id"
+msgstr "명령어 ID"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menuItem/properties/disabled/description /packages/mainmenu-extension/schema/plugin.json:/definitions/menuItem/properties/disabled/description
+msgctxt "settings"
+msgid "Whether the item is disabled or not"
+msgstr "아이템 활성화/비활성화 선택"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menuItem/properties/rank/description /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/rank/title /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/rank/title /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/rank/title /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/rank/title /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/rank/title /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/rank/title /packages/mainmenu-extension/schema/plugin.json:/definitions/menuItem/properties/rank/description /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/rank/title
+msgctxt "settings"
+msgid "Item rank"
+msgstr "항목 순위"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menuItem/properties/submenu/description /packages/mainmenu-extension/schema/plugin.json:/definitions/menuItem/properties/submenu/description
+msgctxt "settings"
+msgid "Submenu definition"
+msgstr "하위 메뉴 정의"
+
+#: /packages/application-extension/schema/context-menu.json:/definitions/menuItem/properties/type/description /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/type/title /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/type/title /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/type/title /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/type/title /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/type/title /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/type/title /packages/mainmenu-extension/schema/plugin.json:/definitions/menuItem/properties/type/description /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/type/title
+msgctxt "settings"
+msgid "Item type"
+msgstr "항목 유형"
+
+#: /packages/application-extension/schema/context-menu.json:/description
+msgctxt "schema"
+msgid "JupyterLab context menu settings."
+msgstr "JupyterLab 상황별 메뉴 설정."
+
+#: /packages/application-extension/schema/context-menu.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Application Context Menu"
+msgstr "응용 프로그램 컨텍스트 메뉴"
+
+#: /packages/application-extension/schema/context-menu.json:/properties/contextMenu/description
+msgctxt "settings"
+msgid "Note: To disable a context menu item,\n"
+"copy it to User Preferences and add the\n"
+"\"disabled\" key. The following example will disable Download item on files:\n"
+"{\n"
+"  \"contextMenu\": [\n"
+"    {\n"
+"      \"command\": \"filebrowser:download\",\n"
+"      \"selector\": \".jp-DirListing-item[data-isdir=\\\"false\\\"]\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"Context menu description:"
+msgstr "주의: 컨텍스트 메뉴 아이템을 비활성화 하려면 \n"
+"다음을 복사하여 \"사용자 개인 설정\"에 \"disabled\" 키를 추가합니다. \n"
+"다음 예제는 파일에 대한 아이템 다운로드를 비활성화하는 예 입니다. \n"
+"{\n"
+"  \"contextMenu\": [\n"
+"    {\n"
+"      \"command\": \"filebrowser:download\",\n"
+"      \"selector\": \".jp-DirListing-item[data-isdir=\\\"false\\\"]\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"컨텍스트 메뉴 설명:"
+
+#: /packages/application-extension/schema/context-menu.json:/properties/contextMenu/items/allOf[1]/properties/selector/description
+msgctxt "settings"
+msgid "The CSS selector for the context menu item."
+msgstr "상황에 맞는 메뉴 항목의 CSS 선택창입니다."
+
+#: /packages/application-extension/schema/context-menu.json:/properties/contextMenu/title
+msgctxt "settings"
+msgid "The application context menu."
+msgstr "응용 프로그램 컨텍스트 메뉴."
+
+#: /packages/application-extension/schema/context-menu.json:/title
+msgctxt "schema"
+msgid "Application Context Menu"
+msgstr "응용 프로그램 컨텍스트 메뉴"
+
+#: /packages/application-extension/schema/shell.json:/description
+msgctxt "schema"
+msgid "JupyterLab Shell layout settings."
+msgstr "JupyterLab 쉘 레이아웃 설정."
+
+#: /packages/application-extension/schema/shell.json:/properties/hiddenMode/description
+msgctxt "settings"
+msgid "The method for hiding widgets in the main dock panel. Using `scale` will increase performance on Firefox but don't use it with Chrome, Chromium or Edge."
+msgstr "기본 도크 패널에서 위젯을 숨기는 방법 입니다. 'scale'을 사용하면 Firefox에서 성능이 향상 되지만 Chrome, Chromium 또는 Edge에서는 사용하지 마십시오."
+
+#: /packages/application-extension/schema/shell.json:/properties/hiddenMode/title
+msgctxt "settings"
+msgid "Hidden mode of main panel widgets"
+msgstr "메인 패널 위젯 숨기기 모드."
+
+#: /packages/application-extension/schema/shell.json:/title
+msgctxt "schema"
+msgid "JupyterLab Shell"
+msgstr "JupyterLab 쉘"
+
+#: /packages/application-extension/schema/sidebar.json:/description
+msgctxt "schema"
+msgid "Sidebar layout settings."
+msgstr "사이드바 레이아웃 설정."
+
+#: /packages/application-extension/schema/sidebar.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: /packages/application-extension/schema/sidebar.json:/properties/overrides/description
+msgctxt "settings"
+msgid "Overrides for where to show sidebar items\n"
+"e.g., {\"jp-debugger-sidebar\": \"left\"}\n"
+"You can also change this by right-clicking the sidebar icons."
+msgstr "사이드 바가 보여지는 위치를 변경\n"
+"e.g., {\"jp-debugger-sidebar\": \"left\"}\n"
+"사이브 바 아이콘에서 오른쪽 마우스 버튼으로 변경할 수 있습니다."
+
+#: /packages/application-extension/schema/sidebar.json:/properties/overrides/title
+msgctxt "settings"
+msgid "Overrides"
+msgstr "덮어쓰기"
+
+#: /packages/application-extension/schema/sidebar.json:/title
+msgctxt "schema"
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: /packages/apputils-extension/schema/palette.json:/description
+msgctxt "schema"
+msgid "Command palette settings."
+msgstr "명령어 팔레트 설정."
+
+#: /packages/apputils-extension/schema/palette.json:/properties/modal/description
+msgctxt "settings"
+msgid "Whether the command palette should be modal or in the left panel."
+msgstr "명령어 팔레트 위치의 팝업 또는 왼쪽 패널 여부"
+
+#: /packages/apputils-extension/schema/palette.json:/properties/modal/title
+msgctxt "settings"
+msgid "Modal Command Palette"
+msgstr "팝업 명령어 팔레트"
+
+#: /packages/apputils-extension/schema/palette.json:/title
+msgctxt "schema"
+msgid "Command Palette"
+msgstr "명령어 팔레트"
+
+#: /packages/apputils-extension/schema/print.json:/description
+msgctxt "schema"
+msgid "Print settings."
+msgstr "인쇄 설정"
+
+#: /packages/apputils-extension/schema/print.json:/title
+msgctxt "schema"
+msgid "Print"
+msgstr "인쇄"
+
+#: /packages/apputils-extension/schema/themes.json:/definitions/cssOverrides/properties/code-font-family/description /packages/apputils-extension/schema/themes.json:/definitions/cssOverrides/properties/content-font-family/description /packages/apputils-extension/schema/themes.json:/definitions/cssOverrides/properties/ui-font-family/description
+msgctxt "settings"
+msgid "font-family"
+msgstr "글꼴"
+
+#: /packages/apputils-extension/schema/themes.json:/definitions/cssOverrides/properties/code-font-size/description /packages/apputils-extension/schema/themes.json:/definitions/cssOverrides/properties/content-font-size1/description /packages/apputils-extension/schema/themes.json:/definitions/cssOverrides/properties/ui-font-size1/description
+msgctxt "settings"
+msgid "font-size"
+msgstr "글꼴 크기"
+
+#: /packages/apputils-extension/schema/themes.json:/description
+msgctxt "schema"
+msgid "Theme manager settings."
+msgstr "테마 관리자 설정"
+
+#: /packages/apputils-extension/schema/themes.json:/jupyter.lab.menus/main[0]/items[0]/submenu/label
+msgctxt "menu"
+msgid "Theme"
+msgstr "테마"
+
+#: /packages/apputils-extension/schema/themes.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Theme Manager"
+msgstr "테마 관리자"
+
+#: /packages/apputils-extension/schema/themes.json:/properties/overrides/description
+msgctxt "settings"
+msgid "Override theme CSS variables by setting key-value pairs here"
+msgstr "여기서 키-값 쌍을 설정하여 테마 CSS 변수 재정의"
+
+#: /packages/apputils-extension/schema/themes.json:/properties/overrides/title
+msgctxt "settings"
+msgid "Theme CSS Overrides"
+msgstr "테마 CSS 재정의"
+
+#: /packages/apputils-extension/schema/themes.json:/properties/theme-scrollbars/description
+msgctxt "settings"
+msgid "Enable/disable styling of the application scrollbars"
+msgstr "어플리케이션의 스크롤바에 테마 적용 여부 선택"
+
+#: /packages/apputils-extension/schema/themes.json:/properties/theme-scrollbars/title
+msgctxt "settings"
+msgid "Scrollbar Theming"
+msgstr "스크롤바에 테마 적용"
+
+#: /packages/apputils-extension/schema/themes.json:/properties/theme/description
+msgctxt "settings"
+msgid "Application-level visual styling theme"
+msgstr "응용 프로그램 수준의 시각적 스타일 테마"
+
+#: /packages/apputils-extension/schema/themes.json:/properties/theme/title
+msgctxt "settings"
+msgid "Selected Theme"
+msgstr "선택한 테마"
+
+#: /packages/apputils-extension/schema/themes.json:/title
+msgctxt "schema"
+msgid "Theme"
+msgstr "테마"
+
+#: /packages/apputils-extension/schema/workspaces.json:/description
+msgctxt "schema"
+msgid "Workspaces settings."
+msgstr "작업 공간 설정."
+
+#: /packages/apputils-extension/schema/workspaces.json:/title
+msgctxt "schema"
+msgid "Workspaces"
+msgstr "작업 공간"
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/disabled/title /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/disabled/title /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/disabled/title /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/disabled/title /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/disabled/title /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/disabled/title /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/disabled/title
+msgctxt "settings"
+msgid "Whether the item is ignored or not"
+msgstr "항목 무시 여부"
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/icon/description /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/icon/description /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/icon/description /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/icon/description /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/icon/description /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/icon/description /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/icon/description
+msgctxt "settings"
+msgid "If defined, it will override the command icon"
+msgstr "정의가 되면, 명령어 아이콘을 변경합니다."
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/icon/title /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/icon/title /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/icon/title /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/icon/title /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/icon/title /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/icon/title /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/icon/title
+msgctxt "settings"
+msgid "Item icon id"
+msgstr "항목 아이콘 ID"
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/label/description /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/label/description /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/label/description /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/label/description /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/label/description /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/label/description /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/label/description
+msgctxt "settings"
+msgid "If defined, it will override the command label"
+msgstr "정의가 되면, 명령어 레이블을 변경합니다."
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/label/title /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/label/title /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/label/title /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/label/title /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/label/title /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/label/title /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/label/title
+msgctxt "settings"
+msgid "Item label"
+msgstr "항목 레이블"
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/definitions/toolbarItem/properties/name/title /packages/csvviewer-extension/schema/csv.json:/definitions/toolbarItem/properties/name/title /packages/csvviewer-extension/schema/tsv.json:/definitions/toolbarItem/properties/name/title /packages/filebrowser-extension/schema/widget.json:/definitions/toolbarItem/properties/name/title /packages/fileeditor-extension/schema/plugin.json:/definitions/toolbarItem/properties/name/title /packages/htmlviewer-extension/schema/plugin.json:/definitions/toolbarItem/properties/name/title /packages/notebook-extension/schema/panel.json:/definitions/toolbarItem/properties/name/title
+msgctxt "settings"
+msgid "Unique name"
+msgstr "고유 이름"
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Cell Toolbar Settings."
+msgstr "셀 도구 모음 설정."
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/properties/toolbar/description
+msgctxt "settings"
+msgid "An item is defined by a 'name', a 'command' name, and an 'icon' name"
+msgstr "아이템은 'name'과 'command' 이름, 'icon' 이름으로 정의됩니다."
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/properties/toolbar/title
+msgctxt "settings"
+msgid "List of toolbar items"
+msgstr "도구 모음 항목 목록"
+
+#: /packages/cell-toolbar-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Cell Toolbar"
+msgstr "셀 도구 모음"
+
+#: /packages/codemirror-extension/schema/commands.json:/description
+msgctxt "schema"
+msgid "Text editor settings for all CodeMirror editors."
+msgstr "모든 CodeMirror 편집기의 텍스트 에디터 설정"
+
+#: /packages/codemirror-extension/schema/commands.json:/jupyter.lab.menus/main[0]/items[1]/submenu/label
+msgctxt "menu"
+msgid "Text Editor Syntax Highlighting"
+msgstr "텍스트 편집기 구문 강조(Syntax Highlighting)"
+
+#: /packages/codemirror-extension/schema/commands.json:/jupyter.lab.menus/main[1]/items[0]/submenu/label
+msgctxt "menu"
+msgid "Text Editor Key Map"
+msgstr "텍스트 편집기 키맵"
+
+#: /packages/codemirror-extension/schema/commands.json:/jupyter.lab.menus/main[1]/items[1]/submenu/label
+msgctxt "menu"
+msgid "Text Editor Theme"
+msgstr "텍스트 편집기 테마"
+
+#: /packages/codemirror-extension/schema/commands.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "CodeMirror"
+msgstr "CodeMirror"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/keyMap/description
+msgctxt "settings"
+msgid "Configures the keymap to use"
+msgstr "사용할 키 맵 구성"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/keyMap/title
+msgctxt "settings"
+msgid "Key Map"
+msgstr "키맵"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/lineWiseCopyCut/description /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/lineWiseCopyCut/description /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/lineWiseCopyCut/description
+msgctxt "settings"
+msgid "When enabled, which is the default, doing copy or cut when there is no selection will copy or cut the whole lines that have cursors on them."
+msgstr "기본값인 활성화로 설정되면, 선택된 영역 없이 복사하기와 잘라내기가 커서가 위치한 전체 라인을 복사하거나 잘라내기로 작동하게 됩니다."
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/lineWiseCopyCut/title /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/lineWiseCopyCut/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/lineWiseCopyCut/title
+msgctxt "settings"
+msgid "Line-wise Ctrl-C"
+msgstr "줄단위로 Ctrl-C"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/scrollPastEnd/description
+msgctxt "settings"
+msgid "Whether to scroll past the end of text document"
+msgstr "텍스트 문서의 끝을 지나서 스크롤 할 수 있는지 설정"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/scrollPastEnd/title
+msgctxt "settings"
+msgid "Scroll behavior"
+msgstr "스크롤 설정"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/selectionPointer/description
+msgctxt "settings"
+msgid "Control the mouse cursor appearance when hovering over the selection. Value is boolean or string, e.g. 'pointer'."
+msgstr "마우스 커서를 선택 영역에서 움직일때 모양을 변경할지 여부를 결정. 값은 부울 값 혹은 문자열, 예 'pointer'"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/selectionPointer/oneOf[0]/title
+msgctxt "settings"
+msgid "Use default"
+msgstr "기본값 사용"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/selectionPointer/oneOf[1]/title
+msgctxt "settings"
+msgid "Cursor pointer name"
+msgstr "커서 포인터 이름"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/selectionPointer/title
+msgctxt "settings"
+msgid "Selection Pointer"
+msgstr "선택 포인터"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/styleActiveLine/description
+msgctxt "settings"
+msgid "Highlight active line. Value is boolean, or { nonEmpty: boolean }."
+msgstr "활성화된 라인 하이라이트. 값은 부울 값 또는 { nonEmpty: boolean }."
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/styleActiveLine/oneOf[0]/title
+msgctxt "settings"
+msgid "Boolean"
+msgstr "부울형(Boolean)"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/styleActiveLine/oneOf[1]/title
+msgctxt "settings"
+msgid "Object"
+msgstr "객체"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/styleActiveLine/title
+msgctxt "settings"
+msgid "Style Active Line"
+msgstr "스타일 활성 선"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/styleSelectedText/title
+msgctxt "settings"
+msgid "Style Selected Text"
+msgstr "선택한 텍스트 스타일"
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/theme/description
+msgctxt "settings"
+msgid "CSS file defining the corresponding\n"
+".cm-s-[name] styles is loaded"
+msgstr "해당되는 스타일 이름으로 .cm-s-[name] 된 \n"
+"CSS 파일을 로딩한다."
+
+#: /packages/codemirror-extension/schema/commands.json:/properties/theme/title /packages/terminal-extension/schema/plugin.json:/properties/theme/title
+msgctxt "settings"
+msgid "Theme"
+msgstr "테마"
+
+#: /packages/codemirror-extension/schema/commands.json:/title
+msgctxt "schema"
+msgid "CodeMirror"
+msgstr "CodeMirror"
+
+#: /packages/completer-extension/schema/consoles.json:/description
+msgctxt "schema"
+msgid "Console completer settings."
+msgstr "콘솔 자동 완성 설정."
+
+#: /packages/completer-extension/schema/consoles.json:/title
+msgctxt "schema"
+msgid "Console Completer"
+msgstr "콘솔 자동 완성기"
+
+#: /packages/completer-extension/schema/files.json:/description
+msgctxt "schema"
+msgid "File editor completer settings."
+msgstr "파일 에디터 자동 완성기 설정."
+
+#: /packages/completer-extension/schema/files.json:/title
+msgctxt "schema"
+msgid "File Editor Completer"
+msgstr "파일 에디터 자동 완성기"
+
+#: /packages/completer-extension/schema/notebooks.json:/description
+msgctxt "schema"
+msgid "Notebook completer settings."
+msgstr "노트북 자동 완성기 설정."
+
+#: /packages/completer-extension/schema/notebooks.json:/title
+msgctxt "schema"
+msgid "Notebook Completer"
+msgstr "노트북 자동 완성기"
+
+#: /packages/console-extension/schema/foreign.json:/description
+msgctxt "schema"
+msgid "Code Console Foreign plugin settings."
+msgstr "코드 콘솔 외부 플러그인 설정."
+
+#: /packages/console-extension/schema/foreign.json:/title
+msgctxt "schema"
+msgid "Code Console Foreign plugin"
+msgstr "코드 콘솔 외부 플러그인"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/autoClosingBrackets/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/autoClosingBrackets/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/autoClosingBrackets/title
+msgctxt "settings"
+msgid "Auto Closing Brackets"
+msgstr "자동 괄호 닫기"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/codeFolding/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/codeFolding/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/codeFolding/title
+msgctxt "settings"
+msgid "Code Folding"
+msgstr "코드 접기"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/cursorBlinkRate/description /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/cursorBlinkRate/description /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/cursorBlinkRate/description
+msgctxt "settings"
+msgid "Half-period in milliseconds used for cursor blinking. The default blink rate is 530ms. By setting this to zero, blinking can be disabled. A negative value hides the cursor entirely."
+msgstr "커서가 깜빡이는데 걸리는 시간의 절반을 밀리초로 정의한다. 기본값은 530ms 이다. 0으로 설정하면, 깜박이지 않는다. 음수 값을 넣으면 커서가 완전히 감추어 진다."
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/cursorBlinkRate/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/cursorBlinkRate/title
+msgctxt "settings"
+msgid "Cursor Blinking Rate"
+msgstr "커서 깜박임 속도"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/insertSpaces/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/insertSpaces/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/insertSpaces/title
+msgctxt "settings"
+msgid "Insert Spaces"
+msgstr "공백 삽입"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/lineNumbers/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/lineNumbers/title
+msgctxt "settings"
+msgid "Show Line Numbers"
+msgstr "줄 번호 표시"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/lineWrap/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/lineWrap/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/lineWrap/title
+msgctxt "settings"
+msgid "Line Wrap"
+msgstr "줄 바꿈"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/matchBrackets/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/matchBrackets/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/matchBrackets/title
+msgctxt "settings"
+msgid "Match Brackets"
+msgstr "대/소문자 일치"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/readOnly/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/readOnly/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/readOnly/title
+msgctxt "settings"
+msgid "Read Only"
+msgstr "읽기 전용"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/rulers/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/rulers/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/rulers/title
+msgctxt "settings"
+msgid "Rulers"
+msgstr "눈금자"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/tabSize/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/tabSize/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/tabSize/title
+msgctxt "settings"
+msgid "Tab Size"
+msgstr "탭 크기"
+
+#: /packages/console-extension/schema/tracker.json:/definitions/editorConfig/properties/wordWrapColumn/title /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/wordWrapColumn/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/wordWrapColumn/title
+msgctxt "settings"
+msgid "Word Wrap Column"
+msgstr "단어 줄 바꿈 열"
+
+#: /packages/console-extension/schema/tracker.json:/description
+msgctxt "schema"
+msgid "Code Console settings."
+msgstr "코드 콘솔 설정."
+
+#: /packages/console-extension/schema/tracker.json:/jupyter.lab.menus/main[1]/items[1]/submenu/label
+msgctxt "menu"
+msgid "Console Run Keystroke"
+msgstr "콘솔 실행 키"
+
+#: /packages/console-extension/schema/tracker.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Code Console Settings"
+msgstr "코드 콘솔 설정"
+
+#: /packages/console-extension/schema/tracker.json:/properties/interactionMode/description
+msgctxt "settings"
+msgid "Whether the console interaction mimics the notebook\n"
+"or terminal keyboard shortcuts."
+msgstr "콘솔 인터렉션 방법이 노트북이나 터미널과 비슷하게 \n"
+"설정할 지 여부"
+
+#: /packages/console-extension/schema/tracker.json:/properties/interactionMode/title
+msgctxt "settings"
+msgid "Interaction mode"
+msgstr "상호작용 모드"
+
+#: /packages/console-extension/schema/tracker.json:/properties/promptCellConfig/description
+msgctxt "settings"
+msgid "The configuration for all prompt cells."
+msgstr "모든 프롬프트 셀에 대한 구성"
+
+#: /packages/console-extension/schema/tracker.json:/properties/promptCellConfig/title
+msgctxt "settings"
+msgid "Prompt Cell Configuration"
+msgstr "프롬프트 셀 구성"
+
+#: /packages/console-extension/schema/tracker.json:/properties/showAllKernelActivity/description
+msgctxt "settings"
+msgid "Whether the console defaults to showing all\n"
+"kernel activity or just kernel activity originating from itself."
+msgstr "기본 값으로 콘솔이 커널의 모든 활동을 보여 줄지 \n"
+"혹은 자신이 만든 활동만을 보여 줄지를 결정"
+
+#: /packages/console-extension/schema/tracker.json:/properties/showAllKernelActivity/title
+msgctxt "settings"
+msgid "Show All Kernel Activity"
+msgstr "전체 활동기록 보기"
+
+#: /packages/console-extension/schema/tracker.json:/title
+msgctxt "schema"
+msgid "Code Console"
+msgstr "코드 콘솔"
+
+#: /packages/csvviewer-extension/schema/csv.json:/description
+msgctxt "schema"
+msgid "CSV Viewer settings."
+msgstr "CSV 뷰어 설정."
+
+#: /packages/csvviewer-extension/schema/csv.json:/properties/toolbar/description /packages/csvviewer-extension/schema/tsv.json:/properties/toolbar/description
+msgctxt "settings"
+msgid "Note: To disable a toolbar item,\n"
+"copy it to User Preferences and add the\n"
+"\"disabled\" key. The following example will disable the delimiter selector item:\n"
+"{\n"
+"  \"toolbar\": [\n"
+"    {\n"
+"      \"name\": \"delimiter\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"Toolbar description:"
+msgstr "주의: 도구모음 아이템을 비활성화 하려면, \n"
+"다음을 복사하여 \"사용자  개인 설정\"에\n"
+"\"disabled\" 키를 추가하세요. \n"
+"다음은 구분자 선택 아이템을 비활성화하는 예제 입니다:\n"
+"{\n"
+"  \"toolbar\": [\n"
+"    {\n"
+"      \"name\": \"delimiter\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"도구모음 설명:"
+
+#: /packages/csvviewer-extension/schema/csv.json:/properties/toolbar/title
+msgctxt "settings"
+msgid "CSV viewer toolbar items"
+msgstr "CSV 뷰어 도구 모음 항목"
+
+#: /packages/csvviewer-extension/schema/csv.json:/title
+msgctxt "schema"
+msgid "CSV Viewer"
+msgstr "CSV 뷰어"
+
+#: /packages/csvviewer-extension/schema/tsv.json:/description
+msgctxt "schema"
+msgid "TSV Viewer settings."
+msgstr "TSV 뷰어 설정."
+
+#: /packages/csvviewer-extension/schema/tsv.json:/properties/toolbar/title
+msgctxt "settings"
+msgid "TSV viewer toolbar items"
+msgstr "TSV 뷰어 도구 모음 항목"
+
+#: /packages/csvviewer-extension/schema/tsv.json:/title
+msgctxt "schema"
+msgid "TSV Viewer"
+msgstr "TSV 뷰어"
+
+#: /packages/debugger-extension/schema/main.json:/description
+msgctxt "schema"
+msgid "Debugger settings"
+msgstr "디버거 셋팅"
+
+#: /packages/debugger-extension/schema/main.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Debugger"
+msgstr "디버거"
+
+#: /packages/debugger-extension/schema/main.json:/properties/autoCollapseDebuggerSidebar/description
+msgctxt "settings"
+msgid "Collapse the debugger sidebar when disabling the debugger on a document."
+msgstr "문서의 디버거를 비활성화 했을때 디버거 사이드 바를 자동으로 축소"
+
+#: /packages/debugger-extension/schema/main.json:/properties/autoCollapseDebuggerSidebar/title
+msgctxt "settings"
+msgid "Auto Collapse Debugger Sidebar"
+msgstr "디버거 사이브바를 자동으로 축소"
+
+#: /packages/debugger-extension/schema/main.json:/properties/defaultKernelSourcesFilter/description
+msgctxt "settings"
+msgid "A regular expression filter to apply by default when showing the kernel sources"
+msgstr "커널 소스를 보기위해 적용되는 기본 정규식 필터"
+
+#: /packages/debugger-extension/schema/main.json:/properties/defaultKernelSourcesFilter/title
+msgctxt "settings"
+msgid "Default kernel sources regexp filter"
+msgstr "기본 커널 소스 regexp 필터"
+
+#: /packages/debugger-extension/schema/main.json:/properties/variableFilters/description
+msgctxt "settings"
+msgid "Variables to filter out in the tree and table viewers"
+msgstr "트리와 테이블 보기에서 필터링을 위한 변수"
+
+#: /packages/debugger-extension/schema/main.json:/properties/variableFilters/title
+msgctxt "settings"
+msgid "Variable filter"
+msgstr "변수 필터"
+
+#: /packages/debugger-extension/schema/main.json:/title
+msgctxt "schema"
+msgid "Debugger"
+msgstr "디버거"
+
+#: /packages/docmanager-extension/schema/download.json:/description
+msgctxt "schema"
+msgid "Document Manager Download settings."
+msgstr "문서 관리자 다운로드 설정."
+
+#: /packages/docmanager-extension/schema/download.json:/title
+msgctxt "schema"
+msgid "Document Manager Download"
+msgstr "문서 관리자 다운로드"
+
+#: /packages/docmanager-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Document Manager settings."
+msgstr "문서 관리자 설정."
+
+#: /packages/docmanager-extension/schema/plugin.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Document Manager"
+msgstr "문서 관리자"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/autosave/description
+msgctxt "settings"
+msgid "Whether to autosave documents"
+msgstr "문서 자동 저장 여부"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/autosave/title
+msgctxt "settings"
+msgid "Autosave Documents"
+msgstr "문서 자동 저장"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/autosaveInterval/description
+msgctxt "settings"
+msgid "Length of save interval in seconds"
+msgstr "저장 간격, 초단위"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/autosaveInterval/title
+msgctxt "settings"
+msgid "Autosave Interval"
+msgstr "자동 저장 간격"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/defaultViewers/description
+msgctxt "settings"
+msgid "Overrides for the default viewers for file types"
+msgstr "파일 유형에 따른 기본 뷰어 재정의"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/defaultViewers/title
+msgctxt "settings"
+msgid "Default Viewers"
+msgstr "기본 뷰어"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/lastModifiedCheckMargin/description
+msgctxt "settings"
+msgid "Max acceptable difference, in milliseconds, between last modified timestamps on disk and client"
+msgstr "디스크의 최근 수정한 타임스탬프와 클라이언트 간의 최대 허용오차를 밀리초 단위"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/lastModifiedCheckMargin/title
+msgctxt "settings"
+msgid "Margin for last modified timestamp check"
+msgstr "최근 수정 타임스탬프 점검을 위한 허용 오차"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/renameUntitledFileOnSave/description
+msgctxt "settings"
+msgid "Whether to prompt to rename untitled file on first manual save."
+msgstr "첫뻔째로 수동 저장을 할때 파일 명을 변경하도록 요청"
+
+#: /packages/docmanager-extension/schema/plugin.json:/properties/renameUntitledFileOnSave/title
+msgctxt "settings"
+msgid "Rename Untitled File On First Save"
+msgstr "Untitled File을 첫번째 저장할때 이름 변경"
+
+#: /packages/docmanager-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Document Manager"
+msgstr "문서 관리자"
+
+#: /packages/documentsearch-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Document search plugin."
+msgstr "문서 검색 플러그인."
+
+#: /packages/documentsearch-extension/schema/plugin.json:/properties/searchDebounceTime/description
+msgctxt "settings"
+msgid "The debounce time in milliseconds applied to the search input field. The already opened input files will not be updated if you change that value"
+msgstr "디바운스 시간은 밀리초 단위로 정의되어 검색 입력 필드에 적용된다. 이미 열린 입력 파일에는 값을 변경하였다고 하더라도 갱신되지 않는다."
+
+#: /packages/documentsearch-extension/schema/plugin.json:/properties/searchDebounceTime/title
+msgctxt "settings"
+msgid "Search debounce time (ms)"
+msgstr "검색 디바운스 타임 (ms)"
+
+#: /packages/documentsearch-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Document Search"
+msgstr "문서 검색"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Extension manager settings."
+msgstr "확장 관리자 셋팅"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Extension Manager"
+msgstr "확장 관리자"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/disclaimed/description
+msgctxt "settings"
+msgid "Whether the user understand that extensions managed through this interface run arbitrary code that may be dangerous"
+msgstr "사용자가 이 인터페이스를 이용해 관리하는 확장 프로그램이 위험할 수 있다는 것을 이해하고 있는지 여부."
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/disclaimed/title
+msgctxt "settings"
+msgid "Disclaimed Status"
+msgstr "면책 조건"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/enableCdn/description
+msgctxt "settings"
+msgid "Enables using the CDN to fetch full package data.  Otherwise, the configured NPM registry will be used. Due to a lack of CORS support by NPM registry, only disable if supplying a custom registry"
+msgstr "CDN을 통해 전체 패키지 데이터를 가져오는 것을 활성화 한다. 이를 활성화하지 않으면 구성된 NPM 레지스트리가 사용된다. CORS가 NPM 레지스트리에서는 지원되지 않으므로, 커스텀 레지스트리를 적용하는 경우 비활성화만 가능하다."
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/enableCdn/title
+msgctxt "settings"
+msgid "Enable CDN"
+msgstr "CDN 활성"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/enabled/description
+msgctxt "settings"
+msgid "Enables extension manager (requires Node.js/npm).\n"
+"WARNING: installing untrusted extensions may be unsafe."
+msgstr "확장 프로그램 관리자를 활성화 (Node.js/npm이 필요).\n"
+"경고: 신뢰할 수 없는 확장 프로그램 설치는 안전하지 않을 수 있습니다."
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/enabled/title
+msgctxt "settings"
+msgid "Enabled Status"
+msgstr "활성화된 상태"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/npmCdn/description
+msgctxt "settings"
+msgid "The URI of the CDN to use for fetching full package data"
+msgstr "전체 패키지 데이터를 가져오기 위해 사용될 CDN의 URI."
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/npmCdn/title
+msgctxt "settings"
+msgid "NPM CDN"
+msgstr "NPM CDN"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/npmRegistry/description
+msgctxt "settings"
+msgid "The URI of the NPM registry to use for searching for jupyterlab extensions"
+msgstr "Jupyterlab 확장프로그램을 검색하는데 사용될 NPM 레지스트리의 URI."
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/properties/npmRegistry/title
+msgctxt "settings"
+msgid "NPM Registry"
+msgstr "NPM 레지스트리"
+
+#: /packages/extensionmanager-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Extension Manager"
+msgstr "확장 관리자"
+
+#: /packages/filebrowser-extension/schema/browser.json:/description
+msgctxt "schema"
+msgid "File Browser settings."
+msgstr "파일 브라우저 설정."
+
+#: /packages/filebrowser-extension/schema/browser.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "File Browser"
+msgstr "파일 탐색기"
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/filterDirectories/description
+msgctxt "settings"
+msgid "Whether to apply the search on directories"
+msgstr "검색을 디렉토리에 적용할 지 여부"
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/filterDirectories/title
+msgctxt "settings"
+msgid "Filter directories"
+msgstr "필터 디렉토리"
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/navigateToCurrentDirectory/description
+msgctxt "settings"
+msgid "Whether to automatically navigate to a document's current directory"
+msgstr "문서의 현재 디렉토리를 자동으로 둘러볼지 여부"
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/navigateToCurrentDirectory/title
+msgctxt "settings"
+msgid "Navigate to current directory"
+msgstr "현재 디렉토리 둘러보기"
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/showHiddenFiles/description
+msgctxt "settings"
+msgid "Whether to show hidden files"
+msgstr "감추어진 파일을 보여줄지 여부"
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/showHiddenFiles/title
+msgctxt "settings"
+msgid "Show hidden files"
+msgstr "숨긴 파일 표시"
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/showLastModifiedColumn/description
+msgctxt "settings"
+msgid "Whether to show the last modified column"
+msgstr "최근 수정된 열을 보여 줄지 여부"
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/showLastModifiedColumn/title
+msgctxt "settings"
+msgid "Show last modified column"
+msgstr "최근 수정된 열 보기"
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/useFuzzyFilter/description
+msgctxt "settings"
+msgid "Whether to apply fuzzy algorithm while filtering on file names"
+msgstr "파일명을 필터링 할때 퍼지 알고리즘을 적용할지 여부."
+
+#: /packages/filebrowser-extension/schema/browser.json:/properties/useFuzzyFilter/title
+msgctxt "settings"
+msgid "Filter on file name with a fuzzy search"
+msgstr "퍼지 검색을 이용할때 사용하는 파일 명 필터"
+
+#: /packages/filebrowser-extension/schema/browser.json:/title
+msgctxt "schema"
+msgid "File Browser"
+msgstr "파일 탐색기"
+
+#: /packages/filebrowser-extension/schema/download.json:/description
+msgctxt "schema"
+msgid "File Browser Download settings."
+msgstr "파일 브라우저 다운로드 설정."
+
+#: /packages/filebrowser-extension/schema/download.json:/title
+msgctxt "schema"
+msgid "File Browser Download"
+msgstr "파일 브라우저 다운로드"
+
+#: /packages/filebrowser-extension/schema/open-browser-tab.json:/description
+msgctxt "schema"
+msgid "File Browser Open Browser Tab settings."
+msgstr "파일 브라우저 오픈 브라우저 탭 설정."
+
+#: /packages/filebrowser-extension/schema/open-browser-tab.json:/title
+msgctxt "schema"
+msgid "File Browser Open Browser Tab"
+msgstr "파일 브라우저 오픈 브라우저 탭"
+
+#: /packages/filebrowser-extension/schema/open-with.json:/description
+msgctxt "schema"
+msgid "File Browser Open With settings."
+msgstr "파일 브라우저 다음으로 열기 설정."
+
+#: /packages/filebrowser-extension/schema/open-with.json:/jupyter.lab.menus/context[0]/submenu/label
+msgctxt "menu"
+msgid "Open With"
+msgstr "다음으로 열기"
+
+#: /packages/filebrowser-extension/schema/open-with.json:/title
+msgctxt "schema"
+msgid "File Browser Open With"
+msgstr "파일 브라우저 다음으로 열기 설정"
+
+#: /packages/filebrowser-extension/schema/widget.json:/description
+msgctxt "schema"
+msgid "File Browser widget settings."
+msgstr "파일 탐색 위젯 설정."
+
+#: /packages/filebrowser-extension/schema/widget.json:/properties/toolbar/description
+msgctxt "settings"
+msgid "Note: To disable a toolbar item,\n"
+"copy it to User Preferences and add the\n"
+"\"disabled\" key. The following example will disable the uploader button:\n"
+"{\n"
+"  \"toolbar\": [\n"
+"    {\n"
+"      \"name\": \"uploader\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"Toolbar description:"
+msgstr "주의: 도구모음 아이템을 비활성화 하려면, \n"
+"다음을 복사하여 \"사용자  개인 설정\"에\n"
+"\"disabled\" 키를 추가하세요. \n"
+"다음은 업로드 버튼을 비활성화하는 예제 입니다:\n"
+"{\n"
+"  \"toolbar\": [\n"
+"    {\n"
+"      \"name\": \"uploader\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"도구모음 설명:"
+
+#: /packages/filebrowser-extension/schema/widget.json:/properties/toolbar/title
+msgctxt "settings"
+msgid "File browser toolbar items"
+msgstr "파일 탐색기 도구 모음 아이템"
+
+#: /packages/filebrowser-extension/schema/widget.json:/title
+msgctxt "schema"
+msgid "File Browser Widget"
+msgstr "파일 브라우저 위젯"
+
+#: /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/cursorBlinkRate/title
+msgctxt "settings"
+msgid "Cursor blinking rate"
+msgstr "커서 깜박임 속도"
+
+#: /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/lineNumbers/title
+msgctxt "settings"
+msgid "Line Numbers"
+msgstr "줄 번호"
+
+#: /packages/fileeditor-extension/schema/plugin.json:/definitions/editorConfig/properties/showTrailingSpace/title /packages/notebook-extension/schema/tracker.json:/definitions/editorConfig/properties/showTrailingSpace/title
+msgctxt "settings"
+msgid "Show Trailing Space"
+msgstr "라인 뒷 부분 공백 보여주기"
+
+#: /packages/fileeditor-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Text editor settings."
+msgstr "텍스트 에디터 설정."
+
+#: /packages/fileeditor-extension/schema/plugin.json:/jupyter.lab.menus/main[1]/items[1]/submenu/label
+msgctxt "menu"
+msgid "Text Editor Indentation"
+msgstr "텍스트 편집기 들여쓰기(인덴트)"
+
+#: /packages/fileeditor-extension/schema/plugin.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Editor"
+msgstr "편집기"
+
+#: /packages/fileeditor-extension/schema/plugin.json:/properties/editorConfig/description
+msgctxt "settings"
+msgid "The configuration for all text editors.\n"
+"If `fontFamily`, `fontSize` or `lineHeight` are `null`,\n"
+"values from current theme are used."
+msgstr "모든 텍스트 편집기를 위한 구성.\n"
+"만일 `fontFamily`, `fontSize`, `lineHeight` 가 `null` 이면,\n"
+"현재 테마가 지정한 값이 사용된다."
+
+#: /packages/fileeditor-extension/schema/plugin.json:/properties/editorConfig/title
+msgctxt "settings"
+msgid "Editor Configuration"
+msgstr "에디터 구성"
+
+#: /packages/fileeditor-extension/schema/plugin.json:/properties/toolbar/description
+msgctxt "settings"
+msgid "Note: To disable a toolbar item,\n"
+"copy it to User Preferences and add the\n"
+"\"disabled\" key. Toolbar description:"
+msgstr "주의: 도구모음 아이템을 비활성화 하려면, \n"
+"다음을 복사하여 \"사용자 개인 설정\"에\n"
+"\"disabled\" 키를 추가하세요. 도구모음 설명:"
+
+#: /packages/fileeditor-extension/schema/plugin.json:/properties/toolbar/title
+msgctxt "settings"
+msgid "Text editor toolbar items"
+msgstr "텍스트 편집기 도구 모음 아이템"
+
+#: /packages/fileeditor-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Text Editor"
+msgstr "텍스트 편집기"
+
+#: /packages/help-extension/schema/about.json:/description
+msgctxt "schema"
+msgid "Help settings."
+msgstr "도움말 설정."
+
+#: /packages/help-extension/schema/about.json:/title
+msgctxt "schema"
+msgid "Help"
+msgstr "도움말"
+
+#: /packages/htmlviewer-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "HTML Viewer settings."
+msgstr "HTML 뷰어 설정."
+
+#: /packages/htmlviewer-extension/schema/plugin.json:/properties/toolbar/description
+msgctxt "settings"
+msgid "Note: To disable a toolbar item,\n"
+"copy it to User Preferences and add the\n"
+"\"disabled\" key. The following example will disable the refresh item:\n"
+"{\n"
+"  \"toolbar\": [\n"
+"    {\n"
+"      \"name\": \"refresh\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"Toolbar description:"
+msgstr "주의: 도구모음 아이템을 비활성화 하려면, \n"
+"다음을 복사하여 \"사용자  개인 설정\"에\n"
+"\"disabled\" 키를 추가하세요. \n"
+"다음은 리프레쉬 아이템을 비활성화하는 예제 입니다:\n"
+"{\n"
+"  \"toolbar\": [\n"
+"    {\n"
+"      \"name\": \"refresh\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"도구모음 설명:"
+
+#: /packages/htmlviewer-extension/schema/plugin.json:/properties/toolbar/title
+msgctxt "settings"
+msgid "HTML viewer toolbar items"
+msgstr "HTML 뷰어 도구 모음 항목"
+
+#: /packages/htmlviewer-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "HTML Viewer"
+msgstr "HTML 뷰어"
+
+#: /packages/hub-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "JupyterHub settings."
+msgstr "JupyterHub 설정."
+
+#: /packages/hub-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "JupyterHub"
+msgstr "JupyterHub"
+
+#: /packages/imageviewer-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Image viewer settings."
+msgstr "이미지 뷰어 설정."
+
+#: /packages/imageviewer-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Image Viewer"
+msgstr "이미지 뷰어"
+
+#: /packages/inspector-extension/schema/consoles.json:/description /packages/inspector-extension/schema/notebooks.json:/description
+msgctxt "schema"
+msgid "Inspector Notebook settings."
+msgstr "관리자 노트북 설정."
+
+#: /packages/inspector-extension/schema/consoles.json:/title /packages/inspector-extension/schema/notebooks.json:/title
+msgctxt "schema"
+msgid "Inspector Notebook"
+msgstr "관리자 노트북"
+
+#: /packages/inspector-extension/schema/inspector.json:/description
+msgctxt "schema"
+msgid "Inspector settings."
+msgstr "관리자 설정."
+
+#: /packages/inspector-extension/schema/inspector.json:/title
+msgctxt "schema"
+msgid "Inspector"
+msgstr "관리자"
+
+#: /packages/launcher-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Launcher settings."
+msgstr "런처 설정"
+
+#: /packages/launcher-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Launcher"
+msgstr "런처"
+
+#: /packages/logconsole-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Log Console settings."
+msgstr "로그 콘솔 설정."
+
+#: /packages/logconsole-extension/schema/plugin.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Log Console"
+msgstr "로그 콘솔"
+
+#: /packages/logconsole-extension/schema/plugin.json:/properties/flash/description
+msgctxt "settings"
+msgid "Whether to flash on new log message or not"
+msgstr "새로운 로그 메시지가 있을 경우 깜박임 여부"
+
+#: /packages/logconsole-extension/schema/plugin.json:/properties/flash/title
+msgctxt "settings"
+msgid "Status Bar Item flash"
+msgstr "상태 바 아이템 플래쉬"
+
+#: /packages/logconsole-extension/schema/plugin.json:/properties/maxLogEntries/description
+msgctxt "settings"
+msgid "Maximum number of log entries to store in memory"
+msgstr "메모리에 저장될 최대 로그 아이템의 개수"
+
+#: /packages/logconsole-extension/schema/plugin.json:/properties/maxLogEntries/title
+msgctxt "settings"
+msgid "Log entry count limit"
+msgstr "로그 항목 최대 개수"
+
+#: /packages/logconsole-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Log Console"
+msgstr "로그 콘솔"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Main JupyterLab menu settings."
+msgstr "JupyterLab 메인 메뉴 설정."
+
+#: /packages/mainmenu-extension/schema/plugin.json:/jupyter.lab.menus/main[0]/items[0]/submenu/label
+msgctxt "menu"
+msgid "New"
+msgstr "새로 만들기"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/jupyter.lab.menus/main[0]/label
+msgctxt "menu"
+msgid "File"
+msgstr "파일"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/jupyter.lab.menus/main[1]/label
+msgctxt "menu"
+msgid "Edit"
+msgstr "편집"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/jupyter.lab.menus/main[2]/label
+msgctxt "menu"
+msgid "View"
+msgstr "보기"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/jupyter.lab.menus/main[3]/label
+msgctxt "menu"
+msgid "Run"
+msgstr "실행"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/jupyter.lab.menus/main[4]/label
+msgctxt "menu"
+msgid "Kernel"
+msgstr "커널"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/jupyter.lab.menus/main[5]/label
+msgctxt "menu"
+msgid "Tabs"
+msgstr "탭"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/jupyter.lab.menus/main[6]/label
+msgctxt "menu"
+msgid "Settings"
+msgstr "설정"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/jupyter.lab.menus/main[7]/label
+msgctxt "menu"
+msgid "Help"
+msgstr "도움말"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/properties/menus/description
+msgctxt "settings"
+msgid "Note: To disable a menu or a menu item,\n"
+"copy it to User Preferences and add the\n"
+"\"disabled\" key. The following example will disable\n"
+"the \"Tabs\" menu and \"Restart Kernel and Run up to Selected Cell\"\n"
+"item:\n"
+"{\n"
+"  \"menus\": [\n"
+"    {\n"
+"      \"id\": \"jp-mainmenu-tabs\",\n"
+"      \"disabled\": true\n"
+"    },\n"
+"    {\n"
+"      \"id\": \"jp-mainmenu-kernel\",\n"
+"      \"items\": [\n"
+"        {\n"
+"          \"command\": \"notebook:restart-and-run-to-selected\",\n"
+"          \"disabled\": true\n"
+"        }\n"
+"      ]\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"Menu description:"
+msgstr "주의: 메뉴 혹은 메뉴 아이템을 비활성화 하려면, \n"
+"다음을 복사하여 사용자 개인 설정에 \n"
+"\"disabled\" 키를 추가합니다. \n"
+"다음 예제는 \"탭\" 메뉴와 \"Restart Kernel and Run up to Selected Cell\" \n"
+"아이템을 비활성화 합니다:\n"
+"{\n"
+"  \"menus\": [\n"
+"    {\n"
+"      \"id\": \"jp-mainmenu-tabs\",\n"
+"      \"disabled\": true\n"
+"    },\n"
+"    {\n"
+"      \"id\": \"jp-mainmenu-kernel\",\n"
+"      \"items\": [\n"
+"        {\n"
+"          \"command\": \"notebook:restart-and-run-to-selected\",\n"
+"          \"disabled\": true\n"
+"        }\n"
+"      ]\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"메뉴 설명:"
+
+#: /packages/mainmenu-extension/schema/plugin.json:/properties/menus/title
+msgctxt "settings"
+msgid "The application menu description."
+msgstr "응용 프로그램 메뉴 설명."
+
+#: /packages/mainmenu-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Main Menu"
+msgstr "메인 메뉴"
+
+#: /packages/notebook-extension/schema/export.json:/description
+msgctxt "schema"
+msgid "Notebook Export settings."
+msgstr "노트북 내보내기 설정."
+
+#: /packages/notebook-extension/schema/export.json:/jupyter.lab.menus/main[0]/items[1]/submenu/label
+msgctxt "menu"
+msgid "Save and Export Notebook As…"
+msgstr "저장하고 내보내기"
+
+#: /packages/notebook-extension/schema/export.json:/title
+msgctxt "schema"
+msgid "Notebook Export"
+msgstr "노트북 내보내기"
+
+#: /packages/notebook-extension/schema/panel.json:/description
+msgctxt "schema"
+msgid "Notebook Panel settings."
+msgstr "노트북 패널 설정."
+
+#: /packages/notebook-extension/schema/panel.json:/properties/toolbar/description
+msgctxt "settings"
+msgid "Note: To disable a toolbar item,\n"
+"copy it to User Preferences and add the\n"
+"\"disabled\" key. The following example will disable the Interrupt button item:\n"
+"{\n"
+"  \"toolbar\": [\n"
+"    {\n"
+"      \"name\": \"interrupt\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"Toolbar description:"
+msgstr "주의: 도구모음 아이템을 비활성화 하려면, \n"
+"다음을 복사하여 \"사용자  개인 설정\"에\n"
+"\"disabled\" 키를 추가하세요. \n"
+"다음은 인터럽트 버튼을 비활성화하는 예제 입니다:\n"
+"{\n"
+"  \"toolbar\": [\n"
+"    {\n"
+"      \"name\": \"interrupt\",\n"
+"      \"disabled\": true\n"
+"    }\n"
+"  ]\n"
+"}\n\n"
+"도구모음 설명:"
+
+#: /packages/notebook-extension/schema/panel.json:/properties/toolbar/title
+msgctxt "settings"
+msgid "Notebook panel toolbar items"
+msgstr "노트북 패널 도구모음 항목"
+
+#: /packages/notebook-extension/schema/panel.json:/title
+msgctxt "schema"
+msgid "Notebook Panel"
+msgstr "노트북 패널"
+
+#: /packages/notebook-extension/schema/tracker.json:/definitions/kernelStatusConfig/properties/showOnStatusBar/description
+msgctxt "settings"
+msgid "If `true`, the kernel status progression will be displayed in the status bar otherwise it will be in the toolbar."
+msgstr "`true`로 설정되면 커널 상태 진행이 상태 바에 표시되고, 그렇지 않은 경우 도구모음에 표시됩니다."
+
+#: /packages/notebook-extension/schema/tracker.json:/definitions/kernelStatusConfig/properties/showOnStatusBar/title
+msgctxt "settings"
+msgid "Show kernel status on toolbar or status bar."
+msgstr "도구모음 혹은 상태 바에 커널 상태 보여주기"
+
+#: /packages/notebook-extension/schema/tracker.json:/definitions/kernelStatusConfig/properties/showProgress/title
+msgctxt "settings"
+msgid "Show execution progress."
+msgstr "실행 진도 보기"
+
+#: /packages/notebook-extension/schema/tracker.json:/description
+msgctxt "schema"
+msgid "Notebook settings."
+msgstr "노트북 설정."
+
+#: /packages/notebook-extension/schema/tracker.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Notebook"
+msgstr "노트북"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/codeCellConfig/description
+msgctxt "settings"
+msgid "The configuration for all code cells."
+msgstr "모든 코드 셀에 대한 구성"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/codeCellConfig/title
+msgctxt "settings"
+msgid "Code Cell Configuration"
+msgstr "코드 셀 구성"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/defaultCell/description
+msgctxt "settings"
+msgid "The default type (markdown, code, or raw) for new cells"
+msgstr "새로운 셀의 디폴트 타입 (마크다운, 코드, raw) 설정"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/defaultCell/title
+msgctxt "settings"
+msgid "Default cell type"
+msgstr "기본 셀 유형"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/experimentalDisableDocumentWideUndoRedo/description
+msgctxt "settings"
+msgid "Disable the undo/redo on the notebook document level, so actions independent cells can have their own history. The undo/redo never applies on the outputs, in other words, outputs don't have history. A moved cell completely looses history capability for now."
+msgstr "노트북 문서 수준에서의 취소/재실행 비활성화하여, 작업에 독립적인 셀이 자신의 작업 기록을 가질 수 있습니다. 취소/재실행은 출력에 적용되지 않습니다. 즉, 출력은 작업 기록을 가질 수 없습니다. 지금부터 이동된 셀은 작업 기록 기능을 완전히 잃게 됩니다."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/experimentalDisableDocumentWideUndoRedo/title
+msgctxt "settings"
+msgid "Experimental settings to enable the undo/redo on the notebook document level."
+msgstr "실험적인 설정으로 노트북 문서 수준에서 취소/재실행 기능을 활성화 합니다."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/kernelShutdown/description
+msgctxt "settings"
+msgid "Whether to shut down or not the kernel when closing a notebook."
+msgstr "노트북을 닫을때 커널을 종료할 지 여부."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/kernelShutdown/title
+msgctxt "settings"
+msgid "Shut down kernel"
+msgstr "커널 종료"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/kernelStatus/description
+msgctxt "settings"
+msgid "Defines the position and components of execution progress indicator."
+msgstr "실행 진행 상황을 나타낼 위치와 요소를 정의."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/kernelStatus/title
+msgctxt "settings"
+msgid "Kernel status icon configuration"
+msgstr "커널 상태 아이콘 구성"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/markdownCellConfig/description
+msgctxt "settings"
+msgid "The configuration for all markdown cells."
+msgstr "모든 마크다운 셀에 대한 구성"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/markdownCellConfig/title
+msgctxt "settings"
+msgid "Markdown Cell Configuration"
+msgstr "마크다운 셀 구성"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/maxNumberOutputs/description
+msgctxt "settings"
+msgid "Defines the maximum number of output cells to be rendered in the output area for cells with many outputs. The output area will have a head and the remaining outputs will be trimmed and not displayed unless the user clicks on the information message. Set to 0 to have the complete display."
+msgstr "많은 출력을 갖고 있는 셀들이 출력 영영에서 렌더링을 할때, 최대 출력 셀을 정의 한다. \n"
+"출력 영역은 머릿들과 나머지 출력 부분으로 구성되어 나머지 영역을 보여지지 않고, 사용자가 정보 메시지를 클릭하여야 만 보여지게 된다. 만일 모두 보여지기를 원하는 경우 0으로 설정한다."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/maxNumberOutputs/title
+msgctxt "settings"
+msgid "The maximum number of output cells to be rendered in the output area."
+msgstr "출력 영역에서 렌더링될 출력 셀의 최대 개수."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/numberCellsToRenderDirectly/description
+msgctxt "settings"
+msgid "Define the number of cells to render directly when virtual notebook intersection observer is available"
+msgstr "가상 노트북 검사 옵저버가 활성화 되어 있을때, 직접 렌더링을 할 셀의 개수를 정의"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/numberCellsToRenderDirectly/title
+msgctxt "settings"
+msgid "Number of cells to render directly"
+msgstr "직접 렌더링 할 셀의 수"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/observedBottomMargin/description
+msgctxt "settings"
+msgid "Defines the observed bottom margin for the virtual notebook, set a positive number of pixels to render cells below the visible view"
+msgstr "가상 노트북의 하단 여백을 0보다 큰 숫자로 픽셀단위로 정의하여 셀의 보여지는 영역에서의 여백을 렌더링"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/observedBottomMargin/title
+msgctxt "settings"
+msgid "Observed bottom margin"
+msgstr "보기 하단 여백"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/observedTopMargin/description
+msgctxt "settings"
+msgid "Defines the observed top margin for the virtual notebook, set a positive number of pixels to render cells above the visible view"
+msgstr "가상 노트북의 상단 여백을 0보다 큰 숫자로 픽셀단위로 정의하여 셀의 보여지는 영역에서의 여백을 렌더링"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/observedTopMargin/title
+msgctxt "settings"
+msgid "Observed top margin"
+msgstr "보기 상단 여백"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/rawCellConfig/description
+msgctxt "settings"
+msgid "The configuration for all raw cells."
+msgstr "모든 Raw 셀에 대한 구성"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/rawCellConfig/title
+msgctxt "settings"
+msgid "Raw Cell Configuration"
+msgstr "Raw 셀 구성"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/recordTiming/description
+msgctxt "settings"
+msgid "Should timing data be recorded in cell metadata"
+msgstr "타이밍 데이터가 셀의 메타데이터에 저장되어야 하는지 여부"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/recordTiming/title
+msgctxt "settings"
+msgid "Recording timing"
+msgstr "기록 시간"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/remainingTimeBeforeRescheduling/description
+msgctxt "settings"
+msgid "Define the remaining time in milliseconds before virtual notebook rendering is rescheduled. Set 0 if you want to disable any rescheduling"
+msgstr "가상 노트북 렌더링이 리스케줄링될때까지 남은 시간을 정의. 0으로 설정하면 어떤 리스케줄링도 작동하지 않는다."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/remainingTimeBeforeRescheduling/title
+msgctxt "settings"
+msgid "Remaining time in milliseconds before virtual notebook rendering is rescheduled"
+msgstr "가상 노트북 렌더링이 리스케줄링될때까지 남은 시간"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/renderCellOnIdle/description
+msgctxt "settings"
+msgid "Defines if the placeholder cells should be rendered when the browser is idle"
+msgstr "브라우저가 쉬는 상태 플레이스 홀더 셀을 렌더링해야 하는지 여부를 정의합니다."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/renderCellOnIdle/title
+msgctxt "settings"
+msgid "Render cell on browser idle time"
+msgstr "한가한 시간에 브라우저에 셀을 렌더링"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/renderingLayout/description
+msgctxt "settings"
+msgid "Global setting to define the rendering layout in notebooks. 'default' or 'side-by-side' are supported."
+msgstr "노트북의 렌더링 레이아웃을 정의하는 전역 설정. 'default' 또는 'side-by-site' 가 지원됨."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/renderingLayout/title
+msgctxt "settings"
+msgid "Rendering Layout"
+msgstr "렌더링 레이아웃"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/scrollPastEnd/description
+msgctxt "settings"
+msgid "Whether to be able to scroll so the last cell is at the top of the panel"
+msgstr "마지막 셀이 패널의 맨 위에 오도록 스크롤되도록 하는 여부"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/scrollPastEnd/title
+msgctxt "settings"
+msgid "Scroll past last cell"
+msgstr "마지막 셀 다음으로 스크롤"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/showEditorForReadOnlyMarkdown/description
+msgctxt "settings"
+msgid "Should an editor be shown for read-only markdown"
+msgstr "읽기 전용 마크다운에 에디터를 통해 표시되어야 한다."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/showEditorForReadOnlyMarkdown/title
+msgctxt "settings"
+msgid "Show editor for read-only Markdown cells"
+msgstr "읽기 전용 마크다운 셀 보여주기"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/sideBySideLeftMarginOverride/description
+msgctxt "settings"
+msgid "Side-by-side left margin override."
+msgstr "나란히 보기 왼쪽 여백 무시."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/sideBySideLeftMarginOverride/title
+msgctxt "settings"
+msgid "Side-by-side left margin override"
+msgstr "나란히 보기 오른쪽 여백 무시"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/sideBySideOutputRatio/description
+msgctxt "settings"
+msgid "For the side-by-side rendering, the side-by-side output ratio defines the width of the output vs the input. Set 1 for same size, > 1 for larger output, < 1 for smaller output."
+msgstr "나란히 비교 렌더링에서, 나란히 출력 비율은 입력에 대한 출력의 폭 비율을 정의한다. 1로 설정하면 같은 크기이고, > 1 이면 출력이 크고, < 1 이면 출력이 더 작다."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/sideBySideOutputRatio/title
+msgctxt "settings"
+msgid "Side-by-side output ratio"
+msgstr "나란히 보기 출력 비율"
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/sideBySideRightMarginOverride/description
+msgctxt "settings"
+msgid "Side-by-side right margin override."
+msgstr "나란히 보기 오른쪽 여백 무시."
+
+#: /packages/notebook-extension/schema/tracker.json:/properties/sideBySideRightMarginOverride/title
+msgctxt "settings"
+msgid "Side-by-side right margin override"
+msgstr "나란히 보기 오른쪽 여백 무시"
+
+#: /packages/notebook-extension/schema/tracker.json:/title
+msgctxt "schema"
+msgid "Notebook"
+msgstr "노트북"
+
+#: /packages/settingeditor-extension/schema/form-ui.json:/description
+msgctxt "schema"
+msgid "Settings editor form ui settings."
+msgstr "설정 편집기 폼 Ui 설정."
+
+#: /packages/settingeditor-extension/schema/form-ui.json:/properties/settingEditorType/description
+msgctxt "settings"
+msgid "Set the type of editor to use while editing your settings."
+msgstr "설정을 편집할때 사용할 편집기의 유형을 설정"
+
+#: /packages/settingeditor-extension/schema/form-ui.json:/properties/settingEditorType/title
+msgctxt "settings"
+msgid "Type of editor for the setting."
+msgstr "설정을 위한 에디터의 유형."
+
+#: /packages/settingeditor-extension/schema/form-ui.json:/title
+msgctxt "schema"
+msgid "Settings Editor Form UI"
+msgstr "설정 에디티 폼 UI"
+
+#: /packages/settingeditor-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Setting editor settings."
+msgstr "설정 편집기 설정."
+
+#: /packages/settingeditor-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Setting Editor"
+msgstr "설정 편집기"
+
+#: /packages/shortcuts-extension/schema/shortcuts.json:/description
+msgctxt "schema"
+msgid "Keyboard shortcut settings."
+msgstr "단축키 설정."
+
+#: /packages/shortcuts-extension/schema/shortcuts.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Keyboard Shortcuts"
+msgstr "단축키"
+
+#: /packages/shortcuts-extension/schema/shortcuts.json:/properties/shortcuts/description
+msgctxt "settings"
+msgid "The list of keyboard shortcuts."
+msgstr "키보드 단축키 리스트."
+
+#: /packages/shortcuts-extension/schema/shortcuts.json:/title
+msgctxt "schema"
+msgid "Keyboard Shortcuts"
+msgstr "단축키"
+
+#: /packages/statusbar-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Status Bar settings."
+msgstr "상태 바 설정."
+
+#: /packages/statusbar-extension/schema/plugin.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Status Bar"
+msgstr "상태 바"
+
+#: /packages/statusbar-extension/schema/plugin.json:/properties/startMode/description
+msgctxt "settings"
+msgid "The mode under which JupyterLab should start. If empty, the mode will be imposed by the URL"
+msgstr "JupyterLab이 시작하는 모드입니다. 비어 있으면 URL에 의해 모드가 적용됩니다."
+
+#: /packages/statusbar-extension/schema/plugin.json:/properties/startMode/title
+msgctxt "settings"
+msgid "Start mode: ``, `single`or `multiple`"
+msgstr "시작 모드: ``, `single`or `multiple`"
+
+#: /packages/statusbar-extension/schema/plugin.json:/properties/visible/description
+msgctxt "settings"
+msgid "Whether to show status bar or not"
+msgstr "상태 표시줄 표시 여부"
+
+#: /packages/statusbar-extension/schema/plugin.json:/properties/visible/title
+msgctxt "settings"
+msgid "Status Bar Visibility"
+msgstr "상태 바 표시"
+
+#: /packages/statusbar-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Status Bar"
+msgstr "상태 바"
+
+#: /packages/terminal-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Terminal settings."
+msgstr "터미널 설정."
+
+#: /packages/terminal-extension/schema/plugin.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Terminal"
+msgstr "터미널"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/closeOnExit/description
+msgctxt "settings"
+msgid "Close the widget when exiting the terminal."
+msgstr "터미널을 종료하면 위젯도 닫기."
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/closeOnExit/title
+msgctxt "settings"
+msgid "Close on exit"
+msgstr "종료시 닫기"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/fontFamily/description
+msgctxt "settings"
+msgid "The font family used to render text."
+msgstr "텍스트를 렌더링하는데 사용될 글꼴 집합"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/fontFamily/title
+msgctxt "settings"
+msgid "Font family"
+msgstr "글꼴 모음"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/fontSize/description
+msgctxt "settings"
+msgid "The font size used to render text."
+msgstr "텍스트를 렌더링하는데 사용될 글꼴 크기"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/fontSize/title
+msgctxt "settings"
+msgid "Font size"
+msgstr "글꼴 크기"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/lineHeight/description
+msgctxt "settings"
+msgid "The line height used to render text."
+msgstr "텍스트를 렌더링하는데 사용될 라인의 높이"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/lineHeight/title
+msgctxt "settings"
+msgid "Line height"
+msgstr "줄 간격"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/macOptionIsMeta/description
+msgctxt "settings"
+msgid "Option key on macOS can be used as meta key. This enables to use shortcuts such as option + f to move cursor forward one word"
+msgstr "MacOS에서는 Option 키가 meta 키 역할을 하게 된다. 이를 통해 option + f 를 통해 커서를 한 단어 앞으로 보내는 것과 같은 단축 키를 사용할 수 있다."
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/macOptionIsMeta/title
+msgctxt "settings"
+msgid "Treat option as meta key on macOS"
+msgstr "MacOS에서는 option 키를 meta 키로 사용하십시오."
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/pasteWithCtrlV/description
+msgctxt "settings"
+msgid "Enable pasting with Ctrl+V.  This can be disabled to use Ctrl+V in the vi editor, for instance.  This setting has no effect on macOS, where Cmd+V is available"
+msgstr "Ctrl+V로 붙여넣기를 활성화 하면, vi 에디터에서의 Ctrl+V 기능은 사용하지 못하게 됩니다. 하지만 macOS에서는 Cmd+V를 사용하기 때문에 영향을 주지 않습니다."
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/pasteWithCtrlV/title
+msgctxt "settings"
+msgid "Paste with Ctrl+V"
+msgstr "붙여넣기 Ctrl+V"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/screenReaderMode/description
+msgctxt "settings"
+msgid "Add accessibility elements for use with screen readers."
+msgstr "스크린을 통해 읽는 사람들에게 도움을 주는 접근성 요소를 추가한다."
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/screenReaderMode/title
+msgctxt "settings"
+msgid "Screen Reader Mode"
+msgstr "화면 읽기 모드"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/scrollback/description
+msgctxt "settings"
+msgid "The amount of scrollback beyond initial viewport"
+msgstr "초기 뷰포트에서 뒤로 스크롤 할 수 최대 양"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/scrollback/title
+msgctxt "settings"
+msgid "Scrollback Buffer"
+msgstr "스크롤백 버퍼 "
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/shutdownOnClose/description
+msgctxt "settings"
+msgid "Shut down the session when closing the terminal."
+msgstr "터미널을 닫으면 세션을 종료."
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/shutdownOnClose/title
+msgctxt "settings"
+msgid "Shut down on close"
+msgstr "닫을 때 종료"
+
+#: /packages/terminal-extension/schema/plugin.json:/properties/theme/description
+msgctxt "settings"
+msgid "The theme for the terminal."
+msgstr "터미널 테마"
+
+#: /packages/terminal-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Terminal"
+msgstr "터미널"
+
+#: /packages/toc-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Table of contents settings."
+msgstr "목차 설정."
+
+#: /packages/toc-extension/schema/plugin.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Table of Contents"
+msgstr "목차"
+
+#: /packages/toc-extension/schema/plugin.json:/properties/includeOutput/description
+msgctxt "settings"
+msgid "Whether to include cell output in headings"
+msgstr "셀 출력을 제목에 포함할지 여부"
+
+#: /packages/toc-extension/schema/plugin.json:/properties/includeOutput/title
+msgctxt "settings"
+msgid "Include cell output in headings"
+msgstr "셀 출력을 제목에 포함"
+
+#: /packages/toc-extension/schema/plugin.json:/properties/numberingH1/description
+msgctxt "settings"
+msgid "Whether to number first-level headings"
+msgstr "첫번째 수준의 제목에 번호를 넣을지 여부"
+
+#: /packages/toc-extension/schema/plugin.json:/properties/numberingH1/title
+msgctxt "settings"
+msgid "Enable h1 numbering"
+msgstr "h1 번호 활성화"
+
+#: /packages/toc-extension/schema/plugin.json:/properties/syncCollapseState/description
+msgctxt "settings"
+msgid "If set to true, when a header is collapsed in the table of contents the corresponding section in the notebook is collapsed as well and vice versa."
+msgstr "True로 설정하면, 목차에서 제목이 접힘/펼침이 되면, 해당되는 노트북의 섹션이 접힘/펼침이 된다."
+
+#: /packages/toc-extension/schema/plugin.json:/properties/syncCollapseState/title
+msgctxt "settings"
+msgid "Synchronize collapse state"
+msgstr "축소 상태를 동기화"
+
+#: /packages/toc-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Table of Contents"
+msgstr "목차"
+
+#: /packages/tooltip-extension/schema/consoles.json:/description
+msgctxt "schema"
+msgid "Console tooltip settings."
+msgstr "콘솔 도구모음 설정"
+
+#: /packages/tooltip-extension/schema/consoles.json:/title
+msgctxt "schema"
+msgid "Console Tooltips"
+msgstr "콘솔 도구모음"
+
+#: /packages/tooltip-extension/schema/files.json:/description
+msgctxt "schema"
+msgid "File editor tooltip settings."
+msgstr "파일 편집기 도구모움 설정."
+
+#: /packages/tooltip-extension/schema/files.json:/title
+msgctxt "schema"
+msgid "File Editor Tooltips"
+msgstr "파일 편집기 도구모음"
+
+#: /packages/tooltip-extension/schema/notebooks.json:/description
+msgctxt "schema"
+msgid "Notebook tooltip settings."
+msgstr "노트북 도구모움 설정."
+
+#: /packages/tooltip-extension/schema/notebooks.json:/title
+msgctxt "schema"
+msgid "Notebook Tooltips"
+msgstr "노트북 툴팁"
+
+#: /packages/translation-extension/schema/plugin.json:/description
+msgctxt "schema"
+msgid "Language settings."
+msgstr "언어 설정"
+
+#: /packages/translation-extension/schema/plugin.json:/jupyter.lab.menus/main[0]/items[1]/submenu/label
+msgctxt "menu"
+msgid "Language"
+msgstr "언어"
+
+#: /packages/translation-extension/schema/plugin.json:/jupyter.lab.setting-icon-label
+msgctxt "settings"
+msgid "Language"
+msgstr "언어"
+
+#: /packages/translation-extension/schema/plugin.json:/properties/displayStringsPrefix/description
+msgctxt "settings"
+msgid "Display the `stringsPrefix` on localized strings."
+msgstr "현지화 문자열에 `stringsPrefix`를 표시."
+
+#: /packages/translation-extension/schema/plugin.json:/properties/displayStringsPrefix/title
+msgctxt "settings"
+msgid "Display localized strings prefix"
+msgstr "현지화 문자열 접두사 표시"
+
+#: /packages/translation-extension/schema/plugin.json:/properties/locale/description
+msgctxt "settings"
+msgid "Set the interface display language. Examples: 'es_CO', 'fr'."
+msgstr "인터페이스 표시 언어 설정. 예: 'ko_KR', 'fr'"
+
+#: /packages/translation-extension/schema/plugin.json:/properties/locale/title
+msgctxt "settings"
+msgid "Language locale"
+msgstr "현지화 언어"
+
+#: /packages/translation-extension/schema/plugin.json:/properties/stringsPrefix/description
+msgctxt "settings"
+msgid "Add a prefix to localized strings."
+msgstr "현지화 문자열에 접두사 추가"
+
+#: /packages/translation-extension/schema/plugin.json:/properties/stringsPrefix/title
+msgctxt "settings"
+msgid "Localized strings prefix"
+msgstr "현지화 접두사"
+
+#: /packages/translation-extension/schema/plugin.json:/title
+msgctxt "schema"
+msgid "Language"
+msgstr "언어"
+
+#: packages/application-extension/src/index.tsx:111 packages/apputils-extension/src/index.ts:306 packages/documentsearch-extension/src/index.ts:254 packages/documentsearch-extension/src/index.ts:258 packages/documentsearch-extension/src/index.ts:262 packages/logconsole-extension/src/index.tsx:242 packages/mainmenu-extension/src/index.ts:228 packages/mainmenu-extension/src/index.ts:232 packages/mainmenu-extension/src/index.ts:242 packages/statusbar-extension/src/index.ts:74
+msgid "Main Area"
+msgstr "메인 영역"
+
+#: packages/application-extension/src/index.tsx:115
+msgid "Shift+Right Click for Browser Menu"
+msgstr "Shift+오른쪽 클릭으로 브라우저 메뉴 보기"
+
+#: packages/application-extension/src/index.tsx:1203
+msgid "Switch Sidebar Side"
+msgstr "사이브바의 위치 변경"
+
+#: packages/application-extension/src/index.tsx:200
+msgid "Close Tab"
+msgstr "탭 닫기"
+
+#: packages/application-extension/src/index.tsx:214
+msgid "Close All Other Tabs"
+msgstr "다른 모든 탭 닫기"
+
+#: packages/application-extension/src/index.tsx:234
+msgid "Close Tabs to Right"
+msgstr "우측으로 탭 닫기"
+
+#: packages/application-extension/src/index.tsx:249
+msgid "Activate Next Tab"
+msgstr "다음 탭"
+
+#: packages/application-extension/src/index.tsx:256
+msgid "Activate Previous Tab"
+msgstr "이전 탭"
+
+#: packages/application-extension/src/index.tsx:263
+msgid "Activate Next Tab Bar"
+msgstr "다음 탭바"
+
+#: packages/application-extension/src/index.tsx:270
+msgid "Activate Previous Tab Bar"
+msgstr "이전 탭바"
+
+#: packages/application-extension/src/index.tsx:277
+msgid "Close All Tabs"
+msgstr "모든 탭 닫기"
+
+#: packages/application-extension/src/index.tsx:284
+msgid "Show Left Sidebar"
+msgstr "좌측 사이드바 표시"
+
+#: packages/application-extension/src/index.tsx:300
+msgid "Show Right Sidebar"
+msgstr "우측 사이드바 표시"
+
+#: packages/application-extension/src/index.tsx:316
+msgid "Presentation Mode"
+msgstr "프레젠테이션 모드"
+
+#: packages/application-extension/src/index.tsx:340 packages/statusbar-extension/src/index.ts:383
+msgid "Simple Interface"
+msgstr "단순한 인터페이스"
+
+#: packages/application-extension/src/index.tsx:431
+msgid "Error Registering Plugins"
+msgstr "플러그인 등록 오류"
+
+#: packages/application-extension/src/index.tsx:481 packages/extensionmanager/src/build-helper.tsx:27
+msgid "Build Complete"
+msgstr "빌드 완성"
+
+#: packages/application-extension/src/index.tsx:484 packages/extensionmanager/src/build-helper.tsx:30
+msgid "Build successfully completed, reload page?"
+msgstr "빌드가 성공적으로 완료되었습니다. 페이지를 다시 불러올까요?"
+
+#: packages/application-extension/src/index.tsx:486 packages/extensionmanager/src/build-helper.tsx:32
+msgid "You will lose any unsaved changes."
+msgstr "저당되지 않은 변경사항을 잃게 됩니다."
+
+#: packages/application-extension/src/index.tsx:491 packages/extensionmanager/src/build-helper.tsx:37
+msgid "Reload Without Saving"
+msgstr "저장하지 않고 다시 불러오기"
+
+#: packages/application-extension/src/index.tsx:494 packages/extensionmanager/src/build-helper.tsx:40
+msgid "Save and Reload"
+msgstr "저장하고 다시 불러오기"
+
+#: packages/application-extension/src/index.tsx:507 packages/extensionmanager/src/build-helper.tsx:53
+msgid "Save Failed"
+msgstr "저장 실패"
+
+#: packages/application-extension/src/index.tsx:516 packages/extensionmanager/src/build-helper.tsx:63
+msgid "Build Failed"
+msgstr "빌드 실패"
+
+#: packages/application-extension/src/index.tsx:534
+msgid "JupyterLab build is suggested:"
+msgstr "JuputerLab 권장 빌드:"
+
+#: packages/application-extension/src/index.tsx:541
+msgid "Build Recommended"
+msgstr "권장 빌드"
+
+#: packages/application-extension/src/index.tsx:545
+msgid "Build"
+msgstr "빌드"
+
+#: packages/application-extension/src/index.tsx:608
+msgid "Are you sure you want to exit JupyterLab?\n\n"
+"Any unsaved changes will be lost."
+msgstr "정말 종료하시겠습니까?\n"
+"모든 변경 사항이 사라집니다."
+
+#: packages/application-extension/src/index.tsx:776
+msgid "The path: %1 was not found. JupyterLab redirected to: %2"
+msgstr "경로: %1을 찾을 수 없습니다. JupyterLab이 %2로 변경하였습니다."
+
+#: packages/application-extension/src/index.tsx:785
+msgid "Path Not Found"
+msgstr "경로를 찾지 못함"
+
+#: packages/application-extension/src/index.tsx:928
+msgid "Property Inspector"
+msgstr "속성 탐색기"
+
+#: packages/application-extension/src/index.tsx:984 packages/apputils/src/toolbar/factory.ts:28 packages/mainmenu-extension/src/index.ts:942
+msgid "Information"
+msgstr "정보"
+
+#: packages/application-extension/src/index.tsx:985
+msgid "Context menu customization has changed. You will need to reload JupyterLab to see the changes."
+msgstr "사용자 지정 컨텍스트 메뉴가 변경되었습니다. 변경된 사항을 적용하려면 JupyterLab을 다시 불러와야 합니다."
+
+#: packages/application-extension/src/index.tsx:990 packages/apputils/src/toolbar/factory.ts:34 packages/docmanager-extension/src/index.tsx:631 packages/mainmenu-extension/src/index.ts:948
+msgid "Reload"
+msgstr "다시 불러오기"
+
+#: packages/application/src/connectionlost.ts:19
+msgid "Server Connection Error"
+msgstr "서버 연결 오류"
+
+#: packages/application/src/connectionlost.ts:20
+msgid "A connection to the Jupyter server could not be established.\n"
+"JupyterLab will continue trying to reconnect.\n"
+"Check your network connection or Jupyter server configuration.\n"
+msgstr "Jupyter 서버에 연결할 수 없습니다.\n"
+"JupyterLab이 서버 연결을 계속 시도중입니다.\n"
+"네트워크 연결 혹은 Jupyter 서버 구성을 확인해주십시오.\n"
+
+#: packages/application/src/shell.ts:250
+msgid "main"
+msgstr "메인"
+
+#: packages/application/src/shell.ts:285 packages/application/src/shell.ts:289
+msgid "main sidebar"
+msgstr "메인 사이드바"
+
+#: packages/application/src/shell.ts:298 packages/application/src/shell.ts:302
+msgid "alternate sidebar"
+msgstr "대체 사이드바"
+
+#: packages/apputils-extension/src/index.ts:208
+msgid "Loading…"
+msgstr "로딩 중…"
+
+#: packages/apputils-extension/src/index.ts:209
+msgid "The loading screen is taking a long time.\n"
+"Would you like to clear the workspace or keep waiting?"
+msgstr "화면 로딩 시간이 오래걸리고 있습니다.\n"
+"워크스페이스를 초기화 할까요? 아니면 기다리시겠습니까?"
+
+#: packages/apputils-extension/src/index.ts:212
+msgid "Keep Waiting"
+msgstr "기다려주세요"
+
+#: packages/apputils-extension/src/index.ts:213
+msgid "Clear Workspace"
+msgstr "작업 공간 비우기"
+
+#: packages/apputils-extension/src/index.ts:278
+msgid "Print…"
+msgstr "인쇄"
+
+#: packages/apputils-extension/src/index.ts:308
+msgid "Show Header Above Content"
+msgstr "내용 위에 헤더 표시"
+
+#: packages/apputils-extension/src/index.ts:475
+msgid "Reset Application State"
+msgstr "애플리케이션 상태 리셋"
+
+#: packages/apputils-extension/src/index.ts:566
+msgid "Run First Enabled Command"
+msgstr "첫번째 활성화된 명령 실행"
+
+#: packages/apputils-extension/src/index.ts:582
+msgid "Run All Enabled Commands Passed as Args"
+msgstr "모든 활성화된 명령어를 매개변수로 전달하여 실행"
+
+#: packages/apputils-extension/src/palette.ts:101
+msgid "Command Palette Section"
+msgstr "명령어 팔레트 섹션"
+
+#: packages/apputils-extension/src/palette.ts:142
+msgid "Commands (%1)"
+msgstr "명령어 (%1)"
+
+#: packages/apputils-extension/src/palette.ts:144 packages/apputils-extension/src/palette.ts:209
+msgid "Commands"
+msgstr "명령어"
+
+#: packages/apputils-extension/src/palette.ts:160
+msgid "Activate Command Palette"
+msgstr "명령어 팔레트 활성화"
+
+#: packages/apputils-extension/src/palette.ts:163 packages/extensionmanager/src/widget.tsx:742
+msgid "SEARCH"
+msgstr "검색"
+
+#: packages/apputils-extension/src/palette.ts:42
+msgid "Command Palette"
+msgstr "명령어 팔레트"
+
+#: packages/apputils-extension/src/themesplugins.ts:103
+msgid "Theme Scrollbars"
+msgstr "테마 스크롤바"
+
+#: packages/apputils-extension/src/themesplugins.ts:110
+msgid "waiting for fonts"
+msgstr "폰트 로딩 중"
+
+#: packages/apputils-extension/src/themesplugins.ts:121
+msgid "Increase Code Font Size"
+msgstr "코드 글자 크기 크게"
+
+#: packages/apputils-extension/src/themesplugins.ts:123
+msgid "Increase Content Font Size"
+msgstr "콘텐츠 글자 크기 크게"
+
+#: packages/apputils-extension/src/themesplugins.ts:125
+msgid "Increase UI Font Size"
+msgstr "UI 글자 크기 크게"
+
+#: packages/apputils-extension/src/themesplugins.ts:127 packages/fileeditor-extension/src/commands.ts:298
+msgid "Increase Font Size"
+msgstr "글자 크기 확대"
+
+#: packages/apputils-extension/src/themesplugins.ts:137
+msgid "Decrease Code Font Size"
+msgstr "코드 글자 크기 작게"
+
+#: packages/apputils-extension/src/themesplugins.ts:139
+msgid "Decrease Content Font Size"
+msgstr "콘텐츠 글자 크기 작게"
+
+#: packages/apputils-extension/src/themesplugins.ts:141
+msgid "Decrease UI Font Size"
+msgstr "UI 글자 크기 작게"
+
+#: packages/apputils-extension/src/themesplugins.ts:143 packages/fileeditor-extension/src/commands.ts:302
+msgid "Decrease Font Size"
+msgstr "글자 크기 축소"
+
+#: packages/apputils-extension/src/themesplugins.ts:202
+msgid "Theme"
+msgstr "테마"
+
+#: packages/apputils-extension/src/themesplugins.ts:89
+msgid "Use Theme: %1"
+msgstr "테마: %1"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:189
+msgid "Workspace loader"
+msgstr "작업 공간 로더"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:274 packages/apputils-extension/src/workspacesplugin.ts:280 packages/docmanager/src/widgetmanager.ts:371 packages/docregistry/src/context.ts:1004 packages/docregistry/src/context.ts:1011
+msgid "Save"
+msgstr "저장"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:276 packages/apputils-extension/src/workspacesplugin.ts:82
+msgid "Save Current Workspace As…"
+msgstr "다른 이름으로 저장"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:278 packages/apputils/src/sessioncontext.tsx:1292 packages/debugger-extension/src/index.ts:625 packages/debugger/src/panels/breakpoints/index.ts:66 packages/docmanager-extension/src/index.tsx:630 packages/docmanager-extension/src/index.tsx:680 packages/docmanager-extension/src/index.tsx:958 packages/docmanager/src/dialogs.ts:115 packages/docmanager/src/dialogs.ts:52 packages/docmanager/src/widgetmanager.ts:377 packages/extensionmanager/src/companions.tsx:216 packages/filebrowser/src/listing.ts:415 packages/filebrowser/src/model.ts:456 packages/filebrowser/src/opendialog.ts:87 packages/notebook/src/actions.tsx:1899 packages/running/src/index.tsx:232 packages/settingeditor/src/plugineditor.ts:137 packages/shortcuts-extension/src/components/ShortcutItem.tsx:247 packages/translation-extension/src/index.ts:138
+msgid "Cancel"
+msgstr "취소"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:75
+msgid "JupyterLab workspace File"
+msgstr "JupyterLab 작업 공간 파일"
+
+#: packages/apputils-extension/src/workspacesplugin.ts:96
+msgid "Save Current Workspace"
+msgstr "저장"
+
+#: packages/apputils/src/kernelstatuses.ts:17
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: packages/apputils/src/kernelstatuses.ts:18
+msgid "Starting"
+msgstr "시작 중"
+
+#: packages/apputils/src/kernelstatuses.ts:19
+msgid "Idle"
+msgstr "대기"
+
+#: packages/apputils/src/kernelstatuses.ts:20
+msgid "Busy"
+msgstr "바쁨"
+
+#: packages/apputils/src/kernelstatuses.ts:21
+msgid "Terminating"
+msgstr "종료 중"
+
+#: packages/apputils/src/kernelstatuses.ts:22
+msgid "Restarting"
+msgstr "재시작 중"
+
+#: packages/apputils/src/kernelstatuses.ts:23
+msgid "Autorestarting"
+msgstr "자동 재시작 중"
+
+#: packages/apputils/src/kernelstatuses.ts:24
+msgid "Dead"
+msgstr "Dead"
+
+#: packages/apputils/src/kernelstatuses.ts:25
+msgid "Connected"
+msgstr "연결됨"
+
+#: packages/apputils/src/kernelstatuses.ts:26
+msgid "Connecting"
+msgstr "연결중"
+
+#: packages/apputils/src/kernelstatuses.ts:27
+msgid "Disconnected"
+msgstr "연결 끊김"
+
+#: packages/apputils/src/kernelstatuses.ts:28
+msgid "Initializing"
+msgstr "초기화중"
+
+#: packages/apputils/src/mainareawidget.ts:47
+msgid "notebook content"
+msgstr "노트북 내용"
+
+#: packages/apputils/src/mainareawidget.ts:50
+msgid "notebook actions"
+msgstr "노트북 작업"
+
+#: packages/apputils/src/sessioncontext.tsx:1019
+msgid "Error Starting Kernel"
+msgstr "커널 시작 오류"
+
+#: packages/apputils/src/sessioncontext.tsx:1298 packages/filebrowser/src/opendialog.ts:89
+msgid "Select"
+msgstr "선택"
+
+#: packages/apputils/src/sessioncontext.tsx:1302
+msgid "Select Kernel"
+msgstr "커널 선택"
+
+#: packages/apputils/src/sessioncontext.tsx:1355
+msgid "Restart Kernel?"
+msgstr "커널을 재시작할까요?"
+
+#: packages/apputils/src/sessioncontext.tsx:1356
+msgid "Do you want to restart the current kernel? All variables will be lost."
+msgstr "현재 커널을 재시작합니다. 저장된 모든 변수가 초기화됩니다."
+
+#: packages/apputils/src/sessioncontext.tsx:1410
+msgid "Select kernel for:"
+msgstr "커널을 선택하세요:"
+
+#: packages/apputils/src/sessioncontext.tsx:1550
+msgid "Start Preferred Kernel"
+msgstr "선호하는 커널 시작"
+
+#: packages/apputils/src/sessioncontext.tsx:1565
+msgid "Start Other Kernel"
+msgstr "다른 커널 시작"
+
+#: packages/apputils/src/sessioncontext.tsx:1622
+msgid "Use Kernel from Preferred Session"
+msgstr "선호하는 세션의 커널 사용"
+
+#: packages/apputils/src/sessioncontext.tsx:1637
+msgid "Use Kernel from Other Session"
+msgstr "다른 세션의 커널 사용"
+
+#: packages/apputils/src/sessioncontext.tsx:1687
+msgid "Use No Kernel"
+msgstr "커널 사용하지 않음"
+
+#: packages/apputils/src/sessioncontext.tsx:1689 packages/apputils/src/sessioncontext.tsx:613 packages/statusbar/src/defaults/kernelStatus.tsx:185
+msgid "No Kernel"
+msgstr "커널 선택 안함"
+
+#: packages/apputils/src/sessioncontext.tsx:1711
+msgid "Path:"
+msgstr "경로:"
+
+#: packages/apputils/src/sessioncontext.tsx:1712
+msgid "Name:"
+msgstr "이름:"
+
+#: packages/apputils/src/sessioncontext.tsx:1713
+msgid "Kernel Name:"
+msgstr "커널 이름:"
+
+#: packages/apputils/src/sessioncontext.tsx:1714
+msgid "Kernel Id:"
+msgstr "커널 Id:"
+
+#: packages/apputils/src/thememanager.ts:362
+msgid "Neither theme %1 nor default %2 loaded."
+msgstr "테마 %1 혹은 기본 %2 모두 로딩되지 않았습니다."
+
+#: packages/apputils/src/thememanager.ts:446
+msgid "Error Loading Theme"
+msgstr "테마 로딩 오류"
+
+#: packages/apputils/src/thememanager.ts:448 packages/docmanager-extension/src/index.tsx:379 packages/extensionmanager/src/companions.tsx:218 packages/extensionmanager/src/dialog.tsx:39 packages/extensionmanager/src/widget.tsx:354 packages/extensionmanager/src/widget.tsx:355
+msgid "OK"
+msgstr "확인"
+
+#: packages/apputils/src/toolbar/factory.ts:29
+msgid "Toolbar customization has changed. You will need to reload JupyterLab to see the changes."
+msgstr "사용자 지정 도구모음이 변경되었습니다. 변경된 사항을 적용하려면 JupyterLab을 다시 불러와야 합니다."
+
+#: packages/apputils/src/toolbar/widget.tsx:1271
+msgid "Switch kernel"
+msgstr "커널 변경"
+
+#: packages/apputils/src/toolbar/widget.tsx:1311
+msgid "Kernel %1"
+msgstr "커널 %1"
+
+#: packages/apputils/src/toolbar/widget.tsx:610 packages/mainmenu-extension/src/index.ts:472
+msgid "Interrupt the kernel"
+msgstr "커널 중지"
+
+#: packages/apputils/src/toolbar/widget.tsx:635 packages/mainmenu-extension/src/index.ts:494
+msgid "Restart the kernel"
+msgstr "커널 재시작"
+
+#: packages/celltags/src/addwidget.ts:159 packages/celltags/src/addwidget.ts:31
+msgid "Add Tag"
+msgstr "태그 추가"
+
+#: packages/celltags/src/tool.ts:200
+msgid "Cell Tags"
+msgstr "셀 태그"
+
+#: packages/codeeditor/src/jsoneditor.ts:327 packages/codeeditor/src/jsoneditor.ts:78
+msgid "No data!"
+msgstr "데이터가 없습니다."
+
+#: packages/codeeditor/src/jsoneditor.ts:58
+msgid "Revert changes to data"
+msgstr "데이터로 변경 취소"
+
+#: packages/codeeditor/src/jsoneditor.ts:63
+msgid "Commit changes to data"
+msgstr "데이터로 변경 확정"
+
+#: packages/codemirror-extension/src/index.ts:297
+msgid "codemirror"
+msgstr "codeMirror"
+
+#: packages/codemirror-extension/src/index.ts:314
+msgid "Sublime Text"
+msgstr "Sublime Text"
+
+#: packages/codemirror-extension/src/index.ts:329 packages/documentsearch-extension/src/index.ts:168
+msgid "Find…"
+msgstr "찾기..."
+
+#: packages/codemirror-extension/src/index.ts:342 packages/mainmenu-extension/src/index.ts:313
+msgid "Go to Line…"
+msgstr "라인으로 가기"
+
+#: packages/codemirror/src/editor.ts:1144
+msgid "Code Editor out of Sync"
+msgstr "코드 편집기가 동기화 되지 않음"
+
+#: packages/codemirror/src/editor.ts:1145
+msgid "Please open your browser JavaScript console for bug report instructions"
+msgstr "브라우저의 JavaScript 콘솔을 열어, 버그 리포트 방법을 확인하기 바랍니다."
+
+#: packages/codemirror/src/syntaxstatus.tsx:66
+msgid "Change text editor syntax highlighting"
+msgstr "텍스트 편집기의 구문 강조 변경"
+
+#: packages/console-extension/src/foreign.ts:65 packages/console-extension/src/index.ts:155 packages/console-extension/src/index.ts:203 packages/console-extension/src/index.ts:483 packages/console/src/panel.ts:331 packages/launcher/src/index.tsx:150 packages/launcher/src/index.tsx:155
+msgid "Console"
+msgstr "콘솔"
+
+#: packages/console-extension/src/foreign.ts:79
+msgid "Show All Kernel Activity"
+msgstr "전체 활동기록 보기"
+
+#: packages/console-extension/src/index.ts:418
+msgid "Auto Close Brackets for Code Console Prompt"
+msgstr "코드 콘솔 프롬프트의 자동 괄호 닫기"
+
+#: packages/console-extension/src/index.ts:472
+msgid "New Console"
+msgstr "새 콘솔"
+
+#: packages/console-extension/src/index.ts:507
+msgid "Clear Console Cells"
+msgstr "콘솔 셀 지우기"
+
+#: packages/console-extension/src/index.ts:519
+msgid "Run Cell (unforced)"
+msgstr "셀 실행 (강제하지 않음)"
+
+#: packages/console-extension/src/index.ts:531
+msgid "Run Cell (forced)"
+msgstr "셀 실행 (강제)"
+
+#: packages/console-extension/src/index.ts:543
+msgid "Insert Line Break"
+msgstr "나누기 삽입"
+
+#: packages/console-extension/src/index.ts:555
+msgid "Replace Selection in Console"
+msgstr "콘솔에서 선택영역 바꾸기"
+
+#: packages/console-extension/src/index.ts:568 packages/mainmenu-extension/src/index.ts:471 packages/notebook-extension/src/index.ts:1851
+msgid "Interrupt Kernel"
+msgstr "커널 중지"
+
+#: packages/console-extension/src/index.ts:583 packages/mainmenu-extension/src/index.ts:493 packages/notebook-extension/src/index.ts:1723
+msgid "Restart Kernel…"
+msgstr "커널 재시작"
+
+#: packages/console-extension/src/index.ts:598
+msgid "Close and Shut Down…"
+msgstr "파일 닫고 종료"
+
+#: packages/console-extension/src/index.ts:605
+msgid "Shut down the console?"
+msgstr "콘솔을 종료 하겠습니까?"
+
+#: packages/console-extension/src/index.ts:606 packages/console-extension/src/index.ts:685 packages/notebook-extension/src/index.ts:1746 packages/notebook-extension/src/index.ts:2653
+msgid "Are you sure you want to close \"%1\"?"
+msgstr "\"%1\"을 닫으시겠습니까?"
+
+#: packages/console-extension/src/index.ts:646 packages/mainmenu-extension/src/index.ts:530 packages/notebook-extension/src/index.ts:2224
+msgid "Change Kernel…"
+msgstr "커널 변경"
+
+#: packages/console-extension/src/index.ts:681
+msgid "Shutdown Console"
+msgstr "콘솔 종료"
+
+#: packages/console-extension/src/index.ts:684
+msgid "Shut down the Console?"
+msgstr "콘솔을 종료 하겠습니까?"
+
+#: packages/console-extension/src/index.ts:706
+msgid "Restart Kernel and Clear Console"
+msgstr "커널 재시작 후 콘솔 초기화"
+
+#: packages/console-extension/src/index.ts:737
+msgid "Run Cell"
+msgstr "셀 실행하기"
+
+#: packages/console-extension/src/index.ts:744
+msgid "Clear Console Cell"
+msgstr "콘솔 셀 지우기"
+
+#: packages/console-extension/src/index.ts:757
+msgid "Execute with Shift+Enter"
+msgstr "Shift+Enter 로 실행"
+
+#: packages/console-extension/src/index.ts:758
+msgid "Execute with Enter"
+msgstr "Enter 로 실행"
+
+#: packages/console/src/panel.ts:314
+msgid "Name: %1\n"
+msgstr "이름: %1\n"
+
+#: packages/console/src/panel.ts:315
+msgid "Directory: %1\n"
+msgstr "디렉토리: %1\n"
+
+#: packages/console/src/panel.ts:316
+msgid "Kernel: %1"
+msgstr "커널: %1"
+
+#: packages/console/src/panel.ts:319
+msgid "\n"
+"Connected: %1"
+msgstr "\n"
+"연결됨: %1"
+
+#: packages/console/src/panel.ts:326
+msgid "\n"
+"Last Execution: %1"
+msgstr "\n"
+"최근 실행: %1"
+
+#: packages/console/src/panel.ts:67
+msgid "Console %1"
+msgstr "콘솔 %1"
+
+#: packages/csvviewer-extension/src/index.ts:92
+msgid "Go to Line"
+msgstr "라인으로 가기"
+
+#: packages/csvviewer/src/toolbar.ts:133
+msgid "tab"
+msgstr "탭"
+
+#: packages/csvviewer/src/toolbar.ts:134
+msgid "pipe"
+msgstr "파이프"
+
+#: packages/csvviewer/src/toolbar.ts:135
+msgid "hash"
+msgstr "해시"
+
+#: packages/csvviewer/src/toolbar.ts:141
+msgid "Delimiter: "
+msgstr "구분자: "
+
+#: packages/debugger-extension/src/index.ts:192 packages/debugger-extension/src/index.ts:193
+msgid "Restart Kernel and Debug…"
+msgstr "커널 재시작 후 디버깅"
+
+#: packages/debugger-extension/src/index.ts:339 packages/debugger-extension/src/index.ts:340
+msgid "Inspect Variable"
+msgstr "변수 검사"
+
+#: packages/debugger-extension/src/index.ts:403
+msgid "Render Variable"
+msgstr "변수 레더링"
+
+#: packages/debugger-extension/src/index.ts:404
+msgid "Render variable according to its mime type"
+msgstr "Mime 타입에 따라 변수 렌더링"
+
+#: packages/debugger-extension/src/index.ts:616 packages/debugger-extension/src/index.ts:617 packages/debugger-extension/src/index.ts:623
+msgid "Evaluate Code"
+msgstr "코드 평가"
+
+#: packages/debugger-extension/src/index.ts:624
+msgid "Evaluate"
+msgstr "평가"
+
+#: packages/debugger-extension/src/index.ts:651 packages/debugger-extension/src/index.ts:652
+msgid "Continue"
+msgstr "계속"
+
+#: packages/debugger-extension/src/index.ts:662 packages/debugger-extension/src/index.ts:663
+msgid "Terminate"
+msgstr "종료"
+
+#: packages/debugger-extension/src/index.ts:673 packages/debugger-extension/src/index.ts:674
+msgid "Next"
+msgstr "다음"
+
+#: packages/debugger-extension/src/index.ts:683 packages/debugger-extension/src/index.ts:684
+msgid "Step In"
+msgstr "들어가기"
+
+#: packages/debugger-extension/src/index.ts:693 packages/debugger-extension/src/index.ts:694
+msgid "Step Out"
+msgstr "나오기"
+
+#: packages/debugger-extension/src/index.ts:703 packages/debugger-extension/src/index.ts:711
+msgid "Enable / Disable pausing on exceptions"
+msgstr "예외 발생하면 일시 정지 활성화/비활성화"
+
+#: packages/debugger-extension/src/index.ts:708
+msgid "Disable pausing on exceptions"
+msgstr "예외 발생하면 일시 정지 비활성화"
+
+#: packages/debugger-extension/src/index.ts:709
+msgid "Enable pausing on exceptions"
+msgstr "예외 발생하면 일시 정지 활성화"
+
+#: packages/debugger-extension/src/index.ts:710
+msgid "Kernel does not support pausing on exceptions."
+msgstr "커널이 예외에서 일시정지를 지원하지 않습니다."
+
+#: packages/debugger-extension/src/index.ts:759
+msgid "Debugger section"
+msgstr "디버거 섹션"
+
+#: packages/debugger-extension/src/index.ts:764
+msgid "Debugger"
+msgstr "디버거"
+
+#: packages/debugger/src/handler.ts:57
+msgid "Enable Debugger"
+msgstr "디버거 활성화"
+
+#: packages/debugger/src/handler.ts:59
+msgid "Disable Debugger"
+msgstr "디버거 비활성화"
+
+#: packages/debugger/src/handler.ts:60
+msgid "Select a kernel that supports debugging to enable debugger"
+msgstr "디버거를 활성화할 수 있는 커널을 선택하십시오."
+
+#: packages/debugger/src/panels/breakpoints/header.ts:25 packages/debugger/src/panels/breakpoints/index.ts:39
+msgid "Breakpoints"
+msgstr "중단점"
+
+#: packages/debugger/src/panels/breakpoints/index.ts:62 packages/debugger/src/panels/breakpoints/index.ts:74
+msgid "Remove All Breakpoints"
+msgstr "모든 중단점 제거"
+
+#: packages/debugger/src/panels/breakpoints/index.ts:63
+msgid "Are you sure you want to remove all breakpoints?"
+msgstr "모든 중단점을 제거 하시겠습니까?"
+
+#: packages/debugger/src/panels/breakpoints/index.ts:65
+msgid "Remove breakpoints"
+msgstr "중단점 제거"
+
+#: packages/debugger/src/panels/callstack/header.ts:25
+msgid "Callstack"
+msgstr "콜 스택"
+
+#: packages/debugger/src/panels/kernelSources/body.tsx:83
+msgid "Fail to get source"
+msgstr "소스 가져오기 실패"
+
+#: packages/debugger/src/panels/kernelSources/body.tsx:84
+msgid "Fail to get '%1' source:\n"
+"%2"
+msgstr "'%1' 소스를 가져오는데 실패:\n"
+"%2"
+
+#: packages/debugger/src/panels/kernelSources/header.tsx:32 packages/debugger/src/panels/kernelSources/index.tsx:34
+msgid "Kernel Sources"
+msgstr "커널 소스"
+
+#: packages/debugger/src/panels/kernelSources/index.tsx:53
+msgid "Toggle search filter"
+msgstr "검색 필터 토글"
+
+#: packages/debugger/src/panels/kernelSources/index.tsx:65
+msgid "Fail to get kernel sources"
+msgstr "커널 소스를 가져오는데 실패"
+
+#: packages/debugger/src/panels/kernelSources/index.tsx:66
+msgid "Fail to get kernel sources:\n"
+"%2"
+msgstr "커널 소스를 가져오는데 실패:\n"
+"%2"
+
+#: packages/debugger/src/panels/kernelSources/index.tsx:70
+msgid "Refresh kernel sources"
+msgstr "커널 소스 새로 고침"
+
+#: packages/debugger/src/panels/sources/header.tsx:34 packages/shortcuts-extension/src/components/TopNav.tsx:277
+msgid "Source"
+msgstr "소스"
+
+#: packages/debugger/src/panels/sources/index.ts:48
+msgid "Open in the Main Area"
+msgstr "메인 영역에서 오픈"
+
+#: packages/debugger/src/panels/variables/header.ts:25
+msgid "Variables"
+msgstr "변수"
+
+#: packages/debugger/src/panels/variables/index.ts:78
+msgid "Tree View"
+msgstr "트리 뷰"
+
+#: packages/debugger/src/panels/variables/index.ts:85
+msgid "Table View"
+msgstr "테이블 보기"
+
+#: packages/debugger/src/panels/variables/mimerenderer.ts:53
+msgid "The variable is undefined in the active context."
+msgstr "활성 컨텍스트에서 변수가 정의되지 않았습니다."
+
+#: packages/debugger/src/panels/variables/scope.tsx:53
+msgid "Scope"
+msgstr "스코프"
+
+#: packages/debugger/src/panels/variables/tree.tsx:282
+msgid "Render variable"
+msgstr "변수 레더링"
+
+#: packages/docmanager-extension/src/index.tsx:1039
+msgid "Are you sure you want to revert the %1 to the latest checkpoint? "
+msgstr "%1을 가장 최신 체크 포인트로 되돌리시겠습니까? "
+
+#: packages/docmanager-extension/src/index.tsx:1045
+msgid "This cannot be undone."
+msgstr "이 작업은 되돌릴 수 없습니다."
+
+#: packages/docmanager-extension/src/index.tsx:1052
+msgid "The checkpoint was last updated at: "
+msgstr "체크 포인트가 갱신됨: "
+
+#: packages/docmanager-extension/src/index.tsx:244
+msgid "Overrides for the default viewers for file types.\n"
+"Specify a mapping from file type name to document viewer name, for example:\n\n"
+"defaultViewers: {\n"
+"  markdown: \"Markdown Preview\"\n"
+"}\n\n"
+"If you specify non-existent file types or viewers, or if a viewer cannot\n"
+"open a given file type, the override will not function.\n\n"
+"Available viewers:\n"
+"%1\n\n"
+"Available file types:\n"
+"%2"
+msgstr "파일 유형에 따른 기본 뷰어를 재정의.\n"
+"파일 유형 이름에서 문서 뷰어 이름으로의 매핑을 지정합니다. 예를 들면:\n\n"
+"defaultViewers: {\n"
+"  markdown: \"Markdown Preview\"\n"
+"}\n\n"
+"만일 존재하지 않는 파일 유형이나 뷰어를 지정하거나, 혹은 뷰어가 주어진 파일 유형에서 \n"
+"파일을 열수 없는 경우, 이러한 재정의는 작동하지 않는다. \n\n"
+"사용가능한 뷰어:\n"
+"%1\n\n"
+"사용가능한 파일 유형:\n"
+"%2"
+
+#: packages/docmanager-extension/src/index.tsx:368 packages/filebrowser-extension/src/index.ts:336
+msgid "Download"
+msgstr "다운로드"
+
+#: packages/docmanager-extension/src/index.tsx:369
+msgid "Download the file to your computer"
+msgstr "파일을 당신의 컴퓨터에 다운로드"
+
+#: packages/docmanager-extension/src/index.tsx:377
+msgid "Cannot Download"
+msgstr "다운로드할 수 없음"
+
+#: packages/docmanager-extension/src/index.tsx:378 packages/docmanager-extension/src/index.tsx:618 packages/docmanager-extension/src/index.tsx:663 packages/docmanager-extension/src/index.tsx:713 packages/docmanager-extension/src/index.tsx:837
+msgid "No context found for current widget!"
+msgstr "현재 위젯에서는 컨텍스트를 찾을 수 없습니다!"
+
+#: packages/docmanager-extension/src/index.tsx:387 packages/docmanager-extension/src/index.tsx:523 packages/filebrowser-extension/src/index.ts:1195 packages/filebrowser-extension/src/index.ts:785 packages/filebrowser-extension/src/index.ts:963 packages/htmlviewer-extension/src/index.tsx:180
+msgid "File Operations"
+msgstr "파일 명령"
+
+#: packages/docmanager-extension/src/index.tsx:434 packages/filebrowser-extension/src/index.ts:666
+msgid "Open in New Browser Tab"
+msgstr "새로운 탐색 창에서 열기"
+
+#: packages/docmanager-extension/src/index.tsx:564 packages/filebrowser/src/browser.ts:282 packages/filebrowser/src/browser.ts:312 packages/logconsole-extension/src/index.tsx:381
+msgid "Error"
+msgstr "오류"
+
+#: packages/docmanager-extension/src/index.tsx:602 packages/docmanager-extension/src/index.tsx:624
+msgid "Reload %1 from Disk"
+msgstr "디스크에서 %1 다시 불러오기"
+
+#: packages/docmanager-extension/src/index.tsx:606
+msgid "Reload contents from disk"
+msgstr "디스크에서 컨텐츠 다시 불러오기"
+
+#: packages/docmanager-extension/src/index.tsx:617
+msgid "Cannot Reload"
+msgstr "다시 불러올 수 없음"
+
+#: packages/docmanager-extension/src/index.tsx:619 packages/docmanager-extension/src/index.tsx:664 packages/docmanager-extension/src/index.tsx:714 packages/docmanager-extension/src/index.tsx:725 packages/docmanager-extension/src/index.tsx:838 packages/notebook/src/actions.tsx:1891 packages/notebook/src/actions.tsx:1900 packages/notebook/src/actions.tsx:1972 packages/notebook/src/actions.tsx:2143 packages/notebook/src/actions.tsx:2153 packages/notebook/src/default-toolbar.tsx:70 packages/notebook/src/model.ts:359 packages/notebook/src/panel.ts:219 packages/settingeditor/src/plugineditor.ts:138
+msgid "Ok"
+msgstr "확인"
+
+#: packages/docmanager-extension/src/index.tsx:625
+msgid "Are you sure you want to reload the %1 from the disk?"
+msgstr "디스크로 부터 %1을 다시 불러오겠습니까?"
+
+#: packages/docmanager-extension/src/index.tsx:648
+msgid "Revert %1 to Checkpoint"
+msgstr "체크포인트로 %1 되돌리기"
+
+#: packages/docmanager-extension/src/index.tsx:652
+msgid "Revert contents to previous checkpoint"
+msgstr "이전 체크포인트로 컨텐츠 되돌리기"
+
+#: packages/docmanager-extension/src/index.tsx:662
+msgid "Cannot Revert"
+msgstr "복구할 수 없음"
+
+#: packages/docmanager-extension/src/index.tsx:677
+msgid "Revert %1 to checkpoint"
+msgstr "체크포인트로 %1 되돌리기"
+
+#: packages/docmanager-extension/src/index.tsx:681 packages/docregistry/src/context.ts:823 packages/docregistry/src/context.ts:841
+msgid "Revert"
+msgstr "되돌리기"
+
+#: packages/docmanager-extension/src/index.tsx:701
+msgid "Save %1"
+msgstr "%1 저장"
+
+#: packages/docmanager-extension/src/index.tsx:702
+msgid "Save and create checkpoint"
+msgstr "저장"
+
+#: packages/docmanager-extension/src/index.tsx:712 packages/docmanager-extension/src/index.tsx:723 packages/docmanager-extension/src/index.tsx:836 packages/notebook/src/default-toolbar.tsx:68
+msgid "Cannot Save"
+msgstr "저장 불가"
+
+#: packages/docmanager-extension/src/index.tsx:724 packages/notebook/src/default-toolbar.tsx:69
+msgid "Document is read-only"
+msgstr "읽기 전용 문서입니다"
+
+#: packages/docmanager-extension/src/index.tsx:739
+msgid "Rename file"
+msgstr "파일 이름 변경"
+
+#: packages/docmanager-extension/src/index.tsx:740 packages/docmanager/src/dialogs.ts:53 packages/filebrowser-extension/src/index.ts:1082
+msgid "Rename"
+msgstr "이름 변경"
+
+#: packages/docmanager-extension/src/index.tsx:741
+msgid "File name"
+msgstr "파일 이름"
+
+#: packages/docmanager-extension/src/index.tsx:745
+msgid "Don't ask me again."
+msgstr "다시 묻지 않기"
+
+#: packages/docmanager-extension/src/index.tsx:746
+msgid "If checked, you will not be asked to rename future untitled files when saving them."
+msgstr "활성화되면, untitled 파일을 저장할 때 이름을 바꿀것을 요청하지 않는다."
+
+#: packages/docmanager-extension/src/index.tsx:803
+msgid "Save All"
+msgstr "모두 저장"
+
+#: packages/docmanager-extension/src/index.tsx:804
+msgid "Save all open documents"
+msgstr "열린 문서 모두 저장하기"
+
+#: packages/docmanager-extension/src/index.tsx:827
+msgid "Save %1 As…"
+msgstr "%1 다른 이름으로 저장..."
+
+#: packages/docmanager-extension/src/index.tsx:828
+msgid "Save with new path"
+msgstr "새로운 경로에 저장"
+
+#: packages/docmanager-extension/src/index.tsx:847
+msgid "Autosave Documents"
+msgstr "문서 자동 저장"
+
+#: packages/docmanager-extension/src/index.tsx:907
+msgid "New View for %1"
+msgstr "새로운 %1 뷰포트 열기"
+
+#: packages/docmanager-extension/src/index.tsx:931
+msgid "Rename%1…"
+msgstr "이름변경 %1..."
+
+#: packages/docmanager-extension/src/index.tsx:945
+msgid "Delete %1"
+msgstr "%1 삭제"
+
+#: packages/docmanager-extension/src/index.tsx:955 packages/docmanager-extension/src/index.tsx:959 packages/filebrowser-extension/src/index.ts:814 packages/filebrowser/src/listing.ts:412 packages/filebrowser/src/listing.ts:416
+msgid "Delete"
+msgstr "삭제"
+
+#: packages/docmanager-extension/src/index.tsx:956
+msgid "Are you sure you want to delete %1"
+msgstr "정말로 %1를 삭제하시겠습니까?"
+
+#: packages/docmanager-extension/src/index.tsx:973
+msgid "Show in File Browser"
+msgstr "파일 탐색기에서 보기"
+
+#: packages/docmanager/src/dialogs.ts:112
+msgid "Overwrite file?"
+msgstr "덮어쓰시겠습니까?"
+
+#: packages/docmanager/src/dialogs.ts:113
+msgid "\"%1\" already exists, overwrite?"
+msgstr "\"%1\" 파일이 이미 있습니다. 덮어쓸까요?"
+
+#: packages/docmanager/src/dialogs.ts:116 packages/docregistry/src/context.ts:825 packages/docregistry/src/context.ts:837 packages/docregistry/src/context.ts:859 packages/docregistry/src/context.ts:870 packages/shortcuts-extension/src/components/ShortcutInput.tsx:499 packages/shortcuts-extension/src/components/ShortcutItem.tsx:254
+msgid "Overwrite"
+msgstr "덮어쓰기"
+
+#: packages/docmanager/src/dialogs.ts:180
+msgid "File Path"
+msgstr "파일 경로"
+
+#: packages/docmanager/src/dialogs.ts:185
+msgid "New Name"
+msgstr "새 이름"
+
+#: packages/docmanager/src/dialogs.ts:48
+msgid "Rename File"
+msgstr "파일 이름 변경"
+
+#: packages/docmanager/src/dialogs.ts:61 packages/filebrowser/src/listing.ts:1527
+msgid "Rename Error"
+msgstr "이름 변경 에러"
+
+#: packages/docmanager/src/dialogs.ts:63
+msgid "\"%1\" is not a valid name for a file. Names must have nonzero length, and cannot include \"/\", \"\\\", or \":\""
+msgstr "\"%1\" 은 파일명으로 유효하지 않습니다. 이름은 한글자 이상이어야 하고, \"/\", \"\\\", \":\" 을 포함하지 않아야 합니다."
+
+#: packages/docmanager/src/savingstatus.tsx:58
+msgid "Saving completed"
+msgstr "저장 완료"
+
+#: packages/docmanager/src/savingstatus.tsx:59
+msgid "Saving started"
+msgstr "저장 시작"
+
+#: packages/docmanager/src/savingstatus.tsx:60
+msgid "Saving failed"
+msgstr "저장 실패"
+
+#: packages/docmanager/src/widgetmanager.ts:271
+msgid "Name: %1\n"
+"Path: %2\n"
+msgstr "이름: %1\n"
+"경로: %2\n"
+
+#: packages/docmanager/src/widgetmanager.ts:277
+msgid "Read-only"
+msgstr "읽기 전용"
+
+#: packages/docmanager/src/widgetmanager.ts:280
+msgid "Last Saved: %1\n"
+msgstr "최근 저장: %1\n"
+
+#: packages/docmanager/src/widgetmanager.ts:281
+msgid "Last Checkpoint: %1"
+msgstr "최근 체크포인트: %1"
+
+#: packages/docmanager/src/widgetmanager.ts:372
+msgid "Save as"
+msgstr "다른 이름으로 저장"
+
+#: packages/docmanager/src/widgetmanager.ts:374
+msgid "Save your work"
+msgstr "저장하시겠습니까?"
+
+#: packages/docmanager/src/widgetmanager.ts:375
+msgid "Save changes in \"%1\" before closing?"
+msgstr "\"%1\"에 대한 변경 내용을 저장할까요?"
+
+#: packages/docmanager/src/widgetmanager.ts:378
+msgid "Discard"
+msgstr "버리기"
+
+#: packages/docregistry/src/context.ts:1006
+msgid "Save File As.."
+msgstr "다른 이름으로 파일 저장..."
+
+#: packages/docregistry/src/context.ts:649
+msgid "File Save Error for %1"
+msgstr "파일 저장 오류 %1"
+
+#: packages/docregistry/src/context.ts:716
+msgid "File Load Error for %1"
+msgstr "파일 로딩 오류 %1"
+
+#: packages/docregistry/src/context.ts:817
+msgid "\"%1\" has changed on disk since the last time it was opened or saved.\n"
+"Do you want to overwrite the file on disk with the version open here,\n"
+"or load the version on disk (revert)?"
+msgstr "\"%1\"이 가장 최근에 열거나 저장된 이후에 디스크에서 변경되었습니다. \n"
+"디스크의 파일에 지금 열려있는 버전으로 덮어 쓰겠습니까? 아니면\n"
+"디스크의 버전을 가져와 현재 파일을 되돌리겠습니까?"
+
+#: packages/docregistry/src/context.ts:829
+msgid "File Changed"
+msgstr "파일 변경됨"
+
+#: packages/docregistry/src/context.ts:854
+msgid "\"%1\" already exists. Do you want to replace it?"
+msgstr "'%1\"가 이미 존재합니다. 바꾸시겠습니까?"
+
+#: packages/docregistry/src/context.ts:862
+msgid "File Overwrite?"
+msgstr "파일을 덮어 쓰겠습니까?"
+
+#: packages/docregistry/src/mimedocument.ts:174 packages/docregistry/src/mimedocument.ts:70 packages/markdownviewer/src/widget.ts:201
+msgid "Renderer Failure: %1"
+msgstr "렌더링 실패: %1"
+
+#: packages/docregistry/src/registry.ts:1328
+msgid "default"
+msgstr "기본값"
+
+#: packages/docregistry/src/registry.ts:1351
+msgid "Text"
+msgstr "텍스트"
+
+#: packages/docregistry/src/registry.ts:1374 packages/launcher/src/index.tsx:149 packages/launcher/src/index.tsx:154 packages/notebook-extension/src/index.ts:1481 packages/notebook-extension/src/index.ts:1518 packages/notebook-extension/src/index.ts:760
+msgid "Notebook"
+msgstr "노트북"
+
+#: packages/docregistry/src/registry.ts:1399
+msgid "Directory"
+msgstr "디렉토리"
+
+#: packages/docregistry/src/registry.ts:1426 packages/fileeditor-extension/src/commands.ts:989
+msgid "Markdown File"
+msgstr "마크다운 파일"
+
+#: packages/docregistry/src/registry.ts:1433
+msgid "PDF File"
+msgstr "PDF 파일"
+
+#: packages/docregistry/src/registry.ts:1440 packages/fileeditor-extension/src/index.ts:209
+msgid "Python File"
+msgstr "파이썬 파일"
+
+#: packages/docregistry/src/registry.ts:1447
+msgid "JSON File"
+msgstr "JSON 파일"
+
+#: packages/docregistry/src/registry.ts:1454 packages/fileeditor-extension/src/index.ts:221
+msgid "Julia File"
+msgstr "Julia 파일"
+
+#: packages/docregistry/src/registry.ts:1461
+msgid "CSV File"
+msgstr "CSV 파일"
+
+#: packages/docregistry/src/registry.ts:1468
+msgid "TSV File"
+msgstr "TSV 파일"
+
+#: packages/docregistry/src/registry.ts:1475 packages/fileeditor-extension/src/index.ts:233
+msgid "R File"
+msgstr "R 파일"
+
+#: packages/docregistry/src/registry.ts:1482
+msgid "YAML File"
+msgstr "YAML 파일"
+
+#: packages/docregistry/src/registry.ts:1489 packages/docregistry/src/registry.ts:1497 packages/docregistry/src/registry.ts:1505 packages/docregistry/src/registry.ts:1513 packages/docregistry/src/registry.ts:1521 packages/docregistry/src/registry.ts:1529 packages/docregistry/src/registry.ts:1537
+msgid "Image"
+msgstr "이미지"
+
+#: packages/documentsearch-extension/src/index.ts:183
+msgid "Find and Replace…"
+msgstr "찾아 바꾸기..."
+
+#: packages/documentsearch-extension/src/index.ts:203
+msgid "Find Next"
+msgstr "다음 찾기"
+
+#: packages/documentsearch-extension/src/index.ts:227
+msgid "Find Previous"
+msgstr "이전 찾기"
+
+#: packages/documentsearch/src/searchoverlay.tsx:124
+msgid "Find"
+msgstr "찾기"
+
+#: packages/documentsearch/src/searchoverlay.tsx:173 packages/documentsearch/src/searchoverlay.tsx:191
+msgid "Replace"
+msgstr "바꾸기"
+
+#: packages/documentsearch/src/searchoverlay.tsx:203
+msgid "Replace All"
+msgstr "모두 바꾸기"
+
+#: packages/documentsearch/src/searchoverlay.tsx:321
+msgid "Search Cell Outputs"
+msgstr "셀 출력 검색"
+
+#: packages/documentsearch/src/searchoverlay.tsx:338
+msgid "Search Selected Cell(s)"
+msgstr "선택한 셀 검색"
+
+#: packages/extensionmanager-extension/src/index.ts:107
+msgid "Enable Extension Manager"
+msgstr "확장 프로그램 관리자 활성화"
+
+#: packages/extensionmanager-extension/src/index.ts:117 packages/extensionmanager-extension/src/index.ts:56
+msgid "Extension Manager"
+msgstr "확장 프로그램 관리자"
+
+#: packages/extensionmanager-extension/src/index.ts:143
+msgid "Enable Extension Manager?"
+msgstr "확장 프로그램 관리자 활성화?"
+
+#: packages/extensionmanager-extension/src/index.ts:144
+msgid "Thanks for trying out JupyterLab's extension manager.\n"
+"The JupyterLab development team is excited to have a robust\n"
+"third-party extension community.\n"
+"However, we cannot vouch for every extension,\n"
+"and some may introduce security risks.\n"
+"Do you want to continue?"
+msgstr "JupyterLab의 확장 플러그인 관리자를 사용해주셔서 감사합니다.\n"
+"JupyterLab 개발 팀은 강력한 Third-party Extension 커뮤니티를 선보이게 되어서 매우 기쁩니다.\n"
+"하지만 개발 팀은 모든 확장 플러그인에 대한 안전성 보증을 제공해드리지 않으며, 몇몇 플러그인들은 보안상의 위험을 초래할 수 있습니다. 계속하시겠습니까?"
+
+#: packages/extensionmanager-extension/src/index.ts:151 packages/extensionmanager/src/widget.tsx:329 packages/extensionmanager/src/widget.tsx:798
+msgid "Disable"
+msgstr "비활성화"
+
+#: packages/extensionmanager-extension/src/index.ts:152 packages/extensionmanager/src/widget.tsx:338 packages/extensionmanager/src/widget.tsx:813
+msgid "Enable"
+msgstr "활성화"
+
+#: packages/extensionmanager-extension/src/index.ts:68 packages/extensionmanager-extension/src/index.ts:89
+msgid "Extension Manager section"
+msgstr "확장 관리자 섹션"
+
+#: packages/extensionmanager/src/companions.tsx:137
+msgid "This package has indicated that it needs a corresponding server\n"
+"extension. Please contact your Administrator to update the server with\n"
+"one of the following commands:"
+msgstr "이 패키지는 해당하는 커널 패키지를 특별히 요구하고 있습니다.\n"
+"관리자와 협의하여 서버를 업데이트 하기를 권장합니다. \n"
+"서버 업데이트는 다음 명령 중 하나로 할 수 있습니다."
+
+#: packages/extensionmanager/src/companions.tsx:153
+msgid "This package has indicated that it needs a corresponding package for the kernel."
+msgstr "이 패키지는 커널에 해당되는 패키지가 필요한 것으로 판단됩니다."
+
+#: packages/extensionmanager/src/companions.tsx:161
+msgid "The package <code>%1</code>, is required by the following kernels:"
+msgstr "이 패키지 <code>%1</code>는 다음과 같은 커널을 요구합니다:"
+
+#: packages/extensionmanager/src/companions.tsx:178
+msgid "This package has indicated that it needs a corresponding kernel\n"
+"package. Please contact your Administrator to update the server with\n"
+"one of the following commands:"
+msgstr "이 패키지는 해당하는 커널 패키지를 특별히 요구하고 있습니다.\n"
+"관리자와 협의하여 서버를 업데이트 하기를 권장합니다. \n"
+"서버 업데이트는 다음 명령으로 할 수 있습니다."
+
+#: packages/extensionmanager/src/companions.tsx:196
+msgid "You should make sure that the indicated packages are installed before\n"
+"trying to use the extension. Do you want to continue with the extension\n"
+"installation?"
+msgstr "지정한 패키지가 확장 프로그램을 사용하기 전에 설치된 것으로 보입니다. \n"
+"확장 프로그램 설치를 통해 계속 하시겠습니까?"
+
+#: packages/extensionmanager/src/companions.tsx:206
+msgid "Kernel and Server Companions"
+msgstr "커널과 서버 도우미"
+
+#: packages/extensionmanager/src/companions.tsx:208
+msgid "Kernel Companions"
+msgstr "커널 도우미"
+
+#: packages/extensionmanager/src/companions.tsx:210
+msgid "Server Companion"
+msgstr "서버 도우미"
+
+#: packages/extensionmanager/src/companions.tsx:219
+msgid "Install the JupyterLab extension."
+msgstr "JupyterLab 확장 프로그램 설치"
+
+#: packages/extensionmanager/src/dialog.tsx:23
+msgid "An error occurred installing <code>%1</code>."
+msgstr "<code>%1</code>를 설치히는 과정에서 오류 발생."
+
+#: packages/extensionmanager/src/dialog.tsx:29
+msgid "Error message:"
+msgstr "오류 메시지:"
+
+#: packages/extensionmanager/src/dialog.tsx:37
+msgid "Extension Installation Error"
+msgstr "확장 프로그램 설치 오류"
+
+#: packages/extensionmanager/src/widget.tsx:135
+msgid "A build is needed to include the latest changes"
+msgstr "최근 변경으로 인해 빌드를 다시 해야 합니다."
+
+#: packages/extensionmanager/src/widget.tsx:138
+msgid "Rebuild"
+msgstr "다시 빌드"
+
+#: packages/extensionmanager/src/widget.tsx:141
+msgid "Ignore"
+msgstr "무시"
+
+#: packages/extensionmanager/src/widget.tsx:193
+msgid "%1 (Developed by Project Jupyter)"
+msgstr "%1 (Developed by Project Jupyter)"
+
+#: packages/extensionmanager/src/widget.tsx:247
+msgid "%1 extension has been blockedExtensions since install. Please uninstall immediately and contact your blockedExtensions administrator."
+msgstr "%1 확장 프로그램이 설치 과정에서 blockedExtensions 에 있었습니다. 즉시 설치를 제거하고 blockedExtensions 관리자와 논의하기 바랍니다."
+
+#: packages/extensionmanager/src/widget.tsx:263
+msgid "%1 extension has been removed from the allowedExtensions since installation. Please uninstall immediately and contact your allowedExtensions administrator."
+msgstr "%1 확장 프로그램이 설치 과정에서 allowedExtensions 에서 삭제되었습니다. 즉시 설치를 제거하고 allowedExtensions 관리자와 논의하기 바랍니다."
+
+#: packages/extensionmanager/src/widget.tsx:298
+msgid "Install"
+msgstr "설치"
+
+#: packages/extensionmanager/src/widget.tsx:311
+msgid "Update"
+msgstr "업데이트"
+
+#: packages/extensionmanager/src/widget.tsx:320
+msgid "Uninstall"
+msgstr "설치 제거"
+
+#: packages/extensionmanager/src/widget.tsx:365
+msgid "About"
+msgstr "관하여"
+
+#: packages/extensionmanager/src/widget.tsx:384
+msgid "This is a prebuilt extension. To uninstall it, please\n"
+"    apply following instructions."
+msgstr "해당 확장 프로그램은 빌드 이전 상태에 있습니다. 제거를 위하여    다음의 절차를 수행하십시오."
+
+#: packages/extensionmanager/src/widget.tsx:394
+msgid "This is a prebuilt extension. To uninstall it, please\n"
+"    read the user guide on:"
+msgstr "해당 확장 프로그램은 빌드 이전 상태에 있습니다. 제거를 위하여    다음의 유저 가이드를 참조하십시오:"
+
+#: packages/extensionmanager/src/widget.tsx:491
+msgid "No entries"
+msgstr "항목 없음"
+
+#: packages/extensionmanager/src/widget.tsx:722
+msgid "The extension manager is disabled. Please contact your system\n"
+"administrator to verify the listings configuration."
+msgstr "확장 프로그램 관리자가 비활성화 되었습니다. 시스템 관리자화 협의하여 \n"
+"구성 리스트를 확인하기 바랍니다."
+
+#: packages/extensionmanager/src/widget.tsx:732
+msgid "Read more in the JupyterLab documentation."
+msgstr "JupyterLab 문서에서 상세한 정보를 찾을 수 있습니다."
+
+#: packages/extensionmanager/src/widget.tsx:776 packages/logconsole-extension/src/index.tsx:382 packages/settingeditor/src/settingseditor.tsx:117 packages/settingeditor/src/settingseditor.tsx:129
+msgid "Warning"
+msgstr "경고"
+
+#: packages/extensionmanager/src/widget.tsx:780
+msgid "The JupyterLab development team is excited to have a robust\n"
+"third-party extension community. However, we do not review\n"
+"third-party extensions, and some extensions may introduce security\n"
+"risks or contain malicious code that runs on your machine."
+msgstr "저희 JupyterLab 개발 팀은 강력한 서드파티 확장 플러그인 커뮤니티를 선보이게 되어서 매우 기쁩니다.\n"
+"하지만 일부 확장 플러그인들은 보안상의 위험을 초래하거나 악성 코드를 포함하고 있을 수 있으며, 저희 개발팀은 이에 대한 안전성 보증을 제공해드리지 않습니다."
+
+#: packages/extensionmanager/src/widget.tsx:823
+msgid "Updating extensions list"
+msgstr "확장프로그램 리스트 업데이트"
+
+#: packages/extensionmanager/src/widget.tsx:830
+msgid "Error communicating with server extension. Consult the documentation\n"
+"            for how to ensure that it is enabled."
+msgstr "서버 확장 프로그램과 통신에 오류가 발생했습니다. 문서를 확인하여\n"
+"            활성화가 확실히 되었는지 확인하기 바랍니다."
+
+#: packages/extensionmanager/src/widget.tsx:835
+msgid "Reason given:"
+msgstr "주어진 이유:"
+
+#: packages/extensionmanager/src/widget.tsx:843
+msgid "The server has some missing requirements for installing extensions."
+msgstr "이 서버에는 확장 프로그램을 설치하기 위해 요구되는 것이 일부 없습니다."
+
+#: packages/extensionmanager/src/widget.tsx:848
+msgid "Details:"
+msgstr "세부정보:"
+
+#: packages/extensionmanager/src/widget.tsx:890
+msgid "Installed"
+msgstr "설치됨"
+
+#: packages/extensionmanager/src/widget.tsx:898
+msgid "Refresh extension list"
+msgstr "확장 프로그램 리스트 새로 고침"
+
+#: packages/extensionmanager/src/widget.tsx:943
+msgid "Search Results"
+msgstr "검색 결과"
+
+#: packages/extensionmanager/src/widget.tsx:944
+msgid "Discover"
+msgstr "살펴보기"
+
+#: packages/filebrowser-extension/src/index.ts:1007 packages/filebrowser-extension/src/index.ts:742 packages/filebrowser-extension/src/index.ts:921
+msgid "Open"
+msgstr "열기"
+
+#: packages/filebrowser-extension/src/index.ts:1020 packages/fileeditor-extension/src/commands.ts:866
+msgid "Paste"
+msgstr "붙여넣기"
+
+#: packages/filebrowser-extension/src/index.ts:1033 packages/filebrowser/src/opendialog.ts:156
+msgid "New Folder"
+msgstr "새 폴더"
+
+#: packages/filebrowser-extension/src/index.ts:1045
+msgid "New File"
+msgstr "새 파일"
+
+#: packages/filebrowser-extension/src/index.ts:1057 packages/fileeditor-extension/src/commands.ts:988
+msgid "New Markdown File"
+msgstr "새 마크다운 파일"
+
+#: packages/filebrowser-extension/src/index.ts:1069
+msgid "Refresh the file browser."
+msgstr "파일 탐색창 새로고침"
+
+#: packages/filebrowser-extension/src/index.ts:1070 packages/filebrowser/src/opendialog.ts:171
+msgid "Refresh File List"
+msgstr "파일 목록 새로 고침"
+
+#: packages/filebrowser-extension/src/index.ts:1103
+msgid "Copy Path"
+msgstr "경로 복사"
+
+#: packages/filebrowser-extension/src/index.ts:1115 packages/mainmenu-extension/src/index.ts:536
+msgid "Shut Down Kernel"
+msgstr "커널 종료"
+
+#: packages/filebrowser-extension/src/index.ts:1129 packages/launcher-extension/src/index.ts:59 packages/ui-components/src/icon/widgets/tabbarsvg.ts:29
+msgid "New Launcher"
+msgstr "새 런처 열기"
+
+#: packages/filebrowser-extension/src/index.ts:1140
+msgid "Show Active File in File Browser"
+msgstr "활성화된 파일 보이기"
+
+#: packages/filebrowser-extension/src/index.ts:1155
+msgid "Show Last Modified Column"
+msgstr "최근 수정된 열 보기"
+
+#: packages/filebrowser-extension/src/index.ts:1171
+msgid "Show Hidden Files"
+msgstr "숨긴 파일 표시"
+
+#: packages/filebrowser-extension/src/index.ts:1188
+msgid "Search on File Names"
+msgstr "파일 이름으로 검색"
+
+#: packages/filebrowser-extension/src/index.ts:1267
+msgid "No browser for path"
+msgstr "경로의 탐색기가 없습니다."
+
+#: packages/filebrowser-extension/src/index.ts:196
+msgid "File Browser (%1)"
+msgstr "파일 탐색기 (%1)"
+
+#: packages/filebrowser-extension/src/index.ts:198
+msgid "File Browser"
+msgstr "파일 탐색기"
+
+#: packages/filebrowser-extension/src/index.ts:353
+msgid "Copy Download Link"
+msgstr "다운로드 링크 복사"
+
+#: packages/filebrowser-extension/src/index.ts:389
+msgid "File Browser Section"
+msgstr "파일 탐색기 섹션"
+
+#: packages/filebrowser-extension/src/index.ts:544
+msgid "Copy Shareable Link"
+msgstr "공유 가능한 링크 복사"
+
+#: packages/filebrowser-extension/src/index.ts:665
+msgid "Open in Simple Mode"
+msgstr "단순 모드로 열기"
+
+#: packages/filebrowser-extension/src/index.ts:730
+msgid "Open from URL…"
+msgstr "URL에서 열기..."
+
+#: packages/filebrowser-extension/src/index.ts:730 packages/filebrowser-extension/src/index.ts:732 packages/filebrowser-extension/src/index.ts:907 packages/filebrowser-extension/src/index.ts:909
+msgid "Open %1"
+msgstr "%1 열기"
+
+#: packages/filebrowser-extension/src/index.ts:732
+msgid "Open from URL"
+msgstr "URL에서 열기"
+
+#: packages/filebrowser-extension/src/index.ts:739
+msgid "URL"
+msgstr "URL"
+
+#: packages/filebrowser-extension/src/index.ts:741
+msgid "Open URL"
+msgstr "URL 열기"
+
+#: packages/filebrowser-extension/src/index.ts:760
+msgid "Could not open URL: %1"
+msgstr "다음 URL을 열 수 없습니다:%1"
+
+#: packages/filebrowser-extension/src/index.ts:762
+msgid "Cannot fetch"
+msgstr "가져올 수 없음"
+
+#: packages/filebrowser-extension/src/index.ts:775 packages/filebrowser/src/upload.ts:51
+msgctxt "showErrorMessage"
+msgid "Upload Error"
+msgstr "업로드 에러"
+
+#: packages/filebrowser-extension/src/index.ts:827 packages/fileeditor-extension/src/commands.ts:832
+msgid "Copy"
+msgstr "복사하기"
+
+#: packages/filebrowser-extension/src/index.ts:840 packages/fileeditor-extension/src/commands.ts:791
+msgid "Cut"
+msgstr "잘라내기"
+
+#: packages/filebrowser-extension/src/index.ts:852
+msgid "Duplicate"
+msgstr "복제하기"
+
+#: packages/filebrowser-extension/src/index.ts:907
+msgid "Open from Path…"
+msgstr "열기"
+
+#: packages/filebrowser-extension/src/index.ts:909
+msgid "Open from path"
+msgstr "경로에서 열기"
+
+#: packages/filebrowser-extension/src/index.ts:918
+msgid "Path"
+msgstr "경로"
+
+#: packages/filebrowser-extension/src/index.ts:920
+msgid "Open Path"
+msgstr "경로 열기"
+
+#: packages/filebrowser-extension/src/index.ts:952
+msgid "Could not find path: %1"
+msgstr "다음 경로를 찾을 수 없습니다:%1"
+
+#: packages/filebrowser-extension/src/index.ts:954
+msgid "Cannot open"
+msgstr "열 수 없음"
+
+#: packages/filebrowser/src/browser.ts:101 packages/filebrowser/src/browser.ts:178
+msgid "Filter files by name"
+msgstr "이름으로 파일 검색"
+
+#: packages/filebrowser/src/browser.ts:400
+msgid "Directory not found"
+msgstr "디렉토리를 찾지 못했습니다"
+
+#: packages/filebrowser/src/browser.ts:401 packages/filebrowser/src/model.ts:305
+msgid "Directory not found: \"%1\""
+msgstr "디렉토리를 찾지 못했습니다: \"%1\""
+
+#: packages/filebrowser/src/browser.ts:81
+msgid "file browser"
+msgstr "파일 탐색기"
+
+#: packages/filebrowser/src/crumbs.ts:175 packages/filebrowser/src/crumbs.ts:194
+msgid "Open Error"
+msgstr "열기 오류"
+
+#: packages/filebrowser/src/crumbs.ts:302
+msgid "Move Error"
+msgstr "이동 오류"
+
+#: packages/filebrowser/src/listing.ts:1015
+msgctxt "showErrorMessage"
+msgid "Open directory"
+msgstr "디렉토리 열기"
+
+#: packages/filebrowser/src/listing.ts:1136
+msgid "Error Uploading Folder"
+msgstr "폴더 업로드 오류"
+
+#: packages/filebrowser/src/listing.ts:1137
+msgid "Drag and Drop is currently not supported for folders"
+msgstr "폴더에 대해서는 드래그 앤 드랍이 현재 지원되지 않습니다."
+
+#: packages/filebrowser/src/listing.ts:1140 packages/running-extension/src/opentabs.ts:87
+msgid "Close"
+msgstr "닫기"
+
+#: packages/filebrowser/src/listing.ts:1256
+msgctxt "showErrorMessage"
+msgid "Error while copying/moving files"
+msgstr "파일 복사/이동 중 오류 발생"
+
+#: packages/filebrowser/src/listing.ts:1495
+msgctxt "showErrorMessage"
+msgid "Delete Failed"
+msgstr "삭제 실패"
+
+#: packages/filebrowser/src/listing.ts:1529
+msgctxt "showErrorMessage"
+msgid "\"%1\" is not a valid name for a file. Names must have nonzero length, and cannot include \"/\", \"\\\", or \":\""
+msgstr "\"%1\" 은 파일명으로 유효하지 않습니다. 이름은 한글자 이상이어야 하고, \"/\", \"\\\", \":\" 을 포함하지 않아야 합니다."
+
+#: packages/filebrowser/src/listing.ts:1553
+msgctxt "showErrorMessage"
+msgid "Rename Error"
+msgstr "이름 변경 에러"
+
+#: packages/filebrowser/src/listing.ts:1878
+msgid "Name"
+msgstr "이름"
+
+#: packages/filebrowser/src/listing.ts:1880
+msgid "Last Modified"
+msgstr "마지막 수정"
+
+#: packages/filebrowser/src/listing.ts:2051
+msgid "Name: %1"
+msgstr "이름: %1"
+
+#: packages/filebrowser/src/listing.ts:2055
+msgid "\n"
+"Size: %1"
+msgstr "\n"
+"크기: %1"
+
+#: packages/filebrowser/src/listing.ts:2063
+msgid "\n"
+"Path: %1"
+msgstr "\n"
+"경로: %1"
+
+#: packages/filebrowser/src/listing.ts:2070
+msgid "\n"
+"Created: %1"
+msgstr "\n"
+"생성: %1"
+
+#: packages/filebrowser/src/listing.ts:2076
+msgid "\n"
+"Modified: %1"
+msgstr "\n"
+"수정: %1"
+
+#: packages/filebrowser/src/listing.ts:2081
+msgid "\n"
+"Writable: %1"
+msgstr "\n"
+"수정가능: %1"
+
+#: packages/filebrowser/src/listing.ts:2151
+msgid "%1 Item"
+msgid_plural "%1 Items"
+msgstr[0] "%1 항목"
+
+#: packages/filebrowser/src/listing.ts:382
+msgctxt "showErrorMessage"
+msgid "Paste Error"
+msgstr "붙여넣기 오류"
+
+#: packages/filebrowser/src/listing.ts:402
+msgid "Are you sure you want to permanently delete: %1?"
+msgstr "정말 %1를 영구적으로 삭제하시겠습니까?"
+
+#: packages/filebrowser/src/listing.ts:406
+msgid "Are you sure you want to permanently delete the %1 selected item?"
+msgid_plural "Are you sure you want to permanently delete the %1 selected items?"
+msgstr[0] "%1 개의 선택한 아이템을 영구적으로 삭제하시겠습니까?"
+
+#: packages/filebrowser/src/listing.ts:448
+msgctxt "showErrorMessage"
+msgid "Duplicate file"
+msgstr "중복 파일"
+
+#: packages/filebrowser/src/listing.ts:488
+msgctxt "showErrorMessage"
+msgid "Shut down kernel"
+msgstr "커널 종료"
+
+#: packages/filebrowser/src/listing.ts:845
+msgid "%1\n"
+"Kernel: %2"
+msgstr "%1\n"
+"커널: %2"
+
+#: packages/filebrowser/src/model.ts:421
+msgid "Cannot upload file (>%1 MB). %2"
+msgstr "파일을 업로드 할 수 없습니다. (>%1 MB). %2"
+
+#: packages/filebrowser/src/model.ts:450
+msgid "Large file size warning"
+msgstr "화일 크기 초과 경고"
+
+#: packages/filebrowser/src/model.ts:451
+msgid "The file size is %1 MB. Do you still want to upload it?"
+msgstr "파일 크기가 %1 MB 입니다. 그래도 업로드 하시겠습니까?"
+
+#: packages/filebrowser/src/model.ts:457
+msgid "Upload"
+msgstr "업로드"
+
+#: packages/filebrowser/src/model.ts:90
+msgid "Files still uploading"
+msgstr "파일 업로드 중"
+
+#: packages/filebrowser/src/upload.ts:111
+msgid "Upload Files"
+msgstr "파일 업로드"
+
+#: packages/filebrowser/src/uploadstatus.tsx:36
+msgid "Uploading…"
+msgstr "업로드 중..."
+
+#: packages/filebrowser/src/uploadstatus.tsx:95
+msgid "Complete!"
+msgstr "완료"
+
+#: packages/fileeditor-extension/src/commands.ts:1020 packages/fileeditor-extension/src/commands.ts:1034 packages/fileeditor-extension/src/commands.ts:1050 packages/launcher/src/index.tsx:151 packages/launcher/src/index.tsx:161 packages/launcher/src/index.tsx:437 packages/terminal-extension/src/index.ts:261
+msgid "Other"
+msgstr "기타"
+
+#: packages/fileeditor-extension/src/commands.ts:1080 packages/fileeditor-extension/src/commands.ts:1104 packages/fileeditor-extension/src/commands.ts:1119 packages/fileeditor-extension/src/commands.ts:1134 packages/fileeditor-extension/src/commands.ts:1152
+msgid "Text Editor"
+msgstr "텍스트 편집기"
+
+#: packages/fileeditor-extension/src/commands.ts:1274 packages/fileeditor-extension/src/commands.ts:524
+msgid "Create Console for Editor"
+msgstr "에디터를 위한 콘솔 생성"
+
+#: packages/fileeditor-extension/src/commands.ts:1292 packages/fileeditor-extension/src/commands.ts:595
+msgid "Run Code"
+msgstr "코드 실행하기"
+
+#: packages/fileeditor-extension/src/commands.ts:1293 packages/fileeditor-extension/src/commands.ts:640
+msgid "Run All Code"
+msgstr "모든 코드 실행"
+
+#: packages/fileeditor-extension/src/commands.ts:1295
+msgid "Restart Kernel and Run All Code"
+msgstr "커널 재시작 후 모든 코드 실행"
+
+#: packages/fileeditor-extension/src/commands.ts:297
+msgid "Increase Text Editor Font Size"
+msgstr "텍스트 편집기 글꼴 크기 크게"
+
+#: packages/fileeditor-extension/src/commands.ts:301
+msgid "Decrease Text Editor Font Size"
+msgstr "텍스트 편집기 글꼴 크기 작게"
+
+#: packages/fileeditor-extension/src/commands.ts:329
+msgid "Line Numbers"
+msgstr "줄 번호"
+
+#: packages/fileeditor-extension/src/commands.ts:359
+msgid "Word Wrap"
+msgstr "단어 줄 바꿈"
+
+#: packages/fileeditor-extension/src/commands.ts:375 packages/fileeditor-extension/src/index.ts:102
+msgid "Spaces: %1"
+msgid_plural "Spaces: %1"
+msgstr[0] "공백: %1"
+
+#: packages/fileeditor-extension/src/commands.ts:381 packages/fileeditor-extension/src/index.ts:95
+msgid "Indent with Tab"
+msgstr "탭으로 들여쓰기"
+
+#: packages/fileeditor-extension/src/commands.ts:420 packages/mainmenu-extension/src/index.ts:593
+msgid "Match Brackets"
+msgstr "괄호 맞춤"
+
+#: packages/fileeditor-extension/src/commands.ts:446
+msgid "Auto Close Brackets for Text Editor"
+msgstr "텍스트 편집기 자동 괄호 닫기"
+
+#: packages/fileeditor-extension/src/commands.ts:472
+msgid "Auto Close Brackets"
+msgstr "자동 괄호 닫기"
+
+#: packages/fileeditor-extension/src/commands.ts:499
+msgid "Replace Selection in Editor"
+msgstr "편집기에서 선택영역 바꾸기"
+
+#: packages/fileeditor-extension/src/commands.ts:673
+msgid "Show Markdown Preview"
+msgstr "마크다운 프리뷰 표시하기"
+
+#: packages/fileeditor-extension/src/commands.ts:711 packages/mainmenu-extension/src/index.ts:264
+msgid "Undo"
+msgstr "실행 취소"
+
+#: packages/fileeditor-extension/src/commands.ts:749 packages/mainmenu-extension/src/index.ts:269
+msgid "Redo"
+msgstr "되돌리기"
+
+#: packages/fileeditor-extension/src/commands.ts:891
+msgid "Select All"
+msgstr "전체 선택"
+
+#: packages/fileeditor-extension/src/commands.ts:954
+msgid "New Text File"
+msgstr "새 텍스트 파일"
+
+#: packages/fileeditor-extension/src/commands.ts:956
+msgid "Text File"
+msgstr "텍스트 파일"
+
+#: packages/fileeditor-extension/src/commands.ts:959
+msgid "Create a new text file"
+msgstr "새 텍스트 파일 생성"
+
+#: packages/fileeditor-extension/src/commands.ts:990
+msgid "Create a new markdown file"
+msgstr "새 마크다운 파일 생성"
+
+#: packages/fileeditor-extension/src/index.ts:210
+msgid "New Python File"
+msgstr "새 파이썬 파일"
+
+#: packages/fileeditor-extension/src/index.ts:211
+msgid "Create a new Python file"
+msgstr "새 파이썬 파일 생성"
+
+#: packages/fileeditor-extension/src/index.ts:222
+msgid "New Julia File"
+msgstr "새 Julia 파일"
+
+#: packages/fileeditor-extension/src/index.ts:223
+msgid "Create a new Julia file"
+msgstr "새 Julia 파일 생성"
+
+#: packages/fileeditor-extension/src/index.ts:234
+msgid "New R File"
+msgstr "새 R 파일"
+
+#: packages/fileeditor-extension/src/index.ts:235
+msgid "Create a new R file"
+msgstr "새 R 파일 생성"
+
+#: packages/fileeditor/src/tabspacestatus.tsx:57
+msgid "Spaces"
+msgstr "공백"
+
+#: packages/fileeditor/src/tabspacestatus.tsx:58
+msgid "Tab Size"
+msgstr "탭 크기"
+
+#: packages/fileeditor/src/tabspacestatus.tsx:63
+msgid "Change Tab indentation…"
+msgstr "탭 정의 변경..."
+
+#: packages/help-extension/src/index.tsx:124
+msgid "CONTRIBUTOR LIST"
+msgstr "기여자 리스트"
+
+#: packages/help-extension/src/index.tsx:132
+msgid "ABOUT PROJECT JUPYTER"
+msgstr "JUPTER 프로젝트에 대해"
+
+#: packages/help-extension/src/index.tsx:138
+msgid "© 2015-2022 Project Jupyter Contributors"
+msgstr "© 2015-2022 프로젝트 주피터 기여자"
+
+#: packages/help-extension/src/index.tsx:153 packages/help-extension/src/index.tsx:395 packages/hub-extension/src/index.ts:161 packages/mainmenu-extension/src/index.ts:551
+msgid "Dismiss"
+msgstr "취소"
+
+#: packages/help-extension/src/index.tsx:182 packages/help-extension/src/index.tsx:212 packages/help-extension/src/index.tsx:244 packages/help-extension/src/index.tsx:485 packages/help-extension/src/index.tsx:90
+msgid "Help"
+msgstr "도움말"
+
+#: packages/help-extension/src/index.tsx:185
+msgid "Launch Classic Notebook"
+msgstr "클래식 노트북 열기"
+
+#: packages/help-extension/src/index.tsx:215
+msgid "Jupyter Forum"
+msgstr "Jupyter 포럼"
+
+#: packages/help-extension/src/index.tsx:250
+msgid "JupyterLab Reference"
+msgstr "JupyterLab 참고문헌"
+
+#: packages/help-extension/src/index.tsx:254
+msgid "JupyterLab FAQ"
+msgstr "JupyterLab 자주 묻는 질문"
+
+#: packages/help-extension/src/index.tsx:259
+msgid "Jupyter Reference"
+msgstr "Jupyter 참고문헌"
+
+#: packages/help-extension/src/index.tsx:263
+msgid "Markdown Reference"
+msgstr "마크다운 참고문헌"
+
+#: packages/help-extension/src/index.tsx:375
+msgid "About the %1 Kernel"
+msgstr "%1 커널에 대하여"
+
+#: packages/help-extension/src/index.tsx:486
+msgid "Download All Licenses as"
+msgstr "모든 라이선스를 다른 이름으로 다운로드"
+
+#: packages/help-extension/src/index.tsx:487 packages/help-extension/src/licenses.tsx:438
+msgid "Licenses"
+msgstr "라이선스"
+
+#: packages/help-extension/src/index.tsx:488
+msgid "Refresh Licenses"
+msgstr "라이센스 새로 고침"
+
+#: packages/help-extension/src/index.tsx:93
+msgid "About %1"
+msgstr "%1 에 대하여"
+
+#: packages/help-extension/src/index.tsx:96
+msgid "Version %1"
+msgstr "버전 %1"
+
+#: packages/help-extension/src/licenses.tsx:513
+msgid "Filter Licenses By"
+msgstr "필터 라이센서"
+
+#: packages/help-extension/src/licenses.tsx:517 packages/help-extension/src/licenses.tsx:643
+msgid "Package"
+msgstr "패키지"
+
+#: packages/help-extension/src/licenses.tsx:521 packages/help-extension/src/licenses.tsx:644
+msgid "Version"
+msgstr "버전"
+
+#: packages/help-extension/src/licenses.tsx:525 packages/help-extension/src/licenses.tsx:645 packages/help-extension/src/licenses.tsx:712
+msgid "License"
+msgstr "라이선스"
+
+#: packages/help-extension/src/licenses.tsx:530
+msgid "Distributions"
+msgstr "배포"
+
+#: packages/help-extension/src/licenses.tsx:633
+msgid "No Packages found"
+msgstr "패키지를 찾을 수 없습니다"
+
+#: packages/help-extension/src/licenses.tsx:707
+msgid "No Package selected"
+msgstr "선택된 패키지가 없음"
+
+#: packages/help-extension/src/licenses.tsx:713
+msgid "No License ID found"
+msgstr "라이센스 ID를 찾을 수 없습니다."
+
+#: packages/help-extension/src/licenses.tsx:715
+msgid "No License Text found"
+msgstr "라이센스 문서를 찾을 수 없습니다."
+
+#: packages/htmlviewer-extension/src/index.tsx:102
+msgid "HTML File"
+msgstr "HTML 파일"
+
+#: packages/htmlviewer-extension/src/index.tsx:155
+msgid "Trust HTML File"
+msgstr "HTML 파일 신뢰함"
+
+#: packages/htmlviewer-extension/src/index.tsx:156
+msgid "Whether the HTML file is trusted.\n"
+"    Trusting the file allows scripts to run in it,\n"
+"    which may result in security risks.\n"
+"    Only enable for files you trust."
+msgstr "HTML 파일이 신뢰함으로 설정되면.\n"
+"    파일내의 스크립트가 실행될 수 있습니다.  \n"
+"    이는 보안상 위험을 초래할 수 있으므로 \n"
+"    확실히 신뢰할 수 있는 경우에만 설정하십시오."
+
+#: packages/htmlviewer/src/index.tsx:258
+msgid "Rerender HTML Document"
+msgstr "HTML 문서 렌더러"
+
+#: packages/htmlviewer/src/index.tsx:333
+msgid "Whether the HTML file is trusted.\n"
+"Trusting the file allows scripts to run in it,\n"
+"which may result in security risks.\n"
+"Only enable for files you trust."
+msgstr "HTML 파일이 신뢰함으로 설정되면.\n"
+"파일내의 스크립트가 실행될 수 있습니다. \n"
+"이는 보안상 위험을 초래할 수 있으므로 \n"
+"확실히 신뢰할 수 있는 경우에만 설정하십시오."
+
+#: packages/htmlviewer/src/index.tsx:339
+msgid "Distrust HTML"
+msgstr "HTML 신뢰하지 않음"
+
+#: packages/htmlviewer/src/index.tsx:340
+msgid "Trust HTML"
+msgstr "HTML 신뢰함"
+
+#: packages/hub-extension/src/index.ts:154
+msgid "Server unavailable or unreachable"
+msgstr "서버에 접근할 수 없습니다"
+
+#: packages/hub-extension/src/index.ts:155
+msgid "Your server at %1 is not running.\n"
+"Would you like to restart it?"
+msgstr "%1 서버가 실행되고 있지 않습니다. 재시작 할까요?"
+
+#: packages/hub-extension/src/index.ts:160
+msgid "Restart"
+msgstr "재시작"
+
+#: packages/hub-extension/src/index.ts:66
+msgid "Restart Server"
+msgstr "서버 재시작"
+
+#: packages/hub-extension/src/index.ts:67
+msgid "Request that the Hub restart this server"
+msgstr "허브가 이 이서버를 재시작 하도록 요청"
+
+#: packages/hub-extension/src/index.ts:74
+msgid "Hub Control Panel"
+msgstr "허브 컨트롤 패널"
+
+#: packages/hub-extension/src/index.ts:75
+msgid "Open the Hub control panel in a new browser tab"
+msgstr "새로운 탐색 탭에서 허브 컨트롤 패널 열기"
+
+#: packages/hub-extension/src/index.ts:82 packages/mainmenu-extension/src/index.ts:450
+msgid "Log Out"
+msgstr "로그아웃"
+
+#: packages/hub-extension/src/index.ts:83
+msgid "Log out of the Hub"
+msgstr "허브에서 로그아웃"
+
+#: packages/hub-extension/src/index.ts:91
+msgid "Hub"
+msgstr "허브"
+
+#: packages/imageviewer-extension/src/index.ts:158
+msgid "Image Viewer"
+msgstr "이미지 뷰어"
+
+#: packages/imageviewer-extension/src/index.ts:199
+msgid "Zoom In"
+msgstr "확대"
+
+#: packages/imageviewer-extension/src/index.ts:205
+msgid "Zoom Out"
+msgstr "축소"
+
+#: packages/imageviewer-extension/src/index.ts:211
+msgid "Reset Image"
+msgstr "이미지 초기화"
+
+#: packages/imageviewer-extension/src/index.ts:217
+msgid "Rotate Clockwise"
+msgstr "시계 방향 회전"
+
+#: packages/imageviewer-extension/src/index.ts:223
+msgid "Rotate Counterclockwise"
+msgstr "반시계 방향으로 회전"
+
+#: packages/imageviewer-extension/src/index.ts:229
+msgid "Flip image horizontally"
+msgstr "이미지를 수평으로 뒤집기"
+
+#: packages/imageviewer-extension/src/index.ts:235
+msgid "Flip image vertically"
+msgstr "이미지를 수직으로 뒤집기"
+
+#: packages/imageviewer-extension/src/index.ts:241
+msgid "Invert Colors"
+msgstr "색상 반전"
+
+#: packages/inspector-extension/src/index.ts:57
+msgid "Show Contextual Help"
+msgstr "컨텍스트 도움말"
+
+#: packages/inspector-extension/src/index.ts:91
+msgid "Live updating code documentation from the active kernel"
+msgstr "활성화된 커널로부터 실시간으로 코드 문서 갱신"
+
+#: packages/inspector/src/inspector.ts:51
+msgid "Click on a function to see documentation."
+msgstr "문서를 보려면 함수를 클릭 하세요."
+
+#: packages/javascript-extension/src/index.ts:41
+msgid "Are you sure that you want to run arbitrary Javascript within your JupyterLab session?"
+msgstr "당신의 JupyterLab 세션에서 모든 Javascript를 실행할 수 있도록 허용 하겠습니까?"
+
+#: packages/javascript-extension/src/index.ts:45 packages/rendermime/src/renderers.ts:70
+msgid "Run"
+msgstr "실행"
+
+#: packages/json-extension/src/component.tsx:63
+msgid "Filter…"
+msgstr "필터..."
+
+#: packages/launcher-extension/src/index.ts:103 packages/launcher-extension/src/index.ts:76
+msgid "Launcher"
+msgstr "런처"
+
+#: packages/launcher/src/index.tsx:411
+msgctxt "Error"
+msgid "Launcher Error"
+msgstr "런처 오류"
+
+#: packages/logconsole-extension/src/index.tsx:142 packages/logconsole/src/widget.ts:389
+msgid "Log Console"
+msgstr "로그 콘솔"
+
+#: packages/logconsole-extension/src/index.tsx:191
+msgid "Show Log Console"
+msgstr "로그 콘솔 표시"
+
+#: packages/logconsole-extension/src/index.tsx:211
+msgid "Add Checkpoint"
+msgstr "체크포인트 추가"
+
+#: packages/logconsole-extension/src/index.tsx:220
+msgid "Clear Log"
+msgstr "로그 삭제"
+
+#: packages/logconsole-extension/src/index.tsx:236
+msgid "Set Log Level to %1"
+msgstr "로그 레벨을 %1으로 설정"
+
+#: packages/logconsole-extension/src/index.tsx:366
+msgid "Log Level:"
+msgstr "로그 레벨:"
+
+#: packages/logconsole-extension/src/index.tsx:374
+msgid "Log level"
+msgstr "로그 레벨"
+
+#: packages/logconsole-extension/src/index.tsx:380
+msgid "Critical"
+msgstr "심각"
+
+#: packages/logconsole-extension/src/index.tsx:383
+msgid "Info"
+msgstr "정보"
+
+#: packages/logconsole-extension/src/index.tsx:384
+msgid "Debug"
+msgstr "디버그"
+
+#: packages/logconsole-extension/src/status.tsx:30
+msgid "%1 new messages, %2 log entries for %3"
+msgstr "%1 새 메시지, %2 로그 엔트리 / %3"
+
+#: packages/logconsole-extension/src/status.tsx:37
+msgid "%1 log entries for %2"
+msgstr "%1 로그 엔트리 / %2"
+
+#: packages/logconsole/src/widget.ts:390
+msgid "Log: %1"
+msgstr "로그: %1"
+
+#: packages/logconsole/src/widget.ts:397
+msgid "No source selected."
+msgstr "선택된 소스 없음"
+
+#: packages/logconsole/src/widget.ts:402
+msgid "No log messages."
+msgstr "로그 메시지가 없습니다."
+
+#: packages/mainmenu-extension/src/index.ts:185
+msgid "Open Edit Menu"
+msgstr "편집 메뉴 열기"
+
+#: packages/mainmenu-extension/src/index.ts:189
+msgid "Open File Menu"
+msgstr "파일 메뉴 열기"
+
+#: packages/mainmenu-extension/src/index.ts:193
+msgid "Open Kernel Menu"
+msgstr "커널 메뉴 열기"
+
+#: packages/mainmenu-extension/src/index.ts:197
+msgid "Open Run Menu"
+msgstr "실행 메뉴 열기"
+
+#: packages/mainmenu-extension/src/index.ts:201
+msgid "Open View Menu"
+msgstr "보기 메뉴 열기"
+
+#: packages/mainmenu-extension/src/index.ts:205
+msgid "Open Settings Menu"
+msgstr "설정 메뉴 열기"
+
+#: packages/mainmenu-extension/src/index.ts:209
+msgid "Open Tabs Menu"
+msgstr "탭 메뉴 열기"
+
+#: packages/mainmenu-extension/src/index.ts:213
+msgid "Open Help Menu"
+msgstr "도움말 메뉴 열기"
+
+#: packages/mainmenu-extension/src/index.ts:217
+msgid "Open First Menu"
+msgstr "첫번째 메뉴 열기"
+
+#: packages/mainmenu-extension/src/index.ts:237
+msgid "Kernel Operations"
+msgstr "커널 명령"
+
+#: packages/mainmenu-extension/src/index.ts:282
+msgid "Clear"
+msgstr "지우기"
+
+#: packages/mainmenu-extension/src/index.ts:298
+msgid "Clear All"
+msgstr "모두 지우기"
+
+#: packages/mainmenu-extension/src/index.ts:341
+msgid "Close and Shutdown"
+msgstr "파일 닫고 종료"
+
+#: packages/mainmenu-extension/src/index.ts:371
+msgid "New Console for Activity"
+msgstr "현재 활동을 위한 새 콘솔 열기"
+
+#: packages/mainmenu-extension/src/index.ts:382 packages/mainmenu-extension/src/index.ts:392 packages/running-extension/src/kernels.ts:39 packages/running/src/index.tsx:142 packages/terminal-extension/src/index.ts:292
+msgid "Shut Down"
+msgstr "서버 종료"
+
+#: packages/mainmenu-extension/src/index.ts:383
+msgid "Shut down JupyterLab"
+msgstr "JupyterLab 종료"
+
+#: packages/mainmenu-extension/src/index.ts:388
+msgid "Shutdown confirmation"
+msgstr "종료 확인"
+
+#: packages/mainmenu-extension/src/index.ts:389
+msgid "Please confirm you want to shut down JupyterLab."
+msgstr "JupyterLab을 종료할 것인지 확인해 주십시오."
+
+#: packages/mainmenu-extension/src/index.ts:421
+msgid "You have shut down the Jupyter server. You can now close this tab."
+msgstr "Jupyter 서버를 종료했습니다. 탭을 닫으셔도 됩니다."
+
+#: packages/mainmenu-extension/src/index.ts:425
+msgid "To use JupyterLab again, you will need to relaunch it."
+msgstr "JupyterLab을 다시 사용하려면 서버를 재구동 해주세요."
+
+#: packages/mainmenu-extension/src/index.ts:432
+msgid "Server stopped"
+msgstr "서버 종료됨"
+
+#: packages/mainmenu-extension/src/index.ts:451
+msgid "Log out of JupyterLab"
+msgstr "JupyterLab에서 로그 아웃"
+
+#: packages/mainmenu-extension/src/index.ts:483
+msgid "Reconnect to Kernel"
+msgstr "커널 재연결 시도"
+
+#: packages/mainmenu-extension/src/index.ts:507
+msgid "Restart Kernel and Clear…"
+msgstr "커널 재시작 후 클리어"
+
+#: packages/mainmenu-extension/src/index.ts:542
+msgid "Shut Down All Kernels…"
+msgstr "모든 커널 종료"
+
+#: packages/mainmenu-extension/src/index.ts:548
+msgid "Shut Down All?"
+msgstr "모두 종료?"
+
+#: packages/mainmenu-extension/src/index.ts:549
+msgid "Shut down all kernels?"
+msgstr "모든 커널 종료"
+
+#: packages/mainmenu-extension/src/index.ts:552 packages/running-extension/src/kernels.ts:40 packages/running/src/index.tsx:222 packages/terminal-extension/src/index.ts:293
+msgid "Shut Down All"
+msgstr "모두 종료"
+
+#: packages/mainmenu-extension/src/index.ts:574
+msgid "Show Line Numbers"
+msgstr "줄 번호 표시"
+
+#: packages/mainmenu-extension/src/index.ts:612
+msgid "Wrap Words"
+msgstr "자동 줄바꿈"
+
+#: packages/mainmenu-extension/src/index.ts:645 packages/mainmenu-extension/src/index.ts:654
+msgid "Run Selected"
+msgstr "선택된 셀 실행"
+
+#: packages/mainmenu-extension/src/index.ts:663 packages/mainmenu-extension/src/index.ts:679
+msgid "Run All"
+msgstr "모두 실행"
+
+#: packages/mainmenu-extension/src/index.ts:699 packages/mainmenu-extension/src/index.ts:715
+msgid "Restart Kernel and Run All"
+msgstr "커널 재시작 후 모두 실행"
+
+#: packages/mainmenu-extension/src/index.ts:774
+msgid "Activate Previously Used Tab"
+msgstr "방금 전 사용한 탭"
+
+#: packages/mainmenu-extension/src/index.ts:943
+msgid "Menu customization has changed. You will need to reload JupyterLab to see the changes."
+msgstr "사용자 지정 메뉴가 변경되었습니다. 변경된 사항을 적용하려면 JupyterLab을 다시 불러와야 합니다."
+
+#: packages/markdownviewer-extension/src/index.ts:138
+msgid "Markdown Preview"
+msgstr "마크다운 프리뷰"
+
+#: packages/markdownviewer-extension/src/index.ts:173
+msgid "Show Markdown Editor"
+msgstr "마크다운 편집기 보여주기"
+
+#: packages/notebook-extension/src/index.ts:1012 packages/notebook-extension/src/index.ts:2704
+msgid "New Console for Notebook"
+msgstr "노트북 용 새로운 콘솔"
+
+#: packages/notebook-extension/src/index.ts:1030
+msgid "Run Selected Text or Current Line in Console"
+msgstr "선택된 텍스트 콘솔의 현재 라인을 실행"
+
+#: packages/notebook-extension/src/index.ts:1190
+msgid "Copy Output to Clipboard"
+msgstr "출력을 클립보드에 복사"
+
+#: packages/notebook-extension/src/index.ts:1283
+msgid "Auto Close Brackets for All Notebook Cell Types"
+msgstr "모든 노트북 셀 유형에서 괄호 자동으로 닫기"
+
+#: packages/notebook-extension/src/index.ts:1290
+msgid "Set side-by-side ratio"
+msgstr "나란히 비교 비율 설정"
+
+#: packages/notebook-extension/src/index.ts:1293
+msgid "Width of the output in side-by-side mode"
+msgstr "나란히 비교 모드의 출력 폭"
+
+#: packages/notebook-extension/src/index.ts:1479
+msgid "New Notebook"
+msgstr "새 노트북"
+
+#: packages/notebook-extension/src/index.ts:1483
+msgid "Create a new notebook"
+msgstr "새 노트북 만들기"
+
+#: packages/notebook-extension/src/index.ts:1616 packages/notebook-extension/src/index.ts:2727
+msgid "Run Selected Cells"
+msgstr "선택된 셀 실행 후 아래로 이동"
+
+#: packages/notebook-extension/src/index.ts:1629
+msgid "Run Selected Cells and Don't Advance"
+msgstr "선택된 셀 실행"
+
+#: packages/notebook-extension/src/index.ts:1642
+msgid "Run Selected Cells and Insert Below"
+msgstr "선택된 셀 실행 후 아래에 셀 추가"
+
+#: packages/notebook-extension/src/index.ts:1655 packages/notebook-extension/src/index.ts:2729
+msgid "Run All Cells"
+msgstr "모든 셀 실행"
+
+#: packages/notebook-extension/src/index.ts:1668
+msgid "Run All Above Selected Cell"
+msgstr "위의 모든 셀 실행"
+
+#: packages/notebook-extension/src/index.ts:1688
+msgid "Run Selected Cell and All Below"
+msgstr "선택된 셀과 아래 셀 모두 실행"
+
+#: packages/notebook-extension/src/index.ts:1709
+msgid "Render All Markdown Cells"
+msgstr "모든 마크다운 셀을 렌더링"
+
+#: packages/notebook-extension/src/index.ts:1734
+msgid "Close and Shut Down"
+msgstr "파일 닫고 종료"
+
+#: packages/notebook-extension/src/index.ts:1745
+msgid "Shut down the notebook?"
+msgstr "노트북을 종료 하겠습니까?"
+
+#: packages/notebook-extension/src/index.ts:1759
+msgid "Trust Notebook"
+msgstr "노트북 신뢰함"
+
+#: packages/notebook-extension/src/index.ts:1770 packages/notebook-extension/src/index.ts:2683
+msgid "Restart Kernel and Clear All Outputs…"
+msgstr "커널 재시작 후 모든 출력 지우기"
+
+#: packages/notebook-extension/src/index.ts:1785
+msgid "Restart Kernel and Run up to Selected Cell…"
+msgstr "커널 재시작 후 선택한 셀 실행"
+
+#: packages/notebook-extension/src/index.ts:1809 packages/notebook-extension/src/index.ts:2732
+msgid "Restart Kernel and Run All Cells…"
+msgstr "커널 재시작 후 모든 셀 실행"
+
+#: packages/notebook-extension/src/index.ts:1829 packages/notebook-extension/src/index.ts:2634
+msgid "Clear All Outputs"
+msgstr "모든 출력 지우기"
+
+#: packages/notebook-extension/src/index.ts:1840
+msgid "Clear Outputs"
+msgstr "출력 지우기"
+
+#: packages/notebook-extension/src/index.ts:1868
+msgid "Change to Code Cell Type"
+msgstr "코드 셀 타입으로 변경"
+
+#: packages/notebook-extension/src/index.ts:1879
+msgid "Change to Markdown Cell Type"
+msgstr "마크다운 셀 타입으로 변경"
+
+#: packages/notebook-extension/src/index.ts:1890
+msgid "Change to Raw Cell Type"
+msgstr "Raw 셀 타입으로 변경"
+
+#: packages/notebook-extension/src/index.ts:1901
+msgid "Cut Cells"
+msgstr "셀 잘라내기"
+
+#: packages/notebook-extension/src/index.ts:1902 packages/notebook/src/default-toolbar.tsx:140
+msgid "Cut the selected cells"
+msgstr "선택한 셀 잘라내기"
+
+#: packages/notebook-extension/src/index.ts:1914
+msgid "Copy Cells"
+msgstr "셀 복사"
+
+#: packages/notebook-extension/src/index.ts:1915 packages/notebook/src/default-toolbar.tsx:160
+msgid "Copy the selected cells"
+msgstr "선택한 셀 복사"
+
+#: packages/notebook-extension/src/index.ts:1927
+msgid "Paste Cells Below"
+msgstr "아래에 셀 붙여넣기"
+
+#: packages/notebook-extension/src/index.ts:1928 packages/notebook/src/default-toolbar.tsx:180
+msgid "Paste cells from the clipboard"
+msgstr "클립보드에서 셀 붙여넣기"
+
+#: packages/notebook-extension/src/index.ts:1940
+msgid "Paste Cells Above"
+msgstr "위에 셀 붙여넣기"
+
+#: packages/notebook-extension/src/index.ts:1951
+msgid "Duplicate Cells Below"
+msgstr "아래로 셀을 복사"
+
+#: packages/notebook-extension/src/index.ts:1952
+msgid "Copy the selected cells and paste them below the selection"
+msgstr "선택한 셀 복사하고 아래에 붙여넣기"
+
+#: packages/notebook-extension/src/index.ts:1966
+msgid "Paste Cells and Replace"
+msgstr "셀을 붙여 넣고 변경"
+
+#: packages/notebook-extension/src/index.ts:1977
+msgid "Delete Cells"
+msgstr "셀 삭제"
+
+#: packages/notebook-extension/src/index.ts:1988
+msgid "Split Cell"
+msgstr "셀 나누기"
+
+#: packages/notebook-extension/src/index.ts:1999
+msgid "Merge Selected Cells"
+msgstr "선택한 셀 합치기"
+
+#: packages/notebook-extension/src/index.ts:2010
+msgid "Merge Cell Above"
+msgstr "위 셀과 합치기"
+
+#: packages/notebook-extension/src/index.ts:2021
+msgid "Merge Cell Below"
+msgstr "아래 셀과 합치기"
+
+#: packages/notebook-extension/src/index.ts:2032
+msgid "Insert Cell Above"
+msgstr "셀 위로 추가하기"
+
+#: packages/notebook-extension/src/index.ts:2044
+msgid "Insert Cell Below"
+msgstr "셀 아래에 추가하기"
+
+#: packages/notebook-extension/src/index.ts:2045 packages/notebook/src/default-toolbar.tsx:120
+msgid "Insert a cell below"
+msgstr "셀 아래에 추가하기"
+
+#: packages/notebook-extension/src/index.ts:2057
+msgid "Select Cell Above"
+msgstr "블록 위로 선택"
+
+#: packages/notebook-extension/src/index.ts:2068
+msgid "Select Cell Below"
+msgstr "블록 아래로 선택"
+
+#: packages/notebook-extension/src/index.ts:2079
+msgid "Extend Selection Above"
+msgstr "선택 범위를 위로 확장"
+
+#: packages/notebook-extension/src/index.ts:2090
+msgid "Extend Selection to Top"
+msgstr "선택 범위를 맨위까지 확장"
+
+#: packages/notebook-extension/src/index.ts:2101
+msgid "Extend Selection Below"
+msgstr "선택 범위를 아래로 확장"
+
+#: packages/notebook-extension/src/index.ts:2112
+msgid "Extend Selection to Bottom"
+msgstr "선택 범위를 맨아래까지 확장"
+
+#: packages/notebook-extension/src/index.ts:2123
+msgid "Select All Cells"
+msgstr "전체 셀 선택"
+
+#: packages/notebook-extension/src/index.ts:2134
+msgid "Deselect All Cells"
+msgstr "모든 셀 선택 해제"
+
+#: packages/notebook-extension/src/index.ts:2145
+msgid "Move Cells Up"
+msgstr "셀을 위로 이동"
+
+#: packages/notebook-extension/src/index.ts:2157
+msgid "Move Cells Down"
+msgstr "셀을 아래로 이동"
+
+#: packages/notebook-extension/src/index.ts:2169
+msgid "Toggle All Line Numbers"
+msgstr "줄번호 토글"
+
+#: packages/notebook-extension/src/index.ts:2180
+msgid "Enter Command Mode"
+msgstr "명령어 모드로 들어가기"
+
+#: packages/notebook-extension/src/index.ts:2191
+msgid "Enter Edit Mode"
+msgstr "편집 모드 열기"
+
+#: packages/notebook-extension/src/index.ts:2202
+msgid "Undo Cell Operation"
+msgstr "셀 명령 실행 취소"
+
+#: packages/notebook-extension/src/index.ts:2213
+msgid "Redo Cell Operation"
+msgstr "셀 명령 되돌리기"
+
+#: packages/notebook-extension/src/index.ts:2238
+msgid "Reconnect To Kernel"
+msgstr "커널 재연결 시도"
+
+#: packages/notebook-extension/src/index.ts:2255
+msgid "Change to Heading 1"
+msgstr "로 변경"
+
+#: packages/notebook-extension/src/index.ts:2266
+msgid "Change to Heading 2"
+msgstr "Heading 2 로 변경"
+
+#: packages/notebook-extension/src/index.ts:2277
+msgid "Change to Heading 3"
+msgstr "Heading 3 으로 변경"
+
+#: packages/notebook-extension/src/index.ts:2288
+msgid "Change to Heading 4"
+msgstr "Heading 4 로 변경"
+
+#: packages/notebook-extension/src/index.ts:2299
+msgid "Change to Heading 5"
+msgstr "Heading 5 로 변경"
+
+#: packages/notebook-extension/src/index.ts:2310
+msgid "Change to Heading 6"
+msgstr "Heading 6 으로 변경"
+
+#: packages/notebook-extension/src/index.ts:2321
+msgid "Collapse Selected Code"
+msgstr "선택한 코드 숨기기"
+
+#: packages/notebook-extension/src/index.ts:2332
+msgid "Expand Selected Code"
+msgstr "선택한 항목 펼치기"
+
+#: packages/notebook-extension/src/index.ts:2343
+msgid "Collapse All Code"
+msgstr "전체 코드 숨기기"
+
+#: packages/notebook-extension/src/index.ts:2354
+msgid "Expand All Code"
+msgstr "모든 코드 표시"
+
+#: packages/notebook-extension/src/index.ts:2365
+msgid "Collapse Selected Outputs"
+msgstr "선택한 항목 접기"
+
+#: packages/notebook-extension/src/index.ts:2376
+msgid "Expand Selected Outputs"
+msgstr "선택한 항목 접기"
+
+#: packages/notebook-extension/src/index.ts:2387
+msgid "Collapse All Outputs"
+msgstr "모든 출력 숨기기"
+
+#: packages/notebook-extension/src/index.ts:2399
+msgid "Render Side-by-Side"
+msgstr "나란히 보기 렌더링"
+
+#: packages/notebook-extension/src/index.ts:2421
+msgid "Expand All Outputs"
+msgstr "모든 출력 표시"
+
+#: packages/notebook-extension/src/index.ts:2432
+msgid "Enable Scrolling for Outputs"
+msgstr "출력 스크롤 활성화"
+
+#: packages/notebook-extension/src/index.ts:2443
+msgid "Disable Scrolling for Outputs"
+msgstr "출력 스크롤 비활성화"
+
+#: packages/notebook-extension/src/index.ts:2454
+msgid "Select current running or last run cell"
+msgstr "최근 실행 셀 선택"
+
+#: packages/notebook-extension/src/index.ts:2465
+msgid "Replace Selection in Notebook Cell"
+msgstr "선택한 셀 바꾸기"
+
+#: packages/notebook-extension/src/index.ts:2513 packages/notebook-extension/src/index.ts:572
+msgid "Notebook Operations"
+msgstr "노트북 명령"
+
+#: packages/notebook-extension/src/index.ts:2549
+msgid "Notebook Cell Operations"
+msgstr "노트북 셀 명령"
+
+#: packages/notebook-extension/src/index.ts:2632
+msgid "Clear Output"
+msgstr "출력 지우기"
+
+#: packages/notebook-extension/src/index.ts:2648
+msgid "Close and Shutdown Notebook"
+msgstr "노트북을 종료하고 닫기"
+
+#: packages/notebook-extension/src/index.ts:2652
+msgid "Shut down the Notebook?"
+msgstr "노트북을 종료 하겠습니까?"
+
+#: packages/notebook-extension/src/index.ts:2728 packages/notebook/src/default-toolbar.tsx:200
+msgid "Run the selected cells and advance"
+msgstr "선택한 셀 실행하고 진행"
+
+#: packages/notebook-extension/src/index.ts:2730
+msgid "Run the all notebook cells"
+msgstr "모두 실행"
+
+#: packages/notebook-extension/src/index.ts:2734 packages/notebook/src/default-toolbar.tsx:227
+msgid "Restart the kernel, then re-run the whole notebook"
+msgstr "커널 재시작 후 노트북 전체 실행"
+
+#: packages/notebook-extension/src/index.ts:2866
+msgid "HTML"
+msgstr "HTML"
+
+#: packages/notebook-extension/src/index.ts:2867
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: packages/notebook-extension/src/index.ts:2868 packages/notebook/src/default-toolbar.tsx:360
+msgid "Markdown"
+msgstr "마크다운"
+
+#: packages/notebook-extension/src/index.ts:2869 packages/notebook-extension/src/index.ts:757
+msgid "PDF"
+msgstr "PDF"
+
+#: packages/notebook-extension/src/index.ts:2870
+msgid "ReStructured Text"
+msgstr "ReStructured 텍스트"
+
+#: packages/notebook-extension/src/index.ts:2871
+msgid "Executable Script"
+msgstr "스크립트 실행"
+
+#: packages/notebook-extension/src/index.ts:2872
+msgid "Reveal.js Slides"
+msgstr "Reveal.js 슬라이드"
+
+#: packages/notebook-extension/src/index.ts:2890
+msgid "For Notebook: %1"
+msgstr "노트북: %1"
+
+#: packages/notebook-extension/src/index.ts:2891
+msgid "For Notebook:"
+msgstr "노트북:"
+
+#: packages/notebook-extension/src/index.ts:504
+msgid "Save and Export Notebook: %1"
+msgstr "저장하고 내보내기 노트북: %1"
+
+#: packages/notebook-extension/src/index.ts:758
+msgid "Slides"
+msgstr "슬라이드"
+
+#: packages/notebook-extension/src/index.ts:759
+msgid "Script"
+msgstr "스크립트"
+
+#: packages/notebook-extension/src/index.ts:761
+msgid "Custom"
+msgstr "사용자 정의"
+
+#: packages/notebook-extension/src/index.ts:783
+msgid "Notebook Tools"
+msgstr "노트북 도구"
+
+#: packages/notebook-extension/src/index.ts:943
+msgid "Create New View for Output"
+msgstr "새로운 뷰에 출력 표시"
+
+#: packages/notebook/src/actions.tsx:1869
+msgid "A trusted Jupyter notebook may execute hidden malicious code when you open it."
+msgstr "신뢰함 설정된 노트북 파일을 열면 숨겨져 있는 악성 코드가 실행될 수도 있습니다."
+
+#: packages/notebook/src/actions.tsx:1873
+msgid "Selecting trust will re-render this notebook in a trusted state."
+msgstr "신뢰함으로 설정하면 이 노트북을 신뢰 상태로 다시 렌더링 합니다."
+
+#: packages/notebook/src/actions.tsx:1877
+msgid "For more information, see"
+msgstr "더 자세한 정보는 다음을 참고하세요."
+
+#: packages/notebook/src/actions.tsx:1883
+msgid "the Jupyter security documentation"
+msgstr "Jupyter 보안 문서"
+
+#: packages/notebook/src/actions.tsx:1890
+msgid "Notebook is already trusted"
+msgstr "노트북은 이미 신뢰함 상태임"
+
+#: packages/notebook/src/actions.tsx:1897
+msgid "Trust this notebook?"
+msgstr "이 노트북을 신뢰함으로 설정하겠습니까?"
+
+#: packages/notebook/src/actions.tsx:1966
+msgid "Notebook is still rendering and has for now (%1) remaining cells to render.\n\n"
+"Please wait for the complete rendering before invoking that action."
+msgstr "노트북은 렌더링 중이고, 현재 (%1) 셀이 더 렌더링 되어야 합니다. \n\n"
+"그 작업을 수행하기 전에 렌더링이 끝나기를 기다리기 바랍니다."
+
+#: packages/notebook/src/actions.tsx:2138
+msgid "Kernel Terminating"
+msgstr "커널 종료"
+
+#: packages/notebook/src/actions.tsx:2139
+msgid "The kernel for %1 appears to be terminating. You can not run any cell for now."
+msgstr "%1에 대한 커널이 종료된 것으로 보입니다. 지금은 어떤 셀도 실행할 수 없습니다."
+
+#: packages/notebook/src/actions.tsx:2149
+msgid "Cell not executed due to pending input"
+msgstr "이전 실행이 예기치 못하게 종료되었습니다"
+
+#: packages/notebook/src/actions.tsx:2150
+msgid "The cell has not been executed to avoid kernel deadlock as there is another pending input! Submit your pending input and try again."
+msgstr "이전 실행을 제출하고 다시 시도해보십시오."
+
+#: packages/notebook/src/default-toolbar.tsx:355
+msgid "Cell type"
+msgstr "셀 타입"
+
+#: packages/notebook/src/default-toolbar.tsx:356
+msgid "Select the cell type"
+msgstr "셀 유형 바꾸기"
+
+#: packages/notebook/src/default-toolbar.tsx:359
+msgid "Code"
+msgstr "코드"
+
+#: packages/notebook/src/default-toolbar.tsx:361
+msgid "Raw"
+msgstr "Raw"
+
+#: packages/notebook/src/default-toolbar.tsx:86
+msgid "Save the notebook contents and create checkpoint"
+msgstr "노트북 저장 및 체크포인트 생성"
+
+#: packages/notebook/src/executionindicator.tsx:127 packages/notebook/src/executionindicator.tsx:145
+msgid "Elapsed time: %1 second"
+msgid_plural "Elapsed time: %1 seconds"
+msgstr[0] "경과 시간: %1 초"
+
+#: packages/notebook/src/executionindicator.tsx:138
+msgid "Executed %1 cell"
+msgid_plural "Executed %1 cells"
+msgstr[0] "%1 셀이 실행됨"
+
+#: packages/notebook/src/executionindicator.tsx:73
+msgid "Kernel status: %1"
+msgstr "커널 상태: %1"
+
+#: packages/notebook/src/model.ts:336
+msgid "This notebook has been converted from an older notebook format (v%1)\n"
+"to the current notebook format (v%2).\n"
+"The next time you save this notebook, the current notebook format (v%2) will be used.\n"
+"'Older versions of Jupyter may not be able to read the new format.' To preserve the original format version,\n"
+"close the notebook without saving it."
+msgstr "이 노트북은 이전 노트 북 포맷 버전 (v%1) 으로 부터\n"
+"현재 노트북 포맷 버전 (v%2) 로 변환되었습니다.\n"
+"다음 이 노트북이 저장될 때에는 현재 노트북 포맷 버전 (v%2) 이 사용될 것입니다.\n"
+"'이전 버전의 Jupyer 프로그램은 새 버전을 읽지 못할 수 있습니다.' 원래의 버전으로 유지하고 싶다면, \n"
+"저장하지 말고 노트북을 닫아야 합니다."
+
+#: packages/notebook/src/model.ts:346
+msgid "This notebook has been converted from an newer notebook format (v%1)\n"
+"to the current notebook format (v%2).\n"
+"The next time you save this notebook, the current notebook format (v%2) will be used.\n"
+"Some features of the original notebook may not be available.' To preserve the original format version,\n"
+"close the notebook without saving it."
+msgstr "이 노트북은 좀더 최신의 노트 북 포맷 버전 (v%1) 으로 부터\n"
+"현재 노트북 포맷 버전 (v%2) 로 변환되었습니다.\n"
+"다음 이 노트북이 저장될 때에는 현재 노트북 포맷 버전 (v%2) 이 사용될 것입니다.\n"
+"원래의 노트북에 포함된 일 부 기능을 사용할 수 없을 수 있습니다. 원래의 버전으로 유지하고 싶다면, \n"
+"저장하지 말고 노트북을 닫아야 합니다."
+
+#: packages/notebook/src/model.ts:357
+msgid "Notebook converted"
+msgstr "노트북 변환됨"
+
+#: packages/notebook/src/modestatus.tsx:24
+msgid "Mode: %1"
+msgstr "모드: %1"
+
+#: packages/notebook/src/modestatus.tsx:66 packages/shortcuts-extension/src/components/TopNav.tsx:273
+msgid "Command"
+msgstr "명령어"
+
+#: packages/notebook/src/modestatus.tsx:67 packages/shortcuts-extension/src/components/ShortcutItem.tsx:80
+msgid "Edit"
+msgstr "편집"
+
+#: packages/notebook/src/modestatus.tsx:78
+msgid "Notebook is in %1 mode"
+msgstr "노트북이 현재 %1 모드에 있습니다"
+
+#: packages/notebook/src/notebooktools.ts:614
+msgid "Notebook Metadata"
+msgstr "노트북 메타데이터"
+
+#: packages/notebook/src/notebooktools.ts:648
+msgid "Cell Metadata"
+msgstr "셀 메타데이터"
+
+#: packages/notebook/src/notebooktools.ts:78
+msgid "Advanced Tools"
+msgstr "고급 도구"
+
+#: packages/notebook/src/notebooktools.ts:916
+msgid "Slide Type"
+msgstr "슬라이드 유형"
+
+#: packages/notebook/src/notebooktools.ts:919
+msgid "Slide"
+msgstr "슬라이드"
+
+#: packages/notebook/src/notebooktools.ts:920
+msgid "Sub-Slide"
+msgstr "하위 슬라이드"
+
+#: packages/notebook/src/notebooktools.ts:921
+msgid "Fragment"
+msgstr "프래그먼트"
+
+#: packages/notebook/src/notebooktools.ts:922
+msgid "Skip"
+msgstr "건너뛰기"
+
+#: packages/notebook/src/notebooktools.ts:923
+msgid "Notes"
+msgstr "노트"
+
+#: packages/notebook/src/notebooktools.ts:961
+msgid "Raw NBConvert Format"
+msgstr "Raw NBConvert 포맷"
+
+#: packages/notebook/src/panel.ts:214
+msgid "Kernel Restarting"
+msgstr "커널 재시작"
+
+#: packages/notebook/src/panel.ts:215
+msgid "The kernel for %1 appears to have died. It will restart automatically."
+msgstr "%1의 커널이 죽은 것으로 보입니다. 자동으로 다시 시작합니다."
+
+#: packages/notebook/src/truststatus.tsx:21
+msgid "Notebook trusted: %1 of %2 cells trusted."
+msgstr "노트북 신뢰함: %2 중 %1 셀을 신뢰함"
+
+#: packages/notebook/src/truststatus.tsx:30
+msgid "Active cell trusted: %1 of %2 cells trusted."
+msgstr "활성 셀을 신뢰함: %2 중 %1 셀을 신뢰함"
+
+#: packages/notebook/src/truststatus.tsx:39
+msgid "Notebook not trusted: %1 of %2 cells trusted."
+msgstr "노트북 신뢰하지 않음: %2 중 %1 셀을 신뢰함"
+
+#: packages/property-inspector/src/index.ts:170
+msgid "No properties to inspect."
+msgstr "검사할 속성이 없습니다."
+
+#: packages/rendermime-extension/src/index.ts:58
+msgid "Handle Local Link"
+msgstr "로컬 링크 핸들"
+
+#: packages/rendermime/src/renderers.ts:66
+msgid "This HTML output contains inline scripts. Are you sure that you want to run arbitrary Javascript within your JupyterLab session?"
+msgstr "이 HTML 출력은 인라인 스크립트를 갖고 있습니다. 당신의 JupyterLab 세션에서 이러한 Javascript 코드를 실행하시겠습니까?"
+
+#: packages/rendermime/src/widgets.ts:420
+msgid "JavaScript output is disabled in JupyterLab"
+msgstr "JavaScript 출력이 JupyterLab에서 비활성화 되었습니다."
+
+#: packages/running-extension/src/index.ts:54
+msgid "Running Terminals and Kernels"
+msgstr "현재 실행중인 탭"
+
+#: packages/running-extension/src/index.ts:57
+msgid "Running Sessions section"
+msgstr "실행 세션 섹션"
+
+#: packages/running-extension/src/kernels.ts:30
+msgid "Kernels"
+msgstr "커널"
+
+#: packages/running-extension/src/kernels.ts:41
+msgid "Are you sure you want to permanently shut down all running kernels?"
+msgstr "현재 작동 중인 모든 커널들을 영구적으로 종료하시겠습니까?"
+
+#: packages/running-extension/src/kernels.ts:80
+msgid "Path: %1\n"
+"Kernel: %2"
+msgstr "경로: %1\n"
+"커널: %2"
+
+#: packages/running-extension/src/opentabs.ts:71
+msgid "Open Tabs"
+msgstr "탭 열기"
+
+#: packages/running-extension/src/opentabs.ts:88
+msgid "Close All"
+msgstr "모두 닫기"
+
+#: packages/running-extension/src/opentabs.ts:89
+msgid "Are you sure you want to close all open tabs?"
+msgstr "열려있는 모든 탭을 닫으시겠습니까?"
+
+#: packages/running/src/index.tsx:288
+msgid "Refresh List"
+msgstr "목록 새로 고침"
+
+#: packages/settingeditor-extension/src/index.ts:141
+msgid "JSON Settings Editor"
+msgstr "JSON 설정 편집기"
+
+#: packages/settingeditor-extension/src/index.ts:148 packages/settingeditor-extension/src/index.ts:178 packages/settingeditor-extension/src/index.ts:307 packages/settingeditor/src/jsonsettingeditor.tsx:67 packages/settingeditor/src/pluginlist.tsx:453
+msgid "Settings"
+msgstr "설정"
+
+#: packages/settingeditor-extension/src/index.ts:172 packages/settingeditor-extension/src/index.ts:297
+msgid "Advanced Settings Editor"
+msgstr "고급 설정 편집기"
+
+#: packages/settingeditor-extension/src/index.ts:303
+msgid "Advanced JSON Settings Editor"
+msgstr "고급 JSON 설정 편집기"
+
+#: packages/settingeditor-extension/src/index.ts:317
+msgid "Revert User Settings"
+msgstr "사용자 설정 복원"
+
+#: packages/settingeditor-extension/src/index.ts:324
+msgid "Save User Settings"
+msgstr "설정 저장"
+
+#: packages/settingeditor/src/SettingsFormEditor.tsx:158
+msgid "Move Up"
+msgstr "위로 이동"
+
+#: packages/settingeditor/src/SettingsFormEditor.tsx:165
+msgid "Move Down"
+msgstr "아래로 이동"
+
+#: packages/settingeditor/src/SettingsFormEditor.tsx:172 packages/settingeditor/src/SettingsFormEditor.tsx:348
+msgid "Remove"
+msgstr "삭제"
+
+#: packages/settingeditor/src/SettingsFormEditor.tsx:183 packages/settingeditor/src/SettingsFormEditor.tsx:225 packages/shortcuts-extension/src/components/ShortcutItem.tsx:432 packages/shortcuts-extension/src/components/ShortcutItem.tsx:85 packages/shortcuts-extension/src/components/ShortcutItem.tsx:90
+msgid "Add"
+msgstr "추가"
+
+#: packages/settingeditor/src/SettingsFormEditor.tsx:356
+msgid "Default: %1"
+msgstr "기본값: %1"
+
+#: packages/settingeditor/src/SettingsFormEditor.tsx:441
+msgid "Error saving settings."
+msgstr "설정 저장 오류."
+
+#: packages/settingeditor/src/SettingsFormEditor.tsx:485
+msgid "Restore to Defaults"
+msgstr "기본 값 복원"
+
+#: packages/settingeditor/src/inspector.ts:114
+msgid "additional property error"
+msgstr "추가 속성 오류"
+
+#: packages/settingeditor/src/inspector.ts:115
+msgid "`%1` is not a valid property"
+msgstr "`%1` 은 유효한 속성이 아닙니다."
+
+#: packages/settingeditor/src/inspector.ts:120
+msgid "syntax error"
+msgstr "구문 오류"
+
+#: packages/settingeditor/src/inspector.ts:122
+msgid "type error"
+msgstr "타입 오류"
+
+#: packages/settingeditor/src/inspector.ts:125
+msgid "error"
+msgstr "오류"
+
+#: packages/settingeditor/src/inspector.ts:34
+msgid "Any errors will be listed here"
+msgstr "모든 오류가 여기 표시될 것입니다."
+
+#: packages/settingeditor/src/inspector.ts:90
+msgid "No errors found"
+msgstr "발견된 오류가 없습니다."
+
+#: packages/settingeditor/src/jsonsettingeditor.tsx:71
+msgid "Select a plugin from the list to view and edit its preferences."
+msgstr "리스트에서 플러그인을 선택하여 사용자 옵션을 편집하십시오."
+
+#: packages/settingeditor/src/plugineditor.ts:134
+msgid "You have unsaved changes."
+msgstr "변경하신 내용을 저장하지 않았습니다."
+
+#: packages/settingeditor/src/plugineditor.ts:135
+msgid "Do you want to leave without saving?"
+msgstr "저장 하지 않고 떠나 시겠습니까?"
+
+#: packages/settingeditor/src/plugineditor.ts:257
+msgid "Your changes were not saved."
+msgstr "변경한 내용이 저장되지 않았습니다."
+
+#: packages/settingeditor/src/pluginlist.tsx:440
+msgid "Search…"
+msgstr "검색중..."
+
+#: packages/settingeditor/src/pluginlist.tsx:447
+msgid "Modified"
+msgstr "수정됨"
+
+#: packages/settingeditor/src/pluginlist.tsx:459
+msgid "No items match your search."
+msgstr "일치하는 항목이 없습니다."
+
+#: packages/settingeditor/src/raweditor.ts:377
+msgid "System Defaults"
+msgstr "시스템 기본값"
+
+#: packages/settingeditor/src/raweditor.ts:418
+msgid "User Preferences"
+msgstr "사용자 개인 설정"
+
+#: packages/settingeditor/src/settingseditor.tsx:118
+msgid "Unsaved changes due to validation error. Continue without saving?"
+msgstr "검증 오류로 인해 변경 사항을 저장할 수 없습니다. 저장 없이 계속 하겠습니까?"
+
+#: packages/settingeditor/src/settingseditor.tsx:130
+msgid "Some changes have not been saved. Continue without saving?"
+msgstr "일부 변경사항은 저장되지 않았습니다. 저장 없이 계속하겠습니까?"
+
+#: packages/shortcuts-extension/src/components/ShortcutInput.tsx:451
+msgid "press keys"
+msgstr "키를 누르세요"
+
+#: packages/shortcuts-extension/src/components/ShortcutItem.tsx:241
+msgid "Shortcut already in use by %1. Overwrite it?"
+msgstr "단축키가 %1에 의해 사용되고 있습니다. 덮어 쓸까요?"
+
+#: packages/shortcuts-extension/src/components/ShortcutItem.tsx:281 packages/shortcuts-extension/src/components/ShortcutItem.tsx:95
+msgid "Reset"
+msgstr "초기화"
+
+#: packages/shortcuts-extension/src/components/ShortcutItem.tsx:348
+msgid "or"
+msgstr "또는"
+
+#: packages/shortcuts-extension/src/components/ShortcutItem.tsx:70
+msgid "Edit First"
+msgstr "첫 번째 편집"
+
+#: packages/shortcuts-extension/src/components/ShortcutItem.tsx:71 packages/shortcuts-extension/src/components/ShortcutItem.tsx:76 packages/shortcuts-extension/src/components/ShortcutItem.tsx:81
+msgid "Edit existing shortcut"
+msgstr "사용중인 단축키 편집"
+
+#: packages/shortcuts-extension/src/components/ShortcutItem.tsx:75
+msgid "Edit Second"
+msgstr "두 번째 편집"
+
+#: packages/shortcuts-extension/src/components/ShortcutItem.tsx:86
+msgid "Add new shortcut"
+msgstr "새 단축키 추가"
+
+#: packages/shortcuts-extension/src/components/ShortcutItem.tsx:91
+msgid "Add another shortcut"
+msgstr "다른 단축기 추가"
+
+#: packages/shortcuts-extension/src/components/ShortcutItem.tsx:96
+msgid "Reset shortcut back to default"
+msgstr "모든 단축키를 기본값으로 재설정"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:142 packages/shortcuts-extension/src/components/TopNav.tsx:164
+msgid "Hide Selectors"
+msgstr "선택창 숨기기"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:143 packages/shortcuts-extension/src/components/TopNav.tsx:165
+msgid "Show Selectors"
+msgstr "선택창 보이기"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:149 packages/shortcuts-extension/src/components/TopNav.tsx:171 packages/shortcuts-extension/src/components/TopNav.tsx:217
+msgid "Reset All"
+msgstr "모두 초기화"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:207
+msgid "Toggle Selectors"
+msgstr "선택도구 토글"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:208
+msgid "Toggle command selectors"
+msgstr "명령 선택창 토글"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:218
+msgid "Reset all shortcuts"
+msgstr "단축키 초기화"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:258
+msgid "Search"
+msgstr "검색"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:272
+msgid "Category"
+msgstr "카테고리"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:275
+msgid "Shortcut"
+msgstr "단축키"
+
+#: packages/shortcuts-extension/src/components/TopNav.tsx:279
+msgid "Selectors"
+msgstr "선택도구"
+
+#: packages/shortcuts-extension/src/index.ts:136
+msgid "Note: To disable a system default shortcut,\n"
+"copy it to User Preferences and add the\n"
+"\"disabled\" key, for example:\n"
+"{\n"
+"    \"command\": \"application:activate-next-tab\",\n"
+"    \"keys\": [\n"
+"        \"Ctrl Shift ]\"\n"
+"    ],\n"
+"    \"selector\": \"body\",\n"
+"    \"disabled\": true\n"
+"}\n\n"
+"List of commands followed by keyboard shortcuts:\n"
+"%1\n\n"
+"List of keyboard shortcuts:"
+msgstr "주: 시스템 기본 단축키 설정을 끄려면\n"
+"다음을 복사하여 \"사용자  개인 설정\"에\n"
+"\"disabled\" 키를 추가하세요. \n"
+"예를 들면:\n"
+"{\n"
+"    \"command\": \"application:activate-next-tab\",\n"
+"    \"keys\": [\n"
+"        \"Ctrl Shift ]\"\n"
+"    ],\n"
+"    \"selector\": \"body\",\n"
+"    \"disabled\": true\n"
+"}\n\n"
+"키보드 단축키에 연관된 명령어 리스트:\n"
+"%1\n\n"
+"키보드 단축키 리스트:"
+
+#: packages/statusbar-extension/src/index.ts:381
+msgid "Simple Interface (%1)"
+msgstr "단순한 인터페이스 (%1)"
+
+#: packages/statusbar-extension/src/index.ts:391
+msgid "Simple"
+msgstr "단순"
+
+#: packages/statusbar-extension/src/index.ts:78
+msgid "Show Status Bar"
+msgstr "상태 바 표시"
+
+#: packages/statusbar/src/defaults/kernelStatus.tsx:126
+msgid "No Kernel!"
+msgstr "커널이 없음!"
+
+#: packages/statusbar/src/defaults/kernelStatus.tsx:36
+msgid "Change kernel for %1"
+msgstr "%1에서 사용할 커널 변경"
+
+#: packages/statusbar/src/defaults/lineCol.tsx:133
+msgid "Go to line number between 1 and %1"
+msgstr "라인 넘버 1에서 %1 사이로 이동"
+
+#: packages/statusbar/src/defaults/lineCol.tsx:231
+msgid "Ln %1, Col %2"
+msgstr "열 %1, 행 %2"
+
+#: packages/statusbar/src/defaults/lineCol.tsx:232
+msgid "Go to line number…"
+msgstr "원하는 라인으로 이동"
+
+#: packages/statusbar/src/defaults/runningSessions.tsx:111
+msgid "%1 Terminals, %2 Kernel sessions"
+msgstr "%1개의 터미널, %2개의 커널 세션"
+
+#: packages/terminal-extension/src/index.ts:177
+msgctxt "menu"
+msgid "Terminal Theme"
+msgstr "터미널 테마"
+
+#: packages/terminal-extension/src/index.ts:182 packages/terminal-extension/src/index.ts:241 packages/terminal-extension/src/index.ts:450
+msgid "Inherit"
+msgstr "시스템 설정 사용"
+
+#: packages/terminal-extension/src/index.ts:190 packages/terminal-extension/src/index.ts:248 packages/terminal-extension/src/index.ts:451
+msgid "Light"
+msgstr "라이트"
+
+#: packages/terminal-extension/src/index.ts:196 packages/terminal-extension/src/index.ts:253 packages/terminal-extension/src/index.ts:452
+msgid "Dark"
+msgstr "다크"
+
+#: packages/terminal-extension/src/index.ts:218
+msgid "Shutdown Terminal"
+msgstr "터미널 종료"
+
+#: packages/terminal-extension/src/index.ts:286
+msgid "Terminals"
+msgstr "터미널"
+
+#: packages/terminal-extension/src/index.ts:294
+msgid "Are you sure you want to permanently shut down all running terminals?"
+msgstr "현재 작동 중인 모든 터미널들을 영구적으로 종료하시겠습니까?"
+
+#: packages/terminal-extension/src/index.ts:336
+msgid "New Terminal"
+msgstr "새 터미널"
+
+#: packages/terminal-extension/src/index.ts:336 packages/terminal-extension/src/index.ts:89 packages/terminal/src/widget.ts:71
+msgid "Terminal"
+msgstr "터미널"
+
+#: packages/terminal-extension/src/index.ts:337
+msgid "Start a new terminal session"
+msgstr "새 터미널 세션 시작"
+
+#: packages/terminal-extension/src/index.ts:401
+msgid "Refresh Terminal"
+msgstr "터미널 새로 고침"
+
+#: packages/terminal-extension/src/index.ts:402
+msgid "Refresh the current terminal session"
+msgstr "현재 터미널 세션 새로 고침"
+
+#: packages/terminal-extension/src/index.ts:422
+msgid "Increase Terminal Font Size"
+msgstr "터미널 글자 크기 크게"
+
+#: packages/terminal-extension/src/index.ts:436
+msgid "Decrease Terminal Font Size"
+msgstr "터미널 글자 크기 작게"
+
+#: packages/terminal-extension/src/index.ts:463
+msgid "Use Terminal Theme: %1"
+msgstr "터미널 테마 사용: %1"
+
+#: packages/terminal-extension/src/index.ts:466
+msgid "Set the terminal theme"
+msgstr "터미널 테마 설정"
+
+#: packages/terminal/src/widget.ts:107
+msgid "Terminal %1"
+msgstr "터미널 %1"
+
+#: packages/theme-dark-extension/src/index.ts:30
+msgid "JupyterLab Dark"
+msgstr "JupyterLab Dark"
+
+#: packages/theme-light-extension/src/index.ts:30
+msgid "JupyterLab Light"
+msgstr "JupyterLab Light"
+
+#: packages/toc-extension/src/index.ts:129
+msgid "Run Cell(s)"
+msgstr "셀 실행하기"
+
+#: packages/toc-extension/src/index.ts:83 packages/toc/src/toc.tsx:130
+msgid "Table of Contents"
+msgstr "차례"
+
+#: packages/toc-extension/src/index.ts:86
+msgid "Table of Contents section"
+msgstr "목차 선택"
+
+#: packages/toc/src/generators/markdown/toolbar_generator.tsx:64 packages/toc/src/generators/markdown/toolbar_generator.tsx:65 packages/toc/src/generators/notebook/toolbar_generator.tsx:214 packages/toc/src/generators/notebook/toolbar_generator.tsx:215
+msgid "Toggle Auto-Numbering"
+msgstr "자동 번호 붙이기 토글"
+
+#: packages/toc/src/generators/notebook/tagstool/index.tsx:217
+msgid "No Tags Available"
+msgstr "이용 가능한 태그 없음"
+
+#: packages/toc/src/generators/notebook/tagstool/index.tsx:224
+msgid "Clear Filters"
+msgstr "필터 초기화"
+
+#: packages/toc/src/generators/notebook/tagstool/index.tsx:255 packages/toc/src/generators/notebook/tagstool/index.tsx:256 packages/toc/src/generators/notebook/tagstool/index.tsx:258 packages/toc/src/generators/notebook/tagstool/index.tsx:266 packages/toc/src/generators/notebook/tagstool/index.tsx:267 packages/toc/src/generators/notebook/tagstool/index.tsx:271
+msgid "Select All Cells With Current Tags"
+msgstr "현재 탭의 모든 셀을 선택"
+
+#: packages/toc/src/generators/notebook/toolbar_generator.tsx:182 packages/toc/src/generators/notebook/toolbar_generator.tsx:183
+msgid "Toggle Code Cells"
+msgstr "코드 셀 토글"
+
+#: packages/toc/src/generators/notebook/toolbar_generator.tsx:198 packages/toc/src/generators/notebook/toolbar_generator.tsx:199
+msgid "Toggle Markdown Text Cells"
+msgstr "마크다운 텍스트 셀 토글"
+
+#: packages/toc/src/generators/notebook/toolbar_generator.tsx:230 packages/toc/src/generators/notebook/toolbar_generator.tsx:231
+msgid "Show Tags Menu"
+msgstr "태그 메뉴 표시"
+
+#: packages/translation-extension/src/index.ts:132
+msgid "Change interface language?"
+msgstr "표시 언어를 변경하시겠습니가?"
+
+#: packages/translation-extension/src/index.ts:133
+msgid "After changing the interface language to %1, you will need to reload JupyterLab to see the changes."
+msgstr "인터페이스 언어를 %1로 변경한 후에는 변경 내용을 확인하기 위해서는 JupyterLab 을 다시 불러와야 합니다."
+
+#: packages/translation-extension/src/index.ts:139
+msgid "Change and reload"
+msgstr "변경하고 다시 불러오기"
+
