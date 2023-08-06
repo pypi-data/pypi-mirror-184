@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: codelinescounter
+Version: 0.0.2
+Summary: Python library for counting lines of python code in file or directory
+Home-page: https://github.com/AndK17/codelinescounter
+Author: AndK
+Author-email: karpukhin_av@mail.ru
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prettytable
+
+# codelinescounter
+Python library for counting lines of python code in file or directory
+
+# Установка
+## Через Pip
+```bash
+  $ pip install codelinescounter
+```
+## Вручную
+```bash
+  $ git clone https://github.com/AndK17/codelinescounter
+  $ cd codelinescounter
+  $ python setup.py install
+```
+# Использование
+```bash
+$ python -m clc {path to file or directory}
+```
+
