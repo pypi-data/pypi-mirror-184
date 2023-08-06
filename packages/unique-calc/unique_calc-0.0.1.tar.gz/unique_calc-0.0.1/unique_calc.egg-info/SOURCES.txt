@@ -1,0 +1,9 @@
+setup.py
+script_file/__init__.py
+script_file/command_line_interface.py
+script_file/count_func.py
+script_file/exception.py
+unique_calc.egg-info/PKG-INFO
+unique_calc.egg-info/SOURCES.txt
+unique_calc.egg-info/dependency_links.txt
+unique_calc.egg-info/top_level.txt
