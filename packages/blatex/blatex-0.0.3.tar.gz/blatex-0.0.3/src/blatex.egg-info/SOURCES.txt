@@ -1,0 +1,16 @@
+LICENCE
+README.md
+setup.py
+src/blatex/__init__.py
+src/blatex/log_parser.py
+src/blatex.egg-info/PKG-INFO
+src/blatex.egg-info/SOURCES.txt
+src/blatex.egg-info/dependency_links.txt
+src/blatex.egg-info/entry_points.txt
+src/blatex.egg-info/requires.txt
+src/blatex.egg-info/top_level.txt
+src/blatex/resources/default-global-config.json
+src/blatex/resources/default-local-config.json
+src/blatex/resources/templates/basic-setupfile.zip
+src/blatex/resources/templates/basic.zip
+src/blatex/resources/templates/minimal.zip
