@@ -1,0 +1,7 @@
+beautifulsoup4
+loguru
+pipreqs
+requests
+setuptools
+snakeviz
+winotify
