@@ -1,0 +1,10 @@
+invest_ucm_calibration/__init__.py,sha256=zzISsQozJA3QOFvFOxdPPGt1zoJCjAUW8mYMuS6gvrU,40231
+invest_ucm_calibration/settings.py,sha256=rsQn5gNzTgRc5uXhxzFNDPWHrR9WZWMqTHq7zhVfOOU,500
+invest_ucm_calibration/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+invest_ucm_calibration/cli/main.py,sha256=QdNhGUAMhZkqJh7PVVK32DHUfPnxQfFURqYP84-e32E,6278
+invest_ucm_calibration-0.5.0.dist-info/LICENSE,sha256=njb66cxKqYjSXCKFd4GJNppDyvxFq3JoP_EZKeQX8cE,1594
+invest_ucm_calibration-0.5.0.dist-info/METADATA,sha256=XMJGm7YGbGIElBJelYbSHQu_Aw8Q6jt-Y1JtneY7toI,4248
+invest_ucm_calibration-0.5.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+invest_ucm_calibration-0.5.0.dist-info/entry_points.txt,sha256=tdq0mOU1fOQdy3M3J9zligtq6j4P6Ew6EVSUy8XHXY8,81
+invest_ucm_calibration-0.5.0.dist-info/top_level.txt,sha256=L5OOKLhmrXvfQNaBL8KeW7FM3-5kFJ3wmD1eRbwH8BY,23
+invest_ucm_calibration-0.5.0.dist-info/RECORD,,
