@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ls-tree-py
+Version: 0.1.0
+Summary: 
+Home-page: https://...
+License: MIT
+Keywords: ls,tree
+Author: Andrei Fokau
+Author-email: andrei@fokau.se
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Bug Tracker, https://github.com/andreif/ls-tree-python/issues
+Project-URL: Documentation, https://...
+Project-URL: Repository, https://github.com/andreif/ls-tree-python
+Description-Content-Type: text/markdown
+
+
