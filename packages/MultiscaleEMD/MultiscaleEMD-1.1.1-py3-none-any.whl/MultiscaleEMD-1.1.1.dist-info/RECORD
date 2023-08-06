@@ -1,0 +1,14 @@
+MultiscaleEMD/__init__.py,sha256=xlfSXC7QtJcvxwwoScE2jstRKPJZiVGT1rGrmsfffIY,357
+MultiscaleEMD/convolutional_sinkhorn.py,sha256=8ohgUqSLIX1slicRobtnKAZGW-SLwWL0vUokRw8f86U,1517
+MultiscaleEMD/dataset.py,sha256=yxj_2djOrT1Sodle9oYj5dhXIWi6KJ2VLsZHaMgmboo,8730
+MultiscaleEMD/diffusion_emd.py,sha256=zOggUfeaaBy2uKzrl1ovouwvINeoLjnaOyiuMKv2W4Y,18068
+MultiscaleEMD/emd.py,sha256=ZcuXdm3K4qhpuB6XJb0ruOI7EF2vWECumjXxzs_ZrJo,5549
+MultiscaleEMD/estimate_utils.py,sha256=HOIxlHpnor65o8l6wr23sdxpb4itJiV32LJk70WOs4M,9360
+MultiscaleEMD/metric_tree.py,sha256=K4A2Hff59kNMTpGh9UT8I90l-JJcWObXrnfpROGD2Fg,11123
+MultiscaleEMD/tree.py,sha256=nwX91vVrzwsrwvmfjJi3wHK7_aXPFEzHrLtjRcvVchw,13505
+MultiscaleEMD/version.py,sha256=q8_5C0f-8mHWNb6mMw02zlYPnEGXBqvOmP3z0CEwZKM,22
+MultiscaleEMD-1.1.1.dist-info/LICENSE,sha256=G29eicyXOePL04dFEfnZh74sIwk1WFP6w4a6Uaq4rEY,1085
+MultiscaleEMD-1.1.1.dist-info/METADATA,sha256=2x_Bd6WrTTNxDKMJP5OlioPIoi_Sx9qZY3EG1WJDFGQ,7158
+MultiscaleEMD-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+MultiscaleEMD-1.1.1.dist-info/top_level.txt,sha256=UtLM1mP78i6Zxw4XHAspXJn_pGivK0RF7I3mc0l4BaQ,14
+MultiscaleEMD-1.1.1.dist-info/RECORD,,
