@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./iseqspreadsheet/__init__.py
+./iseqspreadsheet/spreadsheetutils.py
+./iseqspreadsheet/to_inputs.py
+./iseqspreadsheet/to_outputs.py
+./iseqspreadsheet/to_workflows.py
+./iseqspreadsheet/test/__init__.py
+./iseqspreadsheet/test/spreadsheetutils_test.py
+iseqmetatools.egg-info/PKG-INFO
+iseqmetatools.egg-info/SOURCES.txt
+iseqmetatools.egg-info/dependency_links.txt
+iseqmetatools.egg-info/entry_points.txt
+iseqmetatools.egg-info/requires.txt
+iseqmetatools.egg-info/top_level.txt
