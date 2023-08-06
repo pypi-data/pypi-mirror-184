@@ -1,0 +1,46 @@
+[project]
+name = "search-lyrics"
+description = "Search for lyric"
+authors = [
+    { name = "Xavier Mitault", email = "xavier.mitault@epitech.eu" },
+]
+dependencies = [
+    "wrap-genius>=1.8.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+version = "0.0.2"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+search-lyrics = "search_lyrics.entrypoint:entrypoint"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0",
+    "setuptools>=45",
+    "setuptools_scm[toml]>=6.2",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.version]
+source = "scm"
+write_to = "search_lyrics/__version__.py"
+write_template = "__version__ = \"{}\""
+
+[tool.pdm.build]
+includes = [
+    "search_lyrics/",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
