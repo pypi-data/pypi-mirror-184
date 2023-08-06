@@ -1,0 +1,11 @@
+ghalatawi/__init__.py,sha256=AJMeqAtW0-hAXpMie6XwJ6oVC6PaZavsdrg1G6PsumU,61
+ghalatawi/ar_ghalat.py,sha256=sNE6piXb-V4ArJ06rkDx34R6I5SHGQcd9S_7N8UqbWk,5921
+ghalatawi/autocorrector.py,sha256=7z-v8Sm3L7lt5pbs9c3YckNFVD4gdvij2Sitf-dxgcs,11727
+ghalatawi/ghalat_const.py,sha256=4hlkMGCQtk1agaCInk6Ar4Rhr84UBjpczKKov8LWCH8,11551
+ghalatawi/data/arabic0.2.acl,sha256=3lMwWXVDLp1EWoz33IASyuOcFWxaNrET31jZMhlFPsk,48619295
+ghalatawi-0.3.dist-info/AUTHORS.md,sha256=lRNXgkn5Q4iqf9K_vhjZin7fUAtSb55qJZk0iT3whB0,57
+ghalatawi-0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ghalatawi-0.3.dist-info/METADATA,sha256=wLoeE11Y38jaOaO6YYDDj8fYD0tdCdYNNlCMfVGWMLc,9840
+ghalatawi-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ghalatawi-0.3.dist-info/top_level.txt,sha256=OLetXIClYNmFBfLWsD7W3tyobI8PXQdgC_g0qKhN7ZU,10
+ghalatawi-0.3.dist-info/RECORD,,
