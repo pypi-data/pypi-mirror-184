@@ -1,0 +1,10 @@
+grpc_auth_service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grpc_auth_service/auth_service_pb2.py,sha256=ujteFF-527EX3Jc3Yo7ex4XGvKFiNrjKNyqiM3sAc94,2648
+grpc_auth_service/auth_service_pb2_grpc.py,sha256=rwL_aQq-Urhkp2MU4BIzv2PsvcZrY0u-fhPlfsyznxA,7050
+grpc_auth_service/user_service_pb2.py,sha256=j9VfANDsuctdp6micf58JLq8ivYkWI1J8b_EuRuEEpU,3118
+grpc_auth_service/user_service_pb2_grpc.py,sha256=6dWtt1pH3ZTHJCnxKjVbPAq_YgDBcciPID_cNvhlyV4,7315
+grpc_auth_service-0.0.4.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+grpc_auth_service-0.0.4.dist-info/METADATA,sha256=5nJ-nhBMnqVt2JbblH_an9bwtc30ELLlCnQ09kNL_0U,469
+grpc_auth_service-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+grpc_auth_service-0.0.4.dist-info/top_level.txt,sha256=kpMH47dcI8lBIXBFNdR6R4troefLOLSEAALQiAkeRjw,18
+grpc_auth_service-0.0.4.dist-info/RECORD,,
