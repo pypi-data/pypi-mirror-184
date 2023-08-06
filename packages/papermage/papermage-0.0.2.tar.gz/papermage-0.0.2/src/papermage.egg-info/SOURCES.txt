@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/papermage/__init__.py
+src/papermage/py.typed
+src/papermage.egg-info/PKG-INFO
+src/papermage.egg-info/SOURCES.txt
+src/papermage.egg-info/dependency_links.txt
+src/papermage.egg-info/requires.txt
+src/papermage.egg-info/top_level.txt
