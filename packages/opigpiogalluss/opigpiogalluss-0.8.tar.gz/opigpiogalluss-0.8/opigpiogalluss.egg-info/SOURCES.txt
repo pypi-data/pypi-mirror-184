@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+opigpiogalluss/__init__.py
+opigpiogalluss/opigpiogalluss.py
+opigpiogalluss.egg-info/PKG-INFO
+opigpiogalluss.egg-info/SOURCES.txt
+opigpiogalluss.egg-info/dependency_links.txt
+opigpiogalluss.egg-info/top_level.txt
