@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tweakreg-hack
+Version: 0.0.5
+Summary: UNKNOWN
+Author: Justin Pierel
+Author-email: jpierel@stsci.edu
+License: BSD
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: jwst
+
+UNKNOWN
+
