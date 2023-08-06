@@ -1,0 +1,6 @@
+testcontainers/redis/__init__.py,sha256=w08UUkIQkgqZI7kP2E_6qJsIkRxRthLSuvQ2buiG4LY,2267
+tests/test_redis.py,sha256=F0wEqBH5-CaBDtrfU32hG9iEwIcZ6RZasJ7AHfWEK78,1021
+testcontainers_redis-0.0.1rc1.dist-info/METADATA,sha256=owe_QAo7QdUUrU6bOqr-YUzOLRrkUDsnG847z9bIvow,344
+testcontainers_redis-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_redis-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_redis-0.0.1rc1.dist-info/RECORD,,
