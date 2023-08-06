@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: fastapi-i18n
+Version: 0.1.2
+Summary: Fastapi i18n
+Home-page: https://github.com/TrickerPan/fastapi-i18n
+License: MIT
+Keywords: fastapi,i18n
+Author: tricker.pan
+Author-email: tricker.pan@gmail.com
+Maintainer: tricker.pan
+Maintainer-email: tricker.pan@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi (>=0.89.0,<0.90.0)
+Requires-Dist: pydantic[dotenv] (>=1.10.4,<2.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Project-URL: Repository, https://github.com/TrickerPan/fastapi-i18n
+Description-Content-Type: text/markdown
+
+# README
+
+## 1. Quick start
+
+Install the package:
+
+```shell
+pip install fastapi-i18n
+```
+
+Usage in your project:
+
+```python
+import i18n
+from fastapi import FastAPI, Depends
+
+app = FastAPI()
+
+
+@app.on_event("startup")
+async def startup():
+    await i18n.init()
+
+@app.get('/')
+async def root(translator: i18n.Translator = Depends(i18n.Translator)):
+    return {"message": translator.t('hello.world')}
+```
+
