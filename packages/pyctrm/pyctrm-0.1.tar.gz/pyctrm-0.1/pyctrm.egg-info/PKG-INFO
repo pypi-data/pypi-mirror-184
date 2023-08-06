@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyctrm
+Version: 0.1
+Summary: 大宗商品风控贸易管理通用策略方法
+Home-page: https://gitee.com/wangmarkqi/pyctrm
+Author: Wang Qi
+Author-email: wangmarkqi@gmail.com
+License: UNKNOWN
+Keywords: 大众商品贸易,风险控制,波动率,VAR,risk
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+规范会计科目名称
+======================================================
+### Description:
+大宗商品风控贸易管理通用策略方法
+
+
+## Install:    
+pip install ctrm
+
+### Tutorial:
+
+
+
