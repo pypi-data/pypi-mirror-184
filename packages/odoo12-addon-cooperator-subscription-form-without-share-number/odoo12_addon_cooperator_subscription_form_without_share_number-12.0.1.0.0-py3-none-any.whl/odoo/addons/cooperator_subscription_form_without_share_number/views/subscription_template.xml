@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template id="shares_template_hide" inherit_id="easy_my_coop_website.shares_template">
+    <xpath expr="//div[@class='col-md-4 col-6']" position="attributes">
+      <attribute name="hidden">1</attribute>
+    </xpath>
+    <xpath expr="//div[@name='total_parts_container']" position="attributes">
+      <attribute name="hidden">1</attribute>
+    </xpath>
+  </template>
+  
+</odoo>
