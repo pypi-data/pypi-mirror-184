@@ -1,0 +1,12 @@
+build
+continuous_integration
+data
+dist
+docs
+examples
+htmlcov
+output
+outputs
+pyxel
+static
+tests
