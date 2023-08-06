@@ -1,0 +1,5 @@
+[console_scripts]
+fint_server = fps_uvicorn.cli:app
+
+[fps_router]
+fint_test_app = fint_test_app.routes
