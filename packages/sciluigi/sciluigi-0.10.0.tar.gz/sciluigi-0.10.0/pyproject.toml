@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sciluigi"
+version = "0.10.0"
+description = ""
+long_description = ""
+authors = ["y"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+luigi = "^3.1.1"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.11"
+twine = "^4.0.2"
+build = "^0.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
