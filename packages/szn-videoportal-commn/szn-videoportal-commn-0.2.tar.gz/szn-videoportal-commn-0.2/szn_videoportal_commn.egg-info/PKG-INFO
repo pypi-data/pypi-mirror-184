@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: szn-videoportal-commn
+Version: 0.2
+Summary: Package contains shared and handy tools for all our projects.
+Maintainer: Ondrej Gersl
+Maintainer-email: ondra.gersl@seznam.cz
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Description-Content-Type: text/markdown
+
+# Just testing one simple package
+
+Package contains files tools shared in multiple projects.
