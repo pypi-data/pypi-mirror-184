@@ -1,0 +1,46 @@
+{% load markdownify %}
+<div class="card">
+    <div class="row no-gutters">
+        <div class="col-auto">
+            <div>
+                <a href="{{game.game_system.get_absolute_url}}">
+                    <span class="system-badge badge badge-success {{game.game_system.retropie_slug}}">{{game.game_system.name|upper}}</span>
+                </a>
+            </div>
+            <a href="{{game.get_absolute_url}}">
+                {% if game.screenshot %}
+                <img src="{{game.screenshot.url}}" style="width:34em;" class="" alt="Screenshot of {{game.name}}">
+                {% elif game.marquee %}
+                <img src="{{game.marquee.url}}" style="width:34em;" class="" alt="Title of {{game.name}}">
+                {% else %}
+                {% if featured != "true" %}
+                <h3>{{game.name}}</h3>
+                {% else %}
+                <h2>{{game.name}}</h2>
+                {% endif %}
+                {% endif %}
+            </a>
+        </div>
+        <div class="col">
+            <div class="card-block px-2">
+                {% if request.user.is_authenticated %}
+                    {% if featured == "true" %}
+                    <p class="card-text m-10">{{game.description|markdownify}}</p>
+                    {% endif %}
+                    <a href="{{game.get_absolute_url}}" class="btn btn-primary">More</a>
+                    <a href="{{game.rom_file.url}}" class="btn btn-alert">Download</a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="card-footer w-100 text-muted">
+            <em class="{{game.rating_class}}">{{game.rating_by_100}}/100</em>
+            <div id="genre-badges" style="float:right">
+                {% for genre in game.genre.all %}
+                <a href="{{genre.get_absolute_url}}">
+                    <span class="badge">{{genre.name}}</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

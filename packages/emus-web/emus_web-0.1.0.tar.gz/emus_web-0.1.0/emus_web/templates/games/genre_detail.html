@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block page_title %}Game Library{% endblock %}
+
+{% block title %}Genre: {{object.name}}{% endblock %}
+
+{% block content %}
+    <h4>{{object.game_set.count}} games</h4>
+     <div class="d-flex flex-column">
+        <div class="image-grid-container">
+        {% for  game in object_list.all %}
+            {% include "games/_game_card.html" %}
+        {% endfor %}
+        </div>
+     </div>
+
+     {% include "games/_pagination.html" %}
+{% endblock %}

@@ -1,0 +1,18 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <title>{{game.name}}</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script type="text/javascript" src="{% static 'js/webretro/embed/embed.js' %}"></script>
+    </head>
+    <body>
+        <div id="webretro-container" style="width:800px; height:600px"></div>
+        <script>webretroEmbed(document.getElementById("webretro-container"), "{% static 'js/webretro/index.html' %}", {core: "{{object.game_system.webretro_core}}", rom:"https://{{request.META.HTTP_HOST}}{{object.rom_file.url}}"});</script>
+        <p><a href="{{object.rom_file.url}}">Download ROM</a></p>
+    </body>
+</html>

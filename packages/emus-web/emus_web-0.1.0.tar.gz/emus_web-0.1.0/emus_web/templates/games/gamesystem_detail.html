@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block page_title %}{{object.name}}{% endblock %}
+
+{% block title %}{{object.name}}{% endblock %}
+
+{% block head_extra %}
+    <script>
+    $(document).ready(function () {
+        console.log('Loading this code');
+
+        $('#{{object.retropie_slug}}-update-form').submit(function(event){
+            console.log('Form submitted');
+            event.preventDefault();
+            $.ajax({
+                url : '/games/update/?game_systems={{object.retropie_slug}}',
+                type : "GET",
+                success : function(json) {
+                    $('#{{object.retropie_slug}}-update-form').html("<button id='library-update-btn' class='btn btn-warning my-2 my-sm-0' type='submit' disabled>Update {{object.name}}</button>");
+                    console.log(json);
+                },
+                error : function(xhr,errmsg,err) {
+                    console.log(xhr.status + ": " + xhr.responseText);
+                }
+            });
+        });
+    });
+    </script>
+{% endblock %}
+
+{% block content %}
+    <h4>Browsing {{object_list.count}} games</h4>
+
+    {% if request.user.is_authenticated %}
+    <form id="{{object.retropie_slug}}-update-form" class="my-2 my-lg-0" method="get">
+    <button id="{{object.retropie_slug}}-update-btn" class="btn btn-warning my-2 my-sm-0" type="submit" {% if update_in_progress %}disabled{% endif %}>Update {{object.name}}</button>
+    </form>
+    &nbsp;
+    {% endif %}
+
+     <div class="d-flex flex-column">
+        <div class="image-grid-container">
+        {% for  game in object_list %}
+            {% include "games/_game_card.html" %}
+        {% endfor %}
+        </div>
+     </div>
+
+     {% include "games/_pagination.html" %}
+{% endblock %}
