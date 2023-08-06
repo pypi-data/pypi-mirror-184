@@ -1,0 +1,12 @@
+oauth2_xfel_client>=6.1
+oauthlib
+pytz
+requests
+requests-oauthlib
+
+[test]
+pycodestyle
+pytest
+pytest-cov
+python-dateutil
+pytz
