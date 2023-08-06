@@ -1,0 +1,10 @@
+[console_scripts]
+align-records = pero_indexer.alignment.align_levenshtein:main
+build-db-index = pero_indexer.library_cards.index_build_bib:main
+get-readable-output = pero_indexer.NER.convert_dataset:main
+match-cards-to-db = pero_indexer.library_cards.matching_cards:main
+postprocess-alignment = pero_indexer.alignment.merge_alignment_annotations:main
+preprocess-alignment = pero_indexer.alignment.preprocess:main
+preprocess-library-db = pero_indexer.library_cards.filter_bib_db:main
+run-aligner = pero_indexer.NER.inference:main
+train-aligner = pero_indexer.NER.train:main
