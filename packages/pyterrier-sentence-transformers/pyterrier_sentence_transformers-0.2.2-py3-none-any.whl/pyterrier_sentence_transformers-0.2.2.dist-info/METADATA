@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: pyterrier-sentence-transformers
+Version: 0.2.2
+Summary: Create an pyterrier index using any sentence-transformers model
+Author-email: Luca Soldaini <luca@soldaini.net>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/soldni/pyterrier_sentence_transformers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: tensorboardX
+Requires-Dist: python-terrier
+Requires-Dist: sentence-transformers (<3.0.0,>=2.2.2)
+Requires-Dist: transformers (<5.0.0,>=4.22.1)
+Requires-Dist: necessary (>=0.2.3)
+Requires-Dist: trouting (>=0.3.0)
+Requires-Dist: platformdirs (>=2.5.0)
+Provides-Extra: dev
+Requires-Dist: black (>=22.6.0) ; extra == 'dev'
+Requires-Dist: springs (>=1.4.5) ; extra == 'dev'
+Requires-Dist: isort (>=5.10.1) ; extra == 'dev'
+Requires-Dist: mypy (>=0.971) ; extra == 'dev'
+Requires-Dist: pytest (>=5.2) ; extra == 'dev'
+Requires-Dist: ipython (>=8.4.0) ; extra == 'dev'
+Requires-Dist: autopep8 (>=1.7.0) ; extra == 'dev'
+Requires-Dist: flake8 (>=5.0) ; extra == 'dev'
+Requires-Dist: ipdb (>=0.13.0) ; extra == 'dev'
+Requires-Dist: flake8-pyi (>=22.8.1) ; extra == 'dev'
+Requires-Dist: Flake8-pyproject (>=1.1.0) ; extra == 'dev'
+
+# pyterrier_sentence_transformers
+A codebase derived on `terrierteam/pyterrier_ance` that allows encoding using any `sentence_transformers` model.
+
+## Installation
+
+If running faiss on CPU:
+
+```bash
+pip install git+https://github.com/soldni/pyterrier_sentence_transformers.git
+conda install -c pytorch faiss-cpu
+```
+
+else, for gpu support:
+
+```bash
+pip install git+https://github.com/soldni/pyterrier_sentence_transformers.git
+conda install -c pytorch faiss-gpu cudatoolkit=11.3
+```
+
+If you need to install faiss from scratch, see [instructions here][1].
+
+
+## Running
+
+See example in `scripts/contriever_scifact.py`.
+
+```bash
+                          name       map  recip_rank      P.10  ndcg_cut.10
+0                         BM25  0.637799    0.647941  0.091667     0.683904
+1  facebook/contriever-msmarco  0.641346    0.653874  0.091667     0.682851
+```
+
+Note that the nDCG@10 we get for BM25 is much better than in the [paper][2]: instead of `66.5` on row 0, we get '68.4'. The contriever result is also a bit better, with `68.3` instead of `67.7`. Not sure what kind of magic pyterrier is doing here 🤷.
+
+Note that, by default, this codebase uses exhaustive search when querying the dense index. This is not ideal for performance, but it is the setting contriever was evaluated on. If you want to switch to approximate search, you can do so by setting the `faiss_factory_config` attribute of `SentenceTransformersRetriever` / `SentenceTransformersIndexer` to any valid index factory string (or pass `faiss_factory_config=` to the `contriever_scifact.py` script). I recommend checking out [the faiss docs][3] for more info on the various approximate search options; a good starting point is probably `HNSW`:
+
+```bash
+python scripts/contriever_scifact.py \
+    faiss_factory_config='HNSW32' \
+    per_call_size=1024
+```
+
+This gets you close performance to the exact search:
+
+```bash
+                          name       map  recip_rank      P.10  ndcg_cut.10
+0                         BM25  0.637799    0.647941  0.091667     0.683904
+1  facebook/contriever-msmarco  0.629594    0.642171  0.090000     0.670841
+```
+
+Note Note that sometimes you might have to increment the number of passages batch batch (`per_call_size`); this is because the approximate search gets trained using the first batch of passages, and the more passages you have, the better the search will be.
+
+In the example above, switching to `faiss_factory_config='HNSW64'` gets you another point of accuracy in nDCG@10, but it will increase query time.
+
+[1]: https://github.com/facebookresearch/faiss/blob/main/INSTALL.md
+[2]: https://arxiv.org/pdf/2112.09118.pdf
+[3]: https://github.com/facebookresearch/faiss/wiki/The-index-factory
