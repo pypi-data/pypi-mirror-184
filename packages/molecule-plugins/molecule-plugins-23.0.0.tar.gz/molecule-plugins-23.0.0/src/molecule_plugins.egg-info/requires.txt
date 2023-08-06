@@ -1,0 +1,29 @@
+molecule>=4.0
+
+[azure]
+
+[docker]
+docker>=4.3.1
+requests
+
+[docker:sys_platform == "linux"]
+selinux
+
+[docker:sys_platform == "linux2"]
+selinux
+
+[ec2]
+
+[gce]
+
+[podman]
+
+[podman:sys_platform == "linux"]
+selinux
+
+[podman:sys_platform == "linux2"]
+selinux
+
+[test]
+pytest-helpers-namespace>=2019.1.8
+molecule[test]
