@@ -1,0 +1,28 @@
+{% extends 'account/base.html' %}
+{% load static %}
+
+{% block title %}Sign in{% endblock %}
+{% block  container %}
+    <main class="form-signin w-100 m-auto">
+        <div id="messages" class="messages">{% include 'commons/components/messages.html' %}</div>
+        <form method="post" action="{% url  'account:login' %}">
+            {% csrf_token %}
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <div class="form-floating">
+                {{ form.username }}
+                <label for="{{ form.username.id_for_label }}">Username</label>
+            </div>
+            <div class="form-floating">
+                {{ form.password }}
+                <label for="{{ form.password.id_for_label }}">Password</label>
+            </div>
+            <div class="actions my-2">
+                <span><a href="{% url 'account:password_reset' %}">Recuperar senha</a></span>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <div class="register mt-2">
+                <span>Ainda não possui uma conta? <a href="{% url 'account:signup' %}">Cadastre-se.</a></span>
+            </div>
+        </form>
+    </main>
+{% endblock %}
