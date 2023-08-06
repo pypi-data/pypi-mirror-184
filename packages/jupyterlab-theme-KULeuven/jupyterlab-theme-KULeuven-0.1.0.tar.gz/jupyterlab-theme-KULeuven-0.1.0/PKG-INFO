@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: jupyterlab-theme-KULeuven
+Version: 0.1.0
+Summary: A Jupyterlab theme for the KULeuven
+Home-page: https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven
+Author: Jan Genoe
+License: BSD-3-Clause
+Keywords: Jupyter,JupyterLab
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab :: 3
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Themes
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jupyterlab-theme-KULeuven
+
+[![Github Actions Status](https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/workflows/Build/badge.svg)](https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/actions/workflows/build.yml)
+A theme for KULeuven jupyterlab-deck slides
+
+## Requirements
+
+- JupyterLab >= 3.0
+- jupyterlab-deck
+
+## Install
+
+To install the extension, execute:
+
+```bash
+pip install jupyterlab-theme-KULeuven
+```
+
+## Uninstall
+
+To remove the extension, execute:
+
+```bash
+pip uninstall jupyterlab-theme-KULeuven
+```
