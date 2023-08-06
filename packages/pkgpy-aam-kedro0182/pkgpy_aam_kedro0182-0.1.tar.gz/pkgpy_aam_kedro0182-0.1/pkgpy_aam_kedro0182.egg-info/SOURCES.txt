@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+pkgpy_aam_kedro0182.egg-info/PKG-INFO
+pkgpy_aam_kedro0182.egg-info/SOURCES.txt
+pkgpy_aam_kedro0182.egg-info/dependency_links.txt
+pkgpy_aam_kedro0182.egg-info/entry_points.txt
+pkgpy_aam_kedro0182.egg-info/requires.txt
+pkgpy_aam_kedro0182.egg-info/top_level.txt
