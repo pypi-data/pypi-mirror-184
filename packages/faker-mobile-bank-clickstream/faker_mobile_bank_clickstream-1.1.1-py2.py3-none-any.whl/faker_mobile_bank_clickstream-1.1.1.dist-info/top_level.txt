@@ -1,0 +1,1 @@
+faker_mobile_bank_clickstream
