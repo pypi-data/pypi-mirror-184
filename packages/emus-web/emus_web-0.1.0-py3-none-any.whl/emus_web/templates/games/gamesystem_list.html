@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block page_title %}{{object}}{% endblock %}
+
+{% block title %}{{object}}{% endblock %}
+
+{% block content %}
+    <table class="table table-bordered table">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Games</th>
+        <th scope="col">Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for  object in object_list %}
+        <tr>
+        <th scope="row"><a href="{{object.get_absolute_url}}">{{object.id}}</a></th>
+        <td>{{object.name}}</td>
+        <td>{{object.game_set.count}}</td>
+        <td>{{object.rating_avg}}/100</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+{% endblock %}

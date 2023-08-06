@@ -1,0 +1,3 @@
+[console_scripts]
+emus=emus_web.cli:main
+

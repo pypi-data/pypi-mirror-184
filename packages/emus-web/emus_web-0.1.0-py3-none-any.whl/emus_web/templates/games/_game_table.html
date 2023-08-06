@@ -1,0 +1,32 @@
+    <table class="table table-bordered table">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col"><a href="?order_by=name">Name</a></th>
+        <th scope="col">System</th>
+        <th scope="col"><a href="?order_by={% if not '-rating' in request.get_full_path %}-{% endif %}rating">Rating</a></th>
+        <th scope="col"><a href="?order_by={% if not '-developer' in request.get_full_path %}-{% endif %}developer">Developer</a></th>
+        <th scope="col"><a href="?order_by={% if not '-publisher' in request.get_full_path %}-{% endif %}publisher">Publisher</a></th>
+        <th scope="col"><a href="?order_by={% if not '-genre' in request.get_full_path %}-{% endif %}genre">Genre</a></th>
+        <th scope="col"><a href="?order_by={% if not '-release_date' in request.get_full_path %}-{% endif %}release_date">Release</a></th>
+        <th scope="col"><a href="?order_by={% if not '-featured_on' in request.get_full_path %}-{% endif %}featured_on">Featured</a></th>
+        <th scope="col"><a href="?order_by={% if not '-created' in request.get_full_path %}-{% endif %}created">Created</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for game in object_list %}
+        <tr>
+        <th scope="row"><a href="{{game.get_absolute_url}}">{{game.id}}</a></th>
+        <td>{{game.name}}</td>
+        <td><a href="{{game.game_system.get_absolute_url}}">{{game.game_system}}</td>
+        <td>{{game.rating_by_100}}/100</td>
+        <td><a href="{{game.developer.get_absolute_url}}">{{game.developer}}</a></td>
+        <td><a href="{{game.publisher.get_absolute_url}}">{{game.publisher}}</a></td>
+        <td style="font-size:smaller;">{% for genre in game.genre.all %}<a href="{{genre.get_absolute_url}}">{{genre}}</a>{% if not forloop.last %}, {% endif %}{% endfor %}</td>
+        <td>{{game.release_date|date:"Y-m-d"}}</td>
+        <td>{{game.featured_on|date:"Y-m-d"}}</td>
+        <td>{{game.created|date:"Y-m-d"}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>

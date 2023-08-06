@@ -1,0 +1,83 @@
+from django.urls import path
+
+import games.views as views
+
+app_name = "games"
+
+urlpatterns = [
+    path(
+        "",
+        views.LibraryGameList.as_view(),
+        name="game_list",
+    ),
+    path(
+        "update/",
+        views.trigger_rom_update,
+        name="game_library_update",
+    ),
+    path(
+        "library/update/status/",
+        views.library_update_status,
+        name="game_library_update_status",
+    ),
+    path(
+        "publisher/",
+        views.PublisherList.as_view(),
+        name="publisher_list",
+    ),
+    path(
+        "genre/",
+        views.GenreList.as_view(),
+        name="genre_list",
+    ),
+    path(
+        "developer/",
+        views.DeveloperList.as_view(),
+        name="developer_list",
+    ),
+    path(
+        "game-system/",
+        views.GameSystemList.as_view(),
+        name="gamesystem_list",
+    ),
+    path(
+        "collection/",
+        views.GameCollectionList.as_view(),
+        name="gamecollection_list",
+    ),
+    path(
+        "<str:slug>/",
+        views.GameDetail.as_view(),
+        name="game_detail",
+    ),
+    path(
+        "<str:slug>/play/",
+        views.GamePlayDetail.as_view(),
+        name="game_play_detail",
+    ),
+    path(
+        "game-system/<str:slug>/",
+        views.GameSystemDetail.as_view(),
+        name="game_system_detail",
+    ),
+    path(
+        "genre/<str:slug>/",
+        views.GenreDetail.as_view(),
+        name="genre_detail",
+    ),
+    path(
+        "publisher/<str:slug>/",
+        views.PublisherDetail.as_view(),
+        name="publisher_detail",
+    ),
+    path(
+        "developer/<str:slug>/",
+        views.DeveloperDetail.as_view(),
+        name="developer_detail",
+    ),
+    path(
+        "collection/<str:slug>/",
+        views.GameCollectionDetail.as_view(),
+        name="gamecollection_detail",
+    ),
+]

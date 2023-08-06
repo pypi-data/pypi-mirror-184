@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block page_title %}Game Library{% endblock %}
+
+{% block title %}Game library{% endblock %}
+
+{% block head_extra %}
+
+<script>
+$(document).ready(function () {
+    $('#library-update-form').on('submit', function(event){
+        event.preventDefault();
+        console.log("form submitted!")  // sanity check
+        $.ajax({
+            url : "/games/update/",
+            type : "GET",
+            // handle a successful response
+            success : function(json) {
+                $('#library-update-form').html("<button id='library-update-btn' class='btn btn-secondary my-2 my-sm-0' type='submit' disabled>Update</button>");
+                console.log(json); // log the returned json to the console
+            },
+
+            // handle a non-successful response
+            error : function(xhr,errmsg,err) {
+                console.log(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+            }
+        });
+    });
+});
+</script>
+{% endblock %}
+
+{% block content %}
+    {% if request.user.is_authenticated %}
+    <form id="library-update-form" class="form-inline my-2 my-lg-0" method="get" action="{% url 'games:game_library_update' %}">
+    <button id="library-update-btn" class="btn btn-warning my-2 my-sm-0" type="submit" {% if update_in_progress %}disabled{% endif %}>Update</button>
+    </form>
+    &nbsp;
+    {% endif %}
+
+    {% include "games/_game_table.html" %}
+    {% include "games/_pagination.html" %}
+{% endblock %}

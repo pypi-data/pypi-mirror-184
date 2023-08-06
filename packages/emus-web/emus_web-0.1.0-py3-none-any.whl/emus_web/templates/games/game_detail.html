@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+{% load markdownify %}
+{% block page_title %}{{object.name}} | {{object.game_system}}{% endblock %}
+
+{% block title %}{{object.name}}{% endblock %}
+
+{% block content %}
+    {% if request.user.is_authenticated %}
+    <a href="{% url "games:game_list" %}">Back to list</a>
+    {% endif %}
+
+    <p><img src="{{object.screenshot.url}}" /></p>
+
+    <dl>
+        <dt>Released
+        <dd>{{object.release_date|date:"Y/m/d"}}</dd>
+
+        <dt>Players</dt>
+        <dd>{{object.players}}</dd>
+
+        <dt>Game System</dt>
+
+        <dd>
+        <a href="{{game.game_system.get_absolute_url}}">
+            <span class="system-badge badge badge-success {{game.game_system.retropie_slug}}">{{game.game_system.name|upper}}</span>
+        </a>
+        </dd>
+
+        <dt>Genre</dt>
+        <dd>{% for genre in object.genre.all %}{{genre}}{% if not forloop.last %}, {% endif %}{% endfor %}</dd>
+
+        <dt>Region</dt>
+        <dd>{{object.region}}</dd>
+
+        <dt>Publisher/Developer</dt>
+        <dd><a href="{{object.publisher.get_absolute_url}}">{{object.publisher}}</a>/<a href="{{object.developer.get_absolute_url}}">{{object.developer}}</a></dd>
+
+        <dt>Rating</dt>
+        <dd>{{game.rating_by_100}}</dd>
+    </dl>
+
+    {% if request.user.is_authenticated %}
+    {% if object.webretro_url %}
+    <p><a href="{{game.webretro_url}}" class="btn btn-primary" targe="_blank">Play in browser</a></p>
+    {% endif %}
+    <h5>Retroarch command</h5>
+    <p>
+        <!-- Target -->
+        <input type="text" class="form-control" value="{{object.cmd}}" placeholder="" id="cmd" />
+
+        <!-- Trigger -->
+        <button class="btn" data-clipboard-target="#cmd">
+            <img src="assets/clippy.svg" alt="Copy to clipboard">
+        </button>
+    </p>
+    {% endif %}
+
+    <p>{{object.description|markdownify}}</p>
+{% endblock %}

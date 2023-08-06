@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block page_title %}{{object.name}} | Developer{% endblock %}
+
+{% block title %}Developer: {{object.name}}{% endblock %}
+
+{% block content %}
+    <h4>Browsing {{object_list.count}} games</h4>
+     <div class="d-flex flex-column">
+        <div class="image-grid-container">
+        {% for  game in object_list %}
+            {% include "games/_game_card.html" %}
+        {% endfor %}
+        </div>
+     </div>
+     {% include "games/_pagination.html" %}
+{% endblock %}

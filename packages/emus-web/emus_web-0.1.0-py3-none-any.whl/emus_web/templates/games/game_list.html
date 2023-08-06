@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Games{% endblock %}
+
+{% block content %}
+    {% if request.user.profile.favorite_games %}
+        <h2>Favorites</h2>
+        <ul>
+        {% for game in request.user.profile.favorite_games.all %}
+            <li><a href="{{game.get_absolute_url}}">{{game}}</a></li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    {% if todays_game and 'page' not in request.GET %}
+     <div class="d-flex flex-column">
+        <div class="image-grid-container">
+            <h2>Featured</h2>
+            {% include 'games/_game_card.html' with game=todays_game featured="true" %}
+        </div>
+     </div>
+    {% endif %}
+
+
+    <h2>Recently added</h2>
+
+    <div class="card-columns">
+    {% for game in object_list %}
+      {% include 'games/_game_card.html' %}
+    {% endfor %}
+    </div>
+
+     {% include "games/_pagination.html" %}
+{% endblock %}

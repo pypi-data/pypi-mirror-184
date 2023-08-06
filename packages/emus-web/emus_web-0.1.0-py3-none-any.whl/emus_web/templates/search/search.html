@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block page_title %}Search for "{{request.GET.q}}"{% endblock %}
+
+{% block title %}Search for "{{request.GET.q}}"{% endblock %}
+
+{% block content %}
+{% regroup results by game_system as game_system_list %}
+    {% for system in game_system_list %}
+    <h2>{{system.grouper.name}} <a href="{{system.grouper.get_absolute_url}}">&raquo;</a></h2>
+
+    <div class="d-flex flex-column">
+       <div class="image-grid-container">
+       {% for  game in system.list %}
+           {% include 'games/_game_card.html' %}
+       {% endfor %}
+       </div>
+    </div>
+    {% endfor %}
+{% endblock %}
