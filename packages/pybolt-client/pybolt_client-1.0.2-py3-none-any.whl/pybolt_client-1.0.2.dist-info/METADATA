@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pybolt-client
+Version: 1.0.2
+Summary: "REST API Client for Passbolt servers."
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (<3,>=2)
+Requires-Dist: requests-gpgauthlib (==0.1.2)
+Provides-Extra: test
+Requires-Dist: black (==22.10.0) ; extra == 'test'
+Requires-Dist: flake8-black (==0.3.5) ; extra == 'test'
+Requires-Dist: flake8-builtins (==2.0.1) ; extra == 'test'
+Requires-Dist: flake8-docstrings (==1.6.0) ; extra == 'test'
+Requires-Dist: flake8-isort (==5.0.3) ; extra == 'test'
+Requires-Dist: flake8-logging-format (==0.9.0) ; extra == 'test'
+Requires-Dist: flake8-print (==5.0.0) ; extra == 'test'
+Requires-Dist: flake8 (==4.0.1) ; extra == 'test'
+Requires-Dist: isort (==5.10.1) ; extra == 'test'
+Requires-Dist: pytest-flake8 (==1.1.1) ; extra == 'test'
+Requires-Dist: pytest (==7.2.0) ; extra == 'test'
+
+# PyBolt Client
+
+----
+
+Small lightweight library intended to be used for getting and decrypting passwords from a passbolt server.
+
+## Installation
+
+To install from PyPi:
+```shell
+pip install pybolt-client
+```
+
+## Usage
+
+The library uses one class names `Client`.
+
+**Positional Arguments**
+
+* `url` - The url of the passbolt server you wish to connect to.
+
+**Keyword Arguments**
+
+* `gpg_path` - The path to the users gpg home directory. This will default to `~/.gnupg/`.
+* `private_key_path` - The path the the users private GPG key. Defaults to `~/.gnupg/private.key`.
+### Retrieving a password.
+Password retrieval is relatively simple. First we need to instantiate an instance of `Client` and then 
+call the `get_password_by_name` method, passing it the name of the password as set in passbolt. 
+
+Example:
+
+```python
+client = Client("https://passbolt.example.com")
+
+print(client.get_password_by_name("Rees-Mogg's Onlyfans"))
+
+```
