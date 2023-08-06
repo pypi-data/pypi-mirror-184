@@ -1,0 +1,4 @@
+[console_scripts]
+ailiga-tournament=ailiga.tournament:main
+ailiga-train=ailiga.train:main
+
