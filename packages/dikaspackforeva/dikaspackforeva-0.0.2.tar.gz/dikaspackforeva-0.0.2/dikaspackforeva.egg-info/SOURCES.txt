@@ -1,0 +1,9 @@
+setup.py
+dikaspackage/__init__.py
+dikaspackage/hello.py
+dikaspackforeva.egg-info/PKG-INFO
+dikaspackforeva.egg-info/SOURCES.txt
+dikaspackforeva.egg-info/dependency_links.txt
+dikaspackforeva.egg-info/entry_points.txt
+dikaspackforeva.egg-info/requires.txt
+dikaspackforeva.egg-info/top_level.txt
