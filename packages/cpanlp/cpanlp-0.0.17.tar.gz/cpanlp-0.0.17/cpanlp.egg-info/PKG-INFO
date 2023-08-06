@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: cpanlp
+Version: 0.0.17
+Summary: We are the accounting-intelligent-ai Team of Beijing Foreign Studies University. We develop A package to drive the linguistic turn of accounting
+Home-page: https://cpanlp.com
+Author: Draco Deng
+Author-email: dracodeng6@gmail.com
+Keywords: python,accounting,cpa,intelligent accounting,linguistic turn,linguistic,intelligent audit,natural language processing,machine learning,finance
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+CPANLP: Certified Public Accountant Natural Language Processing toolkit
+
+注册会计师自然语言包：做最好的Python智能会计组件
+
+Redefining [Accounting](https://cpanlp.com/overview/redefine)!
+Developed by **Bfsu Intelligent Accounting Team** (c) 2023
+Github:https://github.com/accounting-intelligent-ai/cpanlp
+
+## 特点
+
+## 安装说明
+```python
+pip install cpanlp
+```
+
+## 主要功能
+1.获取今日财报
+```python
+import cpanlp as cp
+df = cp.gettoday()
+```
+|    | 标题                                               |   证券代码 | 证券简称   | 网址                                                            | 日期       |   id |
+|---:|:---------------------------------------------------|-----------:|:-----------|:----------------------------------------------------------------|:-----------|-----:|
+|  0 | 唐源电气：国金证券关于唐源电气2022年度现场检查报告 |     300789 | 唐源电气   | http://static.cninfo.com.cn/finalpage/2023-01-03/1215519757.PDF | 2023-01-03 |    1 |
+
+```python
+report = cp.getreport(df.iloc[0, 3])
+```
+Check out: https://cpanlp.com
