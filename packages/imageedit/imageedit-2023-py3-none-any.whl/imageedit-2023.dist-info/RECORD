@@ -1,0 +1,11 @@
+imageedit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imageedit/effects.py,sha256=ogLdIyffKSRmrz-VOKSqftHD0G-x0VioIEfDKoCFNCU,11025
+imageedit/imagegrab.py,sha256=-HkizCeuYmP-Ybf4ji3TUdD_kRZVLWXI5IWuLCREMwM,1132
+imageedit/imagetracer.py,sha256=7vjLJV_G3B2OtumPLJtySVDhDT9a35rS5Z8hlYJ_uos,145
+imageedit/io.py,sha256=N9o23s6_bW7wYZHfJ2PRnLk7Oo6SCzQUZT2gkngKHns,5322
+imageedit/resources/FiraCode-Light.ttf,sha256=3PcuKxgNbsgN3uEgN4NpxFWVGOCStqRpv2WKJQ0ByRI,276684
+imageedit/transform.py,sha256=cCPA1viIlsI-9E4-0i2agfaVBG_xZO6OYwloOKSx4-4,4652
+imageedit-2023.dist-info/LICENSE.md,sha256=xqHgxJib-JwkwUx_Oh5HYrNAqs0yOEj5HSYSJ6HqR68,1065
+imageedit-2023.dist-info/METADATA,sha256=ZbuvH3YAXDtc42Rb6Xz4ZtZapboUnq61CU__yLUnJOA,13159
+imageedit-2023.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+imageedit-2023.dist-info/RECORD,,
