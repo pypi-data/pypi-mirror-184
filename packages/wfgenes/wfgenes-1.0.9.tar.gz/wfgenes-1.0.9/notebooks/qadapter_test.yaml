@@ -1,0 +1,12 @@
+_fw_name: CommonAdapter
+_fw_q_type: SLURM
+_fw_timeout: 5
+account: null
+job_name: null
+nodes: 1
+ntasks_per_node: 1
+post_rocket: null
+pre_rocket: null
+queue: dev_cpuonly
+rocket_launch: rlaunch -l ./launchpad_test.yaml singleshot
+walltime: 00:29:00

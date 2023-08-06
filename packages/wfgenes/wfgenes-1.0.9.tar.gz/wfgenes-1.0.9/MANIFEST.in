@@ -1,0 +1,9 @@
+include src
+include src/wfgenes/engine/*.py
+include src/wfgenes/fig/*.png
+exclude src/wfgenes/intro_examples/rgg/wconfig.yaml
+include wfgenes_logo.png
+exclude README_PIP.md
+global-include *.yaml *.yml *.json *.cfg
+global-exclude *.py[cod] __pycache__
+prune src/wfgenes/intro_examples/*/wfGenes_output

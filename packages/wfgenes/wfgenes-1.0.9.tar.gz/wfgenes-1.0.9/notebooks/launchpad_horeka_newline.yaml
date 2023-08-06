@@ -1,0 +1,17 @@
+authsource: mehdidb
+host: scs-mongodb.scc.kit.edu
+logdir: null
+mongoclient_kwargs: {}
+name: mehdidb
+password: lu1Uweequo
+port: 27017
+ssl: true
+ssl_ca_certs: /home/hk-project-test-sdlmat/th7356/cluster_workflow/cacert-selfsigned.pem
+ssl_certfile: /home/hk-project-test-sdlmat/th7356/cluster_workflow/client-selfsigned.pem
+ssl_keyfile: null
+ssl_pem_passphrase: null
+strm_lvl: INFO
+uri_mode: false
+user_indices: []
+username: mehdirh
+wf_user_indices: []

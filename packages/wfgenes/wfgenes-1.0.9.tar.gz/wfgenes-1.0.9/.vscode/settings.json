@@ -1,0 +1,17 @@
+{
+    "spellright.language": [
+        "en_US"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "properties",
+        "rst"
+    ],
+    "spellright.parserByClass": {
+        "properties": {
+            "parser": "plain"
+        }
+    }
+}

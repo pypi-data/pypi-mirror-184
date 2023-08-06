@@ -1,0 +1,828 @@
+{
+    "spec": {
+        "_category": "interactive",
+        "_tasks": [
+            {
+                "_fw_name": "FileTransferTask",
+                "dest": "/home/hk-project-test-sdlmat/th7356/cluster_workflow",
+                "files": [
+                    "/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake",
+                    "/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat",
+                    "/home/mehdi/work/gitscc/cluster-workflow/inputs/smat",
+                    "/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR",
+                    "/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp"
+                ],
+                "mode": "rtransfer",
+                "server": "horeka.scc.kit.edu",
+                "user": "th7356"
+            }
+        ]
+    },
+    "fw_id": 64748,
+    "created_on": "2022-03-09T11:20:52.960062",
+    "updated_on": "2022-05-03T10:28:35.575621",
+    "launches": [
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/wfgenes/notebooks/launcher_2022-05-03-10-28-35-525763",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": null,
+            "state": "RUNNING",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-05-03T10:28:35.573755",
+                    "updated_on": "2022-05-03T10:28:35.573760"
+                }
+            ],
+            "launch_id": 7454
+        }
+    ],
+    "archived_launches": [
+        {
+            "fworker": {
+                "name": null,
+                "category": [
+                    "interactive",
+                    "remote"
+                ],
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/wfgenes/notebooks",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {},
+                "exit": false,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "COMPLETED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-09T11:21:23.139795",
+                    "updated_on": "2022-03-09T11:21:27.616802",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "COMPLETED",
+                    "created_on": "2022-03-09T11:21:27.670755"
+                }
+            ],
+            "launch_id": 7378
+        },
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/wfgenes/notebooks/launcher_2022-03-10-17-09-52-298122",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {},
+                "exit": false,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "COMPLETED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-10T17:09:52.455224",
+                    "updated_on": "2022-03-10T17:09:56.949770",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "COMPLETED",
+                    "created_on": "2022-03-10T17:09:57.007515"
+                }
+            ],
+            "launch_id": 7383
+        },
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/wfgenes/notebooks/launcher_2022-03-10-17-10-27-619980",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {},
+                "exit": false,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "COMPLETED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-10T17:10:27.737304",
+                    "updated_on": "2022-03-10T17:10:31.295284",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "COMPLETED",
+                    "created_on": "2022-03-10T17:10:31.348114"
+                }
+            ],
+            "launch_id": 7384
+        },
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/wfgenes/notebooks/launcher_2022-03-10-17-12-02-004468",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {
+                    "_message": "runtime error during task",
+                    "_task": {
+                        "_fw_name": "FileTransferTask",
+                        "dest": "/home/hk-project-test-sdlmat/th7356/cluster_workflow",
+                        "files": [
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/smat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp"
+                        ],
+                        "mode": "rtransfer",
+                        "server": "horeka.scc.kit.edu",
+                        "user": "th7356"
+                    },
+                    "_exception": {
+                        "_stacktrace": "Traceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 172, in _rexists\n    sftp.stat(path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 493, in stat\n    t, msg = self._request(CMD_STAT, path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 822, in _request\n    return self._read_response(num)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 874, in _read_response\n    self._convert_status(msg)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 903, in _convert_status\n    raise IOError(errno.ENOENT, text)\nFileNotFoundError: [Errno 2] No such file\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 136, in run_task\n    if not self._rexists(sftp, dest):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 174, in _rexists\n    if e[0] == 2:\nTypeError: 'FileNotFoundError' object is not subscriptable\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/core/rocket.py\", line 262, in run\n    m_action = t.run_task(my_spec)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 158, in run_task\n    raise ValueError(\nValueError: There was an error performing operation rtransfer from ['/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake', '/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/smat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR', '/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp'] to /home/hk-project-test-sdlmat/th7356/cluster_workflow\n",
+                        "_details": null
+                    }
+                },
+                "exit": true,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "FIZZLED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-10T17:12:02.147672",
+                    "updated_on": "2022-03-10T17:12:05.607898",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "FIZZLED",
+                    "created_on": "2022-03-10T17:12:05.656445",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                }
+            ],
+            "launch_id": 7385
+        },
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/wfgenes/notebooks/launcher_2022-03-10-17-13-39-624813",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {
+                    "_message": "runtime error during task",
+                    "_task": {
+                        "_fw_name": "FileTransferTask",
+                        "dest": "/home/hk-project-test-sdlmat/th7356/cluster_workflow",
+                        "files": [
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/smat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp"
+                        ],
+                        "mode": "rtransfer",
+                        "server": "horeka.scc.kit.edu",
+                        "user": "th7356"
+                    },
+                    "_exception": {
+                        "_stacktrace": "Traceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 172, in _rexists\n    sftp.stat(path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 493, in stat\n    t, msg = self._request(CMD_STAT, path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 822, in _request\n    return self._read_response(num)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 874, in _read_response\n    self._convert_status(msg)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 903, in _convert_status\n    raise IOError(errno.ENOENT, text)\nFileNotFoundError: [Errno 2] No such file\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 136, in run_task\n    if not self._rexists(sftp, dest):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 174, in _rexists\n    if e[0] == 2:\nTypeError: 'FileNotFoundError' object is not subscriptable\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/core/rocket.py\", line 262, in run\n    m_action = t.run_task(my_spec)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 158, in run_task\n    raise ValueError(\nValueError: There was an error performing operation rtransfer from ['/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake', '/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/smat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR', '/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp'] to /home/hk-project-test-sdlmat/th7356/cluster_workflow\n",
+                        "_details": null
+                    }
+                },
+                "exit": true,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "FIZZLED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-10T17:13:39.780055",
+                    "updated_on": "2022-03-10T17:13:43.481998",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "FIZZLED",
+                    "created_on": "2022-03-10T17:13:43.531474",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                }
+            ],
+            "launch_id": 7386
+        },
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/vre-middleware/notebooks/launcher_2022-03-15-13-14-10-478991",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {
+                    "_message": "runtime error during task",
+                    "_task": {
+                        "_fw_name": "FileTransferTask",
+                        "dest": "/home/hk-project-test-sdlmat/th7356/cluster_workflow",
+                        "files": [
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/smat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp"
+                        ],
+                        "mode": "rtransfer",
+                        "server": "horeka.scc.kit.edu",
+                        "user": "th7356"
+                    },
+                    "_exception": {
+                        "_stacktrace": "Traceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 172, in _rexists\n    sftp.stat(path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 493, in stat\n    t, msg = self._request(CMD_STAT, path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 822, in _request\n    return self._read_response(num)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 874, in _read_response\n    self._convert_status(msg)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 903, in _convert_status\n    raise IOError(errno.ENOENT, text)\nFileNotFoundError: [Errno 2] No such file\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 136, in run_task\n    if not self._rexists(sftp, dest):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 174, in _rexists\n    if e[0] == 2:\nTypeError: 'FileNotFoundError' object is not subscriptable\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/core/rocket.py\", line 262, in run\n    m_action = t.run_task(my_spec)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 158, in run_task\n    raise ValueError(\nValueError: There was an error performing operation rtransfer from ['/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake', '/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/smat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR', '/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp'] to /home/hk-project-test-sdlmat/th7356/cluster_workflow\n",
+                        "_details": null
+                    }
+                },
+                "exit": true,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "FIZZLED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-15T13:14:10.631611",
+                    "updated_on": "2022-03-15T13:14:14.123875",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "FIZZLED",
+                    "created_on": "2022-03-15T13:14:14.172932",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                }
+            ],
+            "launch_id": 7387
+        },
+        {
+            "fworker": {
+                "name": "",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/vre-middleware/notebooks/launcher_2022-03-15-13-21-34-647004",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {
+                    "_message": "runtime error during task",
+                    "_task": {
+                        "_fw_name": "FileTransferTask",
+                        "dest": "/home/hk-project-test-sdlmat/th7356/cluster_workflow",
+                        "files": [
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/smat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp"
+                        ],
+                        "mode": "rtransfer",
+                        "server": "horeka.scc.kit.edu",
+                        "user": "th7356"
+                    },
+                    "_exception": {
+                        "_stacktrace": "Traceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 172, in _rexists\n    sftp.stat(path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 493, in stat\n    t, msg = self._request(CMD_STAT, path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 822, in _request\n    return self._read_response(num)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 874, in _read_response\n    self._convert_status(msg)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 903, in _convert_status\n    raise IOError(errno.ENOENT, text)\nFileNotFoundError: [Errno 2] No such file\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 136, in run_task\n    if not self._rexists(sftp, dest):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 174, in _rexists\n    if e[0] == 2:\nTypeError: 'FileNotFoundError' object is not subscriptable\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/core/rocket.py\", line 262, in run\n    m_action = t.run_task(my_spec)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 158, in run_task\n    raise ValueError(\nValueError: There was an error performing operation rtransfer from ['/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake', '/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/smat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR', '/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp'] to /home/hk-project-test-sdlmat/th7356/cluster_workflow\n",
+                        "_details": null
+                    }
+                },
+                "exit": true,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "FIZZLED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-15T13:21:34.807440",
+                    "updated_on": "2022-03-15T13:21:38.590238",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "FIZZLED",
+                    "created_on": "2022-03-15T13:21:38.643160",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                }
+            ],
+            "launch_id": 7388
+        },
+        {
+            "fworker": {
+                "name": "",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/vre-middleware/notebooks/launcher_2022-03-15-13-22-58-996408",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {
+                    "_message": "runtime error during task",
+                    "_task": {
+                        "_fw_name": "FileTransferTask",
+                        "dest": "/home/hk-project-test-sdlmat/th7356/cluster_workflow",
+                        "files": [
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/smat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp"
+                        ],
+                        "mode": "rtransfer",
+                        "server": "horeka.scc.kit.edu",
+                        "user": "th7356"
+                    },
+                    "_exception": {
+                        "_stacktrace": "Traceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 172, in _rexists\n    sftp.stat(path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 493, in stat\n    t, msg = self._request(CMD_STAT, path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 822, in _request\n    return self._read_response(num)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 874, in _read_response\n    self._convert_status(msg)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 903, in _convert_status\n    raise IOError(errno.ENOENT, text)\nFileNotFoundError: [Errno 2] No such file\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 136, in run_task\n    if not self._rexists(sftp, dest):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 174, in _rexists\n    if e[0] == 2:\nTypeError: 'FileNotFoundError' object is not subscriptable\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/core/rocket.py\", line 262, in run\n    m_action = t.run_task(my_spec)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 158, in run_task\n    raise ValueError(\nValueError: There was an error performing operation rtransfer from ['/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake', '/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/smat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR', '/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp'] to /home/hk-project-test-sdlmat/th7356/cluster_workflow\n",
+                        "_details": null
+                    }
+                },
+                "exit": true,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "FIZZLED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-15T13:22:59.160146",
+                    "updated_on": "2022-03-15T13:23:02.733300",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "FIZZLED",
+                    "created_on": "2022-03-15T13:23:02.782260",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                }
+            ],
+            "launch_id": 7389
+        },
+        {
+            "fworker": {
+                "name": "",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/vre-middleware/notebooks/launcher_2022-03-15-13-25-33-567249",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {},
+                "exit": false,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "COMPLETED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-15T13:25:33.682165",
+                    "updated_on": "2022-03-15T13:25:37.309460"
+                },
+                {
+                    "state": "COMPLETED",
+                    "created_on": "2022-03-15T13:25:37.359358"
+                }
+            ],
+            "launch_id": 7390
+        },
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/vre-middleware/notebooks/launcher_2022-03-15-13-35-19-714121",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {},
+                "exit": false,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "COMPLETED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-15T13:35:19.885285",
+                    "updated_on": "2022-03-15T13:35:24.429471"
+                },
+                {
+                    "state": "COMPLETED",
+                    "created_on": "2022-03-15T13:35:24.482338"
+                }
+            ],
+            "launch_id": 7392
+        },
+        {
+            "fworker": {
+                "name": "",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/vre-middleware/notebooks/launcher_2022-03-16-13-40-31-463733",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {},
+                "exit": false,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "COMPLETED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-03-16T13:40:31.607010",
+                    "updated_on": "2022-03-16T13:40:35.418663",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "COMPLETED",
+                    "created_on": "2022-03-16T13:40:35.472402"
+                }
+            ],
+            "launch_id": 7400
+        },
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/wfgenes/notebooks/launcher_2022-05-03-10-06-59-462809",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {
+                    "_message": "runtime error during task",
+                    "_task": {
+                        "_fw_name": "FileTransferTask",
+                        "dest": "/home/hk-project-test-sdlmat/th7356/cluster_workflow",
+                        "files": [
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/smat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp"
+                        ],
+                        "mode": "rtransfer",
+                        "server": "horeka.scc.kit.edu",
+                        "user": "th7356"
+                    },
+                    "_exception": {
+                        "_stacktrace": "Traceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 172, in _rexists\n    sftp.stat(path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 493, in stat\n    t, msg = self._request(CMD_STAT, path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 822, in _request\n    return self._read_response(num)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 874, in _read_response\n    self._convert_status(msg)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 903, in _convert_status\n    raise IOError(errno.ENOENT, text)\nFileNotFoundError: [Errno 2] No such file\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 136, in run_task\n    if not self._rexists(sftp, dest):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 174, in _rexists\n    if e[0] == 2:\nTypeError: 'FileNotFoundError' object is not subscriptable\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/core/rocket.py\", line 262, in run\n    m_action = t.run_task(my_spec)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 158, in run_task\n    raise ValueError(\nValueError: There was an error performing operation rtransfer from ['/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake', '/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/smat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR', '/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp'] to /home/hk-project-test-sdlmat/th7356/cluster_workflow\n",
+                        "_details": null
+                    }
+                },
+                "exit": true,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "FIZZLED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-05-03T10:06:59.481490",
+                    "updated_on": "2022-05-03T10:07:01.661630",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "FIZZLED",
+                    "created_on": "2022-05-03T10:07:01.671455",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                }
+            ],
+            "launch_id": 7451
+        },
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/wfgenes/notebooks/launcher_2022-05-03-10-20-27-415150",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {},
+                "exit": false,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "COMPLETED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-05-03T10:20:27.440185",
+                    "updated_on": "2022-05-03T10:20:31.957891",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "COMPLETED",
+                    "created_on": "2022-05-03T10:20:31.967699"
+                }
+            ],
+            "launch_id": 7452
+        },
+        {
+            "fworker": {
+                "name": "horeka",
+                "category": "interactive",
+                "query": "{}",
+                "env": {}
+            },
+            "fw_id": 64748,
+            "launch_dir": "/home/mehdi/work/gitscc/wfgenes/notebooks/launcher_2022-05-03-10-21-02-069909",
+            "host": "SCC-th7356-01",
+            "ip": "127.0.1.1",
+            "trackers": [],
+            "action": {
+                "stored_data": {
+                    "_message": "runtime error during task",
+                    "_task": {
+                        "_fw_name": "FileTransferTask",
+                        "dest": "/home/hk-project-test-sdlmat/th7356/cluster_workflow",
+                        "files": [
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/smat",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR",
+                            "/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp"
+                        ],
+                        "mode": "rtransfer",
+                        "server": "horeka.scc.kit.edu",
+                        "user": "th7356"
+                    },
+                    "_exception": {
+                        "_stacktrace": "Traceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 172, in _rexists\n    sftp.stat(path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 493, in stat\n    t, msg = self._request(CMD_STAT, path)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 822, in _request\n    return self._read_response(num)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 874, in _read_response\n    self._convert_status(msg)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/paramiko/sftp_client.py\", line 903, in _convert_status\n    raise IOError(errno.ENOENT, text)\nFileNotFoundError: [Errno 2] No such file\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 136, in run_task\n    if not self._rexists(sftp, dest):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 174, in _rexists\n    if e[0] == 2:\nTypeError: 'FileNotFoundError' object is not subscriptable\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/core/rocket.py\", line 262, in run\n    m_action = t.run_task(my_spec)\n  File \"/home/mehdi/tools/anaconda3/envs/wfgenes/lib/python3.8/site-packages/fireworks/user_objects/firetasks/fileio_tasks.py\", line 158, in run_task\n    raise ValueError(\nValueError: There was an error performing operation rtransfer from ['/home/mehdi/work/gitscc/cluster-workflow/inputs/cmake', '/home/mehdi/work/gitscc/cluster-workflow/inputs/rmat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/smat', '/home/mehdi/work/gitscc/cluster-workflow/inputs/CONTCAR', '/home/mehdi/work/gitscc/cluster-workflow/inputs/surf.vasp'] to /home/hk-project-test-sdlmat/th7356/cluster_workflow\n",
+                        "_details": null
+                    }
+                },
+                "exit": true,
+                "update_spec": {},
+                "mod_spec": [],
+                "additions": [],
+                "detours": [],
+                "defuse_children": false,
+                "defuse_workflow": false,
+                "propagate": false
+            },
+            "state": "FIZZLED",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2022-05-03T10:21:02.110868",
+                    "updated_on": "2022-05-03T10:21:05.089145",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                },
+                {
+                    "state": "FIZZLED",
+                    "created_on": "2022-05-03T10:21:05.092172",
+                    "checkpoint": {
+                        "_task_n": 0,
+                        "_all_stored_data": {},
+                        "_all_update_spec": {},
+                        "_all_mod_spec": []
+                    }
+                }
+            ],
+            "launch_id": 7453
+        }
+    ],
+    "state": "RUNNING",
+    "name": "File transfer"
+}

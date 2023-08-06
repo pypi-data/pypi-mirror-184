@@ -1,0 +1,10 @@
+_fw_name: CommonAdapter
+_fw_q_type: SLURM
+_fw_timeout: 5
+nodes: 1
+ntasks: 1
+pre_rocket: . python-3.6.8/bin/activatemodule load python/3
+queue: dev_single
+rocket_launch: rlaunch -l /home/hk-project-test-sdlmat/th7356/test12/launchpad_d6aab98e-3f86-46c3-a0b5-0b4f5fc95d7f.yaml
+  singleshot
+walltime: 00:01:00

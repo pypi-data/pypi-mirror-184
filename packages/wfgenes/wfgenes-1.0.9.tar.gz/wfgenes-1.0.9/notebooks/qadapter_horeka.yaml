@@ -1,0 +1,15 @@
+_fw_name: CommonAdapter
+_fw_q_type: SLURM
+_fw_timeout: 5
+account: null
+job_name: null
+nodes: 1
+ntasks_per_node: 20
+pre_rocket: conda activate myenv; module purge; export PARA_ARCH=MPI; module load
+  chem/turbomole;conda activate myenv; module purge; export PARA_ARCH=MPI; module
+  load chem/turbomole;conda activate myenv; module purge; export PARA_ARCH=MPI; module
+  load chem/turbomole
+queue: dev_cpuonly
+rocket_launch: rlaunch -l /home/hk-project-test-sdlmat/th7356/cluster_workflow/launchpad_horeka.yaml
+  singleshot
+walltime: 00:29:00
