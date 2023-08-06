@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+url_analyzer/LICENSE
+url_analyzer/README.MD
+url_analyzer/__init__.py
+url_analyzer/requirements.txt
+url_analyzer/thirdparty.json
+url_analyzer.egg-info/PKG-INFO
+url_analyzer.egg-info/SOURCES.txt
+url_analyzer.egg-info/dependency_links.txt
+url_analyzer.egg-info/top_level.txt
