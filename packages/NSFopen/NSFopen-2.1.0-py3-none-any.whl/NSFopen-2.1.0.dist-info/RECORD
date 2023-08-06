@@ -1,0 +1,9 @@
+NSFopen/__init__.py,sha256=s0TF17Jm7qiHNj1e-W-S6TK3WLOphaTd4gJxw2UrC1E,184
+NSFopen/process/__init__.py,sha256=AM4bmX1NBzyBbxB3rl6UMNrbfGaKeVAMOKfQJAR2gFo,122
+NSFopen/process/process.py,sha256=ayTE2N4hJuRCPGsOmLX2yFZHVQdLmDZ7TMnRiXmn7cY,6621
+NSFopen/read/__init__.py,sha256=r2P13GXmnLPHaGAmWe24EUbVIvmcWJQ6cYtjQtVmK8Q,136
+NSFopen/read/read.py,sha256=fpCu3iAlDP5nFLFX04SOmj3x0Mp2FriT73piL5Sv6rs,18233
+NSFopen-2.1.0.dist-info/METADATA,sha256=BYuCMxWbyz-6d1Ib_vhXSHtCpZhGGH8jhDDLIp2fjQE,1075
+NSFopen-2.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+NSFopen-2.1.0.dist-info/top_level.txt,sha256=iuWjz9mBr9wwwDjvBZwhksKiOwFdee4FWN3fx8LcKTI,8
+NSFopen-2.1.0.dist-info/RECORD,,
