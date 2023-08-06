@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: iaswn
+Version: 0.1.11
+Summary: (GPLv3/Python 3.9+) Python object <-> JSON string
+License: GPLv3
+Author: suizokukan
+Author-email: suizokukan@orange.fr
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
