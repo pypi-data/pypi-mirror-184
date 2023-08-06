@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dflow-phonon
+Version: 0.0.16
+Summary: A phonon calculation package based on dflow
+Home-page: https://github.com/Chengqian-Zhang/dflow-phonon
+Author: Chengqian Zhang
+Author-email: 2043899742@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides: dflowphonon
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dflow-phonon
+使用方法：
+
+pip install --index-url https://pypi.org/simple/ dflow-phonon
+
+之后进入一个example文件夹，填写global.json
+
+如果调用VASP： dflowphonon --vasp
+如果使用DP势函数： dflowphonon --dp
+如果调用ABACUS：dflowphonon --abacus
+
+然后在https://workflows.deepmodeling.com 监控任务进程
