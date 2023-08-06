@@ -1,0 +1,14 @@
+{% load static %}
+{% load commons %}
+{% include 'components/partial/message_icons.html' %}
+{% include 'components/partial/message_alert.html' with tag=tag closable=closable message=msg withicon=withicon  %}
+{#<div class="alert text-start {{ tag }} {% if closable|default_if_none:False %} alert-dismissible fade show {% endif %}"#}
+{#     role="alert">#}
+{#    {% if showicon|default_if_none:True %}#}
+{#        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img"><use xlink:href="#{{ tag }}"/></svg>#}
+{#    {% endif %}#}
+{#    {{ message }}#}
+{#    {% if closable|default_if_none:False %}#}
+{#        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>#}
+{#    {% endif %}#}
+{#</div>#}
