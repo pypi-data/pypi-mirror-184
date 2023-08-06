@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot.py,sha256=W1xPlysoCqLSTes0jUZ1eQrnIwGdVpigyzO9UZKYyPQ,4558
+error.py,sha256=rFLTPihSFtfO-yUJaK7iMSX-3lSaH50VY821ge21LUg,242
+message.py,sha256=ropjWpBxSJBt7DOJOrUjE0EJtjnliuAAQAURh1iPQDc,396
+parser.py,sha256=ZyXoo0cxlwsqsgszCfdVsr6Z4PUvBfZakLKXEP0brUk,1783
+tinkoff_backend_academy_telegram_bot-0.0.3.dist-info/LICENSE,sha256=F81gelCTLtwv9Soa8PARC3uoWWDsZt7T-XFD54F3A-o,1091
+tinkoff_backend_academy_telegram_bot-0.0.3.dist-info/METADATA,sha256=Hnclxd4YLykBMqsra-bRWsDuqUtw98Ig9SzGSz56OTg,5619
+tinkoff_backend_academy_telegram_bot-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tinkoff_backend_academy_telegram_bot-0.0.3.dist-info/top_level.txt,sha256=o_DBB_LJSFq_PHwJdi-LmxwkKTUeov5WN5qQRhwhH-w,34
+tinkoff_backend_academy_telegram_bot-0.0.3.dist-info/RECORD,,
