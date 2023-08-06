@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xbmcext
+Version: 1.3.0
+Summary: XBMCExt extends windows, dialogs, and various control widgets.
+Project-URL: Homepage, https://github.com/groggyegg/script.module.xbmcext
+Author-email: groggyegg <groggyegg@protonmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+Requires-Dist: kodistubs>=18.0.0
+Requires-Dist: six>=1.16.0
