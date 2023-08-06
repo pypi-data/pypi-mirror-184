@@ -1,0 +1,6 @@
+LICENSE
+README.md
+django_xss_protector.egg-info/PKG-INFO
+django_xss_protector.egg-info/SOURCES.txt
+django_xss_protector.egg-info/dependency_links.txt
+django_xss_protector.egg-info/top_level.txt
