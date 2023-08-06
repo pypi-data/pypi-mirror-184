@@ -1,0 +1,96 @@
+.. Project Description
+.. Project Log
+
+=======================================
+nRoBo (An Automated Testing Framework )
+=======================================
+For Web Developers, QAs and Testers
+-----------------------------------
+.. Project Status
+
+--------------
+Project Status
+--------------
+**Active**
+
+.. Installation
+
+------------
+Installation
+------------
+
+
+1. Install **virtualenv** package
+    - `pip3 install virtualenv`
+2. Create virtual environment - venv
+    - `virtualenv venv`
+3. Activate virtual environment
+    - source venv/bin/activate
+4. Install `numpy` package
+    - `pip3 install numpy`
+5. Install `nrobo`
+    - pip3 install -i https://pypi.org/simple/ nrobo==<version>
+6. Install framework
+    - nrobo -i
+7. Run tests (Typical)
+    - testnrobo % nrobo -a google -l http://google.com -u panchdev -p Passw0rd -n 4 -r 0 -b chrome -t allure
+
+.. Features
+
+--------
+Features
+--------
+
+1. Rich Browser Support
+    - Chrome
+    - Edge
+    - Safari
+    - Firefox
+    - Opera
+    - IE
+2. Rich Platform Support
+3. SeleniumWebdriver Wrapper Methods
+4. Loaded with Standard TestBase class
+5. Loaded with Standard Test Setup & Tear Down methods
+6. Support for Test Parallelization (Inherited from pytest)
+7. Support for Test Parameterization (Inherited from pytest)
+8. Support for screenshot capture (Inherited from pytest)
+9. Support for capturing test steps in reports (Python Standard Logging)
+10. Next Generation Test Reports (Backed by Allure Reports and pytest-html-reports)
+11. Support for cool tweaks in the standard reports (nRobo framework)
+12. Command line Support to trigger tests (nRobo framework)
+13. Easy Setup (nRobo framework)
+14. Well Defined Directory Structure (nRobo framework)
+15. Support for distributing tests accross multiple remote machines **In Progress** (pytest)
+
+.. Tools and Libraries
+
+-----------------
+Tools & Libraries
+-----------------
+
+1. Next Generation **Test Automation Framework** for **Python**
+    1. `Pytest <https://docs.pytest.org/en/7.2.x/contents.html>`_
+    2. pytest plugins
+        1. pytest plugin that provides access to test session metadata
+            - `pytest-metadata <https://pypi.org/project/pytest-metadata/>`_
+        2. The pytest-xdist plugin extends pytest with new test execution modes, the most used being distributing tests across multiple CPUs to speed up test execution.
+            - `pytest-xdist <https://pypi.org/project/pytest-xdist/>`_
+        3. Run tests in isolated forked subprocesses
+            - `pytest-forked <https://pypi.org/project/pytest-forked/>`_
+        4. pytest plugin to re-run tests to eliminate flaky failures
+            - `pytest-rerunfailures <https://pypi.org/project/pytest-rerunfailures/>`_
+        5. Virtual Python Environment builder
+            - `virtualenv <https://pypi.org/project/virtualenv/>`_
+        6. YAML parser and emitter for Python
+            - `PyYAML <https://pypi.org/project/PyYAML/>`_
+        7. library with cross-python path, ini-parsing, io, code, log facilities
+            - `py <https://pypi.org/project/py/>`_
+2. Browser Automation Tool (Open Source)
+    - `Selenium Webdriver 4 <https://www.selenium.dev/documentation/webdriver/getting_started/upgrade_to_selenium_4/>`_
+3. **Auto Webdriver Manager**
+    - `Webdriver Manager <https://pypi.org/project/webdriver-manager/>`_
+4. Next Generation **Test Report Framework**
+    - `Allure Framework <https://docs.qameta.io/allure/>`_
+5. Simple HTML Test Report Plugin
+    - `pytest-html <https://pypi.org/project/pytest-html/>`_
