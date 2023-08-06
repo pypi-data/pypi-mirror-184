@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+bbwbw/__init__.py
+bbwbw.egg-info/PKG-INFO
+bbwbw.egg-info/SOURCES.txt
+bbwbw.egg-info/dependency_links.txt
+bbwbw.egg-info/top_level.txt
