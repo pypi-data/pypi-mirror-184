@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdl-example-package"
+description = "An example package for use with Umiverse"
+version = "0.0.1"
+authors = [
+    {name = "Sam Wolk", email = "szvsw@mit.edu"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+dependencies = [
+    "requests"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+Documentation = "https://ubem.io"
+Repository = "https://github.com/szvsw/sdl-package-demo"
+
