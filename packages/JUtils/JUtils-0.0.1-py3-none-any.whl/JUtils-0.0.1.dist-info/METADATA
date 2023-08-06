@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: JUtils
+Version: 0.0.1
+Summary: Package containing various utility functions i needed now and then, that i wanted to share
+Author-email: Jan Seifert <jan@seifert-online.de>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JUtils
+
+This is a package by Jan Seifert, which contains various utility functions
