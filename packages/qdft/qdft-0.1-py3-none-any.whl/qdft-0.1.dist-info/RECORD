@@ -1,0 +1,9 @@
+qdft/__init__.py,sha256=kg68x54Er0AtywWxQWB_gXv4I2FdumzWR4loaxKafvQ,96
+qdft/chroma.py,sha256=i0T3ZtIA8VMYwossvqJFpGqt9RjtkHN6LYBplWiljTE,2528
+qdft/qdft.py,sha256=6oxnz9dlLYm-epwNNOQIA9MHfR71BLWbKPmlQE4guJA,3279
+qdft/scale.py,sha256=HZKzyKdEKmUn5a58UgkBM-VZh3RfU-fIVPdM-vnskY0,1934
+qdft-0.1.dist-info/LICENSE,sha256=zGdw_6DxFbsP_zfw5mVFVtwkpdfZ2nFql_XpjwBZ7ps,1069
+qdft-0.1.dist-info/METADATA,sha256=Li4vCJhrKQ9-THsx8o-Gj1k60WP5ZYj1Xmy4UkzEP2o,3009
+qdft-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+qdft-0.1.dist-info/top_level.txt,sha256=YRSLJCX258hFwXvvEzaFuBgXQ0JkFnIRYF27rWK5N1M,5
+qdft-0.1.dist-info/RECORD,,
