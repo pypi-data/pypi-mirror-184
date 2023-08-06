@@ -1,0 +1,12 @@
+MisER/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MisER/block_class.py,sha256=kjcpFeCnSIIkbWzbgZVDCvRK7_-Hj76vE8XhPxp6jLc,12220
+MisER/find_small_exon.py,sha256=UFVS9oWe17VMC_mJ_QsnyDb8iMvQK2zoyRn61t1BjEI,7902
+MisER/fix_small_exon_multiproc.py,sha256=l8QfqHpjbn8VfMFe0BXsOAKqmal-YG5KGX2ix9o53Ug,34617
+MisER/run_miser.py,sha256=AXgqi98X1ubaIMT0dXo4Z2kimfzsfw7JQkFWaFZ0Y7g,4403
+MisER/version.py,sha256=Q8raD6k02z4DoYniAz3iui5d6EdM1el95SMTLXJbeCA,18
+MisER-0.0.1.dist-info/LICENSE,sha256=79lwZCzMCTaviKikg9bCzJsSxfPY-3Xgelk4FxG2eM0,1065
+MisER-0.0.1.dist-info/METADATA,sha256=iilOUrBvsENDiH94VNScjvZytawz8UZacNZZQfZJ0hA,6994
+MisER-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+MisER-0.0.1.dist-info/entry_points.txt,sha256=L8GsKF5IWIWT2Kid26bbhdOmUv8lliTpI9GE2eGbmPo,47
+MisER-0.0.1.dist-info/top_level.txt,sha256=GySwKwGpDWtfbygO3_ogS4xV_lWKO-Z8iNVbHpZR6f0,6
+MisER-0.0.1.dist-info/RECORD,,
