@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: AutoCarver
+Version: 1.0.1
+Summary: Automatic Carving of Features with Optimal Association
+Home-page: https://github.com/mdefrance/AutoCarver
+Author: Mario DEFRANCE
+Author-email: defrancemario@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/mdefrance/AutoCarver/issues
+Description: # AutoCarver
+        Toolkit for automatic carving (grouping of modalities) of features that maximizes association in a binary classification problem.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
