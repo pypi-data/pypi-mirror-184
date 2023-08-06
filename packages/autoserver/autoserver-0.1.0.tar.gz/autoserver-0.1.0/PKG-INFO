@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: autoserver
+Version: 0.1.0
+Summary: 
+Author: JanukanS
+Author-email: 28988453+JanukanS@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: docstring-parser (>=0.15,<0.16)
+Requires-Dist: fastapi (>=0.88.0,<0.89.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: python-multipart (>=0.0.5,<0.0.6)
+Requires-Dist: uvicorn (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+# AutoServer
+
+AutoServer is a python library for making quick web UIs, it was originally made for HackEd 2023. 
+
+## Example
+```python
+from autoserver import AutoServer
+app = AutoServer()
+
+@app.addfunc
+def TaxCalc(province: str, cost: float, taxrate: int):
+    """
+    Computes the amount of tax on an item given the tax rate
+    :param province: The name of the province
+    :param cost: The cost of the item expressed in dollars
+    :param taxrate: The tax rate expressed as a percentage
+    :return:
+    """
+    tax = cost * float(taxrate) / 100
+    output = f"The tax in {province} for an item worth ${cost} is {tax}."
+    output += f"The total cost is ${cost + tax}."
+    return output
+
+@app.addfunc
+def TargetPrice(province: str, targetcost: float, taxrate: int):
+    targetRatio = 1.0 + float(taxrate) / 100
+    output = f"To have a final cost of ${targetcost} in {province},"
+    output += f"the pretax price should be ${targetcost / targetRatio}"
+    return output
+
+app.run()
+```
