@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: freeflux
+Version: 0.3.0
+Summary: FreeFlux is a package for 13C metabolic flux analysis
+Home-page: https://github.com/Chaowu88/freeflux
+Author: Chao Wu
+Author-email: chaowu09@gmail.com
+License: = GNU General Public License v3.0
+Keywords: 13c,labeling pattern,metabolic flux analysis,metabolism,biology,non-linear programming,optimization,simulation
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: numpy (~=1.20.2)
+Requires-Dist: pandas (~=1.0.5)
+Requires-Dist: sympy (~=1.6.1)
+Requires-Dist: scipy (~=1.5.0)
+Requires-Dist: pyomo (==6.2)
+Requires-Dist: openopt
+Requires-Dist: FuncDesigner
+Requires-Dist: matplotlib (~=3.2.2)
+Requires-Dist: pillow
+Requires-Dist: xlrd (==1.2.0)
+Requires-Dist: openpyxl
+
+FreeFlux
+========
+
+FreeFlux is a Python package for :sup:`13`\ C metabolic flux analysis of biological systems at isotopic steady state or transient state which thus can be used for both heterotrophic and autotrophic organisms. Functionally, FreeFlux is capable of:
+
+- metabolic flux estimation
+- simulation of labeling patterns of metabolite (fragments)
+- constraint-based optimizations, such as flux balance analysis and flux variability analysis
+
+The aim is to benefit the accessibility of :sup:`13`\ C fluxomics technique for researchers in the community of metabolic phenotyping and engineering.
+
+A documentation can be found `here <https://freeflux.readthedocs.io/en/latest/index.html>`__. The documentation illustrates the fundamental functions of FreeFlux with a `toy model <https://github.com/Chaowu88/freeflux/tree/main/models/toy>`__. Two practical models of `E. coli <https://github.com/Chaowu88/freeflux/tree/main/models/ecoli>`__ and `Synechocystis <https://github.com/Chaowu88/freeflux/tree/main/models/synechocystis>`__ are also provided with `tutorials <https://github.com/Chaowu88/freeflux/tree/main/tutorials>`__.
+
+Installation
+============
+
+FreeFlux was tested in Python 3.7 and 3.8. It can be installed using *pip* from PyPI:
+
+.. code-block:: python
+
+  python -m pip install --upgrade pip
+  pip install freeflux
+
+or from source:
+
+.. code-block:: python
+
+  git clone https://github.com/Chaowu88/freeflux.git /path/to/freeflux
+  pip install /path/to/freeflux
+  
+Installation in an `virtual environment <https://docs.python.org/3.8/tutorial/venv.html>`__ is recommendated.
+
+.. Note::
+  FreeFlux requires the numerical optimization framework `OpenOpt <https://openopt.org/>`__ for nonlinear regression. It works well in Python 3.7 but may has compatibility issues in Python 3.8 and above. Please see `here <https://freeflux.readthedocs.io/en/latest/installation.html#dependency-compatibility>`__ for solutions.
+
+Example Usage
+=============
+
+A typical use of FreeFlux starts with building a model by reading metabolic reactions with atom transitions. The model can call a handler of either fitter, simulator or optimizor to perform flux estimation, labeling pattern simulation and constraint-based flux analysis, respectively. Different methods are provided for these handlers for data input and computation.
+
+Here is an example script of flux estimation at steady state using the `toy model <https://github.com/Chaowu88/freeflux/tree/main/models/toy>`__.
+
+.. code-block:: python
+   
+   MODEL_FILE = 'path/to/reactions.tsv'
+   MEASURED_MDVS = 'path/to/measured_MDVs.tsv'
+   MEASURED_FLUXES = 'path/to/measured_fluxes.tsv'
+   
+   from freeflux import Model
+   
+   model = Model('demo')
+   model.read_from_file(MODEL_FILE)
+   
+   with model.fitter('ss') as fit:
+       fit.set_labeling_strategy('AcCoA', 
+                                 labeling_pattern = ['01', '11'], 
+                                 percentage = [0.25, 0.25], 
+                                 purity = [1, 1])
+       fit.set_flux_bounds('all', bounds = [-100, 100])
+       fit.set_measured_MDV('Glu_12345', 
+                            mean = [0.328,0.276,0.274,0.088,0.03,0.004], 
+                            sd = [0.01,0.01,0.01,0.01,0.01,0.01])
+       fit.set_measured_flux('v1', mean = 10, sd = 1)
+       fit.prepare()
+       res = fit.solve()
+
+For more information, please refer to the `documentation <https://freeflux.readthedocs.io/en/latest/index.html>`__.
+
+License
+=======
+
+FreeFlux is released under the GPL version 3 license, please see `here <https://github.com/Chaowu88/freeflux/blob/main/LICENSE>`__ for more details.
