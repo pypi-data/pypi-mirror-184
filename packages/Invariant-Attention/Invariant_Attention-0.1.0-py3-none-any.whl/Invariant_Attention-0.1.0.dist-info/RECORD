@@ -1,0 +1,14 @@
+invariant_attention/__init__.py,sha256=7FQrlKWv_2zMwfc96-LHvQXnuGGlmCWxVYqJ2BUYN_Y,166
+invariant_attention/invariant_attention.py,sha256=mos3JW3wxwGN2zf3G45rFzSsGqJ8dsFx8uA5x_Fl3g0,6713
+invariant_attention/ipa_block.py,sha256=DOeR8SaVv_I2WEcN_hloazsqiMrhqqA-H9iz891fjLk,2250
+invariant_attention/ipa_transformer.py,sha256=sEw5Rfi62sxnmzn-Ohn9lMxznDQAqXApHaZQCl2jGkY,3283
+invariant_attention/quaternion_ops.py,sha256=-JxRPXMbCC8DV0-pStPKhLVSRw-jwsp9xNWQwck3nsY,1692
+invariant_attention/test_invariant_attention.py,sha256=7kYQ0_2XgCm5lq1xdKNbKLU0RrXh63pxiaJHZKHuR_I,1205
+invariant_attention/test_ipa_block.py,sha256=CXzPQweVOzg9dZKh0JoByabSx0K0UXCjVYELzbpS3S4,1559
+invariant_attention/test_ipa_transformer.py,sha256=o0Kd2Xt9GaU0w7l6LKOXllkleSx0U5H48VwNx3p6r88,1392
+invariant_attention/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+Invariant_Attention-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+Invariant_Attention-0.1.0.dist-info/METADATA,sha256=_obBLV-yLeP5otZ6FbCuLoLuvDm5PcT1roFjadvL66s,8029
+Invariant_Attention-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Invariant_Attention-0.1.0.dist-info/top_level.txt,sha256=ATJlmM6d0XMR58lTYYaDbYhtIYeYHaBniloyE-fa5Ww,20
+Invariant_Attention-0.1.0.dist-info/RECORD,,
