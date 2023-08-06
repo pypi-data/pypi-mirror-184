@@ -1,0 +1,79 @@
+# GitLab CI Templates:
+# https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates
+# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Python.gitlab-ci.yml
+
+image: python:3.10
+# -https://hub.docker.com/_/python
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+# Pip's cache doesn't store the python packages
+# https://pip.pypa.io/en/stable/reference/pip_install/#caching
+#
+# If you want to also cache the installed packages, you have to install
+# them in a virtualenv and cache it as well.
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+
+before_script:
+  - cat /etc/os-release  # Debian version
+  - python -V  # Print out python version for debugging
+  - export DEBIAN_FRONTEND=noninteractive
+  - export TZ=Europe/London
+  - export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/local/lib/python3.10/dist-packages/PySide6/Qt/plugins/platforms
+  - export DISPLAY=:99.0  # display
+  - apt-get update -y && apt-get install -y ffmpeg libsm6 libxext6 libxrender1 libxi6 libfontconfig1 libglib2.0-0 xvfb libxcb1 libxcb-composite0 libxcb-dpms0 libxcb-ewmh2 libxcb-glx0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-shape0 libxcb-xinerama0 libxcb-xkb1 libxcb-xtest0 libxcb-xv0 libxcb-xvmc0 libxcb-cursor0 libxcb-imdkit1 libxcb-xrm0 libxkbcommon-x11-0 libopengl0 libegl1
+  - pip install virtualenv
+  - virtualenv venv
+  - source venv/bin/activate
+  - pip install .[dev]
+  - Xvfb :99 -ac &  # display
+  - sleep 3  # give xvfb some time to start
+
+# For debugging:
+#  - find / -name libxcb-icccm.so.4
+#  - export QT_DEBUG_PLUGINS=1
+#  - ldd venv/lib/python3.9/site-packages/PyQt5/Qt5/plugins/platforms/libqxcb.so  # We can also add: |grep 'not found'
+
+#  - pip install coverage
+#  - pip install codecov
+#  - pip install opencv-python
+
+
+test:
+  script:
+    - make test
+
+
+#test:
+#  script:
+#    - python setup.py test
+#    - python -m unittest discover -s test
+
+# When we get this error
+# `qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "/usr/local/lib/python3.9/dist-packages/PyQt5/Qt/plugins/platforms" even though it was found.`
+# we have to do the following:
+# 1. Make sure that we have a virutal display: `export DISPLAY=:99.0` and `Xvfb :99 -ac &`
+# 2. Make sure that the Qt platform plugin has all it's dependencies installed. We can check which
+# dependences are missing using this command:
+# `ldd venv/lib/python3.9/site-packages/PyQt5/Qt5/plugins/platforms/libqxcb.so`
+# 3. We cannot have `--no-install-recommends` after `apt-get install`
+
+# If we see this
+# `Configuring tzdata` (as described here https://serverfault.com/q/949991/429694 )
+# in the log while running `apt-get update`
+# we can add `export TZ=Europe/London` and `export DEBIAN_FRONTEND=noninteractive`
+
+# Various notes:
+# ln -sf /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/libqxcb.so /usr/bin/
+# QLibraryPrivate::loadPlugin failed on "/usr/local/lib/python3.9/dist-packages/PyQt5/Qt5/plugins/platforms/libqxcb.so" : "Cannot load library /usr/local/lib/python3.9/dist-packages/PyQt5/Qt5/plugins/platforms/libqxcb.so: (_________: cannot open shared object file: No such file or directory)"
+# https://pypi.org/project/pytest-xvfb/
+# https://doc.qt.io/qt-5/qt-conf.html
+# https://stackoverflow.com/questions/24095968/docker-for-gui-based-environments
+# https://askubuntu.com/questions/308128/failed-to-load-platform-plugin-xcb-while-launching-qt5-app-on-linux-without?answertab=oldest#tab-top
+# https://stackoverflow.com/questions/17106315/failed-to-load-platform-plugin-xcb-while-launching-qt5-app-on-linux-without

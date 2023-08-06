@@ -1,0 +1,31 @@
+# This .desktop entry file can be used for systems supporting the freedesktop
+# specification (for example Ubuntu). You can copy this file to a system dir and
+# then the application will show up in your application menu system.
+
+# 1. Select which of the options below (A, B, or C) that suits your installation
+# 2. Copy this file to the dir where your application shortcuts are, for Ubuntu this
+# is `/usr/share/applications/`. Copying: `sudo cp
+# varia/mindfulness-at-the-computer.desktop /usr/share/applications/`
+
+[Desktop Entry]
+Name=Mindfulness at the Computer
+Name[en_US]=Mindfulness at the Computer
+
+##### A. Binary file (created with pyinstaller) #####
+# Exec=[path-to-install-dir]/mindfulness-at-the-computer
+# Icon=[path-to-install-dir]/icons/icon.png
+# Path=[path-to-install-dir]
+##### B. Running from source #####
+# Exec=python3 [path-to-install-dir]/mindfulness-at-the-computer.py
+# Icon=[path-to-install-dir]/icons/icon.png
+# Path=[path-to-install-dir]
+##### C. After installing with pip #####
+# Exec=matc
+# Icon=
+# Path= --- This is not needed, as the application doesn't depend on where it was started
+
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Spirituality;Utility;
+#Office;

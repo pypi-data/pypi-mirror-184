@@ -1,0 +1,11 @@
+-r requirements.txt
+# PyQt5-stubs==5.15.2.0
+# At the time of writing there are no stubs for Pyside6. For the future: https://pypi.org/search/?q=pyside6+stubs&o=
+wheel
+twine
+pyinstaller
+pytest
+pytest-qt
+coverage
+mypy
+prospector[with_everything]

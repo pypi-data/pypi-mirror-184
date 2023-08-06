@@ -1,0 +1,36 @@
+# Here is an example file
+# https://github.com/openedx/edx-lint/blob/master/pylintrc
+# linked to from this article
+# https://pythonspeed.com/articles/pylint/
+
+[MESSAGES CONTROL]
+disable=raw-checker-failed,
+        bad-inline-option,
+        locally-disabled,
+        file-ignored,
+        suppressed-message,
+        useless-suppression,
+        deprecated-pragma,
+        use-symbolic-message-instead,
+        c-extension-no-member,
+        missing-class-docstring,
+        too-few-public-methods,
+        missing-function-docstring,
+        logging-fstring-interpolation,
+        unused-argument,
+        pointless-string-statement,
+        useless-parent-delegation,
+        missing-module-docstring,
+        invalid-name,
+        consider-using-max-builtin,
+        unspecified-encoding,
+        logging-not-lazy,
+        consider-iterating-dictionary,
+        trailing-whitespace,
+        too-many-instance-attributes,
+        too-many-statements,
+        too-many-locals,
+        too-many-branches
+
+[CLASSES]
+defining-attr-methods = __init__,__new__,setUp,initiate_gv,init_function

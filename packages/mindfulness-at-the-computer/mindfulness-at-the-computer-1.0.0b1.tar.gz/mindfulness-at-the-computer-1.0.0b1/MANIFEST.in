@@ -1,0 +1,8 @@
+include README.md
+include LICENSE.txt
+include matc/LICENSE.txt
+include matc/matc.qss
+include matc/version.txt
+recursive-include matc/res *
+# include res/icons/icon.png
+# recursive-include res/audio *

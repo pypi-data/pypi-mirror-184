@@ -1,0 +1,113 @@
+[build-system]
+requires = ["pip>=22", "setuptools>=61", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mindfulness-at-the-computer"
+dynamic = ["version"]
+# version = "1.0.0-beta.1-dev.4"
+description = "Helps you stay mindful of your breathing while using your computer."
+readme = "README.md"
+authors = [
+    { name = "Tord Dellsén", email = "tord.dellsen@gmail.com" }
+]
+# Adding others here, and link to contributing stats on gitlab?
+license = { file = "LICENSE.txt" }
+# alt: text = "GNU General Public License v3 (GPLv3)"
+classifiers = [
+    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: End Users/Desktop',
+    'Topic :: Other/Nonlisted Topic'
+]
+keywords = ["mindfulness", "breathing", "self-care"]
+dependencies = ["PySide6>=6.2"]  # 6.2 adds QtMultimedia
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["build", "wheel", "twine", "pyinstaller",
+    "pytest", "pytest-qt", "pytest-xvfb", "pytest-monitor",
+    "coverage", "mypy", "prospector[with_everything]",
+]
+# install using `pip3 install .[dev]`
+
+[project.urls]
+Homepage = "https://mindfulness-at-the-computer.gitlab.io/"
+GitLab = "https://gitlab.com/mindfulness-at-the-computer/mindfulness-at-the-computer"
+
+[tool.setuptools]
+packages = ["matc"]
+
+[tool.setuptools.dynamic]
+version = { file = "matc/version.txt" }
+
+# [tool.setuptools.cmdclass]
+# install = "matc.constants.PostInstallCommand"
+# develop = "matc.constants.PostDevelopCommand"
+# -This works partly: We can start running code, but cannot import anything, not even our own code,
+#  so at the moment this seems unusable for us
+# -See here for more info: https://github.com/pypa/setuptools/search?q=cmdclass
+
+[tool.pytest.ini_options]
+# https://docs.pytest.org/en/7.1.x/reference/customize.html
+minversion = "7.0"
+addopts = ["-ra", "--strict-markers", "--strict-config"]
+#--tb=short
+markers = [
+    "pycharm_auto: Automatically run by pycharm at save",
+    "slow: Takes a longer time to run",
+    "veryslow: Takes a very long time to run (over 1 minute)"
+]
+xfail_strict = "true"
+testpaths = ["tests"]
+qt_api = "pyside6"
+qt_log_level_fail = "CRITICAL"
+
+[project.scripts]
+mindfulness-at-the-computer = "matc.__main__:main"
+
+# [project.gui-scripts]
+# mindfulness-at-the-computer = "matc.__main__:main"
+
+# [project.gui-scripts]
+
+##### pylint ######
+# Here is an example file
+# https://github.com/openedx/edx-lint/blob/master/pylintrc
+# linked to from this article
+# https://pythonspeed.com/articles/pylint/
+[tool.pylint.'MESSAGES CONTROL']
+disable = [
+    "raw-checker-failed",
+    "bad-inline-option",
+    "locally-disabled",
+    "file-ignored",
+    "suppressed-message",
+    "useless-suppression",
+    "deprecated-pragma",
+    "use-symbolic-message-instead",
+    "c-extension-no-member",
+    "missing-class-docstring",
+    "too-few-public-methods",
+    "missing-function-docstring",
+    "logging-fstring-interpolation",
+    "unused-argument",
+    "pointless-string-statement",
+    "useless-parent-delegation",
+    "missing-module-docstring",
+    "consider-using-max-builtin",
+    "unspecified-encoding",
+    "logging-not-lazy",
+    "consider-iterating-dictionary",
+    "trailing-whitespace",
+    "too-many-instance-attributes",
+    "too-many-statements",
+    "too-many-locals",
+    "too-many-branches",
+    "invalid-name"
+]
+
+[CLASSES]
+defining-attr-methods = ["__init__", "__new__", "setUp", "initiate_gv", "init_function"]
