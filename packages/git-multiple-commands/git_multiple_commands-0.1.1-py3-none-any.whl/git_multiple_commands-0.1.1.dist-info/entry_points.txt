@@ -1,0 +1,3 @@
+[console_scripts]
+gmc=git_multiple_commands.gmc:app
+

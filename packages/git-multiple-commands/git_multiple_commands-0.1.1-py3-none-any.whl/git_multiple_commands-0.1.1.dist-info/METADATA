@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: git-multiple-commands
+Version: 0.1.1
+Summary: Run git commands in multiple directories at once
+Author: Bogdan Rizac
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+[![pipeline status](https://gitlab.com/kisphp/python-cli-tool/badges/main/pipeline.svg)](https://gitlab.com/kisphp/python-cli-tool/-/commits/main)
+[![coverage report](https://gitlab.com/kisphp/python-cli-tool/badges/main/coverage.svg)](https://gitlab.com/kisphp/python-cli-tool/-/commits/main)
+
+Run got commands in multiple directories at once.
+
+```bash
+gmc # show help message
+gmc build # generate .gmc.yaml file
+gmc i # git init in all directories
+```
+
+# Install
+
+```bash
+pip install -U git-multiple-commands
+```
