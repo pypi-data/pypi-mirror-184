@@ -1,0 +1,11 @@
+edgetest_hub/__init__.py,sha256=YYfyrOoBd4ta8637XALkozUtF0BIjs8n19z7QgNErq8,320
+edgetest_hub/plugin.py,sha256=p5fYWbxLR_38-QFYCZIVvQwMuudMAKAz3dLxF23kvUk,7185
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hook.py,sha256=hQNlFuBF2QqKMfdvQ-1qTIZ6nCCYV-7AT6zkTE_BnLQ,12914
+edgetest_hub-2022.12.0.dist-info/AUTHORS.md,sha256=pBdTIQWqGeYIC9YjdBAr_nqjEwPSfWO1a7qJTecDTkU,76
+edgetest_hub-2022.12.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+edgetest_hub-2022.12.0.dist-info/METADATA,sha256=LOrQb0cn9AOrQzsyYvgwwxJ1Wqius36ccl9Op4APhig,5181
+edgetest_hub-2022.12.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+edgetest_hub-2022.12.0.dist-info/entry_points.txt,sha256=pqDpD1FKc_xlhOVajci-Ty8ctNItY_XBsfM_QD66CIo,37
+edgetest_hub-2022.12.0.dist-info/top_level.txt,sha256=M3Hweb5sjNi-ObQ8AeGRDIUukdknQpGBB-BuAChzAtk,19
+edgetest_hub-2022.12.0.dist-info/RECORD,,
