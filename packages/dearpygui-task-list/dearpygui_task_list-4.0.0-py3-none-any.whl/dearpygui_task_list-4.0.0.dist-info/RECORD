@@ -1,0 +1,8 @@
+task_list/__init__.py,sha256=3-1GX-cFIL2GLkL5-Ji7DTCRLyck0Eub9jZ3NdgUmb8,111
+task_list/__main__.py,sha256=xIjYyMQQzJZwG_YpMMByrHaQIX16H5EYjy47keGlx8s,19331
+task_list/storage_api.py,sha256=SC24ItVIH9qUGaLGcSrTfoL6wan2wkPuEEFkmfS6gzQ,2620
+dearpygui_task_list-4.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dearpygui_task_list-4.0.0.dist-info/METADATA,sha256=t36LBrX5rXE3KalelKGMHNZoVpQtzLuI8mvPUEFLkRI,1624
+dearpygui_task_list-4.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dearpygui_task_list-4.0.0.dist-info/top_level.txt,sha256=90MUn-Mocg4Grjl5bM8m7iCF4wPkWVOQLBra0u-KYo8,10
+dearpygui_task_list-4.0.0.dist-info/RECORD,,
