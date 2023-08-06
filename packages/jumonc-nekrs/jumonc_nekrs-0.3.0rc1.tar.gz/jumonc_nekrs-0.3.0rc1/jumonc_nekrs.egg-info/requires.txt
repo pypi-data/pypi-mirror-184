@@ -1,0 +1,2 @@
+JuMonC>=0.10.0rc2
+pluggy
