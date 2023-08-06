@@ -1,0 +1,138 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=C0103,C0115,C0116,C0413,W0212,C0301,W0613,E0611,E0401
+
+
+"@KarimKhanQC reconsider OTP-CR-117/19"
+
+
+## imports
+
+
+import atexit
+import importlib
+import importlib.util
+import os
+import readline
+import rlcompleter
+import sys
+import shutil
+import time
+import termios
+import traceback
+
+
+from gcid import Cfg, Command, Handler, Wd
+from gcid import boot, command, scan, scanpkg
+
+
+import gcid.modules
+
+
+## defines
+
+
+Cfg.banner = "@KarimKhanQC reconsider OTP-CR-117/19"
+Cfg.name = "gcidcmd"
+
+
+Wd.workdir = "/var/lib/gcid"
+
+
+date = time.ctime(time.time()).replace("  ", " ")
+
+
+## classes
+
+
+class CLI(Handler):
+
+    @staticmethod
+    def announce(txt):
+        pass
+
+    @staticmethod
+    def raw(txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+class Completer(rlcompleter.Completer):
+
+    def __init__(self, options):
+        rlcompleter.Completer.__init__(self)
+        self.matches = []
+        self.options = options
+
+    def complete(self, text, state):
+        if state == 0:
+            if text:
+                self.matches = [
+                                s for s in self.options
+                                if s and s.startswith(text)
+                               ]
+            else:
+                self.matches = self.options[:]
+        try:
+            return self.matches[state]
+        except IndexError:
+            return None
+
+
+## utilities
+
+
+def importer(mname, path=None):
+    if path is None:
+        spec = importlib.util.find_spec(mname)
+    else:
+        spec = importlib.util.spec_from_file_location(mname, path)
+    if spec:
+        mods = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mods)
+        return mods
+    return None
+
+
+def scanner(mname, path=None):
+    mods = importer(mname, path)
+    scan(mods)
+
+
+def setcompleter(optionlist):
+    completer = Completer(optionlist)
+    readline.set_completer(completer.complete)
+    readline.parse_and_bind("tab: complete")
+    atexit.register(lambda: readline.set_completer(None))
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print("")
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+        for evt in Command.errors:
+            ex = evt.__exc__
+            traceback.print_exception(type(ex), ex, ex.__traceback__)
+
+
+## runtime
+
+
+def main():
+    boot(" ".join(sys.argv[1:]))
+    scanpkg(gcid.modules, scanner)
+    cli = CLI()
+    return command(cli, Cfg.prs.otxt)
+
+
+wrap(main)
