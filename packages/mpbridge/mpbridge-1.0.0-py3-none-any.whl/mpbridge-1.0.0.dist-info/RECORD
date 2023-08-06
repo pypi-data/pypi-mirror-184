@@ -1,0 +1,13 @@
+mpbridge/__init__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+mpbridge/bridge.py,sha256=6AFBMLHNDGYnYYj0KnmIqAgC7AInFhbP8Yt27kWBb2Q,3102
+mpbridge/handler.py,sha256=9ZqhCwX7YMvnMMfua4vXDDwiaferuLRyuhCseAENS48,2304
+mpbridge/ignore.py,sha256=ewtgSvzl_AHkxE_uZtpidafrjFgdUFq0gqPkJi_RwwU,1336
+mpbridge/pyboard.py,sha256=IcgDHfL5wrsT_8yb2v_P-jYMuUmjFD61Lv4f0oWqUA4,5509
+mpbridge/shell.py,sha256=p_pubCXBz4P_iuQRI9xXklHx8n4dQ5thZMh-V3Koc-o,1581
+mpbridge/utils.py,sha256=dZNvdqsejSbjXmkXXMVk9m814dCCVosAs6PY_CO0y8I,2386
+mpbridge-1.0.0.dist-info/LICENSE,sha256=nEnm1nvGEoC_-4aiNbmZ-zjGdr8P1jnaSrHJqPJU1ng,1073
+mpbridge-1.0.0.dist-info/METADATA,sha256=cPPAT0FbZ3NFH1omsZVqlDdYt2SR2zQkENSz9adPLmE,5366
+mpbridge-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mpbridge-1.0.0.dist-info/entry_points.txt,sha256=bm8gCb6bvaN3_kKt0wIUM8Le55l2qcCdch1E49j2kWk,49
+mpbridge-1.0.0.dist-info/top_level.txt,sha256=-zlQYPG5tY8GVJc8hmTdtaafP6knLfwAs0_yXAISSOM,9
+mpbridge-1.0.0.dist-info/RECORD,,
