@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+wikidata_bot_framework/wikidata_bot_framework.egg-info/PKG-INFO
+wikidata_bot_framework/wikidata_bot_framework.egg-info/SOURCES.txt
+wikidata_bot_framework/wikidata_bot_framework.egg-info/dependency_links.txt
+wikidata_bot_framework/wikidata_bot_framework.egg-info/requires.txt
+wikidata_bot_framework/wikidata_bot_framework.egg-info/top_level.txt
+wikidata_bot_framework/wikidata_bot_framework.egg-info/zip-safe
