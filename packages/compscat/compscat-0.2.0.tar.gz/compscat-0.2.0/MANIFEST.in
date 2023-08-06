@@ -1,0 +1,24 @@
+include src/compscat/version.txt
+
+graft tests
+graft notebooks
+graft scripts
+
+prune notebooks/.ipynb_checkpoints
+prune analysis/
+
+graft analysis/images
+
+include LICENSE README.md
+include pyproject.toml setup.py setup.cfg
+
+exclude .pre-commit-config.yaml environment.yml
+
+recursive-include compscat *.py
+
+recursive-include py.typed
+recursive-include images *.png
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib
+global-exclude *.root
+global-exclude *.csv
