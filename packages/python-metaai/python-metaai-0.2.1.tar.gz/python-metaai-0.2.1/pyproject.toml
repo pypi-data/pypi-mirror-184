@@ -1,0 +1,32 @@
+[project]
+name = "python-metaai"
+dynamic = []
+description = ""
+authors = [
+    { name = "zt", email = "zt@zjuici.com" },
+]
+dependencies = [
+    "fastapi==0.79.0",
+    "uvicorn==0.18.2",
+    "numpy>=1.20.0",
+]
+requires-python = ">=3.7"
+version = "0.2.1"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+metaai = "metaai.cli:main"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.version]
+source = "file"
+path = "src/metaai/__init__.py"
+
+[pdm.version]
