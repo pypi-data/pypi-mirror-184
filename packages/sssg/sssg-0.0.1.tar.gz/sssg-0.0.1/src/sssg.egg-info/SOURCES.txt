@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/sssg/__init__.py
+src/sssg/argument_parser_builder.py
+src/sssg/generator.py
+src/sssg/main.py
+src/sssg/schemas.py
+src/sssg.egg-info/PKG-INFO
+src/sssg.egg-info/SOURCES.txt
+src/sssg.egg-info/dependency_links.txt
+src/sssg.egg-info/top_level.txt

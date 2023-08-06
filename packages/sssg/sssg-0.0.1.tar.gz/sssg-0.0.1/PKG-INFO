@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sssg
+Version: 0.0.1
+Summary: A Simple Static Site Generator
+Author-email: James Rao <jamesnarayanrao@gmail.com>
+Project-URL: Homepage, https://github.com/JamesRao98/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simple SSG
+
+This is a very simple static site generator. It was made for one purpose alone: to decouple a static sites content from its document structure.
+
