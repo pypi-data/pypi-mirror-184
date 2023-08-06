@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: earthquake-INA
+Version: 0.0.1
+Summary: This is package will get the latest earthquake from BMKG|Meteorological Climatological and Geophysical Agency
+Home-page: https://github.com/Xavista/Latest-Indonesiaearthquake
+Author: Ilham sapista 
+Author-email: ilham.sapista@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Latest-Indonesia-Earthquake
+This is package will get the latest earthquake from BMKG | Meteorological Climatological and Geophysical Agency 
+
+## How It Work?
+This package will scrape from [BMKG](https://bmkg.go.id) to get latest quake happened in Indonesia.
+This package will use Beautifulsoup4 and Request, to then produce output in the from of JSON that is ready to be used in web or mobile applications.
