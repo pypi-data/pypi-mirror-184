@@ -1,0 +1,7 @@
+i18n/__init__.py,sha256=dbwktZcuVZdkXhXBlkfwP9hDC--ant0r2YmnzF9EjdY,42
+i18n/config.py,sha256=vjc3gueXeMmY5fOsTyJFoLXJqv6_koUgXr2e-SuT65o,397
+i18n/translation.py,sha256=8P3rmczKqj9HdQDbRG8EAxzVCCzVk-CJAOY4T2t_hjQ,3592
+fastapi_i18n-0.1.1.dist-info/LICENSE,sha256=c4-I6RlBCGRTXCJk9_3W1-g8N_Cp5ZLhExsuhv3nRp0,1064
+fastapi_i18n-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+fastapi_i18n-0.1.1.dist-info/METADATA,sha256=yrNyTpXXR7X3oeuBOVAl-aane1rOYHK-9Qp3XfMudRA,1158
+fastapi_i18n-0.1.1.dist-info/RECORD,,
