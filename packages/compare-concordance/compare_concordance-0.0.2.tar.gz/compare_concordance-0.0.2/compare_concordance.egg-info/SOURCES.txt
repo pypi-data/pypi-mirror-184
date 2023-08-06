@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+compare_concordance/__init__.py
+compare_concordance/bindings.py
+compare_concordance/bootstrapping.py
+compare_concordance/compareC.c
+compare_concordance/compare_concordance.py
+compare_concordance.egg-info/PKG-INFO
+compare_concordance.egg-info/SOURCES.txt
+compare_concordance.egg-info/dependency_links.txt
+compare_concordance.egg-info/requires.txt
+compare_concordance.egg-info/top_level.txt
+test/test_compare_concordance.py
