@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+oss/__init__.py
+oss/oss.py
+osss.egg-info/PKG-INFO
+osss.egg-info/SOURCES.txt
+osss.egg-info/dependency_links.txt
+osss.egg-info/top_level.txt
