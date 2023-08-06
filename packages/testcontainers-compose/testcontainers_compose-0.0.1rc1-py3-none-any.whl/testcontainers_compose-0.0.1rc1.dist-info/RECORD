@@ -1,0 +1,6 @@
+testcontainers/compose/__init__.py,sha256=PEnNhdVmSJzNyAFIPfxg4l58NnTSllhxXj4URnWdqGs,6917
+tests/test_docker_compose.py,sha256=YSHksZ89ts8OfHi3jhP2kaFV22r208-UdHjN2NjL1do,3299
+testcontainers_compose-0.0.1rc1.dist-info/METADATA,sha256=b4zRzBfafiXTxrJ1gk26oyLusKcMtKPu9z0HDkXu5BU,373
+testcontainers_compose-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_compose-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_compose-0.0.1rc1.dist-info/RECORD,,
