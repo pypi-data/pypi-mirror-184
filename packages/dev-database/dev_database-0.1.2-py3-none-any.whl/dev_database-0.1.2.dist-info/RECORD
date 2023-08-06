@@ -1,0 +1,11 @@
+Database/__init__.py,sha256=mr52MN7-yZ5QSt9x4GlGvax4fNSqPbZTx0HswD0Yi6c,38
+Database/config.py,sha256=tLZHxnAByHz-8sZ6JTLqHbV9J-5_JLWE-J4XBDrYN4Q,153
+Database/exceptions.py,sha256=krowFzugY0NJD4y1xdpgPbBYkt9gPLeUdOzrOT9v3ds,1473
+Database/main.py,sha256=hvfGotQvLFVCLGKtFqkYJPp517URRfUhtzTGDVhGdkg,18002
+Database/test.py,sha256=XChnco2AIOETycNNQoWx244vy8cQTbDoqteMgNtv134,1038
+Database/text.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dev_database-0.1.2.dist-info/LICENSE,sha256=7WHOeD_d_7hxb43ZZ7IKwi3eliTdAwjaGd_QPo4ujGQ,1064
+dev_database-0.1.2.dist-info/METADATA,sha256=3slt7LTXAYFs3Zi9BoKaACKNYX-QoTb6KtuzfWFuyfQ,469
+dev_database-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dev_database-0.1.2.dist-info/top_level.txt,sha256=uFIkE0rvK0sK33hItyACXPVwaU0PG8AlYoBPdctQKjM,9
+dev_database-0.1.2.dist-info/RECORD,,

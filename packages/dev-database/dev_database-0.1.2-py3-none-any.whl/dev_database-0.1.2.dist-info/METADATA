@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dev-database
+Version: 0.1.2
+Summary: A Local Development Database
+Home-page: https://github.com/Acul747/Database
+Author: Luca Sebastian Koch
+License: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.11
+License-File: LICENSE
+
