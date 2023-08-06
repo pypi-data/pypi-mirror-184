@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: search-lyrics
+Version: 0.0.2
+Summary: Search for lyric
+License: MIT
+Author-email: Xavier Mitault <xavier.mitault@epitech.eu>
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: wrap-genius>=1.8.0
+Description-Content-Type: text/markdown
+
+# search-lyrics
+
+## Install
+
+```bash
+pip install search-lyrics
+```
+
+## Usage
+
+### from cmd-line
+
+1. help
+```console
+$ search-lyrics --help
+usage: Search for song containing lyrics [-h] [--artist artist] [--text text] [--genius-access-token genius_access_token] [--verbose]
+                                         [--version]
+
+options:
+  -h, --help            show this help message and exit
+  --artist artist       Artist to search text into
+  --text text           text to search
+  --genius-access-token genius_access_token
+                        access token to use for genius api (by default, search for GENIUS_ACCESS_TOKEN in ENV variables)
+  --verbose             Enable verbose output
+  --version             Show version and exit
+```
+
+2. search Neoni song containing "heaven can't help me now"
+```console
+$ search-lyrics --artist "Neoni" --text "heaven can't help me now" --genius-access-token "PUT HERE YOUR GENIUS ACCESS TOKEN"
+SANCTUARY
+```
+
+### from python
+
+```python
+from search_lyrics import search_lyrics
+songs = search_lyrics("Neoni", "heaven can't help me now", "PUT HERE YOUR GENIUS ACCESS TOKEN")
+for song in songs:
+    print(song.title)
+```
+

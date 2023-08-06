@@ -1,0 +1,11 @@
+search_lyrics/__init__.py,sha256=T2PmUhM1GdaMpfplXeku59wi865jtBEm3FxdzbghY-s,266
+search_lyrics/__main__.py,sha256=X4JH9YSwWVf0oqcMtgFsb6RTNb7glcXjCjz0pWkR2P8,79
+search_lyrics/__version__.py,sha256=xy5icTVL_-T_uZleOq5SPoLjDLVLWIK0U8whN-ij6kI,21
+search_lyrics/entrypoint.py,sha256=23uJa6VnQ_B7TBmPZJ4t-bfUpFC54umHPix85vjXrMY,1115
+search_lyrics/exceptions.py,sha256=E_9Ow9d0xXqv89kXZQNbduqMnTgksoMzDp94CdZUZTA,271
+search_lyrics/main.py,sha256=4JtkPjiHNNHFCDaWb1KXnNnc4ugYQoUXln_NRthh6OI,1831
+search_lyrics-0.0.2.dist-info/entry_points.txt,sha256=RQUe2X2myb_hI-oiioPb1sqiDkQDm2CZw2FKdJwzkwM,69
+search_lyrics-0.0.2.dist-info/WHEEL,sha256=_LDBqpgIVFNHZvvFOGbg2pvJOENq6RHAyT5px-HeX0U,87
+search_lyrics-0.0.2.dist-info/METADATA,sha256=uWHvoQCBnxJ7EcSAbWZpGcnght5kowhaO1Klkf73jbw,1561
+search_lyrics-0.0.2.dist-info/licenses/LICENSE,sha256=Xq5QOFbxvJwIm9VJCmiuygumVnbf7ll8MpqRza8Pkyg,1071
+search_lyrics-0.0.2.dist-info/RECORD,,
