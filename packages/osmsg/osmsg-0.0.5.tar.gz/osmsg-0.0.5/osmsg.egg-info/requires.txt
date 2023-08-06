@@ -1,0 +1,4 @@
+osmium
+pandas
+requests
+dataframe-image
