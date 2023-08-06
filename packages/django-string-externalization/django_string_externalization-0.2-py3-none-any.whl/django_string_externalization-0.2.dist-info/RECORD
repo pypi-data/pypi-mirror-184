@@ -1,0 +1,9 @@
+django_string_externalization/__init__.py,sha256=i7kdD4jpIFb42335uFaR96kJ2m1hv5r-TMUVFOy4qrA,67
+django_string_externalization/html_util.py,sha256=d-1lTJYRfEOvEc19DkO1Kt5goO4ehVZMaMqxfLtAqbE,1052
+django_string_externalization/text_entry_manager.py,sha256=AFoGAVfOjp60NB7mzl2u9uJ4HEsFtJTg9ha9pobnyXE,837
+django_string_externalization/text_maker.py,sha256=Vsc0Vm4uqhYKiERte9Pc23j_arH_U-QXC_AuhjS7phg,3496
+django_string_externalization/text_watcher.py,sha256=cbgIv2l1Glg-FmVnvATtqavek1yrKCJLB4FrFqwD588,2669
+django_string_externalization-0.2.dist-info/METADATA,sha256=OWoTaxn7S-lwbVhQgyLLqUYTUpQ72SBb9WUa2KyGpEQ,3170
+django_string_externalization-0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_string_externalization-0.2.dist-info/top_level.txt,sha256=HBtaemevjUfpQhKeHK8w4bhpql_uBC7_CwDmA4RvAf4,30
+django_string_externalization-0.2.dist-info/RECORD,,
