@@ -1,0 +1,6 @@
+testcontainers/opensearch/__init__.py,sha256=y7_OB_1vIezNZfsiW96jGKG0gC3Ox2nCz76UayR71Ho,4125
+tests/test_opensearch.py,sha256=pznkBl2n2DficRXrjv456KPCjM7asv9kAPvg_SzBFVc,1310
+testcontainers_opensearch-0.0.1rc1.dist-info/METADATA,sha256=LM_0p68hiKsnTIZrJ1WS4q_p3CqknWtZvNKlFYEIxOY,367
+testcontainers_opensearch-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_opensearch-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_opensearch-0.0.1rc1.dist-info/RECORD,,
