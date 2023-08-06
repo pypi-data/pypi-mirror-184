@@ -1,0 +1,3 @@
+recursive-include cfg *.yaml
+recursive-include data *.yaml
+recursive-include inference *.jpg
