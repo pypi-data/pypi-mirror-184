@@ -1,0 +1,3 @@
+[console_scripts]
+test_openapi_paths = test_openapi_paths.cli:main
+
