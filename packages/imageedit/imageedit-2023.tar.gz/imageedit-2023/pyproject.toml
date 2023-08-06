@@ -1,0 +1,84 @@
+[tool.poetry]
+name = "imageedit"
+version = "2023"
+license = "mit"
+description = "Create various icon masks and shading effects with the imageedit library"
+authors = ["FredHappyface"]
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Education",
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Topic :: Multimedia :: Graphics",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Topic :: Utilities"
+]
+homepage = "https://github.com/FredHappyface/Python.ImageEdit"
+repository = "https://github.com/FredHappyface/Python.ImageEdit"
+documentation = "https://github.com/FredHappyface/Python.ImageEdit/blob/master/README.md"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+layeredimage = "<2024,>=2022.0.1"
+svgtrace = "<2024,>=2022"
+blendmodes = "<2024,>=2022"
+colourswatch = "<2024,>=2022.0.1"
+Pillow = "<10,>=9.1.0"
+playwright = "<2,>=1.29.1"
+install-playwright = "<2,>=0.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+pylint = "^2.13.5"
+handsdown = "^1.1.0"
+coverage = "^6.3.2"
+
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+
+[tool.isort]
+profile = "black"
+indent = "Tab"
+
+[tool.pydocstyle]
+convention = "google"
+ignore = "D205,D415"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.basic]
+argument-naming-style = "camelCase"
+attr-naming-style = "camelCase"
+function-naming-style = "camelCase"
+method-naming-style = "camelCase"
+variable-naming-style = "camelCase"
+
+[tool.pylint.format]
+indent-string = "\t"
+
+[tool.pylint.master]
+ignore-paths = ["tests"]
+
+[tool.pylint.messages_control]
+enable = ["F", "E", "W", "R", "C"]
+disable = ["pointless-string-statement", "superfluous-parens"]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+env_list =
+	py311
+	py310
+	py39
+	py38
+
+[testenv]
+deps = pytest
+commands = pytest tests
+"""
