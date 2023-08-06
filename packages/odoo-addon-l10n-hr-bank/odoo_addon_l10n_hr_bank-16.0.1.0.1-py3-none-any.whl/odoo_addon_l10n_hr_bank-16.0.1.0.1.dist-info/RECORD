@@ -1,0 +1,10 @@
+odoo/addons/l10n_hr_bank/README.rst,sha256=w2Bq_y5GZzzQ1H5smWy5dKdwOiPu29jhUvgMXpcdtF8,997
+odoo/addons/l10n_hr_bank/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/l10n_hr_bank/__manifest__.py,sha256=bTzrC9H4gBrovExHzCc7QjPb2j8bWK6Ak4OQH-JEyA4,637
+odoo/addons/l10n_hr_bank/data/res_bank_data.xml,sha256=Am0Fr1CHS9nDE3cAMCapb-iXxH1NY1hGJCklmCoZ2w0,12970
+odoo/addons/l10n_hr_bank/i18n/l10n_hr_bank.pot,sha256=leB6MlaWiU1sPOdcOTxNVY5KVORnHv0MfD14HgQJIIs,341
+odoo/addons/l10n_hr_bank/static/description/icon.png,sha256=7e1lmRnjaHo6ARZA5f_pTVUO0jIK4LQYjuQmbW41Mv4,17892
+odoo_addon_l10n_hr_bank-16.0.1.0.1.dist-info/METADATA,sha256=eTery_IvC-60bENZNcfEfe1M3dJcW94JiCai-9c-pqI,1549
+odoo_addon_l10n_hr_bank-16.0.1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+odoo_addon_l10n_hr_bank-16.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo_addon_l10n_hr_bank-16.0.1.0.1.dist-info/RECORD,,
