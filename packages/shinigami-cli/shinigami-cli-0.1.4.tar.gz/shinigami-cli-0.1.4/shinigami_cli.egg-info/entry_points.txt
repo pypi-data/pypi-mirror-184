@@ -1,0 +1,2 @@
+[console_scripts]
+shinigami-cli = src.cli:ShinigamiCli.run
