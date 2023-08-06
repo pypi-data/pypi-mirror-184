@@ -1,0 +1,8 @@
+flask_admin_cli/__init__.py,sha256=B4sdDHHGXPjMK5opX2GkMqvgWYP-6aRkCk-rCERlgtI,100
+flask_admin_cli/api.py,sha256=oaLbpmlE9y7xn4HvKj995cbhfQKR_sVFB9lwDGpmFbg,2320
+flask_admin_cli/cli.py,sha256=o7r9s3YUFptSqEVaxRJXpkL9CUT1euKJCp7s2PZB-4c,1199
+flask_admin_cli/exceptions.py,sha256=peHGG2F7O-d3ncghOQnkO-JG6VGtb0ShfGhuDU55IVU,447
+flask_admin_cli-0.1.3.dist-info/entry_points.txt,sha256=x6xrgFrYJdzgmyfwLy_gsRbSbaLAExrQTFV76NcKD1A,59
+flask_admin_cli-0.1.3.dist-info/METADATA,sha256=Jsg_eD58fQtCmvqxWKa2ilDgvXEFkvz6yQ_9kInO5IQ,1586
+flask_admin_cli-0.1.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+flask_admin_cli-0.1.3.dist-info/RECORD,,
