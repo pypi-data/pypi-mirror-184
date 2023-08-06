@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: alice-api
+Version: 1.0.1
+Summary: Alice api its come with sms spammer, truewallet system and host system!
+Home-page: https://github.com/alice-api/alice-api
+Author: pipatpong
+Author-email: kanyatit2500@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: datetime
+
+
+# Alice api
+
+Alice api its come with sms spammer, truewallet system and host system!
+
+
+## Documentation
+
+[Documentation](https://alice-api.gitbook.io/docs/)
+
+
+## Authors
+
+- [@fostgod](https://www.github.com/fostgod)
+
