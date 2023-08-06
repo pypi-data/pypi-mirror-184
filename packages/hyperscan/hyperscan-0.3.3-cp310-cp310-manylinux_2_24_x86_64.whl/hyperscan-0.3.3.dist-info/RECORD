@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=5aEOXA34UhjpFL1P2c2W0kp1rWUpq0N5EUu0_reBRIg,6455
+README.md,sha256=CrliWIedq37Ndos4cNXCdI8sTI1a97-L5UP6cAU5gAQ,2448
+hyperscan/__init__.py,sha256=iFMtkSaaF3soR40LlRl0qdfF90RNKnvE57gxzGYr-qU,279
+hyperscan/hyperscanmodule.c,sha256=PpnZOOu336crZHc5ZDy_YHboy--02p77jARZ7cbrMVw,47066
+hyperscan/_hyperscan.cpython-310-x86_64-linux-gnu.so,sha256=erpdc_FMa1ai1TBin8oDdamV557N4vF-DkiQplenRe0,13891336
+hyperscan-0.3.3.dist-info/METADATA,sha256=qj9RmlL2gcGJFzZXWPtWNCdxFGNvXNKbGxTKh0lfolQ,4064
+hyperscan-0.3.3.dist-info/LICENSE,sha256=yvm4yRI_IxT-4iZOEl1Nx9I0Dm0JbAbmHt8OmKopiUA,1070
+hyperscan-0.3.3.dist-info/WHEEL,sha256=PaZB4p3nsPTL1yEoy4AsY1_jQkhi3N1luoIuLC6bOfg,110
+hyperscan-0.3.3.dist-info/RECORD,,
