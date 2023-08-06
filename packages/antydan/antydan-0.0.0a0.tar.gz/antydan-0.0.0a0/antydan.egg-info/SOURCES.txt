@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+antydan/__init__.py
+antydan/main.py
+antydan/types.py
+antydan.egg-info/PKG-INFO
+antydan.egg-info/SOURCES.txt
+antydan.egg-info/dependency_links.txt
+antydan.egg-info/requires.txt
+antydan.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_main.py
+tests/test_version.py

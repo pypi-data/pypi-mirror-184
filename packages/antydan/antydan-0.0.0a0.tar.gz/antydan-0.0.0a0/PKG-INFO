@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: antydan
+Version: 0.0.0a0
+Summary: Prompt types for your generative AIs.
+Author-email: Anthony Corletti <anthcor@gmail.com>
+License: MIT
+Project-URL: Documentation, https://github.com/anthonycorletti/antydan
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# antydan
+
+Prompt types for your generative AIs.
+
+[antydan](https://en.wiktionary.org/wiki/antydan) is Swedish for "hint".
+
+Coming soon!
