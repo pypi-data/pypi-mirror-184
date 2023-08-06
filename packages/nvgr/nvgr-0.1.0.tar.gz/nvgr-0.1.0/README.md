@@ -1,0 +1,3 @@
+# nvgr
+
+Navigare - Nautical calculations
