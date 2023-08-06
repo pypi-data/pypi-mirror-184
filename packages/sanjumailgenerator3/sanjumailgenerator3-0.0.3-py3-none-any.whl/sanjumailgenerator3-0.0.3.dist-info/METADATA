@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sanjumailgenerator3
+Version: 0.0.3
+Summary: A script to send automated mails.
+Home-page: 
+Author: Sanooj Babu
+Author-email: sanooj.kakkoth@onebillsoftware.com
+License: MIT
+Keywords: mail
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This just a test package to send automated mails.
+
+Change Log
+==========
+
+0.0.1 (04/01/2023)
+-------------------
+- First Release
