@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: zendesk_sell_firehose_client
+Version: 0.0.5
+Summary: Client for ZenDesk Sell Firehose API
+Author-email: StrongMind <teambelding@strongmind.com>, Mark Ng <mark.ng@strongmind.com>, Paul Shippy <paul.shippy@strongmind.com>
+Project-URL: Homepage, https://github.com/StrongMind/zendesk_sell_firehose_client
+Project-URL: Bug Tracker, https://github.com/StrongMind/zendesk_sell_firehose_client/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Zendesk Sell Firehose Client
+
+Client for ZenDesk Sell Firehose API
+
+## Installation
+
+```bash
+pip install zendesk_sell_firehose_client
+```
+
+
+## Usage
+
+```python
+from zendesk_sell_firehose_client import ZendeskSellFirehoseClient
+
+client = ZendeskSellFirehoseClient(bearer_token="{BEARER_TOKEN_HERE}")
+
+# Get all leads
+leads = client.get_leads()
+```
+
+
+## Development
+
+### Setup
+
+```bash
+pip install -r requirements.txt
+```
+
+### Testing
+
+```bash
+pytest
+```
