@@ -1,0 +1,6 @@
+testcontainers/azurite/__init__.py,sha256=n7hiu1ADQroH4ia_7M4tsVanDy0ZQA43MquJiYLNY-A,4490
+tests/test_azurite.py,sha256=7FlhUE2qbbiMvnUkI_gj6lTiy2Vi6yXGy10sw2Qs9lY,422
+testcontainers_azurite-0.0.1rc1.dist-info/METADATA,sha256=dr9uIGZCk4igdaqy0E8EsN_g1rMp9NQghA9zTUqaDF4,363
+testcontainers_azurite-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_azurite-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_azurite-0.0.1rc1.dist-info/RECORD,,

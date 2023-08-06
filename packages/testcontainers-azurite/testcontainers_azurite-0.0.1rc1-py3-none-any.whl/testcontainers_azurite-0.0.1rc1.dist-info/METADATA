@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: testcontainers-azurite
+Version: 0.0.1rc1
+Summary: Azurite component of testcontainers-python.
+Home-page: https://github.com/testcontainers/testcontainers-python
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: testcontainers-core
+Requires-Dist: azure-storage-blob
+
+Azurite component of testcontainers-python.
