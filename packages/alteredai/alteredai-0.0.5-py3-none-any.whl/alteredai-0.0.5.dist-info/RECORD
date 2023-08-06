@@ -1,0 +1,11 @@
+alteredai/AlteredAiDataLoader.py,sha256=CkM2M17ykXipsxD-UOoaiUB68VkJ9hFiTvlhS1awiXo,1428
+alteredai/AlteredAiPytorch.py,sha256=hPngIdSCW6OgI_Di9kNi9K46O8Dm1OOLIQpqD_d8Dcw,1031
+alteredai/AlteredAiTensorflow.py,sha256=cml06zEsJraedYqT4nwA8Nd8EfwQc3NCuIRIUyYJ2Qw,270
+alteredai/DataTransformations.py,sha256=Q-2TaK7AFMyuH3hAWNkQjG_ylH7QdajHRBLfcux2h8U,672
+alteredai/__init__.py,sha256=V6LJmPe8Dc54oD6RIkK09FJL6C6btkK059Wk4evVmbw,153
+alteredai/utilities.py,sha256=dX8_ZEemriR0QIHaD1DY6gP7RnSE3vWPOqigAa1LLHw,1451
+alteredai-0.0.5.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+alteredai-0.0.5.dist-info/METADATA,sha256=ly_-lvOS8omTOkwhnd_vH6dQXUqZ8WEkzJA-mL_jwyg,350
+alteredai-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+alteredai-0.0.5.dist-info/top_level.txt,sha256=w1WQ5Sr54ZvvOgeyAq76z8aEkDdgcbT9KeDgWC3ws_w,10
+alteredai-0.0.5.dist-info/RECORD,,
