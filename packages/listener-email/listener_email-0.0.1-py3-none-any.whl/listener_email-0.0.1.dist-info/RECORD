@@ -1,0 +1,8 @@
+listener_email/__init__.py,sha256=FB7jLXxFHgH0LvkeiVYqGOgCBQ00GYHR4dhxwqV8ZM8,4661
+listener_email/email.html,sha256=TfadJvAqjxEk7yiS3ZEOtxSWgdIKChYOuoewmOY31as,5503
+listener_email/email.json,sha256=g92dOO3IMMUro6n32EdrUECsD11F5uYRIlctffLVbI8,267
+listener_email/example.py,sha256=jyP4t7Dxqbml0UIVTL-_dT-Kth5JrvsY2RGz3rL7QTQ,757
+listener_email-0.0.1.dist-info/LICENSE,sha256=V9jvQLclae9MJ4Kzzc4wViFeBVYtV8PTlq4Ii5nM89Q,33091
+listener_email-0.0.1.dist-info/METADATA,sha256=6CaDTkL1K8M0FfaXtC6HUJZk8y2NFJ9-5sY--fEwTTI,2119
+listener_email-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+listener_email-0.0.1.dist-info/RECORD,,
