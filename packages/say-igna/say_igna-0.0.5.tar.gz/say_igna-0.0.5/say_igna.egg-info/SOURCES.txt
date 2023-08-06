@@ -1,0 +1,8 @@
+setup.py
+say_igna/__init__.py
+say_igna/a.py
+say_igna/hello.py
+say_igna.egg-info/PKG-INFO
+say_igna.egg-info/SOURCES.txt
+say_igna.egg-info/dependency_links.txt
+say_igna.egg-info/top_level.txt
