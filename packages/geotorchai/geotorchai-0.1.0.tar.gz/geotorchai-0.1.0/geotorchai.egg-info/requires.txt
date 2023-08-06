@@ -1,0 +1,10 @@
+torch
+rasterio
+scikit-image
+numpy
+pandas
+kaggle
+
+[Preprocessing]
+pyspark
+apache-sedona
