@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: jnunes-account
+Version: 0.1.1
+Summary: App for Django projects
+Home-page: https://github.com/jarnunes/accounts
+Author: Jardel Nunes
+Author-email: jarnunesc@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.0
+License-File: LICENSE
+
+# Commons Django Application
+
+Commons User Accounts Application for registration, login, logout and reset password.
+
+
