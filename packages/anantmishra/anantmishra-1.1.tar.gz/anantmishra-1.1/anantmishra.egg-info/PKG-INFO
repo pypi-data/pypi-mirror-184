@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: anantmishra
+Version: 1.1
+Summary: A simple package for doing calculations   commands list:   calculate(x, y, operation)   about()   operations: "add" "subtract" "divide"  "exponentiate" "modulo" "square root"  
+Home-page: UNKNOWN
+Author: Anant Mishra
+Author-email: gioneemaxuser@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
