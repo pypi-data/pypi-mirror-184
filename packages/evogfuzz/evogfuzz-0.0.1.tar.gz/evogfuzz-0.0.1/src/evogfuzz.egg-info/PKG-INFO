@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: evogfuzz
+Version: 0.0.1
+Summary: Evolutionary Grammar-Based Fuzzer
+Author: Martin Eberlein
+Author-email: martin.eberlein@informatik.hu-berlin.de
+Provides-Extra: dev
