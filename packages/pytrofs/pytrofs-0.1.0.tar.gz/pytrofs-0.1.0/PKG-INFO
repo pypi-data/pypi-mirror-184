@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pytrofs
+Version: 0.1.0
+Summary: "Python implementation of Tcl's trofs (Tcl Read-Only FileSystem)"
+Home-page: https://github.com/jevinskie/pytrofs
+Author: Jevin Sweval
+Author-email: jevinsweval@gmail.com
+License: BSD-2-Clause
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytrofs
+Python implementation of Tcl's [trofs](https://wiki.tcl-lang.org/page/trofs) (Tcl Read-Only FileSystem).

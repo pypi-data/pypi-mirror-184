@@ -1,0 +1,2 @@
+[console_scripts]
+pytrofs-util = pytrofs.tools.pytrofs_util:main
