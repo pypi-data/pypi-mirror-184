@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pc_zap_scrapper"
+requires-python = ">=3.10.8"
+description = "Um template para começar o desenvolvimento de apps"
+readme = "README.md"
+authors = [
+    { name = "Eduardo", email = "emdemor415@gmail.com.br" }
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Utilities",
+]
+keywords = ["template", "app"]
+dynamic = ["dependencies", "version"]
+
+[tool.setuptools]
+packages = ["pc_zap_scrapper"]
+
+# [tool.setuptools.packages.find]
+# where = ["pc_zap_scrapper"]  # list of folders that contain the packages (["."] by default)
+# include = ["pc_zap_scrapper*"]  # package names should match these glob patterns (["*"] by default)
+# exclude = ["notebooks*", "dataasets*"]  # exclude packages matching these glob patterns (empty by default)
+# namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
+
+[tool.setuptools.dynamic]
+version = {attr = "pc_zap_scrapper.__version__"}
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+zapscrap = "pc_zap_scrapper.__main__:cli"
