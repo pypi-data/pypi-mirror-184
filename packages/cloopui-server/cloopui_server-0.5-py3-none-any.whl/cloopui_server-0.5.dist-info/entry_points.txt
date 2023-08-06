@@ -1,0 +1,2 @@
+[console_scripts]
+cloopui_server = cloopui_server.command_line:main
