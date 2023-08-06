@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pyprivpackage/__init__.py
+src/pyprivpackage/module1.py
+src/pyprivpackage.egg-info/PKG-INFO
+src/pyprivpackage.egg-info/SOURCES.txt
+src/pyprivpackage.egg-info/dependency_links.txt
+src/pyprivpackage.egg-info/requires.txt
+src/pyprivpackage.egg-info/top_level.txt
