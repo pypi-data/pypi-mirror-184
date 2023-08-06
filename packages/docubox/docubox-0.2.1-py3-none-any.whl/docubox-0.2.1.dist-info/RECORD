@@ -1,0 +1,11 @@
+docubox/__init__.py,sha256=S--Ekr7dq-qUZEb05aLyqE-lLEup9rCkAud12uc_xoA,210
+docubox/__main__.py,sha256=hHPBFJwsOlY_Byc8tiHFTpWvG4BLgbcS9_X6p83aPS4,95
+docubox/builder.py,sha256=jJcXitv3_JEZZvrV5ftygy4d4UdAP0OXBG3iyEbNnfg,4278
+docubox/config.py,sha256=EKRajO87LtS9fCEOucBnPGOVaJ4QGd9sBWkORz_KtWw,2700
+docubox/launcher.py,sha256=mhpJ4fox4VSWUOABoGIvx0FaK45mMFo2SDYSXgIaP2M,2162
+docubox/version.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+docubox-0.2.1.dist-info/LICENSE,sha256=KxAUFlgAB_09358VFJhYYRLQ0RtR2kH26hm8w7BKPHw,1474
+docubox-0.2.1.dist-info/METADATA,sha256=irF4D8OZAn76RsLOffm05MXV3wxxcstcYQvMYRYUd_Y,3366
+docubox-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+docubox-0.2.1.dist-info/top_level.txt,sha256=yXK--zvQUiGrmHBOwixXZgwagjdhuURi2MsaDKIc3Wg,8
+docubox-0.2.1.dist-info/RECORD,,
