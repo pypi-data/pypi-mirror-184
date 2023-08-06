@@ -1,0 +1,7 @@
+six
+diffpy.structure>=3
+diffpy.pdffit2
+diffpy.utils
+matplotlib-base
+wxpython
+menuinst
