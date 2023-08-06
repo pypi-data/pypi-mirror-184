@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+shapefile_to_sqlite/__init__.py
+shapefile_to_sqlite/cli.py
+shapefile_to_sqlite/utils.py
+shapefile_to_sqlite.egg-info/PKG-INFO
+shapefile_to_sqlite.egg-info/SOURCES.txt
+shapefile_to_sqlite.egg-info/dependency_links.txt
+shapefile_to_sqlite.egg-info/entry_points.txt
+shapefile_to_sqlite.egg-info/requires.txt
+shapefile_to_sqlite.egg-info/top_level.txt
