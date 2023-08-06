@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: wikidata-bot-framework
+Version: 1.0.0
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pywikibot
+Requires-Dist: mwparserfromhell
+
