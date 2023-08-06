@@ -1,0 +1,54 @@
+# RecSysPy | Recommender System Python Package
+
+![version](https://img.shields.io/badge/version-0.0.4-blue)
+
+A Python package calculating recommendations from **implicit** feedback, i.e. utilizing **unary ratings** only.
+
+> _The main contribution of this package is, that it tries to implement standards in recommender system (RS) development and provide a comprehensible way to utilize the RS methods in a software project._
+
+The contributions can be summarized as
+* Definition of data format standards
+* Easy application of recommender system methods (=**RSM**s)
+* Provision of **RSM**s from practitioners and research
+* Overview and taxonomy of recommender systems based on **RSM**s
+* Play around with Recommender Systems!
+# Installation
+
+```cmd
+pip install recsyspy
+```
+
+# Recommender Systems
+
+The definition of the term **Recommender System** highly depends on the context where it is applied. However, we try to find the common base which all recommender systems rely on.
+There is a vast amount of literature available that provide definitions of **RS**s. Mostly, they are motivated by examples what applications of **RS**s look like. However, we try to find a definition that is not bound to examples.
+
+> **Definition.**<br/> A **Recommender System** (=**RS**) is a service that utilizes **metrics** from **Recommender System Methods** (=**RSM**) to display **dynamic items** to **dynamic users**.
+
+Note that this is a rather vague definition and we solely rely on 'metrics' rather than 'recommendations' since this would already make assumptions about the nature of items. Whereas it seems to be obvious that 'recommendations' are always favorable, we acknowledge that there are research streams in RS and customer behavior literature that deal with influences of negative (i.e. unfavorable) product suggestions (e.g. Mousavi et al. 2021, Teppan and Zanker 2015).
+
+> **Definition.**<br/> A **dynamic item** is a consumable that allows **interaction** with different **users**. The term **dynamic** refers to the ability of **items** to change their attributes across dimensions. Those dimension can be time, users etc.
+
+> **Definition.**<br/> A **dynamic user** is the cause of certain (i.e. not all) **interactions**. The term **dynamic** refers to the ability of **users** to change across dimensions. Those dimension can be time, location etc.
+
+We do not define a user as the single actor and cause of interactions. Users do not have full control over their attibutes (e.g. age) and actions (e.g. viewing items by the **RS**).
+
+> **Definition.**<br/> An **interaction** is a time limited event (i.e. has a start and an end, e.g. a click) between a **user** and an **item**. The main cause for **interactions** are users, however, some are caused by the environment or the **RS** itself.
+
+> **Definition.**<br/> A Recommender System Method (=**RSM**) is an algorithm that generates **metrics** for **items**. Those **metrics** from **RSM**s can be consumed  to retrieve a list of **items** for a **user**.
+
+Note that **RS**s do not fulfill a _single goal_ but provide domain- and purpose-specific solutions. To find a list of "typical" RS tasks see Herlocker et al. (2004).
+
+# References
+
+Falk, K. 2019. Practical Recommender Systems. Simon and Schuster.
+
+Herlocker, J. L., Konstan, J. A., Terveen, L. G., and Riedl, J. T. 2004. "Evaluating Collaborative Filtering Recommender Systems, " ACM Transactions on Information Systems (TOIS) (22:1), pp. 5-53.
+
+Kulkarni, A., Shivananda, A., Kulkarni, A., and Krishnan, V. A. 2023. "Deep Learning–Based Recommender System, " in Applied Recommender Systems with Python. Springer, pp. 207-220.
+
+Mousavi, N., Bockstedt, J., and Adamopoulos, P. 2021. "Personalization and the Decoy Effect, ").
+
+Ricci, F., Rokach, L., and Shapira, B. 2022. Recommender Systems Handbook. Springer.
+
+Teppan, E. C., and Zanker, M. 2015. "Decision Biases in Recommender Systems, " Journal of Internet Commerce (14:2), pp. 255-275.

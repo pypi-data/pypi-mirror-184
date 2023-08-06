@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+recsyspy/__init__.py
+recsyspy.egg-info/PKG-INFO
+recsyspy.egg-info/SOURCES.txt
+recsyspy.egg-info/dependency_links.txt
+recsyspy.egg-info/requires.txt
+recsyspy.egg-info/top_level.txt
