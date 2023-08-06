@@ -1,0 +1,12 @@
+LICENSE,sha256=bSyY49WBvS97FOxU7WC4UhrvoD8PdioaimU7lY1prPc,1051
+README.md,sha256=pyLWu7JyrBgNTumVrPKEgEgd4a_syDdZQYXYbYbs5u4,1305
+bgetlib/__init__.py,sha256=ueBE1-ZoymudCsLATQPUs8diyr_jVF6aMgfhUEOEIvE,113
+bgetlib/api.py,sha256=WRNSBb2z8dK6wVVdyz8N5yzlDFGPaMU1wzuM87l8U24,6391
+bgetlib/codec.py,sha256=LLmcALaXFgZs0jVHxZdtnQ7jYNf6celxqng4Kn_5xuw,2096
+bgetlib/models.py,sha256=Un8LDiWuNCU6WnfKOSTgVpdqCmjFmueM2ARn4ubMhUU,3670
+bgetlib/streamer.py,sha256=IUET3UKe_vMClp6cGauyf8org6w_LyZNu0b2yzBOj9c,4501
+bgetlib/utils.py,sha256=0rV0rXKgK4OMpbNfuMNtspvY1nkUPOWk3oOexrTNdIs,2755
+bgetlib-3.2.8.dist-info/LICENSE,sha256=bSyY49WBvS97FOxU7WC4UhrvoD8PdioaimU7lY1prPc,1051
+bgetlib-3.2.8.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+bgetlib-3.2.8.dist-info/METADATA,sha256=Q_DQf-YfC0mGlVt-OQfzULsV87Cm_MNy1KU6tfQn0cA,2097
+bgetlib-3.2.8.dist-info/RECORD,,
