@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: MappPPy
+Version: 0.1.0
+Summary: A basic mapping package
+Home-page: https://github.com/KilroyWasHere-cs-j/MapPy.git
+Author: Gabriel Tower
+Author-email: <gmtower1@gmail.com>
+Keywords: python,mapping,folium
+Description-Content-Type: text/markdown
+
+As a basic mapping package. Allows user to plot over top of a dynamic map.
