@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/dpy_dialog.egg-info/PKG-INFO
+src/dpy_dialog.egg-info/SOURCES.txt
+src/dpy_dialog.egg-info/dependency_links.txt
+src/dpy_dialog.egg-info/requires.txt
+src/dpy_dialog.egg-info/top_level.txt
+src/dpydialog/__init__.py
+src/dpydialog/_config.py
+src/dpydialog/_dialog.py
+src/dpydialog/_formatter.py
+src/dpydialog/_runner.py
+src/dpydialog/constants.py
+src/dpydialog/default_formatters.py
+src/dpydialog/exceptions.py
+src/dpydialog/types.py
