@@ -1,0 +1,6 @@
+setup.py
+robotpy_apriltag/__init__.py
+robotpy_apriltag.egg-info/PKG-INFO
+robotpy_apriltag.egg-info/SOURCES.txt
+robotpy_apriltag.egg-info/dependency_links.txt
+robotpy_apriltag.egg-info/top_level.txt
