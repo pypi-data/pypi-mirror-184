@@ -1,0 +1,14 @@
+tknlp/__init__.py,sha256=WcdfDX5IwwP2z1aqQx1Xa6dEAIG0sK1djrzmxy4-njo,269
+tknlp/cli.py,sha256=fn4oH95l9zi_AyjZ2AITSoF-geSN29qY8gXbqKi4THo,5553
+tknlp/contribute/__init__.py,sha256=KvNhY2_STaNTdfBf49fXzCzhobUzVblLRTlR2PnptgY,11129
+tknlp/contribute/cleaner.py,sha256=jfGodusffjEeT38qggXapZVbBHGukECDYsjH-iY-UJQ,15572
+tknlp/contribute/constants.py,sha256=0X-1BclnJ_vWeTSB4QK_9zwJ6PeGEzQTszpiFiAmzIU,3713
+tknlp/model.py,sha256=bxxzjF0yzZcH5zIUVSPKi1eyzlPok1fXCcoC9lajbV4,20205
+tknlp/runner.py,sha256=PD0ve0RxamGW-oGPZ6Oq7cmXZ0-avAJ9WHrQs4WSq2g,13984
+tknlp/spacy/__init__.py,sha256=aeT8pNmF6s-Gh1koqsq8BHPpBrWu7SLHYMjkaWmD7dE,4450
+tknlp/torch.py,sha256=jsScEGPH-OCucRWJ7F8e04izjswINS7aXxrrE6cK3aQ,6291
+tknlp/typing_.py,sha256=n5LaEhxfX6MNHnrP9jNPZsNOHIIpEj-1emWzsMBsi9E,741
+tknlp/utils.py,sha256=_vsjCttuAnKIGdk03wJX8ZHQfJzFVlERgtVpj3-Nilc,14116
+tknlp-0.1.5.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+tknlp-0.1.5.dist-info/METADATA,sha256=uI0ucjXXBXqE84zBeq1i4VXDZaxQBUx_n-WeDO3FO-o,1132
+tknlp-0.1.5.dist-info/RECORD,,
