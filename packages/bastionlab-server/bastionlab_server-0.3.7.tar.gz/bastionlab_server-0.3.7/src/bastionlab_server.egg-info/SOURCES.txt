@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/bastionlab_server/__init__.py
+src/bastionlab_server/server.py
+src/bastionlab_server/version.py
+src/bastionlab_server.egg-info/PKG-INFO
+src/bastionlab_server.egg-info/SOURCES.txt
+src/bastionlab_server.egg-info/dependency_links.txt
+src/bastionlab_server.egg-info/top_level.txt
