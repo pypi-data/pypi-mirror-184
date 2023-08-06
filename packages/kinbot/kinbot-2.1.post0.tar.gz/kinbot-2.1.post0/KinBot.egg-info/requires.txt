@@ -1,0 +1,10 @@
+numpy>=1.17.0
+ase>=3.19
+networkx
+rmsd
+typing-extensions
+
+[plot]
+matplotlib
+pyvis
+rdkit
