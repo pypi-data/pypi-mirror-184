@@ -1,0 +1,9 @@
+picsellia_annotations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picsellia_annotations/coco.py,sha256=mxAl8KmivmQyM47TkaeGLwUjeFj0Y24kEBVbP2gEdfw,2734
+picsellia_annotations/exceptions.py,sha256=uv4sLkobMbQo0hiwuQ5AgCSddxnTZ3xClztHBe66cWY,79
+picsellia_annotations/utils.py,sha256=5kVhEilX0X-On7NQ6B4m5wrj8v6JCqjrztGqmgqK_pM,1909
+picsellia_annotations/voc.py,sha256=sd8uOtEFb8aPcgqxZiWIoC_KgLU-gyKCi-g-oVA6Q_E,1558
+picsellia_annotations-0.4.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+picsellia_annotations-0.4.0.dist-info/LICENSE,sha256=yQPrQ4lNA-yrt-lJSTGLjsyVoH5bUPTAKnOZPsMkxfc,1069
+picsellia_annotations-0.4.0.dist-info/METADATA,sha256=ukfhDrnnsNLmQ-E3i1ObxOm2-7RNgVyOWWXMlkR1nI8,655
+picsellia_annotations-0.4.0.dist-info/RECORD,,
