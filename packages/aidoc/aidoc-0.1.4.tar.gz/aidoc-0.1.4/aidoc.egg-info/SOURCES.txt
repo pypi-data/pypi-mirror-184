@@ -1,0 +1,10 @@
+LICENSE
+README.md
+aidoc.py
+setup.py
+aidoc.egg-info/PKG-INFO
+aidoc.egg-info/SOURCES.txt
+aidoc.egg-info/dependency_links.txt
+aidoc.egg-info/entry_points.txt
+aidoc.egg-info/requires.txt
+aidoc.egg-info/top_level.txt
