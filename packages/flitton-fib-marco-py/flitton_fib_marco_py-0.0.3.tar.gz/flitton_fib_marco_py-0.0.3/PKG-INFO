@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flitton_fib_marco_py
+Version: 0.0.3
+Summary: Calculates a Fibonacci number
+Home-page: https://github.com/marcopaspuel/flitton-fib-py
+Author: Marco Paspuel
+Author-email: marco.paspuel@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Provides-Extra: server
+License-File: LICENSE
+
+# flitton-fib-py
+This a basic pip module on calculationg Fibonacci numbers.
+
+
