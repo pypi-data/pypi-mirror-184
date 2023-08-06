@@ -1,0 +1,10 @@
+scHash/__init__.py,sha256=UTyl2TufGp3ADZ9v7F-kVYSZAbREJ-XgsiVoQd3Hh4w,310
+scHash/dataModule.py,sha256=coap-pIPRmiwoITAnCE_Upx4P1wCZ4mhWCQMPeXuXSE,8650
+scHash/scHash.py,sha256=tEzOHHorf-_OOaS48Jng7n5pgm4tRgHRGvb6u0262Mk,6405
+scHash/scHashMain.py,sha256=26sXExQG0QKwmBZt9qOw8aF1p1glgcJEqxOFH6wSMlg,8191
+scHash/scHashModel.py,sha256=tEzOHHorf-_OOaS48Jng7n5pgm4tRgHRGvb6u0262Mk,6405
+scHash/util.py,sha256=eOcr_WKrdNBKekzDzT968rgMpvGn96mF6hfUjgVOHjY,6157
+scHash-1.3.dist-info/METADATA,sha256=RfL9Dnz67JVC4yy2Lcx5BOAF1Yav5QpcFtt9rxgyGYQ,994
+scHash-1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scHash-1.3.dist-info/top_level.txt,sha256=H3uLFXnBuz2bVSqVAhCxpkiRTLk2aL_okUMxJS9SPgA,7
+scHash-1.3.dist-info/RECORD,,
