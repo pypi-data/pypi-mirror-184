@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/package_ScoreMP/MPscore.py
+src/package_ScoreMP/__init__.py
+src/scoreMP_pkg_USER_NAME.egg-info/PKG-INFO
+src/scoreMP_pkg_USER_NAME.egg-info/SOURCES.txt
+src/scoreMP_pkg_USER_NAME.egg-info/dependency_links.txt
+src/scoreMP_pkg_USER_NAME.egg-info/top_level.txt
