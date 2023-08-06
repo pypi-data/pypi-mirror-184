@@ -1,0 +1,47 @@
+{
+    "string": "The :attribute must be a string.",
+    "integer": "The :attribute must be an integer.",
+    "required": "The :attribute field is required.",
+    "list": "The :attribute must be a list.",
+    "list_item_type": "The :attribute must be a list of :type.",
+    "dict": "The :attribute must be a dictionary.",
+    "dict_with_specified_keys": "The :attribute must be a dictionary with the following keys: :keys.",
+    "boolean": "The :attribute field must be true or false.",
+    "email": "The :attribute must be a valid email address.",
+    "min": {
+        "numeric": "The :attribute must be at least :min.",
+        "string": "The :attribute must be at least :min characters.",
+        "list": "The :attribute must have at least :min items."
+    },
+    "max": {
+        "numeric": "The :attribute may not be greater than :max.",
+        "string": "The :attribute may not be greater than :max characters.",
+        "list": "The :attribute may not have more than :max items."
+    },
+    "in": "The :attribute is invalid.",
+    "not_in": "The :attribute is invalid.",
+    "same": "The :attribute and :other must match.",
+    "numeric": "The :attribute must be a number.",
+    "date": "The :attribute is not a valid date.",
+    "date_format": "The :attribute is not a valid date with the format :format.",
+    "after": "The :attribute must be a date after :date.",
+    "after_or_equal": "The :attribute must be a date after or equal to :date.",
+    "before": "The :attribute must be a date before :date.",
+    "before_or_equal": "The :attribute must be a date before or equal to :date.",
+    "different": "The :attribute and :other must be different.",
+    "starts_with": "The :attribute must start with one of the following: :values.",
+    "ends_with": "The :attribute must end with one of the following: :values.",
+    "contains": "The :attribute must contain the following: :values.",
+    "contains_one_of": "The :attribute must contain at least one of the following: :values.",
+    "between": {
+        "numeric": "The :attribute must be between :min and :max.",
+        "string": "The :attribute must be between :min and :max characters.",
+        "list": "The :attribute must have between :min and :max items.",
+        "date": "The :attribute must be between :min and :max."
+    },
+    "size": {
+        "numeric": "The :attribute must be :size.",
+        "string": "The :attribute must be :size characters.",
+        "list": "The :attribute must contain :size items."
+    }
+}
