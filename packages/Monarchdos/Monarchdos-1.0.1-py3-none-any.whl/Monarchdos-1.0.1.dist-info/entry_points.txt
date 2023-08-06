@@ -1,0 +1,4 @@
+[console_scripts]
+Monarchdos = Monarchdos.monarchdos:main
+wcq = Monarchdos.monarchdos:wcq
+
