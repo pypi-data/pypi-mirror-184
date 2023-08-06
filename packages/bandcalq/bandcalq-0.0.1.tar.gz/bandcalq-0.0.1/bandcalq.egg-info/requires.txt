@@ -1,0 +1,5 @@
+matplotlib
+numpy
+qiskit
+qiskit_terra
+tqdm

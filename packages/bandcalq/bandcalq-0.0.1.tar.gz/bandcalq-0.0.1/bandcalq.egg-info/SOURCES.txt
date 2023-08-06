@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+bandcalq/__init__.py
+bandcalq/bandcalq.py
+bandcalq/vqd_custom.py
+bandcalq.egg-info/PKG-INFO
+bandcalq.egg-info/SOURCES.txt
+bandcalq.egg-info/dependency_links.txt
+bandcalq.egg-info/requires.txt
+bandcalq.egg-info/top_level.txt
