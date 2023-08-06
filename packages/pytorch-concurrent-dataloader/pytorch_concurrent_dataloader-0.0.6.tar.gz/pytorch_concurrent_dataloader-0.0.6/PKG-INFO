@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pytorch_concurrent_dataloader
+Version: 0.0.6
+Summary: Dataloader with concurrency improvements (from https://github.com/iarai/concurrent-dataloader)
+Home-page: https://github.com/BenediktAlkin/PytorchConcurrentDataloader
+Project-URL: Full Source Code, https://github.com/iarai/concurrent-dataloader
+Project-URL: Minimal Version, https://github.com/BenediktAlkin/PytorchConcurrentDataloader
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PytorchConcurrentDataloader
+
+[![publish](https://github.com/BenediktAlkin/PytorchConcurrentDataloader/actions/workflows/publish.yaml/badge.svg)](https://github.com/BenediktAlkin/PytorchConcurrentDataloader/actions/workflows/publish.yaml)
+
+
+Minimal version of the [ConcurrentDataloader repository](https://github.com/iarai/concurrent-dataloader) published to pip.
+
+#### Setup
+
+`pip install pytorch-concurrent-dataloader`
+
+
+#### Usage
+- replace `torch.utils.data.DataLoader` with `pytorch_concurrent_dataloader.DataLoader`
+- pass new parameters for concurrent dataloading
+```
+from pytorch_concurrent_dataloader import DataLoader
+dataloader = DataLoader(
+    # pass old parameters as usual
+    dataset=..., 
+    batch_size=...,
+    num_workers=...,
+    # pass new parameters
+    num_fetch_workers=...,
+)
+```
