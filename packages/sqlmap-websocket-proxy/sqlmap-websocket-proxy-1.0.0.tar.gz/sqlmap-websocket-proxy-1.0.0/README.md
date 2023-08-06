@@ -1,0 +1,36 @@
+# CVE-2021-45010
+🐍 Contrived Python PoC Exploit for [CVE-2021-45010](https://nvd.nist.gov/vuln/detail/CVE-2021-45010).
+Tiny File Manager < 2.4.7
+
+## Usage
+```bash
+usage: main.py [-h] -u URL -l USERNAME -p PASSWORD [-g GUI_PATH] [-r FS_RELPATH]
+
+options:
+  -h, --help            show this help message and exit
+  -u URL, --url URL     Base URL
+  -l USERNAME, --username USERNAME
+                        Username
+  -p PASSWORD, --password PASSWORD
+                        Password
+  -g GUI_PATH, --gui-path GUI_PATH
+                        GUI relative path for upload (default: /)
+  -r FS_RELPATH, --fs-relpath FS_RELPATH
+                        Filesystem relative path (from web root) to write to
+```
+
+## Installation
+
+### PyPI
+```bash
+python3 -m pip install cve-2022-0739
+```
+
+### Manual 
+```bash
+python3 -m pip install cve_2022_0739-1.0.0-py3-none-any.whl
+```
+[Download Latest Release](https://github.com/BKreisel/CVE-2022-0739/releases/download/1.0.0/cve_2022_0739-1.0.0-py3-none-any.whl)
+
+## Demo
+[![demo](https://asciinema.org/a/550190.svg)](https://asciinema.org/a/550190?autoplay=1)
