@@ -1,0 +1,17 @@
+client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/application.py,sha256=hNUGqgS7r22lIHSj7VyhRgyez1hQF3WWO0vaE4uNw5g,11409
+client/config.py,sha256=HSz85-VpKu1O5c1yZThgRb7FU9Sr3tOKQeUWP6N_QIo,524
+client/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/gui/client_gui.ui,sha256=N9x90zAkd7j_CSPU9z2-7Kx_56WSmhM7vp-6XCmQjV8,5927
+client/gui/generate_client_ui.sh,sha256=h-qD3kOkr_2FabnVRWrgt2-Pa6RI2h_lXldxkAzD4D4,72
+client/gui/main_window.py,sha256=zquWDdpNdVaCDST8HojLZOgYOi66pBN0Doc4FB881uc,8515
+client/logger_conf.py,sha256=CI4G_Mbe8B-Y7iylGxBsi1M2XF_QudkXXlWnqHGPIbw,1098
+client/messages.py,sha256=euUL141R8dz61ZhxR5K-_d_sdD4HabJpgQXlO_D_iek,2581
+client/model.py,sha256=XHH9van1QUMAMw4JSqVO_hzYmzITOAF8iBosgc3jBHo,1518
+client/run_client.py,sha256=Pvos2DazGzK9wHBf4T89w2x0X0VMeWsRkQsJ1BbQc84,91
+client/storage.py,sha256=IXF6mDLnhmqBNknaElgjJFsJ--gIZcdYVFKzKQu2Z6s,3006
+client/transport.py,sha256=OJ1cHrX6h6R7B7dTy4jqoi_fWAv7GcuFwiNeQETuRXk,9482
+gb_pychat_client-0.1.1.dist-info/entry_points.txt,sha256=D8Kd_abEFifvRC10dNhOzlgv5hY4VIvb2oc-iwsktqo,52
+gb_pychat_client-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+gb_pychat_client-0.1.1.dist-info/METADATA,sha256=wudd0ZRNlaemwt01PU2FPEdN4eVEM42_t-KfBzi68ps,480
+gb_pychat_client-0.1.1.dist-info/RECORD,,
