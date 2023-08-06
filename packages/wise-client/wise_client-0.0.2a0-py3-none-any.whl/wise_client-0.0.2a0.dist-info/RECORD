@@ -1,0 +1,8 @@
+wise_client/__init__.py,sha256=LPwUJskSNPKAzAnKhSzQMZty4Hl4SUiQ9udEDA4fxb4,123
+wise_client/base_client.py,sha256=SVkp6dG4635WJyJggdCeX5680I3qOWWM9_8NiLWL_9M,2786
+wise_client/wise_client.py,sha256=rNzZTAk6seDGoAssjohPc1TvHN68ZCVY7zspnTTlAt4,8439
+wise_client-0.0.2a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+wise_client-0.0.2a0.dist-info/METADATA,sha256=64e6nFK_POGXORE_en_wTNWAB_lPul_mCxAWKFAZLz8,14797
+wise_client-0.0.2a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wise_client-0.0.2a0.dist-info/top_level.txt,sha256=m3gwhu7OVZd4DoAQ2M27JCzzPsU4xok0bso5ar4vv8c,12
+wise_client-0.0.2a0.dist-info/RECORD,,
