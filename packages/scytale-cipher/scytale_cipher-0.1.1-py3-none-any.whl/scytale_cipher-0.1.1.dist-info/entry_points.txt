@@ -1,0 +1,3 @@
+[console_scripts]
+scytale=scytale_cipher.scytale:main
+
