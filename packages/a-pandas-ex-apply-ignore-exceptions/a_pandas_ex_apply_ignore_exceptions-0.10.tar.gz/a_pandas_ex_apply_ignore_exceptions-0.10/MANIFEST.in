@@ -1,0 +1,4 @@
+include a_pandas_ex_apply_ignore_exceptions/requirements.txt
+include a_pandas_ex_apply_ignore_exceptions/thirdparty.json
+include a_pandas_ex_apply_ignore_exceptions/README.MD
+include a_pandas_ex_apply_ignore_exceptions/LICENSE
