@@ -1,0 +1,9 @@
+[packages]
+pandas = "*"
+plotly = "*"
+seaborn = "*"
+
+[dev-packages]
+nbdev = "==1.2.11"
+setuptools = "*"
+twine = "*"
