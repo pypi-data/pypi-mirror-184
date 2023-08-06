@@ -1,0 +1,8 @@
+viper/__init__.py,sha256=-Y28Wm-YOj55YCx2n0yejipBVhSQnNaLOWb4_hmd-Gg,628
+viper/main.py,sha256=jMs1UGdW2LHEG628bavH12fEOjzc2bot2fhuyWOQQzI,7929
+viper/data/__init__.py,sha256=7Edpzcl1eTsi5PblWv9hYm8ljZRCp9ev4c8CU5wl5aU,113
+viper/data/mtcars.csv,sha256=5AjfcIq6Y6Kp4fPU1xnuTA5SERo0gOTvIk1joKCPTEc,1731
+viper_test-0.0.1.dist-info/METADATA,sha256=WoGqmA6DyJ_eBJkTXvzJcXBKP_zUTnNtZtCOFUwFcf4,3008
+viper_test-0.0.1.dist-info/WHEEL,sha256=hKi7AIIx6qfnsRbr087vpeJnrVUuDokDHZacPPMW7-Y,87
+viper_test-0.0.1.dist-info/licenses/LICENSE,sha256=La6RPw3wyJ6T053iT5ke0AjVsoEFe_VVJJ3CPamIsM4,1093
+viper_test-0.0.1.dist-info/RECORD,,
