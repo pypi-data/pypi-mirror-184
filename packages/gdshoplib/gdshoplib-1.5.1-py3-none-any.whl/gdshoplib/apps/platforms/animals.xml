@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ads target="Avito.ru" formatVersion="3">
+    <Ad>
+        <Id>24534225</Id>
+        <Title>Щенок хаски ласковый</Title>
+        <Category>Собаки</Category>
+        <Breed>Сибирский хаски</Breed>
+        <Description><![CDATA[
+        Племенной питомник Сибирских хаски продает породных щенков Сибирский хаски!
+        Красивые, умные, мальчики и девочки, любых окрасов, без наследственных заболеваний, правильного разведения и питания, с устойчивой психикой, для семьи, для выставок, для спорта!
+        Полный пакет документов, родословная РКФ, все прививки.
+        Скидки на снаряжение для собак, корма по цене питомника, консультации.
+        Возраста щенков от 2х месяцев до 7месяцев.
+        Цена на щенков разная, звоните.
+        ]]></Description>
+        <Address>Москва, улица Лесная, 9</Address>
+        <Price>15000</Price>
+        <ManagerName>Менеджер по продажам</ManagerName>
+        <AllowEmail>Да</AllowEmail>
+        <Images>
+            <Image url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Husky_Puppy.jpg/260px-Husky_Puppy.jpg"/>
+        </Images>
+		<VideoURL>http://www.youtube.com/watch?v=YKmDXNrDdBI</VideoURL>
+        <AdStatus>Free</AdStatus>
+    </Ad>
+    <Ad>
+        <Id>56352</Id>
+        <Title>Умная девочка кун</Title>
+        <Category>Кошки</Category>
+        <Breed>Мейн-кун</Breed>
+        <Description>Очаровательная кошечка мейн-кун из питомника "Oligarch" готова переехать к новым родителям. Отличные породные данные. Титулованные родители. Очень умная и ласковая девочка. Неутомимая помощница в любых домашних делах. Тарахтелка. Привита. Документы.</Description>
+        <Address>Москва, улица Лесная, 9</Address>
+        <Price>18000</Price>
+        <ManagerName>Менеджер по продажам</ManagerName>
+        <AllowEmail>Да</AllowEmail>
+        <Images>
+            <Image url="https://avatars.mds.yandex.net/get-pdb/1630946/d248393d-a638-430a-bbad-11526ac09783/s1200?webp=false"/>
+            <Image url="https://avatars.mds.yandex.net/get-zen_doc/1926164/pub_5d95894bfc69ab00aeaa0a89_5d9589e998fe7900b14fd414/scale_1200"/>
+        </Images>
+        <AdStatus>Free</AdStatus>
+    </Ad>
+    <Ad>
+        <Id>634252</Id>
+        <Title>Отличная кобыла от фриза</Title>
+        <Category>Другие животные</Category>
+        <GoodsType>Лошади</GoodsType>
+        <Description>Красивая, высокая, 158 в холке, общительная, еще юная кобылка, 2015г рождения, от кобылы (орлово-першеронская) и фризского жеребца ждет своих новых владельцев!! Отвечу на все вопросы WhatsApp, Viber
+        Стоим в Костромской обл</Description>
+        <Address>Москва, улица Лесная, 9</Address>
+        <Price>70000</Price>
+        <ManagerName>Менеджер по продажам</ManagerName>
+        <AllowEmail>Да</AllowEmail>
+        <Images>
+            <Image url="https://81.img.avito.st/640x480/3712723881.jpg"/>
+            <Image url="https://18.img.avito.st/640x480/3712723618.jpg"/>
+            <Image url="https://31.img.avito.st/640x480/3712726631.jpg"/>
+        </Images>
+        <AdStatus>Free</AdStatus>
+    </Ad>
+</Ads>
