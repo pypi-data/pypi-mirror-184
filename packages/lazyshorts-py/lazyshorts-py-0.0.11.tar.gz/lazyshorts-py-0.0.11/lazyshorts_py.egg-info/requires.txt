@@ -1,0 +1,8 @@
+argparse
+auto-editor
+moviepy==2.0.0.dev2
+python-editor
+srt
+torch@ https://download.pytorch.org/whl/cpu/torch-1.13.1%2Bcpu-cp310-cp310-linux_x86_64.whl
+uuid7
+whisper-openai
