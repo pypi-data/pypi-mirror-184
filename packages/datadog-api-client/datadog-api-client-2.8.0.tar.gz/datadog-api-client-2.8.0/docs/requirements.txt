@@ -1,0 +1,4 @@
+Sphinx==6.0.0
+sphinx_material
+m2r2
+docutils<0.19
