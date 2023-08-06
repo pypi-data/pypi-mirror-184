@@ -1,0 +1,12 @@
+234a228310062ed83c9a__mypyc.cpython-310-x86_64-linux-gnu.so
+pybazel/__init__.cpython-310-x86_64-linux-gnu.so
+pybazel/client.cpython-310-x86_64-linux-gnu.so
+pybazel/errors.cpython-310-x86_64-linux-gnu.so
+pybazel/version.cpython-310-x86_64-linux-gnu.so
+pybazel/api/__init__.cpython-310-x86_64-linux-gnu.so
+pybazel/api/build.cpython-310-x86_64-linux-gnu.so
+pybazel/api/client.cpython-310-x86_64-linux-gnu.so
+pybazel/api/protocol.cpython-310-x86_64-linux-gnu.so
+pybazel/models/info.cpython-310-x86_64-linux-gnu.so
+pybazel/models/label.cpython-310-x86_64-linux-gnu.so
+pybazel/utils/logging.cpython-310-x86_64-linux-gnu.so
