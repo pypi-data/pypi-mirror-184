@@ -1,0 +1,3 @@
+[console_scripts]
+cassava=cassava.__main__:main
+
