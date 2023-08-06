@@ -1,0 +1,15 @@
+am4894airflowutils/__init__.py,sha256=rVSK9M61CxbTmlVA8_56MKBL5OYbNHv-3guaoacceig,178
+am4894airflowutils/airflow.py,sha256=_ra0Qf7exvZsuJ3Od-Xrf9nW2S70pnszxA_4BSW8PZo,1811
+am4894airflowutils/bigquery.py,sha256=d9keeDye1tccL0SBMNgQ7yE7wXuwtnjkmJCfabOEpdg,5608
+am4894airflowutils/dev.py,sha256=LjcIB72ki0k4y6W2M-hl-Ue3V-CFc1KxcfZNQsSXQ5w,58
+am4894airflowutils/google.py,sha256=yqAJh0NjXkF3c_md3cjSI8V8EwsCJP-bWR9zN4gXNP0,3613
+am4894airflowutils/utils.py,sha256=WGLPOpHuEJII9_GUYwXGrdtsPHE6NTxJcnh3nUtezXw,4055
+am4894airflowutils/gainsight/__init__.py,sha256=dGLbmQmf3VCD2XNEsucI_jFA9JUwpiNQJ3MNOTHsSiA,4336
+am4894airflowutils/gainsight/airflow/README.md,sha256=I9uUatTEMxmEJPW1fJP4lRIYfVq9Ojei54yu23i9RG8,2680
+am4894airflowutils/gainsight/airflow/__init__.py,sha256=wBw7xpB7rvFaNQRgpOMukqB3Bdejdcbp57SkmBrH9uE,46
+am4894airflowutils/gainsight/airflow/hooks.py,sha256=USAeF_ymqZKYwXmXoNYUHRJaPkx4rE6yCVfY-gx7nQ4,10214
+am4894airflowutils/gainsight/airflow/operators.py,sha256=gAdTw0x1vm_GwnRDjbekUB-0NnY9NpNjV8BcnocrTwU,9698
+am4894airflowutils-0.0.2.dist-info/METADATA,sha256=E87ZCPZWOhRACEQUgwDKjDhdEb5i6eAL2rzlKjLb3Q0,919
+am4894airflowutils-0.0.2.dist-info/WHEEL,sha256=hKi7AIIx6qfnsRbr087vpeJnrVUuDokDHZacPPMW7-Y,87
+am4894airflowutils-0.0.2.dist-info/licenses/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+am4894airflowutils-0.0.2.dist-info/RECORD,,
