@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: subps
+Version: 1.0.0
+Summary: Wrapper script for subprocess usage
+Home-page: https://github.com/superstes/python3-subps
+Author: René Rath
+Author-email: contact@superstes.eu
+Project-URL: Repository, https://github.com/superstes/python3-subps
+Project-URL: Bug Tracker, https://github.com/superstes/python3-subps/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Python3 - SubPS
+
+Wrapper script for subprocess usage.
+
+It only uses builtin modules.
+
+## Install
+
+```bash
+python3 -m pip install subps
+```
+
+See: [PyPI](https://pypi.org/project/subps/)
+
+## Usage
+
+```python3
+from subps import process, process_out_err, process_out, process_err, process_rc
+
+process(cmd='ls -l')
+# dict('stdout': 'stdout...', 'stderr': 'stderr...', 'rc': 0)
+
+process_out_err(cmd='ls -l')
+# tuple('stdout...', 'stderr...')
+
+process_out(cmd='ls -l')
+# 'stdout...'
+
+process_err(cmd='ls -l')
+# 'stderr...'
+
+process_rc(cmd='ls -l')
+# 0
+```

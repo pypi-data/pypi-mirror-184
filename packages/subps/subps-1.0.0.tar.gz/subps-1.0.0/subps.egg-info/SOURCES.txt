@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+subps.py
+subps.egg-info/PKG-INFO
+subps.egg-info/SOURCES.txt
+subps.egg-info/dependency_links.txt
+subps.egg-info/top_level.txt
