@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-simple-menu
+Version: 1.0.2
+Summary: A simple console menu
+Home-page: https://github.com/ripvannwinkler/python-simple-menu
+Author: Chris Vann
+Author-email: chrisvann01@gmail.com
+Keywords: python,menu,simple menu,console menu
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+License-File: LICENSE.md
+
