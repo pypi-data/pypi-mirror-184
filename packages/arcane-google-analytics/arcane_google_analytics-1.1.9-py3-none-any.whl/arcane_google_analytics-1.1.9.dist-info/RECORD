@@ -1,0 +1,7 @@
+arcane/google_analytics/__init__.py,sha256=RsbiBicesIGAuHXjvWNre4w2u4Ol-LngGOVf2n17vqE,67
+arcane/google_analytics/client.py,sha256=rn1J4k2FtkNfJrGFhXTPEq8uAQX0lKHKnqzt7Slskek,5193
+arcane/google_analytics/exceptions.py,sha256=3BX1g-RShzIAQV3VS-LcjETuv-QHFY7KYF9lLk4w_4Q,571
+arcane/google_analytics/lib.py,sha256=YkC0ocGk4T2Hv9X9nhCHKgEUAaciODledrzw30RdVaw,5942
+arcane_google_analytics-1.1.9.dist-info/METADATA,sha256=6ZuQfzmv2CV4sL_6eoOcmNwnUNhVZcTN0CNPvvXmsCE,938
+arcane_google_analytics-1.1.9.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+arcane_google_analytics-1.1.9.dist-info/RECORD,,
