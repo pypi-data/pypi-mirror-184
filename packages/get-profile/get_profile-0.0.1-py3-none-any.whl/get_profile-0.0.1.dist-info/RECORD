@@ -1,0 +1,8 @@
+get_profile/__init__.py,sha256=YBRbw6X23_P6iD_5Ay-kTnfwvSZPdEVGKA-LXUSAR_E,48
+get_profile/get_profile.py,sha256=xgWilFLkIyiNAS502xTgYkYzUm8uGtKMjVYcGdwfafQ,823
+get_profile/helpers.py,sha256=vvLYGCAj77taJwCmPNgoiUxB4AfYnZifb8EqJcqQ0r4,3761
+get_profile-0.0.1.dist-info/LICENSE,sha256=EiHc6NCDtUYuCiPE_QoyJghV0PfyPNGSKlxbeKNIzZg,1069
+get_profile-0.0.1.dist-info/METADATA,sha256=0NuYBJYz-vlWajj-TH-lB-z3fRUPCIuNpw9tx_-xedg,4564
+get_profile-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+get_profile-0.0.1.dist-info/top_level.txt,sha256=HP873PXOrA4MQgNQ6GmVi2mwCEUD9ALwatCqLhIrnB8,12
+get_profile-0.0.1.dist-info/RECORD,,
