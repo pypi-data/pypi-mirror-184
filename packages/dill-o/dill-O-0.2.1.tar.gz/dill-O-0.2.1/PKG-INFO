@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dill-o
+Version: 0.2.1
+Summary: Small dill wrapper with Metadata
+License: MIT
+Author: Anubhav Mattoo
+Author-email: anubhavmattoo@outlook.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dill (>=0.3.4,<0.4.0)
+Requires-Dist: jsonpickle (>=2.0.0,<3.0.0)
