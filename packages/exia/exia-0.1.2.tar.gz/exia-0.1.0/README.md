@@ -1,0 +1,47 @@
+# exia - PDB preparation tool
+
+exia is a command-line tool for preparing protein structure data in the PDB format for use in structural bioinformatics analyses.
+
+## Features
+
+- Downloads PDB files from the RCSB PDB database
+- Selects and saves specific chains from the PDB file
+- Calculates the coordinates for adding an additional oxygen atom
+- Adds an oxygen atom to the PDB file in order to make the Compound I (CpdI)
+- Cleans the PDB file by removing unnecessary ligands or residues and adding missing atoms
+- Removes extra hydrogen atom on cysteine axial ligand of CpdI
+
+## Installation
+
+exia requires Python 3.8 or higher and the following dependencies:
+
+- argparse
+- sys
+
+To install exia, use pip:
+pip install exia
+
+## Usage
+
+To prepare a PDB file, use the `exia` command followed by the PDB ID and a list of chain IDs:
+exia 6DWN A
+
+
+This will download the PDB file for the protein structure with PDB ID `1abc`, select the chains with IDs `A`, `B`, and `C`, and perform the necessary preparation steps. The resulting PDB file will be saved in a directory with the same name as the PDB ID.
+
+## Contributing
+
+If you encounter any bugs or have a feature request, please open an issue on the [exia GitHub repository](https://github.com/user/exia).
+
+To contribute code to exia, please follow these guidelines:
+
+- Fork the repository and create a new branch for your changes.
+- Write tests for any new functionality.
+- Follow the existing code style.
+- Run the tests and ensure that they pass before submitting a pull request.
+
+## License
+
+exia is released under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2021 John Doe

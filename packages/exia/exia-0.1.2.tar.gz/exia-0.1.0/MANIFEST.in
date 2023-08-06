@@ -1,0 +1,24 @@
+# include the README file
+include README.md
+
+# include the license file
+include LICENSE
+
+# include the example script
+include examples/example.py
+
+# include the data files in the data directory
+recursive-include data *
+
+# include the documentation files in the docs directory
+recursive-include docs *
+
+# include the package modules
+recursive-include exia *
+
+# exclude unnecessary files and directories
+exclude .gitignore
+exclude .travis.yml
+exclude .coverage
+exclude .DS_Store
+exclude *.pyc

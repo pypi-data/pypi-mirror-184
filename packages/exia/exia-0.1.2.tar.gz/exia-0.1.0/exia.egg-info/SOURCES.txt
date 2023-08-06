@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+exia.egg-info/PKG-INFO
+exia.egg-info/SOURCES.txt
+exia.egg-info/dependency_links.txt
+exia.egg-info/entry_points.txt
+exia.egg-info/requires.txt
+exia.egg-info/top_level.txt

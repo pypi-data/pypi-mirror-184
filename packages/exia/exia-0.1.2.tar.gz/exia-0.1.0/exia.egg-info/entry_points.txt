@@ -1,0 +1,3 @@
+[console_scripts]
+exia = exia.exia:main
+
