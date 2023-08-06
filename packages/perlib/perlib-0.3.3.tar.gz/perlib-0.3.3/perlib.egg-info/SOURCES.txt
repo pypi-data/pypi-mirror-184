@@ -1,0 +1,7 @@
+LICENSE.md
+README.md
+setup.py
+perlib.egg-info/PKG-INFO
+perlib.egg-info/SOURCES.txt
+perlib.egg-info/dependency_links.txt
+perlib.egg-info/top_level.txt
