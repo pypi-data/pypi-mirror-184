@@ -1,0 +1,15 @@
+packaging
+sphinx>=1.7
+astropy-sphinx-theme
+numpydoc
+sphinx-automodapi
+sphinx-gallery
+sphinxcontrib-jquery
+pillow
+pytest-doctestplus>=0.11
+
+[all]
+astropy
+
+[tests]
+pytest
