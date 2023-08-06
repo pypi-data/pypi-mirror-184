@@ -1,0 +1,10 @@
+setup.py
+python_mads/__init__.py
+python_mads/add.py
+python_mads/divide.py
+python_mads/multiply.py
+python_mads/subtract.py
+python_mads.egg-info/PKG-INFO
+python_mads.egg-info/SOURCES.txt
+python_mads.egg-info/dependency_links.txt
+python_mads.egg-info/top_level.txt
