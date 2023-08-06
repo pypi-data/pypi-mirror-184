@@ -1,0 +1,15 @@
+cython
+numpy
+scipy
+matplotlib
+numba
+persim
+ripser
+
+[docs]
+sktda_docs_config
+
+[examples]
+
+[testing]
+pytest
