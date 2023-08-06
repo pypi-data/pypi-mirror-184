@@ -1,0 +1,2 @@
+[console_scripts]
+ffmpeg-debug-qp-parser = ffmpeg_debug_qp_parser.__main__:main
