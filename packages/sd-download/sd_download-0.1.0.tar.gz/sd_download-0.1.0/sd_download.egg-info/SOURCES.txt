@@ -1,0 +1,9 @@
+README.md
+setup.py
+sd_download/download.py
+sd_download/module_1.py
+sd_download.egg-info/PKG-INFO
+sd_download.egg-info/SOURCES.txt
+sd_download.egg-info/dependency_links.txt
+sd_download.egg-info/requires.txt
+sd_download.egg-info/top_level.txt
