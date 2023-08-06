@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+iwpdf/__init__.py
+iwpdf/pdf2image.py
+iwpdf/pdf2text.py
+iwpdf.egg-info/PKG-INFO
+iwpdf.egg-info/SOURCES.txt
+iwpdf.egg-info/dependency_links.txt
+iwpdf.egg-info/top_level.txt
