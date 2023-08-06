@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dotcs-community
+Version: 0.11.0
+Summary: DotCS 社区版 : 基于 fastbuilder 的 插件管理工具
+Home-page: https://github.com/xX7912Xx/dotcs
+Author: xX7912Xx,去幻想乡的老art
+Author-email: 121980156@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# DotCS 社区版 - pip 版
+> 作者: xX7912Xx,去幻想乡的老art
+
+文档暂未编辑

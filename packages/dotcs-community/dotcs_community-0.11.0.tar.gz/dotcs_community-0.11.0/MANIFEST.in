@@ -1,0 +1,4 @@
+include dotcs_community\proxy\fbconn_Linux_aarch64.dylib
+include dotcs_community\proxy\fbconn_Windows.dylib
+include dotcs_community\proxy\fbconn.dll
+include dotcs_community\proxy\libfbconn.so
