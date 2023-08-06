@@ -1,0 +1,71 @@
+{
+  "language": "pl",
+  "intents": {
+    "HassCloseCover": {
+      "data": [
+        {
+          "sentences": [
+            "Zamknij <name>",
+            "Zamknij <name> <area>"
+          ]
+        },
+        {
+          "sentences": [
+            "Zamknij (drzwi | bramę) (garażowe | garażową | od garażu)",
+            "(Drzwi | Bramę) (garażowe | garażową | od garażu) zamknij"
+          ],
+          "slots": {
+            "device_class": "garage_door"
+          }
+        },
+        {
+          "sentences": [
+            "Rolety <area> (zamknij | zasłoń | opuść)",
+            "(Zamknij | Zasłoń | Opuść) [wszystkie] rolety <area>",
+            "(Zamknij | Zasłoń | Opuść) <area> [wszystkie] rolety"
+          ],
+          "slots": {
+            "device_class": [
+              "blind",
+              "curtain",
+              "shutter"
+            ]
+          }
+        }
+      ]
+    },
+    "HassOpenCover": {
+      "data": [
+        {
+          "sentences": [
+            "Otwórz <name>",
+            "Otwórz <name> <area>"
+          ]
+        },
+        {
+          "sentences": [
+            "Otwórz (drzwi | bramę) (garażowe | garażową | od garażu)",
+            "(Drzwi | Bramę) (garażowe | garażową | od garażu) otwórz"
+          ],
+          "slots": {
+            "device_class": "garage_door"
+          }
+        },
+        {
+          "sentences": [
+            "Rolety <area> (otwórz | odsłoń | podnieś)",
+            "(Otwórz | Odsłoń | Podnieś) rolety <area>",
+            "(Otwórz | Odsłoń | Podnieś) <area> [wszystkie] rolety"
+          ],
+          "slots": {
+            "device_class": [
+              "blind",
+              "curtain",
+              "shutter"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

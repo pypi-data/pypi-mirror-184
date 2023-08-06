@@ -1,0 +1,46 @@
+{
+  "language": "bg",
+  "intents": {
+    "HassClimateSetTemperature": {
+      "data": [
+        {
+          "sentences": [
+            "<set> <temp> [на | до] <temperature>",
+            "<set> <temperature> [на | до] <temp>",
+            "<set> <temp> [на | до] <temperature> [в | на] <area>",
+            "<set> <area> <temp> [на | до] <temperature>",
+            "<set> <area> [на | до] <temp> <temperature>",
+            "<set> <area> [на | до] <temperature>",
+            "<set> <temp> [в | на] <area> [на | до] <temperature>",
+            "<set> <temperature> [на | до] <temp> [в | на] <area>"
+          ]
+        }
+      ]
+    },
+    "HassClimateGetTemperature": {
+      "data": [
+        {
+          "sentences": [
+            "[каква | колко] е <temp>",
+            "[каква | колко] е <temp> [в | на] [ <area>]",
+            "[каква | колко] <temp> е",
+            "[каква | колко] <temp> е [в | на] [ <area>]",
+            "колко [е] (топло | горещо | студено | хладно) [е] [(в | на) <area>]",
+            "(топло | горещо | студено | хладно) ли е [(в | на) <area>]",
+            "<area> <temp>",
+            "<temp> <area>"
+          ]
+        }
+      ]
+    }
+  },
+  "responses": {
+    "intents": {
+      "HassClimateGetTemperature": {
+        "success": [
+          "{{ state.state }} градуса"
+        ]
+      }
+    }
+  }
+}

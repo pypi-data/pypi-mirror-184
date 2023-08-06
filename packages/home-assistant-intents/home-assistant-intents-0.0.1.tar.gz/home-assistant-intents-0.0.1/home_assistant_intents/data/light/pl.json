@@ -1,0 +1,27 @@
+{
+  "language": "pl",
+  "intents": {
+    "HassLightSet": {
+      "data": [
+        {
+          "sentences": [
+            "(Ustaw | Zmień) [jasność] <name> na <brightness>"
+          ]
+        },
+        {
+          "sentences": [
+            "(Ustaw | Zmień) [jasność] <area> na <brightness>"
+          ],
+          "slots": {
+            "name": "all"
+          }
+        },
+        {
+          "sentences": [
+            "(Ustaw | Zmień) [kolor] <name> na {color}"
+          ]
+        }
+      ]
+    }
+  }
+}

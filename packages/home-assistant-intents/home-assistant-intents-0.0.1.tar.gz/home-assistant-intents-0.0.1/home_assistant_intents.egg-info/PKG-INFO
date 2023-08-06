@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: home-assistant-intents
+Version: 0.0.1
+Summary: Intents for Home Assistant
+Home-page: http://github.com/home-assistant/intents
+Author: Michael Hansen
+Author-email: mike@rhasspy.org
+License: Apache-2.0
+Keywords: home assistant intent recognition
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.md
