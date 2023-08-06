@@ -1,0 +1,9 @@
+life360/__init__.py,sha256=7KnjKuctXAKBiLLDR5tP3XiyA4_Fr8s65CRrIAn48lc,141
+life360/api.py,sha256=nuQsxznK_Rx5DvNP5T1HtcqWUtvgQi62N5BuvwEZiWk,8172
+life360/exceptions.py,sha256=nfGOGuFuqXqoun1ncoKjU_lKKbEKqBhk7Ox6SERO0kE,233
+life360/version.py,sha256=zFTHldBmR5ReiC3uSZ8VkZOEirtsq_l6QbUJYRBHlTs,22
+life360-5.5.0.dist-info/LICENSE,sha256=sGrA0QKiggTlKt2qdwn4xQL-3u0GIUFRs2eat1ckYHA,1068
+life360-5.5.0.dist-info/METADATA,sha256=jo8nAioChXqB6_jMfQ_x2WQ-ybcdQws0Q-BbIlBZvTY,1050
+life360-5.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+life360-5.5.0.dist-info/top_level.txt,sha256=Cvixq5xl8uusNKWhb9eRgij3jEHnZdJ2KvUHn_Vm3oY,8
+life360-5.5.0.dist-info/RECORD,,
