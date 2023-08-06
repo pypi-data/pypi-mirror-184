@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+fastload/__init__.py
+fastload/downloader.py
+fastload/fastload.py
+fastload/progress_bar.py
+fastload.egg-info/PKG-INFO
+fastload.egg-info/SOURCES.txt
+fastload.egg-info/dependency_links.txt
+fastload.egg-info/top_level.txt
