@@ -1,0 +1,5 @@
+mariadb
+pyodbc
+cloopui
+cloopui_server
+rapidb
