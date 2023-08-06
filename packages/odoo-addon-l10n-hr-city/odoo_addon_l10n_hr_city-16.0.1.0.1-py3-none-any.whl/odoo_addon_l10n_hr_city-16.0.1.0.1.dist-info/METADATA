@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: odoo-addon-l10n-hr-city
+Version: 16.0.1.0.1
+Summary: Adds location data for Croatia - Cities, post offices etc.
+Home-page: https://github.com/OCA/l10n-croatia
+Author: Odoo Community Association (OCA), Decodio Applications d.o.o., Davor Bojkić (DAJ MI 5)
+Author-email: support@odoo-community.org
+License: AGPL-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 16.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.10
+Requires-Dist: odoo (<16.1dev,>=16.0a)
+
+.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+   :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+   :alt: License: AGPL-3
+
+Hrvatska : Gradovi i općine sa poštanskim brojevima
+===================================================
+
+Popis gradova i Županija u RH, sa pripadnim poštanskim brojevima,
+
+Izvor:
+
+Croatian counties (without HR- prefix in code)    https://en.wikipedia.org/wiki/ISO_3166-2:HR
+Hr Pošta webstranice
+
+Bug Tracker
+===========
+
+In case of trouble, please check there if your issue has already been reported.
+If you spotted it first, help us smashing it by providing a detailed and welcomed feedback
+
+Credits
+=======
+
+Contributors
+------------
+
+
+
+Icon
+----
+
+
+
+
+
+
