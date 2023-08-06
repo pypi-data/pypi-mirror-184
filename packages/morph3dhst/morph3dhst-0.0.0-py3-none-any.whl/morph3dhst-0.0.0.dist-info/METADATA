@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: morph3dhst
+Version: 0.0.0
+Summary: A pipeline for measuring morphological parameters of galaxies.
+Project-URL: Homepage, https://github.com/astro-zhurui/morph3dhst
+Project-URL: Bug Tracker, https://github.com/astro-zhurui/morph3dhst/issues
+Author-email: Rui Zhu <zhurui675@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+===== Ray's Package =====  
+@name: morph3dhst  
+@author: Rui Zhu  
+@creation time: 2022-11-25  
+@description: A python package for measuring morphological parameters based on 3D-HST images. 
