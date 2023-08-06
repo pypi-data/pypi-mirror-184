@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+childpages-card-grid = childpages_card_grid.plugin:ChildPagesCardGridPlugin
