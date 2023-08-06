@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+fritzbox_tray.egg-info/PKG-INFO
+fritzbox_tray.egg-info/SOURCES.txt
+fritzbox_tray.egg-info/dependency_links.txt
+fritzbox_tray.egg-info/entry_points.txt
+fritzbox_tray.egg-info/requires.txt
+fritzbox_tray.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py
