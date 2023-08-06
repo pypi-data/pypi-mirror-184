@@ -1,0 +1,2 @@
+[console_scripts]
+flask-bigapp-edge = flask_bigapp_edge_cli:cli
