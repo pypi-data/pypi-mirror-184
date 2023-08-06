@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+django_modelclone_next.egg-info/PKG-INFO
+django_modelclone_next.egg-info/SOURCES.txt
+django_modelclone_next.egg-info/dependency_links.txt
+django_modelclone_next.egg-info/top_level.txt
+modelclone/__init__.py
+modelclone/admin.py
+modelclone/models.py
+modelclone/urls.py
+modelclone/views.py
+modelclone/templates/modelclone/change_form.html
