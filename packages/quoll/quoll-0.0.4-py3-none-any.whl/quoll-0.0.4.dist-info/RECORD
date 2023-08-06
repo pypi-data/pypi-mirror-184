@@ -1,0 +1,16 @@
+quoll/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quoll/frc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quoll/frc/frc_calibration_functions.py,sha256=6fvW_XGBDzw9kk6eLeo3U6FALZS3apzV87KRGynkUZw,1245
+quoll/frc/oneimg.py,sha256=0mnxbLI6Vra7VKbDJgv94BDWAUDbzT5GIwzOOON0nsA,9100
+quoll/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quoll/io/mdoc_parser.py,sha256=1LmINLTYhFLMf1PFw3W7UVDidNpcRLsBLWg0OavBkC0,2440
+quoll/io/reader.py,sha256=JrgDrr2Aksy-2jpZSk9C3vL5r_DR-HzvV5yttl2SKWg,4444
+quoll/io/tiles.py,sha256=8Ce-hw4vmbDxZgzqEoT2U_NT83imTpWfp2Z8QIo6WR8,4995
+quoll/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quoll/ui/frc_oneimg_ui.py,sha256=7qxYgPZT7ni4Zl2jFTSyz6riBhMSiHKGGpFZ4M5siB0,4956
+quoll-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+quoll-0.0.4.dist-info/METADATA,sha256=UGFUL_DcnThSlaeghwfPUkhIPtKSEQJO7W9NEpBTIu4,15909
+quoll-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+quoll-0.0.4.dist-info/entry_points.txt,sha256=IYPOnfnogNcnaNmW6WR8qcsh3EIyczoKAwYmxRFKzKg,63
+quoll-0.0.4.dist-info/top_level.txt,sha256=BoyMH-xjZGNplc-1Sgx3t1Jm0_tZVlIhH1b6m_ueg3w,6
+quoll-0.0.4.dist-info/RECORD,,
