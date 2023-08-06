@@ -1,0 +1,6 @@
+testcontainers/kafka/__init__.py,sha256=G7TI0xCJV32PL40mrYN43zhYruSl--5ITiwg6mK-w-g,3877
+tests/test_kafka.py,sha256=TsBtYjawRTOFFNPISUNpkHwqx39guh366qGTSFJl_Ss,1194
+testcontainers_kafka-0.0.1rc1.dist-info/METADATA,sha256=6wAeubZKT_c1a8GPDUxEJXhVm7aqeg1L4BPgaUGPGbs,351
+testcontainers_kafka-0.0.1rc1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+testcontainers_kafka-0.0.1rc1.dist-info/top_level.txt,sha256=zZ4EaH_cr1V9Mk1GbweALIo9yXu0JLzmzNr-Tu3U9jA,21
+testcontainers_kafka-0.0.1rc1.dist-info/RECORD,,
