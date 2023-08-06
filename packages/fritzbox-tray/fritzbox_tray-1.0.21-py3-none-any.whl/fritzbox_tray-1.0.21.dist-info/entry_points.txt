@@ -1,0 +1,2 @@
+[gui_scripts]
+fritzbox_tray = fritzbox_tray.__main__:main
