@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "scytale-cipher"
+packages = [
+    { include = "scytale_cipher"},
+]
+version = "0.1.2"
+description = "Scytale cipher algorithm cli tool"
+authors = ["Jan Schmitt <git@smittie.de>"]
+maintainers = ["Jan Schmitt <git@smittie.de>"]
+license = "Unlicense"
+readme = "README.md"
+homepage = "https://github.com/lockejan/scytale"
+repository = "https://github.com/lockejan/scytale"
+keywords = ["scytale", "cipher", "cli"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Education",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Text Processing",
+    "Topic :: Utilities",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+scytale = 'scytale_cipher.scytale:main'
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+flake8 = "^6.0.0"
+bandit = "^1.7.4"
+safety = "^2.3.5"
+yapf = "^0.32.0"
+
+[tool.yapfignore]
+ignore_patterns = [
+  "result/**/*.py",
+]
+style = [
+"{based_on_style: pep8, indent_width: 2}"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
