@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+my_utils.py
+remove_duplicates.py
+setup.cfg
+setup.py
+remove_duplicates.egg-info/PKG-INFO
+remove_duplicates.egg-info/SOURCES.txt
+remove_duplicates.egg-info/dependency_links.txt
+remove_duplicates.egg-info/entry_points.txt
+remove_duplicates.egg-info/top_level.txt
