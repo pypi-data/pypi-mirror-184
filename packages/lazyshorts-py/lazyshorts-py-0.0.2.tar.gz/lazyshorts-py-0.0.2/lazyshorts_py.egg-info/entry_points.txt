@@ -1,0 +1,2 @@
+[console_scripts]
+lazyshorts = main:main
