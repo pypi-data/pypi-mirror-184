@@ -1,0 +1,6 @@
+colour
+cryptography
+pypinyin
+PySide2
+pywin32
+blosc
