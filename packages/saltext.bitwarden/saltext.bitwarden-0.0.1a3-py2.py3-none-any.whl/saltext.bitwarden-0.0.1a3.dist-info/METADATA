@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: saltext.bitwarden
+Version: 0.0.1a3
+Summary: Salt Extension Modules for Bitwarden
+Home-page: https://gitlab.com/ggiesen/salt-ext-bitwarden
+Author: Gary T. Giesen
+Author-email: ggiesen@giesen.me
+License: Apache Software License
+Project-URL: Source, https://gitlab.com/ggiesen/salt-ext-bitwarden
+Project-URL: Tracker, https://gitlab.com/ggiesen/salt-ext-bitwarden/-/issues
+Project-URL: Documentation, https://ggiesen.gitlab.io/salt-ext-bitwarden
+Keywords: salt-extension
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: salt (>=3005)
+Requires-Dist: validators
+Requires-Dist: pyhumps
+Provides-Extra: dev
+Requires-Dist: nox ; extra == 'dev'
+Requires-Dist: pre-commit (==2.13.0) ; extra == 'dev'
+Requires-Dist: pylint (==2.13.9) ; extra == 'dev'
+Requires-Dist: SaltPyLint ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (>=3.5.1) ; extra == 'docs'
+Requires-Dist: jinja2 (<=3.1.0) ; extra == 'docs'
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: sphinx-prompt ; extra == 'docs'
+Requires-Dist: sphinxcontrib-spelling ; extra == 'docs'
+Requires-Dist: importlib-metadata ; (python_version < "3.8") and extra == 'docs'
+Provides-Extra: docsauto
+Requires-Dist: sphinx-autobuild ; extra == 'docsauto'
+Provides-Extra: tests
+Requires-Dist: pytest (==6.2.4) ; extra == 'tests'
+Requires-Dist: pytest-salt-factories (==0.911.0) ; extra == 'tests'
+Requires-Dist: jinja2 (<=3.1.0) ; extra == 'tests'
+
+# bitwarden
+
+Salt Extension Modules for Bitwarden
+
+## Quickstart
+
+To get started with your new project:
+
+    # Create a new venv
+    python3 -m venv env --prompt bitwarden
+    source env/bin/activate
+
+    # On mac, you may need to upgrade pip
+    python -m pip install --upgrade pip
+
+    # On WSL or some flavors of linux you may need to install the `enchant`
+    # library in order to build the docs
+    sudo apt-get install -y enchant
+
+    # Install extension + test/dev/doc dependencies into your environment
+    python -m pip install -e .[tests,dev,docs]
+
+    # Run tests!
+    python -m nox -e tests-3
+
+    # skip requirements install for next time
+    export SKIP_REQUIREMENTS_INSTALL=1
+
+    # Build the docs, serve, and view in your web browser:
+    python -m nox -e docs && (cd docs/_build/html; python -m webbrowser localhost:8000; python -m http.server; cd -)
+
+    # Run the example function
+    salt-call --local bitwarden.example_function text="Happy Hacking!"
