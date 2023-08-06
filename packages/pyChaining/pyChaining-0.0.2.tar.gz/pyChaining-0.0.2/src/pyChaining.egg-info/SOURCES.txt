@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/pyChaining/PyChaining.py
+src/pyChaining/__init__.py
+src/pyChaining.egg-info/PKG-INFO
+src/pyChaining.egg-info/SOURCES.txt
+src/pyChaining.egg-info/dependency_links.txt
+src/pyChaining.egg-info/top_level.txt
+test/test.py
