@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sd-upload
+Version: 0.0.6
+Summary: Package to upload files to the Robin Radar API
+Home-page: https://bitbucket.org/robin-radar-systems/sd-api-upload-pip-package.git
+Author: Tivadar Kamondy
+Author-email: tivadar.kamondy@robinradar.com
+License: MIT
+Description: # Example Package
+        
+        Package to upload files to the Robin Radar API
+        
+Keywords: python
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
