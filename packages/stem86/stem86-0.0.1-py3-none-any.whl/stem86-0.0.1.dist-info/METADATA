@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: stem86
+Version: 0.0.1
+Summary: A sample stem86 package
+Project-URL: Homepage, https://github.com/pinclr/stem86
+Project-URL: Bug Tracker, https://github.com/pinclr/stem86/issues
+Author-email: Robert Wen <robert@codemaze.fun>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# stem86
+stem86 library
