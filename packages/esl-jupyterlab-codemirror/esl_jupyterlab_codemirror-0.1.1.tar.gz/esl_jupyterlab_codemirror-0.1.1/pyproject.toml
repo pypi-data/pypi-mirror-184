@@ -1,0 +1,33 @@
+[build-system]
+requires = ["jupyter_packaging~=0.10,<2", "jupyterlab~=3.5"]
+build-backend = "jupyter_packaging.build_api"
+
+[tool.jupyter-packaging.options]
+skip-if-exists = ["esl_jupyterlab_codemirror/labextension/static/style.js"]
+ensured-targets = ["esl_jupyterlab_codemirror/labextension/static/style.js", "esl_jupyterlab_codemirror/labextension/package.json"]
+
+[tool.jupyter-packaging.builder]
+factory = "jupyter_packaging.npm_builder"
+
+[tool.jupyter-packaging.build-args]
+build_cmd = "build:prod"
+npm = ["pnpm"]
+
+[tool.check-manifest]
+ignore = ["esl_jupyterlab_codemirror/labextension/**", "yarn.lock", ".*", "package-lock.json"]
+
+[tool.poetry]
+name ="esl_jupyterlab_codemirror"
+description = "CodeMirror mode for the Elephant Specification Language."
+version = "0.1.1"
+authors = ["Ratio Innovations B.V. <info@ratio-case.nl>"]
+license = "GPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^3.5.2"
+
+[tool.poetry.group.dev.dependencies]
+jupyter-packaging = "^0.12.3"
+build = "^0.9.0"
+twine = "^4.0.2"
