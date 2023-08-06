@@ -1,0 +1,34 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "scriptgui"
+version = "0.2.1"
+description = "organize and interact with scripts via a plugin style pattern, using a browser based interface"
+authors = ["tyler jones"]
+packages = [
+    { include = "scriptgui" },
+]
+
+[tool.poetry.scripts]
+sgui = "scriptgui.web:main" 
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+toml = "^0.10.2"
+flask = "2.0.1"
+idom = {extras = ["flask"], version = "^0.42.0"}
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+
+[tool.semantic_release]
+version_variable = [
+    "scriptgui/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "main"
+upload_to_release = false
+build_command = "pip install poetry && poetry build"
+version_source = "commit"
+patch_without_tag = true
