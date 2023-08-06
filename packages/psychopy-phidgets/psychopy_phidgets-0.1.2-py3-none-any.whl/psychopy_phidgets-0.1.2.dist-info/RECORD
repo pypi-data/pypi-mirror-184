@@ -1,0 +1,17 @@
+psychopy_phidgets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psychopy_phidgets/experiment/components/phidgets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psychopy_phidgets/experiment/components/phidgets/phidgets.py,sha256=NvR2ZsdCOHkATRTh5n4B0Bp7jUVzhFk5iFhsRLjWDIs,6408
+psychopy_phidgets/experiment/components/phidgets/classic/phidgets.png,sha256=U_UbtjW26JmNp2NCiul0Ea0303yOsXAa-foboDrylDo,6096
+psychopy_phidgets/experiment/components/phidgets/classic/phidgets@2x.png,sha256=lxheZ0kuGuQBhBivbPIOHgQ0rzf0lO87PxYQBJKZubU,14287
+psychopy_phidgets/experiment/components/phidgets/dark/phidgets.png,sha256=U_UbtjW26JmNp2NCiul0Ea0303yOsXAa-foboDrylDo,6096
+psychopy_phidgets/experiment/components/phidgets/dark/phidgets@2x.png,sha256=lxheZ0kuGuQBhBivbPIOHgQ0rzf0lO87PxYQBJKZubU,14287
+psychopy_phidgets/experiment/components/phidgets/light/phidgets.png,sha256=U_UbtjW26JmNp2NCiul0Ea0303yOsXAa-foboDrylDo,6096
+psychopy_phidgets/experiment/components/phidgets/light/phidgets@2x.png,sha256=lxheZ0kuGuQBhBivbPIOHgQ0rzf0lO87PxYQBJKZubU,14287
+psychopy_phidgets/hardware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psychopy_phidgets/hardware/phidgets.py,sha256=Z7udb5wA9H7tTpTz-OLZ23ZBDJc6ByoQRkHpT3BgQx8,2726
+psychopy_phidgets-0.1.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+psychopy_phidgets-0.1.2.dist-info/METADATA,sha256=lrq-I-qhb84O8VMtSHCoR6C23X0LA94g9dCnpM5x6pY,494
+psychopy_phidgets-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+psychopy_phidgets-0.1.2.dist-info/entry_points.txt,sha256=dZbKiIjO8Z9lCf273-59kMn8s50JxcNnHqRAShHM8vs,242
+psychopy_phidgets-0.1.2.dist-info/top_level.txt,sha256=dVFozne78_2njj36tSNQo1RZ2HqYlpjyi2n1TOdPCIM,18
+psychopy_phidgets-0.1.2.dist-info/RECORD,,
