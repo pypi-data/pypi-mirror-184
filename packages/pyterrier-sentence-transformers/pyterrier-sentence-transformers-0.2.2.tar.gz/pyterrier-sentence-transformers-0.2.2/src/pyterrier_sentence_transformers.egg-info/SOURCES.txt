@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyterrier_sentence_transformers/__init__.py
+src/pyterrier_sentence_transformers/base.py
+src/pyterrier_sentence_transformers/index.py
+src/pyterrier_sentence_transformers/indexer.py
+src/pyterrier_sentence_transformers/retriever.py
+src/pyterrier_sentence_transformers.egg-info/PKG-INFO
+src/pyterrier_sentence_transformers.egg-info/SOURCES.txt
+src/pyterrier_sentence_transformers.egg-info/dependency_links.txt
+src/pyterrier_sentence_transformers.egg-info/requires.txt
+src/pyterrier_sentence_transformers.egg-info/top_level.txt
