@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+fdafadsf/__init__.py
+fdafadsf.egg-info/PKG-INFO
+fdafadsf.egg-info/SOURCES.txt
+fdafadsf.egg-info/dependency_links.txt
+fdafadsf.egg-info/top_level.txt
