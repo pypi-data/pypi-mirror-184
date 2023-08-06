@@ -1,0 +1,8 @@
+README.md
+podlozhnyy_module.py
+setup.py
+podlozhnyy_module.egg-info/PKG-INFO
+podlozhnyy_module.egg-info/SOURCES.txt
+podlozhnyy_module.egg-info/dependency_links.txt
+podlozhnyy_module.egg-info/requires.txt
+podlozhnyy_module.egg-info/top_level.txt
