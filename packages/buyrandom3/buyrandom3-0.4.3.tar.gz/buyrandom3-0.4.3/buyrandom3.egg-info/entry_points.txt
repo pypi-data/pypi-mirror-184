@@ -1,0 +1,2 @@
+[console_scripts]
+buyrandom3.cli = buyrandom3.cli:run

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+./buyrandom3/__init__.py
+./buyrandom3/cli.py
+./buyrandom3/core.py
+./docs/conf.py
+buyrandom3/VERSION
+buyrandom3.egg-info/PKG-INFO
+buyrandom3.egg-info/SOURCES.txt
+buyrandom3.egg-info/dependency_links.txt
+buyrandom3.egg-info/entry_points.txt
+buyrandom3.egg-info/not-zip-safe
+buyrandom3.egg-info/requires.txt
+buyrandom3.egg-info/top_level.txt
