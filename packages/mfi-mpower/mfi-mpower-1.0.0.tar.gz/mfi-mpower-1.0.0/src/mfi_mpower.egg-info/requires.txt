@@ -1,0 +1,11 @@
+aiohttp
+yarl
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
+build
+twine

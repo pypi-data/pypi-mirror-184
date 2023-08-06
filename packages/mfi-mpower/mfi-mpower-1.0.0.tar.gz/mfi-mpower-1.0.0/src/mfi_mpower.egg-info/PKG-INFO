@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: mfi-mpower
+Version: 1.0.0
+Summary: Asynchronous Python API for mFi mPower devices
+Author-email: "P. Beckstein" <p.b-dev+mfi-mpower@mailbox.org>
+License: MIT License
+        
+        Copyright (c) 2023 pasbec
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/pasbec/mfi
+Keywords: ubiquiti,mfi,mpower
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Asynchronous Python API for mFi mPower devices
+
+## Reference
+The "REST" API for mFi mPower devices are briefly explained [here](https://community.ui.com/questions/mPower-mFi-Switch-and-mFi-In-Wall-Outlet-HTTP-API/824c1c63-b7e6-44ed-b19a-f1d68cd07269).
+
+## Usage example
+```python
+import asyncio
+
+import aiohttp
+
+from mfi_mpower import MPowerDevice
+
+async def main():
+
+    data = {
+        "host": "name_or_ip",
+        "username": "ubnt",
+        "password": "ubnt",
+        "use_ssl": True,
+        "verify_ssl": False,
+    }
+
+    async with aiohttp.ClientSession() as session:
+        async with MPowerDevice(**data, session=session) as device:
+
+            # Print device info
+            print(device)
+
+            # Print all sensors and their data
+            sensors = await device.create_sensors()
+            for sensor in sensors:
+                print(sensor)
+
+            # Print all switches and their state
+            switches = await device.create_switches()
+            for switch in switches:
+                print(switch)
+
+            # Turn port 1 off and toggle it afterwards back on
+            switch1 = await device.create_switch(1)
+            await switch1.set(False)
+            await asyncio.sleep(5)
+            await switch1.toggle()
+
+asyncio.run(main())
+```
