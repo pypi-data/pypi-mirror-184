@@ -1,0 +1,16 @@
+ExifRead
+Pillow
+matplotlib
+natsort
+numpy
+opencv-python
+pandas
+piexif
+pyexiv2
+scikit-learn
+seaborn
+setuptools
+tensorflow
+termcolor
+torch
+torchvision
