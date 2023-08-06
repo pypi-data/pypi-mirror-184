@@ -1,0 +1,4 @@
+[molecule.driver]
+azure = molecule_plugins.azure.driver:Azure
+docker = molecule_plugins.docker.driver:Docker
+gce = molecule_plugins.gce.driver:GCE
