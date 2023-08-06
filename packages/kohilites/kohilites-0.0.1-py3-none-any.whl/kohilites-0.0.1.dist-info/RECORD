@@ -1,0 +1,10 @@
+kohilites/VERSION,sha256=5mNQReHSR47EynEtjA4d_O-Lt7Wx6OO7Vg03_jmannI,6
+kohilites/__init__.py,sha256=Ff2pH8kEmeDDCvBsrpgSX3dvDp9rOp9vKSBjOK7kNC4,155
+kohilites/cli.py,sha256=E1ljXbISDUudjHg6vkwN119VqEqW-Bb0ibXC8tylbds,1115
+kohilites/kohilites.py,sha256=cXBFJvfNVjhoXZ_Iizh1rKIz1ZfPFtxGBqDb8x8Z77Q,2414
+kohilites/utils.py,sha256=KMjssatBs9vwDIVno7_liU5uxktSpKgGjCJ3Vt7Wcjc,484
+kohilites-0.0.1.dist-info/METADATA,sha256=_olDxd4o6FagUYChH9rYXKQA5bHapDV08eEqKasmQNU,3428
+kohilites-0.0.1.dist-info/WHEEL,sha256=hKi7AIIx6qfnsRbr087vpeJnrVUuDokDHZacPPMW7-Y,87
+kohilites-0.0.1.dist-info/entry_points.txt,sha256=QimVAq1ibtLvnTxj8Otd_cJbhJhRc1DjuWa9jZBZmZo,59
+kohilites-0.0.1.dist-info/licenses/LICENSE,sha256=L4BqN8ef5mmLlnqhR-EBAM-qJvSfmamB801bt375xe0,1098
+kohilites-0.0.1.dist-info/RECORD,,

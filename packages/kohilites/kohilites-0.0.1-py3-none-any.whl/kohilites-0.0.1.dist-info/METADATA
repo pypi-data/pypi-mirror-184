@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: kohilites
+Version: 0.0.1
+Summary: A lightweight command line tool to extract and save highlights and notes made on KOReader.
+Project-URL: Home, https://github.com/georgerichardson/kohilites
+Author-email: George Richardson <georgerichardson@posteo.net>
+License: Copyright © 2022 George Richardson, <georgerichardson@posteo.net>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: mdutils>=1.3.1
+Requires-Dist: slpp>=1.2.3
+Provides-Extra: dev
+Requires-Dist: setuptools~=63.2.0; extra == 'dev'
+Requires-Dist: wheel~=0.37.1; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest==7.2.0; extra == 'test'
+Description-Content-Type: text/markdown
+
+# KOHilites
+
+A lightweight command line tool to extract and save highlights and notes made on [KOReader](https://github.com/koreader/koreader).
+
+KOHilites takes `metadata.*.lua` files, extracts the content of each highlight or note, and saves them as formatted markdown files.
+
+## Installation
+
+Install this package from PyPi using
+
+```
+pip install kohilites
+```
+
+## Quick Start
+
+KOHilites is run from the command line. It can import and process multiple metadatafiles from a directory or single files if a specific path is given. The options available are:
+
+- `--input`: Path to a single document's metadata or a directory containing metadata from several documents.
+- `--output`: Directory to save parsed document metadata. If not given, outputs are saved to the root input directory. Defaults to blank.
+
+### Examples
+
+When given a directory input, KOHilites will search that directory and all its subdirectories for metadata files and parse them. It will save all of the outputs to the output directory (not copying any nested structure).
+
+```bash
+$ kohilites --input directory/containing/multiple/metadata/files --output directory/to/save/highlights
+```
+
+When given the path to a file, KOHilites will parse only that file. If no output directory is given, the output is saved to the same directory that contained the input file.
+
+```bash
+$ kohilites --input path/to/metatdata.epub.lua
+```
