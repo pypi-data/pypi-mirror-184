@@ -1,0 +1,3 @@
+[console_scripts]
+pylogcounter = pylogcounter.cli:main
+
