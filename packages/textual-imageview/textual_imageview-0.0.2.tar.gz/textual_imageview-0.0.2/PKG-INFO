@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: textual-imageview
+Version: 0.0.2
+Summary: A simple terminal-based image viewer.
+Project-URL: Documentation, https://github.com/adamviola/textual-imageview#readme
+Project-URL: Issues, https://github.com/adamviola/textual-imageview/issues
+Project-URL: Source, https://github.com/adamviola/textual-imageview
+Author-email: Adam Viola <adam@viola.dev>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: pillow>=9.4.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: textual>=0.9.1
+Description-Content-Type: text/markdown
+
+# textual-imageview
+
+[![PyPI - Version](https://img.shields.io/pypi/v/textual-imageview.svg)](https://pypi.org/project/textual-imageview)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/textual-imageview.svg)](https://pypi.org/project/textual-imageview)
+
+TODO: GIF
+
+`textual-imageview` is a both a Textual widget and CLI tool for viewing images in the
+terminal.
+
+
+## Installation
+```console
+pip install textual-imageview
+```
+
+## Usage
+`textual-imageview` provides three components: the (1) `vimg` CLI command, (2) `ImageViewer` Textual widget, and (3) `ImageView` Rich renderable.
+
+### `vimg`
+Use the `vimg` CLI command to quickly view an image in the terminal.
+
+```console
+vimg <path_to_image>
+```
+
+Click and drag the mouse or W/S/A/D to move around the image, and use the scroll wheel or -/+ to zoom in and out of the image.
+
+### `ImageViewer`
+
+
+
+
+
+## License
+
+`textual-imageview` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
