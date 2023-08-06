@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+CloudsOfArx/__init__.py
+CloudsOfArx/create_image.py
+CloudsOfArx/main.py
+CloudsOfArx/scrape.py
+CloudsOfArx.egg-info/PKG-INFO
+CloudsOfArx.egg-info/SOURCES.txt
+CloudsOfArx.egg-info/dependency_links.txt
+CloudsOfArx.egg-info/top_level.txt
