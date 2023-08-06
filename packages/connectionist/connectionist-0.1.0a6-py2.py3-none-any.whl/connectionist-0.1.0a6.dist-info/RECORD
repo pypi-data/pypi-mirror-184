@@ -1,0 +1,10 @@
+connectionist/__about__.py,sha256=MUBV1YLg_Hu7kTCfzl91Kg8eQu98rjOI2bHu5eLv9tc,24
+connectionist/__init__.py,sha256=mWjvGbsrqTk0wV6Ey4MoIiTiTcgyM89uEWg3MAGCHhs,48
+connectionist/data.py,sha256=Gx0Ckv3qH4zQKk2c4_QUAr8zorYIVyzJaKT8UcB7Oec,1687
+connectionist/layers.py,sha256=wunfedj1bttPUKQRj_V5pBtiU_y0LI_RRFgyCJ0Tn_Q,16581
+connectionist/models.py,sha256=Es2v_7K5OBXCjGOZGPEwGSa8D6qvlx5l74l2PlyhE9w,4270
+connectionist/surgery.py,sha256=TMqObS7OMs3yjyLX-uRVZIgkpL_N6BVHtLaR-nVY66M,4999
+connectionist-0.1.0a6.dist-info/METADATA,sha256=oMVlf7MmlxvwkD8Hi3I1kaOP3TITj39kFeO8CpXYuhI,357
+connectionist-0.1.0a6.dist-info/WHEEL,sha256=3c4nLKpREKE5rhHFpZb1Uq66zgxvSvplqeRLQYroJ9M,105
+connectionist-0.1.0a6.dist-info/licenses/LICENSE,sha256=R-ZY3w-VtYcmF3-R20dmKnEf81xjTWxJbqjOG4Fo_r0,1065
+connectionist-0.1.0a6.dist-info/RECORD,,
