@@ -1,0 +1,8 @@
+penngrader/__init__.py,sha256=p6peK_0VONjprQ-Ia5l1FDV7PEUwE9OHJ2LS9mVnuLs,72
+penngrader/backend.py,sha256=3Cax6AS2aWVoDsAEnoWpohlDlspxlRe2i6xglCOLfKw,8163
+penngrader/grader.py,sha256=zNFqN7jELcWwi-moG5UwXI4VHCZfREtUhCjzSKPF6NM,2091
+penngrader_client-0.5.2.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+penngrader_client-0.5.2.dist-info/METADATA,sha256=-fsj-U97S6zVXPZZR6fxz7wNPWgIH2_yYT96UwSPXQM,15694
+penngrader_client-0.5.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+penngrader_client-0.5.2.dist-info/top_level.txt,sha256=xcShdPAb5-h0FYK6Z9q6fKGNKgP5GNyZfBtjjed_sXc,11
+penngrader_client-0.5.2.dist-info/RECORD,,
