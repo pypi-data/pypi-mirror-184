@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+SECURITY.md
+pyproject.toml
+setup.cfg
+setup.py
+Python/openmtpk/__init__.py
+Python/openmtpk/_openmtpk.so
+Python/openmtpk/openmtpk.py
+Python/openmtpk.egg-info/PKG-INFO
+Python/openmtpk.egg-info/SOURCES.txt
+Python/openmtpk.egg-info/dependency_links.txt
+Python/openmtpk.egg-info/requires.txt
+Python/openmtpk.egg-info/top_level.txt
