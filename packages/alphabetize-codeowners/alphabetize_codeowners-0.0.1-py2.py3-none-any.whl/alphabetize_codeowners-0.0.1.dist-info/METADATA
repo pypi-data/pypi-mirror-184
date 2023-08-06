@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: alphabetize-codeowners
+Version: 0.0.1
+Summary: Alphabetize the list of owners for each path in .github/CODEOWNERS
+Author-email: Stephen Rosen <sirosen@globus.org>
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/sirosen/alphabetize-codeowners

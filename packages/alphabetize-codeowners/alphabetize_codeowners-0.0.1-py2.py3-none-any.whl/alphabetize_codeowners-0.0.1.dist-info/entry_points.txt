@@ -1,0 +1,3 @@
+[console_scripts]
+alphabetize-codeowners=alphabetize_codeowners:main
+
