@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: due-date-bot
+Version: 0.1.2
+Summary: Receive telegram messages with your pregnancy status.
+License: MIT
+Author: Jonas
+Author-email: magicturtle423@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: python-telegram-bot[job-queue] (>=20.0,<21.0)
+Description-Content-Type: text/markdown
+
+# DueDateBot
+
+Keep track of your due date via a Telegram bot.
+
+### Usage
+
+Simply install from PyPI
+
+`pip install due-date-bot`
+
+or using Poetry
+
+`poetry install`
+
+
+and run
+
+`ddbot`, e.g.: `ddbot -l cz --token <bot-token> 2023-08-12`
+
+** Can be easily run as a systemd service as well.
