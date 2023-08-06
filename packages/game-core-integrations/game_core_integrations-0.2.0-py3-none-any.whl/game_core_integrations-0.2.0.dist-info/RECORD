@@ -1,0 +1,17 @@
+gc_integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gc_integrations/config/__init__.py,sha256=v2BWw7YwYbot1zM6yn16cJ6mrGmYZz4cGdxaXBZYiSI,55
+gc_integrations/config/keys_config.py,sha256=6pRq_VbIdnB5aDYhF2CdvC1RvkrK0U2CeL27qnSgWa0,585
+gc_integrations/constants.py,sha256=Ut1cLjsGyGPrtdnTdeVqQKUTQO4Z18MRVQeV_ETPiu0,96
+gc_integrations/hltb/__init__.py,sha256=oyPEpYZOhz1OwSkIOBwg5KwA0fy9RPR2WeRVRbOpvkQ,39
+gc_integrations/hltb/client.py,sha256=awJbjgiDgPtmY8cPlmeu5eRmna8AlfRwI23_SqMPy4g,754
+gc_integrations/igdb/__init__.py,sha256=Efk9MAglGhbEdYgEEfbYs7Kxt-xfMLsJhfc7irgKH5U,51
+gc_integrations/igdb/client.py,sha256=Cc3S915v6D5Y2tVXRyrg06dqJCnPgh6xHfJ4d7yuYVg,2396
+gc_integrations/igdb/models/auth_models.py,sha256=ARROHPENfVGXQTRTIgwmIrlbe1_f2mtnaa_8qE7nXj4,147
+gc_integrations/igdb/utils/__init__.py,sha256=41UruBzO50bukwXKB_UcZ5Ty6PQ335tTn-F17CMvT2Y,40
+gc_integrations/igdb/utils/utils.py,sha256=Yn7n9wMLAdofoFADRtShvKfd-7SaWPNoJyPC8QdA71Q,611
+gc_integrations/utils/__init__.py,sha256=HVWSXp3Xt1TbvKXNmFrba3VzPkFRBQ3s1xN05deuBd4,32
+gc_integrations/utils/to_async.py,sha256=BIZF8kkoTC7zwPRidPZDlmNHvxUyW1ynDdVuAn0B2XU,442
+game_core_integrations-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+game_core_integrations-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+game_core_integrations-0.2.0.dist-info/METADATA,sha256=g6WvIEjMwM2wpHvPm_vKP9MNFitDpcBoZ0qX0B3fsVA,1996
+game_core_integrations-0.2.0.dist-info/RECORD,,
