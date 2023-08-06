@@ -1,0 +1,6 @@
+setup.py
+webdrivor/main.py
+webdrivor.egg-info/PKG-INFO
+webdrivor.egg-info/SOURCES.txt
+webdrivor.egg-info/dependency_links.txt
+webdrivor.egg-info/top_level.txt
