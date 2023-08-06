@@ -1,0 +1,10 @@
+kthread_sleep/LICENSE,sha256=q5AZUyTwx8nlW-2D2bxuQd36rLJ9EDulKh76xA09pj8,1069
+kthread_sleep/README.MD,sha256=-KFQ6gAdrEeqN-loK_2i6h77jiZkp7Fa9RYwn7G7vO8,643
+kthread_sleep/__init__.py,sha256=IHr3bLzqxFWOdIAIaxbEUA2XGhXCeiE0YhjZuQLJgUQ,387
+kthread_sleep/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kthread_sleep/thirdparty.json,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+kthread_sleep-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+kthread_sleep-0.10.dist-info/METADATA,sha256=X7Xmdcbsz2hfZJZLTLSVq9-C9pAbjIwnk8KIL1SR0Hs,1505
+kthread_sleep-0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kthread_sleep-0.10.dist-info/top_level.txt,sha256=2gmzjbEhkCA3t-Bog9d6V0MrKyDdgSnd7SXx43UjB5Q,14
+kthread_sleep-0.10.dist-info/RECORD,,
