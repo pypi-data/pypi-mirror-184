@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "faust-ctypes"
+version = "0.1.1"
+description = "a port of Marc Joliet's FaustPy to Ctypes"
+authors = ["Antonin Dudermel <antonin.dudermel@caramail.fr>"]
+readme = "README.md"
+packages = [{include = "faust_ctypes"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+numpy = ">=1.18.0"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+Sphinx = ">=6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
