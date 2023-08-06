@@ -1,0 +1,9 @@
+site_name: docubox documentation
+markdown_extensions:
+  - tables
+theme:
+  name: material
+  features:
+  - navigation.tracking
+  - navigation.top
+docs_dir: markdown

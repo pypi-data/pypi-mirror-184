@@ -1,0 +1,61 @@
+pool:
+  name: Azure Pipelines
+
+jobs:
+
+  linux:
+    steps:
+    - task: UsePythonVersion@0
+      displayName: 'Use Python 3.10'
+      inputs:
+        versionSpec: 3.10
+        disableDownloadFromRegistry: true
+    - bash: |
+        python -m venv venv
+        source venv/bin/activate
+        python -m pip install -U pip setuptools setuptools_scm
+        python -m pip install .
+        python -m docubox -s
+      displayName: 'Build docubox binary'
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish Pipeline Artifact'
+      inputs:
+        targetPath: dist/docubox.linux
+
+  macos:
+    steps:
+    - task: UsePythonVersion@0
+      displayName: 'Use Python 3.10'
+      inputs:
+        versionSpec: 3.10
+        disableDownloadFromRegistry: true
+    - bash: |
+        python -m venv venv
+        source venv/bin/activate
+        python -m pip install -U pip setuptools setuptools_scm pyinstaller
+        python -m pip install .
+        python -m docubox build
+      displayName: 'Build docubox binary'
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish Pipeline Artifact'
+      inputs:
+        targetPath: dist/docubox.osx
+
+  windows:
+    steps:
+    - task: UsePythonVersion@0
+      displayName: 'Use Python 3.10'
+      inputs:
+        versionSpec: 3.10
+        disableDownloadFromRegistry: true
+    - bash: |
+        python -m venv venv
+        source venv/Scripts/activate
+        python -m pip install -U pip setuptools setuptools_scm pyinstaller
+        python -m pip install .
+        python -m docubox build
+      displayName: 'Build docubox binary'
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish Pipeline Artifact'
+      inputs:
+        targetPath: dist/docubox.windows-x86_64
