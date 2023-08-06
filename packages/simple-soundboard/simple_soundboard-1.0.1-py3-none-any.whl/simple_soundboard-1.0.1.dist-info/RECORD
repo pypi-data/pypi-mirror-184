@@ -1,0 +1,12 @@
+simple_soundboard/config.json,sha256=Rx5fUdCZay0ZkTOlzbjg8dKGVlC7N4dLv8f-qiL3iDg,267
+simple_soundboard/index.html,sha256=rOjYKeYmJmGYno4XEWsaw6BzttImo_nRJemRcqT15Ls,503
+simple_soundboard/mqtt_api.py,sha256=e7seR2njzWTwG7HjKVINCkfOOfVLMdJuxSzANSw2gqg,1013
+simple_soundboard/sound_engine.py,sha256=Vcu4AH-ejsElHBiDuVH2DU2V1-ou8MztDCl8Hok_3FI,1461
+simple_soundboard/static/img/wood.jpg,sha256=V02VJM8Jgasp_NhhlpOygEtP-jyRRc_XnbxwXbAJnuY,2806962
+simple_soundboard/static/simple_soundboard/web_ui.js,sha256=VuzSxx1Jzf_z0GG0lUreX0bnEZrarjFoGp1gwgx_YcU,1581418
+simple_soundboard/web_ui.py,sha256=9rqk7GuChgfR2Xx0t4B2ioFsQoLXuCMlpuCZqCrMmSU,11393
+simple_soundboard-1.0.1.dist-info/METADATA,sha256=e37ygOuJyVNNVXAO67khdo6KHFwsOHPjSCPcZqySeS0,2069
+simple_soundboard-1.0.1.dist-info/entry_points.txt,sha256=YcatwHxXXqi41d5XOaVF5RhQD2oKiJ8x2EfUYUvYF1Y,68
+simple_soundboard-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+simple_soundboard-1.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+simple_soundboard-1.0.1.dist-info/RECORD,,
