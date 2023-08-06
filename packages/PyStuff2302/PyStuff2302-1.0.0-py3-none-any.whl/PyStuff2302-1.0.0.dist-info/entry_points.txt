@@ -1,0 +1,2 @@
+[console_scripts]
+test = pystuff.test:main
